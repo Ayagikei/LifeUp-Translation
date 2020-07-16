@@ -81,7 +81,7 @@
     <string name="team_add_repeat_week">Weekly</string>
     <string name="team_add_repeat_two_week">Every 2 week</string>
     <string name="team_add_repeat_month">Monthly</string>
-    <string name="team_add_not_repeat">Single</string>
+    <string name="team_add_not_repeat">Normal</string>
     <string name="team_add_set_repeat">Set repeat frequency</string>
     <string name="edit_text_empty_error">empty</string>
     <string name="team_add_without_attr_toast">You have to choose one attr at least!</string>
@@ -104,7 +104,7 @@
     <string name="add_to_do_end_time_too_early">Deadline should be later than start time</string>
     <string name="add_to_do_end_time_illegal_input">Deadline input illegally</string>
     <string name="add_to_do_start_time_too_late">Start time should not be later than deadline</string>
-    <string name="add_to_do_not_repeat">Single</string>
+    <string name="add_to_do_not_repeat">Normal</string>
     <string name="add_to_do_repeat_times">Unlimited</string>
     <string name="add_to_do_attr_desc_title">Attributes</string>
     <string name="network_edit_team_success">Edit team successfully</string>
@@ -174,7 +174,7 @@
     <string name="add_to_do_taptarget_remark_title">Remark</string>
     <string name="add_to_do_taptarget_todo_content">Write your to-do thing down shortly</string>
     <string name="add_to_do_taptarget_remark_content">（Optional）Write details down here.</string>
-    <string name="add_to_do_taptarget_repeat_content">Set repeat frequency here.In default it\'s single time task.</string>
+    <string name="add_to_do_taptarget_repeat_content">Set repeat frequency here.In default it\'s one-time task.</string>
     <string name="add_to_do_taptarget_target_content">（Optional）You can set a target times here.\nAfter completed, you can get extra exp.</string>
     <string name="add_to_do_taptarget_reward_content">（Optional）Set the reward here.</string>
     <string name="category_default">Default</string>
@@ -443,7 +443,7 @@
     <!-- \nThis is for the users whose phone doesn\'t support pedometer. -->
     <string name="dialog_input_sport_tint">Steps</string>
     <string name="custom">Custom</string>
-    <string name="single">Single</string>
+    <string name="single">Normal</string>
     <string name="unlimited">Unlimited</string>
     <string name="daily">Daily</string>
     <string name="every_2_days">Every 2 Days</string>
@@ -459,7 +459,7 @@
     <string name="tab_moments">Moments</string>
     <string name="tab_board">Board</string>
     <string name="non_available">Not Available!</string>
-    <string name="setting_display_task_single_color">Make tasks single color</string>
+    <string name="setting_display_task_single_color">Make tasks all the same color</string>
     <string name="setting_display_task_single_color_desc">Make all types of task tags using theme color.</string>
     <string name="setting_display_status_play_animation">Enable Status Animation</string>
     <string name="setting_display_status_play_animation_desc">It may cost lot of cpu resources.</string>
@@ -506,7 +506,7 @@
     <string name="about_app_description">A Gamification To-Do List Application.</string>
     <string name="achievement_bonus">You gain 200 「vitality」exp!</string>
     <string name="about_rate_us_element">Rate us</string>
-    <string name="tag_team_single">Team-Single</string>
+    <string name="tag_team_single">Team-Normal</string>
     <string name="tag_team_daily">Team-Daily</string>
     <string name="tag_team_every_2_days">Team-Every 2 days</string>
     <string name="tag_team_weekly">Team-Weekly</string>
@@ -515,7 +515,7 @@
     <string name="tag_team">Team</string>
     <string name="tag_local">Repeat</string>
     <string name="tag_every">Every</string>
-    <string name="tag_local_single">Single</string>
+    <string name="tag_local_single">Normal</string>
     <string name="tag_local_unlimited">Unlimited</string>
     <string name="tag_local_daily">Repeat-Daily</string>
     <string name="tag_local_every_2_days">Repeat-Every 2 days</string>
@@ -1073,7 +1073,7 @@
     <string name="feelings_item_delete_message">Really going to delete this feeling?</string>
     <string name="feelings_submit_success">Feeling submit successfully!</string>
     <string name="feelings_dialog_search_title">Search</string>
-    <string name="lab_feelings_title">Feelings (Still Developing)</string>
+    <string name="lab_feelings_title">Feelings</string>
 
     <!-- Team Report Type -->
     <string name="report_type_1">This is spam</string>
@@ -1095,5 +1095,42 @@
     <string name="settings_custom_task_card_bg_hint">Click here to choose picture</string>
     <string name="opacity">Opacity</string>
     <string name="feedback_email_hint">If you want a response, please input the contact email.</string>
+	
+	    <string name="common_select_photos">Select Photos</string>
+    <string name="statistics_time_30days">30 Days</string>
+    <string name="statistics_time_3months">3 Months</string>
+    <string name="statistics_time_1year">1 Year</string>
+    <string name="statistics_time_all_time">All Time</string>
+    <string name="app_widget_header_opacity">Header Opacity</string>
+    <string name="app_widget_background_opacity">Background Opacity</string>
+    <string name="setting_widget_opacity">App Widget Opacity</string>
+    <string name="inventory_return">Return</string>
+    <string name="inventory_item_return_message">Really going to return %1$s?</string>
+    <string name="inventory_item_return_detail_coin">You will receive %1$d coin(s)</string>
+    <string name="inventory_item_return_title">Return</string>
+    <string name="inventory_item_return_desc">Return item</string>
+    <string name="inventory_item_return_success">Return successfully</string>
+    <string name="inventory_record_return">Return Item「%1$s」×%2$d</string>
+    <string name="setting_app_widget_opacity">Dark Theme: Opacity</string>
+    <string name="setting_app_widget_opacity_desc">Set opacity of app widget in dark theme</string>
+    <string name="switch_app_widget_simulate_dark_background">Simulate dark background</string>
+    <string name="inventory_button_return">Return</string>
+    <string name="dialog_input_task_count_target_multi_exp_reward">Multi Exp Reward</string>
+    <string name="inventory_not_enough_item_to_return">Not enough item to return.</string>
+    <string name="dialog_sub_task_title">Subtask Settings</string>
+    <string name="dialog_sub_task_coin_settings">Coin Number</string>
+    <string name="complete_sub_task">Completed subtask</string>
+    <string name="undo_complete_sub_task">Undo complete subtask</string>
+    <string name="help_translate">Help Translate</string>
+    <string name="feature_1720">Subtask Remind</string>
+    <string name="feature_1720_desc">- Subtask Remind\n- Subtask Coin\n- App Widget Opacity\n- Statistics Time Selection\n- Inventory: Return Item</string>
+    <string name="xml_clear_achievements">Clear Achievement Data</string>
+    <string name="xml_clear_achievements_desc">Make all achievements to locked state.</string>
+    <string name="clear_achievement_desc">Make all achievements to locked state.\nAttention:It cannot be undone!</string>
+    <string name="clear_achievement_title">Clear Achievement Data</string>
+    <string name="toast_clear_achievement_success">Clear achievement data successfully</string>
+    <string name="team_like_text">Good %1$d</string>
+    <string name="dialog_decrease_exp">Lost Exp</string>
+    <string name="dialog_lost_coins">Lost Coins:+%1$d</string>
     
 </resources>
