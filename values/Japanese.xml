@@ -1,17 +1,17 @@
 <resources>
-    <string name="app_name_normal">LifeUp</string>
-    <string name="app_name_google">LifeUp Pro</string>
+    <string name="app_name_normal">ライフアップ</string>
+    <string name="app_name_google">ライフアップPro</string>
 
     <!-- bottom bar title -->
-    <string name="title_board">Tasks</string>
-    <string name="title_status">Status</string>
-    <string name="title_community">Community</string>
-    <string name="title_me">Me</string>
-    <string name="title_activity_main">Home</string>
+    <string name="title_board">用事</string>
+    <string name="title_status">状態</string>
+    <string name="title_community">公共</string>
+    <string name="title_me">我</string>
+    <string name="title_activity_main">ホームページ</string>
 
     <!-- Welcome Activity -->
-    <string name="page1_title">TO-DO LIST</string>
-    <string name="page1_content">Write down your to-do list.\nSet it\'s importance and difficulty degree.\nAnd try to complete them.</string>
+    <string name="page1_title">やることリスト</string>
+    <string name="page1_content">やることリストを書きなさい。\n重要性と難易度を決定する。\nこれらを完了してみてください。</string>
     <string name="page2_title">GAMIFY LIFE</string>
     <string name="page2_content">What if your life is a game…\nWhat if your attributes can be measured by numbers…</string>
     <string name="page3_title">EARNING REWARDS</string>
