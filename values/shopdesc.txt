@@ -1,0 +1,63 @@
+
+LifeUp is a gamification To-Do list app with many interesting gamified features.
+
+LifeUp, whose name means UPGRADE YOUR LIFE, is a gamification To-Do List (Tasks List) application with many interesting gamified features.
+
+
+<h2><b>Features: </b></h2>
+- <b>No Ads, No In-App Purchase</b>
+
+- <b>Beautiful Material Design UI</b>
+
+- <b>Full basic To-Do Functions</b>
+Remark, Reminder, Start Time, Deadline , Repeat, Target Times, History and List.
+
+✨ <b>Gamification Functions</b>
+6 Attributes (Including Strength, Intelligence , Charm, Endurance, Vitality and Creative), EXP, Level, Coin, Random Coin
+
+What's more, You can customize the Attributes Icon and Text as you like.
+
+🎨 <b>Easy-to-Use</b>
+EXP and Coin reward can be auto calculated by Urgency and Difficulty Degree that you set up.
+
+🏆 <b>Achievements</b>
+Up to 56 Achievements waiting for you to unlock.
+
+🎁 <b>Shop</b>
+Put items you want with the price you decide on shelves. Earn the coin by finishing tasks. Purchase the items and then USE them in your Inventory.
+
+⚽ <b>Various Ways to Gain EXP</b>
+You can even gain STRENGTH EXP by your daily steps
+
+🤝 <b>Community</b>
+Join the team you like, complete team task, submit your activity and so on.
+
+- <b>Widget</b>
+App Widget is available, tasks can be managed from the Home Screen.
+
+- <b>Theme Color</b>
+18 built-in color themes
+
+- <b>Dark Theme</b>
+
+- <b>Lots of Settings</b>
+Such as EXP punishment factor/coin punishment factor.
+
+- <b>Local/WebDAV Backup/Restore</b>
+Backup or restore your data to file system.
+
+- <b>Network is Unneeded</b>
+
+- <b>Keep Updating New Functions</b>
+
+
+<h2><b>Support</b></h2>
+- Language: Please note that currently only <b>English , Turkish, Simplified Chinese</b> available. 
+As a Indie application, we can not afford the translation fee for more language. 
+However, everyone can contribute their translation.
+
+- Issues: If you have any applications issues or intent to refund, you're welcome to contact us via email below.
+
+- App Privacy Terms & Policy: http://lifeup.hdonghong.top/privacy-terms.html
+
+- Contact Email: kei.ayagi@gmail.com

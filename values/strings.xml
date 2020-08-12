@@ -1133,4 +1133,96 @@
     <string name="dialog_decrease_exp">Lost Exp</string>
     <string name="dialog_lost_coins">Lost Coins:+%1$d</string>
     
+	    <string name="menu_edit_completed_time">Edit completed time</string>
+    <string name="dialog_title_edit_completed_time">Edit completed time</string>
+    <string name="xml_history_edit_completed_time">Completed time</string>
+    <string name="menu_edit_completed_time_success">Update successfully
+        Re-enter the page may be needed to refresh the page.</string>
+    <string name="user_achievemnt_category_info">Basic</string>
+    <string name="user_achievement_category_name">Category Name</string>
+    <string name="user_achievement_category_desc">Description (Optional)</string>
+    <string name="title_fragment_user_achievement">Achievement List</string>
+    <string name="user_achievement_name">Achievement Name</string>
+    <string name="title_fragment_add_user_achievement">Add Achievement</string>
+    <string name="user_achievement_category_delete_success">Delete successfully</string>
+    <string name="title_activity_add_achievement_category">Add Category</string>
+    <string name="title_activity_add_user_achievement">Add Achievement</string>
+    <string name="lab_user_achievement_example_desc">Read 100 books</string>
+    <string name="lab_user_achievement_title">User Achievement (Developing)</string>
+    <string name="lab_user_achievement_desc">Create your own achievement.\n\nThis feature has been combined with the system achievements.\n\nThis entrance will be remove in the future version.\nYou can use the Sidebar entrance instead of it.</string>
+    <string name="enter">Enter</string>
+    <string name="user_achievement_category_empty_text">There is no user achievement list.\nClick the float add button to create some.</string>
+    <string name="user_achievement_empty_text">There is no user achievement.\nClick the float add button to create some.</string>
+    <string name="feature_1730">User Achievement</string>
+    <string name="feature_1730_desc">- User Achievement\n- Exp Decrease Dialog\n- Team SubTask Coin Setting</string>
+    <string name="example_user_achievements">Example: Reading</string>
+    <string name="example_user_achievement_detail_1">Read 10 books</string>
+    <string name="example_user_achievement_detail_2">Read a book in a foreign language</string>
+    <string name="title_lab_new">Lab (New Feature!)</string>
+    <string name="fragment_status_button_grant_permission">Grant</string>
+    <string name="require_permission">Permission Required</string>
+    <string name="hint_denied_activity_permission">LifeUp can\'t get step count data if you denied the permission.</string>
+    <string name="default_name_system_achievements">System</string>
+    <string name="login_backup_hint">Attention:\nYour local data will not be synchronized with the server.</string>
+
+    <string name="user_achievement_delete_title">Delete</string>
+    <string name="user_achievement_delete_message">Really going to delete this achievement?</string>
+
+    <string name="backup_hint">You can use the [Data Backup] Page in the [Settings] Page to backup/restore your data.\n
+        Now it support export your local data to a zip file, or sync the data with WebDAV server that you set up.\n
+        LifeUp will add Google Drive backup support in the future.\n
+        \n
+        To protect your data privacy and reduce the using of the server, your local data will not be sync with the server, including:\n
+        1. Local task data\n
+        2. Local task history record\n
+        3. Shop item data\n
+        4. Local feelings data\n
+        5. User achievements data\n
+        6. Statistics data\n
+        7. Settings\n
+        \n
+        The Data will be sync with the server, including:\n
+        1. Exp points\n
+        2. System achievements\n
+        3. Team\n
+        4. Team tasks completion record\n
+        5. Team tasks activities\n
+    </string>
+    <string name="add_shop_item_stock_number">Stock Quantity</string>
+    <string name="dialog_input_stock_quantity_unlimited">Unlimited</string>
+    <string name="dialog_input_stock_quantity_custom">Custom</string>
+    <string name="stock_not_enough">There is not enough stock</string>
+    <string name="shop_item_possess">Own: %1$d (Stock Quantity: %2$d)</string>
+    <string name="shop_item_possess_unlimited_stock">Own: %1$d</string>
+    <string name="sold_out">Sold Out</string>
+    <string name="savings_balance">Savings Balance: %1$d</string>
+    <string name="action_shop_atm">ATM</string>
+    <string name="shop_atm">ATM</string>
+    <string name="btn_back">BACK</string>
+    <string name="btn_deposit">DEPOSIT</string>
+    <string name="btn_withdrawal">WITHDRAWAL</string>
+    <string name="withdrawal_desc">Withdrawal %1$d coins</string>
+    <string name="deposit_desc">Deposit %1$d coins</string>
+    <string name="withdrawal_success">Withdrawal successfully</string>
+    <string name="withdrawal_fail">Withdrawal failed</string>
+    <string name="deposit_success">Deposit successfully</string>
+    <string name="deposit_fail">Deposit failed</string>
+    <string name="saving_balance_not_enough">Not enough saving balance</string>
+    <string name="btn_close">CLOSE</string>
+    <string name="weekly_task_desc">Weekly</string>
+    <string name="basic_task_desc">Basic</string>
+    <string name="workday_task_desc">WorkDay</string>
+    <string name="special_task_desc">Special</string>
+    <string name="basic_task_desc_detail">Basic Define:\nDeadline: The deadline of the repeat cycle. It\'s not the end condition of the task. (Same for the Start Time)\nBasically the deadline of a daily task should be set to [Today] while the deadline of a weekly task should be set to [Weekend].\n\nRepeat Frequency: Daily, Weekly, Monthly etc.\nWhen repeating a task, its start time and deadline will be calculated by the repeat frequency.\n\nFor example, when repeat a weekly task, its next start time will be 7 days after the current start time, same for the deadline.\nIn most cases, you can just set up the deadline and the repeat frequency as the start time can be auto calculated.</string>
+    <string name="weekly_task_desc_detail">How to setup a weekly task from [Monday] to [Sunday]?\n\nStep 1. Set the \"Repeat Frequency\" to [Weekly]\n\nStep 2.Set the \"Deadline\" to [Weekend](the date of the Sunday)</string>
+    <string name="weekday_task_desc_detail">How to setup a weekday task?\n\nStep 1. Set the \"Repeat Frequency\" to [Daily]\n\nStep 2.Click the \"Ignore\" Button to continue your setting</string>
+    <string name="special_task_desc_detail">How to setup a special task like a daily task that started at 18:00 of the day and deadline at the 4:00 of the second day?\n\nStep 1. Click the [More Options] Button to show up the start time options\n\nStep 2. Set the [Start Time] to the date of first day of the repeat, and set the time to \"18:00\"\n\nStep 3. Set the [Deadline] to the date of the next day of the [Start Time], and then click the [Time] options the set up the specific time to \"4:00\"\n\nStep 4.Set the \"Repeat Frequency\" to [Daily]</string>
+    <string name="dialog_shop_item_select_title">Select</string>
+    <string name="reward_shop_item">Shop Item</string>
+    <string name="reward_normal_text">Text Only</string>
+    <string name="complete_reward_text_input_dialog_title">Reward</string>
+    <string name="inventory_record_reward">Get Reward Item「%1$s」×%2$d</string>
+    <string name="inventory_record_undo_reward">Undo Reward Item「%1$s」×%2$d</string>
+    <string name="feature_1740">ATM</string>
+    <string name="feature_1740_desc">- ATM\n- Select shop items as task reward\n- Shop item stock quantity\n- Improve animation</string>
 </resources>
