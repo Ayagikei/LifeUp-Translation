@@ -242,7 +242,7 @@
     <string name="user_not_found_activites">该用户暂时没有动态</string>
     <string name="user_not_found_team">该用户暂时没有团队</string>
     <string name="network_unknown_error">网络连接出现异常：</string>
-    <string name="network_no_network">没有连接网络，无法加载数据。</string>
+    <string name="network_no_network">网络连接异常，无法加载数据。</string>
     <string name="network_yb_failed">注册失败，请重试</string>
     <string name="network_yb_redirect_success">授权成功，正在注册信息</string>
     <string name="task_restart">重做</string>
@@ -414,7 +414,7 @@
     <string name="attr_creative_desc">可以提升自己创造力的待办事项，比如DIY、文学艺术创作、开发软件等。</string>
     <string name="dialog_activity_tint">说说你的完成感想吧（可选）</string>
     <string name="dialog_category_title">清单</string>
-    <string name="dialog_category_new">新建待办事项清单</string>
+    <string name="dialog_category_new">新建清单</string>
     <string name="Mon">周一</string>
     <string name="Tue">周二</string>
     <string name="Wed">周三</string>
@@ -614,7 +614,7 @@
     <string name="achievement_sporter">运动达人</string>
     <string name="achievement_sporter_desc">力量达到等级15。</string>
     <string name="achievement_unlocked">解锁成就</string>
-    <string name="xml_login_third_login">目前仅支持第三方授权登录方式</string>
+    <string name="xml_login_third_login">目前仅支持以下授权登录方式</string>
     <string name="gmt_tint">抱歉 :(</string>
     <string name="gmt_tint_message">由于设计原因，暂时社区只适用于GMT+8时区。是否要隐藏社区模块？</string>
     <string name="step_bar">步</string>
@@ -711,7 +711,7 @@
     <string name="to_do_get_coins">获得金币：+%1$d</string>
     <string name="xml_add_to_do_coins_title">金币奖励</string>
     <string name="coin_possess">拥有：%1$d</string>
-    <string name="coin_price_own">金币：%1$d</string>
+    <string name="coin_price_own">金币：%1$d - %2$d</string>
     <string name="coin_not_enough">金币数量不足</string>
     <string name="shop_purchase_desc">购买了「%1$s」×%2$d</string>
     <string name="shop_purchase_succeed">购买成功</string>
@@ -1115,7 +1115,7 @@
     <string name="starter_task_compact_mode_content">试试简洁模式</string>
     <string name="starter_task_compact_mode_remark">你可以点击左上角菜单，进入“实验”页面，切换到简洁模式。</string>
     <string name="starter_task_shop_content">去商店上架一件商品</string>
-    <string name="starter_task_shop_remark">比如可以上架「买自己一杯奶茶」、「休息5分钟」商品，囤够钱再自己买下来</string>
+    <string name="starter_task_shop_remark">比如可以上架「买自己一杯奶茶」、「休息5分钟」商品，完成任务赚够足够的金币后，再购买奖励自己。</string>
     <string name="feature_172">海外社区</string>
     <string name="feature_172_desc">- 社区支持任意时区\n- 复制事项\n- 新事项默认设置\n- 商店清单</string>
     <string name="hint_add_team">欢迎尝试创建团队，这里是一些注意事项。\n\n首先，请不要创建任何令人反感或不适的内容。\n\n其次，创建的团队标题和描述会进行敏感词屏蔽。如果你觉得屏蔽有误，可以通过在创建之后再次编辑团队。\n\n最后，一些擦边球的内容也会对我们引来不必要的麻烦，我们可能会进行人工处理，请不要再创建更多不适的内容，可以善用搜索功能。\n\n麻烦帮忙共同维护一个积极向上的社区，谢谢~</string>
@@ -1251,7 +1251,7 @@
     <string name="shop_item_possess">拥有：%1$d (库存：%2$d)</string>
     <string name="shop_item_possess_unlimited_stock">拥有：%1$d</string>
     <string name="sold_out">售罄</string>
-    <string name="savings_balance">存款金额：%1$d</string>
+    <string name="savings_balance">存款金额：%1$s</string>
     <string name="action_shop_atm">ATM</string>
     <string name="shop_atm">ATM</string>
     <string name="btn_back">返回</string>
@@ -1409,7 +1409,7 @@
     <string name="hint_attributes_conflict">与其他效果存在冲突，不可选中</string>
     <string name="shop_effect_increase_coins">增加金币</string>
     <string name="shop_effect_decrease_coins">减少金币</string>
-    <string name="hint_using_too_many_items">不能一次性使用超过 5 个有使用效果的商品</string>
+    <string name="hint_using_too_many_items">不能一次性使用超过 10 个有使用效果的商品</string>
     <string name="effect_desc_in_coins">增加%1$d金币</string>
     <string name="effect_desc_de_coins">减少%1$d金币</string>
     <string name="effect_desc_in_exp">增加%1$d点%2$s经验值</string>
@@ -1452,7 +1452,7 @@
     <string name="tab_market">橱窗</string>
     <string name="til_import_price">设置价格</string>
     <string name="dialog_share_goods_title">分享商品</string>
-    <string name="dialog_share_goods_desc">确定要分享该商品吗？\n注: 开箱效果/嵌套合成效果暂不支持分享。</string>
+    <string name="dialog_share_goods_desc">确定要分享该商品吗？\n注: 嵌套合成效果暂不支持分享。\n开箱效果已经支持分享，但需要先手动分享箱子内的物品，最后再分享箱子。</string>
     <string name="share_to_market">分享</string>
     <string name="shop_share_success">分享成功</string>
     <string name="shop_share_fail">分享失败</string>
@@ -1537,11 +1537,11 @@
     <string name="condition_desc_total_gained_tomatoes">总计获得「%1$d」个番茄</string>
     <string name="condition_desc_using_days">使用人升总计「%1$d」天</string>
     <string name="condition_desc_gained_like_count">获得点赞「%1$d」次</string>
-    <string name="condition_desc_using_days_streak">连续使用人升「%1$d」天</string>
+    <string name="condition_desc_using_days_streak">坚持完成任意事项（使用人升）「%1$d」天</string>
     <string name="condition_desc_current_coin_number">当前金币达到「%1$d」个</string>
     <string name="condition_desc_coin_number_added_in_a_day">一天内金币增加「%1$d」个</string>
     <string name="market_list_sort_by_import">按进货数排序</string>
-    <string name="hint_add_user_achievement_reward_develop">后续会支持经验值和商品奖励设置</string>
+    <string name="hint_add_user_achievement_reward_develop">后续会支持经验值奖励设置</string>
     <string name="feelings_view_detail">详情</string>
 
     <string name="achievement_attribution_yes_itsme">没错，就是我</string>
@@ -1572,7 +1572,7 @@
     <string name="calendar_page_create_as_start_time">创建事项（作为开始时间）</string>
     <string name="calendar_page_create_as_deadline">创建事项（作为期限时间）</string>
     <string name="pomodoro_tap_target_tomatoes_count_title">获得番茄，兑换奖励</string>
-    <string name="pomodoro_tap_target_tomatoes_count_desc">点击这里可以出售或者吃掉你收获的番茄。\n\n每完成一次番茄钟计时，可获得一个小番茄。</string>
+    <string name="pomodoro_tap_target_tomatoes_count_desc">点击这里可以出售或者吃掉你收获的番茄。  每完成一次番茄钟计时，可获得一个小番茄。</string>
     <string name="pomodoro_tap_target_tomatoes_reset">重置计时</string>
     <string name="pomodoro_tap_target_tomatoes_play_pause">开始/暂停计时</string>
     <string name="pomodoro_tap_target_tomatoes_skip">跳过当前计时</string>
@@ -1614,7 +1614,8 @@
     <string name="custom_sound_effect_complete_task">完成待办事项</string>
     <string name="custom_sound_effect_purchase_item">购买商品</string>
     <string name="custom_sound_effect_level_up">等级提升</string>
-    <string name="custom_sound_effect_timer_end">番茄计时结束</string>
+    <string name="custom_sound_effect_timer_end">番茄工作计时结束</string>
+    <string name="custom_sound_effect_rest_timer_end">番茄休息计时结束</string>
     <string name="btn_select_file">选择文件</string>
     <string name="add_to_do_check_repeat">检查重复效果</string>
     <string name="toast_show_check_repeat_failed">展示失败</string>
@@ -1669,4 +1670,93 @@
 
     <string name="system_achievement_list_undeleteable">系统成就清单不可删除</string>
     <string name="achievement_list_delete_message">确定要删除该成就清单吗？</string>
+
+    <string name="user_achievement_not_empty_list_undeleteable">不可删除非空的成就清单。</string>
+    <string name="menu_view">查看</string>
+    <string name="menu_icon">图标</string>
+    <string name="menu_add">添加</string>
+    <string name="dialog_title_repeat_effect">确认重复效果</string>
+    <string name="dialog_select_task_create_new_task">创建待办事项</string>
+    <string name="error_found_no_shop_item">找不到对应的商品</string>
+    <string name="dialog_select_shop_item_create_new_item">创建商品</string>
+    <string name="btn_next">下一页</string>
+    <string name="lifeup_crash">崩溃</string>
+    <string name="lifeup_crash_description">很抱歉连续发生了崩溃。
+        \n如果崩溃导致了你无法正常使用应用，你可以选择等待更新修复，或者开启安全模式，或者是先导出数据（如果你想要重装应用，请务必先导出数据到其他地方）
+    \n\n注意：安全模式下，应用虽然不会崩溃，但某些功能或者页面仍会出现异常。</string>
+    <string name="btn_enable_safe_mode">安全模式</string>
+    <string name="btn_check_update">检查更新</string>
+    <string name="btn_export_data">导出数据</string>
+    <string name="btn_continue">继续</string>
+    <string name="loot_box_title_received_rewards">获得了以下奖励</string>
+    <string name="btn_previous">后退</string>
+    <string name="dialog_shop_settings_atm_interest">ATM日利率</string>
+    <string name="atm_interest_desc">从 ATM 存款中获得了 %1$d 金币利息</string>
+    <string name="atm_interest_input_limit">不能大于10%</string>
+
+    <string name="condition_shop_open_loot_boxes">开箱得到指定物品一定次数</string>
+    <string name="condition_desc_open_loot_boxes">开箱得到「%1$s」总计「%2$d」次</string>
+
+    <string name="hint_hide_module_title">隐藏模块</string>
+    <string name="hint_hide_module_desc">人升支持自由隐藏底部的模块。\n可以前往【设置】-【显示】中隐藏任何不需要的模块。</string>
+
+    <string name="hint_pomodoro_sound_hint">提醒音效</string>
+    <string name="hint_pomodoro_sound_hint_desc">提醒音效的音量由系统【媒体】音量控制。\n\n也可以前往【进阶设置】中关闭全局音效。</string>
+    <string name="hint_pedometer_hint">计步</string>
+    <string name="hint_pedometer_hint_desc">应用无法直接获取你的系统每日步数。\n因此，步数是通过传感器计算每日的总步数差值获取的。\n\n精准程度依赖于你启动应用的时机和重启手机等条件。</string>
+    <string name="hint_pedometer_input_or_hide_hint_desc">作为自动计算的替代手段，可以选择手动输入步数。\n\n如果不需要该功能的话，可以前往【设置】-【显示】页面关闭计步模块。</string>
+
+    <string name="hint_login_method">登录方式</string>
+    <string name="hint_login_method_desc">由于独立开发成本所限与相关政策要求，人升只提供【Google】、【QQ】和【微博】授权登录方式。\n一般较少情况需要重新登录。\n\n当然，也选择离线体验人升除【世界模块】外的绝大部分功能。</string>
+    <string name="hint_login_method2">登录方式受限原因</string>
+    <string name="hint_login_method_desc2">微信登录：暂不支持个人/独立开发者使用。\n\n邮箱登录：按相关规定要求，不能仅支持邮箱登录。\n\n手机号登录：需要接入第三方服务，无法保证用户隐私安全和绿色权限申请，且成本过高（大部分需要申请读取手机状态权限）</string>
+
+
+    <string name="hint_world_module">你好，世界</string>
+    <string name="hint_world_module_desc">在世界模块，你可以加入一个团队领取团队任务，或者通过创建团队的形式分享你的任务设计。\n\n社交应用已经足够多了，这里只有纯粹的分享。</string>
+    <string name="hint_world_module_moments">分享动态</string>
+    <string name="hint_world_module_moments_desc">在完成团队任务的同时，你可以将你的完成动态或者感想，以文字、照片的形式分享到【时刻】模块。</string>
+    <string name="hint_world_module_market">创意橱窗</string>
+    <string name="hint_world_module_market_desc">你可以浏览用户创建的具有创意的商品，选择进货到自己的商品。\n\n也可以选择分享自己的杰出商品设计。</string>
+    <string name="hint_atm_interest">ATM 利息</string>
+    <string name="hint_atm_interest_desc">你可以在【商店设置】（就在ATM按钮旁边）设置 ATM 的日利率，实现每日获取利息。</string>
+    <string name="hint_loot_box_probability">概率</string>
+    <string name="hint_loot_box_probability_desc">物品的实际获取概率计算公式：当前物品的比重 ÷ 所有物品的比重之和。\n\n比如，你想实现0.1%的概率获取物品A。可以先选取物品A，输入1%，然后选取另外一个物品B，输入999%。\n按照这样设置提交结果，物品A的实际概率就是0.1%，而商品B就是99.9%。</string>
+    <string name="dialog_crash_action_btn_skip_hint">暂时不再提示</string>
+    <string name="title_activity_edit_category">编辑清单</string>
+    <string name="hint_uncomplete_task">撤销完成</string>
+    <string name="hint_uncomplete_task_desc">人升提供多种方式撤销完成事项：\n1. 完成事项时，可以在底部弹出的提示框上点击"撤销"。\n\n2. 前往侧边栏的【历史】或顶部的【日历】页面，点击已结束事项上的撤销按钮。\n\n3. 在右上角菜单开启【显示已完成】，然后点击清单上的完成标记即可撤销。</string>
+
+    <string name="hint_punishment">经验值惩罚</string>
+    <string name="hint_punishment_desc">当事项逾期或放弃时，你会损失部分经验值。\n\n如果实际完成了该事项，可以标记为完成状态，重新获取奖励。</string>
+
+    <string name="hint_punishment_coin">金币惩罚</string>
+    <string name="hint_punishment_coin_desc">金币惩罚默认是关闭的。\n\n你可以前往【设置】-【进阶】页面开启金币惩罚，调整相关系数。</string>
+
+    <string name="statistics_time_7days">7天</string>
+    <string name="title_searching_tab_team">团队</string>
+    <string name="title_searching_tab_market">橱窗</string>
+    <string name="title_searching_tab_user">用户</string>
+    <string name="user_search_empty_text">没有找到符合的用户</string>
+    <string name="activity_title_search">搜索🔍</string>
+
+    <string name="hint_feedback_method_title">反馈</string>
+    <string name="hint_feedback_method_desc">当遇到了任何问题，欢迎随时通过【关于】-【反馈】界面进行反馈。\n如果是比较紧急的问题，建议选择使用邮箱进行反馈。\n\n人升目前是款独立开发应用，甚至没有专门的测试人员，测试无法覆盖市面上所有的手机机型和版本（安卓也有各种OS魔改兼容性问题）。\n\n所以请提供相关信息以便我们进行问题修复。</string>
+    <string name="switch_cloud_auto_backup_ignore_media">忽略媒体（图片）文件</string>
+    <string name="backup_media_file_size">总大小: %1$s MB\n商店图标: %2$s MB\n成就图标: %3$s MB\n事项附件: %4$s MB\n感想图片：%5$s MB\n\n媒体文件路径：%6$s\n\n建议手动前往对应路径处理不再需要的附件文件（attachments文件夹以及根目录，未来将在应用内增加图片管理）。\n如果感想文件夹体积较大，可以选择使用工具进行图片压缩。</string>
+    <string name="setting_task_quick_add_notification">快速创建常驻通知</string>
+    <string name="setting_task_quick_add_notification_desc">从通知栏添加待办事项</string>
+    <string name="notification_quick_add_title">人升: 快速创建待办事项</string>
+    <string name="notification_quick_add_desc">点击以创建</string>
+    <string name="pomodoro_setting_cannot_receive_reminders_title">没收到提醒？</string>
+    <string name="pomodoro_setting_cannot_receive_reminders_desc">请检查系统设置，让《人升》能够正常后台运行以及通知，而不受后台管理所限。\n各个系统设置方法不一，麻烦先搜索一下。后续会整理成帮助文档。</string>
+    <string name="item_stat_purcahse_times">购买</string>
+    <string name="item_stat_used_times">使用</string>
+    <string name="item_stat_rewards_times">奖励</string>
+    <string name="item_stat_gained_from_loot_boxes">开箱</string>
+    <string name="custom_attribution_desc_dialog_title">自定义描述</string>
+    <string name="custom_attribution_desc">描述</string>
+    <string name="compact_config_display_only_task_name">隐藏所有额外信息展示</string>
+    <string name="swipe_action_edit">编辑</string>
+    <string name="swipe_action_timer">计时</string>
 </resources>
