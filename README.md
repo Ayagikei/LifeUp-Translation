@@ -10,7 +10,8 @@ Welcome to contribute more language!
 - simplified Chinese(values-zh-rCN)
 - traditional Chinese(values-zh-rTW)
 - Turkish(values-tr)
-- Portuguese(value-pt)
+- Portuguese(values-pt)
+- German(values-de)
 
 
 
