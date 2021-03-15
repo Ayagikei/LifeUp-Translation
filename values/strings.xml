@@ -629,7 +629,7 @@
     <string name="feature_plan_desc">- Shop, Coins, Inventory(Planning)\n- Refactoring App to MVP Pattern(60%)</string>
     <string name="moments_empty_text">No Data,p lease try again.</string>
     <string name="fragment_user_mine_exchangeable_likes">Exchangeable likes:&#160;</string>
-    <string name="fragment_user_mine_like_title">In all time,\nyou have got %1$d likes</string>
+    <string name="fragment_user_mine_like_title">In lifetime,\nyou have got %1$d likes</string>
     <string name="fragment_user_mine_my_page_desc">View your own page, followers, activities and more.</string>
     <string name="fragment_user_mine_button_view">VIEW</string>
     <string name="fragment_user_mine_button_exchange">EXCHANGE</string>
@@ -650,7 +650,6 @@
     <string name="dialog_reminder_method_title">Reminder System</string>
     <string name="calendar_permission">Need read/write calendar permission.</string>
     <string name="hint">Hint</string>
-    <string name="reminder_method_hint">Application is using notifications to send reminder in default.\nIf you cannot receive reminder frequently.\nYou can change the reminder system in the task settings.</string>
     <string name="dont_show_again">Don\'t show again</string>
     <string name="xml_clear_exp">Clear Exp Data</string>
     <string name="xml_clear_exp_desc">All your exp will be reset to 0.\nAttention:It will restart your life!</string>
@@ -1064,7 +1063,7 @@
     <string name="default_task_title">Default Task Setting</string>
     <string name="default_remind">Default Remind Time</string>
     <string name="default_repeat">Default Repeat Frequency</string>
-    <string name="default_deadline">Default Deadline</string>
+    <string name="default_deadline">Default Deadline Date</string>
     <string name="title_activity_new_default">New Task Default Setting</string>
     <string name="blank">Blank</string>
     <string name="setting_task_new_default_setting">New Task Default Settings</string>
@@ -1187,7 +1186,7 @@
     <string name="user_achievement_empty_text">There is no user achievement.\nTap the float add button to create some.</string>
     <string name="feature_1730">User Achievement</string>
     <string name="feature_1730_desc">- User Achievement\n- Exp Decrease Dialog\n- Team SubTask Coin Setting</string>
-    <string name="example_user_achievements">Example: Reading</string>
+    <string name="example_user_achievements">Example</string>
     <string name="example_user_achievement_detail_1">Read 10 books</string>
     <string name="example_user_achievement_detail_2">Read a book in a foreign language</string>
     <string name="title_lab_new">Lab (New Feature!)</string>
@@ -1467,7 +1466,7 @@
     <string name="hint_long_click_menu_user_ach">Long tap the achievement card to display the action menu in which you can lock the achievement again or edit completed time and so on.</string>
     <string name="status_coin_card_title">Coin</string>
     <string name="textview_placeholder_calculating">calculating</string>
-    <string name="status_coin_excepted_gain">excepted gain</string>
+    <string name="status_coin_excepted_gain">expected gain</string>
     <string name="status_coin_today_changed">today changed</string>
     <string name="status_coin_total_amount">total amount</string>
     <string name="archive">Archive</string>
@@ -1567,7 +1566,7 @@
     <string name="pomodoro_tap_target_tomatoes_reset">Reset Timer</string>
     <string name="pomodoro_tap_target_tomatoes_play_pause">Start/Pause Timer</string>
     <string name="pomodoro_tap_target_tomatoes_skip">Skip the timer</string>
-    <string name="task_detail_tomatoes_count_display_text">x%1$d (total x%2$d)</string>
+    <string name="task_detail_tomatoes_count_display_text">x%1$d (%3$d mins), total x%2$d (%4$d mins)</string>
 
     <string name="condition_task_tomatoes_gained">Gained total tomatoes number with a task</string>
     <string name="condition_desc_task_tomatoes_gained">Gained %1$d tomatoes with「%2$s」task</string>
@@ -1671,7 +1670,7 @@
     <string name="dialog_select_task_create_new_task">new task</string>
     <string name="error_found_no_shop_item">found no shop item</string>
     <string name="dialog_select_shop_item_create_new_item">new item</string>
-    <string name="btn_next">Next</string>
+    <string name="btn_next">NEXT</string>
     <string name="lifeup_crash">Crash</string>
     <string name="lifeup_crash_description">Sorry about the crash.
         \nIf it make you unable to use the app normally, you can choose to wait for the update to fix that crash or enable Safe-Mode or export your data first.
@@ -1740,7 +1739,7 @@
 
     <string name="backup_media_file_size">Total size: %1$s MB\nShop icon: %2$s MB\nAchievement icon: %3$s MB\nTask attachments: %4$s MB\nFeelings：%5$s MB\n\nMedia file path：%6$s\n\nIt is recommended to remove the unused attachments files or compress feelings image files manually.\nIn-app pictures manager will be added in the future.</string>
     <string name="setting_task_quick_add_notification">Quick add notification</string>
-    <string name="setting_task_quick_add_notification_desc">Add your tasks from the notification bar</string>
+    <string name="setting_task_quick_add_notification_desc">Add your tasks from the notification bar\n(experimental) may increase power consumption</string>
     <string name="notification_quick_add_title">LifeUp Quick Add</string>
     <string name="notification_quick_add_desc">Tap to add a task</string>
     <string name="pomodoro_setting_cannot_receive_reminders_title">Not receiving reminders?</string>
@@ -1756,4 +1755,116 @@
     <string name="compact_config_display_only_task_name">Hide all extra info</string>
     <string name="swipe_action_edit">Edit</string>
     <string name="swipe_action_timer">Timer</string>
+    <string name="upload_failed_message">Upload failed, please retry.</string>
+    <string name="btn_delete">DELETE</string>
+    <string name="btn_give_up">GIVE UP</string>
+    <string name="cb_return_item_no_coins">I do not want coins</string>
+    <string name="menu_select_all">Select All</string>
+    <string name="add_category_continue_to_add_next">Continue to add next</string>
+    <string name="switch_display_24_hours_display">24-hour display</string>
+    <string name="clear_history_data_tasks">Tasks</string>
+    <string name="clear_history_data_coins">Coins</string>
+    <string name="hint_remind_system_title">Reminder System</string>
+    <string name="reminder_method_hint">Application is using notifications to send reminder in default, which may be killed by the OS.\nIf you cannot receive reminder frequently, please choose to change the reminder system in the task settings.\n\nCalendar reminder system is available, which will not be limited by the application running state, but it need permissions of writing/reading calendar.</string>
+    <string name="hint_multiple_reminders">Multiple reminders</string>
+    <string name="hint_multiple_reminders_desc">To setup multiple reminder, you can create subtasks and setup reminder for them.</string>
+    <string name="dialog_overdue_tasks_hint">Click the \"Overdue\" button to change the state of the task.\nAnd you can freeze the suspended tasks in advance by long pressing the task card in the tasks page to avoid being punished.</string>
+    <string name="default_deadline_time">Default Deadline Time</string>
+    <string name="time_the_next_day">%1$s the next day</string>
+    <string name="setting_task_new_default_setting_desc">Customize the default settings when creating a new task</string>
+    <string name="backup_documents">\nTap here to view backup documents\n</string>
+    <string name="not_recieve_reminders_hint">Not received the reminder? Check your system setting to let LifeUp run in background.</string>
+    <string name="btn_guide">GUIDE</string>
+    <string name="statistics_time_several_days">%1$d Days</string>
+    <string name="hint_number_picker">Tap the number in the center to directly input the target value</string>
+    <string name="setting_task_swipe_to_switch_list">Swipe to switch task lists</string>
+    <string name="setting_task_swipe_to_switch_list_desc">(experimental) Swipe left to switch to the previous list, swipe right to switch to the next list\n\nnote: it will disable the card swipe action and it\'s using the simple way to implement so that it may be not working well with some actions.</string>
+    <string name="shop_item_detail_stock_quantity">Stock Quantity: %1$d</string>
+    <string name="menu_change_task_state">Change status</string>
+    <string name="menu_change_task_state_to_give_up">Give Up</string>
+    <string name="lab_smart_list_title">Smart lists</string>
+    <string name="lab_smart_list_example_desc">All, Daily, Weekly and In-progress</string>
+    <string name="pomodoro_dialog_update_focus_time">Update focus time</string>
+    <string name="pomodoro_dialog_update_focus_time_desc">Want to update the focus time?\nYou will get %1$d extra tomatoes.</string>
+    <string name="pomodoro_change_task_when_timer_counting">Please pause the timer before selecting tasks.</string>
+    <string name="lab_icon_set_v2">Attributes Icon Set 2.0</string>
+    <string name="lab_new_icon_set_desc">Redesigned attribute icons.</string>
+    <string name="menu_overdue">Overdue</string>
+    <string name="hint_submit_activity">After "Submit" or "Skip" action, you will receive rewards and you can not uncomplete the task.\n\nIf you want to uncomplete the task, tap the "Cancel" button.</string>
+    <string name="hint_edit_completed_time">Due to the defects in statistics calculations, if you edit the completed time and change the completed order of repeat tasks, the statistics may be abnormal.\n\nPlease wait for the future version to fix this bug.</string>
+    <string name="cannot_edit_completed_task">Can not edit an completed task</string>
+    <string name="freeze_or_unfreeze">Freeze/Unfreeze</string>
+    <string name="goods_effect_countdown_timer">Countdown Timer</string>
+    <string name="dialog_countdown_effect_title">Countdown Timer</string>
+    <string name="dialog_countdown_effect_input_hint">countdown (minutes)</string>
+    <string name="effect_desc_item_countdown_timer">start %1$d minute(s) countdown timer</string>
+    <string name="shop_statistics_lifetime">Lifetime</string>
+    <string name="shop_statistics_today">Today</string>
+    <string name="shop_statistics_this_week">This week</string>
+    <string name="shop_statistics_this_month">This month</string>
+    <string name="dialog_input_count_task_times">Force complete (%1$s reward)</string>
+    <string name="dialog_rb_postpone_next_time">Postpone the next task time\n(start time and deadline)</string>
+    <string name="dialog_rb_dont_postpone_next_time">Keep the same time</string>
+    <string name="title_dialog_unstarted_repeat_task">Choose repeat method</string>
+    <string name="message_dialog_unstarted_task">The task has not begun yet, continue to complete it?</string>
+    <string name="title_dialog_unstarted_task">Unstarted task</string>
+    <string name="default_name_day_list">Day</string>
+    <string name="default_name_week_list">Week</string>
+    <string name="default_name_month_list">Month</string>
+    <string name="sample_category_name">Example</string>
+    <string name="sample_item_small_icon">A small bag of coin</string>
+    <string name="sample_item_small_icon_desc">It\'s containing 10 coins</string>
+    <string name="sample_item_big_icon">A big bag of coin</string>
+    <string name="sample_item_big_icon_desc">Lucky! It\'s containing 75 coins</string>
+    <string name="sample_item_coin_loot_box">Coin loot box</string>
+    <string name="sample_item_coin_loot_box_desc">containing a small bag of coin or a big one</string>
+    <string name="sample_task_try_out_loot_box">Try out the coin loot box</string>
+    <string name="sample_task_try_out_loot_box_desc">complete this task you will get a loot box containing a small bag of coins or a big one.
+Go to the Shop-Inventory page (4th position of navbar) to open it!</string>
+    <string name="sample_task_do_exercise">Do exercise</string>
+    <string name="sample_task_do_exercise_desc">use the repeat setting to setup a habit task</string>
+    <string name="sample_task_drink_water">Drink 7 glasses of water</string>
+    <string name="sample_task_drink_water_desc">count task can help you record times of do something simple, you will only get reward after drink all 7 glasses.</string>
+    <string name="sample_task_sth_positive">Do something positive</string>
+    <string name="sample_task_sth_positive_desc">unlimited task will refresh its state immediately after completed or give up.\nCheck it when you do something positive. Or you can choose to GIVE UP it to get punishment when do something negative.</string>
+    <string name="sample_task_using_days">Using LifeUp for 7 days</string>
+    <string name="sample_task_using_days_desc">A target times can be setup for a repeat task.\nAnd you can totally customize achievements, for example, if you completed this task for the first time, you will unlock an custom achievement.</string>
+    <string name="example_user_achievement_detail_3">Life Upgrade</string>
+    <string name="example_user_achievement_detail_3_desc">Complete the example task [Using LifeUp for 7 days] once (the first day)</string>
+    <string name="hint_change_state_to_completed">Tap here to change state to completed</string>
+    <string name="lab_smart_list_all_title">All</string>
+    <string name="lab_smart_list_all_desc">Show all tasks</string>
+    <string name="lab_smart_list_day_title">Day list</string>
+    <string name="lab_smart_list_day_desc">Show tasks that will be due today</string>
+    <string name="lab_smart_list_week_title">Week list</string>
+    <string name="lab_smart_list_week_desc">Show tasks that will be due this week (Monday-Sunday)</string>
+    <string name="lab_smart_list_month_title">Month list</string>
+    <string name="lab_smart_list_month_desc">Show tasks that will be due this month</string>
+    <string name="effect_countdown_notification_title">Counting down-</string>
+    <string name="effect_countdown_notification_end">The countdown is over</string>
+    <string name="effect_countdown_notification_remaining">remaining: </string>
+    <string name="lab_new_example_task_and_items">New example tasks and items</string>
+    <string name="lab_new_example_task_and_items_desc">A new set of example tasks and shop items, which shows some use cases of repeat tasks and some new features including loot boxes.</string>
+    <string name="btn_ignore">IGNORE</string>
+    <string name="sample_task_get_up_early">Get up early</string>
+    <string name="sample_task_get_up_early_desc">Start time and deadline time settings can be used to limited the time range of a repeat task.\nBy the way, the default deadline without a specified time (hour, minutes) will be at 0:00 the next day. You can set up the specified deadline time to the time you wanted on the next day to avoid it.</string>
+
+    <!-- in xx days -->
+    <string name="tag_deadline_v2_relative">Deadline in %1$s</string>
+    <string name="tag_deadline_v2_with_time">Deadline at %1$s</string>
+    <string name="tag_deadline_v2_with_date">Deadline on %1$s</string>
+    <!-- today/tomorrow/yesterday -->
+    <string name="tag_deadline_v2_relative_special">Deadline %1$s</string>
+
+    <!-- in xx days -->
+    <string name="tag_start_v2_relative">Starts in %1$s</string>
+    <string name="tag_start_v2_with_time">Starts at %1$s</string>
+    <string name="tag_start_v2_with_date">Starts on %1$s</string>
+    <!-- today/tomorrow/yesterday -->
+    <string name="tag_start_v2_relative_special">Starts %1$s</string>
+
+    <string name="relative_time_later_v2">%1$d days</string>
+
+
+    <string name="statistics_complete_count">Completed: %1$d</string>
 </resources>
