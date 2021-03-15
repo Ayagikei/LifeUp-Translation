@@ -598,7 +598,7 @@
     <string name="exception_refresh">Eine Ausnahme trat auf, als ich versuchte, die Kopfzeile zu aktualisieren</string>
     <string name="exception_achievement_animation">Ausnahme beim Versuch, das freigeschaltete Achievement anzuzeigen</string>
     <string name="setting_display_language">Sprache</string>
-    <string name="setting_display_language_desc">Unterstützt jetzt nur noch Englisch, Chinesisch, Türkisch und Portugiesisch.\nHilfe bei der Übersetzung ist willkommen.</string>
+    <string name="setting_display_language_desc">Unterstützt jetzt nur noch Englisch, Chinesisch, Türkisch, Portugiesisch und Deutsch.\nHilfe bei der Übersetzung ist willkommen.</string>
     <string name="dialog_language_system">Systemsprache verwenden</string>
     <string name="dialog_language_title">Sprache</string>
     <string name="dialog_language_toast">Möglicherweise müssen Sie die App neu starten, um die Änderung vorzunehmen.</string>
