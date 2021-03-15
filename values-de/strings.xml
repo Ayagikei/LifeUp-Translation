@@ -189,7 +189,7 @@
     <string name="add_to_do_taptarget_todo_content">Notieren Sie sich kurz Ihre To-Do-Sache</string>
     <string name="add_to_do_taptarget_remark_content">（Optional）Schreiben Sie hier Details auf.</string>
     <string name="add_to_do_taptarget_repeat_content">Stellen Sie hier die Wiederholungshäufigkeit ein.standardmäßig ist es eine einmalige Aufgabe.</string>
-    <string name="add_to_do_taptarget_target_content">（Optional）Sie können hier eine Zielzeit einstellen.\Nach der Erledigung können Sie zusätzliche Erfahrung erhalten.</string>
+    <string name="add_to_do_taptarget_target_content">（Optional）Sie können hier eine Zielzeit einstellen.\Nach der Erledigung können Sie zusätzliche Exp. erhalten.</string>
     <string name="add_to_do_taptarget_reward_content">（Optional）Stellen Sie hier die Belohnung ein.</string>
     <string name="category_default">Standard</string>
     <string name="backup_restore_title">Wiederherstellen</string>
