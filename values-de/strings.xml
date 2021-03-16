@@ -629,7 +629,7 @@
     <string name="feature_plan_desc">- Shop, Münzen, Inventar (Planung)\n- Refactoring der App nach MVP-Muster (60 %)</string>
     <string name="moments_empty_text">Keine Daten, bitte versuchen Sie es erneut.</string>
     <string name="fragment_user_mine_exchangeable_likes">Austauschbare Likes:&#160;</string>
-    <string name="fragment_user_mine_like_title">In der ganzen Zeit haben Sie %1$d Likes bekommen</string>
+    <string name="fragment_user_mine_like_title">In der ganzen Zeit haben Sie %1$d Likes erhalten</string>
     <string name="fragment_user_mine_my_page_desc">Sehen Sie Ihre eigene Seite, Follower, Aktivitäten und mehr.</string>
     <string name="fragment_user_mine_button_view">ANSEHEN</string>
     <string name="fragment_user_mine_button_exchange">AUSTAUSCHEN</string>
@@ -650,7 +650,6 @@
     <string name="dialog_reminder_method_title">Erinnerungssystem</string>
     <string name="calendar_permission">Benötigt Lese-/Schreibrechte für den Kalender.</string>
     <string name="hint">Hinweis</string>
-    <string name="reminder_method_hint">Die Anwendung verwendet standardmäßig Benachrichtigungen, um Erinnerungen zu senden. Wenn Sie nicht häufig Erinnerungen erhalten können, können Sie das Erinnerungssystem in den Aufgabeneinstellungen ändern.</string>
     <string name="dont_show_again">Nicht mehr anzeigen</string>
     <string name="xml_clear_exp">Exp-Daten löschen</string>
     <string name="xml_clear_exp_desc">Alle Ihre Exp-Daten werden auf 0 zurückgesetzt.\nAchtung: Dadurch wird Ihr Leben neu gestartet!</string>
@@ -1062,9 +1061,9 @@
     <string name="default_coin">Standard-Münzanzahl</string>
     <string name="default_reward_title">Standard-Belohnungseinstellung</string>
     <string name="default_task_title">Standardeinstellung der Aufgabe</string>
-    <string name="default_remind">Standard-Erinnerungszeit</string>
-    <string name="default_repeat">Standard-Wiederholungshäufigkeit</string>
-    <string name="default_deadline">Standard Deadline</string>
+    <string name="default_remind">Standarderinnerungszeit</string>
+    <string name="default_repeat">Standardwiederholungshäufigkeit</string>
+    <string name="default_deadline">Standard Deadline Datum</string>
     <string name="title_activity_new_default">Neue Aufgabe Standardeinstellung</string>
     <string name="blank">Leer</string>
     <string name="setting_task_new_default_setting">Neue Aufgabe Standardeinstellungen</string>
@@ -1187,7 +1186,7 @@
     <string name="user_achievement_empty_text">Es gibt keine Benutzerleistung.\nTippen Sie auf die Schaltfläche "Hinzufügen", um eine zu erstellen.</string>
     <string name="feature_1730">Benutzerleistung</string>
     <string name="feature_1730_desc">- User Achievement\n- Exp Decrease Dialog\n- Team SubTask Coin Setting</string>
-    <string name="example_user_achievements">Beispiel: Lesen</string>
+    <string name="example_user_achievements">Beispiel</string>
     <string name="example_user_achievement_detail_1">10 Bücher lesen</string>
     <string name="example_user_achievement_detail_2">Lies ein Buch in einer Fremdsprache</string>
     <string name="title_lab_new">Labor (Neues Feature!)</string>
@@ -1440,7 +1439,7 @@
     <string name="tab_market">Markt</string>
     <string name="til_import_price">Preis</string>
     <string name="dialog_share_goods_title">Gegenstand teilen</string>
-    <string name="dialog_share_goods_desc">Wollen Sie den Gegenstand wirklich teilen?\nHinweis: Jetzt können Sie den Beutekisten-Effekt teilen.\nAber Sie müssen zuerst die Gegenstände in den Beutekisten teilen, damit es funktioniert.</string>
+    <string name="dialog_share_goods_desc">Wollen Sie den Gegenstand wirklich teilen?\nHinweis: Jetzt können Sie den Lootbox-Effekt teilen.\nAber Sie müssen zuerst die Gegenstände in den Lootbox teilen, damit es funktioniert.</string>
     <string name="share_to_market">Freigeben</string>
     <string name="shop_share_success">Erfolgreich teilen</string>
     <string name="shop_share_fail">Freigeben fehlgeschlagen</string>
@@ -1467,7 +1466,7 @@
     <string name="hint_long_click_menu_user_ach">Tippen Sie lange auf die Achievement-Karte, um das Aktionsmenü anzuzeigen, in dem Sie das Achievement erneut sperren oder die abgeschlossene Zeit bearbeiten können und so weiter.</string>
     <string name="status_coin_card_title">Münze</string>
     <string name="textview_placeholder_calculating">Berechnen</string>
-    <string name="status_coin_excepted_gain">Ausgenommene Errungenschaft</string>
+    <string name="status_coin_excepted_gain">Erwartete Errungenschaft</string>
     <string name="status_coin_today_changed">heute geändert</string>
     <string name="status_coin_total_amount">Gesamtbetrag</string>
     <string name="archive">Archivieren</string>
@@ -1567,7 +1566,7 @@
     <string name="pomodoro_tap_target_tomatoes_reset">Timer zurücksetzen</string>
     <string name="pomodoro_tap_target_tomatoes_play_pause">Timer starten/anhalten</string>
     <string name="pomodoro_tap_target_tomatoes_skip">Den Timer überspringen</string>
-    <string name="task_detail_tomatoes_count_display_text">x%1$d (gesamt x%2$d)</string>
+    <string name="task_detail_tomatoes_count_display_text">x%1$d (%3$d Min.), gesamt x%2$d (%4$d Min.)</string>
 
     <string name="condition_task_tomatoes_gained">Gewonnene Gesamttomatenanzahl mit einer Aufgabe</string>
     <string name="condition_desc_task_tomatoes_gained">Gewonnene %1$d Tomaten mit「%2$s」Aufgabe</string>
@@ -1627,13 +1626,13 @@
     <string name="dialog_title_server_unavailable">Der Server ist möglicherweise nicht verfügbar oder die Netzwerkverbindung ist fehlgeschlagen.</string>
     <string name="dialog_server_unavailable_message">Bitte überprüfen Sie Ihr Netzwerk oder versuchen Sie es später erneut.\nSie können die meisten Funktionen von LifeUp im Offline-Modus nutzen.\nFehlermeldung: %1$s\n\nWenn diese Situation schon eine Weile andauert, senden Sie uns bitte ein Feedback!</string>
     <string name="cloud_backup_method_dropbox_in_zh" />
-    <string name="goods_effect_loot_box">Beutekiste</string>
-    <string name="effect_desc_item_loot_box">Beutekiste</string>
-    <string name="probility_of_received_item_from_loot_box">Sie haben einen Gegenstand erhalten (%1$.2f\%%)</string>
+    <string name="goods_effect_loot_box">Lootbox</string>
+    <string name="effect_desc_item_loot_box">Lootbox</string>
+    <string name="probility_of_received_item_from_loot_box">Sie haben einen Gegenstand aus der Lootbox erhalten (%1$.2f\%%)</string>
     <string name="hint_click_to_open_the_box">Tippen Sie auf , um die Kiste zu öffnen</string>
 
-    <string name="inventory_record_loot_box_cost">Beutekiste öffnen「%1$s」×%2$d</string>
-    <string name="inventory_record_loot_box_got">Erhaltene 「%1$s」×%2$d aus Beutekiste</string>
+    <string name="inventory_record_loot_box_cost">Lootbox öffnen「%1$s」×%2$d</string>
+    <string name="inventory_record_loot_box_got">Erhaltene %1$s」×%2$d aus Lootbox</string>
     <string name="btn_add_items">Gegenstand hinzufügen</string>
     <string name="dialog_loot_box_amount_hint">Betrag</string>
     <string name="dialog_loot_box_probability_hint">Wahrscheinlichkeit</string>
@@ -1671,7 +1670,7 @@
     <string name="dialog_select_task_create_new_task">neue Aufgabe</string>
     <string name="error_found_no_shop_item">keinen Shop-Artikel gefunden</string>
     <string name="dialog_select_shop_item_create_new_item">neuer Artikel</string>
-    <string name="btn_next">Nächster</string>
+    <string name="btn_next">WEITER</string>
     <string name="lifeup_crash">Absturz</string>
     <string name="lifeup_crash_description">Entschuldigung für den Absturz.
         \nWenn Sie die App dadurch nicht normal verwenden können, können Sie entweder auf das Update warten, um den Absturz zu beheben, oder den abgesicherten Modus aktivieren oder Ihre Daten zuerst exportieren.
@@ -1687,7 +1686,7 @@
     <string name="atm_interest_input_limit">sollte nicht größer als 10% sein</string>
 
     <string name="condition_shop_open_loot_boxes">Erhalten Sie Gegenstände für bestimmte Zeiten aus Lootboxen</string>
-    <string name="condition_desc_open_loot_boxes">Hole「%1$s」für「%2$d」Zeiten aus Beutekisten</string>
+    <string name="condition_desc_open_loot_boxes">Hole「%1$s」für「%2$d」Zeiten aus Lootbox</string>
 
     <string name="hint_hide_module_title">Modul ausblenden</string>
     <string name="hint_hide_module_desc">Sie können jedes Modul, das Sie nicht benötigen, auf der Seite [Einstellungen]-[Anzeige] ausblenden.</string>
@@ -1740,7 +1739,7 @@
 
     <string name="backup_media_file_size">Gesamtgröße: %1$s MB\nShop-Symbol: %2$s MB\nErfolgssymbol: %3$s MB\nAufgabenanhänge: %4$s MB\nGefühle：%5$s MB\n\nMediendateipfad：%6$s\n Es wird empfohlen, die nicht verwendeten Anhangsdateien zu entfernen oder Gefühlsbilddateien manuell zu komprimieren.\nIn-App-Bildermanager wird in Zukunft hinzugefügt.</string>
     <string name="setting_task_quick_add_notification">Schnelles Hinzufügen von Benachrichtigungen</string>
-    <string name="setting_task_quick_add_notification_desc">Fügen Sie Ihre Aufgaben über die Benachrichtigungsleiste hinzu</string>
+    <string name="setting_task_quick_add_notification_desc">Fügen Sie Ihre Aufgaben über die Benachrichtigungsleiste hinzu\n(experimentell) kann den Stromverbrauch erhöhen</string>
     <string name="notification_quick_add_title">LifeUp Schnelles Hinzufügen</string>
     <string name="notification_quick_add_desc">Tippen Sie auf , um eine Aufgabe hinzuzufügen</string>
     <string name="pomodoro_setting_cannot_receive_reminders_title">Sie erhalten keine Erinnerungen?</string>
@@ -1756,4 +1755,117 @@
     <string name="compact_config_display_only_task_name">Alle zusätzlichen Informationen ausblenden</string>
     <string name="swipe_action_edit">Bearbeiten</string>
     <string name="swipe_action_timer">Zeitschaltuhr</string>
+
+    <string name="upload_failed_message">Upload fehlgeschlagen, bitte erneut versuchen.</string>
+    <string name="btn_delete">LÖSCHEN</string>
+    <string name="btn_give_up">AUFGEBEN</string>
+    <string name="cb_return_item_no_coins">Ich möchte keine Münzen</string>
+    <string name="menu_select_all">Alle auswählen</string>
+    <string name="add_category_continue_to_add_next">Weitermachen um weitere hinzuzufügen</string>
+    <string name="switch_display_24_hours_display">24 Stunden Anzeige</string>
+    <string name="clear_history_data_tasks">Aufgaben</string>
+    <string name="clear_history_data_coins">Münzen</string>
+    <string name="hint_remind_system_title">Erinnerungssystem</string>
+    <string name="reminder_method_hint">Die Anwendung verwendet standardmäßig Benachrichtigungen, um Erinnerungen zu senden, was vom Betriebssystem beendet werden kann.\n Wenn Sie nicht häufig Erinnerungen erhalten können, ändern Sie bitte das Erinnerungssystem in den Aufgabeneinstellungen.\n\nDas Kalender-Erinnerungssystem ist verfügbar, das nicht durch den Betriebszustand der Anwendung eingeschränkt wird, aber es benötigt Berechtigungen zum Schreiben/Lesen des Kalenders.</string>
+    <string name="hint_multiple_reminders">Mehrere Erinnerungen</string>
+    <string name="hint_multiple_reminders_desc">Um mehrere Erinnerungen einzurichten, können Sie Unteraufgaben erstellen und für diese eine Erinnerung einrichten.</string>
+    <string name="dialog_overdue_tasks_hint">Klicken Sie auf die Schaltfläche \"Überfällig\", um den Status der Aufgabe zu ändern.\Und Sie können die ausgesetzten Aufgaben im Voraus einfrieren, indem Sie die Aufgabenkarte auf der Aufgabenseite lange drücken, um eine Bestrafung zu vermeiden.</string>
+    <string name="default_deadline_time">Standard-Deadline-Zeitpunkt</string>
+    <string name="time_the_next_day">%1$s am nächsten Tag</string>
+    <string name="setting_task_new_default_setting_desc">Anpassen der Standardeinstellungen beim Erstellen einer neuen Aufgabe</string>
+    <string name="backup_documents">\nHier berühren um Backupdokumente zu sehen\n</string>
+    <string name="not_recieve_reminders_hint">Sie haben die Erinnerung nicht erhalten? Überprüfen Sie Ihre Systemeinstellung ob LifeUp im Hintergund läuft.</string>
+    <string name="btn_guide">GUIDE</string>
+    <string name="statistics_time_several_days">%1$d Tage</string>
+    <string name="hint_number_picker">Tippen Sie auf die Zahl in der Mitte, um den Zielwert direkt einzugeben</string>
+    <string name="setting_task_swipe_to_switch_list">Wischen zum wechseln der Aufgabenliste</string>
+    <string name="setting_task_swipe_to_switch_list_desc">(experimentell) Wischen Sie nach links, um zur vorherigen Liste zu wechseln, wischen Sie nach rechts, um zur nächsten Liste zu wechseln\Notiz: Die Kartenwisch-Aktion wird dadurch deaktiviert, und es wird die einfache Art der Implementierung verwendet, so dass sie bei einigen Aktionen möglicherweise nicht gut funktioniert.</string>
+    <string name="shop_item_detail_stock_quantity">Lagerbestand: %1$d</string>
+    <string name="menu_change_task_state">Status ändern</string>
+    <string name="menu_change_task_state_to_give_up">Aufgeben</string>
+    <string name="lab_smart_list_title">Intelligente Listen</string>
+    <string name="lab_smart_list_example_desc">Alle, Täglich, Wöchentlich und In Bearbeitung</string>
+    <string name="pomodoro_dialog_update_focus_time">Fokuszeit aktualisieren</string>
+    <string name="pomodoro_dialog_update_focus_time_desc">Möchten Sie die Fokuszeit aktualisieren?\nSie erhalten %1$d zusätzliche Tomaten.</string>
+    <string name="pomodoro_change_task_when_timer_counting">Bitte halten Sie den Timer an, bevor Sie Aufgaben auswählen.</string>
+    <string name="lab_icon_set_v2">Attributes Icon Set 2.0</string>
+    <string name="lab_new_icon_set_desc">Neu gestaltete Attributensymbole.</string>
+    <string name="menu_overdue">Überfällig</string>
+    <string name="hint_submit_activity">Nach der Aktion "Abschicken" oder "Überspringen" erhalten Sie Belohnungen und können die Aufgabe nicht mehr rückgängig machen.\n\nWenn Sie die Aufgabe rückgängig machen möchten, tippen Sie auf die Schaltfläche "Abbrechen".</string>
+    <string name="hint_edit_completed_time">Aufgrund der Fehler in den Statistikberechnungen kann die Statistik abnormal sein, wenn Sie die abgeschlossene Zeit bearbeiten und die Reihenfolge der abgeschlossenen Wiederholungsaufgaben ändern.\n\nBitte warten Sie auf die zukünftige Version, um diesen Fehler zu beheben.</string>
+    <string name="cannot_edit_completed_task">Kann eine abgeschlossene Aufgabe nicht bearbeiten</string>
+    <string name="freeze_or_unfreeze">Einfrieren/Entfrieren</string>
+    <string name="goods_effect_countdown_timer">Countdown-Timer</string>
+    <string name="dialog_countdown_effect_title">Countdown-Timer</string>
+    <string name="dialog_countdown_effect_input_hint">Countdown (Minuten)</string>
+    <string name="effect_desc_item_countdown_timer">start %1$d Minute(n) Countdown-Timer</string>
+    <string name="shop_statistics_lifetime">Lebenslang</string>
+    <string name="shop_statistics_today">Heute</string>
+    <string name="shop_statistics_this_week">Diese Woche</string>
+    <string name="shop_statistics_this_month">Diesen Monat</string>
+    <string name="dialog_input_count_task_times">Erledigt erzwingen (%1$s Belohnung)</string>
+    <string name="dialog_rb_postpone_next_time">Die nächste Aufgabe zeitlich verschieben\n (Startzeit und Termin)</string>
+    <string name="dialog_rb_dont_postpone_next_time">Gleiche Zeit beibehalten</string>
+    <string name="title_dialog_unstarted_repeat_task">Wiederholmethode wählen</string>
+    <string name="message_dialog_unstarted_task">Die Aufgabe hat noch nicht begonnen, weiter vervollständigen?</string>
+    <string name="title_dialog_unstarted_task">Nicht gestartete Aufgabe</string>
+    <string name="default_name_day_list">Tag</string>
+    <string name="default_name_week_list">Woche</string>
+    <string name="default_name_month_list">Monat</string>
+    <string name="sample_category_name">Beispiel</string>
+    <string name="sample_item_small_icon">Eine kleine Tasche mit Münzen</string>
+    <string name="sample_item_small_icon_desc">Sie enthält 10 Münzen</string>
+    <string name="sample_item_big_icon">Eine große Tasche voller Münzen</string>
+    <string name="sample_item_big_icon_desc">Glück gehabt! Er enthält 75 Münzen</string>
+    <string name="sample_item_coin_loot_box">Münz-Lootbox</string>
+    <string name="sample_item_coin_loot_box_desc">enthält einen kleinen oder eine großen Beutel mit Münzen</string>
+    <string name="sample_task_try_out_loot_box">Probieren Sie die Münz-Lootbox aus</string>
+    <string name="sample_task_try_out_loot_box_desc">Erfüllen Sie diese Aufgabe, erhalten Sie eine Lootbox, die einen kleinen Beutel mit Münzen oder einen großen enthält.
+Gehen Sie auf die Seite Shop-Inventar (4. Position der Navigationsleiste), um sie zu öffnen!</string>
+    <string name="sample_task_do_exercise">Übung machen</string>
+    <string name="sample_task_do_exercise_desc">Verwenden Sie die Wiederholungseinstellung, um eine Gewohnheitsaufgabe einzurichten</string>
+    <string name="sample_task_drink_water">Trinke 7 Gläser Wasser</string>
+    <string name="sample_task_drink_water_desc">Aufgabenzähler kann Ihnen helfen, Zeiten zu erfassen, in denen Sie etwas Einfaches tun, Sie erhalten erst dann eine Belohnung, wenn Sie alle 7 Gläser getrunken haben.</string>
+    <string name="sample_task_sth_positive">Tun Sie etwas Positives</string>
+    <string name="sample_task_sth_positive_desc">Eine unbegrenzte Aufgabe aktualisiert ihren Status sofort nach Erledigung oder beim Aufgeben.\nKreuzen Sie sie an, wenn Sie etwas Positives tun. Oder Sie können sie aufgeben, um eine Bestrafung zu erhalten, wenn Sie etwas Negatives tun.</string>
+    <string name="sample_task_using_days">Verwenden Sie LifeUp für 7 Tage</string>
+    <string name="sample_task_using_days_desc">Für eine Wiederholungsaufgabe kann eine Zielzeit eingestellt werden.\n Und Sie können Errungenschaften vollständig anpassen, z. B. wenn Sie diese Aufgabe zum ersten Mal abgeschlossen haben, wird eine eigene Errungenschaft freigeschaltet.</string>
+    <string name="example_user_achievement_detail_3">Lebenserweiterung</string>
+    <string name="example_user_achievement_detail_3_desc">Schließen Sie die Beispielaufgabe einmalig ab [Verwenden Sie LifeUp für 7 Tage]</string>
+    <string name="hint_change_state_to_completed">Berühren Sie hier, um den Status auf abgeschlossen zu setzen</string>
+    <string name="lab_smart_list_all_title">Alle</string>
+    <string name="lab_smart_list_all_desc">Alle Aufgaben zeigen</string>
+    <string name="lab_smart_list_day_title">Tages liste</string>
+    <string name="lab_smart_list_day_desc">Aufgaben anzeigen, die heute fällig werden</string>
+    <string name="lab_smart_list_week_title">Wochenliste</string>
+    <string name="lab_smart_list_week_desc">Aufgaben anzeigen, die in dieser Woche fällig werden (Montag-Sonntag)</string>
+    <string name="lab_smart_list_month_title">Monatsliste</string>
+    <string name="lab_smart_list_month_desc">Aufgaben anzeigen, die in diesem Monat fällig werden</string>
+    <string name="effect_countdown_notification_title">Rückwärtszählen-</string>
+    <string name="effect_countdown_notification_end">Die Zeit ist abgelaufen</string>
+    <string name="effect_countdown_notification_remaining">wiederholung: </string>
+    <string name="lab_new_example_task_and_items">Neue Beispielaufgaben und Elemente</string>
+    <string name="lab_new_example_task_and_items_desc">Eine neue Reihe von Beispielaufgaben und Shop-Gegenständen, die einige Anwendungsfälle von Wiederholungsaufgaben und einige neue Funktionen einschließlich Lootbox zeigt.</string>
+    <string name="btn_ignore">IGNORIEREN</string>
+    <string name="sample_task_get_up_early">Früh aufstehen</string>
+    <string name="sample_task_get_up_early_desc">Mit den Einstellungen Startzeit und Endzeit können Sie den Zeitbereich einer Wiederholungsaufgabe begrenzen.\n Übrigens, die Standard-Endzeit ohne angegebene Zeit (Stunde, Minuten) ist um 0:00 Uhr am nächsten Tag. Sie können die angegebene Deadline-Zeit auf die gewünschte Zeit am nächsten Tag einstellen, um dies zu vermeiden.</string>
+
+    <!-- in xx days -->
+    <string name="tag_deadline_v2_relative">Deadline in %1$s</string>
+    <string name="tag_deadline_v2_with_time">Deadline um %1$s</string>
+    <string name="tag_deadline_v2_with_date">Deadline am %1$s</string>
+    <!-- today/tomorrow/yesterday -->
+    <string name="tag_deadline_v2_relative_special">Deadline %1$s</string>
+
+    <!-- in xx days -->
+    <string name="tag_start_v2_relative">Startet in  %1$s</string>
+    <string name="tag_start_v2_with_time">Startet um %1$s</string>
+    <string name="tag_start_v2_with_date">Startet am %1$s</string>
+    <!-- today/tomorrow/yesterday -->
+    <string name="tag_start_v2_relative_special">Startet %1$s</string>
+
+    <string name="relative_time_later_v2">%1$d Tage</string>
+
+
+    <string name="statistics_complete_count">Abgeschlossen: %1$d</string>
 </resources>
