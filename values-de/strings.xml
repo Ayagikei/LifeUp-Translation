@@ -1,4 +1,4 @@
-<resources>		
+<resources>
     <string name="app_name_normal">LifeUp</string>
     <string name="app_name_google">LifeUp Pro</string>
 
@@ -81,7 +81,7 @@
     <string name="team_add_repeat_week">Wöchentlich</string>
     <string name="team_add_repeat_two_week">Alle 2 Wochen</string>
     <string name="team_add_repeat_month">Monatlich</string>
-    <string name="team_add_not_repeat">Normal</string>
+    <string name="team_add_not_repeat">None</string>
     <string name="team_add_set_repeat">Wiederholungshäufigkeit einstellen</string>
     <string name="edit_text_empty_error">leer</string>
     <string name="team_add_without_attr_toast">Sie müssen mindestens ein Attribut auswählen!</string>
@@ -104,7 +104,7 @@
     <string name="add_to_do_end_time_too_early">Deadline sollte später als Startzeit sein</string>
     <string name="add_to_do_end_time_illegal_input">Deadline-Eingabe unzulässig</string>
     <string name="add_to_do_start_time_too_late">Startzeit sollte nicht später als Deadline sein</string>
-    <string name="add_to_do_not_repeat">Normal</string>
+    <string name="add_to_do_not_repeat">None</string>
     <string name="add_to_do_repeat_times">Unbegrenzt</string>
     <string name="add_to_do_attr_desc_title">Attribute</string>
     <string name="network_edit_team_success">Team bearbeiten erfolgreich</string>
@@ -516,11 +516,11 @@
     <string name="all">Alle</string>
     <string name="action_follow">Folgen</string>
     <string name="follow">Folgen</string>
-    <string name="widget_empry">Alle Aufgaben erledigt!</string>
+    <string name="widget_empty">Alle Aufgaben erledigt!</string>
     <string name="about_app_description">Eine Gamification-To-Do-Listen-Anwendung.</string>
     <string name="achievement_bonus">Sie erhalten 200 「Vitalität」exp!</string>
     <string name="about_rate_us_element">Bewerten Sie uns</string>
-    <string name="tag_team_single">Team-Normal</string>
+    <string name="tag_team_single">Team - No repeat</string>
     <string name="tag_team_daily">Team-Täglich</string>
     <string name="tag_team_every_2_days">Team-Alle 2 Tage</string>
     <string name="tag_team_weekly">Team-Wöchentlich</string>
@@ -529,7 +529,7 @@
     <string name="tag_team">Team</string>
     <string name="tag_local">Wiederholung</string>
     <string name="tag_every">Alle</string>
-    <string name="tag_local_single">Normal</string>
+    <string name="tag_local_single">No repeat</string>
     <string name="tag_local_unlimited">Unbegrenzt</string>
     <string name="tag_local_daily">Wiederholen-Täglich</string>
     <string name="tag_local_every_2_days">Wiederholen-Alle 2 Tage</string>
@@ -1533,7 +1533,7 @@
     <string name="hint_add_user_achievement_reward_develop">Exp- und Shop-Belohnungseinstellungen werden demnächst hinzugefügt</string>
     <string name="feelings_view_detail">Detail</string>
 
-    <string name="achievement_attribution_yes_itsme">Ja, ich bin's</string>
+    <string name="achievement_attribution_yes_itsme">Ja, ich bin\'s</string>
     <string name="achievement_attribution_yes_itsme_desc">Jedes Attribut erreicht Stufe 10</string>
     <string name="QandA_known_issues">bekannte_Probleme</string>
     <string name="QandA_update_desc">Update Desc</string>
@@ -1843,7 +1843,7 @@ Gehen Sie auf die Seite Shop-Inventar (4. Position der Navigationsleiste), um si
     <string name="lab_smart_list_month_desc">Aufgaben anzeigen, die in diesem Monat fällig werden</string>
     <string name="effect_countdown_notification_title">Rückwärtszählen-</string>
     <string name="effect_countdown_notification_end">Die Zeit ist abgelaufen</string>
-    <string name="effect_countdown_notification_remaining">wiederholung: </string>
+    <string name="effect_countdown_notification_remaining">wiederholung:&#160;</string>
     <string name="lab_new_example_task_and_items">Neue Beispielaufgaben und Elemente</string>
     <string name="lab_new_example_task_and_items_desc">Eine neue Reihe von Beispielaufgaben und Shop-Gegenständen, die einige Anwendungsfälle von Wiederholungsaufgaben und einige neue Funktionen einschließlich Lootbox zeigt.</string>
     <string name="btn_ignore">IGNORIEREN</string>

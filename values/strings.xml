@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="app_name_normal">LifeUp</string>
     <string name="app_name_google">LifeUp Pro</string>
 
@@ -27,7 +27,7 @@
     <!-- Strings related to login -->
     <string name="title_activity_login">Sign in</string>
     <string name="login_welcome">Sign In for More Functions</string>
-    <string name="login_welcome_2">More functions:\n- Sync exp & level to server\n- Edit your profile\n- World\n- Share your activities</string>
+    <string name="login_welcome_2">More functions:\n- Sync exp &amp; level to server\n- Edit your profile\n- World\n- Share your activities</string>
     <string name="login_signIn">SIGN IN</string>
     <string name="login_or">or</string>
 
@@ -81,7 +81,7 @@
     <string name="team_add_repeat_week">Weekly</string>
     <string name="team_add_repeat_two_week">Every 2 weeks</string>
     <string name="team_add_repeat_month">Monthly</string>
-    <string name="team_add_not_repeat">Normal</string>
+    <string name="team_add_not_repeat">None</string>
     <string name="team_add_set_repeat">Set repeat frequency</string>
     <string name="edit_text_empty_error">empty</string>
     <string name="team_add_without_attr_toast">You have to choose at least one attr!</string>
@@ -103,8 +103,8 @@
     <string name="add_to_do_start_time_illegal_input">The specified start time is invalid</string>
     <string name="add_to_do_end_time_too_early">Deadline should be later than start time</string>
     <string name="add_to_do_end_time_illegal_input">The specified deadline is invalid</string>
-    <string name="add_to_do_start_time_too_late">Start time can't be later than deadline</string>
-    <string name="add_to_do_not_repeat">Normal</string>
+    <string name="add_to_do_start_time_too_late">Start time can\'t be later than deadline</string>
+    <string name="add_to_do_not_repeat">None</string>
     <string name="add_to_do_repeat_times">Unlimited</string>
     <string name="add_to_do_attr_desc_title">Attributes</string>
     <string name="network_edit_team_success">Team edited successfully</string>
@@ -129,22 +129,22 @@
     <string name="main_drawer_login_head">Tap avatar to login</string>
     <string name="main_drawer_need_to_relogin">Try to re-login please.</string>
     <string name="main_tips_1">Tips: After login, you can access World.</string>
-    <string name="main_tips_2">Tips: You can undo tasks that you've completed today.</string>
+    <string name="main_tips_2">Tips: You can undo tasks that you\'ve completed today.</string>
     <string name="main_tips_3">Tips: Step data is calculated from sensor data. It may be inaccurate if you launch LifeUp less frequently.</string>
-    <string name="main_tips_4">Tips: You can undo tasks that you've completed today.</string>
-    <string name="main_tips_5">Tips: You can undo tasks that you've completed today.</string>
-    <string name="main_tips_6">Tips: You can undo tasks that you've completed today.</string>
-    <string name="main_tips_7">Tips: You can undo tasks that you've completed today.</string>
-    <string name="main_tips_8">Tips: You can undo tasks that you've completed today.</string>
-    <string name="main_tips_9">Tips: You can undo tasks that you've completed today.</string>
-    <string name="main_tips_10">Tips: You can undo tasks that you've completed today.</string>
-    <string name="main_tips_11">Tips: You can undo tasks that you've completed today.</string>
-    <string name="main_tips_12">Tips: You can undo tasks that you've completed today.</string>
-    <string name="main_tips_13">Tips: You can undo tasks that you've completed today.</string>
-    <string name="main_tips_14">Tips: You can undo tasks that you've completed today.</string>
-    <string name="main_tips_15">Tips: You can undo tasks that you've completed today.</string>
-    <string name="main_tips_16">Tips: You can undo tasks that you've completed today.</string>
-    <string name="main_tips_17">Tips: You can undo tasks that you've completed today.</string>
+    <string name="main_tips_4">Tips: You can undo tasks that you\'ve completed today.</string>
+    <string name="main_tips_5">Tips: You can undo tasks that you\'ve completed today.</string>
+    <string name="main_tips_6">Tips: You can undo tasks that you\'ve completed today.</string>
+    <string name="main_tips_7">Tips: You can undo tasks that you\'ve completed today.</string>
+    <string name="main_tips_8">Tips: You can undo tasks that you\'ve completed today.</string>
+    <string name="main_tips_9">Tips: You can undo tasks that you\'ve completed today.</string>
+    <string name="main_tips_10">Tips: You can undo tasks that you\'ve completed today.</string>
+    <string name="main_tips_11">Tips: You can undo tasks that you\'ve completed today.</string>
+    <string name="main_tips_12">Tips: You can undo tasks that you\'ve completed today.</string>
+    <string name="main_tips_13">Tips: You can undo tasks that you\'ve completed today.</string>
+    <string name="main_tips_14">Tips: You can undo tasks that you\'ve completed today.</string>
+    <string name="main_tips_15">Tips: You can undo tasks that you\'ve completed today.</string>
+    <string name="main_tips_16">Tips: You can undo tasks that you\'ve completed today.</string>
+    <string name="main_tips_17">Tips: You can undo tasks that you\'ve completed today.</string>
     <string name="profile_update_success">Updated successfully</string>
     <string name="profile_head_update_success">Avatar updated successfully</string>
     <string name="profile_head_update_fail">Avatar update failed: network error, please try again</string>
@@ -326,15 +326,15 @@
                                     "Status: View your attributes exp and levels\n\n"
                                     "World: Join a team and complete team tasks\n\n"
                                     "Statistics: View your data statistics\n\n\n"
-                                    "Most of these functions will work without a network connection except World~\n"
+                                    "Most of these functions will work without a network connection except [World] module~\n"
                                     "And most data is stored in local storage space, so be careful about uninstalling the app without making a backup."</string>
     <string name="to_do_slide_bar">Slide Bar</string>
     <string name="to_do_slide_bar_content">Here are entries to login, achievement, task history, settings, and so on</string>
     <string name="to_do_list">List</string>
     <string name="to_do_list_content">Use lists to classify your tasks</string>
     <string name="to_do_more">More</string>
-    <string name="to_do_more_content">Time\nSelect the time scope to show\nBy default, all tasks will be shown; you can change it to view only today's tasks.\n\n\nSort\nYou can also change the sort method.</string>
-    <string name="to_do_item_overdue">Some Task(s) are overdue!View details in the [History] page.</string>
+    <string name="to_do_more_content">Time\nSelect the time scope to show\nBy default, all tasks will be shown; you can change it to view only today\'s tasks.\n\n\nSort\nYou can also change the sort method.</string>
+    <string name="to_do_item_overdue">Some Task(s) are overdue!\nView details in the [History] page.</string>
     <string name="team_task_uneditable">Team task is uneditable！</string>
     <string name="to_do_passed_finishable_time">The task is can no longer be completed</string>
     <string name="to_do_got_exp">You gained exp</string>
@@ -457,7 +457,7 @@
     <!-- \nThis is for the users whose phone doesn\'t support pedometer. -->
     <string name="dialog_input_sport_tint">Steps</string>
     <string name="custom">Custom</string>
-    <string name="single">Normal</string>
+    <string name="single">None</string>
     <string name="unlimited">Unlimited</string>
     <string name="daily">Daily</string>
     <string name="every_2_days">Every 2 Days</string>
@@ -516,11 +516,11 @@
     <string name="all">All</string>
     <string name="action_follow">Follow</string>
     <string name="follow">Follow</string>
-    <string name="widget_empry">All tasks completed!</string>
+    <string name="widget_empty">All tasks completed!</string>
     <string name="about_app_description">A Gamification To-Do List Application.</string>
     <string name="achievement_bonus">You gained 200 「vitality」exp!</string>
     <string name="about_rate_us_element">Rate us</string>
-    <string name="tag_team_single">Team - Normal</string>
+    <string name="tag_team_single">Team - No repeat</string>
     <string name="tag_team_daily">Team - Daily</string>
     <string name="tag_team_every_2_days">Team - Every 2 days</string>
     <string name="tag_team_weekly">Team - Weekly</string>
@@ -529,7 +529,7 @@
     <string name="tag_team">Team</string>
     <string name="tag_local">Repeat</string>
     <string name="tag_every">Every</string>
-    <string name="tag_local_single">Normal</string>
+    <string name="tag_local_single">No repeat</string>
     <string name="tag_local_unlimited">Unlimited</string>
     <string name="tag_local_daily">Repeat - Daily</string>
     <string name="tag_local_every_2_days">Repeat - Every 2 days</string>
@@ -598,7 +598,7 @@
     <string name="exception_refresh">Exception happened when trying to refresh header view</string>
     <string name="exception_achievement_animation">Exception happened when trying to show achievement unlock</string>
     <string name="setting_display_language">Language</string>
-    <string name="setting_display_language_desc">We currently support only English, Chinese, Turkish and Portuguese.\nHelp with translation is welcome.</string>
+    <string name="setting_display_language_desc">We currently support only English, Chinese, Turkish, Portuguese, Italian and German.\nHelp with translation is welcome.</string>
     <string name="dialog_language_system">Use System Language</string>
     <string name="dialog_language_title">Language</string>
     <string name="dialog_language_toast">You may need to restart the app to apply this change.</string>
@@ -672,7 +672,7 @@
     <string name="nav_shop">Shop</string>
     <string name="title_activity_add_shop_item">Put on Shelves</string>
     <string name="shop_empty_text">No items on the shelves</string>
-    <string name="inventory_empty_text">No items in the inventory\nInventory only contains items that are no longer usable.</string>
+    <string name="inventory_empty_text">No items in the inventory\nInventory only contains items that are not used yet.</string>
     <string name="to_do_get_coins">Get Coins:+%1$d</string>
     <string name="xml_add_to_do_coins_title">Coin Reward</string>
     <string name="coin_possess">Owned: %1$d</string>
@@ -693,7 +693,7 @@
     <string name="welcome_to_shop">Welcome to the Shop</string>
     <string name="welcome_to_shop_desc">You can tap here to put something that you want on the shelves.\nThen, try to earn enough coins by finishing tasks to buy it!</string>
     <string name="add_shop_item_taptarget_picture">Picture</string>
-    <string name="add_shop_item_taptarget_picture_content">Tap here to change your item's picture.</string>
+    <string name="add_shop_item_taptarget_picture_content">Tap here to change your item\'s picture.</string>
     <string name="add_shop_item_taptarget_name">Item Name</string>
     <string name="add_shop_item_taptarget_name_content">Input item name here</string>
     <string name="add_shop_item_taptarget_price">Item Price</string>
@@ -1342,7 +1342,7 @@
     <string name="menu_timer">Timer</string>
     <string name="pomo_task_not_selected">not selected</string>
     <string name="eat_tomatoes">Eat tomatoes x%1$d</string>
-    <string name="sold_out_tomatoes">Sold out of tomatoes x%1$d</string>
+    <string name="sold_out_tomatoes">Sold tomatoes x%1$d</string>
     <string name="tomato_total_count">total x%1$d</string>
     <string name="dialog_task_item_unselect">unselected</string>
     <string name="tomatoes_action_eat">EAT</string>
@@ -1350,7 +1350,7 @@
     <string name="tomatoes_eat_reward_desc">to gain %1$d [Endurance] exps</string>
     <string name="tomatoes_sell_reward_desc">to gain %1$d coins</string>
     <string name="eat_tomatoes_hint_text">eat</string>
-    <string name="sell_tomatoes_hint_text">sell out</string>
+    <string name="sell_tomatoes_hint_text">sell</string>
     <string name="lab_tomatoes_example_desc">25-minute work session, 5-minute break</string>
     <string name="lab_pomodoro_title">Pomodoro Timer</string>
     <string name="lab_pomodoro_desc">Gamify pomodoro timer.\nDecide how to deal with the tomatoes you gained.\n\n(Still at an early development stage)</string>
@@ -1547,7 +1547,7 @@
 
     <string name="dialog_enable_auto_sum_short">Auto</string>
     <string name="status_pomodoro_card_title">Pomodoros</string>
-    <string name="status_pomodoros_today_focus">today's focus time\n(in mins)</string>
+    <string name="status_pomodoros_today_focus">today\'s focus time\n(in mins)</string>
     <string name="status_today_tomato_earned">tomatoes\ngained today</string>
     <string name="status_tomato_total_amount">total amount\ntomatoes</string>
     <string name="dialog_category_hide_hint_button">OK</string>
@@ -1653,7 +1653,7 @@
     <string name="setting_custom_enable_punishment_factor_for_individual_tasks">Enable custom punishment factor settings for individual tasks</string>
     <string name="chip_punishment">Punishment</string>
     <string name="dialog_title_set_indie_punishment_factor">Punishment factor</string>
-    <string name="dialog_message_set_indie_punishment_factor">Please input value from 0-5.0</string>
+    <string name="dialog_message_set_indie_punishment_factor">Please input value from 0–5.0</string>
 
     <string name="title_activity_edit_achievement_category">Edit Category</string>
     <string name="title_activity_edit_user_achievement">Edit Achievement</string>
@@ -1842,7 +1842,7 @@ Go to the Shop-Inventory page (4th position of navbar) to open it!</string>
     <string name="lab_smart_list_month_desc">Show tasks that will be due this month</string>
     <string name="effect_countdown_notification_title">Counting down-</string>
     <string name="effect_countdown_notification_end">The countdown is over</string>
-    <string name="effect_countdown_notification_remaining">remaining: </string>
+    <string name="effect_countdown_notification_remaining">remaining:&#160;</string>
     <string name="lab_new_example_task_and_items">New example tasks and items</string>
     <string name="lab_new_example_task_and_items_desc">A new set of example tasks and shop items, which shows some use cases of repeat tasks and some new features including loot boxes.</string>
     <string name="btn_ignore">IGNORE</string>
@@ -1867,4 +1867,6 @@ Go to the Shop-Inventory page (4th position of navbar) to open it!</string>
 
 
     <string name="statistics_complete_count">Completed: %1$d</string>
+
+    <string name="shop_statistics_this_year">This year</string>
 </resources>

@@ -69,8 +69,8 @@
     <string name="about_check_update">Güncelleme Kontrol Et</string>
     <string name="about_version_name">Versiyon</string>
     <string name="contact_title">İletişim</string>
-    <string name="github_desc1">Android Github</string>
-    <string name="github_desc2">Sunucu Github</string>
+    <string name="github_desc1">Android Developer: AyagiKei</string>
+    <string name="github_desc2">Server Developer: Hdonghong</string>
     <string name="achievement_bonus_2">2000 「cazibe」exp kazandınız</string>
     <string name="achievement_bonus_3">2000 「güç」ve 「dayanıklılık」exp kazandınız!</string>
     <string name="achievement_bonus_4">5000 「dirilik」ve 「dayanıklılık」exp kazandınız!</string>
@@ -476,7 +476,7 @@
     <string name="setting_display_status_play_animation">Durum Animasyonunu Etkinleştir</string>
     <string name="setting_display_status_play_animation_desc">Çok fazla CPU harcayabilir.</string>
     <string name="setting_display_hide_community">Topluluğu Gizle</string>
-    <string name="setting_display_hide_community_desc">Alttaki çubuktan Topluluk butonunu gizle.\nUygulamayı yeniden başlatmak gerekir.</string>
+    <string name="setting_display_hide_community_desc">Alttaki çubuktan Topluluk butonunu gizle.</string>
     <string name="setting_display_hide_pedometer">Pedometre Modülünü Gizle</string>
     <string name="setting_display_hide_pedometer_desc">Uygulama bazı telefonlarda kesin sonuç vermeyebilir\nİsterseniz pedometreyi gizleyebilirsiniz.</string>
     <string name="setting_main_task">Görev Ayarları</string>
@@ -514,7 +514,7 @@
     <string name="all">Hepsi</string>
     <string name="action_follow">Takip Et</string>
     <string name="follow">Takip Et</string>
-    <string name="widget_empry">Tüm görevler tamamlandı!</string>
+    <string name="widget_empty">Tüm görevler tamamlandı!</string>
     <string name="about_app_description">Oyunlaştırılmış Yapılacaklar Listesi Uygulaması.</string>
     <string name="achievement_bonus">200 「dirilik」expsi kazandınız!</string>
     <string name="about_rate_us_element">Bizi Oyla</string>
@@ -689,7 +689,7 @@
     <string name="to_do_get_coins">Bozuklukları Al:+%1$d</string>
     <string name="xml_add_to_do_coins_title">Bozukluk Ödülü</string>
     <string name="coin_possess">Şu Kadar Sahipsin: %1$d</string>
-    <string name="coin_price_own">Bozukluklar: %1$d</string>
+    <string name="coin_price_own">Bozukluklar: %1$d - %2$d</string>
     <string name="coin_not_enough">Yeterli bozukluğun yok</string>
     <string name="shop_purchase_desc">Alındı 「%1$s」×%2$d</string>
     <string name="shop_purchase_succeed">Başarıyla alındı</string>
@@ -1111,6 +1111,9 @@
     <string name="settings_custom_task_card_bg_hint">Click here to choose picture</string>
     <string name="opacity">Opacity</string>
     <string name="feedback_email_hint">If you want a response, please input the contact email.</string>
+    <string name="common_select_photos">Select Photos</string>
+
+
     <string name="statistics_time_30days">30 Days</string>
     <string name="statistics_time_3months">3 Months</string>
     <string name="statistics_time_1year">1 Year</string>
@@ -1134,6 +1137,8 @@
     <string name="dialog_sub_task_title">Sub-Task Settings</string>
     <string name="dialog_sub_task_coin_settings">Coin Number</string>
     <string name="complete_sub_task">Completed subtask</string>
+    <string name="unlock_user_achievement">Unlock user achievement</string>
+    <string name="lock_user_achievement">Lock user achievement</string>
     <string name="undo_complete_sub_task">Undo complete subtask</string>
     <string name="help_translate">Help Translate</string>
     <string name="feature_1720">Subtask Remind</string>
@@ -1145,5 +1150,236 @@
     <string name="toast_clear_achievement_success">Clear achievement data successfully</string>
     <string name="team_like_text">Good %1$d</string>
     <string name="dialog_decrease_exp">Lost Exp</string>
-    <string name="dialog_lost_coins">Lost Coins:+%1$d</string>
+    <string name="dialog_lost_coins">Lost Coins: -%1$d</string>
+    <string name="menu_edit_completed_time">Edit completed time</string>
+    <string name="dialog_title_edit_completed_time">Edit completed time</string>
+    <string name="xml_history_edit_completed_time">Completed time</string>
+    <string name="menu_edit_completed_time_success">Update successfully
+        Re-enter the page may be needed to refresh the page.</string>
+    <string name="user_achievemnt_category_info">Basic</string>
+    <string name="user_achievement_category_name">Category Name</string>
+    <string name="user_achievement_category_desc">Description (Optional)</string>
+    <string name="title_fragment_user_achievement">Achievement List</string>
+    <string name="user_achievement_name">Achievement Name</string>
+    <string name="title_fragment_add_user_achievement">Add Achievement</string>
+    <string name="user_achievement_category_delete_success">Başarıyla silindi</string>
+    <string name="title_activity_add_achievement_category">Add Category</string>
+    <string name="title_activity_add_user_achievement">Add Achievement</string>
+    <string name="lab_user_achievement_example_desc">Read 100 books</string>
+    <string name="lab_user_achievement_title">User Achievement (Developing)</string>
+    <string name="lab_user_achievement_desc">Create your own achievement.</string>
+    <string name="enter">Enter</string>
+    <string name="user_achievement_category_empty_text">There is no user achievement list.\nClick the float add button to create some.</string>
+    <string name="user_achievement_empty_text">There is no user achievement.\nClick the float add button to create some.</string>
+    <string name="feature_1730">User Achievement</string>
+    <string name="feature_1730_desc">- User Achievement\n- Exp Decrease Dialog\n- Team SubTask Coin Setting</string>
+    <string name="example_user_achievements">Example: Reading</string>
+    <string name="example_user_achievement_detail_1">Read 10 books</string>
+    <string name="example_user_achievement_detail_2">Read a book in a foreign language</string>
+    <string name="title_lab_new">Lab (New Feature!)</string>
+    <string name="fragment_status_button_grant_permission">Grant</string>
+    <string name="require_permission">Permission Required</string>
+    <string name="hint_denied_activity_permission">LifeUp can\'t get step count data if you denied the permission.</string>
+    <string name="default_name_system_achievements">System</string>
+    <string name="login_backup_hint">Attention:\nYour local data will not be synchronized with the server.</string>
+
+    <string name="user_achievement_delete_title">Delete</string>
+    <string name="user_achievement_delete_message">Really going to delete this achievement?</string>
+
+    <string name="backup_hint">You can use the [Data Backup] Page in the [Settings] Page to backup/restore your data.\n
+        Now it support export your local data to a zip file, or sync the data with WebDAV server that you set up.\n
+        LifeUp will add Google Drive backup support in the future.\n
+        \n
+        To protect your data privacy and reduce the using of the server, your local data will not be sync with the server, including:\n
+        1. Local task data\n
+        2. Local task history record\n
+        3. Shop item data\n
+        4. Local feelings data\n
+        5. User achievements data\n
+        6. Statistics data\n
+        7. Settings\n
+        \n
+        The Data will be sync with the server, including:\n
+        1. Exp points\n
+        2. System achievements\n
+        3. Team\n
+        4. Team tasks completion record\n
+        5. Team tasks activities\n
+    </string>
+    <string name="add_shop_item_stock_number">Stock Quantity</string>
+    <string name="dialog_input_stock_quantity_unlimited">Unlimited</string>
+    <string name="dialog_input_stock_quantity_custom">Custom</string>
+    <string name="stock_not_enough">There is not enough stock</string>
+    <string name="shop_item_possess">Own: %1$d (Stock Quantity: %2$d)</string>
+    <string name="shop_item_possess_unlimited_stock">Own: %1$d</string>
+    <string name="sold_out">Sold Out</string>
+    <string name="savings_balance">Savings Balance: %1$s</string>
+    <string name="action_shop_atm">ATM</string>
+    <string name="shop_atm">ATM</string>
+    <string name="btn_back">BACK</string>
+    <string name="btn_deposit">DEPOSIT</string>
+    <string name="btn_withdrawal">WITHDRAWAL</string>
+    <string name="withdrawal_desc">Withdrawal %1$d coins</string>
+    <string name="deposit_desc">Deposit %1$d coins</string>
+    <string name="withdrawal_success">Withdrawal successfully</string>
+    <string name="withdrawal_fail">Withdrawal failed</string>
+    <string name="deposit_success">Deposit successfully</string>
+    <string name="deposit_fail">Deposit failed</string>
+    <string name="saving_balance_not_enough">Not enough saving balance</string>
+    <string name="btn_close">CLOSE</string>
+    <string name="weekly_task_desc">Weekly</string>
+    <string name="basic_task_desc">Basic</string>
+    <string name="workday_task_desc">WorkDay</string>
+    <string name="special_task_desc">Special</string>
+    <string name="basic_task_desc_detail">Basic Define:\nDeadline: The deadline of the repeat cycle. It\'s not the end condition of the task. (Same for the Start Time)\nBasically the deadline of a daily task should be set to [Today] while the deadline of a weekly task should be set to [Weekend].\n\nRepeat Frequency: Daily, Weekly, Monthly etc.\nWhen repeating a task, its start time and deadline will be calculated by the repeat frequency.\n\nFor example, when repeat a weekly task, its next start time will be 7 days after the current start time, same for the deadline.\nIn most cases, you can just set up the deadline and the repeat frequency as the start time can be auto calculated.</string>
+    <string name="weekly_task_desc_detail">How to setup a weekly task from [Monday] to [Sunday]?\n\nStep 1. Set the \"Repeat Frequency\" to [Weekly]\n\nStep 2.Set the \"Deadline\" to [Weekend](the date of the Sunday)</string>
+    <string name="weekday_task_desc_detail">How to setup a weekday task?\n\nStep 1. Set the \"Repeat Frequency\" to [Daily]\n\nStep 2.Click the \"Ignore\" Button to continue your setting</string>
+    <string name="special_task_desc_detail">How to setup a special task like a daily task that started at 18:00 of the day and deadline at the 4:00 of the second day?\n\nStep 1. Click the [More Options] Button to show up the start time options\n\nStep 2. Set the [Start Time] to the date of first day of the repeat, and set the time to \"18:00\"\n\nStep 3. Set the [Deadline] to the date of the next day of the [Start Time], and then click the [Time] options the set up the specific time to \"4:00\"\n\nStep 4.Set the \"Repeat Frequency\" to [Daily]</string>
+    <string name="dialog_shop_item_select_title">Select</string>
+    <string name="reward_shop_item">Shop Item</string>
+    <string name="reward_normal_text">Text Only</string>
+    <string name="complete_reward_text_input_dialog_title">Ödül</string>
+    <string name="inventory_record_reward">Get Reward Item「%1$s」×%2$d</string>
+    <string name="inventory_record_undo_reward">Undo Reward Item「%1$s」×%2$d</string>
+    <string name="feature_1740">ATM</string>
+    <string name="feature_1740_desc">- ATM\n- Select shop items as task reward\n- Shop item stock quantity\n- Improve animation</string>
+    <string name="dialog_button_confirm">CONFIRM</string>
+    <string name="toast_clear_history_success">Clear history data successfully</string>
+    <string name="xml_clear_history">Clear History Data</string>
+    <string name="xml_clear_history_desc">Including calendar history data</string>
+    <string name="clear_history_title">Clear History Data</string>
+    <string name="clear_history_desc">Clear all history data.\nAttention:It cannot be undone!</string>
+    <string name="title_dialog_task_tag_color">Tag Color</string>
+    <string name="setting_display_hide_status">Hide Status</string>
+    <string name="setting_display_hide_status_desc">Hide Status module on the Bottom Navigation.</string>
+    <string name="setting_display_hide_shop">Hide Shop</string>
+    <string name="setting_display_hide_shop_desc">Hide Shop module on the Bottom Navigation.</string>
+    <string name="setting_display_hide_me">Hide "Me"</string>
+    <string name="setting_display_hide_me_desc">Hide "Me" module on the Bottom Navigation.</string>
+    <string name="relaunch_item">Relaunch</string>
+    <string name="relaunch_success">Relaunch successfully</string>
+    <string name="auto_backup_conflict_download">The local data will be overwritten with the data that has been backed up to the servers.\n\nYou can undo the action on the backup setting page later.</string>
+    <string name="auto_backup_conflict_upload">Local data will be backed up to the remote server.\n\nThe current backup data on the server will be overwritten.</string>
+    <string name="auto_backup_title_sync">Sync</string>
+    <string name="auto_backup_last_sync_time">Last sync time: %1$s</string>
+    <string name="btn_sync">SYNC</string>
+    <string name="auto_backup_last_sync_failure">Last sync failed: %1$s\nPlease check your network connection or the WebDAV configuration.</string>
+    <string name="btn_config">CONFIG</string>
+    <string name="btn_upload">UPLOAD</string>
+    <string name="btn_download">DOWNLOAD</string>
+    <string name="dialog_title_sync_conflict">Sync Conflict</string>
+    <string name="dialog_title_confirm">Confirm</string>
+    <string name="pomo_work_session">Work Session</string>
+    <string name="pomo_short_break">Short Break</string>
+    <string name="pomo_long_break">Long Break</string>
+    <string name="pomo_settings">Timer Setting</string>
+    <string name="switch_enable_webdav_auto_backup">WebDAV Auto Backup</string>
+    <string name="none">None</string>
+    <string name="action_end_the_team">End the team</string>
+    <string name="action_end_the_team_desc">Really going to end the team?</string>
+    <string name="btn_end">END</string>
+    <string name="pomodoro_notification_complete">Skip</string>
+    <string name="pomodoro_notification_cancel">Cancel</string>
+    <string name="pomodoro_notification_timer_title">Tomato Timer</string>
+    <string name="pomodoro_notification_break_title">On a break</string>
+    <string name="pomodoro_notification_break_content">Break timer is running</string>
+    <string name="nav_pomodoro">Pomodoro</string>
+    <string name="pomo_work_session_before_long_break_hint">%1$d work sessions before long break</string>
+    <string name="menu_timer">Timer</string>
+    <string name="pomo_task_not_selected">not selected</string>
+    <string name="tomato_total_count">total x%1$d</string>
+    <string name="dialog_task_item_unselect">unselected</string>
+    <string name="tomatoes_action_eat">EAT</string>
+    <string name="tomatoes_action_sell">SELL</string>
+    <string name="tomatoes_eat_reward_desc">to gain %1$d [Endurance] exps</string>
+    <string name="tomatoes_sell_reward_desc">to gain %1$d coins</string>
+    <string name="eat_tomatoes_hint_text">eat</string>
+    <string name="sell_tomatoes_hint_text">sell out</string>
+    <string name="lab_tomatoes_example_desc">25 minutes work session, 5 minutes break</string>
+    <string name="lab_pomodoro_title">Pomodoro Timer</string>
+    <string name="lab_pomodoro_desc">Gamify pomodoro timer.\nDecide how to deal with the tomatoes you gained.\n\n(Still at an early development stage)</string>
+    <string name="toast_hint_not_enough_tomatoes">not enough tomatoes</string>
+    <string name="dialog_tomatoes_title">Tomatoes</string>
+    <string name="feature_1750">Tomato</string>
+    <string name="feature_1750_desc">- Gamify tomato timer\n- Custom task/list tag color\n- WebDAV auto backup\n- Hide modules: status, shop, me</string>
+    <string name="pomodoro_notification_skip">Skip</string>
+    <string name="hint_scroll_to_bottom_more_settings">there\'re more settings below, scroll it!</string>
+    <string name="setting_custom_enable_sound_effect">Enable Sound Effect</string>
+    <string name="setting_custom_enable_sound_effect_desc">Enable sound effect and the volume can be set by the media type volume.</string>
+    <string name="dialog_select_local_pictures_btn">Select local pictures</string>
+    <string name="btn_change_icon">Change icon</string>
+    <string name="default_coin_sub_task">Default Coin Number of SubTask</string>
+    <string name="title_dialog_default_coin_number_subtask">Default Coin Number of SubTask</string>
+    <string name="feellings_search_task_content">Task Content</string>
+    <string name="feelings_only_fav">Only Fav</string>
+    <string name="pro_version">Pro</string>
+    <string name="pomodoro_create_shortcuts">Create Shortcuts</string>
+    <string name="pomodor_create_shortcuts_to_launcher">Create a shortcut to your launcher.</string>
+    <string name="create_shortcut_failed">Failed to create a shortcut.\nPlease check the app permission settings.</string>
+    <string name="pomo_selling_price">Selling Price of Tomato</string>
+    <string name="pomo_selling_price_summary">3 coins</string>
+    <string name="btn_add_using_effects">Add Using Effects</string>
+    <string name="shop_effect_no_special_effect">no special effect</string>
+    <string name="shop_effect_unusable">unusable</string>
+    <string name="shop_effect_custom">custom effects</string>
+    <string name="add_shop_item_advance_settings">Advance</string>
+    <string name="shop_title_using_effects">Using effects:</string>
+    <string name="dialog_gained_reward">Earned rewards</string>
+    <string name="dialog_reward_by_using_item">By using item</string>
+    <string name="exp_effect">Exp effect</string>
+    <string name="coin_effects">Coin effects</string>
+    <string name="hint_shop_effect_not_more_available">No more available effects</string>
+    <string name="hint_number_greater_than_0">The number should be greater than 0</string>
+    <string name="hint_should_select_attributes">At least one attributes should be selected</string>
+    <string name="input_hint_value">Value</string>
+    <string name="hint_select_attributes">Select attributes:</string>
+    <string name="radio_increase_exp">Increase Exp</string>
+    <string name="radio_decrease_exp">Decrease Exp</string>
+    <string name="hint_attributes_conflict">There is a conflict with another effects</string>
+    <string name="shop_effect_increase_coins">Increase coins</string>
+    <string name="shop_effect_decrease_coins">Decrease coins</string>
+    <string name="hint_using_too_many_items">Cannot use more than 10 items at a time which have special effects</string>
+    <string name="shop_title_purchase_limit">Purchase Limit</string>
+    <string name="limit_number_per_day">%1$d pre day</string>
+    <string name="limit_number_per_week">%1$d pre week</string>
+    <string name="limit_number_per_month">%1$d pre month</string>
+    <string name="limit_number_per_year">%1$d pre year</string>
+    <string name="shop_effect_exp">Exp</string>
+    <string name="shop_effect_coin">Coin</string>
+    <string name="input_hint_number_limit">Limit number</string>
+    <string name="shop_dialog_title_add_limit">Purchase Limit</string>
+    <string name="limit_per_day">per day</string>
+    <string name="limit_per_week">per week</string>
+    <string name="limit_per_month">per month</string>
+    <string name="limit_per_year">per year</string>
+    <string name="btn_add_purchase_limit">Add Purchase Limit</string>
+    <string name="calendar_show_repeat_progress">Show repeatable task progress</string>
+    <string name="calendar_ignore_repeat_progress">Ignore repeatable task progress</string>
+    <string name="hint_shop_limit_not_more_available">No more available limits</string>
+    <string name="shop_effect_synthesis">Synthesis</string>
+    <string name="input_recipe_number">Recipe number</string>
+    <string name="to_create_a">to create a(n)</string>
+    <string name="synthesised_item">Synthesised item</string>
+    <string name="synthesis_effects">Synthesis Effects</string>
+    <string name="inventory_btn_synthesis">synthesis</string>
+    <string name="inventory_synthesis_succeed">Synthesized successfully</string>
+    <string name="confirm_synthesis_item">Really going to synthesize the item?</string>
+    <string name="not_enough_synthesis_item">Not enough items to synthesize</string>
+    <string name="restore_failed_higher_version_backup_file">Cannot restore a higher version file, please update the app!</string>
+    <string name="feature_1760">Shop Effect</string>
+    <string name="feature_1760_desc">- Custom shop effect\n- Custom purchase limit</string>
+    <string name="open_shop_btn_import">IMPORT</string>
+    <string name="tab_market">Market</string>
+    <string name="til_import_price">Price</string>
+    <string name="dialog_share_goods_title">Share Item</string>
+    <string name="dialog_share_goods_desc">Really going to share the item?\nhint: Loot box effect have not supported share yet.</string>
+    <string name="share_to_market">Share</string>
+    <string name="shop_share_success">Share successfully</string>
+    <string name="shop_share_fail">Share failed</string>
+    <string name="share_goods_fail_imported">cannot share item that is imported</string>
+    <string name="undo_share_to_market">Undo Share</string>
+
+    <string name="translator_credit">Çevirmen: İbrahim DOĞAN</string>
+
+    <string name="dialog_enable_auto_sum_short">Auto</string>
 </resources>

@@ -505,7 +505,7 @@
     <string name="all">Tudo</string>
     <string name="action_follow">Seguir</string>
     <string name="follow">Seguir</string>
-    <string name="widget_empry">Concluiu todas as tarefas!</string>
+    <string name="widget_empty">Concluiu todas as tarefas!</string>
     <string name="about_app_description">Um aplicativo de lista de tarefas de Gamification.</string>
     <string name="achievement_bonus">Você ganha 200 「vitalidade」EXP!</string>
     <string name="about_rate_us_element">Avalie-nos</string>
@@ -1257,9 +1257,9 @@
     <string name="auto_backup_conflict_download">Os dados locais serão substituídos pelos dados cujo backup foi feito nos servidores.\n\nVocê pode desfazer a ação na página de configuração de backup mais tarde.</string>
     <string name="auto_backup_conflict_upload">Os dados locais serão copiados para o servidor remoto.\n\nOs dados de backup atuais no servidor serão substituídos.</string>
     <string name="auto_backup_title_sync">Sincronizar</string>
-    <string name="auto_backup_last_sync_time">Hora da última sincronização:%1$s</string>
+    <string name="auto_backup_last_sync_time">Hora da última sincronização: %1$s</string>
     <string name="btn_sync">SYNC</string>
-    <string name="auto_backup_last_sync_failure">Falha na última sincronização:%1$s\nVerifique sua conexão de rede ou a configuração WebDAV.</string>
+    <string name="auto_backup_last_sync_failure">Falha na última sincronização: %1$s\nVerifique sua conexão de rede ou a configuração WebDAV.</string>
     <string name="btn_config">CONFIG</string>
     <string name="btn_upload">CARREGAR</string>
     <string name="btn_download">BAIXAR</string>
@@ -1537,7 +1537,7 @@
     <string name="pomodoro_tap_target_tomatoes_reset">Redefinir cronômetro</string>
     <string name="pomodoro_tap_target_tomatoes_play_pause">Iniciar / Pausar Timer</string>
     <string name="pomodoro_tap_target_tomatoes_skip">Pule o cronômetro</string>
-    <string name="task_detail_tomatoes_count_display_text">x%1$d (total x%2$d)</string>
+    <string name="task_detail_tomatoes_count_display_text">x%1$d (%3$d minutos), total x%2$d (%4$d minutos)</string>
 
     <string name="condition_task_tomatoes_gained">Número total de tomates obtidos com uma tarefa</string>
     <string name="condition_desc_task_tomatoes_gained">Ganhou%1$d tomates com 「%2$s」 tarefa</string>
