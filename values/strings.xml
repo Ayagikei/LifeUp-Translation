@@ -1760,12 +1760,12 @@
     <string name="btn_give_up">GIVE UP</string>
     <string name="cb_return_item_no_coins">I do not want coins</string>
     <string name="menu_select_all">Select All</string>
-    <string name="add_category_continue_to_add_next">Continue to add next</string>
+    <string name="add_category_continue_to_add_next">Continue to add next list</string>
     <string name="switch_display_24_hours_display">24-hour display</string>
     <string name="clear_history_data_tasks">Tasks</string>
     <string name="clear_history_data_coins">Coins</string>
     <string name="hint_remind_system_title">Reminder System</string>
-    <string name="reminder_method_hint">Application is using notifications to send reminder by default, which may be killed by the OS.\nIf you frequently miss reminders, please change the reminder system in the task settings.\n\nCalendar reminder system is available, which will not be limited by the application running state, but it needs calendar read/write permissions.</string>
+    <string name="reminder_method_hint">The application uses system notifications to send reminder by default, which may kill by the OS.\nIf you frequently miss reminders, please change the reminder system in the task settings.\n\nCalendar reminder system is available, which will not be limited by the operating status of the application, but it needs calendar read/write permissions.</string>
     <string name="hint_multiple_reminders">Multiple reminders</string>
     <string name="hint_multiple_reminders_desc">To setup multiple reminders, you can create subtasks and set up a reminder for each of them.</string>
     <string name="dialog_overdue_tasks_hint">Click the \"Overdue\" button to change the state of the task.\nYou can also freeze suspended tasks in advance by long pressing the task card in the tasks page to avoid being punished.</string>
@@ -1773,7 +1773,7 @@
     <string name="time_the_next_day">%1$s the next day</string>
     <string name="setting_task_new_default_setting_desc">Customize the default settings when creating a new task</string>
     <string name="backup_documents">\nTap here to view backup documents\n</string>
-    <string name="not_recieve_reminders_hint">Not receiving reminders? Check your system settings to let LifeUp run in the background.</string>
+    <string name="not_recieve_reminders_hint">Not receiving reminders? Check your system settings to allow LifeUp run in the background.</string>
     <string name="btn_guide">GUIDE</string>
     <string name="statistics_time_several_days">%1$d Days</string>
     <string name="hint_number_picker">Tap the number in the center to directly input the target value</string>
