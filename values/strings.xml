@@ -1847,7 +1847,7 @@ Go to the Shop-Inventory page (4th position of navbar) to open it!</string>
     <string name="lab_new_example_task_and_items_desc">A new set of example tasks and shop items, which shows some use cases of repeat tasks and some new features including loot boxes.</string>
     <string name="btn_ignore">IGNORE</string>
     <string name="sample_task_get_up_early">Get up early</string>
-    <string name="sample_task_get_up_early_desc">Start time and deadline time settings can be used to limited the time range of a repeat task.\nBy the way, the default deadline without a specified time (hour, minutes) will be at 0:00 the next day. You can set the specified deadline time to the time you want on the next day to change this.</string>
+    <string name="sample_task_get_up_early_desc">Start time and deadline time settings can be used to limit the time range of a repeat task.\nBy the way, the default deadline without a specified time (hour, minutes) will be at 0:00 the next day. You can set a specified deadline you want in the next day to change this setting.</string>
 
     <!-- in xx days -->
     <string name="tag_deadline_v2_relative">Deadline in %1$s</string>
