@@ -57,7 +57,7 @@
     <string name="title_activity_add_category">New List</string>
     <string name="page_not_available">Not available!</string>
     <string name="funcation_need_to_login">You need to login to enter this page!\nTap here to login.</string>
-    <string name="network_error">Network error,please try it later.</string>
+    <string name="network_error">Network error, please try again later.</string>
     <string name="btn_cancel">Cancel</string>
     <string name="has_been_latest_version">You already have the latest version!</string>
     <string name="btn_update">Update</string>
@@ -178,7 +178,7 @@
     <string name="add_to_do_taptarget_remind_title">Set Reminder</string>
     <string name="add_to_do_taptarget_remind_content">(Optional）You can set a reminder here.</string>
     <string name="add_to_do_taptarget_start_time_title">Start Time</string>
-    <string name="add_to_do_taptarget_start_time_content">(Optional）You can set a future task by changing its start time.</string>
+    <string name="add_to_do_taptarget_start_time_content">(Optional）If you want this task to appear on your daily list\nbefore the day it is due, set an earlier start time.\nBy default, non-repeating tasks will start today,\nand the default start time for repeating tasks is the beginning of the repetition interval\n(e.g., 7 days before a weekly task, 1 day before a daily task).</string>
     <string name="add_to_do_taptarget_deadline_title">Deadline</string>
     <string name="add_to_do_taptarget_deadline_content">(Optional）You can set a deadline date here.</string>
     <string name="add_to_do_taptarget_repeat_title">Repeat Frequency</string>
@@ -283,7 +283,7 @@
     <string name="tomorrow">Tomorrow</string>
     <string name="tomorrow_with_time">Tomorrow %1$s</string>
     <string name="yesterday_with_time">Yesterday %1$s</string>
-    <string name="relative_time_later">%1$d Days Later</string>
+    <string name="relative_time_later">%1$d days from now</string>
     <string name="to_do_adapter_not_start_yet">The task has not started yet!</string>
     <string name="team">team</string>
     <string name="attr_strength">STR</string>
@@ -603,7 +603,7 @@
     <string name="dialog_language_title">Language</string>
     <string name="dialog_language_toast">You may need to restart the app to apply this change.</string>
     <string name="dialog_date_format_toast">You may need to restart the app to apply this change.</string>
-    <string name="add_to_do_menu_start_last_repeat_cycle">Auto (According to Repeat Frequency)</string>
+    <string name="add_to_do_menu_start_last_repeat_cycle">Default (today, or one repetition interval ahead)</string>
     <string name="add_to_do_menu_start_deadline">At the Deadline</string>
     <string name="reshow_header">Re-Show Header Card</string>
     <string name="hide_header">Hide Header Card</string>
@@ -721,7 +721,7 @@
     <string name="dialog_input_coin_punishment_factor_title">Input Coin Punishment Factor</string>
     <string name="dialog_input_coin_punishment_factor_message">Punishment occurs when tasks become overdue or are given up.\nPunishment factor range: 0 – 5.0</string>
     <string name="read_it_later">Read It Later</string>
-    <string name="read_it_later_with_title">「Read It Later」%1$s</string>
+    <string name="read_it_later_with_title">「Read It Later」 %1$s</string>
     <string name="til_coin_hint">Coin Number</string>
     <string name="sort_price">Price</string>
     <string name="action_shop_sort">[Shop] Sort</string>
@@ -1093,7 +1093,7 @@
     <string name="report_type_2">This is abusive or harassing</string>
     <string name="report_type_3">This is harmful information</string>
     <string name="report_type_4">It infringes on my copyright</string>
-    <string name="report_type_5">It induces vote</string>
+    <string name="report_type_5">It is soliciting votes for something</string>
     <string name="report_type_6">Other</string>
 
     <!-- Feelings Fav -->
@@ -1180,7 +1180,7 @@
     <string name="title_activity_add_user_achievement">Add Achievement</string>
     <string name="lab_user_achievement_example_desc">Read 100 books</string>
     <string name="lab_user_achievement_title">User Achievements (In Development)</string>
-    <string name="lab_user_achievement_desc">Create your own achievements.\n\nThis feature has been combined with the system achievements.\n\nThis entrance will be remove in the future version.\nYou can use the Sidebar entrance instead of it.</string>
+    <string name="lab_user_achievement_desc">Create your own achievements.\n\nThis feature has been combined with the system achievements.\n\nThis link will be removed in the future version.\nYou can use the Sidebar link instead of it.</string>
     <string name="enter">Enter</string>
     <string name="user_achievement_category_empty_text">There is no user achievement list.\nTap the floating + button to create some.</string>
     <string name="user_achievement_empty_text">There are no user achievements.\nTap the floating + button to create some.</string>
@@ -1510,25 +1510,25 @@
     <string name="dialog_unlock_condition_related_item">Related Item</string>
     <string name="add_user_achievement_unlock_condition">Unlock Condition</string>
     <string name="condition_total_completed_times">Total completion times of a task</string>
-    <string name="condition_completed_streak_task">Completion streak of a task</string>
+    <string name="condition_completed_streak_task">Completion streak with a task</string>
     <string name="condition_reach_level">An attribute reaches the specified level</string>
     <string name="condition_total_gained_tomatoes">Total number of tomatoes gained</string>
-    <string name="condition_using_days">Using days of LifeUp</string>
+    <string name="condition_using_days">Total days using LifeUp</string>
     <string name="condition_gained_like_count">Gained LIKE count</string>
-    <string name="condition_using_days_streak">Using days streak</string>
+    <string name="condition_using_days_streak">Streak of days using LifeUp</string>
     <string name="condition_current_coin_number">Current coin number</string>
-    <string name="condition_coin_number_added_in_a_day">Coin number added in a day</string>
+    <string name="condition_coin_number_added_in_a_day">Coin number gained in a day</string>
     <string name="dialog_title_select_attributes">Select Attribute</string>
 
-    <string name="condition_desc_total_completed_times">Total complete [%1$s] for %2$d time(s)</string>
-    <string name="condition_desc_completed_streak_task">Gain %1$d complete streak of [%2$s]</string>
-    <string name="condition_desc_reach_level">[%1$s] attribute reach Lv %2$d</string>
-    <string name="condition_desc_total_gained_tomatoes">Total gain [%1$d] tomatoes</string>
-    <string name="condition_desc_using_days">Using LifeUp for [%1$d] days</string>
-    <string name="condition_desc_gained_like_count">Gain [%1$d] LIKE count from the World</string>
-    <string name="condition_desc_using_days_streak">Using LifeUp for [%1$d] days streak</string>
-    <string name="condition_desc_current_coin_number">Current coin number reach [%1$d]</string>
-    <string name="condition_desc_coin_number_added_in_a_day">Coin number added [%1$d] in a day</string>
+    <string name="condition_desc_total_completed_times">Complete [%1$s] a total of %2$d time(s)</string>
+    <string name="condition_desc_completed_streak_task">Achieve a completion streak of %1$d with [%2$s]</string>
+    <string name="condition_desc_reach_level">Reach Lv %2$d in [%1$s]</string>
+    <string name="condition_desc_total_gained_tomatoes">Gain a total of [%1$d] tomatoes</string>
+    <string name="condition_desc_using_days">Use LifeUp for [%1$d] days</string>
+    <string name="condition_desc_gained_like_count">Gain [%1$d] LIKES from the World</string>
+    <string name="condition_desc_using_days_streak">Achieve a [%1$d]-day streak of using LifeUp</string>
+    <string name="condition_desc_current_coin_number">Achieve current coin balance of [%1$d]</string>
+    <string name="condition_desc_coin_number_added_in_a_day">Gain [%1$d] coins in a day</string>
     <string name="market_list_sort_by_import">Sort by import number</string>
     <string name="hint_add_user_achievement_reward_develop">Exp and shop reward setting will be added soon</string>
     <string name="feelings_view_detail">Details</string>
@@ -1568,12 +1568,12 @@
     <string name="pomodoro_tap_target_tomatoes_skip">Skip the timer</string>
     <string name="task_detail_tomatoes_count_display_text">x%1$d (%3$d mins), total x%2$d (%4$d mins)</string>
 
-    <string name="condition_task_tomatoes_gained">Gained total tomatoes number with a task</string>
-    <string name="condition_desc_task_tomatoes_gained">Gained %1$d tomatoes with「%2$s」task</string>
-    <string name="condition_task_purchase_item_times">Purchase item for specify times</string>
-    <string name="condition_desc_task_purchase_item_times">Purchase「%1$s」for「%2$d」times</string>
-    <string name="condition_task_use_item_times">Use item for specify times</string>
-    <string name="condition_desc_use_item_times">Use「%1$s」for「%2$d」times</string>
+    <string name="condition_task_tomatoes_gained">Gain a specified number of tomatoes with a task</string>
+    <string name="condition_desc_task_tomatoes_gained">Gain %1$d tomatoes with「%2$s」</string>
+    <string name="condition_task_purchase_item_times">Purchase item a specified number of times</string>
+    <string name="condition_desc_task_purchase_item_times">Purchase「%1$s」 「%2$d」times</string>
+    <string name="condition_task_use_item_times">Use item a specified number of times</string>
+    <string name="condition_desc_use_item_times">Use「%1$s」 %2$d」times</string>
     <string name="edit_text_search_hint">Search…</string>
 
     <string name="dialog_input_exp_punishment_factor_message_example">For a 100 exp reward task, you will lose %1$d (100 × %2$.2f) exp if you fail it.</string>
@@ -1685,15 +1685,15 @@
     <string name="atm_interest_desc">Earned %1$d coins interest on ATM</string>
     <string name="atm_interest_input_limit">should not be greater than 10%</string>
 
-    <string name="condition_shop_open_loot_boxes">Get item for specify times from Loot Boxes</string>
-    <string name="condition_desc_open_loot_boxes">Get「%1$s」for「%2$d」times from Loot Boxes</string>
+    <string name="condition_shop_open_loot_boxes">Get an item from Loot Boxes a specified number of times</string>
+    <string name="condition_desc_open_loot_boxes">Get「%1$s」 「%2$d」times from Loot Boxes</string>
 
     <string name="hint_hide_module_title">Hide Module</string>
     <string name="hint_hide_module_desc">You can hide any module that you do not need in the [Settings]-[Display] page.</string>
     <string name="hint_pomodoro_sound_hint">Reminder Sound</string>
     <string name="hint_pomodoro_sound_hint_desc">The reminder sound effect volume is controlled by the system media volume.\n\nYou can disable all sound effects in the [Custom Settings] page.</string>
     <string name="hint_pedometer_hint">Step Counter</string>
-    <string name="hint_pedometer_hint_desc">The app cannot access the daily step count from the system.\nOut step count is calculated by the difference of the total step count.\n\n The count accuracy depends on conditions such as when the app is opened and when the phone restarts.</string>
+    <string name="hint_pedometer_hint_desc">The app cannot access the daily step count from the system.\nDaily step count is calculated by subtracting the total step count as of yesterday from the total step count as of today.\n\n The count accuracy depends on conditions such as when the app is opened and when the phone restarts.</string>
     <string name="hint_pedometer_input_or_hide_hint_desc">As an alternative to automatic calculation, you can input the step number manually\n\nor hide the step counter module in the [Display Settings] page if you do not need it.</string>
 
     <string name="hint_login_method"></string>
@@ -1709,11 +1709,11 @@
     <string name="hint_world_module_market_desc">View the creative shop items created by people all around the world.\n\nAnd you can share your masterpieces!</string>
 
     <string name="hint_atm_interest">ATM interest</string>
-    <string name="hint_atm_interest_desc">You can setup the ATM interest in the Shop Settings (the entrance is by the ATM) to receive daily interest.</string>
+    <string name="hint_atm_interest_desc">You can setup the ATM interest in the Shop Settings (the link is by the ATM) to receive daily interest.</string>
 
     <string name="hint_loot_box_probability">Probability</string>
     <string name="hint_loot_box_probability_desc">The actual probability calculation formula of the item: the probability of the item ÷ the sum of the probabilities of all items.\n\nFor example, if you want to create an item named A with 0.1% probability:\nSelect item A and input 1% into its probability, and then select another item named B and input 999% into its probability.\nFinally the probability of item A will be 0.1% and item B will be 99.9%.</string>
-    <string name="dialog_crash_action_btn_skip_hint">Don\'t prompt temporarily</string>
+    <string name="dialog_crash_action_btn_skip_hint">Don\'t show again</string>
     <string name="title_activity_edit_category">Edit List</string>
 
     <string name="hint_uncomplete_task">Uncomplete a task</string>
