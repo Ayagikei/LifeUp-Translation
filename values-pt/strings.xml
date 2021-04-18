@@ -642,7 +642,6 @@
     <string name="dialog_reminder_method_title">Sistema de lembretes</string>
     <string name="calendar_permission">Requer permissão de leitura / gravação de calendário.</string>
     <string name="hint">Dica</string>
-    <string name="reminder_method_hint">O aplicativo está usando notificações para enviar lembretes por padrão.\nSe você não puder receber lembretes com frequência.\nVocê pode alterar o sistema de lembretes nas configurações de tarefas.</string>
     <string name="dont_show_again">Não mostre novamente</string>
     <string name="xml_clear_exp">Limpar dados de expansão</string>
     <string name="xml_clear_exp_desc">Todos os seus EXP serão redefinidos para 0.\nAtenção: Isso vai reiniciar sua vida!</string>
@@ -1363,7 +1362,7 @@
     <string name="hint_attributes_conflict">Há um conflito com outros efeitos</string>
     <string name="shop_effect_increase_coins">Aumente as moedas</string>
     <string name="shop_effect_decrease_coins">Diminuir moedas</string>
-    <string name="hint_using_too_many_items">Não é possível usar mais de 10 itens por vez que possuem efeitos especiais</string>
+    <string name="hint_using_too_many_items">Não é possível usar mais de 50 itens por vez que possuem efeitos especiais</string>
     <string name="shop_title_purchase_limit">Limite de compra</string>
     <string name="limit_number_per_day">%1$d por dia</string>
     <string name="limit_number_per_week">%1$d por semana</string>
@@ -1693,5 +1692,170 @@
 
     <string name="hint_punishment_coin">Punição por moeda</string>
     <string name="hint_punishment_coin_desc">A função de punição de moedas está desativada por padrão.\n\nVocê pode ir para a página [Configurações personalizadas] para ativá-la e ajustar o nível de punição de moedas e exp.</string>
+
+    <string name="statistics_time_7days">7 dias</string>
+    <string name="title_searching_tab_team">Equipe</string>
+    <string name="title_searching_tab_market">Mercado</string>
+    <string name="title_searching_tab_user">Usuário</string>
+
+    <string name="user_search_empty_text">Nenhum usuário correspondente.</string>
+    <string name="activity_title_search">Pesquisa</string>
+
+    <string name="hint_feedback_method_title">Feedback</string>
+    <string name="hint_feedback_method_desc">Sinta-se à vontade para fornecer feedback através da página [Sobre] - [Feedback]. Se você tiver algum problema urgente, entre em contato comigo por e-mail.\n\nLifeUp é um aplicativo independente: é difícil para nós testarmos vários modelos e versões de telefones celulares, e os bugs são difíceis de evitar.\n\nInforme-nos se você encontrar um problema para que possamos corrigi-lo.</string>
+    <string name="switch_cloud_auto_backup_ignore_media">Ignorar arquivos de mídia / imagem</string>
+
+    <string name="backup_media_file_size">Tamanho total:%1$s MB\nIconceito da loja: %2$s MB\nÍcone de realização: %3$s MB\nAnexos de tarefas: %4$s MB\nSentimentos ：%5$s MB\n\nCaminho do arquivo de mídia ：%6$s\n\nRecomenda-se remover arquivos anexos não utilizados ou compactar arquivos de imagem de sentimentos manualmente.\nO gerenciador de imagens no aplicativo será adicionado no futuro.</string>
+    <string name="setting_task_quick_add_notification">Notificação de adição rápida</string>
+    <string name="setting_task_quick_add_notification_desc">Adicione suas tarefas na barra de notificação\n (experimental). Pode aumentar o consumo de energia.</string>
+    <string name="notification_quick_add_title">LifeUp Quick Add</string>
+    <string name="notification_quick_add_desc">Toque para adicionar uma tarefa</string>
+    <string name="pomodoro_setting_cannot_receive_reminders_title">Não está recebendo lembretes?</string>
+    <string name="pomodoro_setting_cannot_receive_reminders_desc">Verifique as configurações do sistema para que o LifeUp possa ser executado em segundo plano.\nCada sistema tem métodos de configuração diferentes.\nVerifique as informações relevantes manualmente, iremos organizá-las em um documento posteriormente.</string>
+    <string name="item_stat_purcahse_times">Compras</string>
+    <string name="item_stat_used_times">Usos</string>
+    <string name="item_stat_rewards_times">Recompensas</string>
+    <string name="item_stat_gained_from_loot_boxes">Unboxes</string>
+
+    <string name="custom_attribution_desc_dialog_title">Personalizar descrição</string>
+    <string name="custom_attribution_desc">DESC</string>
+
+    <string name="compact_config_display_only_task_name">Ocultar todas as informações extras</string>
+    <string name="swipe_action_edit">Editar</string>
+    <string name="swipe_action_timer">Cronômetro</string>
+    <string name="upload_failed_message">Falha no upload, tente novamente.</string>
+    <string name="btn_delete">DELETAR</string>
+    <string name="btn_give_up">DESISTIR</string>
+    <string name="cb_return_item_no_coins">Não quero moedas</string>
+    <string name="menu_select_all">Selecionar tudo</string>
+    <string name="add_category_continue_to_add_next">Continue para adicionar a próxima lista</string>
+    <string name="switch_display_24_hours_display">Exibição de 24 horas</string>
+    <string name="clear_history_data_tasks">Tarefas</string>
+    <string name="clear_history_data_coins">Moedas</string>
+    <string name="hint_remind_system_title">Sistema de lembretes</string>
+    <string name="reminder_method_hint">O aplicativo usa notificações do sistema para enviar lembretes por padrão, o que pode ser interrompido pelo sistema.\nSe você costuma perder lembretes, altere o sistema de lembretes nas configurações de tarefa.\n\nSistema de lembretes de calendário é disponível, que não será limitado pelo status operacional do aplicativo, mas precisa de permissões de leitura / gravação no calendário.</string>
+    <string name="hint_multiple_reminders">Vários lembretes</string>
+    <string name="hint_multiple_reminders_desc">Para configurar vários lembretes, você pode criar subtarefas e configurar um lembrete para cada um deles.</string>
+    <string name="dialog_overdue_tasks_hint">Clique no botão \ "Atrasado \" para alterar o estado da tarefa.\nVocê também pode congelar tarefas suspensas com antecedência pressionando e segurando o cartão de tarefa na página de tarefas para evitar ser punido.</string>
+    <string name="default_deadline_time">Prazo final padrão</string>
+    <string name="time_the_next_day">%1$s no dia seguinte</string>
+    <string name="setting_task_new_default_setting_desc">Personalize as configurações padrão ao criar uma nova tarefa</string>
+    <string name="backup_documents">\nToque aqui para ver os documentos de backup\n</string>
+    <string name="not_recieve_reminders_hint">Não está recebendo lembretes? Verifique as configurações do sistema para permitir que o LifeUp seja executado em segundo plano.</string>
+    <string name="btn_guide">GUIA</string>
+    <string name="statistics_time_several_days">%1$d dias</string>
+    <string name="hint_number_picker">Toque no número no centro para inserir diretamente o valor de destino</string>
+    <string name="setting_task_swipe_to_switch_list">Deslize para alternar as listas de tarefas</string>
+    <string name="setting_task_swipe_to_switch_list_desc">(experimental) Deslize para a esquerda para mudar para a lista anterior, deslize para a direita para mudar para a próxima lista\n\nObservação: isso desativará a ação de deslizar do cartão e estará usando a maneira simples que pode não funcionar bem com algumas ações.</string>
+    <string name="shop_item_detail_stock_quantity">Quantidade em estoque:%1$d</string>
+    <string name="menu_change_task_state">Alterar status</string>
+    <string name="menu_change_task_state_to_give_up">Desistir</string>
+    <string name="lab_smart_list_title">Listas inteligentes</string>
+    <string name="lab_smart_list_example_desc">Todos, Diariamente, Semanalmente e Em andamento</string>
+    <string name="pomodoro_dialog_update_focus_time">Atualizar tempo de foco</string>
+    <string name="pomodoro_dialog_update_focus_time_desc">Deseja atualizar o tempo de foco?\nVocê obterá%1$d pomodoro extras.</string>
+    <string name="pomodoro_change_task_when_timer_counting">Por favor, pause o cronômetro antes de selecionar as tarefas.</string>
+    <string name="lab_icon_set_v2">Conjunto de ícones de atributos 2.0</string>
+    <string name="lab_new_icon_set_desc">Ícones de atributo redesenhados.</string>
+    <string name="menu_overdue">Atrasado</string>
+    <string name="hint_submit_activity">Após a ação "Enviar" ou "Pular", você receberá recompensas e não poderá concluir a tarefa.\n\nSe quiser concluir a tarefa, toque no botão "Cancelar".</string>
+    <string name="hint_edit_completed_time">Devido a defeitos nos cálculos estatísticos, se você editar o tempo de conclusão e alterar a ordem de conclusão de tarefas repetidas, as estatísticas geradas podem ter erros.\n\nPor favor, aguarde uma versão futura para corrigir este bug.</string>
+    <string name="cannot_edit_completed_task">Não é possível editar uma tarefa concluída</string>
+    <string name="freeze_or_unfreeze">Congelarbb/Descongelar</string>
+    <string name="goods_effect_countdown_timer">Contador regressivo</string>
+    <string name="dialog_countdown_effect_title">Contador regressivo</string>
+    <string name="dialog_countdown_effect_input_hint">contagem regressiva (minutos)</string>
+    <string name="effect_desc_item_countdown_timer">iniciar cronômetro de contagem regressiva de %1$d minuto (s)</string>
+    <string name="shop_statistics_lifetime">Vitalício</string>
+    <string name="shop_statistics_today">Hoje</string>
+    <string name="shop_statistics_this_week">Esta semana</string>
+    <string name="shop_statistics_this_month">Este mês</string>
+    <string name="dialog_input_count_task_times">Força concluída (recompensa de %1$s)</string>
+    <string name="dialog_rb_postpone_next_time">Adie a hora da próxima tarefa\n (hora de início e prazo)</string>
+    <string name="dialog_rb_dont_postpone_next_time">Manter o mesmo tempo</string>
+    <string name="title_dialog_unstarted_repeat_task">Escolha o método de repetição</string>
+    <string name="message_dialog_unstarted_task">Esta tarefa ainda não foi iniciada. Concluir mesmo assim?</string>
+    <string name="title_dialog_unstarted_task">Tarefa não iniciada</string>
+    <string name="default_name_day_list">Dia</string>
+    <string name="default_name_week_list">Semana</string>
+    <string name="default_name_month_list">Mês</string>
+    <string name="sample_category_name">Exemplo</string>
+    <string name="sample_item_small_icon">Um pequeno saco de moedas</string>
+    <string name="sample_item_small_icon_desc">Contém 10 moedas</string>
+    <string name="sample_item_big_icon">Um grande saco de moedas</string>
+    <string name="sample_item_big_icon_desc">Sorte! Ele contém 75 moedas</string>
+    <string name="sample_item_coin_loot_box">Caixa de saque de moedas</string>
+    <string name="sample_item_coin_loot_box_desc">Contém um pequeno saco de moedas ou um grande</string>
+    <string name="sample_task_try_out_loot_box">Experimente a caixa de saque de moedas</string>
+    <string name="sample_task_try_out_loot_box_desc">Conclua esta tarefa e você receberá uma caixa de saque contendo um pequeno saco de moedas ou um grande.
+Vá para a página Shop-Inventory (4ª posição da barra de navegação) para abri-la!</string>
+    <string name="sample_task_do_exercise">Faça exercícios</string>
+    <string name="sample_task_do_exercise_desc">Use a configuração de repetição para definir uma tarefa habitual</string>
+    <string name="sample_task_drink_water">Beba 7 copos de água</string>
+    <string name="sample_task_drink_water_desc">Contar tarefas pode ajudá-lo a registrar o número de vezes que você realiza algumas tarefas simples. Você só receberá uma recompensa depois de beber todos os 7 copos de água.</string>
+    <string name="sample_task_sth_positive">Faça algo positivo</string>
+    <string name="sample_task_sth_positive_desc">Tarefas ilimitadas serão atualizadas imediatamente após serem concluídas ou desistidas.\nVerifique esta tarefa quando você fizer algo positivo. Ou você pode escolher DESISTIR para receber punição quando fizer algo negativo.</string>
+    <string name="sample_task_using_days">Usando LifeUp por 7 dias</string>
+    <string name="sample_task_using_days_desc">Você pode definir uma meta para repetir a tarefa.\nVocê pode personalizar totalmente as conquistas: por exemplo, ao concluir esta tarefa pela primeira vez, você desbloqueará uma conquista personalizada.</string>
+    <string name="example_user_achievement_detail_3">Atualização vitalícia</string>
+    <string name="example_user_achievement_detail_3_desc">Conclua a tarefa de exemplo [Usando LifeUp por 7 dias] uma vez (o primeiro dia)</string>
+    <string name="hint_change_state_to_completed">Toque aqui para alterar o estado da tarefa para concluída</string>
+    <string name="lab_smart_list_all_title">Tudo</string>
+    <string name="lab_smart_list_all_desc">Mostrar todas as tarefas</string>
+    <string name="lab_smart_list_day_title">Lista de dias</string>
+    <string name="lab_smart_list_day_desc">Mostrar tarefas que expirarão hoje</string>
+    <string name="lab_smart_list_week_title">Lista da semana</string>
+    <string name="lab_smart_list_week_desc">Mostrar tarefas que expirarão esta semana (segunda a domingo)</string>
+    <string name="lab_smart_list_month_title">Lista de meses</string>
+    <string name="lab_smart_list_month_desc">Mostrar tarefas que expirarão este mês</string>
+    <string name="effect_countdown_notification_title">Contagem regressiva-</string>
+    <string name="effect_countdown_notification_end">A contagem regressiva acabou</string>
+    <string name="effect_countdown_notification_remaining">restante:&#160;</string>
+    <string name="lab_new_example_task_and_items">Novos exemplos de tarefas e itens</string>
+    <string name="lab_new_example_task_and_items_desc">Um novo conjunto de exemplos de tarefas e itens de loja, que mostra alguns casos de uso de tarefas repetidas e alguns novos recursos, incluindo caixas de saque.</string>
+    <string name="btn_ignore">IGNORE</string>
+    <string name="sample_task_get_up_early">Levante-se cedo</string>
+    <string name="sample_task_get_up_early_desc">As configurações de horário de início e prazo podem ser usadas para limitar o intervalo de tempo de uma tarefa repetida.\nA propósito, o prazo padrão sem um horário especificado (hora, minutos) será 0:00 no dia seguinte. Você pode definir um prazo específico que deseja no dia seguinte para alterar esta configuração.</string>
+
+    <!-- em xx dias -->
+    <string name="tag_deadline_v2_relative">Prazo em %1$s</string>
+    <string name="tag_deadline_v2_with_time">Prazo em %1$s</string>
+    <string name="tag_deadline_v2_with_date">Prazo em %1$s</string>
+    <!-- hoje / amanhã / ontem -->
+    <string name="tag_deadline_v2_relative_special">Prazo %1$s</string>
+
+    <!-- em xx dias -->
+    <string name="tag_start_v2_relative">Começa em %1$s</string>
+    <string name="tag_start_v2_with_time">Começa em %1$s</string>
+    <string name="tag_start_v2_with_date">Começa em %1$s</string>
+    <!-- hoje / amanhã / ontem -->
+    <string name="tag_start_v2_relative_special">Inicia %1$s</string>
+
+    <string name="relative_time_later_v2">%1$d dias</string>
+
+
+    <string name="statistics_complete_count">Concluído: %1$d</string>
+
+    <string name="shop_statistics_this_year">Este ano</string>
+    <string name="action_open_with_browser">Abrir com o navegador</string>
+    <string name="place_holder_not_set">Não definido</string>
+    <string name="dialog_title_exp_reward">Recompensa por Exp</string>
+    <string name="title_input_item_reward">Recompensa de item</string>
+    <string name="yearly">Anual</string>
+    <string name="feelings_filter">Filtro</string>
+    <string name="task_details_tap_to_view_feelings">Toque para ver os sentimentos</string>
+    <string name="button_fixed_reward">Recompensa fixa</string>
+    <string name="button_random_reward">Recompensa aleatória</string>
+    <string name="fixed_reward_desc">Corrigido</string>
+    <string name="lab_smart_list_group_by_list">Grupo por lista</string>
+    <string name="hint_ebbinghaus">Repetição de Ebbinghaus</string>
+    <string name="hint_ebbinghaus_desc">É baseado na curva de esquecimento.\n\nA programação é a seguinte:\nhoje → 1 dia depois → 1 dia depois → 2 dias depois → 4 dias depois → 7 dias depois → 15 dias depois → 30 dias depois</string>
+    <string name="hint_target_times">Tempos alvo</string>
+    <string name="hint_target_times_desc">Os tempos alvo referem-se ao número total de repetições a serem realizadas.\n\n
+Por exemplo, definir uma tarefa diária e definir o número alvo em 10 significa que um total de 10 dias de tarefas serão executados.\n\n
+Se precisar agendar várias tarefas em um ciclo de repetição, você pode usar tarefas de contagem, subtarefas ou mecanismos de frequência de repetição [Ilimitada].</string>
+    <string name="moments_filter_empty_text">Atividade não encontrada. Tente seguir alguém!</string>
+    <string name="pomodoro_hint_extra_time">Prolongamento</string>
+    <string name="pomodoro_hint_extra_time_desc">Ao tocar neste botão, você pode aumentar a duração do tempo de foco e ganhar pomodoro extras.</string>
 </resources>
 

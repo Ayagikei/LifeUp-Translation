@@ -422,7 +422,7 @@
     <string name="Fri">周五</string>
     <string name="Sat">周六</string>
     <string name="Sun">周日</string>
-    <string name="dialog_input_sport_desc">手动输入今日的计步数据。  这个功能主要提供于不以手机为主要计步工具，或者不支持相应传感器的用户使用。 每天只能手动输入一遍。</string>
+    <string name="dialog_input_sport_desc">手动输入今日的计步数据。\n这个功能主要提供于不以手机为主要计步工具，或者不支持相应传感器的用户使用。\n每天只能手动输入一遍。</string>
     <string name="dialog_input_sport_tint">步数</string>
     <string name="custom">自定义</string>
     <string name="single">单次</string>
@@ -688,7 +688,7 @@
     <string name="xml_clear_exp">清空经验值数据</string>
     <string name="xml_clear_exp_desc">将所有经验值数据重置为0。\n该操作不可逆。</string>
     <string name="clear_exp_title">清空经验值数据</string>
-    <string name="clear_exp_desc">将所有经验值数据重置为0。\n该操作不可逆。\n你确定要这样做吗？</string>
+    <string name="clear_exp_desc">将所有经验值数据重置为0。\n该操作不可逆，服务器数据需要在正常使用中触发同步后才会更新。\n你确定要这样做吗？</string>
     <string name="feature_163"><![CDATA[日历提醒 & 清空经验值]]></string>
     <string name="feature_163_desc">- 系统日历提醒机制\n- 清空经验值\n- 删除已发表的动态</string>
     <string name="err_retry">出现异常情况，请重试</string>
@@ -1148,9 +1148,10 @@
     <string name="settings_custom_task_card_bg_hint">点击这里选择图片</string>
     <string name="opacity">不透明度</string>
     <string name="common_select_photos">选择图片</string>
-    <string name="feedback_email_hint">如果你提交的反馈是疑问/使用求助，请留下邮箱以便回复。
-        \n\n为了不浪费你的时间，可以先浏览“常见问题”查看有无相关信息（如询问实现指定周几重复、事项失败惩罚）。
-        \n\n在缺失联系方式的情况下，我们无法回复，这种情况下疑问类反馈是没有意义的。</string>
+    <string name="feedback_email_hint">如果你提交的反馈是疑问/使用求助，请留下邮箱以便回复。\n
+        如果想要得到快速的回复或者是严重BUG反馈，请直接通过邮件联系我们：ayagikei@163.com
+        \n\n因这是一款独立应用，两个人都是业余时间进行开发维护，只能抽出非常有限的时间进行开发和反馈回复。\n
+        为了节省沟通成本，请先浏览“常见问题”和“说明书”查看有无相关信息（如询问实现指定周几重复、事项失败惩罚）。</string>
     <string name="statistics_time_30days">30天</string>
     <string name="statistics_time_3months">3个月</string>
     <string name="statistics_time_1year">1年</string>
@@ -1408,7 +1409,7 @@
     <string name="hint_attributes_conflict">与其他效果存在冲突，不可选中</string>
     <string name="shop_effect_increase_coins">增加金币</string>
     <string name="shop_effect_decrease_coins">减少金币</string>
-    <string name="hint_using_too_many_items">不能一次性使用超过 10 个有使用效果的商品</string>
+    <string name="hint_using_too_many_items">不能一次性使用超过 50 个有特殊效果的商品</string>
     <string name="effect_desc_in_coins">增加%1$d金币</string>
     <string name="effect_desc_de_coins">减少%1$d金币</string>
     <string name="effect_desc_in_exp">增加%1$d点%2$s经验值</string>
@@ -1634,7 +1635,7 @@
     <string name="toast_message_failed_to_call_email_app">调用系统邮件APP失败</string>
     <string name="dialog_title_server_unavailable">服务器可能被抓走了，也可能是网络连接异常</string>
     <string name="dialog_server_unavailable_message">请检查网络或者等待一段时间再试连接。目前的小水管服务器可能会出现不稳定的情况。\n另外，你可以在离线状态下游玩体验《人升》的绝大部分功能。\n\n错误信息：%1$s\n\n如果该状况持续了一段时间，请向我们反馈。</string>
-    <string name="goods_effect_loot_box">开箱（随机获取其他商品）</string>
+    <string name="goods_effect_loot_box">开箱</string>
     <string name="effect_desc_item_loot_box">开箱效果</string>
     <string name="probility_of_received_item_from_loot_box">获得了物品 (%1$.2f\%%)</string>
     <string name="hint_click_to_open_the_box">点击打开箱子吧~</string>
@@ -1810,7 +1811,7 @@
     <string name="dialog_rb_dont_postpone_next_time">保持下次事项时间不变</string>
     <string name="title_dialog_unstarted_repeat_task">选择重复方式</string>
     <string name="message_dialog_unstarted_task">事项尚未开始，是否要继续标记完成？</string>
-    <string name="title_dialog_unstarted_task">未开始是想</string>
+    <string name="title_dialog_unstarted_task">未开始事项</string>
     <string name="default_name_day_list">日事项</string>
     <string name="default_name_week_list">周事项</string>
     <string name="default_name_month_list">月事项</string>
@@ -1863,4 +1864,26 @@
     <string name="relative_time_later_v2">%1$d天后</string>
 
     <string name="statistics_complete_count">事项完成数: %1$d</string>
+    <string name="action_open_with_browser">使用浏览器打开</string>
+    <string name="place_holder_not_set">未设置</string>
+    <string name="dialog_title_exp_reward">经验值奖励</string>
+    <string name="title_input_item_reward">商品奖励</string>
+    <string name="yearly">每年</string>
+    <string name="feelings_filter">过滤</string>
+    <string name="task_details_tap_to_view_feelings">点击查看感想</string>
+    <string name="button_fixed_reward">固定奖励</string>
+    <string name="button_random_reward">随机奖励</string>
+    <string name="fixed_reward_desc">固定</string>
+    <string name="lab_smart_list_group_by_list">按清单分组显示</string>
+    <string name="hint_ebbinghaus">艾宾浩斯记忆法</string>
+    <string name="hint_ebbinghaus_desc">此重复频次基于遗忘曲线，因《人升》的最小频次限制为一天，做了相应的调整，时间表如下：\n\n当天→1天后→1天后→2天后→4天后→7天后→15天后→30天后</string>
+    <string name="hint_target_times">目标重复次数</string>
+    <string name="hint_target_times_desc">目标次数指的是总共要执行多少次重复。\n\n
+比如，设置一个每日任务，并把目标次数设置为10，指的是总共要执行10天任务。\n\n
+如果你需要在一个重复周期内安排多次任务，可以使用计数任务、子任务或者无限重复频次等机制实现（可参考说明书中的创建范例）。</string>
+    <string name="moments_filter_empty_text">没有找到对应的动态，可以试试关注一些用户～</string>
+    <string name="pomodoro_hint_extra_time">延长专注时间</string>
+    <string name="pomodoro_hint_extra_time_desc">点击这个按钮可以增加你的专注时长，并且获得额外的番茄奖励。</string>
+    <string name="hint_history_item">历史记录</string>
+    <string name="hint_history_item_desc">可以在【历史】页面重新查看或者处理所有历史记录。\n点击左上角的按钮即可选择进入【历史】页面。</string>
 </resources>

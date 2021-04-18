@@ -580,7 +580,7 @@
     <string name="move_to">Move to…</string>
     <string name="finish_and_get_reward">Completed task and earned reward: %1$s!</string>
     <string name="achievement_unlocked">Achievement unlocked</string>
-    <string name="xml_login_third_login">We currently only support login with third-party platforms</string>
+    <string name="xml_login_third_login">The app currently only support login with third-party platforms</string>
     <string name="gmt_tint">Sorry :(</string>
     <string name="gmt_tint_message">Community is only working well with GMT+8 time zone for now.\nDo you want to hide community module?\nWe will fix this later.</string>
     <string name="step_bar" />
@@ -714,7 +714,7 @@
     <string name="setting_coin_punishment">Coin Punishment Factor</string>
     <string name="setting_coin_punishment_desc">Default: 0</string>
     <string name="team_search_empty_text">No matching team. You can try to create one!</string>
-    <string name="to_do_content_unlimited_completed_times">%1$s (Completed %2$d times today)</string>
+    <string name="to_do_content_unlimited_completed_times">%1$s (%2$d times today)</string>
     <string name="setting_custom_toolbar_title">Custom Settings</string>
     <string name="dialog_input_exp_punishment_factor_title">Input Exp Punishment Factor</string>
     <string name="dialog_input_exp_punishment_factor_message">Punishment occurs when tasks become overdue or are given up.\nPunishment factor range: 0 – 5.0</string>
@@ -940,7 +940,7 @@
     <string name="switch_auto_use">Use</string>
     <string name="dialog_join_use_team_desc_as_remark">Use team desc as notes</string>
     <string name="setting_display_relative_time_display">Displaying Relative Time</string>
-    <string name="setting_display_relative_time_display_desc">Display start time and deadline time as relative time\n(e.g. 3 days later)</string>
+    <string name="setting_display_relative_time_display_desc">Display start time and deadline time as relative time\n(e.g. 3 days from now on)</string>
     <string name="date_input_hint">Generally speaking, the interval between the first start time and first end time should not be larger than task repeat frequency.\nPlease check your settings.</string>
     <string name="following">Following</string>
     <string name="user_team">Team</string>
@@ -1244,9 +1244,9 @@
     <string name="basic_task_desc">Basic</string>
     <string name="workday_task_desc">WorkDay</string>
     <string name="special_task_desc">Special</string>
-    <string name="basic_task_desc_detail">Basic Definitions:\nDeadline: The deadline of the repeat cycle. This is not the end condition of the task. (Same for the Start Time)\nThe deadline of a daily task should be set to [Today] while the deadline of a weekly task should be set to [Weekend].\n\nRepeat Frequency: Daily, Weekly, Monthly etc.\nWhen repeating a task, its start time and deadline will be calculated by the repeat frequency.\n\nFor example, when repeating a weekly task, its next start time will be 7 days after the current start time; same for the deadline.\nIn most cases, you can just set up the deadline and the repeat frequency, and the start time will be auto-calculated.</string>
+    <string name="basic_task_desc_detail">Basic Definitions:\nDeadline: The deadline of the repeat cycle. This is not the end condition of the task. (Same for the Start Time)\nThe deadline of a daily task should be set to [Today] while the deadline of a weekly task should be set to [Weekend].\n\nRepeat Frequency: Daily, Weekly, Monthly etc.\nWhen repeating a task, its start time and deadline will be calculated by the repeat frequency.\n\nFor example, when repeating a weekly task, its next start time will be 7 days after the current start time; same for the deadline.\nIn most cases, you can just set up the deadline and repeat frequency, and the start time will be auto-calculated.</string>
     <string name="weekly_task_desc_detail">How to set up a weekly task starting on [Monday], ending on [Sunday]:\n\nStep 1. Set the \"Repeat Frequency\" to [Weekly]\n\nStep 2. Set the \"Deadline\" to [Weekend] (Sunday)</string>
-    <string name="weekday_task_desc_detail">How to set up a task to occur on specific days of the week:\n\nStep 1. Set the \"Repeat Frequency\" to [Daily]\n\nStep 2. Tap the \"Ignore\" button to set the days of the week on which the task should occur</string>
+    <string name="weekday_task_desc_detail">How to set up a task to occur on specific days of the week:\n\nStep 1. Set the \"Repeat Frequency\" to [Daily]\n\nStep 2. Tap the \"Ignore\" button to set the days of the week on which the task will occur</string>
     <string name="special_task_desc_detail">How to set up a special task (e.g., daily task starting at 4:00 on the first day, with a deadline at 18:00 on the second day):\n\nStep 1. Tap the [More Options] Button to show up the start time options\n\nStep 2. Set the [Start Time] to the date of first day of the repeat, and set the time to \"4:00\"\n\nStep 3. Set the [Deadline] to the date of the day after the [Start Time] day, and then tap the [Time] options the set the specific time to \"18:00\"\n\nStep 4. Set the \"Repeat Frequency\" to [Daily]</string>
     <string name="dialog_shop_item_select_title">Select</string>
     <string name="reward_shop_item">Shop Item</string>
@@ -1273,7 +1273,7 @@
     <string name="setting_display_hide_me_desc">Hide "Me" module on the Bottom Navigation.</string>
     <string name="relaunch_item">Relaunch</string>
     <string name="relaunch_success">Relaunch successful</string>
-    <string name="auto_backup_conflict_download">Local data will be overwritten with the data that has been backed up to the servers.\n\nYou can undo this action on the backup settings page later.</string>
+    <string name="auto_backup_conflict_download">Local data will be overwritten with the data that has been backed up to the servers.\n\nYou can undo this action in the backup settings page later.</string>
     <string name="auto_backup_conflict_upload">Local data will be backed up to the remote server.\n\nThe current backup data on the server will be overwritten.</string>
     <string name="auto_backup_title_sync">Sync</string>
     <string name="auto_backup_last_sync_time">Last sync time: %1$s</string>
@@ -1396,7 +1396,7 @@
     <string name="hint_attributes_conflict">There is a conflict with another effect</string>
     <string name="shop_effect_increase_coins">Increase coins</string>
     <string name="shop_effect_decrease_coins">Decrease coins</string>
-    <string name="hint_using_too_many_items">Cannot use more than 10 items with special effects at a time</string>
+    <string name="hint_using_too_many_items">Cannot use more than 50 items with special effects at a time</string>
     <string name="effect_desc_in_coins">Increase %1$d coins</string>
     <string name="effect_desc_de_coins">Decrease %1$d coins</string>
     <string name="effect_desc_in_exp">Add %1$d Exp points to %2$s </string>
@@ -1713,7 +1713,7 @@
 
     <string name="hint_loot_box_probability">Probability</string>
     <string name="hint_loot_box_probability_desc">The actual probability calculation formula of the item: the probability of the item ÷ the sum of the probabilities of all items.\n\nFor example, if you want to create an item named A with 0.1% probability:\nSelect item A and input 1% into its probability, and then select another item named B and input 999% into its probability.\nFinally the probability of item A will be 0.1% and item B will be 99.9%.</string>
-    <string name="dialog_crash_action_btn_skip_hint">Don\'t show again</string>
+    <string name="dialog_crash_action_btn_skip_hint">Don\'t show again\n(unless next crash happened)</string>
     <string name="title_activity_edit_category">Edit List</string>
 
     <string name="hint_uncomplete_task">Uncomplete a task</string>
@@ -1803,7 +1803,7 @@
     <string name="shop_statistics_this_week">This week</string>
     <string name="shop_statistics_this_month">This month</string>
     <string name="dialog_input_count_task_times">Force complete (%1$s reward)</string>
-    <string name="dialog_rb_postpone_next_time">Postpone the next task's time\n(start time and deadline)</string>
+    <string name="dialog_rb_postpone_next_time">Postpone the next task\'s time\n(start time and deadline)</string>
     <string name="dialog_rb_dont_postpone_next_time">Keep the same time</string>
     <string name="title_dialog_unstarted_repeat_task">Choose repeat method</string>
     <string name="message_dialog_unstarted_task">This task has not started yet. Complete it anyway?</string>
@@ -1819,10 +1819,10 @@
     <string name="sample_item_coin_loot_box">Coin loot box</string>
     <string name="sample_item_coin_loot_box_desc">Contains a small bag of coins or a big one</string>
     <string name="sample_task_try_out_loot_box">Try out the coin loot box</string>
-    <string name="sample_task_try_out_loot_box_desc">complete this task: you will get a loot box containing a small bag of coins or a big one.
+    <string name="sample_task_try_out_loot_box_desc">Complete this task and you will get a loot box containing a small bag of coins or a big one.
 Go to the Shop-Inventory page (4th position of navbar) to open it!</string>
     <string name="sample_task_do_exercise">Do exercise</string>
-    <string name="sample_task_do_exercise_desc">use the repeat setting to set up a habit task</string>
+    <string name="sample_task_do_exercise_desc">Use the repeat setting to set up a habit task</string>
     <string name="sample_task_drink_water">Drink 7 glasses of water</string>
     <string name="sample_task_drink_water_desc">Count tasks can help you record the number of times you do some simple tasks. You will only get reward after drinking all 7 glasses of water.</string>
     <string name="sample_task_sth_positive">Do something positive</string>
@@ -1847,7 +1847,7 @@ Go to the Shop-Inventory page (4th position of navbar) to open it!</string>
     <string name="lab_new_example_task_and_items_desc">A new set of example tasks and shop items, which shows some use cases of repeat tasks and some new features including loot boxes.</string>
     <string name="btn_ignore">IGNORE</string>
     <string name="sample_task_get_up_early">Get up early</string>
-    <string name="sample_task_get_up_early_desc">Start time and deadline time settings can be used to limited the time range of a repeat task.\nBy the way, the default deadline without a specified time (hour, minutes) will be at 0:00 the next day. You can set the specified deadline time to the time you want on the next day to change this.</string>
+    <string name="sample_task_get_up_early_desc">Start time and deadline time settings can be used to limit the time range of a repeat task.\nBy the way, the default deadline without a specified time (hour, minutes) will be at 0:00 the next day. You can set a specified deadline you want in the next day to change this setting.</string>
 
     <!-- in xx days -->
     <string name="tag_deadline_v2_relative">Deadline in %1$s</string>
@@ -1869,4 +1869,26 @@ Go to the Shop-Inventory page (4th position of navbar) to open it!</string>
     <string name="statistics_complete_count">Completed: %1$d</string>
 
     <string name="shop_statistics_this_year">This year</string>
+    <string name="action_open_with_browser">Open with browser</string>
+    <string name="place_holder_not_set">Not set</string>
+    <string name="dialog_title_exp_reward">Exp Reward</string>
+    <string name="title_input_item_reward">Item Reward</string>
+    <string name="yearly">Yearly</string>
+    <string name="feelings_filter">Filter</string>
+    <string name="task_details_tap_to_view_feelings">Tap to view feelings</string>
+    <string name="button_fixed_reward">Fixed Reward</string>
+    <string name="button_random_reward">Random Reward</string>
+    <string name="fixed_reward_desc">Fixed</string>
+    <string name="lab_smart_list_group_by_list">Group by list</string>
+    <string name="hint_ebbinghaus">Ebbinghaus repeat</string>
+    <string name="hint_ebbinghaus_desc">It\'s based on the forgetting curve.\n\nThe schedule is as follows:\ntoday→1 day later→1 day later→2 days later→4 days later→7 days later→15 days later→30 days later</string>
+    <string name="hint_target_times">Target Times</string>
+    <string name="hint_target_times_desc">The target times refers to the total number of repetitions to be performed.\n\n
+For example, setting a daily task and setting the target number to 10 means that a total of 10 days of tasks will be executed.\m\m
+If you need to schedule multiple tasks in a repetition cycle, you can use counting tasks, subtasks, or [Unlimited] repetition frequency mechanisms.</string>
+    <string name="moments_filter_empty_text">Activity not found. Try to follow someone!</string>
+    <string name="pomodoro_hint_extra_time">Extra time</string>
+    <string name="pomodoro_hint_extra_time_desc">By tapping this button, you can increase the duration of focus time and gain extra tomatoes.</string>
+    <string name="hint_history_item">History Item</string>
+    <string name="hint_history_item_desc">History(overdue) item can be review on the [History] page, which can be entered by tapping the upper left button.</string>
 </resources>
