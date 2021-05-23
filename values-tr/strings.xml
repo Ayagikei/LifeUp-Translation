@@ -1338,7 +1338,7 @@
     <string name="hint_attributes_conflict">There is a conflict with another effects</string>
     <string name="shop_effect_increase_coins">Increase coins</string>
     <string name="shop_effect_decrease_coins">Decrease coins</string>
-    <string name="hint_using_too_many_items">Cannot use more than 10 items at a time which have special effects</string>
+    <string name="hint_using_too_many_items">Cannot use more than 100 items at a time which have special effects</string>
     <string name="shop_title_purchase_limit">Purchase Limit</string>
     <string name="limit_number_per_day">%1$d pre day</string>
     <string name="limit_number_per_week">%1$d pre week</string>
@@ -1382,4 +1382,6 @@
     <string name="translator_credit">Çevirmen: İbrahim DOĞAN</string>
 
     <string name="dialog_enable_auto_sum_short">Auto</string>
+    <string name="synthesis_item_delete_message">Bu ürünü silecek misin?</string>
+    <string name="synthesis_item_delete_title">Sil</string>
 </resources>

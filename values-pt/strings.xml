@@ -1857,5 +1857,7 @@ Se precisar agendar várias tarefas em um ciclo de repetição, você pode usar 
     <string name="moments_filter_empty_text">Atividade não encontrada. Tente seguir alguém!</string>
     <string name="pomodoro_hint_extra_time">Prolongamento</string>
     <string name="pomodoro_hint_extra_time_desc">Ao tocar neste botão, você pode aumentar a duração do tempo de foco e ganhar pomodoro extras.</string>
+    <string name="synthesis_item_delete_message">Vai realmente deletar este item?</string>
+    <string name="synthesis_item_delete_title">Excluir</string>
 </resources>
 

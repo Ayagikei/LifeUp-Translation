@@ -1396,7 +1396,7 @@
     <string name="hint_attributes_conflict">Es gibt einen Konflikt mit einem anderen Effekt</string>
     <string name="shop_effect_increase_coins">Münzen erhöhen</string>
     <string name="shop_effect_decrease_coins">Münzen vermindern</string>
-    <string name="hint_using_too_many_items">Es können nicht mehr als 10 Gegenstände gleichzeitig verwendet werden, die spezielle Effekte haben</string>
+    <string name="hint_using_too_many_items">Es können nicht mehr als 50 Gegenstände gleichzeitig verwendet werden, die spezielle Effekte haben</string>
     <string name="effect_desc_in_coins">Erhöhe %1$d Münzen</string>
     <string name="effect_desc_de_coins">Verringern von %1$d Münzen</string>
     <string name="effect_desc_in_exp">Erhöht %1$d Exp-Punkte von %2$s </string>
@@ -1868,4 +1868,7 @@ Gehen Sie auf die Seite Shop-Inventar (4. Position der Navigationsleiste), um si
 
 
     <string name="statistics_complete_count">Abgeschlossen: %1$d</string>
+
+    <string name="synthesis_item_delete_message">Wollen Sie diesen Gegenstand wirklich löschen?</string>
+    <string name="synthesis_item_delete_title">Löschen</string>
 </resources>

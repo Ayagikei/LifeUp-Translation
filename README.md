@@ -12,6 +12,9 @@ Welcome to contribute more language!
 - Turkish(values-tr)
 - Portuguese(values-pt)
 - German(values-de)
+- Italian(values-it)
+- Russian(values-ru)
+- Japanese(values-ja)
 
 
 

@@ -358,7 +358,7 @@
     <string name="profile_gender">性别</string>
     <string name="profile_avatar">更换头像</string>
     <string name="yb_network_problem">页面加载失败，请检查你的网络连接！点击重试。</string>
-    <string name="backup_not_found_file">未检测到备份文件！</string>
+    <string name="backup_not_found_file">默认路径未检测到备份文件！</string>
     <string name="xml_team_basic_header">团队基础信息</string>
     <string name="xml_team_to_do">团队待办事项</string>
     <string name="xml_team_remark">团队描述</string>
@@ -487,7 +487,7 @@
     <string name="action_follow">关注</string>
     <string name="follow">圈子</string>
     <string name="widget_empty">该清单的事项都完成了！</string>
-    <string name="about_app_description">一款「人生游戏化」的待办事项管理应用。 用「游戏化」的形式让你的人生更加美好。</string>
+    <string name="about_app_description">一款「人生游戏化」的待办事项管理应用，高自定义性、简约、有趣。\n用「游戏化」的形式让你的人生更加美好。</string>
     <string name="about_check_update">检测更新</string>
     <string name="about_new_version">检测到新版本</string>
     <string name="about_update_content_title">更新内容</string>
@@ -1149,9 +1149,9 @@
     <string name="opacity">不透明度</string>
     <string name="common_select_photos">选择图片</string>
     <string name="feedback_email_hint">如果你提交的反馈是疑问/使用求助，请留下邮箱以便回复。\n
-        如果想要得到快速的回复或者是严重BUG反馈，请直接通过邮件联系我们：ayagikei@163.com
+        如果想要得到快速的回复或者是严重BUG反馈，请直接通过邮件联系我们【或者在侧边栏「资讯」中添加QQ讨论群进行反馈】：\nayagikei@163.com
         \n\n因这是一款独立应用，两个人都是业余时间进行开发维护，只能抽出非常有限的时间进行开发和反馈回复。\n
-        为了节省沟通成本，请先浏览“常见问题”和“说明书”查看有无相关信息（如询问实现指定周几重复、事项失败惩罚）。</string>
+        为了节省沟通成本，请先浏览“常见问题”和“说明书”查看有无相关信息，或者也可以尝试加讨论群进行咨询（请先查阅常见问题以节省大家的时间～）。</string>
     <string name="statistics_time_30days">30天</string>
     <string name="statistics_time_3months">3个月</string>
     <string name="statistics_time_1year">1年</string>
@@ -1436,7 +1436,7 @@
     <string name="calendar_show_repeat_progress">展示重复事项进度</string>
     <string name="calendar_ignore_repeat_progress">忽略重复事项进度</string>
     <string name="hint_shop_limit_not_more_available">无可添加限制</string>
-    <string name="shop_effect_synthesis">合成</string>
+    <string name="shop_effect_synthesis">简易合成</string>
     <string name="input_recipe_number">配方数量</string>
     <string name="to_create_a">以合成一个</string>
     <string name="synthesised_item">合成物品</string>
@@ -1597,7 +1597,7 @@
     <string name="pomodoro_empty_text">暂时没有计时记录</string>
     <string name="title_activity_pomodoro_record">番茄计时记录</string>
     <string name="pomodoro_record_focus_time">专注了%1$d分钟</string>
-    <string name="place_a_app_widget_method_hint">创建桌面小部件的方式因桌面程序而异\n一般可以试试长按系统桌面程序的空白处</string>
+    <string name="place_a_app_widget_method_hint">点击这里可创建桌面小部件\n\n或者可以试试长按系统桌面程序的空白处进行创建（因系统桌面程序而异）</string>
     <string name="user_achievement_shop_item_reward_title">获得了物品！</string>
     <string name="xml_add_user_achievment_complete_reward">完成奖励</string>
 
@@ -1634,7 +1634,7 @@
     <string name="btn_email">邮件</string>
     <string name="toast_message_failed_to_call_email_app">调用系统邮件APP失败</string>
     <string name="dialog_title_server_unavailable">服务器可能被抓走了，也可能是网络连接异常</string>
-    <string name="dialog_server_unavailable_message">请检查网络或者等待一段时间再试连接。目前的小水管服务器可能会出现不稳定的情况。\n另外，你可以在离线状态下游玩体验《人升》的绝大部分功能。\n\n错误信息：%1$s\n\n如果该状况持续了一段时间，请向我们反馈。</string>
+    <string name="dialog_server_unavailable_message">请检查网络（尝试切换Wi-Fi或者移动网络）以及检查【是否禁用了应用的网络权限】，或者等待一段时间再试连接。目前的小水管服务器可能会出现不稳定的情况。\n另外，你可以在离线状态下游玩体验《人升》的绝大部分功能。\n\n错误信息：%1$s\n\n如果该状况持续了一段时间，请向我们反馈。</string>
     <string name="goods_effect_loot_box">开箱</string>
     <string name="effect_desc_item_loot_box">开箱效果</string>
     <string name="probility_of_received_item_from_loot_box">获得了物品 (%1$.2f\%%)</string>
@@ -1743,7 +1743,7 @@
     <string name="hint_feedback_method_title">反馈</string>
     <string name="hint_feedback_method_desc">当遇到了任何问题，欢迎随时通过【关于】-【反馈】界面进行反馈。\n如果是比较紧急的问题，建议选择使用邮箱进行反馈。\n\n人升目前是款独立开发应用，甚至没有专门的测试人员，测试无法覆盖市面上所有的手机机型和版本（安卓也有各种OS魔改兼容性问题）。\n\n所以请提供相关信息以便我们进行问题修复。</string>
     <string name="switch_cloud_auto_backup_ignore_media">忽略媒体（图片）文件</string>
-    <string name="backup_media_file_size">总大小: %1$s MB\n商店图标: %2$s MB\n成就图标: %3$s MB\n事项附件: %4$s MB\n感想图片：%5$s MB\n\n媒体文件路径：%6$s\n\n建议手动前往对应路径处理不再需要的附件文件（attachments文件夹以及根目录，未来将在应用内增加图片管理）。\n如果感想文件夹体积较大，可以选择使用工具进行图片压缩。</string>
+    <string name="backup_media_file_size">总大小: %1$s MB\n（若大于10MB，云同步时强烈推荐开启忽略）\n商店图标: %2$s MB\n成就图标: %3$s MB\n事项附件: %4$s MB\n感想图片：%5$s MB\n\n媒体文件路径（文件管理器的根目录可能相当于/storage/emulated/0/）：%6$s\n\n建议手动前往对应路径处理不再需要的附件文件（attachments文件夹以及根目录，未来将在应用内增加图片管理）。\n如果感想文件夹体积较大，可以选择使用工具进行图片压缩。</string>
     <string name="setting_task_quick_add_notification">快速创建常驻通知</string>
     <string name="setting_task_quick_add_notification_desc">从通知栏添加待办事项\n(试验性功能）可能会增加耗电量，如出现异常可关闭</string>
     <string name="notification_quick_add_title">人升: 快速创建待办事项</string>
@@ -1798,7 +1798,7 @@
     <string name="hint_edit_completed_time">修改重复事项完成时间时，如果导致重复事项的前后顺序变动，可能会影响事项详情页面的统计异常。\n\n该问题会在后续改进统计的计算方式时解决。</string>
     <string name="cannot_edit_completed_task">不可编辑已完成的事项</string>
     <string name="freeze_or_unfreeze">冻结/解冻</string>
-    <string name="goods_effect_countdown_timer">倒计时</string>
+    <string name="goods_effect_countdown_timer">倒计时（试验）</string>
     <string name="dialog_countdown_effect_title">倒计时</string>
     <string name="dialog_countdown_effect_input_hint">分钟</string>
     <string name="effect_desc_item_countdown_timer">开始 %1$d 分钟倒计时</string>
@@ -1885,5 +1885,75 @@
     <string name="pomodoro_hint_extra_time">延长专注时间</string>
     <string name="pomodoro_hint_extra_time_desc">点击这个按钮可以增加你的专注时长，并且获得额外的番茄奖励。</string>
     <string name="hint_history_item">历史记录</string>
-    <string name="hint_history_item_desc">可以在【历史】页面重新查看或者处理所有历史记录。\n点击左上角的按钮即可选择进入【历史】页面。</string>
+    <string name="hint_history_item_desc">可以在【历史】页面重新查看或者处理所有历史记录（补打卡）。\n点击左上角的按钮即可选择进入【历史】页面。</string>
+    <string name="hint_add_widget_system_version_not_supported">当前系统版本不支持该操作，你可以尝试在桌面上手动添加。</string>
+    <string name="me_achievement_completed_count">成就</string>
+    <string name="me_feelings_count">感想</string>
+    <string name="tasks_statistic_current_streak">连续</string>
+    <string name="shop_item_effect_countdown_action_end">结束</string>
+    <string name="shop_item_effect_countdown_action_pause">暂停（恢复需要再使用新商品）</string>
+    <string name="restart_success">操作成功</string>
+    <string name="add_to_do_taptarget_deadline_specify_deadline_time_tominutes">指定期限时间到具体某分钟</string>
+    <string name="hint_shop_item_timer_hint_with_permission">已经发送倒计时通知，可在通知栏查看倒计时状态并操作</string>
+    <string name="hint_shop_item_timer_hint_without_permission">缺失通知权限，倒计时通知可能会发送失败，请开启通知权限</string>
+    <string name="starter_task_compatibility">兼容性配置</string>
+    <string name="starter_task_compatibility_desc">为了正常使用人升的部分功能（番茄钟、桌面小部件、倒计时等），你可能需要参考这篇文章进行一些配置工作，点入详情可跳转链接：http://wiki.lifeupapp.fun/zh-cn/#/guide/compatibility</string>
+    <string name="btn_known_issues">已知问题</string>
+    <string name="statistics_overdue_count">逾期: %1$d</string>
+    <string name="statistics_give_up_count">放弃: %1$d</string>
+    <string name="vibrate_mode">振动模式</string>
+    <string name="dialog_title_vibrate_mode">振动模式</string>
+    <string name="vibrate_long">长（约2.5秒）</string>
+    <string name="vibrate_short">短（约0.5秒）</string>
+    <string name="vibrate_disable">禁用</string>
+    <string name="ringtone_enable">启用</string>
+    <string name="ringtone_disable">禁用</string>
+    <string name="dialog_title_ringtone_enable">响铃提醒</string>
+    <string name="ringtone">响铃提醒</string>
+    <string name="widget_init_state_desc">加载中（可能由于系统拦截导致加载失败）</string>
+    <string name="custom_sound_effect_shop_item_timer_end">商品效果计时结束</string>
+    <string name="title_delete_local_data">删除本地存储数据</string>
+    <string name="desc_delete_local_data">这将删除你的所有本地数据，包括事项、商品、自定义成就等。</string>
+    <string name="title_delete_account">删除账号（服务器数据）</string>
+    <string name="desc_delete_remote_data">这将删除你在远程服务器上的数据，包括第三方账号验证信息、公开动态、分享的商品等。</string>
+    <string name="delete_account_success">成功删除账号</string>
+    <string name="dialog_delete_account_title">删除账号</string>
+    <string name="dialog_delete_account_desc">这将永久删除你在远程服务器上的数据，包括第三方账号验证信息、公开动态、分享的商品等。</string>
+    <string name="dialog_delete_local_data_title">删除本地存储数据</string>
+    <string name="dialog_delete_local_data_desc">这将永久、不可撤销地删除你的所有本地数据，包括事项、商品、自定义成就等。应用会回到刚安装时的状态。</string>
+    <string name="synthesis_item_delete_message">你确定要永久删除该配方吗？</string>
+    <string name="synthesis_item_delete_title">删除</string>
+    <string name="synthesis_item_failed">合成失败</string>
+    <string name="synthetic_formula_not_found">没有找到可用的合成配方，点击右下角按钮创建一个吧！</string>
+    <string name="add_to_do_min_before_deadline">期限前%1$d分钟</string>
+    <string name="add_to_do_hours_min_before_deadline">期限前%1$d小时%2$d分钟</string>
+    <string name="add_to_do_min_before_start">开始前%1$d分钟</string>
+    <string name="add_to_do_hours_min_before_start">开始前%1$d小时%2$d分钟</string>
+    <string name="title_synthesis_page">合成</string>
+
+    <string name="function_that_is_still_working_on">开发者正在开发该功能，请等待更新后再试试吧〜</string>
+    <string name="title_synthetic_material">合成素材</string>
+    <string name="title_synthetic_result">合成结果</string>
+    <string name="title_page_new_synthesis_formula">新建合成配方</string>
+    <string name="title_page_edit_synthesis_formula">编辑合成配方</string>
+    <string name="title_dialog_synthesis">合成</string>
+    <string name="hint_experimental">试验性功能</string>
+    <string name="hint_experimental_desc">该功能属于试验性功能，功能未经过长期检验。可能存在UI待调整、动画效果不完善、部分功能待实现，甚至使用异常的情况，遇到问题请联系开发者进行反馈（尽量使用及时反馈渠道，而非应用内反馈）。</string>
+    <string name="title_module_config">模块配置</string>
+    <string name="hint_alpha_version">alpha版本页面</string>
+    <string name="lab_new_task_page_code_refactoring">新建事项页面重构</string>
+    <string name="lab_new_tasks_refactor_desc">为了应用的扩展性和可维护性，我们重新编写了“新建事项”和“编辑事项”页面的代码。\n虽然UI上并没有改动，但是内部逻辑都经过了大部分的整理，我们后续会在此基础上优化一些交互。\n\n但由于改动较大，如果你在使用途中遇到任何问题，请及时向开发者反馈并可以自助切换回旧版页面。</string>
+    <string name="dialog_module_select_title">选择模块</string>
+    <string name="setting_module_config">底部导航栏模块配置</string>
+    <string name="setting_display_module_config_desc">自由调整底部导航栏的模块\n可以自由隐藏或者替换你所不需要的模块，如“世界”模块。（当前仅部分支持替换，后续会逐渐适配更多模块）。</string>
+    <string name="shop_item_effect_countdown_action_resume">恢复</string>
+    <string name="effect_count_down_notification_pausing">已暂停</string>
+    <string name="shop_item_effect_countdown_action_close">关闭</string>
+    <string name="shop_item_effect_countdown_action_pause_but_stay">暂停（保留）</string>
+    <string name="toast_got_coins">获得了 %1$d 个金币</string>
+    <string name="pomodoro_dialog_skip_title">跳过</string>
+    <string name="button_skip">跳过</string>
+    <string name="pomodoro_dialog_skip_message">你确定要跳过工作时长？你将失去获得一个完整的番茄的机会。或者你可以选择暂停...</string>
+    <string name="starter_task_check_unstarted_task">检查未开始的任务</string>
+    <string name="starter_task_check_unstarted_task_desc">Tasks that are not in the available time period will be folded. If you don\'t see the "get up early" task at the bottom of the task, try tapping the unfold button (triangle) at the bottom.</string>
 </resources>
