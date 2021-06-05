@@ -1,59 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+<resources>
     <!-- bottom bar title -->
+    <string name="title_status">Статус</string>
     <!-- Welcome Activity -->
+    <string name="page4_title">ОБЛАКО</string>
     <!-- Strings related to login -->
-    <string name="title_activity_add_to_do_item">Добавить Новую Задачу</string>
-    <string name="title_activity_about">О нас</string>
-    <string name="activity_join_team_text">Добро пожаловать %1$s присоединился к команде 「%2$s」</string>
-    <string name="exp">Опыт</string>
-    <string name="tomorrow_with_time">Завтра %1$s</string>
-    <string name="yesterday_with_time">Вчера %1$s</string>
-    <string name="exp_pie_chart">Опыт</string>
-    <string name="detail">Подробности</string>
-    <string name="team_exp">Награда за опыт:&#160;</string>
-    <!-- ˶‾᷄ -̫ ‾᷅˵ 歩数計に対応していない携帯電話をお使いの方にお勧めです。-->
-    <string name="tab_moments">Моменты</string>
-    <string name="exp_pie_chart_title">Опыт</string>
+    <string name="about_version_name">Версия</string>
+    <string name="team_add_not_repeat">Никогда</string>
+    <string name="add_to_do_not_repeat">Никогда</string>
+    <string name="login_exception_qq_information">Получение исключения информации qq:</string>
+    <string name="add_to_do_taptarget_deadline_title">Срок</string>
+    <string name="setting_widget_toolbar_title">Виджет</string>
+    <string name="ebbinghaus">Эббингауз</string>
+    <string name="user_follower_list">Последователь</string>
+    <string name="exp">опыт</string>
+    <string name="start">Начинать</string>
+    <string name="deadline">Срок</string>
+    <string name="team">Команда</string>
+    <string name="status_toolbar_title">Статус</string>
+    <string name="to_do_all_time">Все время</string>
+    <string name="to_do_taptarget_nav">Навигация</string>
+    <string name="profile_avatar">Аватар</string>
+    <string name="xml_team_extra_header">Дополнительный</string>
+    <string name="xml_add_to_do_extra_header">Дополнительный</string>
+    <!-- \nThis is for the users whose phone doesn\'t support pedometer. -->
+    <string name="tab_team">Команда</string>
+    <string name="status_sport_title">Спорт</string>
     <string name="tag_team_single">Команда - без повтора</string>
-    <string name="total_exp">Опыт</string>
+    <string name="tag_team">Команда</string>
+    <string name="tag_local_single">Нет повтора</string>
+    <string name="tag_start">%1$s Начато</string>
+    <string name="total_exp">Всего опыта</string>
     <string name="QandA">Вопрос&amp;Ответ</string>
-    <string name="about">О нас</string>
-    <string name="long_friday">Пятница</string>
+    <string name="asc_or_desc">По возрастанию / по убыванию</string>
     <string name="sort_exp">Опыт</string>
     <string name="to_do_exp">%1$d Опыта</string>
-    <string name="about_feature_element">Особенность</string>
-    <!--    <string name="feature_like_desc">- タスクの連勝を「忍耐力」に交換する</string>-->
+    <string name="filter">Фильтр</string>
+    <string name="feature_plan">Планируется</string>
+    <string name="tab_shop">Магазин</string>
+    <string name="add_shop_item_content">Имя</string>
+    <string name="nav_shop">Магазин</string>
+    <string name="to_do_item_detail_complete_reward">Награда за опыт: %1$s%2$d P</string>
+    <string name="til_coin_max_hint">Максимум</string>
+    <string name="xml_user_attribution_header">Статус</string>
+    <string name="moments_filter">Фильтр</string>
     <!-- Base Achievement -->
     <!-- Task Achievements -->
-    <!--Attributes Achievements -->
+    <!-- Attributes Achievements -->
+    <string name="achievement_attribution_alchemist">Алхимик</string>
     <!-- Community Achievements -->
     <!-- Shop Achievements -->
-    <string name="achievement_shop_bad_luck">Плохая удача</string>
-    <string name="dialog_join_use_team_desc_as_remark">Используйте описание команды в качестве примечаний</string>
+    <string name="achievement_shop_jackpot">Джекпот!</string>
+    <string name="achievement_shop_monopoly">Монополия</string>
+    <string name="achievement_type_shop">Магазин</string>
+    <string name="user_team">Команда</string>
+    <string name="follower">Последователь</string>
     <string name="btn_ok">ОК</string>
+    <string name="custom_attribution_icon">ИКОНКА</string>
+    <string name="custom_attribution_text">ТЕКСТ</string>
     <!-- Team Report Type -->
     <!-- Feelings Fav -->
+    <string name="feelings_fav_action">Изб</string>
     <!-- degree only in Chinese now -->
+    <string name="importance_lv1_desc">Это необязательный вопрос. Это может быть такая задача, как «проверка определенных сплетен о текущих событиях». Он появляется по определенному совпадению, только ценность, которую вы почти не помните, и влияние ее завершения на вас можно игнорировать.</string>
+    <string name="importance_lv2_desc">Этот вопрос заслуживает небольшого внимания. Это может быть такая задача, как «повторять 10 слов каждый день». Его выполнение не окажет на вас значительного влияния, но может заставить вас обнаружить, что вы значительно улучшились после тонкого сложения чисел. Верно и обратное: если вы не можете упорствовать в выполнении определенных задач этого уровня, вы можете соответственно потерять некоторые важные вещи.</string>
+    <string name="importance_lv3_desc">Этот вопрос требует вашего внимания. Это может быть такая задача, как «завершить рукопись до крайнего срока». Выполнение такой задачи может сразу принести вам значительную пользу. Напротив, если вы не справитесь с такой задачей, ваша потеря может вызвать у вас болезненные ощущения.</string>
+    <string name="importance_lv4_desc">Теперь немедленно отложите все остальное и сделайте это первым. Этот уровень задач уже невозможно отличить от хороших и плохих точек зрения, он окажет очень серьезное влияние на вашу текущую жизнь. Выполнение задач на этом уровне может позволить вам достичь захватывающих достижений или избежать некоторых катастрофических последствий; если вы проиграете, ситуация станет плохой, довольно плохой.</string>
+    <string name="difficult_lv1_desc">Нет никаких сложностей. Для вас это вопрос усилий, без какой-либо силы воли, и вы можете решить проблему за очень короткое время.</string>
+    <string name="difficult_lv2_desc">Это немного сложно. Возможно, вам придется задействовать свой мозг и потратить некоторое время на выполнение такой задачи, или вы можете быть ленивым, сопротивляться этой задаче и не желать продолжать.</string>
+    <string name="difficult_lv3_desc">Это сложно. \nВам может понадобиться немного поучиться, пополнить свои знания, потратить много времени на размышления и тестирование, чтобы выполнить такую ​​задачу, или эта задача включает в себя контент, который вызывает у вас отвращение или страх и требует большой силы воли, которую нужно преодолеть.</string>
+    <string name="difficult_lv4_desc">Завершить практически невозможно.\nЭта задача затронула многие слепые зоны ваших способностей, так же волшебно, как позволить старшекласснику пройти семестр проверки и поступления в университет Цинхуа. Из-за нехватки способностей время стало чрезвычайно актуальным.Для выполнения задач на этом уровне, если у вас нет упорства, превышающего человеческое, и решимости никогда не сдаваться.</string>
     <string name="title_activity_degree_desc">Степень</string>
-    <string name="action_shop_atm">БАНКОМАТ</string>
-    <string name="shop_atm">БАНКОМАТ</string>
+    <string name="content_degree_desc_author">Автор：酷安 @风之心_天双</string>
+    <string name="about_donate_element">Пожертвовать</string>
+    <string name="about_icon_designer_element">Дизайнер иконок CoolApk@这是一碗麦面</string>
+    <string name="default_name_system_achievements">Система</string>
     <string name="feature_1740">БАНКОМАТ</string>
-    <!--podomoro -->
+    <string name="relaunch_item">Перезапутить</string>
+    <string name="btn_sync">СИНХ</string>
+    <string name="btn_config">КОНФИГУРАЦИЯ</string>
+    <string name="btn_upload">ЗАГРУЗИТЬ</string>
+    <string name="btn_download">СКАЧАТЬ</string>
+    <!-- podomoro -->
+    <string name="timer_preference_category_title">Таймер</string>
     <string name="number_picker_dialog_positive_button_text">ОК</string>
+    <string name="nav_pomodoro">Помодоро</string>
+    <string name="menu_timer">Таймер</string>
+    <string name="pro_version">PRO</string>
     <string name="shop_effect_exp">Опыт</string>
+    <string name="inventory_btn_synthesis">СИНТЕЗИРОВАТЬ</string>
+    <string name="open_shop_btn_import">ИМПОРТИРОВАТЬ</string>
+    <string name="Jan">Янв.</string>
+    <string name="Feb">Фев.</string>
+    <string name="Mar">Мар.</string>
+    <string name="Apr">Апр.</string>
+    <string name="Jun">Июн.</string>
+    <string name="Jul">Июл.</string>
+    <string name="Aug">Авг.</string>
+    <string name="Nov">Ноя.</string>
+    <string name="QandA_update_desc">Обновить описание</string>
     <string name="QandA_q_and_a">Вопрос&amp;Ответ</string>
+    <string name="dialog_enable_auto_sum_short">Авто</string>
+    <string name="status_pomodoro_card_title">Помодоры</string>
     <string name="dialog_category_hide_hint_button">ОК</string>
-    <string name="select_shop_item_reward_with_stock_number">%1$s x%2$d\n(%3$d оставлено)</string>
-    <string name="pomodoro_record_focus_time">сфокусировано %1$d минут</string>
-    <string name="chip_feelings">Чувства</string>
-    <string name="hint_world_module">Привет, Мир!</string>
-    <string name="effect_countdown_notification_remaining">осталось:&#160;</string>
+    <string name="user_activity_shop_title">Магазин</string>
+    <string name="menu_icon">Икона</string>
+    <string name="hint_feedback_method_title">Обратная связь</string>
+    <string name="btn_guide">ГИД</string>
+    <string name="lab_icon_set_v2">Набор Иконок Навыков 2.0</string>
+    <!-- in xx days -->
+    <string name="tag_deadline_v2_relative">Срок в %1$s</string>
+    <!-- today/tomorrow/yesterday -->
+    <string name="tag_deadline_v2_relative_special">Срок %1$s</string>
     <!-- in xx days -->
     <!-- today/tomorrow/yesterday -->
-    <!-- in xx days -->
-    <!-- today/tomorrow/yesterday -->
-    <string name="statistics_complete_count">Завершено: %1$d</string>
-    <string name="dialog_title_exp_reward">Опыт</string>
-    <!--    <string name="moment_filter_empty_text">Activity not found. 誰かをフォローしてみてください！</string>-->
 </resources>
