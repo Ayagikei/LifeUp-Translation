@@ -1,11 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Welcome Activity -->
-    <!-- Strings related to login -->
-    <!-- 单次成就 -->
-    <!-- 事项成就 -->
-    <!-- 属性成就 -->
-    <!-- 社区成就 -->
-    <!-- 商店成就 -->
-    <!-- podomoro -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <!-- На 645 строке -->
+    <!-- bottom bar title / заголовок нижней панели -->
+    <!-- Welcome Activity /Приветственное Активити -->
+    <string name="page2_title">OYUNLAŞTIRILMIŞ HAYAT</string>
+    <!-- Strings related to login / Строки, относящиеся к логину -->
+    <string name="date">yyyy-AA-gg</string>
+    <!-- СИЛА -->
+    <!-- ОЧАРОВАНИЕ -->
+    <!-- ВЫНОСЛИВОСТЬ -->
+    <string name="month_and_day">AA-gg</string>
+    <string name="notification_ticker">YAPILACAKLAR</string>
+    <!-- \nThis is for the users whose phone doesn\'t support pedometer.  / Это для пользователей, чей телефон не поддерживает шагомер.-->
+    <!-- Base Achievement / Базовое достижение -->
+    <!-- Task Achievements / Достижения Задач-->
+    <!-- Attributes Achievements / Навыки - Атрибуты Достижения -->
+    <!-- Community Achievements / Достижения сообщества -->
+    <string name="achievement_community_new_member_desc">Bir takıma katıl veya yeni bir takım oluştur</string>
+    <!-- Shop Achievements / Достижения Магазина -->
+    <string name="web_dav_url">WebDAV Linki</string>
+    <string name="web_dav_account">WebDAV Hesabı</string>
+    <string name="web_dav_password">WebDAV Şifresi</string>
+    <string name="xml_backup_cloud_setting">WebDAV Yapılandırması</string>
+    <string name="webdav_configuration">WebDAV Yapılandırması</string>
+    <string name="webdav_url">WebDAV Linki</string>
+    <string name="webdav_password">WebDAV Şifresi</string>
+    <!-- Team Report Type / Тип отчета команды -->
+    <!-- Feelings Fav / Чувства Избранное -->
+    <!-- было Fav -->
+    <!-- degree only in Chinese now /степень только на китайском сейчас -->
+    <!-- podomoro / помодоро -->
+    <!-- in xx days / через xx дней-->
+    <!-- today/tomorrow/yesterday = сегодня / завтра / вчера -->
+    <!-- in xx days  / через xx дней -->
+    <!-- today/tomorrow/yesterday = сегодня / завтра / вчера -->
 </resources>
