@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- bottom bar title -->
-    <!-- Welcome Activity -->
-    <!-- Strings related to login -->
-    <!-- \nThis is for the users whose phone doesn\'t support pedometer. -->
-    <!-- Base Achievement -->
-    <!-- Task Achievements -->
-    <!-- Attributes Achievements -->
-    <!-- Community Achievements -->
-    <!-- Shop Achievements -->
-    <!-- Team Report Type -->
-    <!-- Feelings Fav -->
-    <!-- degree only in Chinese now -->
-    <!-- podomoro -->
-    <!-- in xx days -->
-    <!-- today/tomorrow/yesterday -->
-    <!-- in xx days -->
-    <!-- today/tomorrow/yesterday -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <!-- На 645 строке -->
+    <!-- bottom bar title / заголовок нижней панели -->
+    <!-- Welcome Activity /Приветственное Активити -->
+    <!-- Strings related to login / Строки, относящиеся к логину -->
+    <!-- СИЛА -->
+    <!-- ОЧАРОВАНИЕ -->
+    <!-- ВЫНОСЛИВОСТЬ -->
+    <!-- \nThis is for the users whose phone doesn\'t support pedometer.  / Это для пользователей, чей телефон не поддерживает шагомер.-->
+    <!-- Base Achievement / Базовое достижение -->
+    <!-- Task Achievements / Достижения Задач-->
+    <!-- Attributes Achievements / Навыки - Атрибуты Достижения -->
+    <!-- Community Achievements / Достижения сообщества -->
+    <!-- Shop Achievements / Достижения Магазина -->
+    <!-- Team Report Type / Тип отчета команды -->
+    <!-- Feelings Fav / Чувства Избранное -->
+    <!-- было Fav -->
+    <!-- degree only in Chinese now /степень только на китайском сейчас -->
+    <!-- podomoro / помодоро -->
+    <!-- in xx days / через xx дней-->
+    <!-- today/tomorrow/yesterday = сегодня / завтра / вчера -->
+    <!-- in xx days  / через xx дней -->
+    <!-- today/tomorrow/yesterday = сегодня / завтра / вчера -->
 </resources>
