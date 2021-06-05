@@ -1,25 +1,197 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <!-- На 645 строке -->
-    <!-- bottom bar title / заголовок нижней панели -->
-    <!-- Welcome Activity /Приветственное Активити -->
-    <!-- Strings related to login / Строки, относящиеся к логину -->
-    <!-- СИЛА -->
-    <!-- ОЧАРОВАНИЕ -->
-    <!-- ВЫНОСЛИВОСТЬ -->
-    <!-- \nThis is for the users whose phone doesn\'t support pedometer.  / Это для пользователей, чей телефон не поддерживает шагомер.-->
-    <!-- Base Achievement / Базовое достижение -->
-    <!-- Task Achievements / Достижения Задач-->
-    <!-- Attributes Achievements / Навыки - Атрибуты Достижения -->
-    <!-- Community Achievements / Достижения сообщества -->
-    <!-- Shop Achievements / Достижения Магазина -->
-    <!-- Team Report Type / Тип отчета команды -->
-    <!-- Feelings Fav / Чувства Избранное -->
-    <!-- было Fav -->
-    <!-- degree only in Chinese now /степень только на китайском сейчас -->
-    <!-- podomoro / помодоро -->
-    <!-- in xx days / через xx дней-->
-    <!-- today/tomorrow/yesterday = сегодня / завтра / вчера -->
-    <!-- in xx days  / через xx дней -->
-    <!-- today/tomorrow/yesterday = сегодня / завтра / вчера -->
+<resources>
+    <!-- Welcome Activity -->
+    <!-- Strings related to login -->
+    <string name="setting_widget_toolbar_title">Виджет</string>
+    <string name="ebbinghaus">Эббингауз</string>
+    <string name="exp">опыт</string>
+    <string name="profile_avatar">Аватар</string>
+    <!-- \nThis is for the users whose phone doesn\'t support pedometer. -->
+    <string name="QandA">Вопрос&amp;Ответ</string>
+    <string name="sort_exp">Опыт</string>
+    <string name="to_do_exp">%1$d Опыта</string>
+    <string name="feature_plan">Планируется</string>
+    <string name="feature_163"><![CDATA[Напоминание календаря & Очистить данные]]></string>
+    <!-- Single Achievement -->
+    <!-- Task Achievement -->
+    <!-- Attributes Achievement -->
+    <!-- Community Achievement -->
+    <!-- Shop Achievement -->
+    <string name="achievement_shop_jackpot">Джекпот!</string>
+    <string name="achievement_shop_monopoly">Монополия</string>
+    <string name="setting_custom_card_background">Настраиваемый фон карточки задачи</string>
+    <string name="opacity">Непрозрачность</string>
+    <string name="common_select_photos">Выбрать фотографии</string>
+    <string name="statistics_time_30days">30 Дней</string>
+    <string name="statistics_time_3months">3 Месяцев</string>
+    <string name="statistics_time_1year">1 Год</string>
+    <string name="statistics_time_all_time">Все время</string>
+    <string name="app_widget_header_opacity">Непрозрачность заголовка</string>
+    <string name="app_widget_background_opacity">Прозрачность фона</string>
+    <string name="setting_widget_opacity">Прозрачность виджета приложения</string>
+    <string name="inventory_return">Вернуть</string>
+    <string name="inventory_item_return_detail_coin">Вы получите %1$d монету(ы)</string>
+    <string name="inventory_item_return_title">Вернуть</string>
+    <string name="inventory_item_return_desc">Вернуть изделие</string>
+    <string name="inventory_record_return">Вернуть изделие「%1$s」×%2$d</string>
+    <string name="setting_app_widget_opacity">Темная тема: непрозрачность</string>
+    <string name="setting_app_widget_opacity_desc">Установить непрозрачность виджета приложения в темной теме</string>
+    <string name="switch_app_widget_simulate_dark_background">Имитация темного фона</string>
+    <string name="inventory_button_return">Вернуть</string>
+    <string name="dialog_input_task_count_target_multi_exp_reward">Награда за Многократный Опыт</string>
+    <string name="dialog_sub_task_coin_settings">Номер монеты</string>
+    <string name="complete_sub_task">Завершенная подзадача</string>
+    <string name="unlock_user_achievement">Разблокировать достижение пользователя</string>
+    <string name="lock_user_achievement">Заблокировать достижение пользователя</string>
+    <string name="undo_complete_sub_task">Отменить полностью подзадачу</string>
+    <string name="help_translate">Помогите перевести</string>
+    <string name="xml_clear_achievements">Очистить данные о Достижениях</string>
+    <string name="clear_achievement_title">Очистить данные о Достижениях</string>
+    <string name="team_like_text">Хорошо %1$d</string>
+    <string name="dialog_decrease_exp">Потерянный Опыт</string>
+    <string name="menu_edit_completed_time">Изменить время завершения</string>
+    <string name="dialog_title_edit_completed_time">Изменить время завершения</string>
+    <string name="xml_history_edit_completed_time">Завершенное время</string>
+    <string name="user_achievemnt_category_info">Базовый</string>
+    <string name="user_achievement_category_name">Название категории</string>
+    <string name="user_achievement_category_desc">Описание (По желанию)</string>
+    <string name="title_fragment_user_achievement">Список Достижений</string>
+    <string name="user_achievement_name">Название Достижения</string>
+    <string name="title_fragment_add_user_achievement">Добавить Достижение</string>
+    <string name="title_activity_add_achievement_category">Добавить Категорию</string>
+    <string name="title_activity_add_user_achievement">Добавить Достижение</string>
+    <string name="lab_user_achievement_example_desc">Прочитать 100 книг</string>
+    <string name="enter">Перейти</string>
+    <string name="example_user_achievement_detail_1">Прочитать 10 книг</string>
+    <string name="example_user_achievement_detail_2">Прочтите книгу на иностранном языке</string>
+    <string name="fragment_status_button_grant_permission">Грант</string>
+    <string name="require_permission">Требуется разрешение</string>
+    <string name="default_name_system_achievements">Система</string>
+    <string name="login_backup_hint">Внимание:\nВаши локальные данные не будут синхронизироваться с сервером.</string>
+    <string name="user_achievement_delete_title">Удалить</string>
+    <string name="add_shop_item_stock_number">Количество на складе</string>
+    <string name="dialog_input_stock_quantity_unlimited">Безлимитный</string>
+    <string name="dialog_input_stock_quantity_custom">Привычка</string>
+    <string name="sold_out">Распроданно</string>
+    <string name="savings_balance">Баланс сбережений: %1$s</string>
+    <string name="action_shop_atm">БАНКОМАТ</string>
+    <string name="shop_atm">БАНКОМАТ</string>
+    <string name="btn_back">НАЗАД</string>
+    <string name="btn_deposit">ВЛОЖЕНИЕ</string>
+    <string name="btn_withdrawal">СНЯТИЕ</string>
+    <string name="deposit_desc">Депозит %1$d монет</string>
+    <string name="withdrawal_fail">Снятие не удалось выполнить</string>
+    <string name="deposit_fail">Вложение не удалось выполнить</string>
+    <string name="btn_close">ЗАКРЫТЬ</string>
+    <string name="weekly_task_desc">Еженедельно</string>
+    <string name="basic_task_desc">Базовый</string>
+    <string name="workday_task_desc">Рабочий день</string>
+    <string name="special_task_desc">Специальный</string>
+    <string name="dialog_shop_item_select_title">Выбирать</string>
+    <string name="reward_shop_item">Товар в магазине</string>
+    <string name="reward_normal_text">Только Текст</string>
+    <string name="inventory_record_reward">Получите награду 「%1$s」×%2$d</string>
+    <string name="inventory_record_undo_reward">Отменить награду 「%1$s」×%2$d</string>
+    <string name="feature_1740">БАНКОМАТ</string>
+    <string name="dialog_button_confirm">ПОДТВЕРДИТЬ</string>
+    <string name="xml_clear_history">Очистить данные истории</string>
+    <string name="xml_clear_history_desc">Включая данные истории календаря</string>
+    <string name="clear_history_title">Очистить данные истории</string>
+    <string name="title_dialog_task_tag_color">Цвет Метки</string>
+    <string name="setting_display_hide_status">Скрыть Статус</string>
+    <string name="setting_display_hide_status_desc">Скрыть модуль состояния в нижней части Навигации.</string>
+    <string name="setting_display_hide_shop">Скрыть Магазин</string>
+    <string name="setting_display_hide_shop_desc">Скрыть модуль Магазина в нижней части Навигации.</string>
+    <string name="setting_display_hide_me">Скрыть \"Мой\"</string>
+    <string name="setting_display_hide_me_desc">Скрыть \"Мой\" модуль в нижней части Навигации.</string>
+    <string name="relaunch_item">Перезапутить</string>
+    <string name="auto_backup_conflict_upload">Локальные данные будут скопированы на удаленный сервер.\n\nТекущие данные резервного копирования на сервере будут перезаписаны..</string>
+    <string name="auto_backup_title_sync">СИНХ</string>
+    <string name="auto_backup_last_sync_time">Время последней синхронизации: %1$s</string>
+    <string name="btn_sync">СИНХ</string>
+    <string name="btn_config">КОНФИГУРАЦИЯ</string>
+    <string name="btn_upload">ЗАГРУЗИТЬ</string>
+    <string name="btn_download">СКАЧАТЬ</string>
+    <string name="dialog_title_sync_conflict">Конфликт Синхронизации</string>
+    <string name="dialog_title_confirm">Подтвердить</string>
+    <string name="pomo_work_session">Рабочая сессия</string>
+    <string name="pomo_short_break">Короткий перерыв</string>
+    <string name="pomo_long_break">Длинный перерыв</string>
+    <string name="switch_enable_webdav_auto_backup">WebDAV Авто Бэкап</string>
+    <string name="none">Никогда</string>
+    <string name="action_end_the_team">Завершить команду</string>
+    <string name="pomodoro_notification_complete">Пропускать</string>
+    <string name="pomodoro_notification_cancel">Отмена</string>
+    <string name="pomodoro_notification_timer_title">Томатный таймер</string>
+    <string name="pomodoro_notification_break_title">В перерыве</string>
+    <string name="pomodoro_notification_break_content">Таймер перерыва работает</string>
+    <string name="nav_pomodoro">Помодоро</string>
+    <string name="pomo_work_session_before_long_break_hint">%1$d рабочие сессии перед длительным перерывом</string>
+    <string name="menu_timer">Таймер</string>
+    <string name="pomo_task_not_selected">не выбран</string>
+    <string name="tomato_total_count">всего x%1$d</string>
+    <string name="dialog_task_item_unselect">невыделенный</string>
+    <string name="tomatoes_action_eat">ЕСТЬ</string>
+    <string name="tomatoes_action_sell">ПРОДАТЬ</string>
+    <string name="tomatoes_eat_reward_desc">получить %1$d [Выносливость] опыта</string>
+    <string name="tomatoes_sell_reward_desc">получить %1$d монеты</string>
+    <string name="eat_tomatoes_hint_text">есть</string>
+    <string name="lab_pomodoro_title">Помидоро Таймер</string>
+    <string name="lab_pomodoro_desc">Игрофикационный помодоро таймер.\nРешите, как поступить с полученными помидорами.\n\n(Все еще на ранней стадии разработки)</string>
+    <string name="toast_hint_not_enough_tomatoes">недостаточно помидоров</string>
+    <string name="dialog_tomatoes_title">Помидоры</string>
+    <string name="feature_1750">Помидор</string>
+    <string name="pomodoro_notification_skip">Пропускать</string>
+    <string name="dialog_select_local_pictures_btn">Выберите имеющиеся фотографии</string>
+    <string name="feellings_search_task_content">Содержание Задачи</string>
+    <string name="feelings_only_fav">Только Избранное</string>
+    <string name="pro_version">PRO</string>
+    <string name="pomodoro_create_shortcuts">Создать Ярлыки</string>
+    <string name="pomodor_create_shortcuts_to_launcher">Создайте ярлык для вашей пусковой установки.</string>
+    <string name="create_shortcut_failed">Не удалось создать ярлык.\nПожалуйста, проверьте настройки разрешений приложения.</string>
+    <string name="pomo_selling_price">Цена продажи помидора</string>
+    <string name="pomo_selling_price_summary">3 монеты</string>
+    <string name="shop_effect_no_special_effect">без спецэффектов</string>
+    <string name="shop_effect_unusable">неподходящий</string>
+    <string name="shop_effect_custom">пользовательские эффекты</string>
+    <string name="dialog_gained_reward">Заработанные награды</string>
+    <string name="dialog_reward_by_using_item">Используя элемент</string>
+    <string name="exp_effect">Эффект опыта</string>
+    <string name="coin_effects">Эффекты монет</string>
+    <string name="hint_shop_effect_not_more_available">Больше нет доступных эффектов</string>
+    <string name="hint_number_greater_than_0">Число должно быть больше 0</string>
+    <string name="input_hint_value">Значение</string>
+    <string name="hint_select_attributes">Выберите атрибуты:</string>
+    <string name="radio_increase_exp">Увеличение опыта</string>
+    <string name="radio_decrease_exp">Уменьшить опыт</string>
+    <string name="shop_effect_increase_coins">Увеличить монеты</string>
+    <string name="shop_effect_decrease_coins">Уменьшить монеты</string>
+    <string name="shop_title_purchase_limit">Лимит покупки</string>
+    <string name="shop_effect_exp">Опыт</string>
+    <string name="shop_effect_coin">Монета</string>
+    <string name="input_hint_number_limit">Предельное Количество</string>
+    <string name="shop_dialog_title_add_limit">Лимит покупки</string>
+    <string name="limit_per_day">в день</string>
+    <string name="limit_per_week">в неделю</string>
+    <string name="limit_per_month">в месяц</string>
+    <string name="limit_per_year">в год</string>
+    <string name="btn_add_purchase_limit">Добавить лимит покупки</string>
+    <string name="calendar_show_repeat_progress">Показывать повторяемый ход выполнения задачи</string>
+    <string name="calendar_ignore_repeat_progress">Игнорировать повторяющийся ход выполнения задачи</string>
+    <string name="hint_shop_limit_not_more_available">Больше нет доступных лимитов</string>
+    <string name="input_recipe_number">Номер рецепта</string>
+    <string name="to_create_a">создать (n)</string>
+    <string name="synthesis_effects">Эффекты синтеза</string>
+    <string name="inventory_synthesis_succeed">Синтезирован успешно</string>
+    <string name="not_enough_synthesis_item">Недостаточно предметов для синтеза</string>
+    <string name="restore_failed_higher_version_backup_file">Не удается восстановить файл более поздней версии, обновите приложение!</string>
+    <string name="open_shop_btn_import">ИМПОРТИРОВАТЬ</string>
+    <string name="tab_market">Рынок</string>
+    <string name="til_import_price">Цена</string>
+    <string name="dialog_share_goods_title">Поделиться предметом</string>
+    <string name="share_to_market">Поделиться</string>
+    <string name="shop_share_fail">Поделиться не удалось</string>
+    <string name="share_goods_fail_imported">не может предоставить общий доступ к импортированному элементу</string>
+    <string name="undo_share_to_market">Отменить Отправку</string>
+    <string name="dialog_enable_auto_sum_short">Авто</string>
 </resources>
