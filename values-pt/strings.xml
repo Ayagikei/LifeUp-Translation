@@ -1,39 +1,190 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <!-- На 645 строке -->
-    <!-- bottom bar title / заголовок нижней панели -->
-    <!-- Welcome Activity /Приветственное Активити -->
-    <string name="page2_title">VIDA GAMIFICADA</string>
-    <!-- Strings related to login / Строки, относящиеся к логину -->
+<resources>
+    <!-- Welcome Activity -->
+    <!-- Strings related to login -->
     <string name="github_desc1">Github Android</string>
     <string name="github_desc2">Servidor Github</string>
-    <!-- СИЛА -->
-    <!-- ОЧАРОВАНИЕ -->
-    <!-- ВЫНОСЛИВОСТЬ -->
-    <string name="notification_ticker">TODO</string>
-    <!-- \nThis is for the users whose phone doesn\'t support pedometer.  / Это для пользователей, чей телефон не поддерживает шагомер.-->
-    <!-- Base Achievement / Базовое достижение -->
-    <!-- Task Achievements / Достижения Задач-->
-    <!-- Attributes Achievements / Навыки - Атрибуты Достижения -->
-    <!-- Community Achievements / Достижения сообщества -->
-    <string name="achievement_community_new_member_desc">Crie ou junte-se a uma equipe</string>
-    <!-- Shop Achievements / Достижения Магазина -->
-    <string name="web_dav_url">URL WebDAV</string>
-    <string name="web_dav_account">Conta WebDAV</string>
-    <string name="web_dav_password">Senha WebDAV</string>
-    <string name="xml_backup_cloud_setting">Configuração WebDAV</string>
-    <string name="webdav_configuration">Configuração WebDAV</string>
-    <string name="webdav_url">URL WebDAV</string>
-    <string name="webdav_password">Senha WebDAV</string>
-    <!-- Team Report Type / Тип отчета команды -->
-    <!-- Feelings Fav / Чувства Избранное -->
-    <!-- было Fav -->
-    <!-- degree only in Chinese now /степень только на китайском сейчас -->
+    <string name="exp">EXP</string>
+    <!-- \nThis is for the users whose phone doesn\'t support pedometer. -->
+    <string name="QandA">Perguntas e Respostas</string>
+    <string name="sort_exp">EXP</string>
+    <string name="to_do_exp">%1$d EXP</string>
+    <string name="feature_plan">Plano</string>
+    <string name="feature_163"><![CDATA[Lembrete de calendário e limpar dados]]></string>
+    <!-- Single Achievement -->
+    <!-- Task Achievement -->
+    <!-- Attributes Achievement -->
+    <!-- Community Achievement -->
+    <!-- Shop Achievement -->
+    <string name="achievement_shop_monopoly">Monopólio</string>
+    <string name="setting_custom_card_background">Plano de fundo do cartão de tarefas personalizadas</string>
+    <string name="opacity">Opacidade</string>
+    <string name="common_select_photos">Selecione fotos</string>
+    <string name="statistics_time_30days">30 dias</string>
+    <string name="statistics_time_3months">3 meses</string>
+    <string name="statistics_time_1year">1 ano</string>
+    <string name="statistics_time_all_time">Sempre</string>
+    <string name="app_widget_header_opacity">Opacidade do cabeçalho</string>
+    <string name="app_widget_background_opacity">Opacidade do fundo</string>
+    <string name="setting_widget_opacity">Opacidade do widget do aplicativo</string>
+    <string name="inventory_return">Retornar</string>
+    <string name="inventory_item_return_detail_coin">Você receberá %1$d moeda (s)</string>
+    <string name="inventory_item_return_title">Retornar</string>
+    <string name="inventory_item_return_desc">Retornar item</string>
+    <string name="inventory_record_return">Item devolvido「%1$s」× %2$d</string>
+    <string name="setting_app_widget_opacity">Tema escuro: opacidade</string>
+    <string name="setting_app_widget_opacity_desc">Definir a opacidade do widget do aplicativo em tema escuro</string>
+    <string name="switch_app_widget_simulate_dark_background">Simular fundo escuro</string>
+    <string name="inventory_button_return">Retornar</string>
+    <string name="dialog_input_task_count_target_multi_exp_reward">Recompensa de Multi EXP</string>
+    <string name="dialog_sub_task_coin_settings">Número das moedas</string>
+    <string name="complete_sub_task">Subtarefa concluída</string>
+    <string name="undo_complete_sub_task">Desfazer subtarefa completa</string>
+    <string name="help_translate">Ajude a traduzir</string>
+    <string name="xml_clear_achievements">Limpar dados de conquistas</string>
+    <string name="clear_achievement_title">Limpar dados de conquistas</string>
+    <string name="team_like_text">Bom %1$d</string>
+    <string name="dialog_decrease_exp">EXP. perdida</string>
+    <string name="menu_edit_completed_time">Edição de hora concluída</string>
+    <string name="dialog_title_edit_completed_time">Edição de hora concluída</string>
+    <string name="xml_history_edit_completed_time">Tempo de conclusão</string>
+    <string name="user_achievemnt_category_info">Básico</string>
+    <string name="user_achievement_category_name">Nome da categoria</string>
+    <string name="user_achievement_category_desc">Descrição (opcional)</string>
+    <string name="title_fragment_user_achievement">Lista de conquistas</string>
+    <string name="user_achievement_name">Nome da conquista</string>
+    <string name="title_fragment_add_user_achievement">Adicionar Conquista</string>
+    <string name="title_activity_add_achievement_category">Adicionar categoria</string>
+    <string name="title_activity_add_user_achievement">Adicionar Conquista</string>
+    <string name="lab_user_achievement_example_desc">Leia 100 livros</string>
+    <string name="enter">Digite</string>
+    <string name="example_user_achievement_detail_1">Leia 10 livros</string>
+    <string name="example_user_achievement_detail_2">Ler um livro em uma língua estrangeira</string>
+    <string name="fragment_status_button_grant_permission">Concessão</string>
+    <string name="require_permission">Permissão necessária</string>
+    <string name="default_name_system_achievements">Sistema</string>
+    <string name="login_backup_hint">Atenção:\nSeus dados locais não serão sincronizados com o servidor.</string>
+    <string name="user_achievement_delete_title">Excluir</string>
+    <string name="add_shop_item_stock_number">Quantidade de estoque</string>
+    <string name="dialog_input_stock_quantity_unlimited">Ilimitado</string>
+    <string name="dialog_input_stock_quantity_custom">Personalizado</string>
+    <string name="sold_out">Esgotado</string>
+    <string name="savings_balance">Saldo da poupança: %1$s</string>
+    <string name="action_shop_atm">caixa eletrônico</string>
+    <string name="shop_atm">caixa eletrônico</string>
+    <string name="btn_back">VOLTAR</string>
+    <string name="btn_deposit">DEPÓSITO</string>
+    <string name="btn_withdrawal">RETIRADA</string>
+    <string name="deposit_desc">Deposite %1$d moedas</string>
+    <string name="withdrawal_fail">Falha na retirada</string>
+    <string name="deposit_fail">Falha no depósito</string>
+    <string name="btn_close">FECHAR</string>
+    <string name="weekly_task_desc">Semanal</string>
+    <string name="basic_task_desc">Básico</string>
+    <string name="workday_task_desc">Dia de Trabalho</string>
+    <string name="special_task_desc">Especial</string>
+    <string name="dialog_shop_item_select_title">Selecione</string>
+    <string name="reward_shop_item">Item da loja</string>
+    <string name="reward_normal_text">Somente texto</string>
+    <string name="inventory_record_reward">Obter item de recompensa 「%1$s」× %2$d</string>
+    <string name="inventory_record_undo_reward">Desfazer item de recompensa 「%1$s」 × %2$d</string>
+    <string name="feature_1740">caixa eletrônico</string>
+    <string name="dialog_button_confirm">CONFIRMAR</string>
+    <string name="xml_clear_history">Limpar histórico</string>
+    <string name="xml_clear_history_desc">Incluindo dados do histórico do calendário</string>
+    <string name="clear_history_title">Limpar histórico</string>
+    <string name="title_dialog_task_tag_color">Cor da tag</string>
+    <string name="setting_display_hide_status">Ocultar status</string>
+    <string name="setting_display_hide_status_desc">Ocultar módulo de status na navegação inferior.</string>
+    <string name="setting_display_hide_shop">Ocultar loja</string>
+    <string name="setting_display_hide_shop_desc">Oculte o módulo Loja na navegação inferior.</string>
+    <string name="setting_display_hide_me">Ocultar \"Eu\"</string>
+    <string name="setting_display_hide_me_desc">Oculte o módulo \"Eu\" na navegação inferior.</string>
+    <string name="relaunch_item">Reiniciar</string>
+    <string name="auto_backup_conflict_upload">Os dados locais serão copiados para o servidor remoto.\n\nOs dados de backup atuais no servidor serão substituídos.</string>
+    <string name="auto_backup_title_sync">Sincronizar</string>
+    <string name="auto_backup_last_sync_time">Hora da última sincronização: %1$s</string>
     <string name="auto_backup_last_sync_failure">Falha na última sincronização: %1$s\nVerifique sua conexão de rede ou a configuração WebDAV.</string>
-    <!-- podomoro / помодоро -->
+    <string name="btn_upload">CARREGAR</string>
+    <string name="btn_download">BAIXAR</string>
+    <string name="dialog_title_sync_conflict">Conflito de sincronização</string>
+    <string name="dialog_title_confirm">Confirmar</string>
+    <string name="pomo_work_session">Sessão de trabalho</string>
+    <string name="pomo_short_break">Pausa breve</string>
+    <string name="pomo_long_break">Pausa longa</string>
+    <string name="switch_enable_webdav_auto_backup">Backup automático WebDAV</string>
+    <string name="none">Normal</string>
+    <string name="action_end_the_team">Fim da equipe</string>
+    <string name="pomodoro_notification_complete">Pular</string>
+    <string name="pomodoro_notification_cancel">Cancelar</string>
+    <string name="pomodoro_notification_timer_title">Pomodoro Timer</string>
+    <string name="pomodoro_notification_break_title">Em uma pausa</string>
+    <string name="pomodoro_notification_break_content">O cronômetro de intervalo está em execução</string>
+    <string name="pomo_work_session_before_long_break_hint">%1$d sessões de trabalho antes do intervalo longo</string>
+    <string name="menu_timer">Cronômetro</string>
+    <string name="pomo_task_not_selected">não selecionado</string>
+    <string name="dialog_task_item_unselect">não selecionado</string>
+    <string name="tomatoes_action_eat">COMER</string>
+    <string name="tomatoes_action_sell">VENDER</string>
+    <string name="tomatoes_eat_reward_desc">para ganhar %1$d [Resistência] exps</string>
+    <string name="tomatoes_sell_reward_desc">para ganhar %1$d moedas</string>
+    <string name="eat_tomatoes_hint_text">comer</string>
+    <string name="lab_pomodoro_title">Temporizador Pomodoro</string>
+    <string name="lab_pomodoro_desc">Gamify pomodoro timer.\nDecidir como lidar com os tomates que você ganhou.\n\n (Ainda em um estágio inicial de desenvolvimento)</string>
+    <string name="toast_hint_not_enough_tomatoes">tomates insuficientes</string>
+    <string name="dialog_tomatoes_title">Tomates</string>
+    <string name="feature_1750">Tomate</string>
+    <string name="pomodoro_notification_skip">Pular</string>
+    <string name="dialog_select_local_pictures_btn">Selecione imagens locais</string>
     <string name="btn_change_icon">Alterar ícone</string>
-    <!-- in xx days / через xx дней-->
-    <!-- today/tomorrow/yesterday = сегодня / завтра / вчера -->
-    <!-- in xx days  / через xx дней -->
-    <!-- today/tomorrow/yesterday = сегодня / завтра / вчера -->
+    <string name="feellings_search_task_content">Conteúdo da tarefa</string>
+    <string name="feelings_only_fav">Apenas Fav</string>
+    <string name="pomodoro_create_shortcuts">Criar atalhos</string>
+    <string name="pomodor_create_shortcuts_to_launcher">Crie um atalho para o seu iniciador.</string>
+    <string name="create_shortcut_failed">Falha ao criar um atalho.\nVerifique as configurações de permissão do aplicativo.</string>
+    <string name="pomo_selling_price">Preço de venda do tomate</string>
+    <string name="pomo_selling_price_summary">3 moedas</string>
+    <string name="shop_effect_no_special_effect">nenhum efeito especial</string>
+    <string name="shop_effect_unusable">inutilizável</string>
+    <string name="shop_effect_custom">efeitos personalizados</string>
+    <string name="dialog_gained_reward">Recompensas ganhas</string>
+    <string name="dialog_reward_by_using_item">Usando o item</string>
+    <string name="exp_effect">Efeito de expansão</string>
+    <string name="coin_effects">Efeitos de moeda</string>
+    <string name="hint_shop_effect_not_more_available">Não há mais efeitos disponíveis</string>
+    <string name="hint_number_greater_than_0">O número deve ser maior que 0</string>
+    <string name="input_hint_value">Valor</string>
+    <string name="hint_select_attributes">Selecione os atributos:</string>
+    <string name="radio_increase_exp">Aumentar Exp</string>
+    <string name="radio_decrease_exp">Diminuir Exp</string>
+    <string name="shop_effect_increase_coins">Aumente as moedas</string>
+    <string name="shop_effect_decrease_coins">Diminuir moedas</string>
+    <string name="shop_title_purchase_limit">Limite de compra</string>
+    <string name="shop_effect_exp">EXP</string>
+    <string name="shop_effect_coin">Moeda</string>
+    <string name="input_hint_number_limit">Número limite</string>
+    <string name="shop_dialog_title_add_limit">Limite de compra</string>
+    <string name="limit_per_day">por dia</string>
+    <string name="limit_per_week">por semana</string>
+    <string name="limit_per_month">por mês</string>
+    <string name="limit_per_year">por ano</string>
+    <string name="btn_add_purchase_limit">Adicionar limite de compra</string>
+    <string name="calendar_show_repeat_progress">Mostrar progresso repetível da tarefa</string>
+    <string name="calendar_ignore_repeat_progress">Ignorar o progresso repetível da tarefa</string>
+    <string name="hint_shop_limit_not_more_available">Não há mais limites disponíveis</string>
+    <string name="input_recipe_number">Número da receita</string>
+    <string name="to_create_a">para criar um (n)</string>
+    <string name="synthesis_effects">Efeitos de síntese</string>
+    <string name="inventory_synthesis_succeed">Sintetizado com sucesso</string>
+    <string name="not_enough_synthesis_item">Itens insuficientes para sintetizar</string>
+    <string name="restore_failed_higher_version_backup_file">Não é possível restaurar um arquivo de versão superior, atualize o aplicativo!</string>
+    <string name="open_shop_btn_import">IMPORTAR</string>
+    <string name="tab_market">Mercado</string>
+    <string name="til_import_price">Preço</string>
+    <string name="dialog_share_goods_title">Compartilhar item</string>
+    <string name="share_to_market">Compartilhar</string>
+    <string name="shop_share_fail">Falha no compartilhamento</string>
+    <string name="share_goods_fail_imported">não pode compartilhar o item importado</string>
+    <string name="undo_share_to_market">Desfazer compartilhamento</string>
+    <string name="dialog_enable_auto_sum_short">Automático</string>
 </resources>
