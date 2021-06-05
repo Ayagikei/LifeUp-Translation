@@ -1,62 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+<resources>
     <!-- bottom bar title -->
     <!-- Welcome Activity -->
+    <string name="page2_title">VIDA GAMIFICADA</string>
+    <string name="page4_title">NUVEM</string>
     <!-- Strings related to login -->
-    <string name="login_or">Ou</string>
-    <string name="title_activity_add_to_do_item">Adicionar Nova Tarefa</string>
-    <string name="title_activity_about">Sobre</string>
-    <string name="github_desc2">Servidor Github</string>
-    <string name="activity_join_team_text">Bem-vindo %1$s se juntou à equipe 「%2$s」</string>
+    <string name="about_version_name">Versão</string>
+    <string name="team_add_not_repeat">Normal</string>
+    <string name="add_to_do_not_repeat">Normal</string>
+    <string name="login_exception_qq_information">Obter exceção de informação qq:</string>
+    <string name="add_to_do_taptarget_deadline_title">Prazo</string>
+    <string name="user_follower_list">Seguidor</string>
     <string name="exp">EXP</string>
-    <string name="tomorrow_with_time">Amanhã %1$s</string>
-    <string name="yesterday_with_time">Ontem %1$s</string>
-    <string name="exp_pie_chart">EXP</string>
-    <string name="detail">Detalhe</string>
-    <string name="team_exp">Recompensa de EXP: &#160;</string>
-    <!-- ˶‾᷄ -̫ ‾᷅˵ 歩数計に対応していない携帯電話をお使いの方にお勧めです。-->
-    <string name="tab_moments">Momentos</string>
-    <string name="exp_pie_chart_title">EXP</string>
+    <string name="start">Iniciar</string>
+    <string name="deadline">Prazo</string>
+    <string name="team">Equipe</string>
+    <string name="to_do_all_time">Sempre</string>
+    <string name="to_do_taptarget_nav">Navegação</string>
+    <!-- \nThis is for the users whose phone doesn\'t support pedometer. -->
+    <string name="tab_team">Equipe</string>
+    <string name="status_sport_title">Esportes</string>
     <string name="tag_team_single">Equipe normal</string>
-    <string name="total_exp">EXP</string>
+    <string name="tag_team">Equipe</string>
+    <string name="tag_local_single">Normal</string>
+    <string name="tag_start">%1$s Iniciar</string>
+    <string name="total_exp">EXP. total</string>
     <string name="QandA">Perguntas e Respostas</string>
-    <string name="about">Sobre</string>
-    <string name="long_friday">Sexta</string>
+    <string name="asc_or_desc">Asc / Desc</string>
     <string name="sort_exp">EXP</string>
     <string name="to_do_exp">%1$d EXP</string>
-    <string name="about_feature_element">Recurso</string>
-    <!--    <string name="feature_like_desc">- タスクの連勝を「忍耐力」に交換する</string>-->
+    <string name="filter">Filtro</string>
+    <string name="feature_plan">Plano</string>
+    <string name="tab_shop">Loja</string>
+    <string name="add_shop_item_content">Nome</string>
+    <string name="nav_shop">Loja</string>
+    <string name="to_do_item_detail_complete_reward">Recompensa por EXP: %1$s%2$d P</string>
+    <string name="til_coin_max_hint">Máx</string>
+    <string name="moments_filter">Filtro</string>
     <!-- Base Achievement -->
     <!-- Task Achievements -->
-    <!--Attributes Achievements -->
+    <!-- Attributes Achievements -->
+    <string name="achievement_attribution_alchemist">Alquimista</string>
     <!-- Community Achievements -->
     <!-- Shop Achievements -->
-    <string name="achievement_shop_bad_luck">Realmente azar</string>
-    <string name="dialog_join_use_team_desc_as_remark">Use a descrição da equipe como observação</string>
+    <string name="achievement_shop_monopoly">Monopólio</string>
+    <string name="achievement_type_shop">Loja</string>
+    <string name="user_team">Equipe</string>
+    <string name="follower">Seguidor</string>
     <string name="btn_ok">Sim</string>
     <string name="web_dav_url">URL WebDAV</string>
     <string name="webdav_url">URL WebDAV</string>
+    <string name="custom_attribution_icon">ÍCONE</string>
+    <string name="custom_attribution_text">TEXTO</string>
     <!-- Team Report Type -->
     <!-- Feelings Fav -->
     <!-- degree only in Chinese now -->
-    <string name="action_shop_atm">caixa eletrônico</string>
-    <string name="shop_atm">caixa eletrônico</string>
+    <string name="default_name_system_achievements">Sistema</string>
     <string name="feature_1740">caixa eletrônico</string>
-    <!--podomoro -->
+    <string name="relaunch_item">Reiniciar</string>
+    <string name="btn_upload">CARREGAR</string>
+    <string name="btn_download">BAIXAR</string>
+    <!-- podomoro -->
+    <string name="timer_preference_category_title">Cronômetro</string>
     <string name="number_picker_dialog_positive_button_text">Sim</string>
+    <string name="menu_timer">Cronômetro</string>
     <string name="shop_effect_exp">EXP</string>
+    <string name="inventory_btn_synthesis">síntese</string>
+    <string name="open_shop_btn_import">IMPORTAR</string>
+    <string name="Feb">Fev.</string>
+    <string name="Apr">Abril</string>
+    <string name="Aug">Agos.</string>
+    <string name="QandA_update_desc">Atualizar descrição</string>
     <string name="QandA_q_and_a">Perguntas e Respostas</string>
+    <string name="dialog_enable_auto_sum_short">Automático</string>
     <string name="dialog_category_hide_hint_button">Sim</string>
-    <string name="select_shop_item_reward_with_stock_number">%1$s x%2$d\n (%3$d restante)</string>
-    <string name="pomodoro_record_focus_time">focado %1$d minuto(s)</string>
-    <string name="chip_feelings">Sentimentos</string>
-    <string name="hint_world_module">Olá, mundo!</string>
-    <string name="effect_countdown_notification_remaining">restante:&#160;</string>
+    <string name="user_activity_shop_title">Loja</string>
+    <string name="menu_icon">Ícone</string>
+    <string name="btn_guide">GUIA</string>
+    <string name="lab_icon_set_v2">Conjunto de ícones de atributos 2.0</string>
+    <!-- in xx days -->
+    <string name="tag_deadline_v2_relative">Prazo em %1$s</string>
+    <!-- today/tomorrow/yesterday -->
+    <string name="tag_deadline_v2_relative_special">Prazo %1$s</string>
     <!-- in xx days -->
     <!-- today/tomorrow/yesterday -->
-    <!-- in xx days -->
-    <!-- today/tomorrow/yesterday -->
-    <string name="statistics_complete_count">Concluído: %1$d</string>
-    <string name="dialog_title_exp_reward">EXP</string>
-    <!--    <string name="moment_filter_empty_text">Activity not found. 誰かをフォローしてみてください！</string>-->
 </resources>
