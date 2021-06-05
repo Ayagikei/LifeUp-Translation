@@ -1,36 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <!-- bottom bar title -->
+<resources>
     <!-- Welcome Activity -->
     <!-- Strings related to login -->
-    <string name="login_or">o</string>
-    <string name="title_activity_add_to_do_item">Aggiungi nuovo Compito</string>
-    <string name="github_desc2">Server Github</string>
-    <string name="tomorrow_with_time">Domani %1$s</string>
-    <string name="yesterday_with_time">Ieri %1$s</string>
-    <string name="detail">Detail</string>
-    <!-- ˶‾᷄ -̫ ‾᷅˵ 歩数計に対応していない携帯電話をお使いの方にお勧めです。-->
-    <string name="tag_team_single">Team-Single</string>
-    <string name="long_friday">Venerdì</string>
-    <!--    <string name="feature_like_desc">- タスクの連勝を「忍耐力」に交換する</string>-->
-    <!-- Base Achievement -->
-    <!-- Task Achievements -->
-    <!--Attributes Achievements -->
-    <!-- Community Achievements -->
-    <!-- Shop Achievements -->
-    <string name="achievement_shop_bad_luck">Davvero sfortunato</string>
-    <string name="dialog_join_use_team_desc_as_remark">Use team desc as remark</string>
+    <string name="team_add_cancel">Annulla</string>
+    <string name="setting_todo_toolbar_title">Compito</string>
+    <string name="user_follow">Seguire</string>
+    <string name="status_toolbar_title">Stato</string>
+    <string name="xml_team_bouns_header">Ricompensa</string>
+    <string name="xml_team_first_start_time">Inizio</string>
+    <string name="xml_repeat">Frequenza di ripetizione</string>
+    <string name="xml_add_to_content">Compito</string>
+    <string name="xml_add_to_do_bouns_header">Ricompensa</string>
+    <string name="xml_add_to_do_start_time">Inizio</string>
+    <string name="xml_add_to_do_deadline">Scadenza</string>
+    <string name="xml_add_to_do_repeat">Frequenza di ripetizione</string>
+    <string name="xml_add_to_do_target_times">Obiettivo tempi</string>
+    <string name="xml_add_to_do_complete_reward">Ricompensa</string>
+    <string name="xml_backup_restore">Ripristino</string>
+    <string name="btn_get">Ottenuto</string>
+    <string name="bouns">Ricompensa</string>
+    <string name="dialog_category_title">Lista</string>
+    <!-- \nThis is for the users whose phone doesn\'t support pedometer. -->
+    <string name="sort_title">Ordina</string>
+    <string name="tab_team">Gruppo</string>
+    <string name="attr">Attributi</string>
+    <string name="all">tutto</string>
+    <string name="action_follow">Seguire</string>
+    <string name="follow">Seguire</string>
+    <string name="tag_team">Gruppo</string>
+    <string name="tag_local">Ripeti</string>
+    <string name="tag_local_unlimited">Illimitato</string>
+    <string name="setting">Impostazioni</string>
+    <string name="delete">Cancella</string>
+    <string name="menu_set_to_completed">Imposta su「Completato」</string>
+    <string name="achievement_unlocked">Obiettivo sbloccato</string>
+    <string name="profile_gender_prefill">Genere:&#160;</string>
+    <string name="shop_item_delete_title">Cancella</string>
+    <string name="title_activity_settings">Impostazioni</string>
+    <string name="xml_user_attribution_header">Stato</string>
+    <string name="user_team_ended">Concluso</string>
+    <!-- Single Achievement -->
+    <!-- Task Achievement -->
+    <!-- Attributes Achievement -->
+    <!-- Community Achievement -->
+    <string name="achievement_community_follow">Seguire</string>
+    <!-- Shop Achievement -->
+    <string name="achievement_type_task">Compito</string>
+    <string name="calendar_tap_title_ended">Concluso</string>
+    <string name="following">Seguiti</string>
+    <string name="user_team">Gruppo</string>
     <string name="btn_ok">Si</string>
-    <!-- Team Report Type -->
-    <!-- Feelings Fav -->
-    <!-- degree only in Chinese now -->
-    <!--podomoro -->
-    <string name="number_picker_dialog_positive_button_text">Si</string>
-    <string name="dialog_category_hide_hint_button">Si</string>
-    <string name="chip_feelings">Sensazioni</string>
-    <!-- in xx days -->
-    <!-- today/tomorrow/yesterday -->
-    <!-- in xx days -->
-    <!-- today/tomorrow/yesterday -->
-    <!--    <string name="moment_filter_empty_text">Activity not found. 誰かをフォローしてみてください！</string>-->
+    <string name="submit">Invia</string>
+    <string name="nav_feelings">Sensazioni</string>
+    <string name="feelings_item">Sensazioni</string>
 </resources>
