@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Welcome Activity -->
+    <!-- Strings related to login -->
+    <string name="difficult_lv3_desc">【令人感到棘手】\n您可能會需要額外學習、對您的知識進行補充，花掉不少時間來琢磨、試探後，才能完成這樣的任務，或者這項任務涉及到讓您厭惡或恐懼的內容，需要消耗大量意志力來克服。</string>
+    <string name="difficult_lv4_desc">【不太可能完成】\n這項任務觸及了您的大量能力盲區，就像讓高三學渣透過一學期的複習考上臺大一樣魔幻。由於能力的缺失，時間也相對變得極為緊迫，想要完成這個級別的任務，除非擁有超越人類的毅力，和永不放棄的決心。</string>
+    <string name="content_degree_desc_author">文案：酷安 @風之心_天雙</string>
+    <!-- 单次成就 -->
+    <!-- 事项成就 -->
+    <!-- 属性成就 -->
+    <!-- 社区成就 -->
+    <!-- 商店成就 -->
+    <!-- podomoro -->
+    <string name="starter_task_check_unstarted_task_desc">不在可完成時間段的任務會被摺疊。如果您在該任務下方沒看到“早起”任務，試試點擊最下方的展開摺疊按鈕(三角形)。</string>
+</resources>
