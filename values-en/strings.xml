@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <!-- bottom bar title -->
+<resources>
     <!-- Welcome Activity -->
     <!-- Strings related to login -->
-    <!-- \nThis is for the users whose phone doesn\'t support pedometer. -->
-    <!-- Base Achievement -->
-    <!-- Task Achievements -->
-    <!-- Attributes Achievements -->
-    <!-- Community Achievements -->
-    <!-- Shop Achievements -->
-    <!-- Team Report Type -->
-    <!-- Feelings Fav -->
-    <!-- degree only in Chinese now -->
+    <!-- 單次成就 -->
+    <!-- 任務成就 -->
+    <!-- 屬性成就 -->
+    <!-- 公會成就 -->
+    <!-- 商店成就 -->
     <!-- podomoro -->
-    <!-- in xx days -->
-    <!-- today/tomorrow/yesterday -->
-    <!-- in xx days -->
-    <!-- today/tomorrow/yesterday -->
 </resources>
