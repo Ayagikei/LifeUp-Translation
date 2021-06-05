@@ -1,12 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Welcome Activity -->
-    <!-- Strings related to login -->
-    <!-- 单次成就 -->
-    <!-- 事项成就 -->
-    <!-- 属性成就 -->
-    <!-- 社区成就 -->
-    <!-- 商店成就 -->
-    <!-- podomoro -->
-    <string name="starter_task_check_unstarted_task_desc">不在可完成时间段的任务会被折叠起来。如果你在该是想下方没见到\"早起\"事项，试试点击最底下的展开折叠按钮（三角形）。</string>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name_normal">人升</string>
+    <string name="app_name_google">人升Pro</string>
+    <!-- На 645 строке -->
+    <!-- bottom bar title / заголовок нижней панели -->
+    <!-- Welcome Activity /Приветственное Активити -->
+    <string name="page2_title">量化人生</string>
+    <!-- Strings related to login / Строки, относящиеся к логину -->
+    <string name="github_desc1">Android開發：AyagiKei</string>
+    <string name="github_desc2">服務端開發：Hdonghong</string>
+    <string name="point">點</string>
+    <string name="date">yyyy年MM月dd日</string>
+    <string name="attr_strength">力量</string>
+    <!-- СИЛА -->
+    <string name="attr_learning">學識</string>
+    <!-- ОЧАРОВАНИЕ -->
+    <string name="attr_charm">魅力</string>
+    <!-- ВЫНОСЛИВОСТЬ -->
+    <string name="attr_endurance">耐力</string>
+    <string name="attr_vitality">活力</string>
+    <string name="attr_creative">創造</string>
+    <string name="month_and_day">MM月dd日</string>
+    <string name="lifeup">人升</string>
+    <string name="notification_ticker">待辦事項</string>
+    <!-- \nThis is for the users whose phone doesn\'t support pedometer.  / Это для пользователей, чей телефон не поддерживает шагомер.-->
+    <string name="comma">、</string>
+    <!-- Base Achievement / Базовое достижение -->
+    <!-- Task Achievements / Достижения Задач-->
+    <!-- Attributes Achievements / Навыки - Атрибуты Достижения -->
+    <!-- Community Achievements / Достижения сообщества -->
+    <string name="achievement_community_new_member_desc">建立或加入一個團隊</string>
+    <!-- Shop Achievements / Достижения Магазина -->
+    <string name="backup_web_dav">WebDAV伺服器</string>
+    <string name="web_dav_url">WebDAV 地址</string>
+    <string name="web_dav_account">WebDAV 帳號</string>
+    <string name="web_dav_password">WebDAV 密碼</string>
+    <string name="xml_backup_cloud_setting">WebDAV 配置</string>
+    <string name="webdav_configuration">WebDAV 配置</string>
+    <string name="webdav_url">WebDAV 地址</string>
+    <string name="webdav_password">WebDAV 密碼</string>
+    <!-- Team Report Type / Тип отчета команды -->
+    <!-- Feelings Fav / Чувства Избранное -->
+    <!-- было Fav -->
+    <!-- degree only in Chinese now /степень только на китайском сейчас -->
+    <string name="donate_alipay">支付寶</string>
+    <string name="donate_wechat_or_list">微信/捐贈名單</string>
+    <string name="auto_backup_last_sync_failure">上次同步失敗： %1$s\n請檢查您的網路連線或者WebDAV配置。</string>
+    <!-- podomoro / помодоро -->
+    <string name="vip">擴展</string>
+    <string name="btn_change_icon">變更圖示</string>
+    <string name="vip_version">擴展</string>
+    <string name="cloud_backup_method_dropbox">Dropbox 雲端備份</string>
+    <string name="btn_email">郵件</string>
+    <!-- in xx days / через xx дней-->
+    <!-- today/tomorrow/yesterday = сегодня / завтра / вчера -->
+    <!-- in xx days  / через xx дней -->
+    <!-- today/tomorrow/yesterday = сегодня / завтра / вчера -->
 </resources>
