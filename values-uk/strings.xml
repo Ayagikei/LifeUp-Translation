@@ -3,20 +3,18 @@
     <!-- bottom bar title -->
     <!-- Welcome Activity -->
     <!-- Strings related to login -->
-    <!-- ˶‾᷄ -̫ ‾᷅˵ 歩数計に対応していない携帯電話をお使いの方にお勧めです。-->
-    <!--    <string name="feature_like_desc">- タスクの連勝を「忍耐力」に交換する</string>-->
+    <!-- \nThis is for the users whose phone doesn\'t support pedometer. -->
     <!-- Base Achievement -->
     <!-- Task Achievements -->
-    <!--Attributes Achievements -->
+    <!-- Attributes Achievements -->
     <!-- Community Achievements -->
     <!-- Shop Achievements -->
     <!-- Team Report Type -->
     <!-- Feelings Fav -->
     <!-- degree only in Chinese now -->
-    <!--podomoro -->
+    <!-- podomoro -->
     <!-- in xx days -->
     <!-- today/tomorrow/yesterday -->
     <!-- in xx days -->
     <!-- today/tomorrow/yesterday -->
-    <!--    <string name="moment_filter_empty_text">Activity not found. 誰かをフォローしてみてください！</string>-->
 </resources>
