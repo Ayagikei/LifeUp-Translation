@@ -1,41 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- bottom bar title -->
-    <string name="title_status">Stato</string>
-    <!-- Welcome Activity -->
-    <!-- Strings related to login -->
-    <string name="about_version_name">Versione</string>
-    <string name="team_add_not_repeat">Singolo</string>
-    <string name="add_to_do_not_repeat">Singolo</string>
-    <string name="add_to_do_taptarget_deadline_title">Scadenza</string>
-    <string name="deadline">Scadenza</string>
-    <string name="team">Gruppo</string>
-    <string name="status_toolbar_title">Stato</string>
-    <string name="to_do_taptarget_nav">Navigazione</string>
-    <!-- \nThis is for the users whose phone doesn\'t support pedometer. -->
-    <string name="tab_team">Gruppo</string>
-    <string name="tag_team_single">Team-Single</string>
-    <string name="tag_team">Gruppo</string>
-    <string name="tag_local_single">Single</string>
-    <string name="xml_user_attribution_header">Stato</string>
-    <!-- Base Achievement -->
-    <!-- Task Achievements -->
-    <!-- Attributes Achievements -->
-    <!-- Community Achievements -->
-    <!-- Shop Achievements -->
-    <string name="user_team">Gruppo</string>
-    <string name="btn_ok">Si</string>
-    <string name="custom_attribution_icon">ICONA</string>
-    <string name="custom_attribution_text">TESTO</string>
-    <!-- Team Report Type -->
-    <!-- Feelings Fav -->
-    <!-- degree only in Chinese now -->
-    <string name="about_donate_element">Dona</string>
-    <!-- podomoro -->
-    <string name="number_picker_dialog_positive_button_text">Si</string>
-    <string name="dialog_category_hide_hint_button">Si</string>
-    <!-- in xx days -->
-    <!-- today/tomorrow/yesterday -->
-    <!-- in xx days -->
-    <!-- today/tomorrow/yesterday -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <!-- На 645 строке -->
+    <!-- bottom bar title / заголовок нижней панели -->
+    <!-- Welcome Activity /Приветственное Активити -->
+    <!-- Strings related to login / Строки, относящиеся к логину -->
+    <string name="github_desc1">Android Github</string>
+    <string name="github_desc2">Server Github</string>
+    <!-- СИЛА -->
+    <!-- ОЧАРОВАНИЕ -->
+    <!-- ВЫНОСЛИВОСТЬ -->
+    <string name="notification_ticker">TODO</string>
+    <!-- \nThis is for the users whose phone doesn\'t support pedometer.  / Это для пользователей, чей телефон не поддерживает шагомер.-->
+    <!-- Base Achievement / Базовое достижение -->
+    <!-- Task Achievements / Достижения Задач-->
+    <!-- Attributes Achievements / Навыки - Атрибуты Достижения -->
+    <!-- Community Achievements / Достижения сообщества -->
+    <!-- Shop Achievements / Достижения Магазина -->
+    <!-- Team Report Type / Тип отчета команды -->
+    <!-- Feelings Fav / Чувства Избранное -->
+    <!-- было Fav -->
+    <!-- degree only in Chinese now /степень только на китайском сейчас -->
+    <!-- podomoro / помодоро -->
+    <!-- in xx days / через xx дней-->
+    <!-- today/tomorrow/yesterday = сегодня / завтра / вчера -->
+    <!-- in xx days  / через xx дней -->
+    <!-- today/tomorrow/yesterday = сегодня / завтра / вчера -->
 </resources>
