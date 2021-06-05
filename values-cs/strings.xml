@@ -2,10 +2,10 @@
 <resources>
     <!-- Welcome Activity -->
     <!-- Strings related to login -->
-    <!-- \nThis is for the users whose phone doesn\'t support pedometer. -->
-    <!-- Single Achievement -->
-    <!-- Task Achievement -->
-    <!-- Attributes Achievement -->
-    <!-- Community Achievement -->
-    <!-- Shop Achievement -->
+    <!-- 單次成就 -->
+    <!-- 任務成就 -->
+    <!-- 屬性成就 -->
+    <!-- 公會成就 -->
+    <!-- 商店成就 -->
+    <!-- podomoro -->
 </resources>
