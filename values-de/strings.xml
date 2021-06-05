@@ -1,39 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <!-- На 645 строке -->
-    <!-- bottom bar title / заголовок нижней панели -->
-    <!-- Welcome Activity /Приветственное Активити -->
-    <!-- Strings related to login / Строки, относящиеся к логину -->
-    <string name="github_desc1">Android Entwickler: AyagiKei</string>
-    <string name="github_desc2">Server-Entwickler: Hdonghong</string>
+<resources>
+    <!-- -título da barra inferior -->
+    <!-- Atividade de boas-vindas -->
+    <!-- Strings relacionadas ao login -->
     <string name="date">jjjj-MM-tt</string>
-    <!-- СИЛА -->
-    <!-- ОЧАРОВАНИЕ -->
-    <!-- ВЫНОСЛИВОСТЬ -->
     <string name="attr_endurance">ENDE</string>
-    <string name="notification_ticker">TODO</string>
-    <!-- \nThis is for the users whose phone doesn\'t support pedometer.  / Это для пользователей, чей телефон не поддерживает шагомер.-->
-    <!-- Base Achievement / Базовое достижение -->
-    <!-- Task Achievements / Достижения Задач-->
-    <!-- Attributes Achievements / Навыки - Атрибуты Достижения -->
-    <!-- Community Achievements / Достижения сообщества -->
-    <string name="achievement_community_new_member_desc">Team erstellen oder beitreten</string>
-    <!-- Shop Achievements / Достижения Магазина -->
-    <string name="web_dav_account">WebDAV-Konto</string>
-    <string name="web_dav_password">WebDAV-Kennwort</string>
-    <string name="xml_backup_cloud_setting">WebDAV-Konfiguration</string>
-    <string name="webdav_configuration">WebDAV-Konfiguration</string>
-    <string name="webdav_password">WebDAV-Kennwort</string>
-    <!-- Team Report Type / Тип отчета команды -->
-    <!-- Feelings Fav / Чувства Избранное -->
-    <!-- было Fav -->
-    <!-- degree only in Chinese now /степень только на китайском сейчас -->
-    <string name="auto_backup_last_sync_failure">Letzte Synchronisierung fehlgeschlagen: %1$s\nBitte überprüfen Sie Ihre Netzwerkverbindung oder die WebDAV-Konfiguration.</string>
-    <!-- podomoro / помодоро -->
-    <string name="btn_change_icon">Symbol ändern</string>
+    <string name="login">Anmelden</string>
+    <string name="xml_backup_backup">Sicherung</string>
+    <!-- \nIsto é para usuários cujo telefone não suporta pedômetro. -->
+    <string name="setting_main_logout">Abmelden</string>
+    <string name="inventory_btn_use">VERWENDEN</string>
+    <string name="title_activity_feedback">Rückmeldung</string>
+    <!-- Base Achievement -->
+    <!-- Realizações de Tarefas -->
+    <!-- Conquistas de Atributos -->
+    <!-- Conquistas da comunidade -->
+    <!-- Conquistas da Loja -->
+    <string name="achievement_type_base">Basis</string>
+    <string name="switch_auto_use">verwenden</string>
+    <string name="btn_ok">Ja</string>
+    <string name="custom_attribution_reset">ZURÜCKSETZEN</string>
+    <!-- Tipo de Relatório de Equipe -->
+    <!-- Sentimentos favoritos -->
+    <string name="feature_1740">GELDAUTOMAT</string>
+    <!-- Pomodoro -->
+    <string name="number_picker_dialog_positive_button_text">Ja</string>
+    <string name="pomodoro_notification_timer_title">Pomodoro-Timer</string>
+    <string name="tomato_total_count">gesamt x%1$d</string>
+    <string name="dialog_category_hide_hint_button">Ja</string>
     <string name="btn_email">E-Mail</string>
-    <!-- in xx days / через xx дней-->
-    <!-- today/tomorrow/yesterday = сегодня / завтра / вчера -->
-    <!-- in xx days  / через xx дней -->
-    <!-- today/tomorrow/yesterday = сегодня / завтра / вчера -->
+    <string name="btn_continue">Weiter</string>
+    <string name="hint_feedback_method_title">Rückmeldung</string>
+    <string name="notification_quick_add_title">LifeUp Schnelles Hinzufügen</string>
+    <string name="item_stat_gained_from_loot_boxes">Auspacken</string>
+    <string name="custom_attribution_desc">BESCH.</string>
+    <string name="btn_ignore">IGNORIEREN</string>
+    <!-- em xx dias -->
+    <!-- hoje / amanhã / ontem -->
+    <!-- em xx dias -->
+    <!-- hoje / amanhã / ontem -->
 </resources>
