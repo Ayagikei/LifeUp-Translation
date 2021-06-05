@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Welcome Activity -->
-    <!-- Strings related to login -->
-    <string name="difficult_lv3_desc">Это сложно. \nВам может понадобиться немного поучиться, пополнить свои знания, потратить много времени на размышления и тестирование, чтобы выполнить такую ​​задачу, или эта задача включает в себя контент, который вызывает у вас отвращение или страх и требует большой силы воли, которую нужно преодолеть.</string>
-    <string name="difficult_lv4_desc">Завершить практически невозможно.\nЭта задача затронула многие слепые зоны ваших способностей, так же волшебно, как позволить старшекласснику пройти семестр проверки и поступления в университет Цинхуа. Из-за нехватки способностей время стало чрезвычайно актуальным.Для выполнения задач на этом уровне, если у вас нет упорства, превышающего человеческое, и решимости никогда не сдаваться.</string>
-    <string name="content_degree_desc_author">Автор：酷安 @风之心_天双</string>
-    <!-- 单次成就 -->
-    <!-- 事项成就 -->
-    <!-- 属性成就 -->
-    <!-- 社区成就 -->
-    <!-- 商店成就 -->
-    <string name="action_shop_atm">БАНКОМАТ</string>
-    <string name="shop_atm">БАНКОМАТ</string>
-    <string name="feature_1740">БАНКОМАТ</string>
-    <!-- podomoro -->
-    <string name="pro_version">PRO</string>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <!-- На 645 строке -->
+    <!-- bottom bar title / заголовок нижней панели -->
+    <!-- Welcome Activity /Приветственное Активити -->
+    <!-- Strings related to login / Строки, относящиеся к логину -->
+    <!-- СИЛА -->
+    <!-- ОЧАРОВАНИЕ -->
+    <!-- ВЫНОСЛИВОСТЬ -->
+    <!-- \nThis is for the users whose phone doesn\'t support pedometer.  / Это для пользователей, чей телефон не поддерживает шагомер.-->
+    <!-- Base Achievement / Базовое достижение -->
+    <!-- Task Achievements / Достижения Задач-->
+    <!-- Attributes Achievements / Навыки - Атрибуты Достижения -->
+    <!-- Community Achievements / Достижения сообщества -->
+    <!-- Shop Achievements / Достижения Магазина -->
+    <!-- Team Report Type / Тип отчета команды -->
+    <!-- Feelings Fav / Чувства Избранное -->
+    <!-- было Fav -->
+    <!-- degree only in Chinese now /степень только на китайском сейчас -->
+    <!-- podomoro / помодоро -->
+    <!-- in xx days / через xx дней-->
+    <!-- today/tomorrow/yesterday = сегодня / завтра / вчера -->
+    <!-- in xx days  / через xx дней -->
+    <!-- today/tomorrow/yesterday = сегодня / завтра / вчера -->
 </resources>
