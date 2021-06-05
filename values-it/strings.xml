@@ -2,10 +2,20 @@
 <resources>
     <!-- Welcome Activity -->
     <!-- Strings related to login -->
-    <!-- 单次成就 -->
-    <!-- 事项成就 -->
-    <!-- 属性成就 -->
-    <!-- 社区成就 -->
-    <!-- 商店成就 -->
-    <!-- podomoro -->
+    <string name="github_desc1">Android Github</string>
+    <string name="github_desc2">Server Github</string>
+    <!-- \nThis is for the users whose phone doesn\'t support pedometer. -->
+    <!-- Single Achievement -->
+    <!-- Task Achievement -->
+    <!-- Attributes Achievement -->
+    <!-- Community Achievement -->
+    <!-- Shop Achievement -->
+    <string name="dialog_sub_task_coin_settings">Coins Number</string>
+    <string name="user_achievement_delete_title">Cancella</string>
+    <string name="dialog_input_stock_quantity_unlimited">Illimitato</string>
+    <string name="weekly_task_desc">Settimanale</string>
+    <string name="none">Singolo</string>
+    <string name="pomodoro_notification_complete">Salta</string>
+    <string name="pomodoro_notification_cancel">Annulla</string>
+    <string name="pomodoro_notification_skip">Salta</string>
 </resources>
