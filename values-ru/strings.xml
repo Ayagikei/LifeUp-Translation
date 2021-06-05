@@ -1,38 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="app_name_normal">LifeUp</string>
-    <string name="app_name_google">LifeUp Pro</string>
-
-    <!-- На 645 строке -->
-
-    <!-- bottom bar title / заголовок нижней панели -->
+    <!-- bottom bar title -->
     <string name="title_board">Задачи</string>
     <string name="title_status">Статус</string>
     <string name="title_community">Мир</string>
     <string name="title_me">Мой</string>
     <string name="title_activity_main">Главная</string>
-
-    <!-- Welcome Activity /Приветственное Активити -->
+    <!-- Welcome Activity -->
     <string name="page1_title">TO-DO СПИСОК</string>
     <string name="page1_content">Запишите свой список задач.\nУстановите важность и степень сложности, каждой задачи.\nПопробуйте выполнить их все!</string>
-    <string name="page2_title">GAMIFY LIFE</string>
     <string name="page2_content">Что, если бы ваша жизнь была игрой…?\nЧто, если бы ваши способности можно было измерить числами…?</string>
     <string name="page3_title">ЗАРАБОТАНА НАГРАДА</string>
     <string name="page3_content">Повышайте уровень своих навыков, выполняя задания из вашего списка дел.\nПолучайте всевозможные достижения и повышайте уровень своей жизни!</string>
     <string name="page4_title">ОБЛАКО</string>
     <string name="page4_content">Поделитесь своей повседневной или яркой жизнью в Интернете..\nПрисоединяйтесь к команде онлайн, чтобы вместе выполнять задачи.</string>
     <string name="page4_btn">НАЧАТЬ ЖИТЬ ВЫШЕ</string>
-
     <string name="navigation_drawer_open">Открыть панель навигации</string>
     <string name="navigation_drawer_close">Закрыть панель навигации</string>
-
-
-    <!-- Strings related to login / Строки, относящиеся к логину -->
+    <!-- Strings related to login -->
     <string name="title_activity_login">Войти</string>
     <string name="login_welcome">Войти для Больших функций</string>
     <string name="login_welcome_2">Больше функций:\n- Синхронизация опыта &amp; уровней на сервере\n- Редактировать профиль\n- Мир\n- Поделитесь своей деятельностью</string>
     <string name="login_signIn">ВОЙТИ</string>
-    <string name="login_или">или</string>
-
     <string name="title_activity_add_to_do_item">Добавить Новую Задачу</string>
     <string name="title_activity_add_team_item">Добавить Новую Команду</string>
     <string name="title_activity_edit_team_item">Редактировать Команду</string>
@@ -44,11 +33,9 @@
     <string name="title_activity_profile">Редактировать Профиль</string>
     <string name="title_activity_user_mine">Мой Профиль</string>
     <string name="title_activity_team_member">Состав</string>
-
     <string name="title_activity_user_team">Команда</string>
     <string name="title_activity_about">О нас</string>
     <string name="title_activity_achievement">Достижения</string>
-
     <string name="AcraText">Сожалеем, что приложение сломалось\nПожалуйста, отправьте нам отчет</string>
     <string name="AcraTitle">ОТЧЕТ О СБОЕ</string>
     <string name="AcraCommend">Как это произошло?</string>
@@ -68,8 +55,6 @@
     <string name="about_check_update">Проверить Обновление</string>
     <string name="about_version_name">Версия</string>
     <string name="contact_title">Связь</string>
-    <string name="github_desc1">Android Developer: AyagiKei</string>
-    <string name="github_desc2">Server Developer: Hdonghong</string>
     <string name="achievement_complete">Достижение разблокировано</string>
     <string name="category_add_success">Добавлено успешно</string>
     <string name="category_rename_success">Переименован успешно</string>
@@ -85,7 +70,6 @@
     <string name="team_add_repeat_month">Ежемесячно</string>
     <string name="team_add_not_repeat">Никогда</string>
     <string name="team_add_set_repeat">Установить частоту повтора</string>
-    <string name="edit_text_пусто_error">пусто</string>
     <string name="team_add_without_attr_toast">Вы должны выбрать хотя бы один навык!</string>
     <string name="team_add_remind_time_not_complete">Время напоминания заполнено не полностью</string>
     <string name="team_add_time_error">Время окончания должно быть позже времени начала</string>
@@ -171,7 +155,6 @@
     <string name="add_to_do_menu_expire_weekend_item">Выходные</string>
     <string name="title_activity_backup">Бэкап/Восстановление</string>
     <string name="title_activity_to_do_item_detail">О ЗАДАЧЕ</string>
-
     <string name="about_green_android_website">Проверено Green Android</string>
     <string name="about_not_found_android_store">Не найдено в магазине Android</string>
     <string name="add_to_do_bouns_question">Опыт будет суммирован настройками здесь.</string>
@@ -215,7 +198,6 @@
     <string name="team_task_can_not_get">Непривлекательный</string>
     <string name="team_time_end">Закончился</string>
     <string name="team_sign_end">Закончился</string>
-    <string name="point">P</string>
     <string name="team_menu_end">Конец</string>
     <string name="permission_photo_preview_need">Вы отказали в разрешении, необходимом для предварительного просмотра фотографии..</string>
     <string name="team_dialog_report_title">Отчет</string>
@@ -243,7 +225,7 @@
     <string name="to_do_detail_delete_message">Вы действительно хотите удалить эту задачу?</string>
     <string name="to_do_detail_delete_multiply_message">Вы действительно хотите удалить эти задачи?</string>
     <string name="activity_delete_message">Вы действительно хотите удалить это действие?</string>
-    <string name="sub_task_delete_message">Вы действительно хотите удалить "%1$s"?</string>
+    <string name="sub_task_delete_message">Вы действительно хотите удалить \"%1$s\"?</string>
     <string name="to_do_detail_delete_success">Успешно удалено</string>
     <string name="to_do_detail_delete_failed">Не удалось удалить</string>
     <string name="to_do_detail_delete_history">Вы действительно хотите удалить эту историю?</string>
@@ -252,7 +234,7 @@
     <string name="to_do_detail_delete_history_failed">Не удалось удалить</string>
     <string name="to_do_item_detail_give_up_team_task">Командная задача не может быть брошена!</string>
     <string name="to_do_item_detail_give_up_title">Отказаться от задачи</string>
-    <string name="to_do_item_detail_give_up_message">Вы действительно хотите отказаться от этой задачи?\nВы потеряете немного опыта."</string>
+    <string name="to_do_item_detail_give_up_message">Вы действительно хотите отказаться от этой задачи?\nВы потеряете немного опыта.\"</string>
     <string name="to_do_item_detail_edit_team_task">Командная задача не редактируется!</string>
     <string name="to_do_detail_set_to_finish">Установлен в 「Завершено」</string>
     <string name="to_do_detail_set_to_finish_message">Вы действительно выполнили эту задачу?</string>
@@ -274,26 +256,18 @@
     <string name="welcome">добро пожаловать</string>
     <string name="activity_join_team_text">Добро пожаловать %1$s присоединился к команде 「%2$s」</string>
     <string name="join_team">присоединился к команде</string>
-    <string name="date">yyyy-MM-dd</string>
     <string name="joined">присоединился</string>
     <string name="exp">опыт</string>
     <string name="repeat_task">Повторить задачу-</string>
     <string name="start">Начинать</string>
     <string name="deadline">Срок</string>
     <string name="today">Сегодня</string>
-    <string name="today_with_time">%1$s</string>
     <string name="tomorrow">Завтра</string>
     <string name="tomorrow_with_time">Завтра %1$s</string>
     <string name="yesterday_with_time">Вчера %1$s</string>
     <string name="relative_time_later">%1$d дней с этого момента</string>
     <string name="to_do_adapter_not_start_yet">Задача еще не началась!</string>
     <string name="team">команда</string>
-    <string name="attr_strength">STR</string>      <!-- СИЛА -->
-    <string name="attr_learning">INT</string> <!-- ОЧАРОВАНИЕ -->
-    <string name="attr_charm">CHA</string> <!-- ВЫНОСЛИВОСТЬ -->
-    <string name="attr_endurance">END</string>
-    <string name="attr_vitality">VIT</string>
-    <string name="attr_creative">CRE</string>
     <string name="female">Женщина</string>
     <string name="male">Мужчина</string>
     <string name="secret">Секрет</string>
@@ -324,7 +298,7 @@
     <string name="to_do_taptarget_new">Добавить задачи</string>
     <string name="to_do_taptarget_content">Нажмите здесь, чтобы добавить задачи！</string>
     <string name="to_do_taptarget_nav">Навигация</string>
-    <string name="to_do_taptarget_nav_content">"Доска: места, где вы выполняете задания, как в RPG.\n"                                     "Статус: просмотр опыта и уровней ваших навыков\n\n"                                     "Мир: присоединяйтесь к команде и выполняйте командные задачи\n\n"                                     "Статистика: просмотр статистических данных\n\n\n"                                     "Большинство этих функций будут работать без подключения к сети, кроме [Мир] модуль~\n"                                     "И большая часть данных хранится в локальном хранилище, поэтому будьте осторожны при удалении приложения без создания резервной копии."</string>
+    <string name="to_do_taptarget_nav_content">"Доска: места, где вы выполняете задания, как в RPG.\n\"                                     \"Статус: просмотр опыта и уровней ваших навыков\n\n\"                                     \"Мир: присоединяйтесь к команде и выполняйте командные задачи\n\n\"                                     \"Статистика: просмотр статистических данных\n\n\n\"                                     \"Большинство этих функций будут работать без подключения к сети, кроме [Мир] модуль~\n\"                                     \"И большая часть данных хранится в локальном хранилище, поэтому будьте осторожны при удалении приложения без создания резервной копии."</string>
     <string name="to_do_slide_bar">Ползунок</string>
     <string name="to_do_slide_bar_content">Вот записи для входа, достижения, истории задач, настроек и т. д.</string>
     <string name="to_do_list">Список</string>
@@ -347,7 +321,6 @@
     <string name="submit_activity">Отправить</string>
     <string name="no_submit">Пропускать</string>
     <string name="today_finished">Сегодня вы уже выполнили %1$d из %2$d задач</string>
-    <string name="month_and_day">MM-dd</string>
     <string name="permission_camera_need">Для выбранной фотографии требуются следующие разрешения:\n1.Камера</string>
     <string name="add_photo">Новая фотография</string>
     <string name="category_all">Все</string>
@@ -355,11 +328,9 @@
     <string name="shop_list_undeleteable">Список нельзя удалить, если в нем есть хотя бы один элемент.</string>
     <string name="network_login_invaild">Логин недействителен, пожалуйста, войдите еще раз!</string>
     <string name="network_server_dead">Возможно, произошел сбой сервера, попробуйте позже</string>
-    <string name="team_get_next_task_success">"Получить задание" успешно</string>
-    <string name="team_get_next_task_already">"Получить задание" успешно</string>
-    <string name="lifeup">LifeUp</string>
+    <string name="team_get_next_task_success">\"Получить задание\" успешно</string>
+    <string name="team_get_next_task_already">\"Получить задание\" успешно</string>
     <string name="notification_content">У вас есть задача, которую нужно выполнить:&#160;</string>
-    <string name="notification_ticker">TO-DO</string>
     <string name="step_to_str">Прирост [Сила] exp с шагами</string>
     <string name="likes_exchange_charm">Прирост [Очарование] exp с лайками</string>
     <string name="using_days_streaks_exchange_endurance">Прирост [Выносливость] exp с использованием дневных полос</string>
@@ -451,7 +422,7 @@
     <string name="Sat">Сб.</string>
     <string name="Sun">Вс.</string>
     <string name="dialog_input_sport_desc">Введите количество шагов на сегодня.</string>
-    <!-- \nThis is for the users whose phone doesn\'t support pedometer.  / Это для пользователей, чей телефон не поддерживает шагомер.-->
+    <!-- \nThis is for the users whose phone doesn\'t support pedometer. -->
     <string name="dialog_input_sport_tint">Шаги</string>
     <string name="custom">Привычка</string>
     <string name="single">Нет</string>
@@ -534,7 +505,6 @@
     <string name="tag_local_every_2_weeks">Повторять - каждые 2 недели</string>
     <string name="tag_local_monthly">Повторять - ежемесячно</string>
     <string name="weekdays">Будний день</string>
-    <string name="comma">,</string>
     <string name="one">Пн</string>
     <string name="two">ВТ</string>
     <string name="three">СР</string>
@@ -580,7 +550,6 @@
     <string name="xml_login_third_login">В настоящее время приложение поддерживает вход только на сторонних платформах.</string>
     <string name="gmt_tint">Простите :(</string>
     <string name="gmt_tint_message">Сообщество пока хорошо работает только с часовым поясом GMT+8.\nВы хотите скрыть модуль сообщества?\nМы исправим это позже.</string>
-    <string name="step_bar" />
     <string name="Long_Sunday">Воскресенье</string>
     <string name="long_monday">Понедельник</string>
     <string name="long_tuesday">Вторник</string>
@@ -613,13 +582,10 @@
     <string name="setting_display_date_format">Формат даты</string>
     <string name="setting_display_date_format_desc">Изменить формат даты</string>
     <string name="about_feature_element">Особенность</string>
-
     <string name="feature_night_mode">Ночной режим</string>
     <string name="feature_night_mode_desc">Измените тему LifeUp на тему темного режима.</string>
-
     <string name="feature_history_filter">Фильтр истории</string>
     <string name="feature_history_filter_desc">Просмотр истории выбранного вами дня.</string>
-
     <string name="feature_fix">Небольшие изменения</string>
     <string name="feature_fix_desc">- Плавающая кнопка будет автоматически скрыта\n- Исправить черный экран при запуске приложения\n- Изменить формат даты\n- Оптимизация</string>
     <string name="feature_plan">Планируется</string>
@@ -786,7 +752,6 @@
     <string name="backup_default_uri">По умолчанию Путь</string>
     <string name="backup_custom_uri">Пользовательский Путь</string>
     <string name="backup_custom_fail">Ошибка резервного копирования.\nПопробуйте другой путь.</string>
-
     <string name="moments_filter">Фильтр</string>
     <string name="user_team_show_all">Показать Все Команды</string>
     <string name="user_team_hide_ended">Скрыть Завершившиеся Команды</string>
@@ -796,8 +761,7 @@
     <string name="calendar">Календарь</string>
     <string name="calendar_empty_text">Все Задачи Выполнены!</string>
     <string name="calendar_empty_done_text">Пусто здесь!</string>
-
-    <!-- Base Achievement / Базовое достижение -->
+    <!-- Base Achievement -->
     <string name="achievement_base_new_player">Новый Игрок</string>
     <string name="achievement_base_new_player_desc">Заверши свою первую задачу</string>
     <string name="achievement_base_merchant">Торговец</string>
@@ -832,9 +796,7 @@
     <string name="achievement_base_special_case_desc">Отказаться от задачи</string>
     <string name="achievement_base_tinker">Ремонт</string>
     <string name="achievement_base_tinker_desc">Редактировать что-нибудь</string>
-
-
-    <!-- Task Achievements / Достижения Задач-->
+    <!-- Task Achievements -->
     <string name="achievement_task_habit_develop">Привычка развивать</string>
     <string name="achievement_task_habit_develop_desc">Создайте повторяемую задачу</string>
     <string name="achievement_task_habit_starter">Привычка Новичка</string>
@@ -865,8 +827,7 @@
     <string name="achievement_task_game_bachelor_desc">Получил 60-дневную серию заданий на завершение</string>
     <string name="achievement_task_game_master">Мастер Игры</string>
     <string name="achievement_task_game_master_desc">Получил 180-дневную серию заданий на завершение</string>
-
-    <!-- Attributes Achievements / Навыки - Атрибуты Достижения -->
+    <!-- Attributes Achievements -->
     <string name="achievement_attribution_warrior">Воин</string>
     <string name="achievement_attribution_warrior_desc">Сила достигает 50 Уровня.</string>
     <string name="achievement_attribution_mega">Ученый</string>
@@ -881,10 +842,8 @@
     <string name="achievement_attribution_alchemist_desc">Креативность достигает 50 Уровня</string>
     <string name="achievement_attribution_hero">Герой</string>
     <string name="achievement_attribution_hero_desc">Уровень жизни достигает 50 Уровня.</string>
-
-    <!-- Community Achievements / Достижения сообщества -->
+    <!-- Community Achievements -->
     <string name="achievement_community_new_member">Новый участник</string>
-    <string name="achievement_community_new_member_desc">Create or join a team</string>
     <string name="achievement_community_well_played">Отлично сработано</string>
     <string name="achievement_community_well_played_desc">Как и другие действия</string>
     <string name="achievement_community_follow">Подписаться</string>
@@ -903,9 +862,7 @@
     <string name="achievement_community_little_famous_desc">Получите 10 лайков</string>
     <string name="achievement_community_lovable">Продвинутая</string>
     <string name="achievement_community_lovable_desc">Получите 50 лайков</string>
-
-
-    <!-- Shop Achievements / Достижения Магазина -->
+    <!-- Shop Achievements -->
     <string name="achievement_shop_first_bucket_of_gold">Первое Ведро Золота</string>
     <string name="achievement_shop_first_bucket_of_gold_desc">Получите награду в монетах</string>
     <string name="achievement_shop_sold_out">Распроданный!</string>
@@ -920,7 +877,6 @@
     <string name="achievement_shop_little_wealthy_desc">Собственные 1000 монет</string>
     <string name="achievement_shop_monopoly">Монополия</string>
     <string name="achievement_shop_monopoly_desc">Собственные 10 000 монет</string>
-
     <string name="achievement_unlock">Достижение разблокировано!</string>
     <string name="achievement_secret">Это секрет!</string>
     <string name="target_edit_error">Целевое время не должно быть меньше, чем завершенное время.</string>
@@ -966,7 +922,6 @@
     <string name="sort_custom">Привычка</string>
     <string name="close">Закрыть</string>
     <string name="to_do_selecting_card">Выбор карты</string>
-
     <string name="to_do_unstart_hint">%1$d задача(и) еще не начаты</string>
     <string name="sort_urgency_degree">Важность</string>
     <string name="sort_difficulty_degree">Сложность</string>
@@ -1000,24 +955,15 @@
     <string name="title_activity_backup_setting">Настройки Бэкапа</string>
     <string name="backup_or_restore_title">Бэкап и Восстановление</string>
     <string name="data_delete_title">Удаление Данных</string>
-    <string name="backup_web_dav">WebDav</string>
     <string name="restore_check_failed">Скачать файл резервной копии из WebDAV сервера неудалось</string>
     <string name="not_configured">Не настроено</string>
     <string name="configured">Настроен</string>
-    <string name="web_dav_url">WebDAV Url</string>
-    <string name="web_dav_account">WebDAV Account</string>
-    <string name="web_dav_password">WebDAV Password</string>
-    <string name="xml_backup_cloud_setting">WebDAV Configuration</string>
     <string name="xml_backup_cloud_setting_desc">Настройте WebDAV в качестве места назначения резервного копирования.</string>
     <string name="submit">Принять</string>
     <string name="backup_failed_webdav">Ошибка резервного копирования\\nПожалуйста, проверьте свою конфигурацию WebDAV.</string>
     <string name="web_dav_test_success">Успешно!</string>
     <string name="web_dav_test_failed">Тест не пройден, проверьте свою конфигурацию.\nПодробное сообщение:</string>
     <string name="webdav_lifeup_hint">LifeUp создаст папку с именем LifeUp для хранения файла(ов) резервной копии.</string>
-    <string name="title_web_dav_setting">WebDAV</string>
-    <string name="webdav_configuration">WebDAV Configuration</string>
-    <string name="webdav_url">WebDAV Url</string>
-    <string name="webdav_password">WebDAV Password</string>
     <string name="test_connection">Подключить Тест</string>
     <string name="title_activity_custom_attribute">Настраиваемые Навыки</string>
     <string name="custom_attribution">Настраиваемые Навыки</string>
@@ -1037,7 +983,6 @@
     <string name="feature_170">Лаборатории</string>
     <string name="feature_170_desc">- Компактный режим\n- Вложение изображения\n- Настраиваемые навыки (текст и значок)\n- WebDAV Бэкап</string>
     <string name="menu_undo">Отменить</string>
-
     <string name="setting_task_snack_bar_duration">Окно Отмены, показывающее Продолжительность </string>
     <string name="setting_task_snack_bar_duration_desc_short">Короткое</string>
     <string name="setting_task_snack_bar_duration_desc_long">Длинное</string>
@@ -1084,18 +1029,16 @@
     <string name="feelings_submit_success">Чувство отправлено успешно!</string>
     <string name="feelings_dialog_search_title">Поиск</string>
     <string name="lab_feelings_title">Чувства</string>
-
-    <!-- Team Report Type / Тип отчета команды -->
+    <!-- Team Report Type -->
     <string name="report_type_1">Это спам</string>
     <string name="report_type_2">Это оскорбление или лексикон</string>
     <string name="report_type_3">Это вредная информация</string>
     <string name="report_type_4">Это нарушает мои авторские права</string>
     <string name="report_type_5">Это сбор голосов за что-то</string>
     <string name="report_type_6">Другое</string>
-
-    <!-- Feelings Fav / Чувства Избранное -->
+    <!-- Feelings Fav -->
     <string name="feelings_fav">Избранное</string>
-    <string name="feelings_fav_action">Изб</string>     <!-- было Fav -->
+    <string name="feelings_fav_action">Изб</string>
     <string name="feelings_search_by_content">Избранное Содержание</string>
     <string name="feelings_search_by_date">Дата</string>
     <string name="feelings_search_by_content_title">Поиск по содержанию Избранное</string>
@@ -1105,9 +1048,7 @@
     <string name="settings_custom_task_card_bg_hint">Нажмите здесь, чтобы выбрать картинку</string>
     <string name="opacity">Непрозрачность</string>
     <string name="feedback_email_hint">Если вы хотите получить ответ, введите свой контактный адрес электронной почты.\n\nИли вы можете оставить отзыв по электронной почте: kei.ayagi@gmail.com</string>
-
-
-    <!-- degree only in Chinese now /степень только на китайском сейчас -->
+    <!-- degree only in Chinese now -->
     <string name="importance_lv1_desc">Это необязательный вопрос. Это может быть такая задача, как «проверка определенных сплетен о текущих событиях». Он появляется по определенному совпадению, только ценность, которую вы почти не помните, и влияние ее завершения на вас можно игнорировать.</string>
     <string name="importance_lv2_desc">Этот вопрос заслуживает небольшого внимания. Это может быть такая задача, как «повторять 10 слов каждый день». Его выполнение не окажет на вас значительного влияния, но может заставить вас обнаружить, что вы значительно улучшились после тонкого сложения чисел. Верно и обратное: если вы не можете упорствовать в выполнении определенных задач этого уровня, вы можете соответственно потерять некоторые важные вещи.</string>
     <string name="importance_lv3_desc">Этот вопрос требует вашего внимания. Это может быть такая задача, как «завершить рукопись до крайнего срока». Выполнение такой задачи может сразу принести вам значительную пользу. Напротив, если вы не справитесь с такой задачей, ваша потеря может вызвать у вас болезненные ощущения.</string>
@@ -1118,11 +1059,8 @@
     <string name="difficult_lv4_desc">Завершить практически невозможно.\nЭта задача затронула многие слепые зоны ваших способностей, так же волшебно, как позволить старшекласснику пройти семестр проверки и поступления в университет Цинхуа. Из-за нехватки способностей время стало чрезвычайно актуальным.Для выполнения задач на этом уровне, если у вас нет упорства, превышающего человеческое, и решимости никогда не сдаваться.</string>
     <string name="title_activity_degree_desc">Степень</string>
     <string name="content_degree_desc_author">Автор：酷安 @风之心_天双</string>
-    <string name="donate_alipay">Alipay</string>
-    <string name="donate_wechat_or_list">Wechat</string>
     <string name="about_donate_element">Пожертвовать</string>
     <string name="about_icon_designer_element">Дизайнер иконок CoolApk@这是一碗麦面</string>
-
     <string name="common_select_photos">Выбрать фотографии</string>
     <string name="statistics_time_30days">30 Дней</string>
     <string name="statistics_time_3months">3 Месяцев</string>
@@ -1191,10 +1129,8 @@
     <string name="hint_denied_activity_permission">LifeUp не сможет получить данные о количестве шагов, если вы запретили датчику разрешение.</string>
     <string name="default_name_system_achievements">Система</string>
     <string name="login_backup_hint">Внимание:\nВаши локальные данные не будут синхронизироваться с сервером.</string>
-
     <string name="user_achievement_delete_title">Удаление</string>
     <string name="user_achievement_delete_message">Вы действительно хотите удалить это достижение?</string>
-
     <string name="backup_hint">Вы можете использовать [Бэкап Данных] Страница в [Настройках] Страница для бэкапа/восстановления ваших данных.\n Теперь мы поддерживаем экспорт ваших локальных данных в zip-файл или синхронизацию данных с сервером WebDAV, который вы настроили.\n        LifeUp добавит поддержку резервного копирования на Google Диск в будущем.\n\n Чтобы защитить конфиденциальность ваших данных и сократить использование сервера, ваши локальные данные не будут синхронизироваться с сервером, в том числе:\n 1. Данные о локальных задачах\n        2. Запись локальной истории задач.\n        3. Данные о товарах в магазине.\n         4. Данные о собственных ощущениях\n        5. Данные о достижениях пользователей.\n        6. Статистические данные\n        7. Настройки\n         \n      Данные, которые БУДУТ синхронизированы с сервером, включают:\n         1. Очки опыта\n        2. Система достижений\n         3. Команды\n        4. Записи о выполнении командных задач.\n        5. Работа с командными задачами\n     </string>
     <string name="add_shop_item_stock_number">Количество на складе</string>
     <string name="dialog_input_stock_quantity_unlimited">Безлимитно</string>
@@ -1233,7 +1169,6 @@
     <string name="inventory_record_undo_reward">Отменить награду 「%1$s」×%2$d</string>
     <string name="feature_1740">Банкомат</string>
     <string name="feature_1740_desc">- Банкомат\n- Выберите товары в магазине в качестве награды за выполнение заданий\n- Количество товара в магазине\n- Улучшенная анимация</string>
-
     <string name="dialog_button_confirm">ПОДТВЕРДИТЬ</string>
     <string name="toast_clear_history_success">Данные истории успешно удалены</string>
     <string name="xml_clear_history">Очистить данные истории</string>
@@ -1241,13 +1176,12 @@
     <string name="clear_history_title">Очистить данные истории</string>
     <string name="clear_history_desc">Очистить все данные истории.\nВнимание: это нельзя отменить!</string>
     <string name="title_dialog_task_tag_color">Цвет Метки</string>
-
     <string name="setting_display_hide_status">Скрыть Статус</string>
     <string name="setting_display_hide_status_desc">Скрыть модуль состояния в нижней части Навигации.</string>
     <string name="setting_display_hide_shop">Скрыть Магазин</string>
     <string name="setting_display_hide_shop_desc">Скрыть модуль Магазина в нижней части Навигации.</string>
-    <string name="setting_display_hide_me">Скрыть "Мой"</string>
-    <string name="setting_display_hide_me_desc">Скрыть "Мой" модуль в нижней части Навигации.</string>
+    <string name="setting_display_hide_me">Скрыть \"Мой\"</string>
+    <string name="setting_display_hide_me_desc">Скрыть \"Мой\" модуль в нижней части Навигации.</string>
     <string name="relaunch_item">Перезапутить</string>
     <string name="relaunch_success">Перезапуск прошел успешно</string>
     <string name="auto_backup_conflict_download">Локальные данные будут перезаписаны данными, резервные копии которых были сохранены на серверах.\n\nВы можете отменить это действие на странице настроек резервного копирования позже.</string>
@@ -1255,21 +1189,12 @@
     <string name="auto_backup_title_sync">СИНХ</string>
     <string name="auto_backup_last_sync_time">Время последней синхронизации: %1$s</string>
     <string name="btn_sync">СИНХ</string>
-    <string name="auto_backup_last_sync_failure">Last sync failed: %1$s\nPlease check your network connection or the WebDAV configuration.</string>
     <string name="btn_config">КОНФИГУРАЦИЯ</string>
     <string name="btn_upload">ЗАГРУЗИТЬ</string>
     <string name="btn_download">СКАЧАТЬ</string>
     <string name="dialog_title_sync_conflict">Конфликт Синхронизации</string>
     <string name="dialog_title_confirm">Подтвердить</string>
-
-    <!-- podomoro / помодоро -->
-    <string name="short_break_duration_key" translatable="false">SHORT_BREAK_DURATION</string>
-    <string name="long_break_duration_key" translatable="false">LONG_BREAK_DURATION</string>
-    <string name="work_session_count_key" translatable="false">WORK_SESSION_COUNT</string>
-    <string name="task_on_hand_count_key" translatable="false">TASK_ON_HAND_COUNT</string>
-    <string name="start_long_break_after_key" translatable="false">LONG_BREAK_AFTER_DURATION</string>
-    <string name="currently_running_service_type_key" translatable="false">CURRENTLY_RUNNING_SERVICE_TYPE</string>
-
+    <!-- podomoro -->
     <string name="start_tametu">Таймер Запуска</string>
     <string name="cancel_tametu">Отменить Таймер</string>
     <string name="start_short_break">Начать Короткий Перерыв</string>
@@ -1291,10 +1216,6 @@
     <string name="big_break_minute_picker_summary">00 минут</string>
     <string name="sessions_until_big_break_title">Рабочие занятия до долгого перерыва</string>
     <string name="sessions_until_big_break_summary">00 занятий</string>
-    <string name="work_time_minutes_default_value" translatable="false">25</string>
-    <string name="small_break_time_minutes_default_value" translatable="false">5</string>
-    <string name="big_break_time_minutes_default_value" translatable="false">15</string>
-    <string name="sessions_until_big_break_default_value" translatable="false">4</string>
     <string name="number_picker_dialog_positive_button_text">ОК</string>
     <string name="number_picker_dialog_negative_button_text">Отменить</string>
     <string name="pomo_work_session">Рабочая сессия</string>
@@ -1303,7 +1224,6 @@
     <string name="pomo_settings">Настройки Таймера</string>
     <string name="switch_enable_webdav_auto_backup">WebDAV Авто Бэкап</string>
     <string name="none">Никто</string>
-    <string name="vip">VIP</string>
     <string name="action_end_the_team">Завершить команду</string>
     <string name="action_end_the_team_desc">Вы действительно хотите покончить с командой?</string>
     <string name="btn_end">КОНЕЦ</string>
@@ -1340,12 +1260,10 @@
     <string name="setting_custom_enable_sound_effect">Включить Звуковые Эффекты</string>
     <string name="setting_custom_enable_sound_effect_desc">Включите звуковые эффекты. Громкость может быть установлена на уровне громкости системного носителя.</string>
     <string name="dialog_select_local_pictures_btn">Выберите имеющиеся фотографии</string>
-    <string name="btn_change_icon">Change icon</string>
     <string name="default_coin_sub_task">По умолчанию Coin Number for SubTasks</string>
     <string name="title_dialog_default_coin_number_subtask">По умолчанию Coin Number for SubTasks</string>
     <string name="feellings_search_task_content">Содержание Задачи</string>
     <string name="feelings_only_fav">Только Избранное</string>
-    <string name="vip_version">VIP</string>
     <string name="pro_version">PRO</string>
     <string name="pomodoro_create_shortcuts">Создать Ярлыки</string>
     <string name="pomodor_create_shortcuts_to_launcher">Создайте ярлык для вашей пусковой установки.</string>
@@ -1422,8 +1340,6 @@
     <string name="shop_share_fail">Поделиться не удалось</string>
     <string name="share_goods_fail_imported">не может предоставить общий доступ к импортированному элементу</string>
     <string name="undo_share_to_market">Отменить Отправку</string>
-
-    <string name="translator_credit"></string>
     <string name="view_creator">Посмотреть страницу автора</string>
     <string name="error_msg_report_self">Не могу сообщить о себе</string>
     <string name="off_item_succeed">Успешно удалено</string>
@@ -1496,7 +1412,6 @@
     <string name="condition_current_coin_number">Текущий кол-во монеты</string>
     <string name="condition_coin_number_added_in_a_day">Количество монет, набранных за день</string>
     <string name="dialog_title_select_attributes">Выбрать Навык</string>
-
     <string name="condition_desc_total_completed_times">Завершено [%1$s] в общей сложности %2$d время(ни)</string>
     <string name="condition_desc_completed_streak_task">Достигните серии завершенных %1$d с [%2$s]</string>
     <string name="condition_desc_reach_level">Достигнете Уровня %2$d в [%1$s]</string>
@@ -1509,7 +1424,6 @@
     <string name="market_list_sort_by_import">Сортировать по номеру импорта</string>
     <string name="hint_add_user_achievement_reward_develop">Скоро будут добавлены Настройки вознаграждения за Опыт и Магазин.</string>
     <string name="feelings_view_detail">Подробности</string>
-
     <string name="achievement_attribution_yes_itsme">Да, это я</string>
     <string name="achievement_attribution_yes_itsme_desc">Любой навык достигает 10 уровня.</string>
     <string name="QandA_known_issues">ивестные проблемы</string>
@@ -1521,7 +1435,6 @@
     <string name="dialog_input_exp_number">Значение вознаграждения за Опыт</string>
     <string name="hint_dialog_input_exp">После разблокировки [Да, это я] достижение\n(Любой навык достигает 10 уровня.)\nнастраиваемый диапазон будет расширен до 0~9999.</string>
     <string name="dialog_input_exp_number_title">Входная награда за Опыт</string>
-
     <string name="dialog_enable_auto_sum_short">Авто</string>
     <string name="status_pomodoro_card_title">Помодоры</string>
     <string name="status_pomodoros_today_focus">сегодняшнее время фокусировки\n(в минутах)</string>
@@ -1529,7 +1442,6 @@
     <string name="status_tomato_total_amount">общая сумма\nпомидоров</string>
     <string name="dialog_category_hide_hint_button">ОК</string>
     <string name="dialog_category_hide_hint_desc">Перетащите элементы списка для сортировки списков</string>
-
     <string name="inventory_record_synthesis_cost">Статья затрат синтеза 「%1$s」×%2$d</string>
     <string name="inventory_record_synthesis_got">Синтез получил предмет 「%1$s」×%2$d</string>
     <string name="inventory_record_unknown">НЕИЗВЕСТНЫЙ</string>
@@ -1543,7 +1455,6 @@
     <string name="pomodoro_tap_target_tomatoes_play_pause">Таймер запуска / паузы</string>
     <string name="pomodoro_tap_target_tomatoes_skip">Пропустить таймер</string>
     <string name="task_detail_tomatoes_count_display_text">x%1$d (%3$d минут), всего x%2$d (%4$d минут)</string>
-
     <string name="condition_task_tomatoes_gained">Получите указанное количество помидоров с помощью задания</string>
     <string name="condition_desc_task_tomatoes_gained">Получите %1$d помидоров за「%2$s」</string>
     <string name="condition_task_purchase_item_times">Приобритен товар за указанное количество раз</string>
@@ -1551,15 +1462,11 @@
     <string name="condition_task_use_item_times">Использовать элемент указанное количество раз</string>
     <string name="condition_desc_use_item_times">Использовать「%1$s」 %2$d」раз</string>
     <string name="edit_text_search_hint">Поиск…</string>
-
     <string name="dialog_input_exp_punishment_factor_message_example">Для задания с вознаграждением в 100 опыта вы потеряете %1$d (100 × %2$.2f) опыта, если его провалите.</string>
     <string name="dialog_input_coin_punishment_factor_message_example">Для задания на 100 монет вы потеряете %1$d (100 × %2$.2f) монет, если проиграете его.</string>
     <string name="add_team_edit_hint">После создания награды и времени нельзя изменить.\nПожалуйста, подтвердите ваши настройки.</string>
-
     <string name="select_shop_item_reward_with_stock_number">%1$s x%2$d\n(%3$d оставлено)</string>
-
     <string name="shop_top_item_count">%1$d предметов</string>
-
     <string name="unlock_achievement_time_desc">разблокирован в %1$s</string>
     <string name="pomodoro_empty_text">здесь нет записи помидоров</string>
     <string name="title_activity_pomodoro_record">Помодоро Записи</string>
@@ -1567,7 +1474,6 @@
     <string name="place_a_app_widget_method_hint">Способ размещения виджета приложения на главном экране зависит от программы главного экрана,\nно обычно вы можете долго нажимать пустую часть главного экрана</string>
     <string name="user_achievement_shop_item_reward_title">Заработан предмет!</string>
     <string name="xml_add_user_achievment_complete_reward">Награда за предмет</string>
-    <string name="vip_extension_theme_color"></string>
     <string name="user_activity_empty_hint">здесь нет записи активности\nвыполнить командное задание, чтобы отправить его</string>
     <string name="user_activity_shop_empty_hint">здесь нет общего магазина</string>
     <string name="setting_custom_sound_effect">Пользовательские Звуковые Эффекты</string>
@@ -1592,21 +1498,16 @@
     <string name="dialog_check_repeat_sec_cycle">Второй цикл повторения</string>
     <string name="unknown">неизвестный</string>
     <string name="switch_enable_cloud_auto_backup">Включить автоматическое резервное копирование в облако</string>
-    <string name="cloud_backup_method_webdav">WebDAV</string>
-    <string name="cloud_backup_method_dropbox">Dropbox</string>
     <string name="cloud_backup_setting">Конфигурация Облачного Бэкапа</string>
     <string name="cloud_backup_configured">Настроен</string>
     <string name="cloud_backup_not_configured">Не настроено</string>
-    <string name="btn_email">Email</string>
     <string name="toast_message_failed_to_call_email_app">Не удалось запустить приложение Email почты</string>
     <string name="dialog_title_server_unavailable">Сервер может быть недоступен или сетевое соединение не удалось.</string>
     <string name="dialog_server_unavailable_message">Пожалуйста, проверьте свою сеть или повторите попытку позже.\nВы можете использовать большинство функций LifeUp в оффлайн режиме.\nСообщение об ошибке: %1$s\n\nЕсли такая ситуация длилась какое-то время, пришлите нам отчет!</string>
-    <string name="cloud_backup_method_dropbox_in_zh" />
     <string name="goods_effect_loot_box">Лутбокс</string>
     <string name="effect_desc_item_loot_box">Лутбокс</string>
     <string name="probility_of_received_item_from_loot_box">Получен товар (%1$.2f\%%)</string>
     <string name="hint_click_to_open_the_box">нажмите, чтобы открыть лутбокс</string>
-
     <string name="inventory_record_loot_box_cost">Открыть Лутбокс「%1$s」×%2$d</string>
     <string name="inventory_record_loot_box_got">Получен 「%1$s」×%2$d из Лутбокса</string>
     <string name="btn_add_items">Добавить элемент</string>
@@ -1618,7 +1519,6 @@
     <string name="backup_once_a_week">Раз в неделю</string>
     <string name="backup_once_2_week">Раз в две недели</string>
     <string name="backup_once_a_month">Раз в месяц</string>
-
     <string name="market_search_empty_text">Нет подходящего товара.\nВы можете попробовать создать и поделиться одним!</string>
     <string name="title_auto_backup_interval">Интервал автоматического бэкапа</string>
     <string name="compact_config">Конфигурация Компактного режима</string>
@@ -1630,13 +1530,11 @@
     <string name="chip_punishment">Наказание</string>
     <string name="dialog_title_set_indie_punishment_factor">Фактор наказания</string>
     <string name="dialog_message_set_indie_punishment_factor">Пожалуйста, введите значение от 0 - 5.0</string>
-
     <string name="title_activity_edit_achievement_category">Изменить Категорию</string>
     <string name="title_activity_edit_user_achievement">Изменить Достижение</string>
     <string name="view_team">Показать Команду</string>
     <string name="loot_box_probability_table">Таблица Вероятностей</string>
     <string name="menu_restart">Перезапустить</string>
-
     <string name="system_achievement_list_undeleteable">Список достижений системы не может быть удален</string>
     <string name="achievement_list_delete_message">Вы действительно хотите удалить этот список достижений?</string>
     <string name="user_achievement_not_empty_list_undeleteable">Невозможно удалить непустой список достижений.</string>
@@ -1658,10 +1556,8 @@
     <string name="dialog_shop_settings_atm_interest">Ежедневная процентная ставка Банкомата</string>
     <string name="atm_interest_desc">Заработано %1$d монет от процента Банкомата</string>
     <string name="atm_interest_input_limit">не должно быть больше 10%</string>
-
     <string name="condition_shop_open_loot_boxes">Получите предмет из Лутбокса указанное количество раз</string>
     <string name="condition_desc_open_loot_boxes">Получать「%1$s」 「%2$d」раз из Лутбоксов</string>
-
     <string name="hint_hide_module_title">Скрыть Модуль</string>
     <string name="hint_hide_module_desc">Вы можете скрыть любой модуль, который вам не нужен, на странице [Настройки] - [Отображение].</string>
     <string name="hint_pomodoro_sound_hint">Звук Напоминания</string>
@@ -1669,48 +1565,33 @@
     <string name="hint_pedometer_hint">Счетчик шагов</string>
     <string name="hint_pedometer_hint_desc">Приложение не может получить доступ к ежедневному количеству шагов из системы.\nЕжедневное количество шагов рассчитывается путем вычитания общего количества шагов за вчерашний день из общего количества шагов на сегодняшний день.\n\n Точность подсчета зависит от таких условий, как время открытия приложения и перезапуск телефона.</string>
     <string name="hint_pedometer_input_or_hide_hint_desc">В качестве альтернативы автоматическому расчету вы можете ввести номер шага вручную.\n\nили скройте модуль счетчика шагов на странице [Отображение], если он вам не нужен.</string>
-
-    <string name="hint_login_method"></string>
-    <string name="hint_login_method_desc"></string>
-    <string name="hint_login_method2"></string>
-    <string name="hint_login_method_desc2"></string>
-
     <string name="hint_world_module">Привет, Мир!</string>
     <string name="hint_world_module_desc">В модуле «Мир» вы можете присоединиться к команде, чтобы получить командные задачи/или поделиться своими задачами, создав новую команду.</string>
     <string name="hint_world_module_moments">Почтовые мероприятия</string>
     <string name="hint_world_module_moments_desc">Выполнив командное задание, вы можете публиковать свои действия или чувства по поводу них с текстом и фотографиями для всего мира.</string>
     <string name="hint_world_module_market">Творческий Рынок</string>
     <string name="hint_world_module_market_desc">Просматривайте товары творческого магазина, созданные людьми со всего мира.\n\nИ вы можете поделиться своими шедеврами!</string>
-
     <string name="hint_atm_interest">Проценты по Банкоматам</string>
     <string name="hint_atm_interest_desc">Вы можете настроить процент в банкомате в настройках Магазина (ссылка находится у банкомата), чтобы получать ежедневные проценты.</string>
-
     <string name="hint_loot_box_probability">Вероятность</string>
     <string name="hint_loot_box_probability_desc">Фактическая формула расчета вероятности элемента: вероятность элемента ÷ сумма вероятностей всех элементов.\n\nНапример, если вы хотите создать предмет с именем A с вероятностью 0,1%:\nВыберите элемент A и введите 1% в его вероятность, а затем выберите другой элемент с именем B и введите 999% в его вероятность.\nНаконец, вероятность элемента A составит 0,1%, а элемента B - 99,9%.</string>
     <string name="dialog_crash_action_btn_skip_hint">Больше не показывать\n(если не произойдет следующий сбой)</string>
     <string name="title_activity_edit_category">Редактировать Список</string>
-
     <string name="hint_uncomplete_task">Незавершить задачу</string>
     <string name="hint_uncomplete_task_desc">Есть много способов отменить выполненные задачи:\n1. После выполнения задачи нажмите кнопку отмены в нижнем всплывающем окне.\n\n2. Перейдите на страницу [История] или [Календарь], а затем нажмите кнопку отмены.\n\n3. Установите флажок [Показать завершеное] в правом верхнем меню, а затем коснитесь отметки завершения на задаче.</string>
-
     <string name="hint_punishment">Наказание Опытом</string>
     <string name="hint_punishment_desc">Вы потеряете некоторое количество опыта, если задание будет просрочено или отказано.\n\nЕсли вы действительно выполнили задание, вы можете отметить его как выполненное и вернуть себе награду.</string>
-
     <string name="hint_punishment_coin">Наказание Монетой</string>
     <string name="hint_punishment_coin_desc">Функция наказания монет отключена по умолчанию.\n\nВы можете перейти на страницу [Пользовательские настройки], чтобы включить его и настроить уровень наказания монетами и наказания за истекший срок.</string>
-
     <string name="statistics_time_7days">7 Дней</string>
     <string name="title_searching_tab_team">Команда</string>
     <string name="title_searching_tab_market">Рынок</string>
     <string name="title_searching_tab_user">Пользователь</string>
-
     <string name="user_search_empty_text">Нет подходящих пользователей.</string>
     <string name="activity_title_search">Поиск</string>
-
     <string name="hint_feedback_method_title">Обратная связь</string>
     <string name="hint_feedback_method_desc">Не стесняйтесь оставлять отзывы на странице [О программе] - [Обратная связь]. Если у вас возникли срочные вопросы, свяжитесь со мной по электронной почте.\n\nLifeUp - это инди-приложение: нам сложно тестировать различные модели и версии мобильных телефонов, и трудно избежать ошибок.\n\nПожалуйста, сообщите нам, если у вас возникнет проблема, и мы сможем ее исправить.</string>
     <string name="switch_cloud_auto_backup_ignore_media">Проигнорированы файлы мультимедиа/изображений</string>
-
     <string name="backup_media_file_size">Общий размер: %1$s МБ\nЗначки Магазина: %2$s МБ\nЗначки Достижений: %3$s МБ\nВложено Задач: %4$s МБ\nЧувства：%5$s МБ\n\nПуть к медиафайлу ：%6$s\n\nРекомендуется удалить неиспользуемые файлы вложений или сжать файлы изображений чувств вручную.\nМенеджер изображений в приложении будет добавлен в будущем.</string>
     <string name="setting_task_quick_add_notification">Уведомление о быстром добавлении</string>
     <string name="setting_task_quick_add_notification_desc">Добавить свои задачи в панель уведомлений\n(экспериментально). Может увеличить энергопотребление.</string>
@@ -1722,10 +1603,8 @@
     <string name="item_stat_used_times">Использует</string>
     <string name="item_stat_rewards_times">Награды</string>
     <string name="item_stat_gained_from_loot_boxes">Открыто</string>
-
     <string name="custom_attribution_desc_dialog_title">Настроить Описание</string>
     <string name="custom_attribution_desc">ОПИСАНИЕ</string>
-
     <string name="compact_config_display_only_task_name">Скрыть всю дополнительную информацию</string>
     <string name="swipe_action_edit">Редактировать</string>
     <string name="swipe_action_timer">Таймер</string>
@@ -1821,26 +1700,20 @@
     <string name="btn_ignore">ИГНОРИРОВАТЬ</string>
     <string name="sample_task_get_up_early">Рано вставать</string>
     <string name="sample_task_get_up_early_desc">Параметры времени начала и крайнего срока можно использовать для ограничения временного диапазона повторяющейся задачи..\nКстати, по умолчанию дедлайн без указания времени (час, минуты) будет в 0:00 следующего дня. Вы можете установить указанный крайний срок, в который вы хотите, чтобы на следующий день изменить этот параметр.</string>
-
-    <!-- in xx days / через xx дней-->
+    <!-- in xx days -->
     <string name="tag_deadline_v2_relative">Срок в %1$s</string>
     <string name="tag_deadline_v2_with_time">Срок в %1$s</string>
     <string name="tag_deadline_v2_with_date">Срок на %1$s</string>
-    <!-- today/tomorrow/yesterday = сегодня / завтра / вчера -->
+    <!-- today/tomorrow/yesterday -->
     <string name="tag_deadline_v2_relative_special">Срок %1$s</string>
-
-    <!-- in xx days  / через xx дней -->
+    <!-- in xx days -->
     <string name="tag_start_v2_relative">Начинается в %1$s</string>
     <string name="tag_start_v2_with_time">Начинается в %1$s</string>
     <string name="tag_start_v2_with_date">Начинается на %1$s</string>
-    <!-- today/tomorrow/yesterday = сегодня / завтра / вчера -->
+    <!-- today/tomorrow/yesterday -->
     <string name="tag_start_v2_relative_special">Начинается %1$s</string>
-
     <string name="relative_time_later_v2">%1$d дней</string>
-
-
     <string name="statistics_complete_count">Завершено: %1$d</string>
-
     <string name="shop_statistics_this_year">В этом году</string>
     <string name="action_open_with_browser">Открыть в браузере</string>
     <string name="place_holder_not_set">Не задано</string>

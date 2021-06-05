@@ -1,36 +1,26 @@
-<resources>
-    <string name="app_name_normal">LifeUp</string>
-    <string name="app_name_google">LifeUp Pro</string>
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <!-- bottom bar title -->
     <string name="title_board">Aufgaben</string>
-    <string name="title_status">Status</string>
     <string name="title_community">Welt</string>
     <string name="title_me">Ich</string>
     <string name="title_activity_main">Startseite</string>
-
     <!-- Welcome Activity -->
     <string name="page1_title">TO-DO-LISTE</string>
     <string name="page1_content">Schreiben Sie Ihre To-Do-Liste auf. Legen Sie deren Wichtigkeit und Schwierigkeitsgrad fest und versuchen Sie, sie zu erledigen.</string>
-    <string name="page2_title">GAMIFY LIFE</string>
     <string name="page2_content">Was wäre, wenn Ihr Leben ein Spiel wäre...\nWas wäre, wenn Ihre Eigenschaften durch Zahlen gemessen werden könnten...</string>
     <string name="page3_title">BELOHNUNGEN VERDIENEN</string>
     <string name="page3_content">Steigern Sie Ihre Attribute, indem Sie Ihre To-Do-Liste abschließen.\nErzielen Sie verschiedene Erfolge und steigern Sie schließlich Ihr Leben.</string>
-    <string name="page4_title">CLOUD</string>
     <string name="page4_content">Teilen Sie Ihr tägliches oder Ihr buntes Leben online. Treten Sie dem Online-Team bei, um gemeinsam Aufgaben zu erledigen.</string>
     <string name="page4_btn">LEBEN BEGINNEN</string>
-
     <string name="navigation_drawer_open">Navigationsschublade öffnen</string>
     <string name="navigation_drawer_close">Navigationsschublade schließen</string>
-
-
     <!-- Strings related to login -->
     <string name="title_activity_login">Anmelden</string>
     <string name="login_welcome">Anmelden für mehr Funktion</string>
     <string name="login_welcome_2">Weitere Funktionen:\n- Sync exp, level to server\n- Bearbeiten Sie Ihr Profil\n- Welt\n- Teilen Sie Ihre Aktivitäten</string>
     <string name="login_signIn">ANMELDEN</string>
     <string name="login_or">oder</string>
-
     <string name="title_activity_add_to_do_item">Neue Aufgabe hinzufügen</string>
     <string name="title_activity_add_team_item">Neues Team hinzufügen</string>
     <string name="title_activity_edit_team_item">Team bearbeiten</string>
@@ -42,11 +32,9 @@
     <string name="title_activity_profile">Profil bearbeiten</string>
     <string name="title_activity_user_mine">Mein Profil</string>
     <string name="title_activity_team_member">Mitglieder</string>
-
     <string name="title_activity_user_team">Mannschaft</string>
     <string name="title_activity_about">Über</string>
     <string name="title_activity_achievement">Errungenschaft</string>
-
     <string name="AcraText">Es tut uns leid, dass die App abgestürzt ist.\nBitte senden Sie uns einen Bericht.</string>
     <string name="AcraTitle">CRASH-MELDUNG</string>
     <string name="AcraCommend">Wie ist es passiert?</string>
@@ -64,7 +52,6 @@
     <string name="about_new_version">Neue Version</string>
     <string name="about_update_content_title">UPDATE-HINWEIS</string>
     <string name="about_check_update">Update prüfen</string>
-    <string name="about_version_name">Version</string>
     <string name="contact_title">Kontakt</string>
     <string name="github_desc1">Android Entwickler: AyagiKei</string>
     <string name="github_desc2">Server-Entwickler: Hdonghong</string>
@@ -81,7 +68,6 @@
     <string name="team_add_repeat_week">Wöchentlich</string>
     <string name="team_add_repeat_two_week">Alle 2 Wochen</string>
     <string name="team_add_repeat_month">Monatlich</string>
-    <string name="team_add_not_repeat">None</string>
     <string name="team_add_set_repeat">Wiederholungshäufigkeit einstellen</string>
     <string name="edit_text_empty_error">leer</string>
     <string name="team_add_without_attr_toast">Sie müssen mindestens ein Attribut auswählen!</string>
@@ -104,7 +90,6 @@
     <string name="add_to_do_end_time_too_early">Deadline sollte später als Startzeit sein</string>
     <string name="add_to_do_end_time_illegal_input">Deadline-Eingabe unzulässig</string>
     <string name="add_to_do_start_time_too_late">Startzeit sollte nicht später als Deadline sein</string>
-    <string name="add_to_do_not_repeat">None</string>
     <string name="add_to_do_repeat_times">Unbegrenzt</string>
     <string name="add_to_do_attr_desc_title">Attribute</string>
     <string name="network_edit_team_success">Team bearbeiten erfolgreich</string>
@@ -124,7 +109,6 @@
     <string name="login_cancel_qq_auth">Autorisierung abgebrochen</string>
     <string name="login_exception_qq_auth">Autorisierungs-Ausnahme:&#160;</string>
     <string name="login_cancel_qq_information">Hole qq Informationen abgebrochen</string>
-    <string name="login_exception_qq_information">Get qq information exception:</string>
     <string name="network_connect_error">Netzwerkfehler, bitte versuchen Sie es später</string>
     <string name="main_drawer_login_head">Tippen Sie auf Avatar, um sich anzumelden</string>
     <string name="main_drawer_need_to_relogin">Bitte versuchen Sie, sich erneut anzumelden.</string>
@@ -169,7 +153,6 @@
     <string name="add_to_do_menu_expire_weekend_item">Wochenende</string>
     <string name="title_activity_backup">Sichern/Wiederherstellen</string>
     <string name="title_activity_to_do_item_detail">AUFGABE DETAIL</string>
-
     <string name="about_green_android_website">Verifiziert durch Green Android</string>
     <string name="about_not_found_android_store">Nicht gefunden android store</string>
     <string name="add_to_do_bouns_question">Exp wird durch die Einstellungen hier zusammengefasst.</string>
@@ -179,7 +162,6 @@
     <string name="add_to_do_taptarget_remind_content">（Optional）Sie können hier eine Erinnerung einstellen.</string>
     <string name="add_to_do_taptarget_start_time_title">Startzeit</string>
     <string name="add_to_do_taptarget_start_time_content">（Optional）Sie können eine zukünftige Aufgabe einstellen, indem Sie ihre Startzeit ändern.</string>
-    <string name="add_to_do_taptarget_deadline_title">Deadline</string>
     <string name="add_to_do_taptarget_deadline_content">（Optional）Hier können Sie einen Termin festlegen.</string>
     <string name="add_to_do_taptarget_repeat_title">Wiederholungshäufigkeit</string>
     <string name="add_to_do_taptarget_target_title">Zielzeiten</string>
@@ -199,7 +181,6 @@
     <string name="backup_found_file">Erkannte Sicherungsdatei:&#160;</string>
     <string name="main_click_one_more_quit">Tippen Sie ein weiteres Mal, um die App zu beenden</string>
     <string name="setting_toolbar_title">Einstellungen</string>
-    <string name="setting_widget_toolbar_title">Widget</string>
     <string name="setting_todo_toolbar_title">Aufgabe</string>
     <string name="setting_display_toolbar_title">anzeigen</string>
     <string name="team_toast_join_success">Team erfolgreich beigetreten</string>
@@ -213,7 +194,6 @@
     <string name="team_task_can_not_get">Unvergesslich</string>
     <string name="team_time_end">Beendet</string>
     <string name="team_sign_end">Beendet</string>
-    <string name="point">P</string>
     <string name="team_menu_end">Ende</string>
     <string name="permission_photo_preview_need">Sie haben die Erlaubnis verweigert, dass das Vorschaufoto benötigt wird.</string>
     <string name="team_dialog_report_title">Bericht</string>
@@ -235,13 +215,12 @@
     <string name="difficult_degree">Schwierigkeitsgrad</string>
     <string name="urgency_degree">Grad der Wichtigkeit</string>
     <string name="ebbinghaus_the_last_day">Ebbinghaus-Der letzte Tag</string>
-    <string name="ebbinghaus">Ebbinghaus</string>
     <string name="day">Tag</string>
     <string name="to_do_detail_delete_title">Löschen</string>
     <string name="to_do_detail_delete_message">Wollen Sie diese Aufgabe wirklich löschen?</string>
     <string name="to_do_detail_delete_multiply_message">Wollen Sie diese Aufgabe wirklich löschen?</string>
     <string name="activity_delete_message">Wollen Sie diese Aktivität wirklich löschen?</string>
-    <string name="sub_task_delete_message">Willst du "%1$s" wirklich löschen?</string>
+    <string name="sub_task_delete_message">Willst du \"%1$s\" wirklich löschen?</string>
     <string name="to_do_detail_delete_success">Gelöscht erfolgreich</string>
     <string name="to_do_detail_delete_failed">Löschen fehlgeschlagen</string>
     <string name="to_do_detail_delete_history">Wollen Sie diesen Verlauf wirklich löschen?</string>
@@ -250,7 +229,7 @@
     <string name="to_do_detail_delete_history_failed">Löschen fehlgeschlagen</string>
     <string name="to_do_item_detail_give_up_team_task">Teamaufgabe kann nicht aufgegeben werden!</string>
     <string name="to_do_item_detail_give_up_title">Aufgeben</string>
-    <string name="to_do_item_detail_give_up_message">Werden Sie diese Aufgabe wirklich aufgeben?" "Sie werden einige Punkte verlieren.</string>
+    <string name="to_do_item_detail_give_up_message">Werden Sie diese Aufgabe wirklich aufgeben?\" \"Sie werden einige Punkte verlieren.</string>
     <string name="to_do_item_detail_edit_team_task">Teamaufgabe ist nicht aufgebbar!</string>
     <string name="to_do_detail_set_to_finish">Auf「Erledigt」 setzen</string>
     <string name="to_do_detail_set_to_finish_message">Sie haben diese Aufgabe wirklich abgeschlossen?</string>
@@ -258,7 +237,6 @@
     <string name="give_up_success_with_coin">Aufgabe wurde erfolgreich aufgegeben. Sie haben insgesamt %1$d Exp und %2$d Münzen verloren.</string>
     <string name="give_up_failed">Aufgabe ist aufgegeben und fehlgeschlagen</string>
     <string name="user_follow_list">Folgen</string>
-    <string name="user_follower_list">Follower</string>
     <string name="user_follow">Folgen Sie</string>
     <string name="user_not_found_activites">Keine Aktivitäten.</string>
     <string name="user_not_found_team">Keine Teams.</string>
@@ -274,24 +252,15 @@
     <string name="join_team">dem Team beigetreten</string>
     <string name="date">jjjj-MM-tt</string>
     <string name="joined">beigetreten</string>
-    <string name="exp">exp</string>
     <string name="repeat_task">Wiederholen Aufgabe-</string>
-    <string name="start">Start</string>
-    <string name="deadline">Deadline</string>
     <string name="today">Heute</string>
-    <string name="today_with_time">%1$s</string>
     <string name="tomorrow">Morgen</string>
     <string name="tomorrow_with_time">Morgen %1$s</string>
     <string name="yesterday_with_time">Gestern %1$s</string>
     <string name="relative_time_later">%1$d Tage später</string>
     <string name="to_do_adapter_not_start_yet">Die Aufgabe ist noch nicht gestartet!</string>
     <string name="team">Team</string>
-    <string name="attr_strength">STR</string>
-    <string name="attr_learning">INT</string>
-    <string name="attr_charm">CHA</string>
     <string name="attr_endurance">ENDE</string>
-    <string name="attr_vitality">VIT</string>
-    <string name="attr_creative">CRE</string>
     <string name="female">Weiblich</string>
     <string name="male">Männlich</string>
     <string name="secret">Geheimnis</string>
@@ -304,7 +273,6 @@
     <string name="statistics_toolbar_title">Statistik</string>
     <string name="statistics_no_data">Keine Daten</string>
     <string name="exp_pie_chart">Exp-Torte</string>
-    <string name="status_toolbar_title">Status</string>
     <string name="status_finish_fore">Sie haben bereits %1$d Aufgaben erledigt!\nWeiter so!</string>
     <string name="step"> Schritt(e)</string>
     <string name="pedometer_not_available">Schrittzähler ist nicht verfügbar: </string>
@@ -315,19 +283,17 @@
     <string name="status_input_steps_success">Eingabe erfolgreich.</string>
     <string name="status_input_steps_failed">Eingabe fehlgeschlagen.</string>
     <string name="to_do_team_task_finish_success">Eingabe erfolgreich abgeschlossen</string>
-    <string name="to_do_all_time">All-Time</string>
     <string name="to_do_next_7_days">Nächste 7 Tage</string>
     <string name="sort_asc">Aufsteigende Sortierung</string>
     <string name="sort_desc">Absteigend sortieren</string>
     <string name="to_do_taptarget_new">Aufgaben hinzufügen</string>
     <string name="to_do_taptarget_content">Tippen Sie hier, um Aufgaben hinzuzufügen！</string>
-    <string name="to_do_taptarget_nav">Navigation</string>
-    <string name="to_do_taptarget_nav_content">Board: Orte, an denen man Aufgaben wie RPGs\n erledigt
-                                    "Status: Hier sehen Sie Ihre Attribute exp und Level\n\n"
-                                    "Welt: Treten Sie einem Team bei und erledigen Sie Teamaufgaben\n\n"
-                                    "Statistiken: Hier können Sie Ihre Datenstatistiken ansehen\n\n\n"
-                                    "Die meisten Funktionen unterstützen die Verwendung mit dem Netzwerk, außer Welt~\n"
-                                    "Und die meisten Daten werden im lokalen Speicher gespeichert, seien Sie vorsichtig bei der Deinstallation ohne Backup."</string>
+    <string name="to_do_taptarget_nav_content">"Board: Orte, an denen man Aufgaben wie RPGs\n erledigt
+                                    \"Status: Hier sehen Sie Ihre Attribute exp und Level\n\n\"
+                                    \"Welt: Treten Sie einem Team bei und erledigen Sie Teamaufgaben\n\n\"
+                                    \"Statistiken: Hier können Sie Ihre Datenstatistiken ansehen\n\n\n\"
+                                    \"Die meisten Funktionen unterstützen die Verwendung mit dem Netzwerk, außer Welt~\n\"
+                                    \"Und die meisten Daten werden im lokalen Speicher gespeichert, seien Sie vorsichtig bei der Deinstallation ohne Backup.\""</string>
     <string name="to_do_slide_bar">Schieberegler</string>
     <string name="to_do_slide_bar_content">Hier stehen Einträge zu Login, Leistung, Aufgabenhistorie, Einstellung und so weiter</string>
     <string name="to_do_list">Liste</string>
@@ -350,7 +316,6 @@
     <string name="submit_activity">Senden</string>
     <string name="no_submit">Überspringen</string>
     <string name="today_finished">Heute haben Sie bereits %1$d von %2$d Aufgaben erledigt</string>
-    <string name="month_and_day">MM-dd</string>
     <string name="permission_camera_need">Ausgewähltes Foto benötigt diese Berechtigungen:\n1.Camera</string>
     <string name="add_photo">Neues Foto</string>
     <string name="category_all">Alle</string>
@@ -360,7 +325,6 @@
     <string name="network_server_dead">Der Server ist möglicherweise abgestürzt, versuchen Sie es später</string>
     <string name="team_get_next_task_success">Aufgabe erfolgreich abrufen</string>
     <string name="team_get_next_task_already">Aufgabe erfolgreich abrufen</string>
-    <string name="lifeup">LifeUp</string>
     <string name="notification_content">Sie haben eine Aufgabe zu erledigen:&#160;</string>
     <string name="notification_ticker">TODO</string>
     <string name="step_to_str">Gewinnen Sie [Stärke] exp durch Schritte</string>
@@ -385,7 +349,6 @@
     <string name="profile_nickname">Spitzname</string>
     <string name="profile_address">Adresse</string>
     <string name="profile_gender">Geschlecht</string>
-    <string name="profile_avatar">Avatar</string>
     <string name="yb_network_problem">Das Laden ist fehlgeschlagen. Überprüfen Sie Ihr Netzwerk und versuchen Sie es erneut.</string>
     <string name="backup_not_found_file">Es wurde keine Sicherungsdatei im Standardpfad erkannt!</string>
     <string name="xml_team_basic_header">Grundlegendes</string>
@@ -395,7 +358,6 @@
     <string name="xml_team_urgency">Grad der Wichtigkeit</string>
     <string name="xml_team_difficulty">Schwierigkeitsgrad</string>
     <string name="xml_team_attrs">Zugehörige Attribute(1-3)</string>
-    <string name="xml_team_extra_header">Extra</string>
     <string name="xml_team_start_date">Start Datum</string>
     <string name="xml_team_first_start_time">Startzeit</string>
     <string name="xml_team_first_end_time">Endzeit</string>
@@ -409,7 +371,6 @@
     <string name="xml_add_to_do_urgency">Grad der Wichtigkeit</string>
     <string name="xml_add_to_do_difficulty">Schwierigkeitsgrad</string>
     <string name="xml_add_to_do_attrs">Zugehörige Attribute (1-3)</string>
-    <string name="xml_add_to_do_extra_header">Extra</string>
     <string name="xml_add_to_do_remind_date">Erinnern Zeit</string>
     <string name="xml_add_to_do_start_time">Startzeit</string>
     <string name="xml_add_to_do_deadline">Frist</string>
@@ -469,7 +430,7 @@
     <string name="alphabet">Alphabet</string>
     <string name="create_time">Zeit erstellen</string>
     <string name="no_more_to_do">Keine Aufgabe. Versuchen Sie, welche hinzuzufügen!</string>
-    <string name="tab_team">Team</string>
+    <string name="tab_team">Mannschaft</string>
     <string name="tab_moments">Moment</string>
     <string name="tab_board">Vorstand</string>
     <string name="non_available">Nicht verfügbar!</string>
@@ -507,7 +468,6 @@
     <string name="exp_pie_chart_title">Exp Kuchen</string>
     <string name="step_bar_chart_title">Schritte Zählung</string>
     <string name="status_total_level">Leben </string>
-    <string name="status_sport_title">Sport</string>
     <string name="status_sport_step_cnt">Tägliche Schritte:&#160;</string>
     <string name="btn_get_reward">BELOHNEN</string>
     <string name="btn_get_reward_short">EMPFANGEN</string>
@@ -520,16 +480,14 @@
     <string name="about_app_description">Eine Gamification-To-Do-Listen-Anwendung.</string>
     <string name="achievement_bonus">Sie erhalten 200 「Vitalität」exp!</string>
     <string name="about_rate_us_element">Bewerten Sie uns</string>
-    <string name="tag_team_single">Team - No repeat</string>
     <string name="tag_team_daily">Team-Täglich</string>
     <string name="tag_team_every_2_days">Team-Alle 2 Tage</string>
     <string name="tag_team_weekly">Team-Wöchentlich</string>
     <string name="tag_team_every_2_weeks">Team-Alle 2 Wochen</string>
     <string name="tag_team_monthly">Team-Monatlich</string>
-    <string name="tag_team">Team</string>
+    <string name="tag_team">Mannschaft</string>
     <string name="tag_local">Wiederholung</string>
     <string name="tag_every">Alle</string>
-    <string name="tag_local_single">No repeat</string>
     <string name="tag_local_unlimited">Unbegrenzt</string>
     <string name="tag_local_daily">Wiederholen-Täglich</string>
     <string name="tag_local_every_2_days">Wiederholen-Alle 2 Tage</string>
@@ -537,7 +495,6 @@
     <string name="tag_local_every_2_weeks">Wiederholung-Alle 2 Wochen</string>
     <string name="tag_local_monthly">Wiederholung-Monatlich</string>
     <string name="weekdays">Wochentag</string>
-    <string name="comma">,</string>
     <string name="one">Mo</string>
     <string name="two">Di</string>
     <string name="three">Mi</string>
@@ -548,13 +505,11 @@
     <string name="step_counter">%1$d Schritte</string>
     <string name="tag_deadline">Stichtag %1$s</string>
     <string name="tag_deadline_with_time">Stichtag %1$s</string>
-    <string name="tag_start">%1$s Start</string>
     <string name="tag_frozen">Gefroren</string>
     <string name="ebbinghaus_day">%1$d Tag(e)</string>
     <string name="Completed">Abgeschlossen</string>
     <string name="overdue">Überfällig</string>
     <string name="gave_up">Aufgegeben</string>
-    <string name="total_exp">Total Exp</string>
     <string name="life_exp">Lebensdauer</string>
     <string name="my_page">Meine Seite</string>
     <string name="history">Verlauf</string>
@@ -563,12 +518,10 @@
     <string name="setting">Einstellungen</string>
     <string name="bottom_line">Unterste Zeile</string>
     <string name="nav_home">Startseite</string>
-    <string name="QandA">Q&amp;A</string>
     <string name="about">Über</string>
     <string name="show_all_time">All-Time anzeigen</string>
     <string name="show_today_only">Heute anzeigen</string>
     <string name="show_next_7_days">Nächste 7 Tage anzeigen</string>
-    <string name="asc_or_desc">Asc/Desc</string>
     <string name="finish">Vollständig</string>
     <string name="rename">Umbenennen</string>
     <string name="delete">Löschen</string>
@@ -583,7 +536,6 @@
     <string name="xml_login_third_login">Unterstützt jetzt nur noch Login mit 3rd-Party-Plattform</string>
     <string name="gmt_tint">Entschuldigung :(</string>
     <string name="gmt_tint_message">Community funktioniert im Moment nur mit der Zeitzone GMT+8 gut.\nMöchten Sie das Community-Modul ausblenden?\nWir werden das später beheben.</string>
-    <string name="step_bar" />
     <string name="Long_Sunday">Sonntag</string>
     <string name="long_monday">Montag</string>
     <string name="long_tuesday">Dienstag</string>
@@ -591,10 +543,8 @@
     <string name="long_thursday">Donnerstag</string>
     <string name="long_friday">Freitag</string>
     <string name="Saturday">Samstag</string>
-    <string name="sort_exp">Exp</string>
     <string name="nav_history">Geschichte</string>
     <string name="nav_achievement">Errungenschaft</string>
-    <string name="to_do_exp">%1$d Exp</string>
     <string name="exception_refresh">Eine Ausnahme trat auf, als ich versuchte, die Kopfzeile zu aktualisieren</string>
     <string name="exception_achievement_animation">Ausnahme beim Versuch, das freigeschaltete Achievement anzuzeigen</string>
     <string name="setting_display_language">Sprache</string>
@@ -612,20 +562,15 @@
     <string name="about_detect_no_alipay">Es scheint, dass Sie AliPay~ nicht installiert haben.</string>
     <string name="nav_night_mode_on">Nachtmodus (Ein)</string>
     <string name="nav_night_mode_off">Nachtmodus (Aus)</string>
-    <string name="filter">Filter</string>
     <string name="setting_display_date_format">Datumsformat</string>
     <string name="setting_display_date_format_desc">Ändern Sie das Datumsformat</string>
     <string name="about_feature_element">Funktion</string>
-
     <string name="feature_night_mode">Nachtmodus</string>
-    <string name="feature_night_mode_desc">Ändern Sie das Thema von LifeUp mit dem Thema "Dunkler Modus".</string>
-
+    <string name="feature_night_mode_desc">Ändern Sie das Thema von LifeUp mit dem Thema \"Dunkler Modus\".</string>
     <string name="feature_history_filter">Verlaufsfilter</string>
     <string name="feature_history_filter_desc">Zeigen Sie den Verlauf des ausgewählten Tages an.</string>
-
     <string name="feature_fix">Kleinere Änderungen</string>
     <string name="feature_fix_desc">- Schwebende Schaltfläche wird automatisch ausgeblendet\n- Behebung des schwarzen Bildschirms beim Starten der App\n- Änderung des Datumsformats\n- Optimierung</string>
-    <string name="feature_plan">Plan</string>
     <string name="feature_plan_desc">- Shop, Münzen, Inventar (Planung)\n- Refactoring der App nach MVP-Muster (60 %)</string>
     <string name="moments_empty_text">Keine Daten, bitte versuchen Sie es erneut.</string>
     <string name="fragment_user_mine_exchangeable_likes">Austauschbare Likes:&#160;</string>
@@ -660,16 +605,13 @@
     <string name="err_retry">Es tritt ein Fehler auf, bitte versuchen Sie es erneut.</string>
     <string name="shop_btn_buy">KAUFEN</string>
     <string name="inventory_btn_use">VERWENDEN</string>
-    <string name="tab_shop">Shop</string>
     <string name="tab_inventory">Inventar</string>
     <string name="title_activity_shop">Geschäft</string>
-    <string name="add_shop_item_content">Name</string>
     <string name="add_shop_item_price">Preis</string>
     <string name="dialog_coin_input">Set Belohnungsmünzen</string>
     <string name="shop_item_information">Produkt-Informationen</string>
     <string name="shop_item_add_failed">Shopartikel hinzufügen fehlgeschlagen</string>
     <string name="shop_item_edit_failed">Shopartikel bearbeiten fehlgeschlagen</string>
-    <string name="nav_shop">Shop</string>
     <string name="title_activity_add_shop_item">Ins Regal stellen</string>
     <string name="shop_empty_text">Keine Artikel in den Regalen</string>
     <string name="inventory_empty_text">Keine Artikel im Inventar\nur Artikel, die noch nicht verwendet werden, werden hier hineingestellt</string>
@@ -704,7 +646,6 @@
     <string name="feature_164">Neues Motivationssystem</string>
     <string name="feature_164_desc">- Münzen: Verdienen Sie durch das Beenden von Aufgaben\n- Shop: Legen Sie die gewünschten Gegenstände mit dem von Ihnen festgelegten Preis in die Regale\n- Inventar: Benutzen Sie den gekauften Gegenstand</string>
     <string name="inventory_record_item_delete_message">Wollen Sie diesen Eintrag wirklich löschen?</string>
-    <string name="to_do_item_detail_complete_reward">Exp Reward: %1$s%2$d P</string>
     <string name="to_do_item_detail_coin_reward">Münz-Belohnung: %1$d</string>
     <string name="to_do_item_detail_coin_reward_var">Münz-Belohnung: %1$d - %2$d</string>
     <string name="give_up">Aufgeben</string>
@@ -732,10 +673,9 @@
     <string name="update_time">Zeit aktualisieren</string>
     <string name="to_do_item_detail_completed_times">Sie haben diese Aufgabe %1$d mal erledigt</string>
     <string name="feature_165">Später lesen</string>
-    <string name="feature_165_desc">- Später lesen: Empfangen Sie freigegebene Informationen von anderen Apps, um eine "Read-it-later"-Aufgabe zu erstellen.(z.B. Twitter, Chrome...)\n- Benutzerdefinierte Einstellungen: Jetzt können Sie den Bestrafungsfaktor anpassen.\n- Viele Verbesserungen: Shop-Sortierung, automatische Münzberechnung und Optimierung.</string>
+    <string name="feature_165_desc">- Später lesen: Empfangen Sie freigegebene Informationen von anderen Apps, um eine \"Read-it-later\"-Aufgabe zu erstellen.(z.B. Twitter, Chrome...)\n- Benutzerdefinierte Einstellungen: Jetzt können Sie den Bestrafungsfaktor anpassen.\n- Viele Verbesserungen: Shop-Sortierung, automatische Münzberechnung und Optimierung.</string>
     <string name="title_activity_settings">Einstellungen</string>
     <string name="exception_update_no_browser">Kein Browser.Versuchen Sie es später erneut oder aktualisieren Sie im Store.</string>
-    <string name="til_coin_max_hint">Max</string>
     <string name="dialog_input_coin_enable_random">Zufällige Münzanzahl aktivieren (einen Bereich festlegen)</string>
     <string name="til_coin_min_hint">Min Münzen</string>
     <string name="loading_team_task">Teamaufgaben laden...</string>
@@ -766,7 +706,6 @@
     <string name="activity_feedback_succeed">Vielen Dank für Ihr Feedback!</string>
     <string name="activity_feedback_failed">Feedback fehlgeschlagen.\nBitte versuchen Sie es später erneut.</string>
     <string name="xml_user_activity_title">Aktivitäten</string>
-    <string name="xml_user_attribution_header">Status</string>
     <string name="xml_add_to_do_task_type">Aufgabentyp</string>
     <string name="task_type_normal">Normale Aufgabe</string>
     <string name="task_type_counter">Zählen Aufgabe</string>
@@ -789,8 +728,6 @@
     <string name="backup_default_uri">Standardpfad</string>
     <string name="backup_custom_uri">Benutzerdefinierter Pfad</string>
     <string name="backup_custom_fail">Sicherung fehlgeschlagen.\nVersuchen Sie einen anderen Pfad.</string>
-
-    <string name="moments_filter">Filter</string>
     <string name="user_team_show_all">Alle Teams anzeigen</string>
     <string name="user_team_hide_ended">Beendete Teams ausblenden</string>
     <string name="user_team_doing">Bearbeitung</string>
@@ -799,7 +736,6 @@
     <string name="calendar">Kalender</string>
     <string name="calendar_empty_text">Erledigt Alle Aufgaben!</string>
     <string name="calendar_empty_done_text">Hier leeren!</string>
-
     <!-- Base Achievement -->
     <string name="achievement_base_new_player">Neuer Spieler</string>
     <string name="achievement_base_new_player_desc">Erledige deine erste Aufgabe</string>
@@ -828,15 +764,13 @@
     <string name="achievement_base_hey_close_the_light">Hey, mach das Licht aus!</string>
     <string name="achievement_base_hey_close_the_light_desc">Zu dunklem Theme wechseln</string>
     <string name="achievement_base_grateful">Dankbar</string>
-    <string name="achievement_base_grateful_desc">Tippen Sie auf die Schaltfläche "Uns bewerten</string>
+    <string name="achievement_base_grateful_desc">Tippen Sie auf die Schaltfläche \"Uns bewerten</string>
     <string name="achievement_base_transport">transportieren</string>
     <string name="achievement_base_transport_desc">Eine Aufgabe in eine andere Liste verschieben</string>
     <string name="achievement_base_special_case">Sonderfall</string>
     <string name="achievement_base_special_case_desc">Eine Aufgabe aufgeben</string>
     <string name="achievement_base_tinker">Basteln</string>
     <string name="achievement_base_tinker_desc">Etwas bearbeiten</string>
-
-
     <!-- Task Achievements -->
     <string name="achievement_task_habit_develop">Gewohnheit entwickeln</string>
     <string name="achievement_task_habit_develop_desc">Eine wiederholbare Aufgabe erstellen</string>
@@ -868,7 +802,6 @@
     <string name="achievement_task_game_bachelor_desc">Hat eine 60-Tage-Aufgabensträhne abgeschlossen</string>
     <string name="achievement_task_game_master">Spiel Master</string>
     <string name="achievement_task_game_master_desc">Ich habe eine 180-Tage-Aufgabensträhne abgeschlossen</string>
-
     <!-- Attributes Achievements -->
     <string name="achievement_attribution_warrior">Krieger</string>
     <string name="achievement_attribution_warrior_desc">Stärke erreicht Level 50</string>
@@ -880,11 +813,9 @@
     <string name="achievement_attribution_nia_desc">Ausdauer erreicht Level 50</string>
     <string name="achievement_attribution_leader">Anführer</string>
     <string name="achievement_attribution_leader_desc">Vitalität erreicht Level 50</string>
-    <string name="achievement_attribution_alchemist">Alchemist</string>
     <string name="achievement_attribution_alchemist_desc">Kreativität erreicht Level 50</string>
     <string name="achievement_attribution_hero">Held</string>
     <string name="achievement_attribution_hero_desc">Lebensstufe erreicht Level 50</string>
-
     <!-- Community Achievements -->
     <string name="achievement_community_new_member">Neues Mitglied</string>
     <string name="achievement_community_new_member_desc">Team erstellen oder beitreten</string>
@@ -906,14 +837,11 @@
     <string name="achievement_community_little_famous_desc">Erhalte 10 Likes</string>
     <string name="achievement_community_lovable">Liebenswert</string>
     <string name="achievement_community_lovable_desc">Erhalte 50 Likes</string>
-
-
     <!-- Shop Achievements -->
     <string name="achievement_shop_first_bucket_of_gold">Erster Eimer mit Gold</string>
     <string name="achievement_shop_first_bucket_of_gold_desc">Münzbelohnung erhalten</string>
     <string name="achievement_shop_sold_out">Ausverkauft!</string>
     <string name="achievement_shop_sold_out_desc">Lösche einen Gegenstand im Shop</string>
-    <string name="achievement_shop_jackpot">Jackpot!</string>
     <string name="achievement_shop_jackpot_desc">Zufällig auf die maximalen Münzen</string>
     <string name="achievement_shop_bad_luck">Wirklich Pech gehabt</string>
     <string name="achievement_shop_bad_luck_desc">Zufällig auf die minimalen Münzen</string>
@@ -921,16 +849,13 @@
     <string name="achievement_shop_savings_desc">Eigene 100 Münzen</string>
     <string name="achievement_shop_little_wealthy">Kleiner Reichtum</string>
     <string name="achievement_shop_little_wealthy_desc">1000 Münzen besitzen</string>
-    <string name="achievement_shop_monopoly">Monopoly</string>
     <string name="achievement_shop_monopoly_desc">Besitze 10000 Münzen</string>
-
     <string name="achievement_unlock">Achievement freigeschaltet!</string>
     <string name="achievement_secret">Es ist ein Geheimnis!</string>
     <string name="target_edit_error">Die Zielzeiten sollten nicht unter den abgeschlossenen Zeiten liegen</string>
     <string name="achievement_type_base">Basis</string>
     <string name="achievement_type_task">Aufgabe</string>
     <string name="achievement_type_attribution">Zuschreibung</string>
-    <string name="achievement_type_shop">Shop</string>
     <string name="achievement_type_Community">Gemeinschaft</string>
     <string name="calendar_tap_title_deadline_soon">DeadLine Bald</string>
     <string name="calendar_tap_title_processing">Bearbeitung</string>
@@ -943,8 +868,7 @@
     <string name="setting_display_relative_time_display_desc">Startzeitpunkt und Endzeitpunkt als relative Zeit anzeigen\n(z. B. 3 Tage später)</string>
     <string name="date_input_hint">Im Allgemeinen sollte der Abstand zwischen der ersten Startzeit und der ersten Endzeit nicht größer sein als die Aufgabenhäufigkeit.\nBitte überprüfen Sie Ihre Einstellung.</string>
     <string name="following">Nachfolgend</string>
-    <string name="user_team">Team</string>
-    <string name="follower">Follower</string>
+    <string name="user_team">Mannschaft</string>
     <string name="achievement_reward_exp_title">Belohnung %1$s Exp</string>
     <string name="achievement_reward_coin_title">Belohnung Münze</string>
     <string name="shop_search_nothing">Nichts gefunden</string>
@@ -969,7 +893,6 @@
     <string name="sort_custom">Benutzerdefiniert</string>
     <string name="close">Schließen</string>
     <string name="to_do_selecting_card">Karte auswählen</string>
-
     <string name="to_do_unstart_hint">%1$d Aufgabe(n) ist noch nicht gestartet</string>
     <string name="sort_urgency_degree">Wichtigkeit</string>
     <string name="sort_difficulty_degree">Schwierigkeit</string>
@@ -990,7 +913,7 @@
     <string name="rename_subtask">Umbenennen</string>
     <string name="dialog_overdue">Überfällige Aufgaben</string>
     <string name="btn_ready">BEREIT</string>
-    <string name="btn_ok">OK</string>
+    <string name="btn_ok">Ja</string>
     <string name="overdue_no_punishment">keine Bestrafung</string>
     <string name="hint_add_sub_task">Eine Unteraufgabe erstellen</string>
     <string name="feature_169">Unteraufgaben</string>
@@ -1003,11 +926,9 @@
     <string name="title_activity_backup_setting">Backup-Einstellung</string>
     <string name="backup_or_restore_title">Sichern und Wiederherstellen</string>
     <string name="data_delete_title">Daten löschen</string>
-    <string name="backup_web_dav">WebDav</string>
     <string name="restore_check_failed">Herunterladen der Sicherungsdatei vom WebDAV-Server fehlgeschlagen</string>
     <string name="not_configured">Nicht konfiguriert</string>
     <string name="configured">Konfiguriert</string>
-    <string name="web_dav_url">WebDAV Url</string>
     <string name="web_dav_account">WebDAV-Konto</string>
     <string name="web_dav_password">WebDAV-Kennwort</string>
     <string name="xml_backup_cloud_setting">WebDAV-Konfiguration</string>
@@ -1017,17 +938,13 @@
     <string name="web_dav_test_success">Erfolgreich!</string>
     <string name="web_dav_test_failed">Test fehlgeschlagen, bitte überprüfen Sie Ihre Konfiguration.\nDetailmeldung:</string>
     <string name="webdav_lifeup_hint">LifeUp erstellt einen Ordner mit dem Namen LifeUp zum Speichern der Sicherungsdatei(en)</string>
-    <string name="title_web_dav_setting">WebDAV</string>
     <string name="webdav_configuration">WebDAV-Konfiguration</string>
-    <string name="webdav_url">WebDAV Url</string>
     <string name="webdav_password">WebDAV-Kennwort</string>
     <string name="test_connection">Verbinden-Test</string>
     <string name="title_activity_custom_attribute">Benutzerdefinierte Attribute</string>
     <string name="custom_attribution">Anpassen von Attributen</string>
     <string name="reset">Zurücksetzen</string>
     <string name="attribution_reset_confirm">Sollen der benutzerdefinierte Text und das Symbol wirklich zurückgesetzt werden?</string>
-    <string name="custom_attribution_icon">ICON</string>
-    <string name="custom_attribution_text">TEXT</string>
     <string name="custom_attribution_reset">ZURÜCKSETZEN</string>
     <string name="custom_attribution_hint">Das Hinzufügen oder Entfernen von Attributen wird noch nicht unterstützt.</string>
     <string name="setting_custom_attribute">Anpassen von Attributen</string>
@@ -1040,7 +957,6 @@
     <string name="feature_170">Übung</string>
     <string name="feature_170_desc">- Kompaktmodus\n- Bildanhang\n- Benutzerdefinierte Attribute (Text und Symbol)\n- WebDAV-Sicherung</string>
     <string name="menu_undo">Rückgängig</string>
-
     <string name="setting_task_snack_bar_duration">Rückgängig-Fenster mit Anzeige der Dauer</string>
     <string name="setting_task_snack_bar_duration_desc_short">Kurz</string>
     <string name="setting_task_snack_bar_duration_desc_long">Lang</string>
@@ -1087,7 +1003,6 @@
     <string name="feelings_submit_success">Gefühl erfolgreich abschicken!</string>
     <string name="feelings_dialog_search_title">Suche</string>
     <string name="lab_feelings_title">Gefühle</string>
-
     <!-- Team Report Type -->
     <string name="report_type_1">Dies ist Spam</string>
     <string name="report_type_2">Dies ist beleidigend oder belästigend</string>
@@ -1095,10 +1010,8 @@
     <string name="report_type_4">Sie verletzen mein Copyright</string>
     <string name="report_type_5">Sie verleiten zur Abstimmung</string>
     <string name="report_type_6">Andere</string>
-
     <!-- Feelings Fav -->
     <string name="feelings_fav">Favoriten</string>
-    <string name="feelings_fav_action">Fav</string>
     <string name="feelings_search_by_content">Gefühle Inhalt</string>
     <string name="feelings_search_by_date">Datum</string>
     <string name="feelings_search_by_content_title">Suche nach Gefühlen Inhalt</string>
@@ -1108,24 +1021,7 @@
     <string name="settings_custom_task_card_bg_hint">Tippen Sie hier, um das Bild auszuwählen</string>
     <string name="opacity">Deckkraft</string>
     <string name="feedback_email_hint">Wenn Sie eine Antwort wünschen, geben Sie bitte die Kontakt-E-Mail ein.\n\nOder Sie können sich für eine Rückmeldung per E-Mail entscheiden kei.ayagi@gmail.com</string>
-
-
     <!-- degree only in Chinese now -->
-    <string name="importance_lv1_desc">这件事可有可无。它可以是“查一查某个时事八卦”这样的任务。它在某种机缘巧合下出现，只有勉强被你记住的价值，它的完成与否对你造成的影响可以忽略不计。</string>
-    <string name="importance_lv2_desc">这件事值得上一点心。它可以是“每天背10个单词”一类任务。完成它对你而言并不能造成显著的影响，但它可以在潜移默化地数量堆叠之后，让你发现自己进步了一大截。反之亦然，如果无法坚持完成某些这个等级的任务，你可能会对应地失去一些重要的东西。</string>
-    <string name="importance_lv3_desc">这件事需要引起你的重视。它可以是“在截稿期限前写完稿件”这样的任务。完成这样的任务，可以让你立刻显著地获得收益。反之，完不成这样的任务，你的损失可能会让你感到肉疼。</string>
-    <string name="importance_lv4_desc">现在，立刻，放下一切其它事情，优先把这件事做完。这个级别的任务已经无法从好坏两个角度来区分，它会对你当下的人生造成极为严重的影响。完成这个级别的任务，可以使你达成令你兴奋的成就，或使你避免一些灾难性的后果；如果失败了，那情况会变得不妙，相当不妙。</string>
-    <string name="difficult_lv1_desc">没有任何难度。对你来说完全是举手之劳，不需要任何意志力，可以在极短时间内解决的问题。</string>
-    <string name="difficult_lv2_desc">有一点点难度。你可能会需要动一动脑子，花掉一些时间才可以完成这样的任务，或你对这件任务有所犯懒和抗拒，不愿意进行。</string>
-    <string name="difficult_lv3_desc">令人感到棘手。\n你可能会需要进行一些学习、对你的知识进行补充，花掉不少时间来琢磨、试探后，才能完成这样的任务，或这件任务涉及到让你厌恶或恐惧的内容，需要消耗大量意志力进行克服。</string>
-    <string name="difficult_lv4_desc">几乎不可能完成。\n这件任务触及了你的大量能力盲区，就像让高三学渣通过一学期的复习考上清华一样魔幻。由于能力的缺失，时间也相对变得极为紧迫，想要完成这个级别的任务，除非拥有超越人类的毅力，和永不放弃的决心。</string>
-    <string name="title_activity_degree_desc">Degree</string>
-    <string name="content_degree_desc_author">文案：酷安 @风之心_天双</string>
-    <string name="donate_alipay">Alipay</string>
-    <string name="donate_wechat_or_list">Wechat</string>
-    <string name="about_donate_element">Donate</string>
-    <string name="about_icon_designer_element">Icon Designer CoolApk@这是一碗麦面</string>
-
     <string name="common_select_photos">Fotos auswählen</string>
     <string name="statistics_time_30days">30 Tage</string>
     <string name="statistics_time_3months">3 Monate</string>
@@ -1182,8 +1078,8 @@
     <string name="lab_user_achievement_title">Benutzer-Achievement (Entwickeln)</string>
     <string name="lab_user_achievement_desc">Erstellen Sie Ihr eigenes Achievement.\n\nDiese Funktion wurde mit den System-Achievements kombiniert.\n\nDieser Eingang wird in der zukünftigen Version entfernt werden.\nSie können stattdessen den Sidebar-Eingang verwenden.</string>
     <string name="enter">Geben Sie  ein.</string>
-    <string name="user_achievement_category_empty_text">Es gibt keine Liste mit Benutzererfolgen.\nTippen Sie auf die Schaltfläche "Hinzufügen", um welche zu erstellen.</string>
-    <string name="user_achievement_empty_text">Es gibt keine Benutzerleistung.\nTippen Sie auf die Schaltfläche "Hinzufügen", um eine zu erstellen.</string>
+    <string name="user_achievement_category_empty_text">Es gibt keine Liste mit Benutzererfolgen.\nTippen Sie auf die Schaltfläche \"Hinzufügen\", um welche zu erstellen.</string>
+    <string name="user_achievement_empty_text">Es gibt keine Benutzerleistung.\nTippen Sie auf die Schaltfläche \"Hinzufügen\", um eine zu erstellen.</string>
     <string name="feature_1730">Benutzerleistung</string>
     <string name="feature_1730_desc">- User Achievement\n- Exp Decrease Dialog\n- Team SubTask Coin Setting</string>
     <string name="example_user_achievements">Beispiel</string>
@@ -1193,12 +1089,9 @@
     <string name="fragment_status_button_grant_permission">Erlauben</string>
     <string name="require_permission">Erlaubnis erforderlich</string>
     <string name="hint_denied_activity_permission">LifeUp kann keine Schrittzählungsdaten erhalten, wenn Sie die Erlaubnis verweigert haben.</string>
-    <string name="default_name_system_achievements">System</string>
     <string name="login_backup_hint">Achtung:\nIhre lokalen Daten werden nicht mit dem Server synchronisiert.</string>
-
     <string name="user_achievement_delete_title">Löschen</string>
     <string name="user_achievement_delete_message">Wollen Sie diese Leistung wirklich löschen?</string>
-
     <string name="backup_hint">Sie können die Seite [Datensicherung] auf der Seite [Einstellungen] verwenden, um Ihre Daten zu sichern/wiederherzustellen.\n
         Jetzt unterstützt es den Export Ihrer lokalen Daten in eine Zip-Datei oder die Synchronisierung der Daten mit einem WebDAV-Server, den Sie eingerichtet haben.\n
         LifeUp wird in Zukunft Unterstützung für Google Drive-Backups hinzufügen.\n
@@ -1245,8 +1138,8 @@
     <string name="workday_task_desc">Werktag</string>
     <string name="special_task_desc">Spezial</string>
     <string name="basic_task_desc_detail">Basic Definieren Sie:\nDeadline: Die Deadline des Wiederholungszyklus. Sie ist nicht die Endbedingung der Aufgabe. (Dasselbe gilt für die Startzeit)\nGrundsätzlich sollte die Frist einer täglichen Aufgabe auf [Heute] gesetzt werden, während die Frist einer wöchentlichen Aufgabe auf [Wochenende] gesetzt werden sollte.\n\nWiederholungshäufigkeit: Täglich, Wöchentlich, Monatlich usw.\nBei der Wiederholung einer Aufgabe werden die Startzeit und die Frist durch die Wiederholungshäufigkeit berechnet.\n\nBeim Wiederholen einer wöchentlichen Aufgabe ist die nächste Startzeit 7 Tage nach der aktuellen Startzeit, das Gleiche gilt für die Frist.\nIn den meisten Fällen können Sie nur die Frist und die Wiederholungshäufigkeit einrichten, da die Startzeit automatisch berechnet werden kann.</string>
-    <string name="weekly_task_desc_detail">Wie richtet man eine wöchentliche Aufgabe von [Montag] bis [Sonntag] ein?\n\nSchritt 1. Stellen Sie "Wiederholungshäufigkeit" auf [Wöchentlich]\n\nSchritt 2. Stellen Sie "Frist" auf [Wochenende] (das Datum des Sonntags)</string>
-    <string name="weekday_task_desc_detail">Wie wird eine Wochentagsaufgabe eingerichtet?\n\nSchritt 1. Schritt 1. Stellen Sie "Wiederholungshäufigkeit" auf [Täglich] ein. Schritt 2.Tippen Sie auf die Schaltfläche "Ignorieren", um Ihre Einstellung fortzusetzen.</string>
+    <string name="weekly_task_desc_detail">Wie richtet man eine wöchentliche Aufgabe von [Montag] bis [Sonntag] ein?\n\nSchritt 1. Stellen Sie \"Wiederholungshäufigkeit\" auf [Wöchentlich]\n\nSchritt 2. Stellen Sie \"Frist\" auf [Wochenende] (das Datum des Sonntags)</string>
+    <string name="weekday_task_desc_detail">Wie wird eine Wochentagsaufgabe eingerichtet?\n\nSchritt 1. Schritt 1. Stellen Sie \"Wiederholungshäufigkeit\" auf [Täglich] ein. Schritt 2.Tippen Sie auf die Schaltfläche \"Ignorieren\", um Ihre Einstellung fortzusetzen.</string>
     <string name="special_task_desc_detail">Wie richtet man eine spezielle Aufgabe ein, z. B. eine tägliche Aufgabe, die um 18:00 Uhr des Tages beginnt und um 4:00 Uhr des zweiten Tages endet?\n\nSchritt 1. Tippen Sie auf die Schaltfläche [Weitere Optionen], um die Startzeitoptionen einzublenden\n\nSchritt 2. Setzen Sie die [Startzeit] auf das Datum des ersten Tages der Wiederholung und stellen Sie die Zeit auf \"18:00\"\n\nSchritt 3. Setzen Sie die [Deadline] auf das Datum des nächsten Tages der [Start Time], und tippen Sie dann auf die [Time]-Optionen, um die spezifische Zeit auf \"4:00\"\n\nSchritt 4.Setzen Sie die \"Repeat Frequency\" auf [Daily].</string>
     <string name="dialog_shop_item_select_title">Wählen Sie .</string>
     <string name="reward_shop_item">Shop-Artikel</string>
@@ -1254,9 +1147,8 @@
     <string name="complete_reward_text_input_dialog_title">Belohnung</string>
     <string name="inventory_record_reward">Belohnungsartikel erhalten「%1$s」×%2$d</string>
     <string name="inventory_record_undo_reward">Belohnungsartikel zurücknehmen「%1$s」×%2$d</string>
-    <string name="feature_1740">ATM</string>
+    <string name="feature_1740">GELDAUTOMAT</string>
     <string name="feature_1740_desc">- ATM\n- Shop-Artikel als Aufgabe Belohnung auswählen\n- Shop-Artikel Vorratsmenge\n- Animation verbessern</string>
-
     <string name="dialog_button_confirm">BESTÄTIGEN</string>
     <string name="toast_clear_history_success">Verlaufsdaten erfolgreich löschen</string>
     <string name="xml_clear_history">Verlaufsdaten löschen</string>
@@ -1264,35 +1156,21 @@
     <string name="clear_history_title">Verlaufsdaten löschen</string>
     <string name="clear_history_desc">Löscht alle Verlaufsdaten.\nAchtung: Kann nicht rückgängig gemacht werden!</string>
     <string name="title_dialog_task_tag_color">Tag Farbe</string>
-
     <string name="setting_display_hide_status">Status ausblenden</string>
     <string name="setting_display_hide_status_desc">Statusmodul in der unteren Navigation ausblenden.</string>
     <string name="setting_display_hide_shop">Shop ausblenden</string>
-    <string name="setting_display_hide_shop_desc">Blendet das Modul "Shop" in der unteren Navigation aus.</string>
-    <string name="setting_display_hide_me">Ich" ausblenden</string>
-    <string name="setting_display_hide_me_desc">Blendet das "Me"-Modul in der unteren Navigation aus.</string>
-    <string name="relaunch_item">Relaunch</string>
+    <string name="setting_display_hide_shop_desc">Blendet das Modul \"Shop\" in der unteren Navigation aus.</string>
+    <string name="setting_display_hide_me">Ich\" ausblenden</string>
+    <string name="setting_display_hide_me_desc">Blendet das \"Me\"-Modul in der unteren Navigation aus.</string>
     <string name="relaunch_success">Relaunch erfolgreich</string>
     <string name="auto_backup_conflict_download">Die lokalen Daten werden mit den auf den Servern gesicherten Daten überschrieben.\n\Sie können die Aktion auf der Seite mit den Backup-Einstellungen später rückgängig machen.</string>
     <string name="auto_backup_conflict_upload">Die lokalen Daten werden auf dem Remote-Server gesichert.\n\nDie aktuellen Sicherungsdaten auf dem Server werden überschrieben.</string>
     <string name="auto_backup_title_sync">Synchronisierung</string>
     <string name="auto_backup_last_sync_time">Letzte Synchronisationszeit: %1$s</string>
-    <string name="btn_sync">SYNC</string>
     <string name="auto_backup_last_sync_failure">Letzte Synchronisierung fehlgeschlagen: %1$s\nBitte überprüfen Sie Ihre Netzwerkverbindung oder die WebDAV-Konfiguration.</string>
-    <string name="btn_config">CONFIG</string>
-    <string name="btn_upload">UPLOAD</string>
-    <string name="btn_download">DOWNLOAD</string>
     <string name="dialog_title_sync_conflict">Sync-Konflikt</string>
     <string name="dialog_title_confirm">Bestätigen Sie</string>
-
     <!-- podomoro -->
-    <string name="short_break_duration_key" translatable="false">KURZE_PAUSE_DAUER</string>
-    <string name="long_break_duration_key" translatable="false">LONG_BREAK_DURATION</string>
-    <string name="work_session_count_key" translatable="false">WORK_SESSION_COUNT</string>
-    <string name="task_on_hand_count_key" translatable="false">AUFGABE_AUF_HAND_ZÄHLER</string>
-    <string name="start_long_break_after_key" translatable="false">LANGE_PAUSE_NACH_DURATION</string>
-    <string name="currently_running_service_type_key" translatable="false">AKTUELL_LAUFENDER_DIENST_TYP</string>
-
     <string name="start_tametu">Timer starten</string>
     <string name="cancel_tametu">Timer abbrechen</string>
     <string name="start_short_break">Kurzpause starten</string>
@@ -1308,17 +1186,12 @@
     <string name="work_minute_picker_title">Dauer der Arbeitssitzung</string>
     <string name="small_break_minute_picker_title">Kurze Pausendauer</string>
     <string name="big_break_minute_picker_title">Lange Pausendauer</string>
-    <string name="timer_preference_category_title">Timer</string>
     <string name="work_minute_picker_summary">00 Minuten</string>
     <string name="small_break_minute_picker_summary">00 Minuten</string>
     <string name="big_break_minute_picker_summary">00 Minuten</string>
     <string name="sessions_until_big_break_title">Arbeitssitzungen bis zur langen Pause</string>
     <string name="sessions_until_big_break_summary">00 Sitzungen</string>
-    <string name="work_time_minutes_default_value" translatable="false">25</string>
-    <string name="small_break_time_minutes_default_value" translatable="false">5</string>
-    <string name="big_break_time_minutes_default_value" translatable="false">15</string>
-    <string name="sessions_until_big_break_default_value" translatable="false">4</string>
-    <string name="number_picker_dialog_positive_button_text">OK</string>
+    <string name="number_picker_dialog_positive_button_text">Ja</string>
     <string name="number_picker_dialog_negative_button_text">Abbrechen</string>
     <string name="pomo_work_session">Arbeitssitzung</string>
     <string name="pomo_short_break">Kurze Pause</string>
@@ -1326,7 +1199,6 @@
     <string name="pomo_settings">Timer-Einstellung</string>
     <string name="switch_enable_webdav_auto_backup">WebDAV Automatische Sicherung</string>
     <string name="none">Keine</string>
-    <string name="vip">VIP</string>
     <string name="action_end_the_team">Das Team beenden</string>
     <string name="action_end_the_team_desc">Willst du das Team wirklich beenden?</string>
     <string name="btn_end">ENDE</string>
@@ -1337,9 +1209,7 @@
     <string name="pomodoro_notification_break_content">Pausen-Timer läuft</string>
     <string name="pomodoro_notification_work_content_with_task">%1$s läuft</string>
     <string name="pomodoro_notification_work_content">Arbeitstimer läuft</string>
-    <string name="nav_pomodoro">Pomodoro</string>
     <string name="pomo_work_session_before_long_break_hint">%1$d Arbeitssitzungen vor langer Pause</string>
-    <string name="menu_timer">Timer</string>
     <string name="pomo_task_not_selected">nicht ausgewählt</string>
     <string name="eat_tomatoes">Tomaten essen x%1$d</string>
     <string name="sold_out_tomatoes">Ausverkaufte Tomaten x%1$d</string>
@@ -1368,8 +1238,6 @@
     <string name="title_dialog_default_coin_number_subtask">Standard-Münzanzahl der SubTask</string>
     <string name="feellings_search_task_content">Aufgabe Inhalt</string>
     <string name="feelings_only_fav">Nur Fav</string>
-    <string name="vip_version">VIP</string>
-    <string name="pro_version">Pro</string>
     <string name="pomodoro_create_shortcuts">Shortcuts erstellen</string>
     <string name="pomodor_create_shortcuts_to_launcher">Erstellen Sie eine Verknüpfung zu Ihrem Launcher.</string>
     <string name="create_shortcut_failed">Das Erstellen einer Verknüpfung ist fehlgeschlagen.\nBitte überprüfen Sie die Berechtigungseinstellungen der App.</string>
@@ -1407,7 +1275,6 @@
     <string name="limit_number_per_week">%1$d pro Woche</string>
     <string name="limit_number_per_month">%1$d pro Monat</string>
     <string name="limit_number_per_year">%1$d pro Jahr</string>
-    <string name="shop_effect_exp">Exp</string>
     <string name="shop_effect_coin">Münze</string>
     <string name="input_hint_number_limit">Limit Anzahl</string>
     <string name="shop_dialog_title_add_limit">Kauf-Limit</string>
@@ -1428,14 +1295,12 @@
     <string name="to_create_a">zum Erstellen eines(n)</string>
     <string name="synthesised_item">Synthetisiertes Element</string>
     <string name="synthesis_effects">Synthese Effekte</string>
-    <string name="inventory_btn_synthesis">SYNTHESIZE</string>
     <string name="inventory_synthesis_succeed">Erfolgreich synthetisiert</string>
     <string name="confirm_synthesis_item">Wird das Element wirklich synthetisiert?</string>
     <string name="not_enough_synthesis_item">Nicht genug Items zum Synthetisieren</string>
     <string name="restore_failed_higher_version_backup_file">Kann keine höhere Version der Datei wiederherstellen, bitte aktualisieren Sie die App!</string>
     <string name="feature_1760">Shop-Effekt</string>
     <string name="feature_1760_desc">- Benutzerdefinierter Shop-Effekt\n- Benutzerdefiniertes Kauflimit</string>
-    <string name="open_shop_btn_import">IMPORT</string>
     <string name="tab_market">Markt</string>
     <string name="til_import_price">Preis</string>
     <string name="dialog_share_goods_title">Gegenstand teilen</string>
@@ -1445,8 +1310,6 @@
     <string name="shop_share_fail">Freigeben fehlgeschlagen</string>
     <string name="share_goods_fail_imported">Gegenstand kann nicht geteilt werden, der importiert wurde</string>
     <string name="undo_share_to_market">Freigabe rückgängig machen</string>
-
-    <string name="translator_credit"></string>
     <string name="view_creator">Ersteller-Seite anzeigen</string>
     <string name="error_msg_report_self">Kann sich nicht selbst melden</string>
     <string name="off_item_succeed">Gelöscht erfolgreich</string>
@@ -1490,17 +1353,9 @@
     <string name="detail_progress_subtasks">Teilaufgaben</string>
     <string name="detail_progress_count">zählen</string>
     <string name="detail_progress_repeat">wiederholen</string>
-    <string name="Jan">Jan.</string>
-    <string name="Feb">Feb.</string>
-    <string name="Mar">Mar.</string>
-    <string name="Apr">Apr.</string>
     <string name="May">Mai.</string>
-    <string name="Jun">Jun.</string>
-    <string name="Jul">Jul.</string>
-    <string name="Aug">Aug.</string>
     <string name="Sept">Sept.</string>
     <string name="Oct">Okt.</string>
-    <string name="Nov">Nov.</string>
     <string name="Dec">Dez.</string>
     <string name="detail_repeat_stat">Wiederholung der Statistik</string>
     <string name="cannot_undo_team_task">Kann die Teamaufgabe vorerst nicht rückgängig machen</string>
@@ -1519,7 +1374,6 @@
     <string name="condition_current_coin_number">Aktuelle Münzanzahl</string>
     <string name="condition_coin_number_added_in_a_day">An einem Tag hinzugefügte Münzanzahl</string>
     <string name="dialog_title_select_attributes">Attribut auswählen</string>
-
     <string name="condition_desc_total_completed_times">Insgesamt [%1$s] für %2$d Zeit(en) abgeschlossen</string>
     <string name="condition_desc_completed_streak_task">Gewinnen Sie %1$d komplette Serie von [%2$s]</string>
     <string name="condition_desc_reach_level">[%1$s] Attribut erreichen Lv %2$d</string>
@@ -1532,31 +1386,23 @@
     <string name="market_list_sort_by_import">Sortieren nach Importnummer</string>
     <string name="hint_add_user_achievement_reward_develop">Exp- und Shop-Belohnungseinstellungen werden demnächst hinzugefügt</string>
     <string name="feelings_view_detail">Detail</string>
-
     <string name="achievement_attribution_yes_itsme">Ja, ich bin\'s</string>
     <string name="achievement_attribution_yes_itsme_desc">Jedes Attribut erreicht Stufe 10</string>
     <string name="QandA_known_issues">bekannte_Probleme</string>
-    <string name="QandA_update_desc">Update Desc</string>
-    <string name="QandA_q_and_a">Q&amp;A</string>
     <string name="QandA_release_log">Freigabe-Protokoll</string>
     <string name="QandA_app_desc">Beschreibung der Anwendung</string>
     <string name="xml_add_to_do_exp_title">Exp-Belohnung</string>
     <string name="dialog_input_exp_number">Exp-Belohnungswert</string>
     <string name="hint_dialog_input_exp">Nach dem Freischalten von Errungenschaften (jedes Attribut erreicht Stufe 10) wird der benutzerdefinierte Bereich auf 0~9999 erweitert.</string>
     <string name="dialog_input_exp_number_title">Eingabe Exp Reward</string>
-
-    <string name="dialog_enable_auto_sum_short">Auto</string>
-    <string name="status_pomodoro_card_title">Pomodoros</string>
     <string name="status_pomodoros_today_focus">heutige Fokuszeit\n(in Min.)</string>
     <string name="status_today_tomato_earned">heute gewonnen\ntomaten</string>
     <string name="status_tomato_total_amount">Gesamtmenge\ntomaten</string>
-    <string name="dialog_category_hide_hint_button">OK</string>
+    <string name="dialog_category_hide_hint_button">Ja</string>
     <string name="dialog_category_hide_hint_desc">Ziehen und Ablegen der Listenelemente zum Sortieren von Listen</string>
-
     <string name="inventory_record_synthesis_cost">Synthese Kosten Element「%1$s」×%2$d</string>
     <string name="inventory_record_synthesis_got">Synthese hat Element「%1$s」×%2$d</string>
     <string name="inventory_record_unknown">UNBEKANNT</string>
-    <string name="user_activity_shop_title">Shop</string>
     <string name="last_backup_time_interval_hint">%1$d Tage nach letzter Sicherung</string>
     <string name="calendar_page_create_as_start_time">Aufgabe erstellen (als Startzeit)</string>
     <string name="calendar_page_create_as_deadline">Aufgabe erstellen (als Deadline)</string>
@@ -1567,7 +1413,6 @@
     <string name="pomodoro_tap_target_tomatoes_play_pause">Timer starten/anhalten</string>
     <string name="pomodoro_tap_target_tomatoes_skip">Den Timer überspringen</string>
     <string name="task_detail_tomatoes_count_display_text">x%1$d (%3$d Min.), gesamt x%2$d (%4$d Min.)</string>
-
     <string name="condition_task_tomatoes_gained">Gewonnene Gesamttomatenanzahl mit einer Aufgabe</string>
     <string name="condition_desc_task_tomatoes_gained">Gewonnene %1$d Tomaten mit「%2$s」Aufgabe</string>
     <string name="condition_task_purchase_item_times">Artikel für bestimmte Zeiten kaufen</string>
@@ -1575,15 +1420,11 @@
     <string name="condition_task_use_item_times">Artikel für bestimmte Zeiten verwenden</string>
     <string name="condition_desc_use_item_times">Benutzen「%1$s」für「%2$d」Zeiten</string>
     <string name="edit_text_search_hint">Suchen...</string>
-
     <string name="dialog_input_exp_punishment_factor_message_example">Für eine Aufgabe mit 100 Exp-Belohnungen verlieren Sie %1$d (100 × %2$.2f) Exp, wenn Sie sie nicht bestehen.</string>
     <string name="dialog_input_coin_punishment_factor_message_example">Für eine Aufgabe mit 100 Münzen verlieren Sie %1$d (100 × %2$.2f) Münzen, wenn Sie sie nicht bestehen.</string>
     <string name="add_team_edit_hint">Die Einstellungen für die Belohnung und die Zeit können nach der Erstellung nicht mehr geändert werden.\nBitte bestätigen Sie Ihre Einstellungen.</string>
-
     <string name="select_shop_item_reward_with_stock_number">%1$s x%2$d\n(%3$d links)</string>
-
     <string name="shop_top_item_count">%1$d Gegenstände</string>
-
     <string name="unlock_achievement_time_desc">freigeschaltet bei %1$s</string>
     <string name="pomodoro_empty_text">hier ist kein Pomodoro-Datensatz vorhanden</string>
     <string name="title_activity_pomodoro_record">Pomodoro-Aufzeichnung</string>
@@ -1591,7 +1432,6 @@
     <string name="place_a_app_widget_method_hint">Die Methode zum Platzieren eines App-Widgets variiert je nach Startbildschirm-Programm\Im Allgemeinen können Sie den leeren Teil des Startbildschirms lange drücken</string>
     <string name="user_achievement_shop_item_reward_title">Gegenstand erhalten!</string>
     <string name="xml_add_user_achievment_complete_reward">Gegenstandsbelohnung</string>
-    <string name="vip_extension_theme_color"></string>
     <string name="user_activity_empty_hint">Hier gibt es keinen Aktivitätsdatensatz\nerledigen Sie eine Teamaufgabe, um sie abzuschicken</string>
     <string name="user_activity_shop_empty_hint">Hier gibt es keinen gemeinsamen Shop-Artikel</string>
     <string name="setting_custom_sound_effect">Benutzerdefinierte Soundeffekte</string>
@@ -1616,8 +1456,6 @@
     <string name="dialog_check_repeat_sec_cycle">Der zweite Wiederholungszyklus</string>
     <string name="unknown">unbekannt</string>
     <string name="switch_enable_cloud_auto_backup">Automatisches Cloud-Backup einschalten</string>
-    <string name="cloud_backup_method_webdav">WebDAV</string>
-    <string name="cloud_backup_method_dropbox">Dropbox</string>
     <string name="cloud_backup_setting">Cloud-Backup-Konfig</string>
     <string name="cloud_backup_configured">Konfiguriert</string>
     <string name="cloud_backup_not_configured">Nicht konfiguriert</string>
@@ -1625,12 +1463,10 @@
     <string name="toast_message_failed_to_call_email_app">Start der E-Mail-App fehlgeschlagen</string>
     <string name="dialog_title_server_unavailable">Der Server ist möglicherweise nicht verfügbar oder die Netzwerkverbindung ist fehlgeschlagen.</string>
     <string name="dialog_server_unavailable_message">Bitte überprüfen Sie Ihr Netzwerk oder versuchen Sie es später erneut.\nSie können die meisten Funktionen von LifeUp im Offline-Modus nutzen.\nFehlermeldung: %1$s\n\nWenn diese Situation schon eine Weile andauert, senden Sie uns bitte ein Feedback!</string>
-    <string name="cloud_backup_method_dropbox_in_zh" />
     <string name="goods_effect_loot_box">Lootbox</string>
     <string name="effect_desc_item_loot_box">Lootbox</string>
     <string name="probility_of_received_item_from_loot_box">Sie haben einen Gegenstand aus der Lootbox erhalten (%1$.2f\%%)</string>
     <string name="hint_click_to_open_the_box">Tippen Sie auf , um die Kiste zu öffnen</string>
-
     <string name="inventory_record_loot_box_cost">Lootbox öffnen「%1$s」×%2$d</string>
     <string name="inventory_record_loot_box_got">Erhaltene %1$s」×%2$d aus Lootbox</string>
     <string name="btn_add_items">Gegenstand hinzufügen</string>
@@ -1642,7 +1478,6 @@
     <string name="backup_once_a_week">Einmal pro Woche</string>
     <string name="backup_once_2_week">Einmal zwei Wochen</string>
     <string name="backup_once_a_month">Einmal im Monat</string>
-
     <string name="market_search_empty_text">Kein passender Artikel.\nSie können versuchen, einen zu erstellen und zu teilen!</string>
     <string name="title_auto_backup_interval">Automatisches Sicherungsintervall</string>
     <string name="compact_config">Kompaktmodus-Konfiguration</string>
@@ -1654,18 +1489,15 @@
     <string name="chip_punishment">Bestrafung</string>
     <string name="dialog_title_set_indie_punishment_factor">Bestrafungsfaktor</string>
     <string name="dialog_message_set_indie_punishment_factor">Bitte Wert zwischen 0~5.0 eingeben</string>
-
     <string name="title_activity_edit_achievement_category">Kategorie bearbeiten</string>
     <string name="title_activity_edit_user_achievement">Leistung bearbeiten</string>
     <string name="view_team">Team anzeigen</string>
     <string name="loot_box_probability_table">Wahrscheinlichkeits-Tabelle</string>
     <string name="menu_restart">Neu starten</string>
-
     <string name="system_achievement_list_undeleteable">Die System-Achievement-Liste kann nicht gelöscht werden</string>
     <string name="achievement_list_delete_message">Wollen Sie diese Achievement-Liste wirklich löschen?</string>
     <string name="user_achievement_not_empty_list_undeleteable">Eine Achievement-Liste, die nicht leer ist, kann nicht gelöscht werden.</string>
     <string name="menu_view">Ansicht</string>
-    <string name="menu_icon">Icon</string>
     <string name="menu_add">hinzufügen</string>
     <string name="dialog_select_task_create_new_task">neue Aufgabe</string>
     <string name="error_found_no_shop_item">keinen Shop-Artikel gefunden</string>
@@ -1684,10 +1516,8 @@
     <string name="dialog_shop_settings_atm_interest">ATM täglicher Zinssatz</string>
     <string name="atm_interest_desc">Verdiente %1$d Münzen Zinsen auf ATM</string>
     <string name="atm_interest_input_limit">sollte nicht größer als 10% sein</string>
-
     <string name="condition_shop_open_loot_boxes">Erhalten Sie Gegenstände für bestimmte Zeiten aus Lootboxen</string>
     <string name="condition_desc_open_loot_boxes">Hole「%1$s」für「%2$d」Zeiten aus Lootbox</string>
-
     <string name="hint_hide_module_title">Modul ausblenden</string>
     <string name="hint_hide_module_desc">Sie können jedes Modul, das Sie nicht benötigen, auf der Seite [Einstellungen]-[Anzeige] ausblenden.</string>
     <string name="hint_pomodoro_sound_hint">Erinnerungs-Sound</string>
@@ -1695,48 +1525,33 @@
     <string name="hint_pedometer_hint">Schrittzähler</string>
     <string name="hint_pedometer_hint_desc">Die App kann nicht auf die tägliche Schrittanzahl vom System zugreifen.\nDie Schrittanzahl wird durch die Differenz der Gesamtschrittanzahl berechnet.\n\n Die Genauigkeit der Zählung hängt von Bedingungen ab, wie z. B. wenn die App geöffnet und das Telefon neu gestartet wird.</string>
     <string name="hint_pedometer_input_or_hide_hint_desc">Als Alternative zur automatischen Berechnung können Sie die Schrittzahl manuell eingeben\n\n oder das Schrittzählermodul auf der Seite [Anzeigeeinstellungen] ausblenden, wenn Sie es nicht benötigen.</string>
-
-    <string name="hint_login_method"></string>
-    <string name="hint_login_method_desc"></string>
-    <string name="hint_login_method2"></string>
-    <string name="hint_login_method_desc2"></string>
-
     <string name="hint_world_module">Hallo, Welt!</string>
-    <string name="hint_world_module_desc">Im Modul "Welt" können Sie einem Team beitreten, um eine Teamaufgabe zu erhalten und/oder Ihre Aufgabe zu teilen, indem Sie ein neues Team erstellen.</string>
+    <string name="hint_world_module_desc">Im Modul \"Welt\" können Sie einem Team beitreten, um eine Teamaufgabe zu erhalten und/oder Ihre Aufgabe zu teilen, indem Sie ein neues Team erstellen.</string>
     <string name="hint_world_module_moments">Aktivitäten veröffentlichen</string>
     <string name="hint_world_module_moments_desc">Nachdem Sie eine Teamaufgabe erledigt haben, können Sie Ihre Aktivitäten oder Ihre Gefühle dazu mit Text und Fotos in die Welt posten.</string>
     <string name="hint_world_module_market">Kreativ-Markt</string>
     <string name="hint_world_module_market_desc">Sehen Sie sich die kreativen Shop-Artikel an, die von Menschen auf der ganzen Welt erstellt wurden. Und Sie können Ihre Meisterwerke teilen!</string>
-
     <string name="hint_atm_interest">ATM-Interesse</string>
     <string name="hint_atm_interest_desc">Sie können das ATM-Interesse in den Shop-Einstellungen einrichten (der Eingang befindet sich in der Nähe des ATM), um ein tägliches Interesse zu erhalten.</string>
-
     <string name="hint_loot_box_probability">Wahrscheinlichkeit</string>
     <string name="hint_loot_box_probability_desc">Die eigentliche Formel zur Berechnung der Wahrscheinlichkeit eines Gegenstands: die Wahrscheinlichkeit des Gegenstands ÷ die Summe der Wahrscheinlichkeiten aller Gegenstände.\n\nWenn Sie beispielsweise einen Gegenstand mit dem Namen A mit einer Wahrscheinlichkeit von 0,1 % erstellen möchten:\nWählen Sie Gegenstand A aus und geben Sie 1 % in seine Wahrscheinlichkeit ein, und wählen Sie dann einen anderen Gegenstand mit dem Namen B aus und geben Sie 999 % in seine Wahrscheinlichkeit ein.\nSchließlich wird die Wahrscheinlichkeit von Gegenstand A 0,1 % und die von Gegenstand B 99,9 % betragen.</string>
     <string name="dialog_crash_action_btn_skip_hint">Nicht vorübergehend auffordern</string>
     <string name="title_activity_edit_category">Liste bearbeiten</string>
-
     <string name="hint_uncomplete_task">Eine Aufgabe rückgängig machen</string>
-    <string name="hint_uncomplete_task_desc">Es gibt mehrere Möglichkeiten, abgeschlossene Aufgaben rückgängig zu machen:\n1. Tippen Sie auf die Schaltfläche "Rückgängig" im unteren Popup-Fenster, wenn Sie eine Aufgabe abgeschlossen haben.\n\n2. Wechseln Sie zur Seite [Verlauf] oder [Kalender] und tippen Sie dann auf die Schaltfläche Rückgängig machen.\n\n3. Aktivieren Sie das Kontrollkästchen [Erledigt anzeigen] im Menü oben rechts und tippen Sie dann auf die Erledigt-Markierung der Aufgabe.</string>
-
+    <string name="hint_uncomplete_task_desc">Es gibt mehrere Möglichkeiten, abgeschlossene Aufgaben rückgängig zu machen:\n1. Tippen Sie auf die Schaltfläche \"Rückgängig\" im unteren Popup-Fenster, wenn Sie eine Aufgabe abgeschlossen haben.\n\n2. Wechseln Sie zur Seite [Verlauf] oder [Kalender] und tippen Sie dann auf die Schaltfläche Rückgängig machen.\n\n3. Aktivieren Sie das Kontrollkästchen [Erledigt anzeigen] im Menü oben rechts und tippen Sie dann auf die Erledigt-Markierung der Aufgabe.</string>
     <string name="hint_punishment">Exp-Bestrafung</string>
     <string name="hint_punishment_desc">Sie verlieren einen Teil der Exp, wenn die Aufgabe überfällig ist oder aufgegeben wurde.\n\nWenn Sie die Aufgabe tatsächlich abgeschlossen haben, können Sie sie als abgeschlossen markieren und die Belohnung zurückerhalten.</string>
-
     <string name="hint_punishment_coin">Münzbestrafung</string>
     <string name="hint_punishment_coin_desc">Die Münzbestrafungsfunktion ist standardmäßig deaktiviert. Sie können die Seite [Benutzerdefinierte Einstellungen] aufrufen, um sie zu aktivieren und den Grad der Münzbestrafung und der Exp-Bestrafung anzupassen.</string>
-
     <string name="statistics_time_7days">7 Tage</string>
     <string name="title_searching_tab_team">Mannschaft</string>
     <string name="title_searching_tab_market">Markt</string>
     <string name="title_searching_tab_user">Benutzer</string>
-
     <string name="user_search_empty_text">Keine passenden Benutzer.</string>
     <string name="activity_title_search">Suche</string>
-
-    <string name="hint_feedback_method_title">Feedback</string>
+    <string name="hint_feedback_method_title">Rückmeldung</string>
     <string name="hint_feedback_method_desc">Bitte zögern Sie nicht, uns über die [About]-[Feedback]-Seite Feedback zu geben, wenn Sie dringende Probleme haben, kontaktieren Sie mich bitte per E-Mail.\n\nLifeUp ist eine Indie-App, es ist schwierig für uns, verschiedene Handy-Modelle und -Versionen zu testen, und Bugs sind schwer zu vermeiden.\n\nBitte lassen Sie uns wissen, wenn Sie auf ein Problem gestoßen sind, damit wir es beheben können.</string>
     <string name="switch_cloud_auto_backup_ignore_media">Medien-/Bilddateien ignorieren</string>
-
     <string name="backup_media_file_size">Gesamtgröße: %1$s MB\nShop-Symbol: %2$s MB\nErfolgssymbol: %3$s MB\nAufgabenanhänge: %4$s MB\nGefühle：%5$s MB\n\nMediendateipfad：%6$s\n Es wird empfohlen, die nicht verwendeten Anhangsdateien zu entfernen oder Gefühlsbilddateien manuell zu komprimieren.\nIn-App-Bildermanager wird in Zukunft hinzugefügt.</string>
     <string name="setting_task_quick_add_notification">Schnelles Hinzufügen von Benachrichtigungen</string>
     <string name="setting_task_quick_add_notification_desc">Fügen Sie Ihre Aufgaben über die Benachrichtigungsleiste hinzu\n(experimentell) kann den Stromverbrauch erhöhen</string>
@@ -1748,14 +1563,11 @@
     <string name="item_stat_used_times">Verwendet</string>
     <string name="item_stat_rewards_times">Belohnungen</string>
     <string name="item_stat_gained_from_loot_boxes">Auspacken</string>
-
     <string name="custom_attribution_desc_dialog_title">Anpassen Beschreibung</string>
     <string name="custom_attribution_desc">BESCH.</string>
-
     <string name="compact_config_display_only_task_name">Alle zusätzlichen Informationen ausblenden</string>
     <string name="swipe_action_edit">Bearbeiten</string>
     <string name="swipe_action_timer">Zeitschaltuhr</string>
-
     <string name="upload_failed_message">Upload fehlgeschlagen, bitte erneut versuchen.</string>
     <string name="btn_delete">LÖSCHEN</string>
     <string name="btn_give_up">AUFGEBEN</string>
@@ -1775,7 +1587,6 @@
     <string name="setting_task_new_default_setting_desc">Anpassen der Standardeinstellungen beim Erstellen einer neuen Aufgabe</string>
     <string name="backup_documents">\nHier berühren um Backupdokumente zu sehen\n</string>
     <string name="not_recieve_reminders_hint">Sie haben die Erinnerung nicht erhalten? Überprüfen Sie Ihre Systemeinstellung ob LifeUp im Hintergund läuft.</string>
-    <string name="btn_guide">GUIDE</string>
     <string name="statistics_time_several_days">%1$d Tage</string>
     <string name="hint_number_picker">Tippen Sie auf die Zahl in der Mitte, um den Zielwert direkt einzugeben</string>
     <string name="setting_task_swipe_to_switch_list">Wischen zum wechseln der Aufgabenliste</string>
@@ -1788,10 +1599,9 @@
     <string name="pomodoro_dialog_update_focus_time">Fokuszeit aktualisieren</string>
     <string name="pomodoro_dialog_update_focus_time_desc">Möchten Sie die Fokuszeit aktualisieren?\nSie erhalten %1$d zusätzliche Tomaten.</string>
     <string name="pomodoro_change_task_when_timer_counting">Bitte halten Sie den Timer an, bevor Sie Aufgaben auswählen.</string>
-    <string name="lab_icon_set_v2">Attributes Icon Set 2.0</string>
     <string name="lab_new_icon_set_desc">Neu gestaltete Attributensymbole.</string>
     <string name="menu_overdue">Überfällig</string>
-    <string name="hint_submit_activity">Nach der Aktion "Abschicken" oder "Überspringen" erhalten Sie Belohnungen und können die Aufgabe nicht mehr rückgängig machen.\n\nWenn Sie die Aufgabe rückgängig machen möchten, tippen Sie auf die Schaltfläche "Abbrechen".</string>
+    <string name="hint_submit_activity">Nach der Aktion \"Abschicken\" oder \"Überspringen\" erhalten Sie Belohnungen und können die Aufgabe nicht mehr rückgängig machen.\n\nWenn Sie die Aufgabe rückgängig machen möchten, tippen Sie auf die Schaltfläche \"Abbrechen\".</string>
     <string name="hint_edit_completed_time">Aufgrund der Fehler in den Statistikberechnungen kann die Statistik abnormal sein, wenn Sie die abgeschlossene Zeit bearbeiten und die Reihenfolge der abgeschlossenen Wiederholungsaufgaben ändern.\n\nBitte warten Sie auf die zukünftige Version, um diesen Fehler zu beheben.</string>
     <string name="cannot_edit_completed_task">Kann eine abgeschlossene Aufgabe nicht bearbeiten</string>
     <string name="freeze_or_unfreeze">Einfrieren/Entfrieren</string>
@@ -1849,26 +1659,20 @@ Gehen Sie auf die Seite Shop-Inventar (4. Position der Navigationsleiste), um si
     <string name="btn_ignore">IGNORIEREN</string>
     <string name="sample_task_get_up_early">Früh aufstehen</string>
     <string name="sample_task_get_up_early_desc">Mit den Einstellungen Startzeit und Endzeit können Sie den Zeitbereich einer Wiederholungsaufgabe begrenzen.\n Übrigens, die Standard-Endzeit ohne angegebene Zeit (Stunde, Minuten) ist um 0:00 Uhr am nächsten Tag. Sie können die angegebene Deadline-Zeit auf die gewünschte Zeit am nächsten Tag einstellen, um dies zu vermeiden.</string>
-
     <!-- in xx days -->
-    <string name="tag_deadline_v2_relative">Deadline in %1$s</string>
     <string name="tag_deadline_v2_with_time">Deadline um %1$s</string>
     <string name="tag_deadline_v2_with_date">Deadline am %1$s</string>
     <!-- today/tomorrow/yesterday -->
-    <string name="tag_deadline_v2_relative_special">Deadline %1$s</string>
-
+    <string name="tag_deadline_v2_relative_special">Stichtag %1$s</string>
     <!-- in xx days -->
     <string name="tag_start_v2_relative">Startet in  %1$s</string>
     <string name="tag_start_v2_with_time">Startet um %1$s</string>
     <string name="tag_start_v2_with_date">Startet am %1$s</string>
     <!-- today/tomorrow/yesterday -->
     <string name="tag_start_v2_relative_special">Startet %1$s</string>
-
     <string name="relative_time_later_v2">%1$d Tage</string>
-
-
     <string name="statistics_complete_count">Abgeschlossen: %1$d</string>
-
-    <string name="synthesis_item_delete_message">Wollen Sie diesen Gegenstand wirklich löschen?</string>
-    <string name="synthesis_item_delete_title">Löschen</string>
+    <string name="dialog_title_exp_reward">Exp-Belohnung</string>
+    <string name="title_input_item_reward">Gegenstandsbelohnung</string>
+    <string name="hint_target_times">Zielzeiten</string>
 </resources>
