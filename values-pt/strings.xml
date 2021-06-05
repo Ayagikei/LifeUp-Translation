@@ -3,21 +3,35 @@
     <!-- На 645 строке -->
     <!-- bottom bar title / заголовок нижней панели -->
     <!-- Welcome Activity /Приветственное Активити -->
+    <string name="page2_title">VIDA GAMIFICADA</string>
     <!-- Strings related to login / Строки, относящиеся к логину -->
+    <string name="github_desc1">Github Android</string>
+    <string name="github_desc2">Servidor Github</string>
     <!-- СИЛА -->
     <!-- ОЧАРОВАНИЕ -->
     <!-- ВЫНОСЛИВОСТЬ -->
+    <string name="notification_ticker">TODO</string>
     <!-- \nThis is for the users whose phone doesn\'t support pedometer.  / Это для пользователей, чей телефон не поддерживает шагомер.-->
     <!-- Base Achievement / Базовое достижение -->
     <!-- Task Achievements / Достижения Задач-->
     <!-- Attributes Achievements / Навыки - Атрибуты Достижения -->
     <!-- Community Achievements / Достижения сообщества -->
+    <string name="achievement_community_new_member_desc">Crie ou junte-se a uma equipe</string>
     <!-- Shop Achievements / Достижения Магазина -->
+    <string name="web_dav_url">URL WebDAV</string>
+    <string name="web_dav_account">Conta WebDAV</string>
+    <string name="web_dav_password">Senha WebDAV</string>
+    <string name="xml_backup_cloud_setting">Configuração WebDAV</string>
+    <string name="webdav_configuration">Configuração WebDAV</string>
+    <string name="webdav_url">URL WebDAV</string>
+    <string name="webdav_password">Senha WebDAV</string>
     <!-- Team Report Type / Тип отчета команды -->
     <!-- Feelings Fav / Чувства Избранное -->
     <!-- было Fav -->
     <!-- degree only in Chinese now /степень только на китайском сейчас -->
+    <string name="auto_backup_last_sync_failure">Falha na última sincronização: %1$s\nVerifique sua conexão de rede ou a configuração WebDAV.</string>
     <!-- podomoro / помодоро -->
+    <string name="btn_change_icon">Alterar ícone</string>
     <!-- in xx days / через xx дней-->
     <!-- today/tomorrow/yesterday = сегодня / завтра / вчера -->
     <!-- in xx days  / через xx дней -->
