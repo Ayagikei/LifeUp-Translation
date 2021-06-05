@@ -5,8 +5,8 @@
     <!-- bottom bar title -->
     <string name="title_board">タスク</string>
     <string name="title_status">ステータス</string>
-    <string name="title_community">世界</string>
-    <string name="title_me">私</string>
+    <string name="title_community">ワールド</string>
+    <string name="title_me">マイページ</string>
     <string name="title_activity_main">ホーム</string>
 
     <!-- Welcome Activity -->
@@ -511,7 +511,7 @@
     <string name="status_sport_step_cnt">日々の歩数:&#160;</string>
     <string name="btn_get_reward">報酬</string>
     <string name="btn_get_reward_short">受け取る</string>
-    <string name="input_sport_data">入力</string>
+    <string name="input_sport_data">記録</string>
     <string name="attr">属性</string>
     <string name="all">すべて</string>
     <string name="action_follow">フォロー</string>
@@ -1518,9 +1518,9 @@
 
     <string name="dialog_enable_auto_sum_short">自動</string>
     <string name="status_pomodoro_card_title">ポモドーロ</string>
-    <string name="status_pomodoros_today_focus">今日\'s フォーカスタイム\n(分単位)</string>
-    <string name="status_today_tomato_earned">トマト\今日の収穫</string>
-    <string name="status_tomato_total_amount">総量\トマト</string>
+    <string name="status_pomodoros_today_focus">今日のフォーカスタイム\n(分単位)</string>
+    <string name="status_today_tomato_earned">今日のトマト収穫量</string>
+    <string name="status_tomato_total_amount">全トマト収穫量</string>
     <string name="dialog_category_hide_hint_button">OK</string>
     <string name="dialog_category_hide_hint_desc">リスト要素をドラッグ＆ドロップすると、リストを並び替えできます</string>
     <string name="inventory_record_synthesis_cost">シンセシス・コスト・アイテム「%1$s」×%2$d</string>
@@ -1859,7 +1859,7 @@
     <string name="pomodoro_hint_extra_time_desc">このボタンをタップすると、フォーカスタイムの時間が長くなり、余分なトマトを獲得することができます。 </string>
     <string name="hint_history_item">ヒストリーアイテム</string>
     <string name="hint_history_item_desc">履歴（期限切れ）アイテムは、左上のボタンをタップして入ることができる[履歴]ページで確認することができます</string>
-    <string name="me_achievement_completed_count">達成感</string>
+    <string name="me_achievement_completed_count">達成</string>
     <string name="me_feelings_count">気分</string>
     <string name="tasks_statistic_current_streak">習慣</string>
     <string name="shop_item_effect_countdown_action_end">終了</string>
@@ -1917,4 +1917,16 @@
     <string name="lab_new_task_page_code_refactoring">新しいタスクページのコードのリファクタリング</string>
     <string name="lab_new_tasks_refactor_desc">アプリケーションの拡張性や保守性を高めるために、「新規アイテム」と「アイテムの編集」ページのコードを書き換えています。ページのUIはまだ変更していません。α版のページで何か問題を発見された方は、ぜひメールでご連絡ください。また、いつでも旧バージョンに切り替えることができます</string>
     <string name="dialog_module_select_title">モジュール選択</string>
+    <string name="setting_module_config">モジュールの構成</string>
+    <string name="setting_display_module_config_desc">ボトムナビゲーションバーのモジュール構成\n"ワールド "や "マイページ "のモジュールを非表示にするなど、不要なモジュールを自由に隠すことができ、他の第一階層の機能モジュールに置き換えることも可能です（一部サポート）</string>
+    <string name="shop_item_effect_countdown_action_resume">再開</string>
+    <string name="effect_count_down_notification_pausing">一時停止</string>
+    <string name="shop_item_effect_countdown_action_close">とじる</string>
+    <string name="shop_item_effect_countdown_action_pause_but_stay">一時停止します</string>
+    <string name="toast_got_coins">%1$dのコインを獲得</string>
+    <string name="pomodoro_dialog_skip_title">Skip</string>
+    <string name="button_skip">スキップ</string>
+    <string name="pomodoro_dialog_skip_message">本当にスキップしますか？ \完全なトマトを手に入れる機会が失われます。または、一時停止を選択することもできます。</string>
+    <string name="starter_task_check_unstarted_task">開始されていないタスクのチェック</string>
+    <string name="starter_task_check_unstarted_task_desc">利用可能な時間帯に入っていないタスクは折りたたまれます。タスクの下部に「早起き」のタスクが表示されていない場合は、下部にある展開ボタン（三角）をタップしてみてください。</string>
 </resources>

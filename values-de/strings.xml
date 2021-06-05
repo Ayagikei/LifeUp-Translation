@@ -759,7 +759,7 @@
     <string name="activity_statistics_lost_value">Verloren</string>
     <string name="inventory_not_enough_item_to_use">Nicht genug Gegenstand zum Verwenden.</string>
     <string name="title_activity_feedback">Rückmeldung</string>
-    <string name="about_feedback">Feedback (Bug、Problem oder Übersetzungsfehler)</string>
+    <string name="about_feedback">Feedback</string>
     <string name="activity_feedback_content">Feedback Inhalt</string>
     <string name="activity_feedback_email">E-Mail (Optional)</string>
     <string name="feedback_content_empty">Feedback-Inhalt kann nicht leer sein</string>
