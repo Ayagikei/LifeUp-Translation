@@ -1,106 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- bottom bar title -->
-    <string name="title_status">ステータス</string>
-    <!-- Welcome Activity -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <!-- На 645 строке -->
+    <!-- bottom bar title / заголовок нижней панели -->
+    <!-- Welcome Activity /Приветственное Активити -->
     <string name="page2_title">ゲーミフィケーションライフ</string>
-    <string name="page4_title">クラウド</string>
-    <!-- Strings related to login -->
-    <string name="about_version_name">バージョン</string>
-    <string name="team_add_not_repeat">なし</string>
-    <string name="add_to_do_not_repeat">なし</string>
-    <string name="login_exception_qq_information">情報の例外を取得</string>
-    <string name="ebbinghaus">エビングハウス</string>
-    <string name="user_follower_list">フォロワー</string>
-    <string name="exp">Exp</string>
-    <string name="start">開始</string>
-    <string name="team">チーム</string>
+    <!-- Strings related to login / Строки, относящиеся к логину -->
+    <string name="github_desc1">Android開発者です。AyagiKei</string>
     <string name="attr_strength">体力</string>
+    <!-- СИЛА -->
     <string name="attr_learning">学習</string>
+    <!-- ОЧАРОВАНИЕ -->
     <string name="attr_charm">魅力</string>
+    <!-- ВЫНОСЛИВОСТЬ -->
+    <string name="attr_endurance">忍耐力</string>
     <string name="attr_vitality">活力</string>
     <string name="attr_creative">創造力</string>
-    <string name="status_toolbar_title">ステータス</string>
-    <string name="to_do_all_time">すべての時間</string>
-    <string name="to_do_taptarget_nav">ナビゲーション</string>
-    <string name="profile_avatar">アバター</string>
-    <string name="xml_team_extra_header">追加</string>
-    <string name="xml_add_to_do_extra_header">追加</string>
-    <!-- \nThis is for the users whose phone doesn\'t support pedometer. -->
-    <string name="tab_team">チーム</string>
-    <string name="status_sport_title">スポーツ</string>
-    <string name="tag_team">チーム</string>
-    <string name="tag_local_single">繰り返さない</string>
-    <string name="tag_start">%1$s 開始</string>
-    <string name="total_exp">Exp</string>
-    <string name="asc_or_desc">昇順/降順</string>
-    <string name="filter">フィルター</string>
-    <string name="feature_plan">計画</string>
-    <string name="to_do_item_detail_complete_reward">Exp報酬: %1$s%2$d P</string>
-    <string name="til_coin_max_hint">最大</string>
-    <string name="xml_user_attribution_header">ステータス</string>
-    <string name="moments_filter">フィルター</string>
-    <!-- Base Achievement -->
-    <!-- Task Achievements -->
-    <!-- Attributes Achievements -->
-    <string name="achievement_attribution_alchemist">錬金術師</string>
-    <!-- Community Achievements -->
-    <!-- Shop Achievements -->
-    <string name="achievement_shop_jackpot">ジャックポット（Jackpot）</string>
-    <string name="achievement_shop_monopoly">独占</string>
-    <string name="user_team">チーム</string>
-    <string name="follower">フォロワー</string>
-    <string name="btn_ok">はい</string>
-    <string name="custom_attribution_icon">アイコン</string>
-    <string name="custom_attribution_text">テキスト</string>
-    <!-- Team Report Type -->
-    <!-- Feelings Fav -->
-    <string name="feelings_fav_action">お気に入り</string>
-    <!-- degree only in Chinese now -->
-    <string name="importance_lv1_desc">これはオプションです。 話題のゴシップを調べるといった感じでしょうか。 何かの偶然で現れたそれは、あなたの記憶にはほとんど残らず、完成しても完成しなくても、あなたにはほとんど影響がありません。 </string>
-    <string name="importance_lv2_desc">これは、ちょっとした注意を払うべきことです。 1日に10個の単語を覚える」というような課題でもよいでしょう。 完成させても大きな影響はありませんが、微妙に数字を重ねていくうちに、気がついたら大きく改善していた、というようなこともあります。 また逆に、このレベルで特定のタスクにこだわれないと、かえって大切なものを失ってしまうかもしれません。 </string>
-    <string name="importance_lv3_desc">これはあなたの注意を必要とするものです。 それは、「締め切りを守る」というようなタスクであってもいい。 このような作業を行うことで、すぐに大きな利益を得ることができます。 逆に言えば、そのような課題をクリアできなければ、苦痛を感じるかもしれません。 </string>
-    <string name="importance_lv4_desc">さあ、今すぐ、他のすべてを捨てて、これを終わらせることを優先してください。 このレベルのタスクは、もはや善し悪しの区別がつかず、その瞬間の自分の人生に極めて重大な影響を与えることになります。 このレベルのタスクを完了すると、興奮するような達成感を得ることができたり、悲惨な結果を回避することができたりしますが、もし失敗すると、状況は最悪になります。 </string>
-    <string name="difficult_lv1_desc">難易度は全くありません。 意志の力を必要とせず、短時間で解決できる、あなたにとっての完全な手練手管です。 </string>
-    <string name="difficult_lv2_desc">少し難しいところがあります。 そのようなタスクをこなすためには、頭を使い、時間をかける必要があるかもしれませんし、タスクに対する怠惰や抵抗感から、引き受けたくないという罪悪感があるかもしれません。 </string>
-    <string name="difficult_lv3_desc">トラブル。 \勉強したり、知識を増やしたり、長い時間をかけて考えたり、試したりしないとできないことや、嫌悪感や恐怖感があり、それを克服するためには意志の強さが必要なことなどがあります。 </string>
-    <string name="difficult_lv4_desc">クリアするのはほぼ不可能。 この課題は、自分の能力の盲点の多くに触れるものであり、高校3年生のクズが清華大学に合格するために1学期の復習をするような魔法のようなものです。 能力がない分、時間も相対的に非常にタイトになり、このレベルの仕事をこなすには、人並み以上の忍耐力とあきらめない気分が必要です。 </string>
-    <string name="content_degree_desc_author">コピーライター：クーラン @wind_heart_sky_shuang</string>
-    <string name="about_donate_element">寄贈</string>
-    <string name="about_icon_designer_element">アイコンデザイナーCoolApk@これは小麦の麺のボウルです</string>
-    <string name="default_name_system_achievements">システム</string>
-    <string name="relaunch_item">再起動</string>
-    <string name="btn_sync">同期</string>
-    <string name="btn_config">コンフィグ</string>
-    <string name="btn_upload">アップロード</string>
-    <string name="btn_download">ダウンロード</string>
-    <!-- podomoro -->
-    <string name="timer_preference_category_title">タイマー</string>
-    <string name="number_picker_dialog_positive_button_text">はい</string>
-    <string name="nav_pomodoro">ポモドーロ</string>
-    <string name="menu_timer">タイマー</string>
-    <string name="pro_version">プロ</string>
-    <string name="inventory_btn_synthesis">合成されたアイテム</string>
-    <string name="open_shop_btn_import">インポート</string>
-    <string name="Jan">1月</string>
-    <string name="Feb">2月</string>
-    <string name="Mar">3月</string>
-    <string name="Apr">4月</string>
-    <string name="Jun">6月</string>
-    <string name="Jul">7月</string>
-    <string name="Aug">8月</string>
-    <string name="Nov">11月</string>
-    <string name="QandA_update_desc">アップデート降順</string>
-    <string name="dialog_enable_auto_sum_short">自動</string>
-    <string name="status_pomodoro_card_title">ポモドーロ</string>
-    <string name="dialog_category_hide_hint_button">はい</string>
-    <string name="menu_icon">アイコン</string>
-    <string name="hint_feedback_method_title">フィードバック</string>
-    <string name="lab_icon_set_v2">アトリビュートアイコンセット2.0</string>
-    <!-- in xx days -->
-    <string name="tag_deadline_v2_relative">締め切り in %1$s</string>
-    <!-- today/tomorrow/yesterday -->
-    <string name="tag_deadline_v2_relative_special">期限%1$s</string>
-    <!-- in xx days -->
-    <!-- today/tomorrow/yesterday -->
+    <string name="notification_ticker">To-Do</string>
+    <!-- \nThis is for the users whose phone doesn\'t support pedometer.  / Это для пользователей, чей телефон не поддерживает шагомер.-->
+    <!-- Base Achievement / Базовое достижение -->
+    <!-- Task Achievements / Достижения Задач-->
+    <!-- Attributes Achievements / Навыки - Атрибуты Достижения -->
+    <!-- Community Achievements / Достижения сообщества -->
+    <string name="achievement_community_new_member_desc">チームの作成または参加</string>
+    <!-- Shop Achievements / Достижения Магазина -->
+    <string name="web_dav_account">WebDAVアカウント</string>
+    <string name="web_dav_password">WebDAVのパスワード</string>
+    <string name="xml_backup_cloud_setting">WebDAVの設定</string>
+    <string name="webdav_configuration">WebDAVの設定</string>
+    <string name="webdav_password">WebDAVのパスワード</string>
+    <!-- Team Report Type / Тип отчета команды -->
+    <!-- Feelings Fav / Чувства Избранное -->
+    <!-- было Fav -->
+    <!-- degree only in Chinese now /степень только на китайском сейчас -->
+    <string name="auto_backup_last_sync_failure">最後の同期に失敗しました：%1$s\nネットワークの接続状況やWebDAVの設定を確認してください。</string>
+    <!-- podomoro / помодоро -->
+    <string name="btn_change_icon">アイコンの変更</string>
+    <string name="btn_email">電子メール</string>
+    <!-- in xx days / через xx дней-->
+    <!-- today/tomorrow/yesterday = сегодня / завтра / вчера -->
+    <!-- in xx days  / через xx дней -->
+    <!-- today/tomorrow/yesterday = сегодня / завтра / вчера -->
 </resources>
