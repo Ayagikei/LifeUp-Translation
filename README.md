@@ -40,8 +40,6 @@ If it is convenient for you, please be sure to also assist us in translating the
 
 [Join our crowdin project and contribute there.](https://crwd.in/lifeup)
 
-**But this method may not be suitable for proofreading English. If you want to proofread English texts, you can consider using other methods instead.**
-
 If your language is not in the target language, or if you encounter other problems, please email me or raise an issue.
 
 
