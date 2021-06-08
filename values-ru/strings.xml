@@ -8,13 +8,13 @@
     <string name="title_activity_main">Главная</string>
     <!-- Welcome Activity -->
     <string name="page1_title">TO-DO СПИСОК</string>
-    <string name="page1_content">Запишите свой список задач.\nУстановите важность и степень сложности, каждой задачи.\nПопробуйте выполнить их все!</string>
+    <string name="page1_content">Запишите свой список задач.\nУстановите важность и степень сложности каждой задачи.\nПопробуйте выполнить их все!</string>
     <string name="page2_content">Что, если бы ваша жизнь была игрой…?\nЧто, если бы ваши способности можно было измерить числами…?</string>
     <string name="page3_title">ЗАРАБОТАНА НАГРАДА</string>
     <string name="page3_content">Повышайте уровень своих навыков, выполняя задания из вашего списка дел.\nПолучайте всевозможные достижения и повышайте уровень своей жизни!</string>
     <string name="page4_title">ОБЛАКО</string>
-    <string name="page4_content">Поделитесь своей повседневной или яркой жизнью в Интернете..\nПрисоединяйтесь к команде онлайн, чтобы вместе выполнять задачи.</string>
-    <string name="page4_btn">НАЧАТЬ ЖИТЬ ВЫШЕ</string>
+    <string name="page4_content">Поделитесь своей повседневной или яркой жизнью в Интернете.\nПрисоединяйтесь к команде онлайн, чтобы вместе выполнять задачи.</string>
+    <string name="page4_btn">НАЧАТЬ LIFE UP</string>
     <string name="navigation_drawer_open">Открыть панель навигации</string>
     <string name="navigation_drawer_close">Закрыть панель навигации</string>
     <!-- Strings related to login -->
@@ -25,7 +25,7 @@
     <string name="title_activity_add_to_do_item">Добавить Новую Задачу</string>
     <string name="title_activity_add_team_item">Добавить Новую Команду</string>
     <string name="title_activity_edit_team_item">Редактировать Команду</string>
-    <string name="title_activity_team">Об Команде</string>
+    <string name="title_activity_team">О Команде</string>
     <string name="title_activity_user">Об Пользователе</string>
     <string name="title_activity_edit_to_do_item">Редактировать Задачу</string>
     <string name="title_activity_history">История</string>
@@ -185,7 +185,7 @@
     <string name="setting_toolbar_title">Настройки</string>
     <string name="setting_widget_toolbar_title">Виджет</string>
     <string name="setting_todo_toolbar_title">Задача</string>
-    <string name="setting_display_toolbar_title">Отображать</string>
+    <string name="setting_display_toolbar_title">Отображение</string>
     <string name="team_toast_join_success">Команда успешно присоединилась</string>
     <string name="team_toast_quit_success">Вы вышли из команды</string>
     <string name="team_toast_end_success">Команда закончилась</string>
@@ -437,7 +437,7 @@
     <string name="setting_display_hide_community_desc">Кнопка «Скрыть мир» в нижней части навигации.</string>
     <string name="setting_display_hide_pedometer">Скрыть модуль Шагомера</string>
     <string name="setting_display_hide_pedometer_desc">Приложение может не получать точные измерения с некоторых телефонов\nВы можете скрыть модуль шагомера, если он вам не нужен.</string>
-    <string name="setting_main_task">Настройки задачи</string>
+    <string name="setting_main_task">Настройки задач</string>
     <string name="setting_main_task_widget">Настройки виджета</string>
     <string name="setting_main_task_display">Настройки отображения</string>
     <string name="setting_main_system">Системные настройки</string>
@@ -1614,10 +1614,13 @@
     <string name="ringtone_disable">Запретить</string>
     <string name="synthesis_item_delete_message">Вы действительно хотите удалить этот элемент?</string>
     <string name="synthesis_item_delete_title">Удалить</string>
+    <string name="setting_module_config">Настройка модулей</string>
     <string name="shop_item_effect_countdown_action_close">Закрыть</string>
     <string name="pomodoro_dialog_skip_title">Пропускать</string>
     <string name="dialog_coin_input_btn_fixed">Фиксированный</string>
     <string name="dialog_coin_input_btn_auto">Авто</string>
+    <string name="about_documents">Документы</string>
     <string name="about_feedback_short">Обратная связь</string>
+    <string name="about_btn_buy_developers_a_coffee">Купите разработчикам кофе</string>
     <string name="feature_1780">Состояние Разблокировки</string>
 </resources>
