@@ -1480,8 +1480,8 @@
     <string name="hint_feedback_method_title">Обратная связь</string>
     <string name="hint_feedback_method_desc">Не стесняйтесь оставлять отзывы на странице [О программе] - [Обратная связь]. Если у вас возникли срочные вопросы, свяжитесь со мной по электронной почте.\n\nLifeUp - это инди-приложение: нам сложно тестировать различные модели и версии мобильных телефонов, и трудно избежать ошибок.\n\nПожалуйста, сообщите нам, если у вас возникнет проблема, и мы сможем ее исправить.</string>
     <string name="switch_cloud_auto_backup_ignore_media">Проигнорированы файлы мультимедиа/изображений</string>
-    <string name="setting_task_quick_add_notification">Уведомление о быстром добавлении</string>
-    <string name="setting_task_quick_add_notification_desc">Добавить свои задачи в панель уведомлений\n(экспериментально). Может увеличить энергопотребление.</string>
+    <string name="setting_task_quick_add_notification">Быстрое добавление через уведомления</string>
+    <string name="setting_task_quick_add_notification_desc">Добавляйте задачи через панель уведомлений\n(экспериментально). Может увеличить энергопотребление.</string>
     <string name="notification_quick_add_title">LifeUp Быстрое добавление</string>
     <string name="notification_quick_add_desc">Нажмите, чтобы добавить задачу</string>
     <string name="pomodoro_setting_cannot_receive_reminders_title">Не получаете напоминаний?</string>
