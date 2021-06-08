@@ -26,7 +26,7 @@
     <string name="title_activity_add_team_item">Добавить Новую Команду</string>
     <string name="title_activity_edit_team_item">Редактировать Команду</string>
     <string name="title_activity_team">О Команде</string>
-    <string name="title_activity_user">Об Пользователе</string>
+    <string name="title_activity_user">О Пользователе</string>
     <string name="title_activity_edit_to_do_item">Редактировать Задачу</string>
     <string name="title_activity_history">История</string>
     <string name="title_activity_YBLogin">Войти через YiBan</string>
@@ -1614,12 +1614,15 @@
     <string name="ringtone_disable">Запретить</string>
     <string name="synthesis_item_delete_message">Вы действительно хотите удалить этот элемент?</string>
     <string name="synthesis_item_delete_title">Удалить</string>
+    <string name="title_module_config">Конфигурация модулей</string>
     <string name="setting_module_config">Настройка модулей</string>
+    <string name="setting_display_module_config_desc">Настройка модулей нижней панели навигации.\nСвободно скрывайте ненужные вам модули, такие как «Мир» и «Мой», и заменяйте их другими функциональными модулями первого уровня (частично поддерживается).</string>
     <string name="shop_item_effect_countdown_action_close">Закрыть</string>
     <string name="pomodoro_dialog_skip_title">Пропускать</string>
     <string name="dialog_coin_input_btn_fixed">Фиксированный</string>
     <string name="dialog_coin_input_btn_auto">Авто</string>
     <string name="about_documents">Документы</string>
+    <string name="about_title_a_letter_desc">Спасибо за покупку нашего приложения, это огромная поддержка для нас.\n\nМы пытаемся создавать приложения с отличным опытом работы с пользователями и стать эталоном приложений.\n\nLifeUp имеет одноразовую оплату, без рекламы, без покупок в приложении (если не считать кофе), нет системы подписки, компактный размер, но богатые функциональные модули, скорость запуска на уровне миллисекунд, разумные запросы разрешений и хранение данных на стороне пользователей.\n\nМы ограничены трудовой силой, энергией и затратами. Существует множество функций, которые в настоящее время невозможно реализовать, но мы будем прилагать максимум усилий для продвижения вперед.\n\nЕсли приложение действительно полезно для вас, пожалуйста, оцените его, расскажите о нём людям вокруг вас или купите нам чашку кофе! </string>
     <string name="about_feedback_short">Обратная связь</string>
     <string name="about_btn_buy_developers_a_coffee">Купите разработчикам кофе</string>
     <string name="feature_1780">Состояние Разблокировки</string>
