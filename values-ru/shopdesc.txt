@@ -1,4 +1,4 @@
-LifeUp, whose name means UPGRADE YOUR LIFE, is a gamification To-Do List (Tasks List) application with many interesting gamified features.
+LifeUp, название которого означает УЛУЧШАЙТЕ СВОЮ ЖИЗНЬ, представляет собой приложение для геймификации To-Do List (Список задач) с множеством интересных игровых функций.
 
 
 It's designed by us, two newly graduated developers, who intend to develop <b>A customizable and fun gamified To-Do list and Habit-forming application</b>.
