@@ -1,11 +1,11 @@
 LifeUp, название которого означает УЛУЧШАЙТЕ СВОЮ ЖИЗНЬ, представляет собой приложение для геймификации To-Do List (Список задач) с множеством интересных игровых функций.
 
 
-It's designed by us, two newly graduated developers, who intend to develop <b>A customizable and fun gamified To-Do list and Habit-forming application</b>.
+Он разработан нами, двумя новыми разработчиками, которые намереваются разработать <b>настраиваемый и веселый геймифицированный To-Do список задач и приложение для формирования привычек</b>.
 
-LifeUp has a unique item reward and custom achievement mechanism, but it doesn't lose the utility of tools.
-It allows you to record things like playing a productivity game.
-And its simple and easy-to-start attribute mechanism can make light users experience the fun of life RPG.
+У LifeUp есть уникальная система наград и настраиваемых достижений, но он не теряет полезности инструментов.
+Он позволяет вам записывать вещи так, будто вы играете в продуктивную игру.
+А его простая система атрибутов позволит пользователям насладиться весельем жизни в RPG.
 
 
 <h2><b>Features: </b></h2>
