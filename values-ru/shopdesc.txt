@@ -8,8 +8,8 @@ LifeUp, название которого означает УЛУЧШАЙТЕ С
 А его простая система атрибутов позволит пользователям насладиться весельем жизни в RPG.
 
 
-<h2><b>Features: </b></h2>
-- <b>No Ads, No In-App Purchase related to the features, You can enjoy all the functional modules at once.</b>
+<h2><b>Особенности:</b></h2>
+- <b>Без рекламы, без связаннных с функциональностью покупок в приложении, Вы можете пользоваться всеми функциональными модулями сразу.</b>
 
 - <b>Beautiful Material Design UI</b>
 
