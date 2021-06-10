@@ -376,7 +376,7 @@
     <string name="xml_add_to_do_complete_reward">Вознаграждение</string>
     <string name="xml_add_to_do_more_options">Больше опций…</string>
     <string name="xml_backup_backup">Бэкап</string>
-    <string name="xml_backup_desc">Бэкап все ваши локальные данные в хранилище.\nВнимание: при удалении приложения система может удалить файл в резервной копии по умолчанию.\nРекомендуется выбрать Пользовательский путь к резервной копии.</string>
+    <string name="xml_backup_desc">Сохраните все ваши локальные данные в хранилище.\nВнимание: при удалении приложения система может удалить файл в резервной копии по умолчанию.\nРекомендуется выбрать Пользовательский путь к резервной копии.</string>
     <string name="xml_backup_restore">Восстановить</string>
     <string name="xml_backup_restore_desc">Восстановите ваши данные из хранилища.\nВнимание: данные будут перезаписаны.</string>
     <string name="xml_category_add">Введите Название Списка</string>
@@ -1612,8 +1612,19 @@
     <string name="vibrate_disable">Запретить</string>
     <string name="ringtone_enable">Разрешить</string>
     <string name="ringtone_disable">Запретить</string>
+    <string name="title_delete_local_data">Удалить локальные данные</string>
+    <string name="desc_delete_local_data">Это удалит все ваши локальные данные, включая задания, предметы магазина, достижения и прочее.</string>
+    <string name="title_delete_account">Удалить аккаунт (удаленные данные)</string>
+    <string name="desc_delete_remote_data">Это удалит ваши данные на серверах LifeUp, включая информацию о верификации вашего аккаунта, размещенные вами виды деятельности и товары, которыми вы делились с рынком.</string>
+    <string name="delete_account_success">Аккаунт успешно удален</string>
+    <string name="dialog_delete_account_title">Удалить аккаунт</string>
+    <string name="dialog_delete_account_desc">Это навсегда удалит ваши данные на серверах LifeUp, включая информацию о верификации вашего аккаунта, размещенные вами виды деятельности и товары, которыми вы делились с рынком.</string>
+    <string name="dialog_delete_local_data_title">Удалить локальные данные</string>
+    <string name="dialog_delete_local_data_desc">Это навсегда удалит все ваши локальные данные, включая задания, предметы магазина, пользовательские достижения и прочее. Приложение вернется в состояние, в котором оно было при установке.</string>
     <string name="synthesis_item_delete_message">Вы действительно хотите удалить этот элемент?</string>
     <string name="synthesis_item_delete_title">Удалить</string>
+    <string name="title_synthesis_page">Синтез</string>
+    <string name="title_dialog_synthesis">Синтез</string>
     <string name="title_module_config">Конфигурация модулей</string>
     <string name="setting_module_config">Настройка модулей</string>
     <string name="setting_display_module_config_desc">Настройка модулей нижней панели навигации.\nСвободно скрывайте ненужные вам модули, такие как «Мир» и «Мой», и заменяйте их другими функциональными модулями первого уровня (частично поддерживается).</string>
@@ -1626,4 +1637,5 @@
     <string name="about_feedback_short">Обратная связь</string>
     <string name="about_btn_buy_developers_a_coffee">Купите разработчикам кофе</string>
     <string name="feature_1780">Состояние Разблокировки</string>
+    <string name="feature_1820">Синтез</string>
 </resources>
