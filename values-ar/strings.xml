@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="app_name_normal">الارتقاء بالحياة</string>
+    <string name="app_name_normal">الِارتقاء بالحياة</string>
     <!-- bottom bar title -->
+    <string name="title_board">مهَام</string>
+    <string name="title_status">حالة</string>
+    <string name="title_community">عالم</string>
+    <string name="title_me">أنا</string>
     <!-- Welcome Activity -->
+    <string name="page1_title">قائِمَة المَهام</string>
+    <string name="page1_content">دوِّن قائمَة مهامك، حدِّد مستوى أهميتهم ودرجة صعوبتهم، ثم حاول إكمالهم جميعًا!</string>
+    <string name="page2_title">إِجعل سير الحياة كما الألعاب</string>
+    <string name="page2_content">ماذا لو كانت حياتك لعبة...؟\n ماذا لو بالإمكان قياس صفاتك رقميًا…؟</string>
+    <string name="page3_title">حصد الجوائز</string>
+    <string name="page3_content">ارفع مستويات صفاتك بإتمام مهام قائمتك. 
+\nاحصد كل أنواع الإنجازات وارتقي بحياتك!</string>
+    <string name="page4_title">سحابة</string>
     <!-- Strings related to login -->
-    <string name="lifeup">الارتقاء بالحياة</string>
+    <string name="fragment_me_toolbar_title">أنا</string>
+    <string name="status_toolbar_title">حالة</string>
+    <string name="lifeup">الِارتقاء بالحياة</string>
     <!-- \nThis is for the users whose phone doesn\'t support pedometer. -->
+    <string name="xml_user_attribution_header">حالة</string>
     <!-- Base Achievement -->
     <!-- Task Achievements -->
     <!-- Attributes Achievements -->
@@ -15,6 +30,7 @@
     <!-- Feelings Fav -->
     <!-- degree only in Chinese now -->
     <!-- podomoro -->
+    <string name="clear_history_data_tasks">مهَام</string>
     <!-- in xx days -->
     <!-- today/tomorrow/yesterday -->
     <!-- in xx days -->
