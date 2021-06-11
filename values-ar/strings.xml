@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name_normal">الارتقاء بالحياة</string>
     <!-- bottom bar title -->
     <!-- Welcome Activity -->
     <!-- Strings related to login -->
+    <string name="lifeup">الارتقاء بالحياة</string>
     <!-- \nThis is for the users whose phone doesn\'t support pedometer. -->
     <!-- Base Achievement -->
     <!-- Task Achievements -->
