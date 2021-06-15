@@ -11,6 +11,7 @@
     <!-- Welcome Activity -->
     <string name="page1_title">TO-DO СПИСОК</string>
     <string name="page1_content">Запишите свой список задач.\nУстановите важность и степень сложности каждой задачи.\nПопробуйте выполнить их все!</string>
+    <string name="page2_title">ГЕЙМИФИЦИРУЙТЕ ЖИЗНЬ</string>
     <string name="page2_content">Что, если бы ваша жизнь была игрой…?\nЧто, если бы ваши способности можно было измерить числами…?</string>
     <string name="page3_title">ЗАРАБОТАНА НАГРАДА</string>
     <string name="page3_content">Повышайте уровень своих навыков, выполняя задания из вашего списка дел.\nПолучайте всевозможные достижения и повышайте уровень своей жизни!</string>
@@ -24,11 +25,12 @@
     <string name="login_welcome">Войти для Больших функций</string>
     <string name="login_welcome_2">Больше функций:\n- Синхронизация опыта &amp; уровней на сервере\n- Редактировать профиль\n- Мир\n- Поделитесь своей деятельностью</string>
     <string name="login_signIn">ВОЙТИ</string>
+    <string name="login_or">или</string>
     <string name="title_activity_add_to_do_item">Добавить Новую Задачу</string>
     <string name="title_activity_add_team_item">Добавить Новую Команду</string>
     <string name="title_activity_edit_team_item">Редактировать Команду</string>
     <string name="title_activity_team">О Команде</string>
-    <string name="title_activity_user">О Пользователе</string>
+    <string name="title_activity_user">О пользователе</string>
     <string name="title_activity_edit_to_do_item">Редактировать Задачу</string>
     <string name="title_activity_history">История</string>
     <string name="title_activity_YBLogin">Войти через YiBan</string>
@@ -57,6 +59,8 @@
     <string name="about_check_update">Проверить Обновление</string>
     <string name="about_version_name">Версия</string>
     <string name="contact_title">Связь</string>
+    <string name="github_desc1">Android Разработчик: AyagiKei</string>
+    <string name="github_desc2">Разработчик сервера: Hdonghong</string>
     <string name="achievement_complete">Достижение разблокировано</string>
     <string name="category_add_success">Добавлено успешно</string>
     <string name="category_rename_success">Переименован успешно</string>
