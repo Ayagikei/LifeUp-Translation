@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name_normal">LifeUp</string>
+    <string name="app_name_google">LifeUp Pro</string>
     <!-- bottom bar title -->
     <string name="title_board">Задачи</string>
     <string name="title_status">Статус</string>
@@ -1312,7 +1314,7 @@
     <string name="Oct">Окт.</string>
     <string name="Nov">Ноя.</string>
     <string name="Dec">Дек.</string>
-    <string name="detail_repeat_stat">Повторить Статистику</string>
+    <string name="detail_repeat_stat">Статистика повторений</string>
     <string name="cannot_undo_team_task">Невозможно отменить командную задачу сейчас</string>
     <string name="dialog_title_unlock_condition">Состояние Разблокировки</string>
     <string name="dialog_unlock_condition_number_requirement">Требуется Номер</string>
@@ -1533,7 +1535,7 @@
     <string name="goods_effect_countdown_timer">Таймер Обратного Отсчета</string>
     <string name="dialog_countdown_effect_title">Таймер Обратного Отсчета</string>
     <string name="dialog_countdown_effect_input_hint">обратный отсчет (минуты)</string>
-    <string name="shop_statistics_lifetime">Продолжительность жизни</string>
+    <string name="shop_statistics_lifetime">За всё время</string>
     <string name="shop_statistics_today">Сегодня</string>
     <string name="shop_statistics_this_week">На этой неделе</string>
     <string name="shop_statistics_this_month">Этот месяц</string>
