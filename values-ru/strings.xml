@@ -324,6 +324,7 @@
     <string name="network_server_dead">Возможно, произошел сбой сервера, попробуйте позже</string>
     <string name="team_get_next_task_success">\"Получить задание\" успешно</string>
     <string name="team_get_next_task_already">\"Получить задание\" успешно</string>
+    <string name="lifeup">LifeUp</string>
     <string name="notification_content">У вас есть задача, которую нужно выполнить:&#160;</string>
     <string name="step_to_str">Прирост [Сила] exp с шагами</string>
     <string name="likes_exchange_charm">Прирост [Очарование] exp с лайками</string>
@@ -1645,6 +1646,11 @@
     <string name="dialog_coin_input_btn_fixed">Фиксированный</string>
     <string name="dialog_coin_input_btn_auto">Авто</string>
     <string name="about_documents">Документы</string>
+    <string name="about_title_app">Приложение</string>
+    <string name="about_privacy_terms">Политика конфиденциальности</string>
+    <string name="about_title_developer">Разработчики</string>
+    <string name="about_title_translators">Переводчики</string>
+    <string name="about_btn_email">Эл. почта</string>
     <string name="about_title_a_letter_desc">Спасибо за покупку нашего приложения, это огромная поддержка для нас.\n\nМы пытаемся создавать приложения с отличным опытом работы с пользователями и стать эталоном приложений.\n\nLifeUp имеет одноразовую оплату, без рекламы, без покупок в приложении (если не считать кофе), нет системы подписки, компактный размер, но богатые функциональные модули, скорость запуска на уровне миллисекунд, разумные запросы разрешений и хранение данных на стороне пользователей.\n\nМы ограничены трудовой силой, энергией и затратами. Существует множество функций, которые в настоящее время невозможно реализовать, но мы будем прилагать максимум усилий для продвижения вперед.\n\nЕсли приложение действительно полезно для вас, пожалуйста, оцените его, расскажите о нём людям вокруг вас или купите нам чашку кофе! </string>
     <string name="about_feedback_short">Обратная связь</string>
     <string name="about_btn_buy_developers_a_coffee">Купите разработчикам кофе</string>
