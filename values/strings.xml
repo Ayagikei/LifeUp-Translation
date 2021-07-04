@@ -673,7 +673,7 @@
     <string name="title_activity_add_shop_item">Put on Shelves</string>
     <string name="shop_empty_text">No items on the shelves</string>
     <string name="inventory_empty_text">No items in the inventory\nInventory only contains items that are not used yet.</string>
-    <string name="to_do_get_coins">Get Coins:+%1$d</string>
+    <string name="to_do_get_coins">Coins earned: +%1$d</string>
     <string name="xml_add_to_do_coins_title">Coin Reward</string>
     <string name="coin_possess">Owned: %1$d</string>
     <string name="coin_price_own">Coins: %1$d - %2$d</string>
@@ -1850,16 +1850,16 @@ Go to the Shop-Inventory page (4th position of navbar) to open it!</string>
     <string name="sample_task_get_up_early_desc">Start time and deadline time settings can be used to limit the time range of a repeat task.\nBy the way, the default deadline without a specified time (hour, minutes) will be at 0:00 the next day. You can set a specified deadline you want in the next day to change this setting.</string>
 
     <!-- in xx days -->
-    <string name="tag_deadline_v2_relative">Deadline in %1$s</string>
-    <string name="tag_deadline_v2_with_time">Deadline at %1$s</string>
-    <string name="tag_deadline_v2_with_date">Deadline on %1$s</string>
+    <string name="tag_deadline_v2_relative">Due in %1$s</string>
+    <string name="tag_deadline_v2_with_time">Due: %1$s</string>
+    <string name="tag_deadline_v2_with_date">Due: %1$s</string>
     <!-- today/tomorrow/yesterday -->
     <string name="tag_deadline_v2_relative_special">Deadline %1$s</string>
 
     <!-- in xx days -->
     <string name="tag_start_v2_relative">Starts in %1$s</string>
-    <string name="tag_start_v2_with_time">Starts at %1$s</string>
-    <string name="tag_start_v2_with_date">Starts on %1$s</string>
+    <string name="tag_start_v2_with_time">Starts: %1$s</string>
+    <string name="tag_start_v2_with_date">Starts: %1$s</string>
     <!-- today/tomorrow/yesterday -->
     <string name="tag_start_v2_relative_special">Starts %1$s</string>
 
