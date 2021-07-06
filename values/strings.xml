@@ -155,7 +155,7 @@
     <string name="profile_sv_gender">Gender:&#160;</string>
     <string name="profile_female">Female</string>
     <string name="profile_male">Male</string>
-    <string name="profile_secret">Secret</string>
+    <string name="profile_secret">Secret / Other</string>
     <string name="profile_dialog_nickname_title">Change Nickname</string>
     <string name="profile_dialog_address_title">Change Address</string>
     <string name="setting_relogin">Re-login</string>
@@ -322,12 +322,7 @@
     <string name="to_do_taptarget_new">Add tasks</string>
     <string name="to_do_taptarget_content">Tap here to add tasks！</string>
     <string name="to_do_taptarget_nav">Navigation</string>
-    <string name="to_do_taptarget_nav_content">"Board: Places where you complete tasks just like RPGs\n"
-                                    "Status: View your attributes exp and levels\n\n"
-                                    "World: Join a team and complete team tasks\n\n"
-                                    "Statistics: View your data statistics\n\n\n"
-                                    "Most of these functions will work without a network connection except [World] module~\n"
-                                    "And most data is stored in local storage space, so be careful about uninstalling the app without making a backup."</string>
+    <string name="to_do_taptarget_nav_content">"Board: Places where you complete tasks just like RPGs\nStatus: View your attributes exp and levels\n\nWorld: Join a team and complete team tasks\n\nStatistics: View your data statistics\n\n\n"Most of these functions will work without a network connection except [World] module~\nAnd most data is stored in local storage space, so be careful about uninstalling the app without making a backup.</string>
     <string name="to_do_slide_bar">Slide Bar</string>
     <string name="to_do_slide_bar_content">Here are entries to login, achievement, task history, settings, and so on</string>
     <string name="to_do_list">List</string>
@@ -479,7 +474,7 @@
     <string name="setting_display_status_play_animation_desc">It may cost lot of cpu resources.</string>
     <string name="setting_display_hide_community">Hide World</string>
     <string name="setting_display_hide_community_desc">Hide World button on the Bottom Navigation.</string>
-    <string name="setting_display_hide_pedometer">Hide Pedometer Module</string>
+    <string name="setting_display_hide_pedometer">Hide pedometer module</string>
     <string name="setting_display_hide_pedometer_desc">App may not get accurate measurements from some phones\nYou may hide the pedometer module if you don\'t want it.</string>
     <string name="setting_main_task">Task Settings</string>
     <string name="setting_main_task_widget">Widget Settings</string>
@@ -489,15 +484,15 @@
     <string name="setting_main_welcome">Show Welcome Page</string>
     <string name="setting_main_reshow_guide">Re-open Guide</string>
     <string name="setting_main_logout">Logout</string>
-    <string name="setting_task_default_repeat">Default Repeat Task</string>
+    <string name="setting_task_default_repeat">Default repeat task</string>
     <string name="setting_task_default_repeat_desc">If not checked, a dialog will appear after task completion, asking if the task should repeat.</string>
-    <string name="setting_task_default_not_submit_activity">Default Skip Activity Submit</string>
-    <string name="setting_task_default_not_submit_activity_desc">If checked, activity dialog will not be shown after completing a team task.</string>
+    <string name="setting_task_default_not_submit_activity">Default skip team activity submit</string>
+    <string name="setting_task_default_not_submit_activity_desc">If checked, team activity dialog will not be shown after completing a team task.</string>
     <string name="setting_task_default_continue_overdue_item">Restart Overdue Tasks</string>
     <string name="setting_task_default_continue_overdue_item_desc">Auto-restart overdue tasks.</string>
-    <string name="setting_widget_dark_theme">Dark Theme</string>
+    <string name="setting_widget_dark_theme">Dark theme</string>
     <string name="setting_widget_dark_theme_desc">Set the widget to dark theme.</string>
-    <string name="setting_widget_dark_theme_white_font">Dark Theme: White font and icons.</string>
+    <string name="setting_widget_dark_theme_white_font">Dark theme: White font and icons.</string>
     <string name="setting_widget_dark_theme_white_font_desc">Set the dark theme text and icons to white instead of colored.</string>
     <string name="setting_widget_only_show_today">Show only today\'s tasks</string>
     <string name="setting_widget_only_show_today_desc">If checked, widget will only show tasks that have already started or will start today.</string>
@@ -593,7 +588,7 @@
     <string name="Saturday">Saturday</string>
     <string name="sort_exp">Exp</string>
     <string name="nav_history">History</string>
-    <string name="nav_achievement">Achievement</string>
+    <string name="nav_achievement">Achievements</string>
     <string name="to_do_exp">%1$d Exp</string>
     <string name="exception_refresh">Exception happened when trying to refresh header view</string>
     <string name="exception_achievement_animation">Exception happened when trying to show achievement unlock</string>
@@ -613,9 +608,9 @@
     <string name="nav_night_mode_on">Night Mode (On)</string>
     <string name="nav_night_mode_off">Night Mode (Off)</string>
     <string name="filter">Filter</string>
-    <string name="setting_display_date_format">Date Format</string>
+    <string name="setting_display_date_format">Date format</string>
     <string name="setting_display_date_format_desc">Change the date format</string>
-    <string name="about_feature_element">Feature</string>
+    <string name="about_feature_element">Features</string>
 
     <string name="feature_night_mode">Night Mode</string>
     <string name="feature_night_mode_desc">Change the theme of LifeUp with dark mode theme.</string>
@@ -673,7 +668,7 @@
     <string name="title_activity_add_shop_item">Put on Shelves</string>
     <string name="shop_empty_text">No items on the shelves</string>
     <string name="inventory_empty_text">No items in the inventory\nInventory only contains items that are not used yet.</string>
-    <string name="to_do_get_coins">Get Coins:+%1$d</string>
+    <string name="to_do_get_coins">Coins earned: +%1$d</string>
     <string name="xml_add_to_do_coins_title">Coin Reward</string>
     <string name="coin_possess">Owned: %1$d</string>
     <string name="coin_price_own">Coins: %1$d - %2$d</string>
@@ -709,9 +704,9 @@
     <string name="to_do_item_detail_coin_reward_var">Coin Reward: %1$d - %2$d</string>
     <string name="give_up">Give Up</string>
     <string name="dialog_input_coin_enable_auto_sum">Auto Calculate</string>
-    <string name="setting_exp_punishment">Exp Punishment Factor</string>
+    <string name="setting_exp_punishment">Exp punishment factor</string>
     <string name="setting_exp_punishment_desc">Default: 0.2</string>
-    <string name="setting_coin_punishment">Coin Punishment Factor</string>
+    <string name="setting_coin_punishment">Coin punishment factor</string>
     <string name="setting_coin_punishment_desc">Default: 0</string>
     <string name="team_search_empty_text">No matching team. You can try to create one!</string>
     <string name="to_do_content_unlimited_completed_times">%1$s (%2$d times today)</string>
@@ -750,9 +745,9 @@
     <string name="clear_coin_title">Clear Coin Data</string>
     <string name="clear_coin_desc">Coin number will be reset to 0.\nAttention: This will restart your life and it cannot be undone!</string>
     <string name="clear_coin">Reset Coins to Zero</string>
-    <string name="setting_display_theme_setting">Theme Color</string>
+    <string name="setting_display_theme_setting">Theme color</string>
     <string name="setting_display_theme_setting_desc">Select One Theme Color That You Like</string>
-    <string name="dialog_theme_color">Theme Color</string>
+    <string name="dialog_theme_color">Theme color</string>
     <string name="xml_team_end_date">First End Date</string>
     <string name="coin_line_chart_title">Coin Gain/Loss Statistics</string>
     <string name="activity_statistics_gained_value">Gained</string>
@@ -772,7 +767,7 @@
     <string name="task_type_counter">Count Task</string>
     <string name="input_task_count">Input Target Times</string>
     <string name="input_task_count_desc">Input Target Times to enable Count Task.\n\nThis means the number of times you need to do a task before it counts as finished.</string>
-    <string name="task_counter_process">Target: %1$d (%2$s%%)</string>
+    <string name="task_counter_process">Target: %1$d (%3$s %2$s%%)</string>
     <string name="title_dialog_finish_times">Count Task</string>
     <string name="calendar_permission_lost">Cannot set up reminder without read/write Calendar Permissions.</string>
     <string name="to_do_detail_type_local_count_type">Local Count Task (%1$s)</string>
@@ -939,7 +934,7 @@
     <string name="team_setting_dialog_category">List: %1$s</string>
     <string name="switch_auto_use">Use</string>
     <string name="dialog_join_use_team_desc_as_remark">Use team desc as notes</string>
-    <string name="setting_display_relative_time_display">Displaying Relative Time</string>
+    <string name="setting_display_relative_time_display">Displaying relative time</string>
     <string name="setting_display_relative_time_display_desc">Display start time and deadline time as relative time\n(e.g. 3 days from now on)</string>
     <string name="date_input_hint">Generally speaking, the interval between the first start time and first end time should not be larger than task repeat frequency.\nPlease check your settings.</string>
     <string name="following">Following</string>
@@ -956,7 +951,7 @@
     <string name="team_cycle_end_time">This cycle end time:&#160;</string>
     <string name="exception_saf_not_found">Cannot access Storage Access Framework.\nPlease check your system or change method.</string>
     <string name="exception_common">Exception: %1$s</string>
-    <string name="setting_task_swipe_action">Card Swipe Action</string>
+    <string name="setting_task_swipe_action">Card swipe action</string>
     <string name="setting_task_swipe_action_desc">Left Swipe: %1$s\nRight Swipe: %2$s</string>
     <string name="menu_swipe_left">Swipe Left</string>
     <string name="menu_swipe_right">Swipe Right</string>
@@ -1030,7 +1025,7 @@
     <string name="custom_attribution_text">TEXT</string>
     <string name="custom_attribution_reset">RESET</string>
     <string name="custom_attribution_hint">Adding and removing attributes is not supported yet.</string>
-    <string name="setting_custom_attribute">Customize Attributes</string>
+    <string name="setting_custom_attribute">Customize attributes</string>
     <string name="setting_custom_attribute_desc">Customize the icon and the text of the current attributes</string>
     <string name="webdav_account">WebDAV Account</string>
     <string name="attachment">Attachment</string>
@@ -1041,7 +1036,7 @@
     <string name="feature_170_desc">- Compact Mode\n- Picture Attachment\n- Custom Attributes(Text and Icon)\n- WebDAV Backup</string>
     <string name="menu_undo">Undo</string>
 
-    <string name="setting_task_snack_bar_duration">Undo Window Showing Duration</string>
+    <string name="setting_task_snack_bar_duration">Undo window showing duration</string>
     <string name="setting_task_snack_bar_duration_desc_short">Short</string>
     <string name="setting_task_snack_bar_duration_desc_long">Long</string>
     <string name="copy">Copy</string>
@@ -1064,7 +1059,7 @@
     <string name="default_remind">Default Reminder Time</string>
     <string name="default_repeat">Default Repeat Frequency</string>
     <string name="default_deadline">Default Deadline Date</string>
-    <string name="title_activity_new_default">New Task Default Setting</string>
+    <string name="title_activity_new_default">New task default setting</string>
     <string name="blank">Blank</string>
     <string name="setting_task_new_default_setting">New Task Default Settings</string>
     <string name="team_activity_create">Created a new team「%1$s」</string>
@@ -1103,7 +1098,7 @@
     <string name="feelings_search_by_date">Date</string>
     <string name="feelings_search_by_content_title">Search by Feelings Content</string>
     <string name="add_shop_item_custom_use_button_text">Custom Action Button Text</string>
-    <string name="setting_custom_card_background">Custom Task Card Background</string>
+    <string name="setting_custom_card_background">Custom task card background</string>
     <string name="setting_custom_card_background_desc">Choose your favorite picture as the card background and set its opacity.</string>
     <string name="settings_custom_task_card_bg_hint">Tap here to choose picture</string>
     <string name="opacity">Opacity</string>
@@ -1141,7 +1136,7 @@
     <string name="inventory_item_return_desc">Return item</string>
     <string name="inventory_item_return_success">Return successful</string>
     <string name="inventory_record_return">Return Item「%1$s」×%2$d</string>
-    <string name="setting_app_widget_opacity">Dark Theme: Opacity</string>
+    <string name="setting_app_widget_opacity">Dark theme: Opacity</string>
     <string name="setting_app_widget_opacity_desc">Set opacity of app widget in dark theme</string>
     <string name="switch_app_widget_simulate_dark_background">Simulate dark background</string>
     <string name="inventory_button_return">Return</string>
@@ -1156,8 +1151,8 @@
     <string name="help_translate">Help Translate</string>
     <string name="feature_1720">Subtask Reminder</string>
     <string name="feature_1720_desc">- Subtask Reminder\n- Subtask Coin\n- App Widget Opacity\n- Statistics Time Selection\n- Inventory: Return Item</string>
-    <string name="xml_clear_achievements">Clear Achievement Data</string>
-    <string name="xml_clear_achievements_desc">Return all achievements to locked state.</string>
+    <string name="xml_clear_achievements">Clear System Achievement Data</string>
+    <string name="xml_clear_achievements_desc">Return all system achievements to locked state.</string>
     <string name="clear_achievement_desc">Return all achievements to locked state.\nAttention: This cannot be undone!</string>
     <string name="clear_achievement_title">Clear Achievement Data</string>
     <string name="toast_clear_achievement_success">Achievement data cleared successfully</string>
@@ -1360,7 +1355,7 @@
     <string name="feature_1750_desc">- Gamify tomato timer\n- Custom task/list tag color\n- WebDAV auto backup\n- Hide modules settings: status, shop, me</string>
     <string name="pomodoro_notification_skip">Skip</string>
     <string name="hint_scroll_to_bottom_more_settings">There are more settings below: scroll down!</string>
-    <string name="setting_custom_enable_sound_effect">Enable Sound Effects</string>
+    <string name="setting_custom_enable_sound_effect">Enable sound effects</string>
     <string name="setting_custom_enable_sound_effect_desc">Enable sound effects. The volume can be set by the system media volume.</string>
     <string name="dialog_select_local_pictures_btn">Select local pictures</string>
     <string name="btn_change_icon">Change icon</string>
@@ -1594,7 +1589,7 @@
     <string name="vip_extension_theme_color"></string>
     <string name="user_activity_empty_hint">there is no activity record here\ncomplete a team task to submit it</string>
     <string name="user_activity_shop_empty_hint">there is no shared shop item here</string>
-    <string name="setting_custom_sound_effect">Custom Sound Effects</string>
+    <string name="setting_custom_sound_effect">Custom sound effects</string>
     <string name="setting_custom_sound_effect_desc">Customize the sound effects of LifeUp.\nFor example, you can choose the sound effect file you like for a task completion, level up, or purchase sound effect</string>
     <string name="title_activity_custom_sound_effect">Custom Sound Effects</string>
     <string name="custom_sound_effect_hint">For better playback effect, it is recommended that you choose short audio files. \n(Less than 500kb and duration of 1~3s)</string>
@@ -1696,11 +1691,6 @@
     <string name="hint_pedometer_hint_desc">The app cannot access the daily step count from the system.\nDaily step count is calculated by subtracting the total step count as of yesterday from the total step count as of today.\n\n The count accuracy depends on conditions such as when the app is opened and when the phone restarts.</string>
     <string name="hint_pedometer_input_or_hide_hint_desc">As an alternative to automatic calculation, you can input the step number manually\n\nor hide the step counter module in the [Display Settings] page if you do not need it.</string>
 
-    <string name="hint_login_method"></string>
-    <string name="hint_login_method_desc"></string>
-    <string name="hint_login_method2"></string>
-    <string name="hint_login_method_desc2"></string>
-
     <string name="hint_world_module">Hello, World!</string>
     <string name="hint_world_module_desc">In the World module, you can join a team to get team tasks/or share your tasks by creating a new team.</string>
     <string name="hint_world_module_moments">Post Activities</string>
@@ -1764,7 +1754,7 @@
     <string name="switch_display_24_hours_display">24-hour display</string>
     <string name="clear_history_data_tasks">Tasks</string>
     <string name="clear_history_data_coins">Coins</string>
-    <string name="hint_remind_system_title">Reminder System</string>
+    <string name="hint_remind_system_title">Reminder system</string>
     <string name="reminder_method_hint">The application uses system notifications to send reminder by default, which may kill by the OS.\nIf you frequently miss reminders, please change the reminder system in the task settings.\n\nCalendar reminder system is available, which will not be limited by the operating status of the application, but it needs calendar read/write permissions.</string>
     <string name="hint_multiple_reminders">Multiple reminders</string>
     <string name="hint_multiple_reminders_desc">To setup multiple reminders, you can create subtasks and set up a reminder for each of them.</string>
@@ -1850,16 +1840,16 @@ Go to the Shop-Inventory page (4th position of navbar) to open it!</string>
     <string name="sample_task_get_up_early_desc">Start time and deadline time settings can be used to limit the time range of a repeat task.\nBy the way, the default deadline without a specified time (hour, minutes) will be at 0:00 the next day. You can set a specified deadline you want in the next day to change this setting.</string>
 
     <!-- in xx days -->
-    <string name="tag_deadline_v2_relative">Deadline in %1$s</string>
-    <string name="tag_deadline_v2_with_time">Deadline at %1$s</string>
-    <string name="tag_deadline_v2_with_date">Deadline on %1$s</string>
+    <string name="tag_deadline_v2_relative">Due in %1$s</string>
+    <string name="tag_deadline_v2_with_time">Due: %1$s</string>
+    <string name="tag_deadline_v2_with_date">Due: %1$s</string>
     <!-- today/tomorrow/yesterday -->
     <string name="tag_deadline_v2_relative_special">Deadline %1$s</string>
 
     <!-- in xx days -->
     <string name="tag_start_v2_relative">Starts in %1$s</string>
-    <string name="tag_start_v2_with_time">Starts at %1$s</string>
-    <string name="tag_start_v2_with_date">Starts on %1$s</string>
+    <string name="tag_start_v2_with_time">Starts: %1$s</string>
+    <string name="tag_start_v2_with_date">Starts: %1$s</string>
     <!-- today/tomorrow/yesterday -->
     <string name="tag_start_v2_relative_special">Starts %1$s</string>
 
@@ -1900,15 +1890,13 @@ If you need to schedule multiple tasks in a repetition cycle, you can use counti
     <string name="add_to_do_taptarget_deadline_specify_deadline_time_tominutes">Specify deadline time to minutes</string>
     <string name="hint_shop_item_timer_hint_with_permission">A countdown notification has been sent, you can check the countdown status in the notification bar and modify it.</string>
     <string name="hint_shop_item_timer_hint_without_permission">Missing notification permissions, countdown notification might not been sent correctly. Please grant notification permissions.</string>
-    <string name="starter_task_compatibility"></string>
-    <string name="starter_task_compatibility_desc"></string>
     <string name="btn_known_issues">Known Issues</string>
     <string name="hint_add_widget_system_version_not_supported">The current system version does not support this operation.\nYou can try to manually add widgets on the launcher.</string>
 
     <string name="statistics_overdue_count">Overdue: %1$d</string>
     <string name="statistics_give_up_count">Give up: %1$d</string>
     <string name="vibrate_mode">Vibration mode</string>
-    <string name="dialog_title_vibrate_mode">11</string>
+    <string name="dialog_title_vibrate_mode">Vibration mode</string>
     <string name="vibrate_long">Long (about 2.5 seconds)</string>
     <string name="vibrate_short">Short (about 0.5 seconds)</string>
     <string name="vibrate_disable">Disable</string>
@@ -1950,7 +1938,7 @@ If you need to schedule multiple tasks in a repetition cycle, you can use counti
     <string name="lab_new_task_page_code_refactoring">New task page code refactoring</string>
     <string name="lab_new_tasks_refactor_desc">In order to make the application extensible and maintainable, we rewrite the code of "new item" and "edit item" pages. The UI of the page is not changed yet. If you found any problems in the alpha version page, please send us a email! And you can switch to the old version anytime.</string>
     <string name="dialog_module_select_title">Module Selection</string>
-    <string name="setting_module_config">Module Configuration</string>
+    <string name="setting_module_config">Module configuration</string>
     <string name="setting_display_module_config_desc">Bottom navigation bar module configuration.\nFreely hide the modules you don’t need, such as hide the \"World\" and \"Me\" modules, and can be replaced with other first-level functional modules (partially supported).</string>
     <string name="shop_item_effect_countdown_action_resume">Resume</string>
     <string name="effect_count_down_notification_pausing">Pausing..</string>
@@ -1993,4 +1981,52 @@ If you need to schedule multiple tasks in a repetition cycle, you can use counti
     <string name="feature_1820">Synthesis</string>
     <string name="feature_1820_desc">- Complete support for N to N synthesis system</string>
     <string name="coffee_failed_to_connect_the_google_iap">We cannot request a coffee list from Google Play, error code: %1$d</string>
+    <string name="btn_feedback_questions">Questions</string>
+    <string name="btn_feedback_bugs">Bugs</string>
+    <string name="btn_feedback_feature">Features</string>
+    <string name="btn_translations">Transl.</string>
+    <string name="achievement_menu_reward_setting">Reward Settings</string>
+    <string name="achievement_checkbox_enable_exp_reward">Enable Exp Reward</string>
+    <string name="achievement_checkbox_enable_coin_reward">Enable Coin Reward</string>
+    <string name="dialog_reward_settings_title">Reward Settings</string>
+    <string name="dialog_reward_settings_message">You will get some build-in exp or coin reward from unlocked achievement.\n\nHere you can choose whether to turn them off.\n\nEven if the rewards are both turned off, at least you can still see the celebration animation.</string>
+    <string name="hint_synthesizing">Synthesizing...</string>
+    <string name="to_do_filter_do_not_fold_any_tasks">do not fold any tasks</string>
+    <string name="to_do_filter_fold_today">fold tasks that don’t start today</string>
+    <string name="to_do_filter_fold_in_7_days">fold tasks that don’t start in next 7 days</string>
+    <string name="to_do_filter_apply_only_to_cur_list">Apply only to the current list</string>
+    <string name="about_v2_website">Website</string>
+    <string name="chip_add_to_do_background">Background</string>
+    <string name="clear_history_data_inventory">Inventory records</string>
+    <string name="clear_history_data_pomodoro">Pomodoro records</string>
+    <string name="clear_history_data_feelings">Feelings</string>
+    <string name="text_btn_hide">HIDE</string>
+    <string name="calendar_display_name_lifeup_reminder">LifeUp Reminder</string>
+    <string name="permission_calendar_request_title">Calendar permission required.</string>
+    <string name="permission_calendar_request_message">The calendar permission is required to inserting or updating the reminder time in the calendar reminder method.</string>
+    <string name="permission_calendar_request_go_to_settings_message"><![CDATA[Please enable Settings > Permissions > Calendar to use the calendar reminder method.]]></string>
+    <string name="permission_camera_request_title">Camera permission required.</string>
+    <string name="permission_camera_request_message">The camera permission is required to select pictures in the form of taking pictures.</string>
+    <string name="permission_camera_request_go_to_settings_message"><![CDATA[Please enable Settings > Permissions > Camera to select pictures in the form of taking pictures.]]></string>
+    <string name="permission_common_go_to_settings_title">Go to the app’s settings page to grant permissions</string>
+    <string name="switch_auto_backup_to_download_dir">Automatically backup files to the "download" folder\n(experimental, Android 10 and above is required)</string>
+    <string name="xml_clear_system_achievements">Clear System Achievement Data</string>
+    <string name="xml_clear_system_achievements_desc">Return all system achievements to locked state.\nThe unlocking of custom achievements is based on objective statistics, and it does not support direct recovery to unlocked.</string>
+    <string name="timer_preference_remind_title">Reminder</string>
+    <string name="timer_preference_reward_title">Reward</string>
+    <string name="timer_preference_misc_title">Misc.</string>
+    <string name="create_shortcut_success">The app has requested to pin the shortcuts.\nIf it is not pinned successfully, you can check the permissions in the application settings.</string>
+    <string name="sort_coin">Coin</string>
+    <string name="permission_activity_recognition_request_title">Activity Recognition permission required.</string>
+    <string name="permission_activity_recognition_request_message">The activity recognition permission is required to calculate daily steps.\nThis is an optional feature, you can also choose to manually input the number of steps or hide the module.</string>
+
+    <string name="starter_task_compatibility">this_string_only_available_in_specific_language_starter_task_compatibility</string>
+    <string name="starter_task_compatibility_desc">this_string_only_available_in_specific_language_starter_task_compatibility_desc</string>
+    <string name="hint_login_method">this_string_only_available_in_specific_language_hint_login_method</string>
+    <string name="hint_login_method_desc">this_string_only_available_in_specific_language_hint_login_method_desc</string>
+    <string name="hint_login_method2">this_string_only_available_in_specific_language_hint_login_method2</string>
+    <string name="hint_login_method_desc2">this_string_only_available_in_specific_language_hint_login_method_desc2</string>
+    <string name="zh_feedback_method">this_string_only_available_in_specific_language_zh_feedback_method</string>
+    <string name="zh_feedback_method_txc">this_string_only_available_in_specific_language_zh_feedback_method_txc</string>
+    <string name="zh_feedback_method_internal">this_string_only_available_in_specific_language_zh_feedback_method_internal</string>
 </resources>
