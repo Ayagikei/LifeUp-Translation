@@ -774,7 +774,7 @@
     <string name="task_type_counter">カウントタスク</string>
     <string name="input_task_count">対象時間</string>
     <string name="input_task_count_desc">カウントタスクを有効にするために目標時間を入力します。\n\nタスクが終了したとカウントされるまでの回数を意味します。</string>
-    <string name="task_counter_process">目標: %1$d (%2$s%%)</string>
+    <string name="task_counter_process">目標: %1$d (%3$s %2$s%%)</string>
     <string name="title_dialog_finish_times">タスクカウント</string>
     <string name="calendar_permission_lost">カレンダーの権限がないと、リマインダーの設定ができません</string>
     <string name="to_do_detail_type_local_count_type">ローカルカウントタスク（%1$s）</string>
@@ -1319,7 +1319,7 @@
     <string name="dialog_task_item_unselect">選択されていません</string>
     <string name="tomatoes_action_eat">食べる</string>
     <string name="tomatoes_action_sell">売却</string>
-    <string name="tomatoes_eat_reward_desc"> %1$d[忍耐力] Expを得ました</string>
+    <string name="tomatoes_eat_reward_desc"> %1$d[%2$s] Expを得ました</string>
     <string name="tomatoes_sell_reward_desc">%1$d コインを得ました</string>
     <string name="eat_tomatoes_hint_text">食べる</string>
     <string name="sell_tomatoes_hint_text">売却</string>
@@ -1362,7 +1362,7 @@
     <string name="hint_number_greater_than_0">数字は0より大きくなければなりません</string>
     <string name="hint_should_select_attributes">少なくとも1つの属性を選択する必要があります</string>
     <string name="input_hint_value">値</string>
-    <string name="hint_select_attributes">属性の選択:</string>
+    <string name="hint_select_attributes">属性の選択(swipe right to see more):</string>
     <string name="radio_increase_exp">増加したExp</string>
     <string name="radio_decrease_exp">減少したExp</string>
     <string name="hint_attributes_conflict">他のエフェクトと競合しています</string>
@@ -1868,8 +1868,6 @@
     <string name="add_to_do_taptarget_deadline_specify_deadline_time_tominutes">締め切り時間を分単位で指定</string>
     <string name="hint_shop_item_timer_hint_with_permission">カウントダウン通知が送信されていますが、通知バーでカウントダウンの状態を確認し、修正することができます。 </string>
     <string name="hint_shop_item_timer_hint_without_permission">通知権限が不足しているため、カウントダウン通知が正しく送信されていない可能性があります。通知権限を付与してください。</string>
-    <string name="starter_task_compatibility"></string>
-    <string name="starter_task_compatibility_desc"></string>
     <string name="btn_known_issues">既知の問題</string>
     <string name="hint_add_widget_system_version_not_supported">現在のシステムバージョンでは、この操作をサポートしていません。</string>
 
@@ -1924,9 +1922,18 @@
     <string name="shop_item_effect_countdown_action_close">とじる</string>
     <string name="shop_item_effect_countdown_action_pause_but_stay">一時停止します</string>
     <string name="toast_got_coins">%1$dのコインを獲得</string>
-    <string name="pomodoro_dialog_skip_title">Skip</string>
+    <string name="pomodoro_dialog_skip_title">スキップ</string>
     <string name="button_skip">スキップ</string>
     <string name="pomodoro_dialog_skip_message">本当にスキップしますか？ \完全なトマトを手に入れる機会が失われます。または、一時停止を選択することもできます。</string>
     <string name="starter_task_check_unstarted_task">開始されていないタスクのチェック</string>
     <string name="starter_task_check_unstarted_task_desc">利用可能な時間帯に入っていないタスクは折りたたまれます。タスクの下部に「早起き」のタスクが表示されていない場合は、下部にある展開ボタン（三角）をタップしてみてください。</string>
+    <string name="dialog_coin_input_btn_fixed">固定</string>
+    <string name="dialog_coin_input_btn_auto">自動</string>
+    <string name="about_btn_email">電子メール</string>
+    <string name="about_feedback_short">フィードバック</string>
+    <string name="feature_1780">ロック解除条件</string>
+    <string name="feature_1820">合成</string>
+    <string name="clear_history_data_feelings">気分</string>
+    <string name="xml_clear_system_achievements">達成データのクリア</string>
+    <string name="sort_coin">コイン</string>
 </resources>

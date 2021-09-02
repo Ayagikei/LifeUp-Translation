@@ -785,7 +785,7 @@
     <string name="task_type_counter">Sayım Görevi</string>
     <string name="input_task_count">Kaç Kez Yapılacağını Girin</string>
     <string name="input_task_count_desc">Sayım Görevini etkinleştirmek için hedef sayıyı girin.\n\nGörevi tamamlamak için kaç kez yapılacağını belirtir.</string>
-    <string name="task_counter_process">Hedef: %1$d (%2$s%%)</string>
+    <string name="task_counter_process">Hedef: %1$d (%3$s %2$s%%)</string>
     <string name="title_dialog_finish_times">Sayım Görevi</string>
     <string name="calendar_permission_lost">Takvim okuma/yazma izinleri olmadan hatırlatıcı ayarlanamaz.</string>
     <string name="to_do_detail_type_local_count_type">Sana Ait Sayım Görevi (%1$s)</string>
@@ -1143,7 +1143,7 @@
     <string name="help_translate">Help Translate</string>
     <string name="feature_1720">Subtask Remind</string>
     <string name="feature_1720_desc">- Subtask Remind\n- Subtask Coin\n- App Widget Opacity\n- Statistics Time Selection\n- Inventory: Return Item</string>
-    <string name="xml_clear_achievements">Clear Achievement Data</string>
+    <string name="xml_clear_achievements">Clear System Achievement Data</string>
     <string name="xml_clear_achievements_desc">Make all achievements to locked state.</string>
     <string name="clear_achievement_desc">Make all achievements to locked state.\nAttention:It cannot be undone!</string>
     <string name="clear_achievement_title">Clear Achievement Data</string>
@@ -1291,7 +1291,7 @@
     <string name="dialog_task_item_unselect">unselected</string>
     <string name="tomatoes_action_eat">EAT</string>
     <string name="tomatoes_action_sell">SELL</string>
-    <string name="tomatoes_eat_reward_desc">to gain %1$d [Endurance] exps</string>
+    <string name="tomatoes_eat_reward_desc">to gain %1$d [%2$s] exps</string>
     <string name="tomatoes_sell_reward_desc">to gain %1$d coins</string>
     <string name="eat_tomatoes_hint_text">eat</string>
     <string name="sell_tomatoes_hint_text">sell out</string>
@@ -1332,7 +1332,7 @@
     <string name="hint_number_greater_than_0">The number should be greater than 0</string>
     <string name="hint_should_select_attributes">At least one attributes should be selected</string>
     <string name="input_hint_value">Value</string>
-    <string name="hint_select_attributes">Select attributes:</string>
+    <string name="hint_select_attributes">Select attributes(swipe right to see more):</string>
     <string name="radio_increase_exp">Increase Exp</string>
     <string name="radio_decrease_exp">Decrease Exp</string>
     <string name="hint_attributes_conflict">There is a conflict with another effects</string>

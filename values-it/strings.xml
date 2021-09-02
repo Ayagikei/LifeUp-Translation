@@ -787,7 +787,7 @@
     <string name="task_type_counter">Count Task</string>
     <string name="input_task_count">Input Target Times</string>
     <string name="input_task_count_desc">Input target times to enable Count Task.\n\nIt means the target times you need to do before finish a task.</string>
-    <string name="task_counter_process">Target: %1$d (%2$s%%)</string>
+    <string name="task_counter_process">Target: %1$d (%3$s %2$s%%)</string>
     <string name="title_dialog_finish_times">Count Task</string>
     <string name="calendar_permission_lost">Cannot setup reminder without read/write Calendar Permissions.</string>
     <string name="to_do_detail_type_local_count_type">Local Count Task (%1$s)</string>

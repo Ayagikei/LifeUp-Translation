@@ -764,7 +764,7 @@
     <string name="task_type_counter">Tarefa de contagem</string>
     <string name="input_task_count">Informe os tempos alvo</string>
     <string name="input_task_count_desc">Insira os tempos alvo para habilitar a tarefa de contagem.\n\nSignifica os tempos alvo que você precisa fazer antes de terminar uma tarefa.</string>
-    <string name="task_counter_process">Alvo: %1$d (%2$s %%)</string>
+    <string name="task_counter_process">Alvo: %1$d (%3$s %2$s %%)</string>
     <string name="title_dialog_finish_times">Tarefa de contagem</string>
     <string name="calendar_permission_lost">Não é possível configurar o lembrete sem permissões de leitura / gravação do calendário.</string>
     <string name="to_do_detail_type_local_count_type">Tarefa de contagem local (%1$s)</string>
@@ -1315,7 +1315,7 @@
     <string name="dialog_task_item_unselect">não selecionado</string>
     <string name="tomatoes_action_eat">COMER</string>
     <string name="tomatoes_action_sell">VENDER</string>
-    <string name="tomatoes_eat_reward_desc">para ganhar %1$d [Resistência] exps</string>
+    <string name="tomatoes_eat_reward_desc">para ganhar %1$d [%2$s] exps</string>
     <string name="tomatoes_sell_reward_desc">para ganhar %1$d moedas</string>
     <string name="eat_tomatoes_hint_text">comer</string>
     <string name="sell_tomatoes_hint_text">lotação</string>
@@ -1356,7 +1356,7 @@
     <string name="hint_number_greater_than_0">O número deve ser maior que 0</string>
     <string name="hint_should_select_attributes">Pelo menos um atributo deve ser selecionado</string>
     <string name="input_hint_value">Valor</string>
-    <string name="hint_select_attributes">Selecione os atributos:</string>
+    <string name="hint_select_attributes">Selecione os atributos(swipe right to see more):</string>
     <string name="radio_increase_exp">Aumentar Exp</string>
     <string name="radio_decrease_exp">Diminuir Exp</string>
     <string name="hint_attributes_conflict">Há um conflito com outros efeitos</string>

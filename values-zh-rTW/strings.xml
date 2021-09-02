@@ -23,7 +23,7 @@
     <!-- Strings related to login -->
     <string name="title_activity_login">登入</string>
     <string name="login_welcome">將您的人升遊戲化</string>
-    <string name="login_welcome_2">登入可以體驗各種功能：\n\n- 加入公會，領取團隊任務\n- 建立您的任務團隊\n- 同步經驗值到雲端\n- 發佈動態，紀錄您的人升</string>
+    <string name="login_welcome_2">登入可以體驗各種功能：\n\n- 加入公會，領取團隊任務\n- 建立您的任務團隊\n- 同步等級 &amp; 經驗值到雲端\n- 發佈動態，紀錄您的人升</string>
     <string name="login_signIn">登入</string>
     <string name="login_or">或者</string>
     <string name="title_activity_add_to_do_item">建立待辦事項</string>
@@ -255,7 +255,7 @@
     <string name="user_not_found_activites">此玩家暫無動態</string>
     <string name="user_not_found_team">此玩家尚未加入團隊</string>
     <string name="network_unknown_error">網路異常：</string>
-    <string name="network_no_network">網路無法連線，加載數據失敗。</string>
+    <string name="network_no_network">網路無法連線，無法載入數據。</string>
     <string name="network_yb_failed">登入異常，請重試</string>
     <string name="network_yb_redirect_success">授權成功，正在獲取註冊資訊</string>
     <string name="task_restart">重做</string>
@@ -314,11 +314,7 @@
     <string name="to_do_taptarget_new">建立任務</string>
     <string name="to_do_taptarget_content">點擊此處建立任務！</string>
     <string name="to_do_taptarget_nav">導航欄</string>
-    <string name="to_do_taptarget_nav_content">"大廳：如同RPG遊戲中領取任務和完成任務的地方\n\n"
-                                   "狀態：查看您的各項屬性等級。\n\n"
-                                   "公會：加入公會建立的團隊，領取團隊任務(需登入)\n\n"
-                                   "統計：查看您的各項數據統計：任務完成情況、經驗值獲取情況、經驗值分布、步數統計等。\n\n"
-                                   "除了公會以外，多數的功能都支援離線使用哦！目前大部分的數據都儲存在手機，請記得定期備份。"</string>
+    <string name="to_do_taptarget_nav_content">大廳：如同 RPG 遊戲中領取任務和完成任務的地方 \n狀態：查看您的各項屬性等級。\n\n公會：加入公會建立的團隊，領取團隊任務。（需登入）\n\n統計：查看您的各項數據統計：任務完成情況、經驗值獲取情況、經驗值分布、步數統計等。\n\n\n除了「公會」以外，多數的功能都支援離線使用哦！\n目前大部分的數據都儲存在手機，請記得定期備份。</string>
     <string name="to_do_slide_bar">側邊欄</string>
     <string name="to_do_slide_bar_content">可以進行登入，查看成就、任務歷史、設定等操作</string>
     <string name="to_do_list">清單</string>
@@ -371,13 +367,13 @@
     <string name="backup_success_custom">備份成功</string>
     <string name="backup_failed">備份失敗：</string>
     <string name="backup_failed_custom">備份失敗</string>
-    <string name="loading">加載中...</string>
+    <string name="loading">載入中...</string>
     <string name="sign_in_with_qq">使用 QQ 登入</string>
     <string name="profile_nickname">昵稱</string>
     <string name="profile_address">所在地</string>
     <string name="profile_gender">性別</string>
     <string name="profile_avatar">更換頭像</string>
-    <string name="yb_network_problem">頁面加載失敗，請檢查您的網路連線！點擊重試。</string>
+    <string name="yb_network_problem">頁面載入失敗，請檢查您的網路連線！點擊重試。</string>
     <string name="backup_not_found_file">預設路徑找不到備份檔案！</string>
     <string name="xml_team_basic_header">基本資訊</string>
     <string name="xml_team_to_do">團隊任務（標題）</string>
@@ -432,7 +428,7 @@
     <string name="attr_learning_desc">提升自我學習、推理能力，例如，閱讀、語言學習、專注當下。</string>
     <string name="attr_charm_desc">增加自身魅力，例如，社交，保持樂觀自信，打理自己。</string>
     <string name="attr_endurance_desc">增強意志力，例如，習慣養成、突破舒適圈、冥想。</string>
-    <string name="attr_vitality_desc">增強活力，提升正能量，讓自己變得更好，例如，每天記錄三件開心事，堅持寫感恩日記。</string>
+    <string name="attr_vitality_desc">增強活力，提升正能量，讓自己變得更好，例如，每天記錄開心事，堅持寫感恩日記。</string>
     <string name="attr_creative_desc">提升創造力，例如，DIY、文學或藝術創作、開發。</string>
     <string name="dialog_activity_tint">完成感想（可選）</string>
     <string name="dialog_category_title">清單</string>
@@ -572,8 +568,6 @@
     <string name="finish_and_get_reward">成功完成任務並獲得獎勵：%1$s！</string>
     <string name="achievement_unlocked">解鎖成就</string>
     <string name="xml_login_third_login">目前僅允許第三方授權登入</string>
-    <string name="gmt_tint">抱歉 :(</string>
-    <string name="gmt_tint_message">由於設計原因，公會暫時只適用於 GMT+8 時區。是否要隱藏公會？</string>
     <string name="Long_Sunday">週日</string>
     <string name="long_monday">週一</string>
     <string name="long_tuesday">週二</string>
@@ -614,8 +608,8 @@
     <string name="feature_fix_desc">- 浮動按鈕自動隱藏\n- 修復暖啟動時的短暫黑屏\n- 變更時間格式\n- 效能優化</string>
     <string name="feature_plan">計畫</string>
     <string name="feature_plan_desc">- 商店、金幣、倉庫系統（計畫中）\n- MVP 代碼重構（60%）</string>
-    <string name="moments_empty_text">數據加載失敗，請重試。</string>
-    <string name="fragment_user_mine_exchangeable_likes">可兌換成「魅力」經驗值的讚數：</string>
+    <string name="moments_empty_text">數據載入失敗，請重試。</string>
+    <string name="fragment_user_mine_exchangeable_likes">可兌換成經驗值的讚數：</string>
     <string name="fragment_user_mine_like_title">在公會中，\n您一共收獲了 %1$d 個讚</string>
     <string name="fragment_user_mine_my_page_desc">查看您的個人主頁，瀏覽動態、關注、粉絲列表等。</string>
     <string name="fragment_user_mine_button_view">查看</string>
@@ -639,9 +633,9 @@
     <string name="hint">溫馨提示</string>
     <string name="dont_show_again">不再提醒</string>
     <string name="xml_clear_exp">清空經驗值</string>
-    <string name="xml_clear_exp_desc">將所有經驗值數據重置為 0。\n此動作無法復原。</string>
+    <string name="xml_clear_exp_desc">將所有經驗值數據重置為 0。\n重新開始人升</string>
     <string name="clear_exp_title">清空經驗值</string>
-    <string name="clear_exp_desc">將所有經驗值數據重置為 0。\n此動作無法復原，服務器數據需要在正常使用中觸發同步後才會更新。\n確定要繼續嗎？</string>
+    <string name="clear_exp_desc">將所有經驗值數據重置為 0。\n注意：此動作無法復原。\n服務器數據需要在正常使用中觸發同步後才會更新。\n您確定要繼續嗎？</string>
     <string name="feature_163"><![CDATA[日曆提醒 & 清空經驗值]]></string>
     <string name="feature_163_desc">- 系統日曆通知提醒\n- 清空經驗值\n- 刪除已發佈的動態</string>
     <string name="err_retry">出現異常情況，請重試</string>
@@ -725,7 +719,7 @@
     <string name="til_coin_max_hint">最大值</string>
     <string name="dialog_input_coin_enable_random">啟用隨機金幣（設定區間）</string>
     <string name="til_coin_min_hint">最小值</string>
-    <string name="loading_team_task">正在加載團隊任務...</string>
+    <string name="loading_team_task">正在載入團隊任務...</string>
     <string name="uploading_picture">正在上傳圖片，請稍等...</string>
     <string name="switch_asc">升序</string>
     <string name="shop_setting_title">商店設定</string>
@@ -735,7 +729,7 @@
     <string name="xml_clear_coin">清空金幣</string>
     <string name="xml_clear_coin_desc">將金幣的數量重置為 0</string>
     <string name="clear_coin_title">清空金幣</string>
-    <string name="clear_coin_desc">將金幣數據重置為 0。\n此動作無法復原。\n確定要繼續嗎？</string>
+    <string name="clear_coin_desc">將金幣的數量重置為 0。\n注意：此動作無法復原。\n您確定要繼續嗎？</string>
     <string name="clear_coin">重置金幣數據</string>
     <string name="setting_display_theme_setting">主題顏色</string>
     <string name="setting_display_theme_setting_desc">從預設的主題中挑選一個您喜歡的顏色</string>
@@ -1009,7 +1003,7 @@
     <string name="custom_attribution_hint">由於一些設計問題，暫時不支援屬性的增刪。</string>
     <string name="setting_custom_attribute">自訂屬性</string>
     <string name="setting_custom_attribute_desc">自訂現有屬性的圖示和名稱</string>
-    <string name="webdav_account">WebDav 帳號</string>
+    <string name="webdav_account">WebDAV 帳號</string>
     <string name="attachment">附件</string>
     <string name="lab_compact_mode_sample">學習一門外語</string>
     <string name="lab_compact_mode_title">簡潔模式</string>
@@ -1059,7 +1053,7 @@
     <string name="nav_feelings">感想</string>
     <string name="feelings_item">感想</string>
     <string name="feelings_item_delete_title">刪除</string>
-    <string name="feelings_item_delete_message">您確定要刪除此感想嗎？\n此動作無法復原。</string>
+    <string name="feelings_item_delete_message">您確定要刪除此感想嗎？</string>
     <string name="feelings_submit_success">感想發布成功</string>
     <string name="feelings_dialog_search_title">搜尋</string>
     <string name="lab_feelings_title">感想</string>
@@ -1081,7 +1075,7 @@
     <string name="setting_custom_card_background_desc">選擇您喜歡的圖片作為卡片背景，您還可以設定透明度。</string>
     <string name="settings_custom_task_card_bg_hint">點擊這裡選擇圖片</string>
     <string name="opacity">不透明度</string>
-    <string name="feedback_email_hint">如果您提交的反饋是疑問/使用求助，請留下郵箱以便回覆。\n\n為了不浪費您的時間，可以先瀏覽【常見問題】查看有無相關資訊（例如，詢問實現指定週幾重複、任務失敗懲罰）。\n\n在缺少聯絡方式的情況下，我們無法回覆，這類反饋是沒有意義的。</string>
+    <string name="feedback_email_hint">如果您提交的反饋是疑問/使用求助，請留下電子信箱以便回覆。\n\n為了不浪費您的時間，可以先瀏覽【常見問題】查看有無相關資訊（例如，詢問實現指定週幾重複、任務失敗懲罰）。\n\n在缺少聯絡方式的情況下，我們無法回覆，這類反饋是沒有意義的。</string>
     <!-- degree only in Chinese now -->
     <string name="importance_lv1_desc">這件事【可有可無】\n例如：查一查某個時事八卦\n在某種機緣巧合下出現，只有勉強被您記住的價值，它的完成與否對您造成的影響可以忽略不計。</string>
     <string name="importance_lv2_desc">這件事【值得上一點心】\n例如：每天背10個英語單詞\n完成它對您而言並不能造成顯著的影響，但可以在潛移默化地數量堆疊之後，讓您發現自己進步了一大截。\n反之亦然，如果無法堅持完成某些這個等級的任務，您可能會對應地失去一些重要的東西。</string>
@@ -1113,7 +1107,7 @@
     <string name="inventory_item_return_success">退貨成功</string>
     <string name="inventory_record_return">退貨了物品「%1$s」×%2$d</string>
     <string name="setting_app_widget_opacity">暗色模式：不透明度</string>
-    <string name="setting_app_widget_opacity_desc">設定暗色模式的桌面小工具的不透明度</string>
+    <string name="setting_app_widget_opacity_desc">設定暗色模式下桌面小工具的不透明度</string>
     <string name="switch_app_widget_simulate_dark_background">模擬暗色背景</string>
     <string name="inventory_button_return">退貨</string>
     <string name="dialog_input_task_count_target_multi_exp_reward">多倍經驗值獎勵</string>
@@ -1129,7 +1123,7 @@
     <string name="feature_1720_desc">- 子任務提醒\n- 子任務金幣獎勵\n- 桌面小工具透明度\n- 統計時間範圍選擇\n- 倉庫：退貨</string>
     <string name="xml_clear_achievements">清空系統成就</string>
     <string name="xml_clear_achievements_desc">將所有系統成就還原到未解鎖狀態。</string>
-    <string name="clear_achievement_desc">還原所有成就到未完成狀態\n注意：此動作無法復原！</string>
+    <string name="clear_achievement_desc">還原所有成就到未完成狀態\n注意：此動作無法復原！\n您確定要繼續嗎？</string>
     <string name="clear_achievement_title">清空成就數據</string>
     <string name="toast_clear_achievement_success">清空成就數據成功</string>
     <string name="team_like_text">喜歡 %1$d</string>
@@ -1165,7 +1159,7 @@
     <string name="require_permission">授予權限</string>
     <string name="hint_denied_activity_permission">人升需要獲得存取權以計算步數。</string>
     <string name="default_name_system_achievements">系統成就</string>
-    <string name="login_backup_hint">注意：\n登入並不會同步您的本地數據，請注意備份。</string>
+    <string name="login_backup_hint">注意：\n人升支援離線使用。\n登入只是為了連結公會模組，切換帳號不會影響您的本地數據。\n您的本地數據也不會同步到伺服器。</string>
     <string name="user_achievement_delete_title">刪除</string>
     <string name="user_achievement_delete_message">您確定要刪除此成就嗎？</string>
     <string name="backup_hint">可以使用【設定】頁面中的「數據備份」功能進行本地數據的備份。\n
@@ -1215,8 +1209,8 @@
     <string name="special_task_desc">特殊</string>
     <string name="basic_task_desc_detail">基本定義\n期限日期：指的是本輪任務的截止日期，並非是總期限。（開始時間同理）\n即每日任務一般是「當天」，每週任務一般是「本週」。\n\n重複頻次：每日、每週、每月等，最小單位為一天。每次進行重複時，將開始時間和截止時間向後計算。\n如果設定為每週任務，執行重複時，會將下一次的開始時間計算為此次的開始時間的 7 天後，截止時間同理。\n\n大多數情況下，僅設定重複頻次和到期日即可，開始時間會根據重複頻次自動設定。</string>
     <string name="weekly_task_desc_detail">如果您想設定【週一】至【週日】的【每週】任務，那麽只需要將\n1.「重複頻次」設定為【每週】\n2.「截止日期」設定為【週末】即可。\n\n同理，如果您想設定【週二】到【下週一】的每週任務。\n只需要修改「截止日期」到【下週一】即可。</string>
-    <string name="weekday_task_desc_detail">工作日（【週一】至【週五】）任務的設定辦法：\n\n1. 將「重複頻次」設定為【每日】\n2. 點擊「設定忽略」按鈕進行設定</string>
-    <string name="special_task_desc_detail">如果您想要設定一些特殊時間的任務，可以透過自訂【開始時間】實現。\n如果您想要建立一個【當天晚上 6 點】至【第二天淩晨 4 點】的【每日任務】：\n\n1. 點擊【更多選項】展開所有選單\n2. 設定「開始時間」為【當天晚上6點】\n3.設定「截止時間」為【第二天淩晨4點】\n4. 設定「重複頻次」為【每日】</string>
+    <string name="weekday_task_desc_detail">工作日（【週一】至【週五】）任務的設定辦法：\n1. 將「重複頻次」設定為【每日】\n2. 點擊「設定忽略」按鈕進行設定</string>
+    <string name="special_task_desc_detail">如果您想要設定一些特殊時間的任務，可以透過自訂【開始時間】實現。\n\n建立一個【當天晚上 6 點】至【第二天凌晨 4 點】的【每日任務】：\n1. 點擊【更多選項】展開所有選單\n2. 設定「開始時間」為【當天晚上 6 點】\n3. 設定「截止時間」為【第二天淩晨 4 點】\n4. 設定「重複頻次」為【每日】</string>
     <string name="dialog_shop_item_select_title">選擇</string>
     <string name="reward_shop_item">商品</string>
     <string name="reward_normal_text">僅文本</string>
@@ -1230,7 +1224,7 @@
     <string name="xml_clear_history">清空歷史記錄</string>
     <string name="xml_clear_history_desc">包含日曆中的相關歷史記錄</string>
     <string name="clear_history_title">清空歷史記錄</string>
-    <string name="clear_history_desc">清空所有歷史記錄。\n注意：此動作無法復原！</string>
+    <string name="clear_history_desc">清空所有歷史記錄。\n注意：此動作無法復原！\n您確定要繼續嗎？</string>
     <string name="title_dialog_task_tag_color">標簽顏色</string>
     <string name="setting_display_hide_status">隱藏狀態</string>
     <string name="setting_display_hide_status_desc">隱藏底部導航欄的【狀態】模組。</string>
@@ -1283,7 +1277,7 @@
     <string name="none">無</string>
     <string name="vip">擴展</string>
     <string name="action_end_the_team">終止</string>
-    <string name="action_end_the_team_desc">確認要終止團隊嗎？\n此動作無法復原。</string>
+    <string name="action_end_the_team_desc">您確定要終止團隊嗎？</string>
     <string name="btn_end">終止</string>
     <string name="pomodoro_notification_complete">跳過</string>
     <string name="pomodoro_notification_cancel">取消</string>
@@ -1302,7 +1296,7 @@
     <string name="dialog_task_item_unselect">取消選擇</string>
     <string name="tomatoes_action_eat">食用</string>
     <string name="tomatoes_action_sell">出售</string>
-    <string name="tomatoes_eat_reward_desc">得到 %1$d 點「耐力」經驗值</string>
+    <string name="tomatoes_eat_reward_desc">得到 %1$d 點「%2$s」經驗值</string>
     <string name="tomatoes_sell_reward_desc">得到 %1$d 個金幣</string>
     <string name="eat_tomatoes_hint_text">食用</string>
     <string name="sell_tomatoes_hint_text">出售</string>
@@ -1345,7 +1339,7 @@
     <string name="hint_number_greater_than_0">數值必須大於 0</string>
     <string name="hint_should_select_attributes">必須選擇至少一個屬性</string>
     <string name="input_hint_value">數值</string>
-    <string name="hint_select_attributes">選擇相關屬性：</string>
+    <string name="hint_select_attributes">選擇相關屬性（向右滑動查看更多）：</string>
     <string name="radio_increase_exp">增加經驗值</string>
     <string name="radio_decrease_exp">減少經驗值</string>
     <string name="hint_attributes_conflict">與其他效果存在衝突，無法選取</string>
@@ -1552,7 +1546,7 @@
     <string name="add_to_do_check_repeat">檢查重複效果</string>
     <string name="dialog_title_repeat_effect">確認重複效果</string>
     <string name="toast_show_check_repeat_failed">顯示失敗</string>
-    <string name="setting_custom_enable_vibration">啟用震動</string>
+    <string name="setting_custom_enable_vibration">啟用振動</string>
     <string name="setting_custom_enable_vibration_desc">啟用完成待辦事項時的點擊振動、番茄計時結束的提醒振動</string>
     <string name="dialog_check_repeat_first_cycle">首次重複週期</string>
     <string name="dialog_check_repeat_sec_cycle">第二次重複週期</string>
@@ -1637,7 +1631,7 @@
     <string name="hint_world_module_market">創意櫥窗</string>
     <string name="hint_world_module_market_desc">您可以瀏覽其他玩家分享的創意商品，選擇進貨到自己的商店。\n\n您也可以選擇分享自己的商品設計。</string>
     <string name="hint_atm_interest">ATM 利息</string>
-    <string name="hint_atm_interest_desc">您可以在【商店設定】（ATM 按鈕旁）設定 ATM 的日利率，實現每日獲取利息。</string>
+    <string name="hint_atm_interest_desc">您可以在【商店設定】（商店右上角三個點更多菜單裏）設定 ATM 的日利率，實現每日獲取利息。</string>
     <string name="hint_loot_box_probability">機率</string>
     <string name="hint_loot_box_probability_desc">物品的實際獲取機率計算公式：當前物品的比重 ÷ 所有物品的比重之和。\n\n例如，您想以0.1%的機率獲取物品A。可以先選取物品A，輸入1%，然後選取另外一個物品B，輸入999%。\n按照這樣設定提交結果，物品A的獲取機率就是0.1%，而物品B就是99.9%。</string>
     <string name="dialog_crash_action_btn_skip_hint">暫時不再提示</string>
@@ -1645,7 +1639,7 @@
     <string name="hint_uncomplete_task">撤銷完成</string>
     <string name="hint_uncomplete_task_desc">人升提供了多種方式撤銷已完成任務：\n1. 完成任務時，可以在底部彈出的提示框上點擊「撤銷」。\n\n2. 前往側邊欄的【歷史】或右上角的【日曆】頁面，點擊「已結束」任務→「更改狀態」→「撤銷」。\n\n3. 在右上角選單開啟【顯示已完成】，然後點擊清單上的「完成」標記即可撤銷。</string>
     <string name="hint_punishment">經驗值懲罰</string>
-    <string name="hint_punishment_desc">當任務逾期或放棄時，妳會損失部分經驗值。\n\n如果實際完成了該任務，可以標記為完成狀態，重新獲取獎勵。</string>
+    <string name="hint_punishment_desc">當任務逾期或放棄時，您會損失部分經驗值。\n\n如果實際完成了該任務，可以標記為完成狀態，重新獲取獎勵。</string>
     <string name="hint_punishment_coin">金幣懲罰</string>
     <string name="hint_punishment_coin_desc">金幣懲罰預設是關閉的。\n\n您可以前往【設定】-【進階】頁面開啟金幣懲罰，調整相關系數。</string>
     <string name="statistics_time_7days">7 天</string>
@@ -1689,7 +1683,7 @@
     <string name="dialog_overdue_tasks_hint">點擊「逾期」按鈕可以切換任務的實際狀態。\n長按首頁的任務卡片可以提前「凍結」任務，凍結期間造成任務逾期時，不會進行懲罰，而且不會產生逾期記錄。</string>
     <string name="default_deadline_time">預設截止時間</string>
     <string name="time_the_next_day">次日 %1$s</string>
-    <string name="setting_task_new_default_setting_desc">自訂建立任務時的預設設定（例如，預設截止時間、子任務金幣獎勵等）</string>
+    <string name="setting_task_new_default_setting_desc">自訂建立任務時的預設設定\n（例如，預設截止時間、子任務金幣獎勵等）</string>
     <string name="backup_documents">\n點擊這裡了解如何設定備份\n</string>
     <string name="not_recieve_reminders_hint">收不到提醒？檢查一下系统的背景權限設定吧~</string>
     <string name="btn_guide">教程</string>
@@ -1824,7 +1818,7 @@
     <string name="ringtone_disable">禁用</string>
     <string name="dialog_title_ringtone_enable">響鈴設定</string>
     <string name="ringtone">響鈴提醒</string>
-    <string name="widget_init_state_desc">加載中（可能由於系统攔截導致加載失敗）</string>
+    <string name="widget_init_state_desc">載入中（可能由於系统攔截導致載入失敗）</string>
     <string name="custom_sound_effect_shop_item_timer_end">商品效果計時結束</string>
     <string name="title_delete_local_data">刪除本地儲存數據</string>
     <string name="desc_delete_local_data">這將刪除您的所有本地數據，包括任務、商品、自訂成就等。</string>
@@ -1858,7 +1852,7 @@
     <string name="lab_new_tasks_refactor_desc">為了應用程式的擴展性和可維護性，我們重新編寫了「建立任務」和「編輯任務」頁面的代碼。\n雖然 UI 上並沒有改動，但是內部邏輯都經過了大部分的整理，我們後續會在此基礎上優化一些交互。\n\n但由於改動較大，如果您在使用期間遇到任何問題，請及時向開發者反饋，並可以選擇切換回舊版頁面。</string>
     <string name="dialog_module_select_title">選擇模組</string>
     <string name="setting_module_config">底部導航欄模組配置</string>
-    <string name="setting_display_module_config_desc">自由調整底部導航欄的模組\n可以自由隱藏或者替換您不需要的模組，例如，【公會】模組。（目前僅部分支援替換，後續會逐漸適配更多模組）</string>
+    <string name="setting_display_module_config_desc">自由調整底部導航欄的模組\n可以選擇隱藏或者替換您不需要的模組，例如，【公會】模組。（目前僅部分支援替換）</string>
     <string name="shop_item_effect_countdown_action_resume">恢復</string>
     <string name="effect_count_down_notification_pausing">已暫停</string>
     <string name="shop_item_effect_countdown_action_close">關閉</string>
@@ -1928,7 +1922,7 @@
     <string name="permission_camera_request_message">使用拍照的方式選擇圖片需要相機存取權。</string>
     <string name="permission_camera_request_go_to_settings_message"><![CDATA[請在應用程式設定 > 權限 > 相機 中開啟存取權，以便使用該圖片選擇方式。]]></string>
     <string name="permission_common_go_to_settings_title">前往應用程式設定頁面授權</string>
-    <string name="switch_auto_backup_to_download_dir">自動備份至「下載」資料夾\n（實驗功能，僅支援 Android 10 及以上）</string>
+    <string name="switch_auto_backup_to_download_dir">自動備份至「下載」資料夾\n（實驗性功能，僅支援 Android 10 及以上）</string>
     <string name="xml_clear_system_achievements">清空系統成就</string>
     <string name="xml_clear_system_achievements_desc">將所有系統成就還原到未解鎖狀態。\n自訂成就的解鎖基於客觀統計，不支援直接恢復至未解鎖。</string>
     <string name="timer_preference_remind_title">提醒</string>
@@ -1945,6 +1939,55 @@
     <string name="hint_login_method2">登入方式受限原因</string>
     <string name="hint_login_method_desc2">微信登入：暫不支援個人/獨立開發者使用。\n\n信箱登入：按相關規定要求，不能單獨支援信箱登入。\n\n手機號登入：需要接入第三方服務，無法保證使用者的隱私安全和綠色權限申請，且成本過高(大部分需要申請讀取手機狀態和識別碼權限)</string>
     <string name="zh_feedback_method">反饋方式</string>
-    <string name="zh_feedback_method_txc">公開反饋平台</string>
+    <string name="zh_feedback_method_txc">zh_feedback_method_txc</string>
     <string name="zh_feedback_method_internal">內部反饋</string>
+    <string name="error_msg_device_not_support_login_method">您的裝置不支援此登入方式</string>
+    <string name="login_v2_connect_to_the_world_module">連結公會模組</string>
+    <string name="login_v2_sign_in_with_google">使用 Google 登入</string>
+    <string name="login_v2_sign_in_with_qq">使用 QQ 登入</string>
+    <string name="login_v2_sign_in_with_weibo">使用微博登入</string>
+    <string name="login_v2_sign_in_with_facebook">使用 Facebook 登入</string>
+    <string name="login_v2_offline_mode">離線模式</string>
+    <string name="custom_sound_effect_achievement_unlocked">解鎖成就</string>
+    <string name="brvah_load_end">沒有更多數據</string>
+    <string name="brvah_load_failed">載入失敗</string>
+    <string name="brvah_loading">載入中...</string>
+    <string name="to_do_item_detail_pushiment_give_up_message">您確定要接受懲罰嗎？\n（*目前懲罰任務不支援直接撤銷，但您可以到【歷史】頁面更改狀態為已完成，並獲取獎勵）</string>
+    <string name="hint_punishment_task">懲罰任務</string>
+    <string name="hint_punishment_task_desc">（實驗性功能）該功能可能存在功能統計不全、效果不佳的問題。如果您遇到了問題，請反饋給開發者\n\n懲罰任務是指【僅接受懲罰】的任務，通常可配合「無限」重複頻次實現壞習慣記錄。如果你需要既能完成也可以接受懲罰的任務，使用普通任務即可。\n\n懲罰任務會預設執行「放棄」操作。\n\n經驗值和金幣的懲罰係數將被強制設定為 1。\n該任務的經驗值和金幣獎勵將為最終懲罰值。\n\n注意：這個項目仍然是完成獎勵，不過您可以設定一些懲罰物品。</string>
+    <string name="task_type_penalty">懲罰任務（實驗性功能）</string>
+    <string name="to_do_item_action_deadline">截止時間</string>
+    <string name="vibrate_custom">自訂</string>
+    <string name="vibrate_custom_desc">這是一個設定「振動間隔」的進階功能。\n\n數字的單位為毫秒，即 1000 代表 1 秒。\n\n數字之間插入空格，奇數位數字為不振動時長，偶數位數字為振動的持續時間。\n\n舉例來說，500 1000 500 2000，表示會在 0.5 秒後振動 1 秒，並在暫停 0.5 秒，再振動 2 秒。</string>
+    <string name="alarm_v2_message_ticker">To Do: %1$s</string>
+    <string name="login_last_login_method">上次登入方式：%1$s</string>
+    <string name="login_method_google">Google</string>
+    <string name="login_method_qq">QQ</string>
+    <string name="login_method_facebook">Facebook</string>
+    <string name="login_method_weibo">微博</string>
+    <string name="login_method_yiban">Yiban</string>
+    <string name="dialog_decrease_title_penalty">懲罰</string>
+    <string name="shop_item_detail_title_effect">效果</string>
+    <string name="common_error_message">錯誤：%1$s</string>
+    <string name="settings_task_delete_calendar_account">刪除 LifeUp 的日曆帳戶</string>
+    <string name="default_new_skill_name">NEW</string>
+    <string name="custom_attribution_action_delete">刪除</string>
+    <string name="btn_statistic">統計</string>
+    <string name="credit_line_title_desc">這將允許你賒賬購買。\n比如你設置該值為100，當你持有0金幣的時候，仍能夠購買少於等於100金幣價格的物品。</string>
+    <string name="dialog_shop_settings_icon_crop_style">圖標裁剪樣式</string>
+    <string name="custom_attribution_color">顏色</string>
+    <string name="custom_attribution_color_desc">目前該設置只影響「狀態」頁面的進度條顏色。</string>
+    <string name="custom_attribution_menu_show_hidden">顯示已隱藏</string>
+    <string name="custom_attribution_action_enable">啟用</string>
+    <string name="add_to_do_hint_please_input_subtasks">請先輸入子任務</string>
+    <string name="backup_file_size_alarm_desc">我們檢測到了你的備份文件體積大於 10MB。\n這可能會比較嚴重消耗你的流量以及伺服器資源。\n\n<b>建議：前往備份頁面，設置「忽略媒體文件」或者降低自動備份頻率。</b></string>
+    <string name="dialog_backup_file_size_alarm_title">備份文件大小警告</string>
+    <string name="pomo_eat_exp">食用經驗值</string>
+    <string name="pomo_eat_exp_summary">100 點</string>
+    <string name="pomo_eat_attr_selection">獎勵屬性</string>
+    <string name="attribution_delete_confirm">你確定要刪除該屬性嗎？</string>
+    <string name="dialog_shop_settings_icon_crop_style_circle">圓形</string>
+    <string name="dialog_shop_settings_icon_crop_style_round_rect">圓角矩形</string>
+    <string name="dialog_shop_settings_icon_crop_style_square">矩形</string>
+    <string name="attribution_hide_confirm">確定要隱藏該屬性嗎？\n\n內置屬性不允許直接刪除。你可以在該頁面右上角重新顯示該屬性。</string>
 </resources>

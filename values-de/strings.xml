@@ -772,7 +772,7 @@
     <string name="task_type_counter">Zählen Aufgabe</string>
     <string name="input_task_count">Zielzeiten eingeben</string>
     <string name="input_task_count_desc">Geben Sie die Zielzeiten ein, um die Zähl-Task zu aktivieren.\n\nEs handelt sich um die Zielzeiten, die Sie einhalten müssen, bevor Sie eine Aufgabe beenden.</string>
-    <string name="task_counter_process">Ziel: %1$d (%2$s%%)</string>
+    <string name="task_counter_process">Ziel: %1$d (%3$s %2$s%%)</string>
     <string name="title_dialog_finish_times">Aufgabe zählen</string>
     <string name="calendar_permission_lost">Kann keine Erinnerung ohne Lese-/Schreibberechtigung für den Kalender einrichten.</string>
     <string name="to_do_detail_type_local_count_type">Lokale Zählaufgabe (%1$s)</string>
@@ -1347,7 +1347,7 @@
     <string name="dialog_task_item_unselect">nicht ausgewählt</string>
     <string name="tomatoes_action_eat">ESSEN</string>
     <string name="tomatoes_action_sell">VERKAUFEN</string>
-    <string name="tomatoes_eat_reward_desc">um %1$d [Ausdauer]-Exp. zu erhalten</string>
+    <string name="tomatoes_eat_reward_desc">um %1$d [%2$s]-Exp. zu erhalten</string>
     <string name="tomatoes_sell_reward_desc">um %1$d Münzen zu erhalten</string>
     <string name="eat_tomatoes_hint_text">essen</string>
     <string name="sell_tomatoes_hint_text">ausverkaufen</string>
@@ -1390,7 +1390,7 @@
     <string name="hint_number_greater_than_0">Die Anzahl sollte größer als 0 sein</string>
     <string name="hint_should_select_attributes">Mindestens ein Attribut sollte ausgewählt sein</string>
     <string name="input_hint_value">Wert</string>
-    <string name="hint_select_attributes">Attribute auswählen:</string>
+    <string name="hint_select_attributes">Attribute auswählen(swipe right to see more):</string>
     <string name="radio_increase_exp">Exp erhöhen</string>
     <string name="radio_decrease_exp">Exp vermindern</string>
     <string name="hint_attributes_conflict">Es gibt einen Konflikt mit einem anderen Effekt</string>

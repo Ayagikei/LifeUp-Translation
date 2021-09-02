@@ -19,21 +19,10 @@
     <string name="page4_btn">开始人升</string>
 
     <!-- Strings related to login -->
-    <string name="title_activity_login">登录</string>
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="error_invalid_password">密码太短了！</string>
-    <string name="error_incorrect_password">用户名或密码输入错误。</string>
-    <string name="error_field_required">必填</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
-    <string name="prompt_phone">手机号码</string>
     <string name="login_welcome">一款游戏化的待办事项应用</string>
     <string name="login_welcome_2">欢迎登录以体验更多功能：\n\n- 浏览社区，领取团队任务\n- 新建你自己的任务团队\n- 同步经验值到云端\n- 发表动态，记录你的人生</string>
     <string name="login_signIn">登录</string>
-    <string name="login_signUp">注册功能暂停使用！请使用第三方登录。</string>
     <string name="login_or">或者</string>
-    <string name="login_viaYiban">使用易班登录</string>
 
     <string name="title_activity_add_to_do_item">新建待办事项</string>
     <string name="title_me">我的</string>
@@ -41,10 +30,6 @@
     <string name="navigation_drawer_open">打开导航栏</string>
     <string name="navigation_drawer_close">关闭导航栏</string>
 
-    <string name="title_activity_comm">CommActivity</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
-    <string name="tab_text_3">Tab 3</string>
     <string name="title_activity_add_team_item">新建团队</string>
     <string name="title_activity_team">团队详细信息</string>
     <string name="title_activity_user">用户详细信息</string>
@@ -72,7 +57,6 @@
     <string name="has_been_latest_version">现在是最新版本了！</string>
     <string name="btn_update">更新</string>
     <string name="contact_title">联系</string>
-    <string name="achievement_bonus_2">你获得了2000点「耐力」经验值！</string>
     <string name="category_add_success">成功新建清单</string>
     <string name="category_rename_fail">重命名出现异常</string>
     <string name="category_edittext_empty">清单名字不能为空</string>
@@ -433,8 +417,6 @@
     <string name="every_two_weeks">每两周</string>
     <string name="monthly">每月</string>
     <string name="nickname">昵称</string>
-    <string name="password">密码</string>
-    <string name="repeat_password">重复密码</string>
     <string name="sort_title">排序</string>
     <string name="alphabet">拼音字母</string>
     <string name="create_time">创建时间</string>
@@ -493,11 +475,6 @@
     <string name="about_update_content_title">更新内容</string>
     <string name="about_version_name">版本号</string>
     <string name="achievement_bonus">你获得了200点「活力」经验值！</string>
-    <string name="achievement_bonus_3">你获得了2000点「力量」、「耐力」经验值！</string>
-    <string name="achievement_bonus_4">你获得了5000点「活力」、「耐力」经验值！</string>
-    <string name="achievement_bonus_5">你获得了5000点「魅力」经验值！</string>
-    <string name="achievement_bonus_6">你获得了10000点「魅力」经验值！</string>
-    <string name="achievement_bonus_7">你获得了3000点「力量」经验值！</string>
     <string name="achievement_complete">解锁成就</string>
     <string name="add_to_do_attr_desc_title">属性值介绍</string>
     <string name="add_to_do_menu_expire_today_item">今天</string>
@@ -599,24 +576,8 @@
     <string name="top">置顶</string>
     <string name="move_to">移至…</string>
     <string name="finish_and_get_reward">成功完成事项并且获得奖励：%1$s!</string>
-    <string name="achievement_new_start">新的开始</string>
-    <string name="achievement_new_start_desc">完成你的第一个事项。</string>
-    <string name="achievement_busy_man">大忙人</string>
-    <string name="achievement_busy_man_desc">完成了两百个待办事项。</string>
-    <string name="achievement_pacers">日行千里</string>
-    <string name="achievement_pacers_desc">单日行走超过20000步。</string>
-    <string name="achievement_top_player">头号玩家</string>
-    <string name="achievement_top_player_desc">完成了两千个待办事项。</string>
-    <string name="achievement_new_member">新成员</string>
-    <string name="achievement_new_member_desc">第一次创建或者加入一个团队。</string>
-    <string name="achievement_team_pro">团队支柱</string>
-    <string name="achievement_team_pro_desc">完成了两百个团队待办事项。</string>
-    <string name="achievement_sporter">运动达人</string>
-    <string name="achievement_sporter_desc">力量达到等级15。</string>
     <string name="achievement_unlocked">解锁成就</string>
     <string name="xml_login_third_login">目前仅支持以下授权登录方式</string>
-    <string name="gmt_tint">抱歉 :(</string>
-    <string name="gmt_tint_message">由于设计原因，暂时社区只适用于GMT+8时区。是否要隐藏社区模块？</string>
     <string name="step_bar">步</string>
     <string name="Long_Sunday">星期日</string>
     <string name="long_monday">星期一</string>
@@ -1035,7 +996,7 @@
     <string name="btn_ready">确定</string>
     <string name="btn_ok">确定</string>
     <string name="overdue_no_punishment">无惩罚</string>
-    <string name="hint_add_sub_task">新增子任务</string>
+    <string name="hint_add_sub_task">添加子任务</string>
     <string name="feature_169">子任务</string>
     <string name="feature_169_desc">- 子任务\n- 拖动排序\n- 批量操作\n- 逾期处理\n- 桌面小部件升级</string>
     <string name="backup_restore_double_check_title">注意！</string>
@@ -1067,14 +1028,14 @@
     <string name="title_activity_custom_attribute">自定义属性</string>
     <string name="custom_attribution">自定义属性</string>
     <string name="reset">重置</string>
-    <string name="attribution_reset_confirm">你确定要重置该属性的自定义图标和文本吗？</string>
+    <string name="attribution_reset_confirm">你确定要重置该属性的自定义内容吗？</string>
     <string name="custom_attribution_icon">图标</string>
-    <string name="custom_attribution_text">文本</string>
+    <string name="custom_attribution_text">名称</string>
     <string name="custom_attribution_reset">重置</string>
     <string name="custom_attribution_hint">由于一些设计问题，暂时不支持属性的增删。</string>
     <string name="setting_custom_attribute">自定义属性</string>
     <string name="setting_custom_attribute_desc">自定义现有属性的图标和文本</string>
-    <string name="webdav_account">WebDav 账号</string>
+    <string name="webdav_account">WebDAV 账号</string>
     <string name="title_lab">实验</string>
     <string name="attachment">附件</string>
     <string name="lab_compact_mode_sample">学一门外语</string>
@@ -1219,13 +1180,13 @@
     <string name="require_permission">需要授权</string>
     <string name="hint_denied_activity_permission">人升需要得到权限授权以计算步数。</string>
     <string name="default_name_system_achievements">系统成就</string>
-    <string name="login_backup_hint">注意：\n登录并不会同步你的本地数据（私人待办事项、商品、成就等），请注意备份。</string>
+    <string name="login_backup_hint">这是一款「离线」应用，登录只用于访问世界模块和会员，切换账号并不会切换本地数据。\n你的本地数据也不会同步到服务器，请注意备份。</string>
 
     <string name="user_achievement_delete_title">删除</string>
     <string name="user_achievement_delete_message">你确定要删除该成就吗？</string>
 
     <string name="backup_hint">可以使用「设置」页面中的「数据备份」功能进行本地数据的备份。\n
-        目前支持将本地数据导出到一个 zip 压缩包文件，或者手动设定 WebDAV 服务器进行服务器备份。\n
+        目前支持将本地数据导出到一个 zip 压缩包文件，或者手动设定 WebDAV, DropBox 服务器进行服务器备份。\n
         未来会增加 Google Drive 的支持。\n
         \n
         为了保护你的数据隐私和减少服务器损耗，你的本地数据不会进行同步，包括如下这些：\n
@@ -1358,7 +1319,7 @@
     <string name="dialog_task_item_unselect">取消选择</string>
     <string name="tomatoes_action_eat">食用</string>
     <string name="tomatoes_action_sell">出售</string>
-    <string name="tomatoes_eat_reward_desc">得到 %1$d 点「耐力」经验值</string>
+    <string name="tomatoes_eat_reward_desc">得到 %1$d 点「%2$s」经验值</string>
     <string name="tomatoes_sell_reward_desc">得到 %1$d 个金币</string>
     <string name="eat_tomatoes_hint_text">食用</string>
     <string name="sell_tomatoes_hint_text">出售</string>
@@ -1403,17 +1364,17 @@
     <string name="hint_number_greater_than_0">数值必须大于0</string>
     <string name="hint_should_select_attributes">必须选择至少一个属性</string>
     <string name="input_hint_value">数值</string>
-    <string name="hint_select_attributes">选择相关属性：</string>
+    <string name="hint_select_attributes">选择相关属性（向右滑动查看更多）：</string>
     <string name="radio_increase_exp">增加经验值</string>
     <string name="radio_decrease_exp">减少经验值</string>
     <string name="hint_attributes_conflict">与其他效果存在冲突，不可选中</string>
     <string name="shop_effect_increase_coins">增加金币</string>
     <string name="shop_effect_decrease_coins">减少金币</string>
     <string name="hint_using_too_many_items">不能一次性使用超过 50 个有特殊效果的商品</string>
-    <string name="effect_desc_in_coins">增加%1$d金币</string>
-    <string name="effect_desc_de_coins">减少%1$d金币</string>
-    <string name="effect_desc_in_exp">增加%1$d点%2$s经验值</string>
-    <string name="effect_desc_de_exp">减少%1$d点%2$s经验值</string>
+    <string name="effect_desc_in_coins">增加 %1$d 金币</string>
+    <string name="effect_desc_de_coins">减少 %1$d 金币</string>
+    <string name="effect_desc_in_exp">增加 %1$d 点%2$s经验值</string>
+    <string name="effect_desc_de_exp">减少 %1$d 点%2$s经验值</string>
     <string name="effect_desc_item_synthesis">%1$d 件可以合成一件 %2$s </string>
     <string name="shop_title_purchase_limit">购买限制</string>
     <string name="limit_number_per_day">每天 %1$d 个</string>
@@ -1719,7 +1680,7 @@
     <string name="hint_world_module_market">创意橱窗</string>
     <string name="hint_world_module_market_desc">你可以浏览用户创建的具有创意的商品，选择进货到自己的商品。\n\n也可以选择分享自己的杰出商品设计。</string>
     <string name="hint_atm_interest">ATM 利息</string>
-    <string name="hint_atm_interest_desc">你可以在【商店设置】（就在ATM按钮旁边）设置 ATM 的日利率，实现每日获取利息。</string>
+    <string name="hint_atm_interest_desc">你可以在【商店设置】（商店页面右上角三个点更多菜单里）设置 ATM 的日利率，实现每日获取利息。</string>
     <string name="hint_loot_box_probability">概率</string>
     <string name="hint_loot_box_probability_desc">物品的实际获取概率计算公式：当前物品的比重 ÷ 所有物品的比重之和。\n\n比如，你想实现0.1%的概率获取物品A。可以先选取物品A，输入1%，然后选取另外一个物品B，输入999%。\n按照这样设置提交结果，物品A的实际概率就是0.1%，而商品B就是99.9%。</string>
     <string name="dialog_crash_action_btn_skip_hint">暂时不再提示</string>
@@ -1918,7 +1879,7 @@
     <string name="desc_delete_remote_data">这将永久删除你在远程服务器上的该账号拥有的所有数据，包括第三方账号验证关联信息、公开动态、分享的商品、会员绑定等。</string>
     <string name="delete_account_success">成功删除账号</string>
     <string name="dialog_delete_account_title">删除账号</string>
-    <string name="dialog_delete_account_desc">这将永久删除你在远程服务器上的数据，包括第三方账号验证信息、公开动态、分享的商品等。</string>
+    <string name="dialog_delete_account_desc">这将永久删除你在远程服务器上的所有数据，包括第三方账号验证信息、公开动态、分享的商品等。\n\n该功能适用于放弃使用应用的情况，绑定的会员权益等也会一并被删除。</string>
     <string name="dialog_delete_local_data_title">删除本地存储数据</string>
     <string name="dialog_delete_local_data_desc">这将永久、不可撤销地删除你的所有本地数据，包括事项、商品、自定义成就等。应用会回到刚安装时的状态。</string>
     <string name="synthesis_item_delete_message">你确定要永久删除该配方吗？</string>
@@ -1955,7 +1916,7 @@
     <string name="button_skip">跳过</string>
     <string name="pomodoro_dialog_skip_message">你确定要跳过工作时长？你将失去获得一个完整的番茄的机会。或者你可以选择暂停...</string>
     <string name="starter_task_check_unstarted_task">检查未开始的任务</string>
-    <string name="starter_task_check_unstarted_task_desc">不在可完成时间段的任务会被折叠起来。如果你在该是想下方没见到"早起"事项，试试点击最底下的展开折叠按钮（三角形）。</string>
+    <string name="starter_task_check_unstarted_task_desc">不在可完成时间段的任务会被折叠起来。如果你在该事项下方没见到"早起"事项，试试点击最底下的展开折叠按钮（三角形）。</string>
     <string name="dialog_coin_input_btn_fixed">固定</string>
     <string name="dialog_coin_input_btn_auto">自动</string>
     <string name="dialog_coin_input_btn_random">随机</string>
@@ -2029,4 +1990,54 @@
     <string name="sort_coin">金币</string>
     <string name="permission_activity_recognition_request_title">需要健身运动识别权限</string>
     <string name="permission_activity_recognition_request_message">自动计算每日步数需要使用到健身运动识别权限。\n这是个可选功能，你也可以选择手动输入步数或者隐藏该模块。</string>
+    <string name="error_msg_device_not_support_login_method">该设备不支持该登录方式</string>
+    <string name="login_v2_connect_to_the_world_module">连接至世界模块</string>
+    <string name="login_v2_sign_in_with_google">使用谷歌登录</string>
+    <string name="login_v2_sign_in_with_weibo">使用微博登录</string>
+    <string name="login_v2_sign_in_with_qq">使用 QQ 登录</string>
+    <string name="login_v2_offline_mode">离线模式</string>
+    <string name="custom_sound_effect_achievement_unlocked">解锁成就</string>
+    <string name="to_do_item_detail_pushiment_give_up_message">你确定要接受惩罚吗？\n（*目前惩罚事项不支持直接撤销，但可以前往历史页面设为完成状态拿到奖励）</string>
+    <string name="hint_punishment_task">惩罚事项</string>
+    <string name="hint_punishment_task_desc">（试验性功能，该功能可能存在功能统计不完整、不生效的问题，遇到问题可以向开发者反馈。）\n\n惩罚事项是指【仅接受惩罚】的事项，通常可配合“无限”重复频次实现坏习惯记录。如果你需要既能完成也可以接受惩罚的事项，使用普通事项即可。\n\n惩罚事项会默认执行“放弃”操作。\n\n并且经验值和金币的惩罚系数会强制设置为1。相当于你设置的经验值和金币奖励值就是最终的惩罚数值。\n\n注意：物品仍是奖励。你可以设置一些惩罚性质的物品。</string>
+    <string name="task_type_penalty">惩罚事项（试验）</string>
+    <string name="to_do_item_action_deadline">期限</string>
+    <string name="vibrate_custom">自定义</string>
+    <string name="vibrate_custom_desc">这是一个进阶功能，设置振动间隔。\n\n数字的单位为毫秒，也就是说1000代表1秒。\n\n数字以空格做间隔，奇数位置的数字代表不振动时长，偶数位置的数字代表振动时长。\n\n比如500 1000 500 2000，代表会在0.5秒后振动1秒，然后暂停0.5秒后再振动2秒。</string>
+    <string name="title_activity_login">登录</string>
+    <string name="login_v2_sign_in_with_facebook">使用 Facebook 登录</string>
+    <string name="alarm_v2_message_ticker">待办: %1$s</string>
+    <string name="login_last_login_method">上次登录方式：%1$s</string>
+    <string name="login_method_google">谷歌</string>
+    <string name="login_method_qq">QQ</string>
+    <string name="login_method_facebook">Facebook</string>
+    <string name="login_method_weibo">微博</string>
+    <string name="login_method_yiban">易班</string>
+    <string name="dialog_decrease_title_penalty">惩罚</string>
+    <string name="shop_item_detail_title_effect">效果</string>
+    <string name="common_error_message">操作失败: %1$s</string>
+    <string name="settings_task_delete_calendar_account">删除人升日历账号</string>
+    <string name="default_new_skill_name">NEW</string>
+    <string name="custom_attribution_action_delete">删除</string>
+    <string name="attribution_delete_confirm">你确定要删除该属性吗？</string>
+    <string name="btn_statistic">统计</string>
+    <string name="credit_line_title_desc">这将允许你赊账购买。\n比如你设置该值为100，当你持有0金币的时候，仍能够购买少于等于100金币价格的物品。</string>
+    <string name="dialog_shop_settings_icon_crop_style">图标裁剪样式</string>
+    <string name="dialog_shop_settings_icon_crop_style_circle">圆形</string>
+    <string name="dialog_shop_settings_icon_crop_style_round_rect">圆角矩形</string>
+    <string name="dialog_shop_settings_icon_crop_style_square">矩形</string>
+    <string name="custom_attribution_color">颜色</string>
+    <string name="custom_attribution_color_desc">目前该设置只影响“状态”页面的进度条颜色。</string>
+    <string name="attribution_hide_confirm">确定要隐藏该属性吗？\n\n内置属性不允许直接删除。你可以在该页面右上角重新显示该属性。</string>
+    <string name="custom_attribution_menu_show_hidden">显示已隐藏</string>
+    <string name="custom_attribution_action_enable">启用</string>
+    <string name="add_to_do_hint_please_input_subtasks">请先输入子任务</string>
+    <string name="brvah_load_end">没有更多数据</string>
+    <string name="brvah_load_failed">加载失败</string>
+    <string name="brvah_loading">加载中...</string>
+    <string name="backup_file_size_alarm_desc">我们检测到了你的备份文件体积大于 10MB。\n这可能会比较严重消耗你的流量以及服务器资源。\n\n<b>建议：前往备份页面，设置“忽略媒体文件”或者降低自动备份频率。</b></string>
+    <string name="dialog_backup_file_size_alarm_title">备份文件体积警告</string>
+    <string name="pomo_eat_exp">食用经验值</string>
+    <string name="pomo_eat_exp_summary">100 点</string>
+    <string name="pomo_eat_attr_selection">奖励属性</string>
 </resources>

@@ -173,7 +173,7 @@
     <string name="about_green_android_website">Verified by Green Android</string>
     <string name="about_not_found_android_store">Not found in Android store</string>
     <string name="add_to_do_bouns_question">Exp will be summed up by the settings here.</string>
-    <string name="add_to_do_not_seleced_attrs_alarm">Tint</string>
+    <string name="add_to_do_not_seleced_attrs_alarm">Hint</string>
     <string name="add_to_do_not_seleced_attrs_alarm_message">You selected no attributes.\nYou will gain no exp when you complete this task. Continue?</string>
     <string name="add_to_do_taptarget_remind_title">Set Reminder</string>
     <string name="add_to_do_taptarget_remind_content">(Optional）You can set a reminder here.</string>
@@ -576,8 +576,6 @@
     <string name="finish_and_get_reward">Completed task and earned reward: %1$s!</string>
     <string name="achievement_unlocked">Achievement unlocked</string>
     <string name="xml_login_third_login">The app currently only support login with third-party platforms</string>
-    <string name="gmt_tint">Sorry :(</string>
-    <string name="gmt_tint_message">Community is only working well with GMT+8 time zone for now.\nDo you want to hide community module?\nWe will fix this later.</string>
     <string name="step_bar" />
     <string name="Long_Sunday">Sunday</string>
     <string name="long_monday">Monday</string>
@@ -704,17 +702,17 @@
     <string name="to_do_item_detail_coin_reward_var">Coin Reward: %1$d - %2$d</string>
     <string name="give_up">Give Up</string>
     <string name="dialog_input_coin_enable_auto_sum">Auto Calculate</string>
-    <string name="setting_exp_punishment">Exp punishment factor</string>
+    <string name="setting_exp_punishment">Exp penalty factor</string>
     <string name="setting_exp_punishment_desc">Default: 0.2</string>
-    <string name="setting_coin_punishment">Coin punishment factor</string>
+    <string name="setting_coin_punishment">Coin penalty factor</string>
     <string name="setting_coin_punishment_desc">Default: 0</string>
     <string name="team_search_empty_text">No matching team. You can try to create one!</string>
     <string name="to_do_content_unlimited_completed_times">%1$s (%2$d times today)</string>
     <string name="setting_custom_toolbar_title">Custom Settings</string>
-    <string name="dialog_input_exp_punishment_factor_title">Input Exp Punishment Factor</string>
-    <string name="dialog_input_exp_punishment_factor_message">Punishment occurs when tasks become overdue or are given up.\nPunishment factor range: 0 – 5.0</string>
-    <string name="dialog_input_coin_punishment_factor_title">Input Coin Punishment Factor</string>
-    <string name="dialog_input_coin_punishment_factor_message">Punishment occurs when tasks become overdue or are given up.\nPunishment factor range: 0 – 5.0</string>
+    <string name="dialog_input_exp_punishment_factor_title">Input Exp Penalty Factor</string>
+    <string name="dialog_input_exp_punishment_factor_message">Penalty occurs when tasks become overdue or are given up.\nPenalty factor range: 0 – 5.0</string>
+    <string name="dialog_input_coin_punishment_factor_title">Input Coin Penalty Factor</string>
+    <string name="dialog_input_coin_punishment_factor_message">Penalty occurs when tasks become overdue or are given up.\nPenalty factor range: 0 – 5.0</string>
     <string name="read_it_later">Read It Later</string>
     <string name="read_it_later_with_title">「Read It Later」 %1$s</string>
     <string name="til_coin_hint">Coin Number</string>
@@ -727,7 +725,7 @@
     <string name="update_time">Update Time</string>
     <string name="to_do_item_detail_completed_times">You have completed this task %1$d times</string>
     <string name="feature_165">Read It Later</string>
-    <string name="feature_165_desc">- Read It Later: Receive shared information from other apps to create a read-it-later tasks.(e.g. Twitter, Chrome…)\n- Custom Settings: Now you can customize exp punishment factor.\n- Many improvements: Shop Sort, Auto Coin Calculation and Optimization.</string>
+    <string name="feature_165_desc">- Read It Later: Receive shared information from other apps to create a read-it-later tasks.(e.g. Twitter, Chrome…)\n- Custom Settings: Now you can customize exp penalty factor.\n- Many improvements: Shop Sort, Auto Coin Calculation and Optimization.</string>
     <string name="title_activity_settings">Settings</string>
     <string name="exception_update_no_browser">No browser. Retry later or update in the Store.</string>
     <string name="til_coin_max_hint">Max</string>
@@ -976,7 +974,7 @@
     <string name="filter_available">Only Available</string>
     <string name="yesterday">Yesterday</string>
     <string name="filter_condition">Filter</string>
-    <string name="revoke_punishment">Revoke punishment</string>
+    <string name="revoke_punishment">Revoke penalty</string>
     <string name="achievement_sort_by_type">Sort by type</string>
     <string name="achievement_sort_by_unlock_time">Sort by unlock time</string>
     <string name="achievement_sort_by_progress">Sort by progress</string>
@@ -986,7 +984,7 @@
     <string name="dialog_overdue">Overdue Tasks</string>
     <string name="btn_ready">READY</string>
     <string name="btn_ok">OK</string>
-    <string name="overdue_no_punishment">no punishment</string>
+    <string name="overdue_no_punishment">no penalty</string>
     <string name="hint_add_sub_task">Create a Subtask</string>
     <string name="feature_169">Sub-Tasks</string>
     <string name="feature_169_desc">- Sub-Tasks\n- Custom Sort\n- Batch Delete/Move to..\n- App Widget Update</string>
@@ -998,7 +996,7 @@
     <string name="title_activity_backup_setting">Backup Setting</string>
     <string name="backup_or_restore_title">Backup and Restore</string>
     <string name="data_delete_title">Data Delete</string>
-    <string name="backup_web_dav">WebDav</string>
+    <string name="backup_web_dav">WebDAV</string>
     <string name="restore_check_failed">Download backup file from WebDAV server failed</string>
     <string name="not_configured">Not Configured</string>
     <string name="configured">Configured</string>
@@ -1020,9 +1018,9 @@
     <string name="title_activity_custom_attribute">Custom Attributes</string>
     <string name="custom_attribution">Customize Attributes</string>
     <string name="reset">Reset</string>
-    <string name="attribution_reset_confirm">Do you really want to reset the custom text and icon?</string>
+    <string name="attribution_reset_confirm">Do you really want to reset the custom options?</string>
     <string name="custom_attribution_icon">ICON</string>
-    <string name="custom_attribution_text">TEXT</string>
+    <string name="custom_attribution_text">NAME</string>
     <string name="custom_attribution_reset">RESET</string>
     <string name="custom_attribution_hint">Adding and removing attributes is not supported yet.</string>
     <string name="setting_custom_attribute">Customize attributes</string>
@@ -1189,7 +1187,7 @@
     <string name="require_permission">Permission Required</string>
     <string name="hint_denied_activity_permission">LifeUp can\'t get step count data if you denied the sensor permission.</string>
     <string name="default_name_system_achievements">System</string>
-    <string name="login_backup_hint">Attention:\nYour local data will not be synchronized with the server.</string>
+    <string name="login_backup_hint">LifeUp is a offline-first app. Login is only to access the world module, so switching accounts will not switch your local data.\nTherefore, your local data will not be synchronized with the server.</string>
 
     <string name="user_achievement_delete_title">Delete</string>
     <string name="user_achievement_delete_message">Do you really want to delete this achievement?</string>
@@ -1342,7 +1340,7 @@
     <string name="dialog_task_item_unselect">unselected</string>
     <string name="tomatoes_action_eat">EAT</string>
     <string name="tomatoes_action_sell">SELL</string>
-    <string name="tomatoes_eat_reward_desc">to gain %1$d [Endurance] exps</string>
+    <string name="tomatoes_eat_reward_desc">to gain %1$d [%2$s] exps</string>
     <string name="tomatoes_sell_reward_desc">to gain %1$d coins</string>
     <string name="eat_tomatoes_hint_text">eat</string>
     <string name="sell_tomatoes_hint_text">sell</string>
@@ -1385,7 +1383,7 @@
     <string name="hint_number_greater_than_0">The number should be greater than 0</string>
     <string name="hint_should_select_attributes">At least one attribute should be selected</string>
     <string name="input_hint_value">Value</string>
-    <string name="hint_select_attributes">Select attributes:</string>
+    <string name="hint_select_attributes">Select attributes(swipe right to see more):</string>
     <string name="radio_increase_exp">Increase Exp</string>
     <string name="radio_decrease_exp">Decrease Exp</string>
     <string name="hint_attributes_conflict">There is a conflict with another effect</string>
@@ -1645,9 +1643,9 @@
     <string name="compact_config_display_only_time">Display only time</string>
     <string name="shop_item_select_input_hint_amount">Amount (1)</string>
     <string name="btn_reselect">Reselect</string>
-    <string name="setting_custom_enable_punishment_factor_for_individual_tasks">Enable custom punishment factor settings for individual tasks</string>
-    <string name="chip_punishment">Punishment</string>
-    <string name="dialog_title_set_indie_punishment_factor">Punishment factor</string>
+    <string name="setting_custom_enable_punishment_factor_for_individual_tasks">Enable custom penalty factor settings for individual tasks</string>
+    <string name="chip_punishment">Penalty</string>
+    <string name="dialog_title_set_indie_punishment_factor">Penalty factor</string>
     <string name="dialog_message_set_indie_punishment_factor">Please input value from 0–5.0</string>
 
     <string name="title_activity_edit_achievement_category">Edit Category</string>
@@ -1699,7 +1697,7 @@
     <string name="hint_world_module_market_desc">View the creative shop items created by people all around the world.\n\nAnd you can share your masterpieces!</string>
 
     <string name="hint_atm_interest">ATM interest</string>
-    <string name="hint_atm_interest_desc">You can setup the ATM interest in the Shop Settings (the link is by the ATM) to receive daily interest.</string>
+    <string name="hint_atm_interest_desc">You can setup the ATM interest in the Shop Settings (in the upper right menu) to receive daily interest.</string>
 
     <string name="hint_loot_box_probability">Probability</string>
     <string name="hint_loot_box_probability_desc">The actual probability calculation formula of the item: the probability of the item ÷ the sum of the probabilities of all items.\n\nFor example, if you want to create an item named A with 0.1% probability:\nSelect item A and input 1% into its probability, and then select another item named B and input 999% into its probability.\nFinally the probability of item A will be 0.1% and item B will be 99.9%.</string>
@@ -1709,11 +1707,11 @@
     <string name="hint_uncomplete_task">Uncomplete a task</string>
     <string name="hint_uncomplete_task_desc">There are many ways to undo completed tasks:\n1. Tap the undo button on the bottom popup window after completing a task.\n\n2. Go to the [History] or [Calendar] page and then tap the undo button.\n\n3. Check the [Show completed] checkbox in the top-right menu, and then tap the completion mark on the task.</string>
 
-    <string name="hint_punishment">Exp Punishment</string>
+    <string name="hint_punishment">Exp Penalty</string>
     <string name="hint_punishment_desc">You will lose some exp when the task is overdue or given up.\n\nIf you have actually completed the task, you can mark it as completed and regain the reward.</string>
 
-    <string name="hint_punishment_coin">Coin Punishment</string>
-    <string name="hint_punishment_coin_desc">The coin punishment function is disabled by default.\n\nYou can go to the [Custom Settings] page to enable it and adjust the level of coin punishment and exp punishment.</string>
+    <string name="hint_punishment_coin">Coin Penalty</string>
+    <string name="hint_punishment_coin_desc">The coin penalty function is disabled by default.\n\nYou can go to the [Custom Settings] page to enable it and adjust the level of coin penalty and exp penalty.</string>
 
     <string name="statistics_time_7days">7 Days</string>
     <string name="title_searching_tab_team">Team</string>
@@ -1816,7 +1814,7 @@ Go to the Shop-Inventory page (4th position of navbar) to open it!</string>
     <string name="sample_task_drink_water">Drink 7 glasses of water</string>
     <string name="sample_task_drink_water_desc">Count tasks can help you record the number of times you do some simple tasks. You will only get reward after drinking all 7 glasses of water.</string>
     <string name="sample_task_sth_positive">Do something positive</string>
-    <string name="sample_task_sth_positive_desc">Unlimited tasks will refresh immediately after being completed or given up.\nCheck this task when you do something positive. Or you can choose to GIVE UP to get punishment when you do something negative.</string>
+    <string name="sample_task_sth_positive_desc">Unlimited tasks will refresh immediately after being completed or given up.\nCheck this task when you do something positive. Or you can choose to GIVE UP to get penalty when you do something negative.</string>
     <string name="sample_task_using_days">Using LifeUp for 7 days</string>
     <string name="sample_task_using_days_desc">You can set a target goal of your repeat task.\nYou can totally customize achievements: for example, when you complete this task for the first time, you will unlock a custom achievement.</string>
     <string name="example_user_achievement_detail_3">Life Upgrade</string>
@@ -1874,7 +1872,7 @@ Go to the Shop-Inventory page (4th position of navbar) to open it!</string>
     <string name="hint_ebbinghaus_desc">It\'s based on the forgetting curve.\n\nThe schedule is as follows:\ntoday→1 day later→1 day later→2 days later→4 days later→7 days later→15 days later→30 days later</string>
     <string name="hint_target_times">Target Times</string>
     <string name="hint_target_times_desc">The target times refers to the total number of repetitions to be performed.\n\n
-For example, setting a daily task and setting the target number to 10 means that a total of 10 days of tasks will be executed.\m\m
+For example, setting a daily task and setting the target number to 10 means that a total of 10 days of tasks will be executed.\n\n
 If you need to schedule multiple tasks in a repetition cycle, you can use counting tasks, subtasks, or [Unlimited] repetition frequency mechanisms.</string>
     <string name="moments_filter_empty_text">Activity not found. Try to follow someone!</string>
     <string name="pomodoro_hint_extra_time">Extra time</string>
@@ -2020,8 +2018,8 @@ If you need to schedule multiple tasks in a repetition cycle, you can use counti
     <string name="permission_activity_recognition_request_title">Activity Recognition permission required.</string>
     <string name="permission_activity_recognition_request_message">The activity recognition permission is required to calculate daily steps.\nThis is an optional feature, you can also choose to manually input the number of steps or hide the module.</string>
 
-    <string name="starter_task_compatibility">this_string_only_available_in_specific_language_starter_task_compatibility</string>
-    <string name="starter_task_compatibility_desc">this_string_only_available_in_specific_language_starter_task_compatibility_desc</string>
+    <string name="starter_task_compatibility">Compatibility configuration</string>
+    <string name="starter_task_compatibility_desc">In order to use some of the functions of LifeUp ([Reminder], Pomodoro, desktop widgets, countdown, etc.), you may need to refer to this article for some configuration tasks.\nClick on the details to jump to the link: https://wiki.lifeupapp.fun/en/#/guide/background_running</string>
     <string name="hint_login_method">this_string_only_available_in_specific_language_hint_login_method</string>
     <string name="hint_login_method_desc">this_string_only_available_in_specific_language_hint_login_method_desc</string>
     <string name="hint_login_method2">this_string_only_available_in_specific_language_hint_login_method2</string>
@@ -2029,4 +2027,53 @@ If you need to schedule multiple tasks in a repetition cycle, you can use counti
     <string name="zh_feedback_method">this_string_only_available_in_specific_language_zh_feedback_method</string>
     <string name="zh_feedback_method_txc">this_string_only_available_in_specific_language_zh_feedback_method_txc</string>
     <string name="zh_feedback_method_internal">this_string_only_available_in_specific_language_zh_feedback_method_internal</string>
+    <string name="error_msg_device_not_support_login_method">The device does not support this login method</string>
+    <string name="login_v2_connect_to_the_world_module">Connect to the world module</string>
+    <string name="login_v2_sign_in_with_google">Sign In With Google</string>
+    <string name="login_v2_sign_in_with_qq">Sign In With QQ</string>
+    <string name="login_v2_sign_in_with_weibo">Sign In With Weibo</string>
+    <string name="login_v2_sign_in_with_facebook">Sign In With Facebook</string>
+    <string name="login_v2_offline_mode">Offline Mode</string>
+    <string name="custom_sound_effect_achievement_unlocked">achievement unlocked</string>
+    <string name="brvah_load_end">No more data</string>
+    <string name="brvah_load_failed">load more failed</string>
+    <string name="brvah_loading">Loading...</string>
+    <string name="to_do_item_detail_pushiment_give_up_message">Are you sure you want to accept penalty?\n(*At present, the penalty tasks do not support direct undo, but you can go to the history page and set it to complete status to get rewards back)</string>
+    <string name="hint_punishment_task">Penalty Task</string>
+    <string name="hint_punishment_task_desc">(Experimental function, this function may have the problem of incomplete function statistics and ineffectiveness. If you encounter problems, you can give feedback to the developers)\n\nThe penalty tasks refer to tasks that only occur penalties, and can usually be used with "unlimited" repetition frequency to achieve bad habit records.\n\nThe penalty task will execute the "give up" operation by default.\n\nAnd the penalty coefficient of experience points and coins will be forced to be set to 1.\nThe experience value and gold coin reward value you set is the final penalty value.\n\nNote: The item is still a reward. You can set up some punitive items.</string>
+    <string name="task_type_penalty">Penalty Task (experimental)</string>
+    <string name="to_do_item_action_deadline">Deadline</string>
+    <string name="vibrate_custom">Custom</string>
+    <string name="vibrate_custom_desc">This is an advanced function to set the vibration interval.\n\nThe unit of the number is milliseconds, which means that 1000 represents 1 second.\n\nThe numbers are separated by spaces, the odd numbers represent the duration of no vibration, and the even numbers represent the duration of vibration.\n\nFor example, 500 1000 500 2000, the representative will vibrate for 1 second after 0.5 seconds, then pause for 0.5 seconds and then vibrate for 2 seconds.</string>
+    <string name="alarm_v2_message_ticker">To Do: %1$s</string>
+    <string name="login_last_login_method">Last login method: %1$s</string>
+    <string name="login_method_google">Google</string>
+    <string name="login_method_qq">QQ</string>
+    <string name="login_method_facebook">Facebook</string>
+    <string name="login_method_weibo">Weibo</string>
+    <string name="login_method_yiban">Yiban</string>
+    <string name="dialog_decrease_title_penalty">Penalty</string>
+    <string name="shop_item_detail_title_effect">Effects</string>
+    <string name="common_error_message">Error: %1$s</string>
+    <string name="settings_task_delete_calendar_account">Delete the LifeUp calendar account</string>
+    <string name="default_new_skill_name">NEW</string>
+    <string name="custom_attribution_action_delete">DELETE</string>
+    <string name="attribution_delete_confirm">Do you really want to delete the attribute?</string>
+    <string name="btn_statistic">Statistic</string>
+    <string name="credit_line_title_desc">This will allow you to buy on credit.\nFor example, if you set the value to 100, when you hold 0 coins, you can still buy items with a price less than or equal to 100 coins. </string>
+    <string name="dialog_shop_settings_icon_crop_style">Icon crop style</string>
+    <string name="dialog_shop_settings_icon_crop_style_circle">Circle</string>
+    <string name="dialog_shop_settings_icon_crop_style_round_rect">Round Rect</string>
+    <string name="dialog_shop_settings_icon_crop_style_square">Square</string>
+    <string name="custom_attribution_color">COLOR</string>
+    <string name="custom_attribution_color_desc">Currently this setting only affects the color of the progress bar on the \"Status\" page.</string>
+    <string name="attribution_hide_confirm">Do you really want to disable the attribute?\n\nThe built-in attributes are not allowed to be deleted directly. You can re-enable this attribute in the upper right corner of the page.</string>
+    <string name="custom_attribution_menu_show_hidden">Show hidden</string>
+    <string name="custom_attribution_action_enable">Enable</string>
+    <string name="add_to_do_hint_please_input_subtasks">Please enter the subtask first</string>
+    <string name="backup_file_size_alarm_desc">We have detected that the size of your backup file is greater than 10MB.\nThis may seriously consume your mobile data traffic and server resources.\n\n<b>Suggestion: Go to the backup page and set "Ignore media files" or reduce the frequency of automatic backups.</b></string>
+    <string name="dialog_backup_file_size_alarm_title">Backup File Size</string>
+    <string name="pomo_eat_exp">Experience points gained from eating</string>
+    <string name="pomo_eat_exp_summary">100 points</string>
+    <string name="pomo_eat_attr_selection">Reward attribute</string>
 </resources>
