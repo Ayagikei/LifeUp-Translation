@@ -1271,7 +1271,7 @@
     <string name="auto_backup_title_sync">Sync</string>
     <string name="auto_backup_last_sync_time">Last sync time: %1$s</string>
     <string name="btn_sync">SYNC</string>
-    <string name="auto_backup_last_sync_failure">Last sync failed: %1$s\nPlease check your network connection or the WebDAV configuration.</string>
+    <string name="auto_backup_last_sync_failure">Last sync failed: %1$s\n\nPlease check your network connection or the WebDAV/DropBox configuration.</string>
     <string name="btn_config">CONFIG</string>
     <string name="btn_upload">UPLOAD</string>
     <string name="btn_download">DOWNLOAD</string>
@@ -1955,7 +1955,7 @@ If you need to schedule multiple tasks in a repetition cycle, you can use counti
     <string name="about_documents">Documents</string>
     <string name="about_title_app">App</string>
     <string name="about_privacy_terms">Privacy Terms</string>
-    <string name="about_title_developer">Developers</string>
+    <string name="about_title_developer">Designer</string>
     <string name="about_title_translators">Translators</string>
     <string name="about_btn_email">Email</string>
     <string name="about_coffee_purchase_success">Thanks for your coffee!</string>
@@ -2039,9 +2039,9 @@ If you need to schedule multiple tasks in a repetition cycle, you can use counti
     <string name="brvah_load_failed">load more failed</string>
     <string name="brvah_loading">Loading...</string>
     <string name="to_do_item_detail_pushiment_give_up_message">Are you sure you want to accept penalty?\n(*At present, the penalty tasks do not support direct undo, but you can go to the history page and set it to complete status to get rewards back)</string>
-    <string name="hint_punishment_task">Penalty Task</string>
-    <string name="hint_punishment_task_desc">(Experimental function, this function may have the problem of incomplete function statistics and ineffectiveness. If you encounter problems, you can give feedback to the developers)\n\nThe penalty tasks refer to tasks that only occur penalties, and can usually be used with "unlimited" repetition frequency to achieve bad habit records.\n\nThe penalty task will execute the "give up" operation by default.\n\nAnd the penalty coefficient of experience points and coins will be forced to be set to 1.\nThe experience value and gold coin reward value you set is the final penalty value.\n\nNote: The item is still a reward. You can set up some punitive items.</string>
-    <string name="task_type_penalty">Penalty Task (experimental)</string>
+    <string name="hint_punishment_task">Negative Task</string>
+    <string name="hint_punishment_task_desc">(Experimental function, this function may have the problem of incomplete function statistics and ineffectiveness. If you encounter problems, you can give feedback to the developers)\n\nThe negative tasks refer to tasks that only occur penalties, and can usually be used with "unlimited" repetition frequency to achieve bad habit records.\n\nThe negative task will execute the "give up" operation by default.\n\nAnd the penalty coefficient of experience points and coins will be forced to be set to 1.\nThe experience value and gold coin reward value you set is the final penalty value.\n\nNote: The item is still a reward. You can set up some punitive items.</string>
+    <string name="task_type_penalty">Negative Task (experimental)</string>
     <string name="to_do_item_action_deadline">Deadline</string>
     <string name="vibrate_custom">Custom</string>
     <string name="vibrate_custom_desc">This is an advanced function to set the vibration interval.\n\nThe unit of the number is milliseconds, which means that 1000 represents 1 second.\n\nThe numbers are separated by spaces, the odd numbers represent the duration of no vibration, and the even numbers represent the duration of vibration.\n\nFor example, 500 1000 500 2000, the representative will vibrate for 1 second after 0.5 seconds, then pause for 0.5 seconds and then vibrate for 2 seconds.</string>
@@ -2060,7 +2060,7 @@ If you need to schedule multiple tasks in a repetition cycle, you can use counti
     <string name="custom_attribution_action_delete">DELETE</string>
     <string name="attribution_delete_confirm">Do you really want to delete the attribute?</string>
     <string name="btn_statistic">Statistic</string>
-    <string name="credit_line_title_desc">This will allow you to buy on credit.\nFor example, if you set the value to 100, when you hold 0 coins, you can still buy items with a price less than or equal to 100 coins. </string>
+    <string name="credit_line_title_desc">This will allow you to buy on credit.\nFor example, if you set the value to 100, when you hold 0 coins, you can still buy items with a price less than or equal to 100 coins.</string>
     <string name="dialog_shop_settings_icon_crop_style">Icon crop style</string>
     <string name="dialog_shop_settings_icon_crop_style_circle">Circle</string>
     <string name="dialog_shop_settings_icon_crop_style_round_rect">Round Rect</string>
@@ -2069,11 +2069,28 @@ If you need to schedule multiple tasks in a repetition cycle, you can use counti
     <string name="custom_attribution_color_desc">Currently this setting only affects the color of the progress bar on the \"Status\" page.</string>
     <string name="attribution_hide_confirm">Do you really want to disable the attribute?\n\nThe built-in attributes are not allowed to be deleted directly. You can re-enable this attribute in the upper right corner of the page.</string>
     <string name="custom_attribution_menu_show_hidden">Show hidden</string>
-    <string name="custom_attribution_action_enable">Enable</string>
+    <string name="custom_attribution_action_enable">ENABLE</string>
     <string name="add_to_do_hint_please_input_subtasks">Please enter the subtask first</string>
     <string name="backup_file_size_alarm_desc">We have detected that the size of your backup file is greater than 10MB.\nThis may seriously consume your mobile data traffic and server resources.\n\n<b>Suggestion: Go to the backup page and set "Ignore media files" or reduce the frequency of automatic backups.</b></string>
     <string name="dialog_backup_file_size_alarm_title">Backup File Size</string>
     <string name="pomo_eat_exp">Experience points gained from eating</string>
     <string name="pomo_eat_exp_summary">100 points</string>
     <string name="pomo_eat_attr_selection">Reward attribute</string>
+    <string name="action_copy">Copy</string>
+    <string name="hint_dropbox_token_expired_or_empty">You may need to re-config the dropbox backup in the [Backup] page.</string>
+
+    <!-- from the picture selections/showing framework -->
+    <string name="bga_pp_all_image">All images</string>
+    <string name="bga_pp_choose">Choose</string>
+    <string name="bga_pp_confirm">Confirm</string>
+    <string name="bga_pp_download_img_failure">Download failed</string>
+    <string name="bga_pp_save_img_failure">Save failed, try again later</string>
+    <string name="bga_pp_save_img_success_folder">Image has been saved to %s folder</string>
+    <string name="bga_pp_toast_photo_picker_max">You can only select at most %1$d picture(s)</string>
+    <string name="bga_pp_view_photo">View</string>
+
+    <string name="tag_repeat_custom_days">Repeat - Every %1$d days</string>
+    <string name="add_to_do_custom_days">Every %1$d days</string>
+    <string name="setting_task_swipe_to_switch_list_opposite_direction">Opposite direction</string>
+    <string name="hint_add_achievement">You are adding <b>a new list</b> of achievements.\nIf you want to add <b>an achievement</b>, you need to click the + button in the achievement list.</string>
 </resources>

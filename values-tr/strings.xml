@@ -1263,7 +1263,7 @@
     <string name="auto_backup_title_sync">Sync</string>
     <string name="auto_backup_last_sync_time">Last sync time: %1$s</string>
     <string name="btn_sync">SYNC</string>
-    <string name="auto_backup_last_sync_failure">Last sync failed: %1$s\nPlease check your network connection or the WebDAV configuration.</string>
+    <string name="auto_backup_last_sync_failure">Last sync failed: %1$s\n\nPlease check your network connection or the WebDAV/DropBox configuration.</string>
     <string name="btn_config">CONFIG</string>
     <string name="btn_upload">UPLOAD</string>
     <string name="btn_download">DOWNLOAD</string>

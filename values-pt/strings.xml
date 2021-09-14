@@ -1258,7 +1258,7 @@
     <string name="auto_backup_title_sync">Sincronizar</string>
     <string name="auto_backup_last_sync_time">Hora da última sincronização: %1$s</string>
     <string name="btn_sync">SYNC</string>
-    <string name="auto_backup_last_sync_failure">Falha na última sincronização: %1$s\nVerifique sua conexão de rede ou a configuração WebDAV.</string>
+    <string name="auto_backup_last_sync_failure">Falha na última sincronização: %1$s\n\nVerifique sua conexão de rede ou a configuração WebDAV/DropBox.</string>
     <string name="btn_config">CONFIG</string>
     <string name="btn_upload">CARREGAR</string>
     <string name="btn_download">BAIXAR</string>

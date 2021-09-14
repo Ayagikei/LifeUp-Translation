@@ -1,12 +1,13 @@
-<resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="app_name_normal">人升</string>
     <string name="app_name_google">人升Pro</string>
-    <string name="title_board">告示</string>
+    <!-- bottom bar title -->
+    <string name="title_board">委托</string>
     <string name="title_status">状态</string>
     <string name="title_community">世界</string>
+    <string name="title_me">我的</string>
     <string name="title_activity_main">主页</string>
-    <string name="funcation_need_to_login">您需要登录才能使用本功能！\n点击此处登录！</string>
-
     <!-- Welcome Activity -->
     <string name="page1_title">待办事项</string>
     <string name="page1_content">记下待办事项，设定重要程度、困难程度。\n 使用丰富的选项满足你的各种记录需求。</string>
@@ -17,51 +18,56 @@
     <string name="page4_title">加入云端</string>
     <string name="page4_content">在线分享你的日程、人生。\n 加入在线团队，共同完成待办事项。\n 与世界各地的人们分享你的升级日常！</string>
     <string name="page4_btn">开始人升</string>
-
+    <string name="navigation_drawer_open">打开导航栏</string>
+    <string name="navigation_drawer_close">关闭导航栏</string>
     <!-- Strings related to login -->
+    <string name="title_activity_login">登录</string>
     <string name="login_welcome">一款游戏化的待办事项应用</string>
     <string name="login_welcome_2">欢迎登录以体验更多功能：\n\n- 浏览社区，领取团队任务\n- 新建你自己的任务团队\n- 同步经验值到云端\n- 发表动态，记录你的人生</string>
     <string name="login_signIn">登录</string>
     <string name="login_or">或者</string>
-
-    <string name="title_activity_add_to_do_item">新建待办事项</string>
-    <string name="title_me">我的</string>
-
-    <string name="navigation_drawer_open">打开导航栏</string>
-    <string name="navigation_drawer_close">关闭导航栏</string>
-
-    <string name="title_activity_add_team_item">新建团队</string>
-    <string name="title_activity_team">团队详细信息</string>
+    <string name="title_activity_add_to_do_item">新增事项</string>
+    <string name="title_activity_add_team_item">新增团队</string>
+    <string name="title_activity_edit_team_item">编辑团队</string>
+    <string name="title_activity_team">团队资讯</string>
     <string name="title_activity_user">用户详细信息</string>
-    <string name="title_activity_edit_to_do_item">编辑待办事项</string>
+    <string name="title_activity_edit_to_do_item">编辑事项</string>
     <string name="title_activity_history">历史</string>
-    <string name="title_activity_YBLogin">易班授权登录</string>
-    <string name="title_activity_profile">编辑个人信息</string>
+    <string name="title_activity_YBLogin">易班登录</string>
+    <string name="title_activity_profile">编辑资料</string>
     <string name="title_activity_user_mine">我的资料</string>
     <string name="title_activity_team_member">成员</string>
-
     <string name="title_activity_user_team">团队</string>
     <string name="title_activity_about">关于</string>
     <string name="title_activity_achievement">成就</string>
-
-    <string name="AcraText">很抱歉应用崩溃了，麻烦发送崩溃报告给我们吧~</string>
+    <string name="AcraText">很抱歉人升遇到了不可预料的情况，发生了崩溃现象。\n请考虑将错误信息通过邮件发送给我们，这有助于我们排查问题~</string>
     <string name="AcraTitle">应用崩溃</string>
-    <string name="AcraCommend">说一下是什么情况下崩溃的</string>
+    <string name="AcraCommend">方便的话，可以描述下发生崩溃的场景（页面、操作）</string>
     <string name="AcraChannel">人升崩溃</string>
-    <string name="title_activity_edit_team_item">编辑团队信息</string>
     <string name="action_sort">排序</string>
     <string name="title_statistics">统计</string>
+    <string name="title_activity_exp">经验值详情</string>
+    <string name="title_activity_add_category">新增清单</string>
     <string name="page_not_available">本功能未开放！</string>
+    <string name="funcation_need_to_login">您需要登录才能使用本功能\n点击此处登录</string>
     <string name="network_error">网络错误，请稍后重试。</string>
     <string name="btn_cancel">取消</string>
-    <string name="has_been_latest_version">现在是最新版本了！</string>
+    <string name="has_been_latest_version">已拥有最新的人升！</string>
     <string name="btn_update">更新</string>
+    <string name="about_new_version">检测到新版本</string>
+    <string name="about_update_content_title">更新内容</string>
+    <string name="about_check_update">检测更新</string>
+    <string name="about_version_name">版本号</string>
     <string name="contact_title">联系</string>
-    <string name="category_add_success">成功新建清单</string>
-    <string name="category_rename_fail">重命名出现异常</string>
+    <string name="github_desc1">安卓端开发：AyagiKei</string>
+    <string name="github_desc2">服务端开发：Hdonghong</string>
+    <string name="achievement_complete">解锁成就</string>
+    <string name="category_add_success">成功新增清单</string>
+    <string name="category_rename_success">成功重命名</string>
+    <string name="category_rename_fail">重命名失败</string>
     <string name="category_edittext_empty">清单名字不能为空</string>
     <string name="network_invalid_token">授权失效，请重试</string>
-    <string name="network_add_team_success">新建团队成功</string>
+    <string name="network_add_team_success">新增团队成功</string>
     <string name="network_add_team_fail">创建团队失败：</string>
     <string name="team_add_repeat_day">每日</string>
     <string name="team_add_repeat_two_day">每两日</string>
@@ -76,11 +82,11 @@
     <string name="team_add_time_error">结束时间必须晚于开始时间</string>
     <string name="team_add_attr_desc_title">属性值介绍</string>
     <string name="btn_yes">确定</string>
-    <string name="team_add_change_head">修改头像</string>
+    <string name="team_add_change_head">更换头像</string>
     <string name="team_add_choose_local_photo">选择本地照片（图库）</string>
     <string name="team_add_take_photo">拍照</string>
     <string name="team_add_cancel">取消</string>
-    <string name="team_add_photo_permission">拍照需要系统摄像头权限授权</string>
+    <string name="team_add_photo_permission">需要开启摄像头权限进行拍照</string>
     <string name="illegal_input">输入的数据不合法</string>
     <string name="add_to_do_set_weekday_ignore">设置周期忽略</string>
     <string name="add_to_do_goal_illegal_input">目标次数数据异常</string>
@@ -92,12 +98,13 @@
     <string name="add_to_do_end_time_illegal_input">期限时间数据异常</string>
     <string name="add_to_do_start_time_too_late">开始时间不能晚于期限日期</string>
     <string name="add_to_do_not_repeat">单次</string>
-    <string name="add_to_do_repeat_times">多次</string>
-    <string name="network_edit_team_success">修改团队信息成功</string>
-    <string name="network_edit_team_fail">修改团队信息：</string>
+    <string name="add_to_do_repeat_times">无限</string>
+    <string name="add_to_do_attr_desc_title">属性</string>
+    <string name="network_edit_team_success">编辑团队成功</string>
+    <string name="network_edit_team_fail">编辑团队信息失败：</string>
     <string name="edit_team_not_exist">该团队已不存在</string>
     <string name="edit_to_do_remind_reset_success">提醒重设成功！</string>
-    <string name="exp_empty_text">暂时没有经验值收支情况</string>
+    <string name="exp_empty_text">没有经验值变动记录</string>
     <string name="coin_empty_text">没有金币变动记录</string>
     <string name="history_reset_success">撤销成功</string>
     <string name="history_delete_success">成功删除历史记录</string>
@@ -112,21 +119,35 @@
     <string name="login_cancel_qq_information">获取用户信息取消</string>
     <string name="login_exception_qq_information">获取用户信息出现异常：</string>
     <string name="network_connect_error">网络错误，请稍后重试。</string>
-    <string name="main_drawer_login_head">请点击上方头像登录</string>
-    <string name="main_tips_1">Tips：登陆之后才可以访问社区，领取到其他用户建立的团队事项。</string>
+    <string name="main_drawer_login_head">点击头像登录</string>
+    <string name="main_drawer_need_to_relogin">请重新登录。</string>
+    <string name="main_tips_1">Tips：登录之后才可以访问世界模块。</string>
     <string name="main_tips_2">Tips：在「历史」页面可以撤销今天完成的事项。</string>
     <string name="main_tips_3">Tips：步数统计依赖于计步传感器，每天至少早晚各开一次APP可以提高计步准确度。</string>
     <string name="main_tips_4">Tips：对于APP的建议和反馈可以通过「邮件」、「Github」、「酷安」等渠道反馈。</string>
     <string name="main_tips_5">Tips：APP支持桌面小部件，并且支持主题设置哦。</string>
-    <string name="profile_update_success">修改成功</string>
-    <string name="profile_head_update_success">头像修改成功</string>
-    <string name="profile_head_update_fail">头像修改失败：网络错误，请稍后重试。</string>
-    <string name="profile_username_empty">用户名不能为空</string>
+    <string name="main_tips_6">Tips：社区等功能暂时还不支持Emoji，这是个短时间难以解决的bug。</string>
+    <string name="main_tips_7">Tips：本地事项可以设置目标次数，最后一次的时候能获得额外经验值奖励。</string>
+    <string name="main_tips_8">Tips：现在你可以设置具体的「期限时间」了，和「开始时间」搭配起来，可以设置复杂的事项。</string>
+    <string name="main_tips_9">Tips：目前的提醒依赖于系统的闹钟机制，可能需要后台运行才能正常提醒，最好不要太依赖。</string>
+    <string name="main_tips_10">Tips：在「主页面」的右上角可以进行事项的「时间范围」的筛选和「排序」哦。</string>
+    <string name="main_tips_11">Tips：在「统计」页面可以查看到经验值的收支详情。</string>
+    <string name="main_tips_12">Tips：目前应用内的图标大都来自于 iconfont。如果你有意帮忙重新设计图标，欢迎联系我们。</string>
+    <string name="main_tips_13">Tips：长按「待办事项卡片」可以对事项进行置顶、编辑、移至、放弃和删除等多种操作。</string>
+    <string name="main_tips_14">Tips：如果你是用手环等设备计步的，可以手动输入计步数据。</string>
+    <string name="main_tips_15">Tips：在「历史」页面点击时间，可以删除历史记录，以及将逾期事项修改为完成状态。</string>
+    <string name="main_tips_16">Tips：事项的经验值由「紧张程度」、「困难程度」和「相关属性个数」共同决定。</string>
+    <string name="main_tips_17">Tips：在「主页面」的右上角可以切换不同的清单哦。</string>
+    <string name="profile_update_success">编辑成功</string>
+    <string name="profile_head_update_success">头像更换成功</string>
+    <string name="profile_head_update_fail">头像更换失败：网络错误，请稍后重试。</string>
+    <string name="profile_username_empty">昵称不能为空</string>
     <string name="setting_reopen_guide">重新开启指引成功</string>
     <string name="profile_sv_nickname">昵称：</string>
     <string name="profile_sv_address">居住地（学校）:</string>
     <string name="profile_sv_gender">性别：</string>
     <string name="profile_female">女</string>
+    <string name="profile_male">男</string>
     <string name="profile_secret">保密</string>
     <string name="profile_dialog_nickname_title">设置昵称</string>
     <string name="profile_dialog_address_title">设置居住地（学校）</string>
@@ -135,19 +156,24 @@
     <string name="add_to_do_menu_before_expire_10min_item">期限前10分钟</string>
     <string name="add_to_do_menu_before_expire_30min_item">期限前30分钟</string>
     <string name="add_to_do_menu_before_expire_1h_item">期限前1小时</string>
-    <string name="add_to_do_menu_before_expire_custom_item">自定义</string>
+    <string name="add_to_do_menu_before_expire_custom_item">选择时间</string>
+    <string name="add_to_do_menu_expire_today_item">今天</string>
+    <string name="add_to_do_menu_expire_tomorrow_item">明天</string>
+    <string name="add_to_do_menu_expire_weekend_item">周末</string>
     <string name="title_activity_backup">备份/恢复</string>
     <string name="title_activity_to_do_item_detail">事项详情</string>
-    <string name="about_donate_element">捐赠</string>
-    <string name="about_rate_us_element">评分</string>
-    <string name="about_icon_designer_element">图标设计 酷安@这是一碗麦面</string>
     <string name="about_green_android_website">已通过《Android 绿色应用公约》认证</string>
     <string name="about_not_found_android_store">没有检测到Android应用市场:(</string>
     <string name="add_to_do_bouns_question">事项的经验值奖励会由这里的设置计算得出。</string>
     <string name="add_to_do_not_seleced_attrs_alarm">提醒</string>
+    <string name="add_to_do_not_seleced_attrs_alarm_message">你没有选择相关属性，该事项完成后不会获得经验值奖励，是否继续？</string>
     <string name="add_to_do_taptarget_remind_title">设置提醒</string>
+    <string name="add_to_do_taptarget_remind_content">（可选）在这里可以设置事项的提醒时间。  注意：默认提醒基于原生系统的通知实现，可能需要应用后台运行才能接收到。可以前往设置切换到日历提醒方式。</string>
     <string name="add_to_do_taptarget_start_time_title">开始时间</string>
+    <string name="add_to_do_taptarget_start_time_content">（可选）在这里你可以将事项的开始时间设到未来的一段时间。 如果你的事项是立即开始的，留空即可。  重复周期事项的开始时间会随着重复频次往后推迟，手动设置可能会影响到事项的持续时间，建议留空。</string>
     <string name="add_to_do_taptarget_deadline_title">期限日期</string>
+    <string name="add_to_do_taptarget_deadline_content">（可选）在这里你可以设置事项的期限日期。 如果是重复周期事项的话，指的就是首次事项的期限日期。  你还能可选地设置期限的具体时间。</string>
+    <string name="add_to_do_taptarget_repeat_title">重复频次</string>
     <string name="add_to_do_taptarget_target_title">目标次数</string>
     <string name="add_to_do_taptarget_reward_title">奖励</string>
     <string name="add_to_do_taptarget_todo_title">待办事项</string>
@@ -170,6 +196,7 @@
     <string name="setting_display_toolbar_title">显示设置</string>
     <string name="team_toast_join_success">加入成功</string>
     <string name="team_toast_quit_success">退出团队成功</string>
+    <string name="team_toast_end_success">终止团队成功</string>
     <string name="team_end">已截止</string>
     <string name="team_joined">已加入</string>
     <string name="team_member">成员</string>
@@ -184,6 +211,7 @@
     <string name="team_dialog_report_title">举报</string>
     <string name="team_member_follow_together">互相关注</string>
     <string name="team_member_followed">已关注</string>
+    <string name="team_member_follow">关注</string>
     <string name="to_do_detail_status_uncompleted">事项状态：尚未完成</string>
     <string name="to_do_detail_status_completed">事项状态：已完成</string>
     <string name="to_do_detail_status_out_of_date">事项状态：逾期</string>
@@ -213,6 +241,7 @@
     <string name="to_do_detail_delete_history_success">删除历史记录成功</string>
     <string name="to_do_detail_delete_history_failed">删除历史记录操作出现异常</string>
     <string name="to_do_item_detail_give_up_team_task">团队事项暂不可放弃！</string>
+    <string name="to_do_item_detail_give_up_title">放弃</string>
     <string name="to_do_item_detail_give_up_message">你确定要放弃该待办事项吗？\n如果是重复周期事项的话，只会放弃这一次的事项，不会影响到事项的重复。</string>
     <string name="to_do_item_detail_edit_team_task">团队事项不可编辑！</string>
     <string name="to_do_detail_set_to_finish">设为「已经完成」</string>
@@ -302,6 +331,7 @@
     <string name="to_do_passed_finishable_time">该待办事项已经过了签到时间段！</string>
     <string name="to_do_got_exp">你获得了经验值</string>
     <string name="to_do_finish_target_times">你完成了设定的目标次数！</string>
+    <string name="u_finished">你完成了</string>
     <string name="undo">撤销</string>
     <string name="undo_success">撤销成功</string>
     <string name="to_do_ask_repeat">要进行重复吗？</string>
@@ -313,6 +343,7 @@
     <string name="no_submit">跳过</string>
     <string name="today_finished">今天已经完成%1$d个待办事项（共%2$d个）</string>
     <string name="month_and_day">MM月dd日</string>
+    <string name="permission_camera_need">图片选择需要以下权限:\n1.拍照</string>
     <string name="add_photo">新增照片</string>
     <string name="category_all">全部</string>
     <string name="list_undeleteable">该清单内还有未完成事项，不能删除。</string>
@@ -327,8 +358,14 @@
     <string name="step_to_str">步数兑换力量经验值</string>
     <string name="likes_exchange_charm">赞数兑换魅力经验值</string>
     <string name="using_days_streaks_exchange_endurance">连续使用天数兑换耐力经验值</string>
+    <string name="finish_task">完成事项</string>
+    <string name="set_to_finish">设为已经完成事项</string>
+    <string name="undo_finish">撤销完成事项</string>
+    <string name="give_up_item">放弃事项</string>
+    <string name="out_of_date">逾期事项</string>
     <string name="guest">试用用户</string>
     <string name="starter_task_content">开始使用人升</string>
+    <string name="starter_task_remark">点击小圆圈或者向右滑动可以完成待办事项。\n长按可以进行置顶、编辑、放弃、删除等操作。\n单击卡片可以浏览事项详情。</string>
     <string name="backup_restore_success">恢复成功</string>
     <string name="backup_restore_failed">恢复失败</string>
     <string name="backup_success">备份成功：</string>
@@ -392,8 +429,10 @@
     <string name="team_repeat">重复频次：</string>
     <string name="team_exp">经验奖励：</string>
     <string name="bouns">奖励</string>
+    <string name="attr_strength_desc">可以提升身体素质和健康的待办事项，如跑步、游泳等。</string>
     <string name="attr_learning_desc">可以提升自我知识储备的待办事项，如读书等。</string>
     <string name="attr_charm_desc">可以增长自身魅力的待办事项，如交际和朋友游玩等。</string>
+    <string name="attr_endurance_desc">可以增强你意志力、忍耐力的待办事项，比如习惯养成、做自己不擅长的事情等。</string>
     <string name="attr_vitality_desc">对周围环境造成积极影响，能让周围的人觉得你充满活力并且想要效仿的待办事项。</string>
     <string name="attr_creative_desc">可以提升自己创造力的待办事项，比如DIY、文学艺术创作、开发软件等。</string>
     <string name="dialog_activity_tint">说说你的完成感想吧（可选）</string>
@@ -407,6 +446,7 @@
     <string name="Sat">周六</string>
     <string name="Sun">周日</string>
     <string name="dialog_input_sport_desc">手动输入今日的计步数据。\n这个功能主要提供于不以手机为主要计步工具，或者不支持相应传感器的用户使用。\n每天只能手动输入一遍。</string>
+    <!-- \nThis is for the users whose phone doesn\'t support pedometer. -->
     <string name="dialog_input_sport_tint">步数</string>
     <string name="custom">自定义</string>
     <string name="single">单次</string>
@@ -470,59 +510,17 @@
     <string name="follow">圈子</string>
     <string name="widget_empty">该清单的事项都完成了！</string>
     <string name="about_app_description">一款「人生游戏化」的待办事项管理应用，高自定义性、简约、有趣。\n用「游戏化」的形式让你的人生更加美好。</string>
-    <string name="about_check_update">检测更新</string>
-    <string name="about_new_version">检测到新版本</string>
-    <string name="about_update_content_title">更新内容</string>
-    <string name="about_version_name">版本号</string>
     <string name="achievement_bonus">你获得了200点「活力」经验值！</string>
-    <string name="achievement_complete">解锁成就</string>
-    <string name="add_to_do_attr_desc_title">属性值介绍</string>
-    <string name="add_to_do_menu_expire_today_item">今天</string>
-    <string name="add_to_do_menu_expire_tomorrow_item">明天</string>
-    <string name="add_to_do_menu_expire_weekend_item">周末</string>
-    <string name="add_to_do_not_seleced_attrs_alarm_message">你没有选择相关属性，该事项完成后不会获得经验值奖励，是否继续？</string>
-    <string name="add_to_do_taptarget_deadline_content">（可选）在这里你可以设置事项的期限日期。 如果是重复周期事项的话，指的就是首次事项的期限日期。  你还能可选地设置期限的具体时间。</string>
-    <string name="add_to_do_taptarget_remind_content">（可选）在这里可以设置事项的提醒时间。  注意：默认提醒基于原生系统的通知实现，可能需要应用后台运行才能接收到。可以前往设置切换到日历提醒方式。</string>
-    <string name="add_to_do_taptarget_repeat_title">重复频次</string>
-    <string name="add_to_do_taptarget_start_time_content">（可选）在这里你可以将事项的开始时间设到未来的一段时间。 如果你的事项是立即开始的，留空即可。  重复周期事项的开始时间会随着重复频次往后推迟，手动设置可能会影响到事项的持续时间，建议留空。</string>
-    <string name="attr_endurance_desc">可以增强你意志力、忍耐力的待办事项，比如习惯养成、做自己不擅长的事情等。</string>
-    <string name="attr_strength_desc">可以提升身体素质和健康的待办事项，如跑步、游泳等。</string>
-    <string name="category_rename_success">成功重命名</string>
-    <string name="finish_task">完成事项</string>
-    <string name="github_desc1">安卓端开发：AyagiKei</string>
-    <string name="github_desc2">服务端开发：Hdonghong</string>
-    <string name="give_up_item">放弃事项</string>
-    <string name="main_drawer_need_to_relogin">请重新登录。</string>
-    <string name="main_tips_10">Tips：在「主页面」的右上角可以进行事项的「时间范围」的筛选和「排序」哦。</string>
-    <string name="main_tips_11">Tips：在「统计」页面可以查看到经验值的收支详情。</string>
-    <string name="main_tips_12">Tips：目前应用内的图标大都来自于 iconfont。如果你有意帮忙重新设计图标，欢迎联系我们。</string>
-    <string name="main_tips_13">Tips：长按「待办事项卡片」可以对事项进行置顶、编辑、移至、放弃和删除等多种操作。</string>
-    <string name="main_tips_14">Tips：如果你是用手环等设备计步的，可以手动输入计步数据。</string>
-    <string name="main_tips_15">Tips：在「历史」页面点击时间，可以删除历史记录，以及将逾期事项修改为完成状态。</string>
-    <string name="main_tips_16">Tips：事项的经验值由「紧张程度」、「困难程度」和「相关属性个数」共同决定。</string>
-    <string name="main_tips_17">Tips：在「主页面」的右上角可以切换不同的清单哦。</string>
-    <string name="main_tips_6">Tips：社区等功能暂时还不支持Emoji，这是个短时间难以解决的bug。</string>
-    <string name="main_tips_7">Tips：本地事项可以设置目标次数，最后一次的时候能获得额外经验值奖励。</string>
-    <string name="main_tips_8">Tips：现在你可以设置具体的「期限时间」了，和「开始时间」搭配起来，可以设置复杂的事项。</string>
-    <string name="main_tips_9">Tips：目前的提醒依赖于系统的闹钟机制，可能需要后台运行才能正常提醒，最好不要太依赖。</string>
-    <string name="out_of_date">逾期事项</string>
-    <string name="permission_camera_need">图片选择需要以下权限:\n1.拍照</string>
-    <string name="profile_male">男</string>
-    <string name="set_to_finish">设为已经完成事项</string>
-    <string name="starter_task_remark">点击小圆圈或者向右滑动可以完成待办事项。\n长按可以进行置顶、编辑、放弃、删除等操作。\n单击卡片可以浏览事项详情。</string>
-    <string name="team_member_follow">关注</string>
-    <string name="team_toast_end_success">终止团队成功</string>
-    <string name="title_activity_add_category">新建清单</string>
-    <string name="title_activity_exp">经验值收支详情</string>
-    <string name="u_finished">你完成了</string>
-    <string name="undo_finish">撤销完成事项</string>
-    <string name="to_do_item_detail_give_up_title">放弃</string>
+    <string name="about_rate_us_element">评分</string>
     <string name="tag_team_single">团队任务-单次</string>
     <string name="tag_team_daily">团队任务-每日</string>
     <string name="tag_team_every_2_days">团队任务-每两日</string>
     <string name="tag_team_weekly">团队任务-每周</string>
     <string name="tag_team_every_2_weeks">团队任务-每两周</string>
     <string name="tag_team_monthly">团队任务-每月</string>
+    <string name="tag_team">团队任务</string>
+    <string name="tag_local">周期任务</string>
+    <string name="tag_every">每</string>
     <string name="tag_local_single">单次任务</string>
     <string name="tag_local_unlimited">无限任务</string>
     <string name="tag_local_daily">周期任务-每日</string>
@@ -539,9 +537,6 @@
     <string name="five">五</string>
     <string name="six">六</string>
     <string name="seven">日</string>
-    <string name="tag_team">团队任务</string>
-    <string name="tag_local">周期任务</string>
-    <string name="tag_every">每</string>
     <string name="step_counter">%1$d步</string>
     <string name="tag_deadline">%1$s期限</string>
     <string name="tag_deadline_with_time">%1$s期限</string>
@@ -578,7 +573,6 @@
     <string name="finish_and_get_reward">成功完成事项并且获得奖励：%1$s!</string>
     <string name="achievement_unlocked">解锁成就</string>
     <string name="xml_login_third_login">目前仅支持以下授权登录方式</string>
-    <string name="step_bar">步</string>
     <string name="Long_Sunday">星期日</string>
     <string name="long_monday">星期一</string>
     <string name="long_tuesday">星期二</string>
@@ -611,13 +605,10 @@
     <string name="setting_display_date_format">日期格式</string>
     <string name="setting_display_date_format_desc">修改日期格式</string>
     <string name="about_feature_element">特性</string>
-
     <string name="feature_night_mode">夜间模式</string>
     <string name="feature_night_mode_desc">在夜晚更换全新的夜间模式</string>
-
     <string name="feature_history_filter">历史筛选</string>
     <string name="feature_history_filter_desc">回顾指定的过去某一天</string>
-
     <string name="feature_fix">细节变动</string>
     <string name="feature_fix_desc">- 浮动按钮自动隐藏\n- 修复暖启动时的短暂黑屏\n- 更改时间格式\n- 性能优化</string>
     <string name="feature_plan">计划</string>
@@ -766,7 +757,7 @@
     <string name="task_type_normal">普通事项</string>
     <string name="task_type_counter">计数事项</string>
     <string name="input_task_count">输入目标次数</string>
-    <string name="input_task_count_desc">设置为计数事项，点击"完成"按钮时，可以记录具体的完成次数，次数达到目标后才会变成“完成”状态。\n例：每天喝7杯水，可设置为7。</string>
+    <string name="input_task_count_desc">设置为计数事项，点击\"完成\"按钮时，可以记录具体的完成次数，次数达到目标后才会变成“完成”状态。\n例：每天喝7杯水，可设置为7。</string>
     <string name="task_counter_process">所需总次数：%1$d（%3$s 完成%2$s%%）</string>
     <string name="title_dialog_finish_times">计数事项</string>
     <string name="calendar_permission_lost">缺少日历读写权限无法设置提醒</string>
@@ -784,29 +775,16 @@
     <string name="backup_default_uri">默认路径</string>
     <string name="backup_custom_uri">自定义路径</string>
     <string name="backup_custom_fail">备份失败，试试换个路径~（比如部分机型“下载文件夹”会写入失败）</string>
-    <string name="donate_alipay">支付宝</string>
-    <string name="donate_wechat_or_list">微信/捐赠名单</string>
     <string name="moments_filter">优质</string>
     <string name="user_team_show_all">显示已终止团队</string>
     <string name="user_team_hide_ended">隐藏已终止团队</string>
     <string name="user_team_doing">进行中</string>
     <string name="user_team_ended">已结束</string>
-    <string name="importance_lv1_desc">这件事可有可无。\n它可以是“查一查某个时事八卦”这样的任务。\n它在某种机缘巧合下出现，只有勉强被你记住的价值，它的完成与否对你造成的影响可以忽略不计。</string>
-    <string name="importance_lv2_desc">这件事值得上一点心。\n它可以是“每天背10个单词”一类任务。\n完成它对你而言并不能造成显著的影响，但它可以在潜移默化地数量堆叠之后，让你发现自己进步了一大截。\n反之亦然，如果无法坚持完成某些这个等级的任务，你可能会对应地失去一些重要的东西。</string>
-    <string name="importance_lv3_desc">这件事需要引起你的重视。\n它可以是“在截稿期限前写完稿件”这样的任务。\n完成这样的任务，可以让你立刻显著地获得收益。\n反之，完不成这样的任务，你的损失可能会让你感到肉疼。</string>
-    <string name="importance_lv4_desc">现在，立刻，放下一切其它事情，优先把这件事做完。\n这个级别的任务已经无法从好坏两个角度来区分，它会对你当下的人生造成极为严重的影响。\n完成这个级别的任务，可以使你达成令你兴奋的成就，或使你避免一些灾难性的后果；如果失败了，那情况会变得不妙，相当不妙。</string>
-    <string name="difficult_lv1_desc">没有任何难度。\n对你来说完全是举手之劳，不需要任何意志力，可以在极短时间内解决的问题。</string>
-    <string name="difficult_lv2_desc">有一点点难度。\n你可能会需要动一动脑子，花掉一些时间才可以完成这样的任务，或你对这件任务有所犯懒和抗拒，不愿意进行。</string>
-    <string name="difficult_lv3_desc">令人感到棘手。\n你可能会需要进行一些学习、对你的知识进行补充，花掉不少时间来琢磨、试探后，才能完成这样的任务，或这件任务涉及到让你厌恶或恐惧的内容，需要消耗大量意志力进行克服。</string>
-    <string name="difficult_lv4_desc">几乎不可能完成。\n这件任务触及了你的大量能力盲区，就像让高三学渣通过一学期的复习考上清华一样魔幻。由于能力的缺失，时间也相对变得极为紧迫，想要完成这个级别的任务，除非拥有超越人类的毅力，和永不放弃的决心。</string>
-    <string name="title_activity_degree_desc">程度</string>
-    <string name="content_degree_desc_author">文案：酷安 @风之心_天双</string>
     <string name="filter_title">筛选</string>
     <string name="calendar">日历</string>
     <string name="calendar_empty_text">你已经完成了所有待办事项！</string>
     <string name="calendar_empty_done_text">这里是空的！</string>
-
-    <!-- 单次成就 -->
+    <!-- Base Achievement -->
     <string name="achievement_base_new_player">新玩家</string>
     <string name="achievement_base_new_player_desc">完成首个待办事项</string>
     <string name="achievement_base_merchant">商人</string>
@@ -841,8 +819,7 @@
     <string name="achievement_base_special_case_desc">放弃一个待办事项</string>
     <string name="achievement_base_tinker">修补匠</string>
     <string name="achievement_base_tinker_desc">编辑待办事项或商店物品</string>
-
-    <!-- 事项成就 -->
+    <!-- Task Achievements -->
     <string name="achievement_task_habit_develop">习惯养成</string>
     <string name="achievement_task_habit_develop_desc">建立一个重复事项</string>
     <string name="achievement_task_habit_starter">习惯入门者</string>
@@ -873,8 +850,7 @@
     <string name="achievement_task_game_bachelor_desc">连续60天完成任意事项</string>
     <string name="achievement_task_game_master">人升游戏大师</string>
     <string name="achievement_task_game_master_desc">连续180天完成任意事项</string>
-
-    <!-- 属性成就 -->
+    <!-- Attributes Achievements -->
     <string name="achievement_attribution_warrior">战士</string>
     <string name="achievement_attribution_warrior_desc">力量达到50级</string>
     <string name="achievement_attribution_mega">法师</string>
@@ -889,8 +865,7 @@
     <string name="achievement_attribution_alchemist_desc">创造力达到50级</string>
     <string name="achievement_attribution_hero">勇者</string>
     <string name="achievement_attribution_hero_desc">人生等级达到50级</string>
-
-    <!-- 社区成就 -->
+    <!-- Community Achievements -->
     <string name="achievement_community_new_member">新成员</string>
     <string name="achievement_community_new_member_desc">创建或加入一个团队</string>
     <string name="achievement_community_well_played">打得不错！</string>
@@ -911,8 +886,7 @@
     <string name="achievement_community_little_famous_desc">收获10个赞</string>
     <string name="achievement_community_lovable">人见人爱</string>
     <string name="achievement_community_lovable_desc">收获50个赞</string>
-
-    <!-- 商店成就 -->
+    <!-- Shop Achievements -->
     <string name="achievement_shop_first_bucket_of_gold">第一桶金</string>
     <string name="achievement_shop_first_bucket_of_gold_desc">首次获得金币奖励</string>
     <string name="achievement_shop_sold_out">售罄</string>
@@ -927,7 +901,6 @@
     <string name="achievement_shop_little_wealthy_desc">拥有1000个金币</string>
     <string name="achievement_shop_monopoly">大富翁</string>
     <string name="achievement_shop_monopoly_desc">拥有10000个金币</string>
-
     <string name="achievement_unlock">解锁成就！</string>
     <string name="achievement_secret">这是个秘密成就！</string>
     <string name="target_edit_error">目标次数不能小于已完成次数</string>
@@ -973,7 +946,6 @@
     <string name="sort_custom">自定义</string>
     <string name="close">关闭</string>
     <string name="to_do_selecting_card">选中卡片</string>
-
     <string name="to_do_unstart_hint">还有%1$d个事项未开始，点击查看</string>
     <string name="sort_urgency_degree">重要程度</string>
     <string name="sort_difficulty_degree">困难程度</string>
@@ -999,6 +971,7 @@
     <string name="hint_add_sub_task">添加子任务</string>
     <string name="feature_169">子任务</string>
     <string name="feature_169_desc">- 子任务\n- 拖动排序\n- 批量操作\n- 逾期处理\n- 桌面小部件升级</string>
+    <string name="title_lab">实验</string>
     <string name="backup_restore_double_check_title">注意！</string>
     <string name="backup_restore_double_check_message">选择的文件似乎不是备份文件\n可能会丢失应用数据\n是否仍进行操作？</string>
     <string name="backup_undo_restore">撤销上次恢复</string>
@@ -1020,7 +993,7 @@
     <string name="web_dav_test_success">测试成功</string>
     <string name="web_dav_test_failed">测试失败，请检查配置\n详细错误信息：</string>
     <string name="webdav_lifeup_hint">人升会在WebDAV服务器上创建一个名为LifeUp的文件夹以存储备份文件</string>
-    <string name="title_web_dav_setting">WebDAV</string>
+    <string name="title_web_dav_setting">WebDAV 云备份</string>
     <string name="webdav_configuration">WebDAV 设置</string>
     <string name="webdav_url">WebDAV 地址</string>
     <string name="webdav_password">WebDAV 密码</string>
@@ -1036,7 +1009,6 @@
     <string name="setting_custom_attribute">自定义属性</string>
     <string name="setting_custom_attribute_desc">自定义现有属性的图标和文本</string>
     <string name="webdav_account">WebDAV 账号</string>
-    <string name="title_lab">实验</string>
     <string name="attachment">附件</string>
     <string name="lab_compact_mode_sample">学一门外语</string>
     <string name="lab_compact_mode_title">简洁模式</string>
@@ -1044,7 +1016,6 @@
     <string name="feature_170">实验</string>
     <string name="feature_170_desc">- 简洁模式\n- 图片附件\n- 自定义属性（图标和名称）\n- WebDAV 备份</string>
     <string name="menu_undo">撤销</string>
-
     <string name="setting_task_snack_bar_duration">“撤销”弹出框显示时长</string>
     <string name="setting_task_snack_bar_duration_desc_short">短</string>
     <string name="setting_task_snack_bar_duration_desc_long">长</string>
@@ -1091,13 +1062,14 @@
     <string name="feelings_submit_success">感想发布成功</string>
     <string name="feelings_dialog_search_title">搜索</string>
     <string name="lab_feelings_title">感想</string>
-
+    <!-- Team Report Type -->
     <string name="report_type_1">垃圾广告信息</string>
     <string name="report_type_2">不友善行为</string>
     <string name="report_type_3">有害信息（如违法违规等）</string>
     <string name="report_type_4">涉嫌侵权</string>
     <string name="report_type_5">诱导投票</string>
     <string name="report_type_6">其他</string>
+    <!-- Feelings Fav -->
     <string name="feelings_fav">收藏</string>
     <string name="feelings_fav_action">收藏</string>
     <string name="feelings_search_by_content">感想内容</string>
@@ -1108,11 +1080,26 @@
     <string name="setting_custom_card_background_desc">选择你喜欢的图片作为卡片背景，并且可以设置透明度。</string>
     <string name="settings_custom_task_card_bg_hint">点击这里选择图片</string>
     <string name="opacity">不透明度</string>
-    <string name="common_select_photos">选择图片</string>
     <string name="feedback_email_hint">如果你提交的反馈是疑问/使用求助，请留下邮箱以便回复。\n
         如果想要得到快速的回复或者是严重BUG反馈，请直接通过邮件联系我们【或者在侧边栏「资讯」中添加QQ讨论群进行反馈】：\nayagikei@163.com
         \n\n因这是一款独立应用，两个人都是业余时间进行开发维护，只能抽出非常有限的时间进行开发和反馈回复。\n
         为了节省沟通成本，请先浏览“常见问题”和“说明书”查看有无相关信息，或者也可以尝试加讨论群进行咨询（请先查阅常见问题以节省大家的时间～）。</string>
+    <!-- degree only in Chinese now -->
+    <string name="importance_lv1_desc">这件事可有可无。\n它可以是“查一查某个时事八卦”这样的任务。\n它在某种机缘巧合下出现，只有勉强被你记住的价值，它的完成与否对你造成的影响可以忽略不计。</string>
+    <string name="importance_lv2_desc">这件事值得上一点心。\n它可以是“每天背10个单词”一类任务。\n完成它对你而言并不能造成显著的影响，但它可以在潜移默化地数量堆叠之后，让你发现自己进步了一大截。\n反之亦然，如果无法坚持完成某些这个等级的任务，你可能会对应地失去一些重要的东西。</string>
+    <string name="importance_lv3_desc">这件事需要引起你的重视。\n它可以是“在截稿期限前写完稿件”这样的任务。\n完成这样的任务，可以让你立刻显著地获得收益。\n反之，完不成这样的任务，你的损失可能会让你感到肉疼。</string>
+    <string name="importance_lv4_desc">现在，立刻，放下一切其它事情，优先把这件事做完。\n这个级别的任务已经无法从好坏两个角度来区分，它会对你当下的人生造成极为严重的影响。\n完成这个级别的任务，可以使你达成令你兴奋的成就，或使你避免一些灾难性的后果；如果失败了，那情况会变得不妙，相当不妙。</string>
+    <string name="difficult_lv1_desc">没有任何难度。\n对你来说完全是举手之劳，不需要任何意志力，可以在极短时间内解决的问题。</string>
+    <string name="difficult_lv2_desc">有一点点难度。\n你可能会需要动一动脑子，花掉一些时间才可以完成这样的任务，或你对这件任务有所犯懒和抗拒，不愿意进行。</string>
+    <string name="difficult_lv3_desc">令人感到棘手。\n你可能会需要进行一些学习、对你的知识进行补充，花掉不少时间来琢磨、试探后，才能完成这样的任务，或这件任务涉及到让你厌恶或恐惧的内容，需要消耗大量意志力进行克服。</string>
+    <string name="difficult_lv4_desc">几乎不可能完成。\n这件任务触及了你的大量能力盲区，就像让高三学渣通过一学期的复习考上清华一样魔幻。由于能力的缺失，时间也相对变得极为紧迫，想要完成这个级别的任务，除非拥有超越人类的毅力，和永不放弃的决心。</string>
+    <string name="title_activity_degree_desc">程度</string>
+    <string name="content_degree_desc_author">文案：酷安 @风之心_天双</string>
+    <string name="donate_alipay">支付宝</string>
+    <string name="donate_wechat_or_list">微信/捐赠名单</string>
+    <string name="about_donate_element">捐赠</string>
+    <string name="about_icon_designer_element">图标设计 酷安@这是一碗麦面</string>
+    <string name="common_select_photos">选择图片</string>
     <string name="statistics_time_30days">30天</string>
     <string name="statistics_time_3months">3个月</string>
     <string name="statistics_time_1year">1年</string>
@@ -1181,10 +1168,8 @@
     <string name="hint_denied_activity_permission">人升需要得到权限授权以计算步数。</string>
     <string name="default_name_system_achievements">系统成就</string>
     <string name="login_backup_hint">这是一款「离线」应用，登录只用于访问世界模块和会员，切换账号并不会切换本地数据。\n你的本地数据也不会同步到服务器，请注意备份。</string>
-
     <string name="user_achievement_delete_title">删除</string>
     <string name="user_achievement_delete_message">你确定要删除该成就吗？</string>
-
     <string name="backup_hint">可以使用「设置」页面中的「数据备份」功能进行本地数据的备份。\n
         目前支持将本地数据导出到一个 zip 压缩包文件，或者手动设定 WebDAV, DropBox 服务器进行服务器备份。\n
         未来会增加 Google Drive 的支持。\n
@@ -1258,18 +1243,17 @@
     <string name="relaunch_item">重新上架</string>
     <string name="relaunch_success">重新上架成功</string>
     <string name="auto_backup_conflict_download">使用远程服务器的数据覆盖本地数据。\n\n注：稍后可以在数据备份页面撤销操作。</string>
-    <string name="auto_backup_conflict_upload">使用本地数据，上传覆盖服务器中的数据。\n\n注意当前的远程数据会被覆写，能否恢复取决于服务器是否支持"恢复历史版本"。</string>
+    <string name="auto_backup_conflict_upload">使用本地数据，上传覆盖服务器中的数据。\n\n注意当前的远程数据会被覆写，能否恢复取决于服务器是否支持\"恢复历史版本\"。</string>
     <string name="auto_backup_title_sync">同步</string>
     <string name="auto_backup_last_sync_time">上次同步时间： %1$s</string>
     <string name="btn_sync">同步</string>
-    <string name="auto_backup_last_sync_failure">上次同步失败： %1$s\n请检查你的网络连接或者WebDAV配置。</string>
+    <string name="auto_backup_last_sync_failure">上次同步失败： %1$s\n\n请检查你的网络连接或者WebDAV/DropBox配置。</string>
     <string name="btn_config">配置</string>
     <string name="btn_upload">上传</string>
     <string name="btn_download">下载</string>
     <string name="dialog_title_sync_conflict">同步出现冲突</string>
     <string name="dialog_title_confirm">确认</string>
     <!-- podomoro -->
-
     <string name="start_tametu">开始</string>
     <string name="cancel_tametu">取消</string>
     <string name="start_short_break">开始小休</string>
@@ -1277,7 +1261,6 @@
     <string name="start_long_break">开始大休</string>
     <string name="skip_long_break">跳过大休</string>
     <string name="skip_break">跳过休息</string>
-
     <string name="tametu_completion_alert_message">工作时间结束</string>
     <string name="break_over_notification_title">休息时间结束</string>
     <string name="session_over_notification_content_text">是时候休息了</string>
@@ -1315,6 +1298,8 @@
     <string name="pomo_work_session_before_long_break_hint">%1$d 节工作后长时休息</string>
     <string name="menu_timer">计时</string>
     <string name="pomo_task_not_selected">未选择</string>
+    <string name="eat_tomatoes">食用番茄 x%1$d</string>
+    <string name="sold_out_tomatoes">出售番茄 x%1$d</string>
     <string name="tomato_total_count">总 x%1$d</string>
     <string name="dialog_task_item_unselect">取消选择</string>
     <string name="tomatoes_action_eat">食用</string>
@@ -1331,8 +1316,6 @@
     <string name="feature_1750">番茄</string>
     <string name="feature_1750_desc">- 游戏化番茄钟\n- 自定义事项/清单标签颜色\n- WebDAV 自动备份\n- 支持隐藏模块\n- 可以但没必要的会员系统</string>
     <string name="pomodoro_notification_skip">跳过</string>
-    <string name="eat_tomatoes">食用番茄 x%1$d</string>
-    <string name="sold_out_tomatoes">出售番茄 x%1$d</string>
     <string name="hint_scroll_to_bottom_more_settings">底部还有更多设置，可以试试滑动屏幕~</string>
     <string name="setting_custom_enable_sound_effect">启用音效</string>
     <string name="setting_custom_enable_sound_effect_desc">启用应用内的音效，如完成待办事项和使用金币音效。音量可由系统设置中的“媒体”音量控制。</string>
@@ -1477,6 +1460,7 @@
     <string name="detail_repeat_stat">周期事项统计</string>
     <string name="cannot_undo_team_task">团队事项暂不支持撤销</string>
     <string name="dialog_title_unlock_condition">解锁条件</string>
+    <string name="achievement_unlock_condition_current_value">当前数值为%1$d</string>
     <string name="dialog_unlock_condition_number_requirement">数量要求</string>
     <string name="dialog_unlock_condition_related_item">关联内容</string>
     <string name="add_user_achievement_unlock_condition">解锁条件</string>
@@ -1490,8 +1474,6 @@
     <string name="condition_current_coin_number">当前金币数</string>
     <string name="condition_coin_number_added_in_a_day">今日金币新增</string>
     <string name="dialog_title_select_attributes">选择属性</string>
-
-    <string name="achievement_unlock_condition_current_value">当前数值为%1$d</string>
     <string name="condition_desc_total_completed_times">总计完成待办事项「%1$s」%2$d 次</string>
     <string name="condition_desc_completed_streak_task">连续完成待办事项「%2$s」%1$d 次</string>
     <string name="condition_desc_reach_level">「%1$s」属性达到Lv %2$d 等级</string>
@@ -1504,7 +1486,6 @@
     <string name="market_list_sort_by_import">按进货数排序</string>
     <string name="hint_add_user_achievement_reward_develop">后续会支持经验值奖励设置</string>
     <string name="feelings_view_detail">详情</string>
-
     <string name="achievement_attribution_yes_itsme">没错，就是我</string>
     <string name="achievement_attribution_yes_itsme_desc">任意属性达到10级</string>
     <string name="QandA_known_issues">已知问题（重要）</string>
@@ -1516,7 +1497,6 @@
     <string name="dialog_input_exp_number">经验值数值</string>
     <string name="hint_dialog_input_exp">解锁成就「没错，就是我」（任意等级达到10级）后，\n自定义经验值范围扩展至0~9999。</string>
     <string name="dialog_input_exp_number_title">输入经验值</string>
-
     <string name="dialog_enable_auto_sum_short">自动计算</string>
     <string name="status_pomodoro_card_title">番茄</string>
     <string name="status_pomodoros_today_focus">今日专注\n（分钟）</string>
@@ -1524,7 +1504,6 @@
     <string name="status_tomato_total_amount">总计获得\n番茄</string>
     <string name="dialog_category_hide_hint_button">明白</string>
     <string name="dialog_category_hide_hint_desc">长按清单可以拖动排序</string>
-
     <string name="inventory_record_synthesis_cost">合成消耗了物品「%1$s」×%2$d</string>
     <string name="inventory_record_synthesis_got">合成得到了物品「%1$s」×%2$d</string>
     <string name="inventory_record_unknown">未知</string>
@@ -1538,7 +1517,6 @@
     <string name="pomodoro_tap_target_tomatoes_play_pause">开始/暂停计时</string>
     <string name="pomodoro_tap_target_tomatoes_skip">跳过当前计时</string>
     <string name="task_detail_tomatoes_count_display_text">x%1$d（%3$d分钟）， 总计 x%2$d（%4$d分钟）</string>
-
     <string name="condition_task_tomatoes_gained">事项累计获得番茄</string>
     <string name="condition_desc_task_tomatoes_gained">%2$s 事项累计获得 %1$d 个番茄</string>
     <string name="condition_task_purchase_item_times">购买商品达到指定次数</string>
@@ -1546,14 +1524,11 @@
     <string name="condition_task_use_item_times">使用商品达到指定次数</string>
     <string name="condition_desc_use_item_times">使用「%1$s」达到「%2$d」次</string>
     <string name="edit_text_search_hint">搜索…</string>
-
     <string name="dialog_input_exp_punishment_factor_message_example">对于 100 经验值奖励的事项，失败时会受到 %1$d (100 × %2$.1f) 点经验值的惩罚。</string>
     <string name="dialog_input_coin_punishment_factor_message_example">对于 100 个金币奖励的事项，失败时会损失 %1$d (100 × %2$.1f) 个金币。</string>
     <string name="add_team_edit_hint">创建团队后，奖励和时间相关的设置将不支持编辑。\n请确认你的设置。</string>
-
     <string name="select_shop_item_reward_with_stock_number">%1$s x%2$d\n(剩余%3$d个)</string>
     <string name="shop_top_item_count">%1$d件商品</string>
-
     <string name="unlock_achievement_time_desc">解锁于%1$s</string>
     <string name="pomodoro_empty_text">暂时没有计时记录</string>
     <string name="title_activity_pomodoro_record">番茄计时记录</string>
@@ -1561,10 +1536,8 @@
     <string name="place_a_app_widget_method_hint">点击这里可创建桌面小部件\n\n或者可以试试长按系统桌面程序的空白处进行创建（因系统桌面程序而异）</string>
     <string name="user_achievement_shop_item_reward_title">获得了物品！</string>
     <string name="xml_add_user_achievment_complete_reward">完成奖励</string>
-
-    <string name="vip_extension_theme_color">\n已解锁会员专属5种主题色</string>
-    <string name="user_activity_shop_empty_hint">没有找到公开分享的商品</string>
     <string name="user_activity_empty_hint">没有找到动态记录\n去完成团队任务发表动态吧~</string>
+    <string name="user_activity_shop_empty_hint">没有找到公开分享的商品</string>
     <string name="setting_custom_sound_effect">自定义音效</string>
     <string name="setting_custom_sound_effect_desc">任意选择音效文件，作为完成待办事项、升级、购买等操作的音效。</string>
     <string name="title_activity_custom_sound_effect">自定义音效</string>
@@ -1579,6 +1552,7 @@
     <string name="custom_sound_effect_rest_timer_end">番茄休息计时结束</string>
     <string name="btn_select_file">选择文件</string>
     <string name="add_to_do_check_repeat">检查重复效果</string>
+    <string name="dialog_title_repeat_effect">确认重复效果</string>
     <string name="toast_show_check_repeat_failed">展示失败</string>
     <string name="setting_custom_enable_vibration">启用振动</string>
     <string name="setting_custom_enable_vibration_desc">启用完成待办事项时的点击振动、番茄钟计时结束的提醒振动</string>
@@ -1588,7 +1562,6 @@
     <string name="switch_enable_cloud_auto_backup">启用自动云备份</string>
     <string name="cloud_backup_method_webdav">WebDAV 云备份</string>
     <string name="cloud_backup_method_dropbox">Dropbox 云备份</string>
-    <string name="cloud_backup_method_dropbox_in_zh">Dropbox在国内网络下，可能无法正常访问</string>
     <string name="cloud_backup_setting">云同步</string>
     <string name="cloud_backup_configured">已配置</string>
     <string name="cloud_backup_not_configured">未配置</string>
@@ -1622,21 +1595,17 @@
     <string name="chip_punishment">惩罚</string>
     <string name="dialog_title_set_indie_punishment_factor">惩罚系数</string>
     <string name="dialog_message_set_indie_punishment_factor">请输入0～5.0之间的数值</string>
-
     <string name="title_activity_edit_achievement_category">编辑成就清单</string>
     <string name="title_activity_edit_user_achievement">编辑成就</string>
     <string name="view_team">查看团队</string>
     <string name="loot_box_probability_table">概率表</string>
     <string name="menu_restart">重新开始</string>
-
     <string name="system_achievement_list_undeleteable">系统成就清单不可删除</string>
     <string name="achievement_list_delete_message">确定要删除该成就清单吗？</string>
-
     <string name="user_achievement_not_empty_list_undeleteable">不可删除非空的成就清单。</string>
     <string name="menu_view">查看</string>
     <string name="menu_icon">图标</string>
     <string name="menu_add">添加</string>
-    <string name="dialog_title_repeat_effect">确认重复效果</string>
     <string name="dialog_select_task_create_new_task">创建待办事项</string>
     <string name="error_found_no_shop_item">找不到对应的商品</string>
     <string name="dialog_select_shop_item_create_new_item">创建商品</string>
@@ -1654,25 +1623,15 @@
     <string name="dialog_shop_settings_atm_interest">ATM日利率</string>
     <string name="atm_interest_desc">从 ATM 存款中获得了 %1$d 金币利息</string>
     <string name="atm_interest_input_limit">不能大于10%</string>
-
     <string name="condition_shop_open_loot_boxes">开箱得到指定物品一定次数</string>
     <string name="condition_desc_open_loot_boxes">开箱得到「%1$s」总计「%2$d」次</string>
-
     <string name="hint_hide_module_title">隐藏模块</string>
     <string name="hint_hide_module_desc">人升支持自由隐藏底部的模块。\n可以前往【设置】-【显示】中隐藏任何不需要的模块。</string>
-
     <string name="hint_pomodoro_sound_hint">提醒音效</string>
     <string name="hint_pomodoro_sound_hint_desc">提醒音效的音量由系统【媒体】音量控制。\n\n也可以前往【进阶设置】中关闭全局音效。</string>
     <string name="hint_pedometer_hint">计步</string>
     <string name="hint_pedometer_hint_desc">应用无法直接获取你的系统每日步数。\n因此，步数是通过传感器计算每日的总步数差值获取的。\n\n精准程度依赖于你启动应用的时机和重启手机等条件。</string>
     <string name="hint_pedometer_input_or_hide_hint_desc">作为自动计算的替代手段，可以选择手动输入步数。\n\n如果不需要该功能的话，可以前往【设置】-【显示】页面关闭计步模块。</string>
-
-    <string name="hint_login_method">登录方式</string>
-    <string name="hint_login_method_desc">由于独立开发成本所限与相关政策要求，人升只提供【Google】、【QQ】和【微博】授权登录方式。\n一般较少情况需要重新登录。\n\n当然，也选择离线体验人升除【世界模块】外的绝大部分功能。</string>
-    <string name="hint_login_method2">登录方式受限原因</string>
-    <string name="hint_login_method_desc2">微信登录：暂不支持个人/独立开发者使用。\n\n邮箱登录：按相关规定要求，不能仅支持邮箱登录。\n\n手机号登录：需要接入第三方服务，无法保证用户隐私安全和绿色权限申请，且成本过高（大部分需要申请读取手机状态权限）</string>
-
-
     <string name="hint_world_module">你好，世界</string>
     <string name="hint_world_module_desc">在世界模块，你可以加入一个团队领取团队任务，或者通过创建团队的形式分享你的任务设计。\n\n社交应用已经足够多了，这里只有纯粹的分享。</string>
     <string name="hint_world_module_moments">分享动态</string>
@@ -1686,21 +1645,17 @@
     <string name="dialog_crash_action_btn_skip_hint">暂时不再提示</string>
     <string name="title_activity_edit_category">编辑清单</string>
     <string name="hint_uncomplete_task">撤销完成</string>
-    <string name="hint_uncomplete_task_desc">人升提供多种方式撤销完成事项：\n1. 完成事项时，可以在底部弹出的提示框上点击"撤销"。\n\n2. 前往侧边栏的【历史】或顶部的【日历】页面，点击已结束事项上的撤销按钮。\n\n3. 在右上角菜单开启【显示已完成】，然后点击清单上的完成标记即可撤销。\n\n注：重复事项只允许当天撤销完成（不然也会立即逾期）；而团队事项涉及发表动态，不允许撤销。</string>
-
+    <string name="hint_uncomplete_task_desc">人升提供多种方式撤销完成事项：\n1. 完成事项时，可以在底部弹出的提示框上点击\"撤销\"。\n\n2. 前往侧边栏的【历史】或顶部的【日历】页面，点击已结束事项上的撤销按钮。\n\n3. 在右上角菜单开启【显示已完成】，然后点击清单上的完成标记即可撤销。\n\n注：重复事项只允许当天撤销完成（不然也会立即逾期）；而团队事项涉及发表动态，不允许撤销。</string>
     <string name="hint_punishment">经验值惩罚</string>
     <string name="hint_punishment_desc">当事项逾期或放弃时，你会损失部分经验值。\n\n如果实际完成了该事项，可以标记为完成状态，重新获取奖励。</string>
-
     <string name="hint_punishment_coin">金币惩罚</string>
     <string name="hint_punishment_coin_desc">金币惩罚默认是关闭的。\n\n你可以前往【设置】-【进阶】页面开启金币惩罚，调整相关系数。</string>
-
     <string name="statistics_time_7days">7天</string>
     <string name="title_searching_tab_team">团队</string>
     <string name="title_searching_tab_market">橱窗</string>
     <string name="title_searching_tab_user">用户</string>
     <string name="user_search_empty_text">没有找到符合的用户</string>
     <string name="activity_title_search">搜索🔍</string>
-
     <string name="hint_feedback_method_title">反馈</string>
     <string name="hint_feedback_method_desc">当遇到了任何问题，欢迎随时通过【关于】-【反馈】界面进行反馈。\n如果是比较紧急的问题，建议选择使用邮箱进行反馈。\n\n人升目前是款独立开发应用，甚至没有专门的测试人员，测试无法覆盖市面上所有的手机机型和版本（安卓也有各种OS魔改兼容性问题）。\n\n所以请提供相关信息以便我们进行问题修复。</string>
     <string name="switch_cloud_auto_backup_ignore_media">忽略媒体（图片）文件</string>
@@ -1755,7 +1710,7 @@
     <string name="lab_icon_set_v2">属性图标 2.0</string>
     <string name="lab_new_icon_set_desc">经过重新设计的属性图标。</string>
     <string name="menu_overdue">逾期</string>
-    <string name="hint_submit_activity">点击"发表"或"不发表"动态后，服务端将会结算奖励，不可撤销完成。\n若现在需要撤销完成，可点击"取消"按钮。</string>
+    <string name="hint_submit_activity">点击\"发表\"或\"不发表\"动态后，服务端将会结算奖励，不可撤销完成。\n若现在需要撤销完成，可点击\"取消\"按钮。</string>
     <string name="hint_edit_completed_time">修改重复事项完成时间时，如果导致重复事项的前后顺序变动，可能会影响事项详情页面的统计异常。\n\n该问题会在后续改进统计的计算方式时解决。</string>
     <string name="cannot_edit_completed_task">不可编辑已完成的事项</string>
     <string name="freeze_or_unfreeze">冻结/解冻</string>
@@ -1804,7 +1759,6 @@
     <string name="lab_smart_list_week_desc">显示本周即将期限的所有事项</string>
     <string name="lab_smart_list_month_title">月事项</string>
     <string name="lab_smart_list_month_desc">显示本月即将期限的所有事项</string>
-
     <string name="effect_countdown_notification_title">倒计时中-</string>
     <string name="effect_countdown_notification_end">已结束</string>
     <string name="effect_countdown_notification_remaining">剩余时间：</string>
@@ -1812,19 +1766,22 @@
     <string name="lab_new_example_task_and_items_desc">一组新的示例事项，演示了重复事项的部分用法与开箱等商品机制。</string>
     <string name="btn_ignore">忽略</string>
     <string name="sample_task_get_up_early">早起</string>
-    <string name="sample_task_get_up_early_desc">开始时间-期限时间可以用来指定事项的可完成时间段。\n如果新建事项时没有指定期限时间到小时，那么事项会在次日0点逾期。你可以指定每个事项的具体期限时间，或者在"新事项设置"中全局设置默认的逾期时间。</string>
-
+    <string name="sample_task_get_up_early_desc">开始时间-期限时间可以用来指定事项的可完成时间段。\n如果新建事项时没有指定期限时间到小时，那么事项会在次日0点逾期。你可以指定每个事项的具体期限时间，或者在\"新事项设置\"中全局设置默认的逾期时间。</string>
+    <!-- in xx days -->
     <string name="tag_deadline_v2_relative">%1$s期限</string>
     <string name="tag_deadline_v2_with_time">%1$s期限</string>
     <string name="tag_deadline_v2_with_date">%1$s期限</string>
+    <!-- today/tomorrow/yesterday -->
     <string name="tag_deadline_v2_relative_special">%1$s期限</string>
+    <!-- in xx days -->
     <string name="tag_start_v2_relative">%1$s开始</string>
     <string name="tag_start_v2_with_time">%1$s开始</string>
     <string name="tag_start_v2_with_date">%1$s开始</string>
+    <!-- today/tomorrow/yesterday -->
     <string name="tag_start_v2_relative_special">%1$s开始</string>
     <string name="relative_time_later_v2">%1$d天后</string>
-
     <string name="statistics_complete_count">事项完成数: %1$d</string>
+    <string name="shop_statistics_this_year">今年</string>
     <string name="action_open_with_browser">使用浏览器打开</string>
     <string name="place_holder_not_set">未设置</string>
     <string name="dialog_title_exp_reward">经验值奖励</string>
@@ -1847,7 +1804,6 @@
     <string name="pomodoro_hint_extra_time_desc">点击这个按钮可以增加你的专注时长，并且获得额外的番茄奖励。</string>
     <string name="hint_history_item">历史记录</string>
     <string name="hint_history_item_desc">可以在【历史】页面重新查看或者处理所有历史记录（补打卡）。\n点击左上角的按钮即可选择进入【历史】页面。</string>
-    <string name="hint_add_widget_system_version_not_supported">当前系统版本不支持该操作，你可以尝试在桌面上手动添加。</string>
     <string name="me_achievement_completed_count">成就</string>
     <string name="me_feelings_count">感想</string>
     <string name="tasks_statistic_current_streak">连续</string>
@@ -1857,9 +1813,8 @@
     <string name="add_to_do_taptarget_deadline_specify_deadline_time_tominutes">指定期限时间到具体某分钟</string>
     <string name="hint_shop_item_timer_hint_with_permission">已经发送倒计时通知，可在通知栏查看倒计时状态并操作</string>
     <string name="hint_shop_item_timer_hint_without_permission">缺失通知权限，倒计时通知可能会发送失败，请开启通知权限</string>
-    <string name="starter_task_compatibility">兼容性配置（请务必确认）</string>
-    <string name="starter_task_compatibility_desc">为了正常使用人升的部分功能（【提醒】、番茄钟、桌面小部件、倒计时等），你可能需要参考这篇文章进行一些配置工作，点入详情可跳转链接：http://wiki.lifeupapp.fun/zh-cn/#/guide/compatibility</string>
     <string name="btn_known_issues">已知问题</string>
+    <string name="hint_add_widget_system_version_not_supported">当前系统版本不支持该操作，你可以尝试在桌面上手动添加。</string>
     <string name="statistics_overdue_count">逾期: %1$d</string>
     <string name="statistics_give_up_count">放弃: %1$d</string>
     <string name="vibrate_mode">振动模式</string>
@@ -1891,7 +1846,6 @@
     <string name="add_to_do_min_before_start">开始前%1$d分钟</string>
     <string name="add_to_do_hours_min_before_start">开始前%1$d小时%2$d分钟</string>
     <string name="title_synthesis_page">合成</string>
-
     <string name="function_that_is_still_working_on">开发者正在开发该功能，请等待更新后再试试吧〜</string>
     <string name="title_synthetic_material">合成素材</string>
     <string name="title_synthetic_result">合成结果</string>
@@ -1916,7 +1870,7 @@
     <string name="button_skip">跳过</string>
     <string name="pomodoro_dialog_skip_message">你确定要跳过工作时长？你将失去获得一个完整的番茄的机会。或者你可以选择暂停...</string>
     <string name="starter_task_check_unstarted_task">检查未开始的任务</string>
-    <string name="starter_task_check_unstarted_task_desc">不在可完成时间段的任务会被折叠起来。如果你在该事项下方没见到"早起"事项，试试点击最底下的展开折叠按钮（三角形）。</string>
+    <string name="starter_task_check_unstarted_task_desc">不在可完成时间段的任务会被折叠起来。如果你在该事项下方没见到\"早起\"事项，试试点击最底下的展开折叠按钮（三角形）。</string>
     <string name="dialog_coin_input_btn_fixed">固定</string>
     <string name="dialog_coin_input_btn_auto">自动</string>
     <string name="dialog_coin_input_btn_random">随机</string>
@@ -1929,11 +1883,11 @@
     <string name="about_btn_email">邮件</string>
     <string name="about_coffee_purchase_success">感谢你的咖啡！</string>
     <string name="about_title_a_letter">一封信</string>
+    <string name="about_title_a_letter_desc">感谢你购买我们的应用，这对我们来说是最大的支持。我们一直尝试打造使用体验极佳的应用，成为应用的标杆。\n\n《人升》中功能一次性收费、没有广告、没有内购（如果咖啡不算的话）、无订阅制、体积小巧但功能模块丰富、毫秒级别的启动速度、权限申请克制、用户私有化保管数据。\n\n我们受限于人力、精力和成本，有很多功能目前都无法实现，但我们会努力前行。\n\n如果应用真的对你有所帮助，请考虑为我们的应用评分、介绍给身边的人或者买我们一杯咖啡吧！ </string>
     <string name="about_feedback_short">反馈</string>
     <string name="about_btn_buy_developers_a_coffee">给开发者买一杯咖啡</string>
     <string name="coffee_choose_coffee">选择咖啡</string>
     <string name="coffee_list_not_found_or_empty">我们没有找到咖啡列表，请稍后再试。</string>
-    <string name="about_title_a_letter_desc">感谢你购买我们的应用，这对我们来说是最大的支持。我们一直尝试打造使用体验极佳的应用，成为应用的标杆。\n\n《人升》中功能一次性收费、没有广告、没有内购（如果咖啡不算的话）、无订阅制、体积小巧但功能模块丰富、毫秒级别的启动速度、权限申请克制、用户私有化保管数据。\n\n我们受限于人力、精力和成本，有很多功能目前都无法实现，但我们会努力前行。\n\n如果应用真的对你有所帮助，请考虑为我们的应用评分、介绍给身边的人或者买我们一杯咖啡吧！ </string>
     <string name="coffee_anonymous_coffee">匿名咖啡</string>
     <string name="coffee_anonymous_coffee_desc">似乎你当前尚未登录，确定要继续购买咖啡吗？</string>
     <string name="about_app_desc">“升级你的人生”\n一款两个人独立开发的纯净简约的游戏化「待办事项」与「习惯养成」应用</string>
@@ -1958,9 +1912,6 @@
     <string name="dialog_reward_settings_title">奖励设置</string>
     <string name="dialog_reward_settings_message">当解锁成就后，你可以获得到一些内置的经验值或金币奖励。\n\n你可以选择是否要禁用对应奖励。\n\n即便关掉了所有奖励，至少你还是能看到庆祝动画效果。</string>
     <string name="hint_synthesizing">合成中...</string>
-    <string name="zh_feedback_method">反馈方式</string>
-    <string name="zh_feedback_method_txc">公开反馈平台</string>
-    <string name="zh_feedback_method_internal">内部反馈</string>
     <string name="to_do_filter_do_not_fold_any_tasks">不进行折叠</string>
     <string name="to_do_filter_fold_today">折叠非今天事项（开始时间）</string>
     <string name="to_do_filter_fold_in_7_days">折叠非七天内事项（开始时间）</string>
@@ -1986,26 +1937,36 @@
     <string name="timer_preference_reward_title">奖励</string>
     <string name="timer_preference_misc_title">杂项</string>
     <string name="create_shortcut_success">应用已申请创建快捷方式。\n如果没有创建成功，可以在应用设置中检查权限和相应桌面程序是否支持。</string>
-    <string name="shop_statistics_this_year">今年</string>
     <string name="sort_coin">金币</string>
     <string name="permission_activity_recognition_request_title">需要健身运动识别权限</string>
     <string name="permission_activity_recognition_request_message">自动计算每日步数需要使用到健身运动识别权限。\n这是个可选功能，你也可以选择手动输入步数或者隐藏该模块。</string>
+    <string name="starter_task_compatibility">兼容性配置（请务必确认）</string>
+    <string name="starter_task_compatibility_desc">为了正常使用人升的部分功能（【提醒】、番茄钟、桌面小部件、倒计时等），你可能需要参考这篇文章进行一些配置工作，点入详情可跳转链接：http://wiki.lifeupapp.fun/zh-cn/#/guide/compatibility</string>
+    <string name="hint_login_method">登录方式</string>
+    <string name="hint_login_method_desc">由于独立开发成本所限与相关政策要求，人升只提供【Google】、【QQ】和【微博】授权登录方式。\n一般较少情况需要重新登录。\n\n当然，也选择离线体验人升除【世界模块】外的绝大部分功能。</string>
+    <string name="hint_login_method2">登录方式受限原因</string>
+    <string name="hint_login_method_desc2">微信登录：暂不支持个人/独立开发者使用。\n\n邮箱登录：按相关规定要求，不能仅支持邮箱登录。\n\n手机号登录：需要接入第三方服务，无法保证用户隐私安全和绿色权限申请，且成本过高（大部分需要申请读取手机状态权限）</string>
+    <string name="zh_feedback_method">反馈方式</string>
+    <string name="zh_feedback_method_txc">公开反馈平台</string>
+    <string name="zh_feedback_method_internal">内部反馈</string>
     <string name="error_msg_device_not_support_login_method">该设备不支持该登录方式</string>
     <string name="login_v2_connect_to_the_world_module">连接至世界模块</string>
     <string name="login_v2_sign_in_with_google">使用谷歌登录</string>
-    <string name="login_v2_sign_in_with_weibo">使用微博登录</string>
     <string name="login_v2_sign_in_with_qq">使用 QQ 登录</string>
+    <string name="login_v2_sign_in_with_weibo">使用微博登录</string>
+    <string name="login_v2_sign_in_with_facebook">使用 Facebook 登录</string>
     <string name="login_v2_offline_mode">离线模式</string>
     <string name="custom_sound_effect_achievement_unlocked">解锁成就</string>
-    <string name="to_do_item_detail_pushiment_give_up_message">你确定要接受惩罚吗？\n（*目前惩罚事项不支持直接撤销，但可以前往历史页面设为完成状态拿到奖励）</string>
-    <string name="hint_punishment_task">惩罚事项</string>
-    <string name="hint_punishment_task_desc">（试验性功能，该功能可能存在功能统计不完整、不生效的问题，遇到问题可以向开发者反馈。）\n\n惩罚事项是指【仅接受惩罚】的事项，通常可配合“无限”重复频次实现坏习惯记录。如果你需要既能完成也可以接受惩罚的事项，使用普通事项即可。\n\n惩罚事项会默认执行“放弃”操作。\n\n并且经验值和金币的惩罚系数会强制设置为1。相当于你设置的经验值和金币奖励值就是最终的惩罚数值。\n\n注意：物品仍是奖励。你可以设置一些惩罚性质的物品。</string>
-    <string name="task_type_penalty">惩罚事项（试验）</string>
+    <string name="brvah_load_end">没有更多数据</string>
+    <string name="brvah_load_failed">加载失败</string>
+    <string name="brvah_loading">加载中...</string>
+    <string name="to_do_item_detail_pushiment_give_up_message">你确定要接受惩罚吗？\n（*目前负面事项不支持直接撤销，但可以前往历史页面设为完成状态拿到奖励）</string>
+    <string name="hint_punishment_task">负面事项</string>
+    <string name="hint_punishment_task_desc">（试验性功能，该功能可能存在功能统计不完整、不生效的问题，遇到问题可以向开发者反馈。）\n\n负面事项是指【仅接受惩罚】的事项，通常可配合“无限”重复频次实现坏习惯记录。如果你需要既能完成也可以接受惩罚的事项，使用普通事项即可。\n\n负面事项会默认执行“放弃”操作。\n\n并且经验值和金币的惩罚系数会强制设置为1。相当于你设置的经验值和金币奖励值就是最终的惩罚数值。\n\n注意：物品仍是奖励。你可以设置一些惩罚性质的物品。</string>
+    <string name="task_type_penalty">负面事项（试验）</string>
     <string name="to_do_item_action_deadline">期限</string>
     <string name="vibrate_custom">自定义</string>
     <string name="vibrate_custom_desc">这是一个进阶功能，设置振动间隔。\n\n数字的单位为毫秒，也就是说1000代表1秒。\n\n数字以空格做间隔，奇数位置的数字代表不振动时长，偶数位置的数字代表振动时长。\n\n比如500 1000 500 2000，代表会在0.5秒后振动1秒，然后暂停0.5秒后再振动2秒。</string>
-    <string name="title_activity_login">登录</string>
-    <string name="login_v2_sign_in_with_facebook">使用 Facebook 登录</string>
     <string name="alarm_v2_message_ticker">待办: %1$s</string>
     <string name="login_last_login_method">上次登录方式：%1$s</string>
     <string name="login_method_google">谷歌</string>
@@ -2017,7 +1978,7 @@
     <string name="shop_item_detail_title_effect">效果</string>
     <string name="common_error_message">操作失败: %1$s</string>
     <string name="settings_task_delete_calendar_account">删除人升日历账号</string>
-    <string name="default_new_skill_name">NEW</string>
+    <string name="default_new_skill_name">新建</string>
     <string name="custom_attribution_action_delete">删除</string>
     <string name="attribution_delete_confirm">你确定要删除该属性吗？</string>
     <string name="btn_statistic">统计</string>
@@ -2032,12 +1993,25 @@
     <string name="custom_attribution_menu_show_hidden">显示已隐藏</string>
     <string name="custom_attribution_action_enable">启用</string>
     <string name="add_to_do_hint_please_input_subtasks">请先输入子任务</string>
-    <string name="brvah_load_end">没有更多数据</string>
-    <string name="brvah_load_failed">加载失败</string>
-    <string name="brvah_loading">加载中...</string>
     <string name="backup_file_size_alarm_desc">我们检测到了你的备份文件体积大于 10MB。\n这可能会比较严重消耗你的流量以及服务器资源。\n\n<b>建议：前往备份页面，设置“忽略媒体文件”或者降低自动备份频率。</b></string>
     <string name="dialog_backup_file_size_alarm_title">备份文件体积警告</string>
     <string name="pomo_eat_exp">食用经验值</string>
     <string name="pomo_eat_exp_summary">100 点</string>
     <string name="pomo_eat_attr_selection">奖励属性</string>
+    <string name="action_copy">复制</string>
+    <string name="hint_dropbox_token_expired_or_empty">你可能需要在[备份]页面重新配置DropBox备份。</string>
+    <!-- from the picture selections/showing framework -->
+    <string name="bga_pp_all_image">所有图片</string>
+    <string name="bga_pp_choose">选择</string>
+    <string name="bga_pp_confirm">确定</string>
+    <string name="bga_pp_download_img_failure">下载到图片失败</string>
+    <string name="bga_pp_save_img_failure">保存图片失败，再试试?</string>
+    <string name="bga_pp_save_img_success_folder">图片已保存至 %s 文件夹</string>
+    <string name="bga_pp_toast_photo_picker_max">最多只能选择 %1$d 张图片</string>
+    <string name="bga_pp_view_photo">查看图片</string>
+
+    <string name="tag_repeat_custom_days">周期任务-每%1$d天</string>
+    <string name="add_to_do_custom_days">每%1$d天</string>
+    <string name="setting_task_swipe_to_switch_list_opposite_direction">反向（物理滑动方向）</string>
+    <string name="hint_add_achievement">你正在添加<b>成就清单</b>。\n如果你想要添加<b>成就</b>的话，需要在<b>成就清单</b>内部点击+号按钮。</string>
 </resources>

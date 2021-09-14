@@ -1239,7 +1239,7 @@
     <string name="auto_backup_title_sync">同步</string>
     <string name="auto_backup_last_sync_time">上次同步時間：%1$s</string>
     <string name="btn_sync">同步</string>
-    <string name="auto_backup_last_sync_failure">上次同步失敗：%1$s\n請檢查您的網路連線或者 WebDAV 配置。</string>
+    <string name="auto_backup_last_sync_failure">上次同步失敗：%1$s\n\n請檢查您的網路連線或者 WebDAV/DropBox 配置。</string>
     <string name="btn_config">配置</string>
     <string name="btn_upload">上傳</string>
     <string name="btn_download">下載</string>
@@ -1990,4 +1990,20 @@
     <string name="dialog_shop_settings_icon_crop_style_round_rect">圓角矩形</string>
     <string name="dialog_shop_settings_icon_crop_style_square">矩形</string>
     <string name="attribution_hide_confirm">確定要隱藏該屬性嗎？\n\n內置屬性不允許直接刪除。你可以在該頁面右上角重新顯示該屬性。</string>
+    <string name="action_copy">複製</string>
+    <string name="hint_dropbox_token_expired_or_empty">你可能需要在[備份]頁面重新配置DropBox備份。</string>
+    <string name="setting_task_swipe_to_switch_list_opposite_direction">Opposite direction</string>
+    <string name="hint_add_achievement">你正在添加<b>成就清單</b>。\n如果你想要添加<b>成就</b>的話，需要在<b>成就清單</b>內部點擊+號按鈕。</string>
+
+    <string name="bga_pp_all_image">所有圖片</string>
+    <string name="bga_pp_choose">選擇</string>
+    <string name="bga_pp_confirm">確認</string>
+    <string name="bga_pp_download_img_failure">下載到圖片失敗</string>
+    <string name="bga_pp_save_img_failure">保存圖片失敗</string>
+    <string name="bga_pp_save_img_success_folder">圖片已保存至 %s 文件夾</string>
+    <string name="bga_pp_toast_photo_picker_max">最多只能選擇 %1$d 張圖片</string>
+    <string name="bga_pp_view_photo">查看圖片</string>
+
+    <string name="tag_repeat_custom_days">重複 - 每 %1$d 日</string>
+    <string name="add_to_do_custom_days">每 %1$d 日</string>
 </resources>

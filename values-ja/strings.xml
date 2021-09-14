@@ -1262,7 +1262,7 @@
     <string name="auto_backup_title_sync">同期</string>
     <string name="auto_backup_last_sync_time">最終同期時間: %1$s</string>
     <string name="btn_sync">同期</string>
-    <string name="auto_backup_last_sync_failure">最後の同期に失敗しました：%1$s\nネットワークの接続状況やWebDAVの設定を確認してください。</string>
+    <string name="auto_backup_last_sync_failure">最後の同期に失敗しました：%1$s\n\nネットワークの接続状況や同期の設定を確認してください。</string>
     <string name="btn_config">コンフィグ</string>
     <string name="btn_upload">アップロード</string>
     <string name="btn_download">ダウンロード</string>

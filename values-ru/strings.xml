@@ -1218,7 +1218,7 @@
     <string name="auto_backup_title_sync">СИНХ</string>
     <string name="auto_backup_last_sync_time">Время последней синхронизации: %1$s</string>
     <string name="btn_sync">СИНХ</string>
-    <string name="auto_backup_last_sync_failure">Последняя синхронизация не удалась: %1$s\nПожалуйста, проверьте подключение к сети или конфигурацию WebDAV.</string>
+    <string name="auto_backup_last_sync_failure">Последняя синхронизация не удалась: %1$s\n\nПожалуйста, проверьте подключение к сети или конфигурацию WebDAV/DropBox.</string>
     <string name="btn_config">КОНФИГУРАЦИЯ</string>
     <string name="btn_upload">ЗАГРУЗИТЬ</string>
     <string name="btn_download">СКАЧАТЬ</string>

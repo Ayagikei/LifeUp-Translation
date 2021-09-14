@@ -1278,7 +1278,7 @@
     <string name="auto_backup_title_sync">Synchronisierung</string>
     <string name="auto_backup_last_sync_time">Letzte Synchronisationszeit: %1$s</string>
     <string name="btn_sync">SYNC</string>
-    <string name="auto_backup_last_sync_failure">Letzte Synchronisierung fehlgeschlagen: %1$s\nBitte überprüfen Sie Ihre Netzwerkverbindung oder die WebDAV-Konfiguration.</string>
+    <string name="auto_backup_last_sync_failure">Letzte Synchronisierung fehlgeschlagen: %1$s\n\nBitte überprüfen Sie Ihre Netzwerkverbindung oder die Backup-Konfiguration.</string>
     <string name="btn_config">CONFIG</string>
     <string name="btn_upload">UPLOAD</string>
     <string name="btn_download">DOWNLOAD</string>
