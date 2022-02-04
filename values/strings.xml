@@ -358,7 +358,7 @@
     <string name="lifeup">LifeUp</string>
     <string name="notification_content">You have a task to complete:&#160;</string>
     <string name="notification_ticker">TO-DO</string>
-    <string name="step_to_str">Gain [Strength] exp with steps</string>
+    <string name="step_to_str">Gain exp with steps</string>
     <string name="likes_exchange_charm">Gain [Charm] exp with likes</string>
     <string name="using_days_streaks_exchange_endurance">Gain [Endurance] exp by using day streaks</string>
     <string name="finish_task">Completed task</string>
@@ -372,7 +372,7 @@
     <string name="backup_restore_success">Restore successful</string>
     <string name="backup_restore_failed">Restore failed</string>
     <string name="backup_success">Backup successful:&#160;</string>
-    <string name="backup_success_custom">Backup successful:&#160;</string>
+    <string name="backup_success_custom">Backup successful</string>
     <string name="backup_failed">Backup failed:&#160;</string>
     <string name="backup_failed_custom">Backup failed</string>
     <string name="loading">Loading…</string>
@@ -464,6 +464,7 @@
     <string name="alphabet">Alphabetical</string>
     <string name="create_time">Time Created</string>
     <string name="no_more_to_do">No tasks. Try adding some!</string>
+    <string name="all_done_today">You completed all tasks for the day!</string>
     <string name="tab_team">Team</string>
     <string name="tab_moments">Moments</string>
     <string name="tab_board">Board</string>
@@ -1024,7 +1025,7 @@
     <string name="custom_attribution_reset">RESET</string>
     <string name="custom_attribution_hint">Adding and removing attributes is not supported yet.</string>
     <string name="setting_custom_attribute">Customize attributes</string>
-    <string name="setting_custom_attribute_desc">Customize the icon and the text of the current attributes</string>
+    <string name="setting_custom_attribute_desc">Customize existing attributes and design your skills at will (such as [drawing], [writing], [programming], etc.).\nNote: This feature will not affect the profile page and the functions of the world module.</string>
     <string name="webdav_account">WebDAV Account</string>
     <string name="attachment">Attachment</string>
     <string name="lab_compact_mode_sample">Learning language</string>
@@ -1049,14 +1050,14 @@
     <string name="community_desc">Community is now available in every time zone.\n\nExplore it!</string>
     <string name="btn_disable">Disable</string>
     <string name="btn_enable">Enable</string>
-    <string name="default_urgency">Default Importance Degree</string>
-    <string name="default_difficulty">Default Difficulty Degree</string>
-    <string name="default_coin">Default Coin Number</string>
+    <string name="default_urgency">Importance Degree</string>
+    <string name="default_difficulty">Difficulty Degree</string>
+    <string name="default_coin">Coin Number</string>
     <string name="default_reward_title">Default Reward Setting</string>
     <string name="default_task_title">Default Task Setting</string>
     <string name="default_remind">Default Reminder Time</string>
-    <string name="default_repeat">Default Repeat Frequency</string>
-    <string name="default_deadline">Default Deadline Date</string>
+    <string name="default_repeat">Repeat Frequency</string>
+    <string name="default_deadline">Deadline Date</string>
     <string name="title_activity_new_default">New task default setting</string>
     <string name="blank">Blank</string>
     <string name="setting_task_new_default_setting">New Task Default Settings</string>
@@ -1271,7 +1272,7 @@
     <string name="auto_backup_title_sync">Sync</string>
     <string name="auto_backup_last_sync_time">Last sync time: %1$s</string>
     <string name="btn_sync">SYNC</string>
-    <string name="auto_backup_last_sync_failure">Last sync failed: %1$s\n\nPlease check your network connection or the WebDAV/DropBox configuration.</string>
+    <string name="auto_backup_last_sync_failure">Last sync failed: %1$s\n\nPlease check your network connection or the WebDAV/DropBox/Google Drive configuration.</string>
     <string name="btn_config">CONFIG</string>
     <string name="btn_upload">UPLOAD</string>
     <string name="btn_download">DOWNLOAD</string>
@@ -1342,6 +1343,7 @@
     <string name="tomatoes_action_sell">SELL</string>
     <string name="tomatoes_eat_reward_desc">to gain %1$d [%2$s] exps</string>
     <string name="tomatoes_sell_reward_desc">to gain %1$d coins</string>
+    <string name="tomatoes_exchange_reward_desc">for x%1$d [%2$s]</string>
     <string name="eat_tomatoes_hint_text">eat</string>
     <string name="sell_tomatoes_hint_text">sell</string>
     <string name="lab_tomatoes_example_desc">25-minute work session, 5-minute break</string>
@@ -1357,7 +1359,7 @@
     <string name="setting_custom_enable_sound_effect_desc">Enable sound effects. The volume can be set by the system media volume.</string>
     <string name="dialog_select_local_pictures_btn">Select local pictures</string>
     <string name="btn_change_icon">Change icon</string>
-    <string name="default_coin_sub_task">Default Coin Number for SubTasks</string>
+    <string name="default_coin_sub_task">Coin Number for SubTasks</string>
     <string name="title_dialog_default_coin_number_subtask">Default Coin Number for SubTasks</string>
     <string name="feellings_search_task_content">Task Content</string>
     <string name="feelings_only_fav">Only Fav</string>
@@ -1392,6 +1394,8 @@
     <string name="hint_using_too_many_items">Cannot use more than 50 items with special effects at a time</string>
     <string name="effect_desc_in_coins">Increase %1$d coins</string>
     <string name="effect_desc_de_coins">Decrease %1$d coins</string>
+    <string name="effect_desc_in_coins_random">Increase %1$d-%2$d coins</string>
+    <string name="effect_desc_de_coins_random">Decrease %1$d-%2$d coins</string>
     <string name="effect_desc_in_exp">Add %1$d Exp points to %2$s </string>
     <string name="effect_desc_de_exp">Remove %1$d Exp points from %2$s </string>
     <string name="effect_desc_item_synthesis">%1$d items to synthesize a(n) %2$s </string>
@@ -1540,7 +1544,8 @@
 
     <string name="dialog_enable_auto_sum_short">Auto</string>
     <string name="status_pomodoro_card_title">Pomodoros</string>
-    <string name="status_pomodoros_today_focus">today\'s focus time\n(in mins)</string>
+    <string name="status_pomodoros_today_focus_mins">today\'s focus time\n(in mins)</string>
+    <string name="status_pomodoros_today_focus_hours">today\'s focus time\n(in hours)</string>
     <string name="status_today_tomato_earned">tomatoes\ngained today</string>
     <string name="status_tomato_total_amount">total amount\ntomatoes</string>
     <string name="dialog_category_hide_hint_button">OK</string>
@@ -1581,7 +1586,7 @@
     <string name="pomodoro_empty_text">there is no pomodoro record here</string>
     <string name="title_activity_pomodoro_record">Pomodoro Record</string>
     <string name="pomodoro_record_focus_time">focused %1$d minute(s)</string>
-    <string name="place_a_app_widget_method_hint">Tap here to place an app widget on the home screen\n\nThe method of placing an app widget on the home screen varies by home screen program,\nbut generally you can long press a blank part of the home screen</string>
+    <string name="place_a_app_widget_method_hint">Tap here to place an app widget on the home screen\n\nThe method of placing an app widget or resize it on the home screen varies by home screen program,\nbut generally you can long press a blank part of the home screen</string>
     <string name="user_achievement_shop_item_reward_title">Earned Item!</string>
     <string name="xml_add_user_achievment_complete_reward">Item Reward</string>
     <string name="vip_extension_theme_color"></string>
@@ -1666,6 +1671,7 @@
     <string name="btn_next">NEXT</string>
     <string name="lifeup_crash">Crash</string>
     <string name="lifeup_crash_description">Sorry about the crash.
+        \nIf it does not affect normal use, you can tick "Don\'t show again" and click the "Continue" button.
         \nIf it makes you unable to use the app normally, you can choose to wait for the update to fix the bug, or enable Safe-Mode or export your data first.
     \n\nNote: In Safe-Mode, the app will not crash in most situations, but some functions may be broken and some pages may be shown incorrectly.</string>
     <string name="btn_enable_safe_mode">Enable Safe Mode</string>
@@ -1677,7 +1683,7 @@
     <string name="dialog_shop_settings_atm_interest">ATM daily interest rate</string>
     <string name="atm_interest_desc">Earned %1$d coins interest on ATM</string>
     <string name="atm_interest_input_limit">should not be greater than 10%</string>
-
+    <string name="return_discount_input_limit">should not be greater than 100%</string>
     <string name="condition_shop_open_loot_boxes">Get an item from Loot Boxes a specified number of times</string>
     <string name="condition_desc_open_loot_boxes">Get「%1$s」 「%2$d」times from Loot Boxes</string>
 
@@ -1757,7 +1763,7 @@
     <string name="hint_multiple_reminders">Multiple reminders</string>
     <string name="hint_multiple_reminders_desc">To setup multiple reminders, you can create subtasks and set up a reminder for each of them.</string>
     <string name="dialog_overdue_tasks_hint">Click the \"Overdue\" button to change the state of the task.\nYou can also freeze suspended tasks in advance by long pressing the task card in the tasks page to avoid being punished.</string>
-    <string name="default_deadline_time">Default Deadline Time</string>
+    <string name="default_deadline_time">Deadline Time</string>
     <string name="time_the_next_day">%1$s the next day</string>
     <string name="setting_task_new_default_setting_desc">Customize the default settings when creating a new task</string>
     <string name="backup_documents">\nTap here to view backup documents\n</string>
@@ -1823,11 +1829,11 @@ Go to the Shop-Inventory page (4th position of navbar) to open it!</string>
     <string name="lab_smart_list_all_title">All</string>
     <string name="lab_smart_list_all_desc">Show all tasks</string>
     <string name="lab_smart_list_day_title">Day list</string>
-    <string name="lab_smart_list_day_desc">Show tasks that will be expired today</string>
+    <string name="lab_smart_list_day_desc">Show tasks that will be <b>expired today</b></string>
     <string name="lab_smart_list_week_title">Week list</string>
-    <string name="lab_smart_list_week_desc">Show tasks that will be expired this week (Monday-Sunday)</string>
+    <string name="lab_smart_list_week_desc">Show tasks that will be <b>expired this week</b> (Monday-Sunday)</string>
     <string name="lab_smart_list_month_title">Month list</string>
-    <string name="lab_smart_list_month_desc">Show tasks that will be expired this month</string>
+    <string name="lab_smart_list_month_desc">Show tasks that will be <b>expired this month</b></string>
     <string name="effect_countdown_notification_title">Counting down-</string>
     <string name="effect_countdown_notification_end">The countdown is over</string>
     <string name="effect_countdown_notification_remaining">remaining:&#160;</string>
@@ -1883,7 +1889,7 @@ If you need to schedule multiple tasks in a repetition cycle, you can use counti
     <string name="me_feelings_count">Feelings</string>
     <string name="tasks_statistic_current_streak">Streak</string>
     <string name="shop_item_effect_countdown_action_end">End</string>
-    <string name="shop_item_effect_countdown_action_pause">Pause (need to use one more item to resume)</string>
+    <string name="shop_item_effect_countdown_action_pause">Add up</string>
     <string name="restart_success">Restart successful</string>
     <string name="add_to_do_taptarget_deadline_specify_deadline_time_tominutes">Specify deadline time to minutes</string>
     <string name="hint_shop_item_timer_hint_with_permission">A countdown notification has been sent, you can check the countdown status in the notification bar and modify it.</string>
@@ -1941,7 +1947,7 @@ If you need to schedule multiple tasks in a repetition cycle, you can use counti
     <string name="shop_item_effect_countdown_action_resume">Resume</string>
     <string name="effect_count_down_notification_pausing">Pausing..</string>
     <string name="shop_item_effect_countdown_action_close">Close</string>
-    <string name="shop_item_effect_countdown_action_pause_but_stay">Pause but stay</string>
+    <string name="shop_item_effect_countdown_action_pause_but_stay">Pause</string>
     <string name="toast_got_coins">Got %1$d coin(s)</string>
     <string name="pomodoro_dialog_skip_title">Skip</string>
     <string name="button_skip">SKIP</string>
@@ -1955,7 +1961,7 @@ If you need to schedule multiple tasks in a repetition cycle, you can use counti
     <string name="about_documents">Documents</string>
     <string name="about_title_app">App</string>
     <string name="about_privacy_terms">Privacy Terms</string>
-    <string name="about_title_developer">Designer</string>
+    <string name="about_title_developer">Designers</string>
     <string name="about_title_translators">Translators</string>
     <string name="about_btn_email">Email</string>
     <string name="about_coffee_purchase_success">Thanks for your coffee!</string>
@@ -2026,7 +2032,7 @@ If you need to schedule multiple tasks in a repetition cycle, you can use counti
     <string name="hint_login_method_desc2">this_string_only_available_in_specific_language_hint_login_method_desc2</string>
     <string name="zh_feedback_method">this_string_only_available_in_specific_language_zh_feedback_method</string>
     <string name="zh_feedback_method_txc">this_string_only_available_in_specific_language_zh_feedback_method_txc</string>
-    <string name="zh_feedback_method_internal">this_string_only_available_in_specific_language_zh_feedback_method_internal</string>
+    <string name="zh_feedback_method_internal">In-app feedback</string>
     <string name="error_msg_device_not_support_login_method">The device does not support this login method</string>
     <string name="login_v2_connect_to_the_world_module">Connect to the world module</string>
     <string name="login_v2_sign_in_with_google">Sign In With Google</string>
@@ -2091,6 +2097,115 @@ If you need to schedule multiple tasks in a repetition cycle, you can use counti
 
     <string name="tag_repeat_custom_days">Repeat - Every %1$d days</string>
     <string name="add_to_do_custom_days">Every %1$d days</string>
+    <string name="custom_attribution_dialog_message">The customized content will not be uploaded to the server, and will not affect the display of the world module and profile page.</string>
+
+    <string name="feedback_method_dialog_title">Feedback channels</string>
+    <string name="feedback_method_internal">In-app feedback</string>
+    <string name="feedback_method_github">Github issues</string>
+    <string name="feedback_method_email">Email</string>
+    <string name="shop_effect_unusable_desc">This item is unusable</string>
     <string name="setting_task_swipe_to_switch_list_opposite_direction">Opposite direction</string>
     <string name="hint_add_achievement">You are adding <b>a new list</b> of achievements.\nIf you want to add <b>an achievement</b>, you need to click the + button in the achievement list.</string>
+    <string name="pomodoro_mode_pomodoro">Pomodoro</string>
+    <string name="pomodoro_mode_timer">Timer</string>
+    <string name="warning_switch_timer_mode_when_pomodoro_counting">Please end the countdown before changing to the timer mode.</string>
+    <string name="warning_switch_timer_mode_when_timing">Please end the timer before changing to the pomodoro mode.</string>
+    <string name="pomodoro_timer_dialog_complete_title">Complete</string>
+    <string name="pomodoro_timer_dialog_complete_message">Are you sure you want to complete this timing?\n\nYou will receive %1$d tomato(es).</string>
+    <string name="button_complete">COMPLETE</string>
+    <string name="toast_tomato_earned">Earned %1$d tomato(es)</string>
+    <string name="pomodoro_timer_give_up">Give up</string>
+    <string name="pomodoro_timer_give_up_message">Are you sure you want to give up this timing?\nThis will cancel your timing record and Pomodoro rewards.</string>
+    <string name="positive_timer_notification_title">Timing</string>
+    <string name="positive_timer_notification_title_with_task">Timing - %1$s</string>
+    <string name="positive_timer_receive_reward">Receive reward</string>
+    <string name="condition_life_level">Life level reaches the specified number</string>
+    <string name="condition_desc_life_level">Life level reaches %1$d</string>
+    <string name="condition_got_item_times">Get item a specified number of times</string>
+    <string name="condition_synthesis_item_times">Synthesis item specified number of times</string>
+    <string name="condition_current_own_item_number">Own a specified number of item</string>
+    <string name="condition_desc_got_item_times">Get [%1$s] [%2$d] times</string>
+    <string name="condition_desc_synthesis_item_times">Synthesis [%1$s] [%2$d] times</string>
+    <string name="condition_desc_current_own_item_number">Own %1$d [%2$s]</string>
+    <string name="info_google_play_language_change">Changing languages may take effect after Google Play successfully downloads language resources</string>
+    <string name="empty_hint_shop_item_select_dialog">Nothing here..</string>
+    <string name="pomodoro_record_focus_time_sec">focused %1$d seconds</string>
+    <string name="history_record_delete_success">Deleted successfully</string>
+    <string name="condition_current_focus_time_of_a_task">Focus time in minutes of a task</string>
+    <string name="condition_desc_current_focus_time_of_a_task">Focus [%1$d] minute(s) in task [%2$s]</string>
+    <string name="custom_sound_effect_achievement_reward">get achievement reward</string>
+    <string name="custom_sound_effect_open_loot_boxes">open loot boxes</string>
+    <string name="custom_sound_effect_synthesis">synthesis</string>
+    <string name="setting_custom_coin_icon">Custom coin icon</string>
+    <string name="setting_custom_coin_icon_desc">Currently only affects the colored icons in the app</string>
+    <string name="custom_sound_effect_reminder_notification">Reminder notification</string>
+    <string name="shop_exp_effect_no_attributes_hint">There are no more attributes to choose from.</string>
+    <string name="history_filter_state_completed">Completed</string>
+    <string name="history_filter_state_overdue">Overdue</string>
+    <string name="history_filter_state_give_up">Given up</string>
+    <string name="history_filter_task_state_dialog_title">Task State</string>
+    <string name="team_tag_empty_text">Found no teams matching this tag.\n(The feature is available recently, there might be no enough data)</string>
+    <string name="dialog_shop_settings_shop_group_by_list">Group by list (All list of shop)</string>
+    <string name="hint_loot_box_random">Unboxing</string>
+    <string name="hint_loot_box_random_desc">Each time you open the box, only one random item will be drawn.\n\nHowever, if the item is set to [Fixed] reward, you will get a fixed number of items every time you open the box.\n\nTherefore, [Fixed] reward can be used to implement functions such as multi-items rewards and multiple randomizations. </string>
+    <string name="custom_return_discount">Discount rate for returning</string>
+    <string name="notification_channel_quick_create_task">Quick Create Task</string>
+    <string name="notification_channel_finish_task_in_background">App Widget Finish Task</string>
+    <string name="notification_channel_task_reminder">Task Reminder</string>
+    <string name="notification_channel_countdown">Countdown</string>
+    <string name="notification_channel_countdown_desc">Pomodoro and shop item timer, countdown in progress notification</string>
+    <string name="notification_channel_countdown_end">Countdown End</string>
+    <string name="notification_channel_countdown_end_desc">Pomodoro and shop item timer, countdown end notification</string>
+    <string name="notification_channel_quick_create_task_desc">Quickly create task resident notifications</string>
+    <string name="notification_channel_task_reminder_desc">Send task notification reminder (high priority is recommended)</string>
+    <string name="notification_channel_finish_task_in_background_desc">Special notifications for background services (such as task completion operations of widgets) </string>
+    <string name="lab_feelings_desc_v2">Record your feelings after completing local tasks.\nAfter enabling, you still need to edit the task and turn on the feeling function to take effect.</string>
+    <string name="error_webdav_url_not_start_with_http">Url should start with http:// or https://</string>
+    <string name="backup_restore_failed_message">Failed to restore the file: %1$s.\n\nIf you select the backup file to perform the recovery operation directly through the file manager, it may be that the file manager has not correctly granted the file read and write permissions to LifeUp.\n\nYou can try to restore from a custom path on this page by clicking the [Restore] button.</string>
+    <string name="login_sign_up_confirm_dialog_title">Sign Up</string>
+    <string name="login_sign_up_confirm_dialog_message">You have not registered an account with this authorization method.\n\nDo you want to continue to sign up for your LifeUp account?</string>
+    <string name="cloud_backup_method_google_drive">Google Drive</string>
+    <string name="title_picture_manager_page">Picture</string>
+    <string name="pic_dir_name_attr">Attributes</string>
+    <string name="pic_dir_name_shop">Shop</string>
+    <string name="pic_dir_name_attachments">Attachments/Feelings</string>
+    <string name="pic_dir_name_download">Download</string>
+    <string name="pic_dir_name_custom">Custom</string>
+    <string name="tomatoes_action_exchange">EXCHANGE</string>
+    <string name="exchange_tomatoes_hint_text">Exchange</string>
+    <string name="toast_hint_not_setup_exchange">Please go to the Pomodoro Settings page to set up the exchange first</string>
+    <string name="dialog_pomodoro_settings_exchange">Exchange</string>
+    <string name="hint_dialog_pomodoro_exchange_select_shop_item">Select Item</string>
+    <string name="pomo_exchange_settings">Exchange settings</string>
+    <string name="pomo_settings_exchange_summary">%1$d tomato(es) for %2$d %3$s</string>
+    <string name="pomo_settings_exchange_not_configured">Not configured</string>
+    <string name="dialog_message_delete_picture">Do you really want to delete the picture(s)?</string>
+    <string name="pic_manager_picture_not_found">Picture not found in this category</string>
+    <string name="pic_dir_name_other">Misc</string>
+    <string name="xml_picture_manager">Picture Manage</string>
+    <string name="xml_picture_manager_desc">Because the application cannot accurately determine whether the image file needs to be deleted under all circumstances.\nYou can manually delete the pictures you no longer need to reduce the backup file size.</string>
+    <string name="tomatoes_eat_invalid_attributes">The currently set reward attribute is invalid, please go to the Pomodoro Settings page to adjust.</string>
+    <string name="dialog_server_unavailable_message_in_maintain">The server is under maintenance during the period of time:\n%1$s-%2$s\n\nThere may be short-term service connection abnormalities during this period (only affecting login, completing team tasks and accessing the world module), please wait patiently.\nIn addition, similar errors may also be caused by the phone\'s network problems. You can also try to switch networks. \nError message: %3$s</string>
+    <string name="network_no_network_in_maintain">The server is under maintenance. The network connection may fail due to maintenance. Please try again later.</string>
+    <string name="user_achievement_sort_when_left_reward_item">Please receive achievement rewards before sorting</string>
+    <string name="condition_atm_deposit_reaches_the_spec_value">ATM deposit reaches the specified value</string>
+    <string name="condition_desc_atm_deposit_reaches_the_spec_value">ATM deposit reaches %1$d coins</string>
+    <string name="add_user_achievement_subcategory">Subcategory</string>
+    <string name="add_user_achievement_achievement">Achievement</string>
+    <string name="add_user_achievement_input_hint_subcategory_name">Subcategory Name</string>
+    <string name="tag_local_yearly">Repeat - Yearly</string>
+    <string name="pomodoro_dialog_title_continue_when_update_focus_time_available">Continue without adding focus time</string>
+    <string name="pomodoro_dialog_title_continue_when_update_focus_time_available_desc">You can get extra Pomodoro by adding focus time.\nAre you sure you want to give up the additional focus time and continue?</string>
+    <string name="reward_dialog_gain_exp">You gained %1$s exp!</string>
+    <string name="custom_sound_effect_shop_item_use">Use Goods</string>
+    <string name="dialog_license_not_allow_title">License verification failed</string>
+    <string name="btn_backup">BACKUP</string>
+    <string name="btn_purchase">PURCHASE</string>
+    <string name="dialog_license_not_allow_message"><![CDATA[The Play Store has detected that you do not own the app. <br/>If you actually not own the app, or your Play Pass has expired, please consider purchasing our app, it/\'s a one-time purchase. <br/>You can jump to the backup page to export your data. <br/><br/>If this pop-up window still pops up after you have purchased our app, it may be due to an incorrect Google account on your device, an abnormal cache in the Play Store, or your device cannot connect to the Google server. <br/>Please check the following links and consult Google Play Support:<br/><a href=\"https://support.google.com/googleplay/answer/7513003?hl=en&amp;ref_topic=3237689\">https://support.google.com/googleplay/answer/7513003?hl=en&amp;ref_topic=3237689</a>]]></string>
+    <string name="lab_material_you">Material You (Material Design 3)</string>
+    <string name="lab_material_you_desc">New Material design language (not fully adapted).</string>
+    <plurals name="duration_days_relative">
+        <item quantity="other">%d days ago</item>
+        <item quantity="one">%d day ago</item>
+    </plurals>
 </resources>

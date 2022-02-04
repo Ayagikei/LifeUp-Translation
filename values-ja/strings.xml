@@ -1,14 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="app_name_normal">LifeUp</string>
     <string name="app_name_google">LifeUp Pro</string>
-
     <!-- bottom bar title -->
     <string name="title_board">タスク</string>
     <string name="title_status">ステータス</string>
     <string name="title_community">ワールド</string>
     <string name="title_me">マイページ</string>
     <string name="title_activity_main">ホーム</string>
-
     <!-- Welcome Activity -->
     <string name="page1_title">TO-DO リスト</string>
     <string name="page1_content">To-Doリストを書き出してみよう</string>
@@ -19,19 +18,14 @@
     <string name="page4_title">クラウド</string>
     <string name="page4_content">日々の生活やカラフルな生活をオンラインでシェアすることができます。</string>
     <string name="page4_btn">始めよう LIFE UP</string>
-
     <string name="navigation_drawer_open">ナビゲーションドロワーを開く</string>
     <string name="navigation_drawer_close">ナビゲーションドロワーを閉じる</string>
-
-
     <!-- Strings related to login -->
     <string name="title_activity_login">ログイン</string>
     <string name="login_welcome">ログインすると機能が増えます</string>
     <string name="login_welcome_2">その他の機能</string>
     <string name="login_signIn">サインイン</string>
-    <string name="login_or">or</string>
-
-    <string name="title_activity_add_to_do_item">Add New Task</string>
+    <string name="title_activity_add_to_do_item">新しいタスクの追加</string>
     <string name="title_activity_add_team_item">新しいチームの追加</string>
     <string name="title_activity_edit_team_item">チームの編集</string>
     <string name="title_activity_team">チームの詳細</string>
@@ -42,11 +36,9 @@
     <string name="title_activity_profile">プロフィールの編集</string>
     <string name="title_activity_user_mine">マイプロフィール</string>
     <string name="title_activity_team_member">メンバー</string>
-
     <string name="title_activity_user_team">チーム</string>
-    <string name="title_activity_about">About</string>
+    <string name="title_activity_about">このアプリについて</string>
     <string name="title_activity_achievement">実績</string>
-
     <string name="AcraText">恐れ入りますが、アプリがクラッシュしたことをご報告ください。</string>
     <string name="AcraTitle">クラッシュレポート</string>
     <string name="AcraCommend">それはどのように起こりましたか</string>
@@ -67,7 +59,7 @@
     <string name="about_version_name">バージョン</string>
     <string name="contact_title">お問い合わせ</string>
     <string name="github_desc1">Android開発者です。AyagiKei</string>
-    <string name="github_desc2">Server Developer: Hdonghong</string>
+    <string name="github_desc2">バックエンド開発：Hdonghong</string>
     <string name="achievement_complete">実績解除</string>
     <string name="category_add_success">追加に成功しました</string>
     <string name="category_rename_success">名前の変更に成功しました</string>
@@ -80,6 +72,7 @@
     <string name="team_add_repeat_two_day">2日毎</string>
     <string name="team_add_repeat_week">毎週</string>
     <string name="team_add_repeat_two_week">2週間毎</string>
+    <string name="team_add_repeat_month">毎月</string>
     <string name="team_add_not_repeat">なし</string>
     <string name="team_add_set_repeat">繰り返し頻度の設定</string>
     <string name="edit_text_empty_error">空</string>
@@ -127,105 +120,105 @@
     <string name="network_connect_error">ネットワークエラーが発生しました、後でお試しください</string>
     <string name="main_drawer_login_head">アバターをタップしてログイン</string>
     <string name="main_drawer_need_to_relogin">再ログインしてください</string>
-
     <string name="main_tips_1">ヒント: ログインすると、「世界」にアクセスできるようになります</string>
     <string name="main_tips_2">ヒント: 本日完了したタスクを元に戻すことができます</string>
     <string name="main_tips_3">ヒント: 歩数データはセンサーデータから算出しています。LifeUpの起動頻度が低いと不正確になる可能性があります。
-   <string name="main_tips_4">ヒント: 今日完了したタスクを取り消すことができます。</string>
-   <string name="main_tips_5">ヒント: 今日完了したタスクを取り消すことができます。</string>
-   <string name="main_tips_6">ヒント: 今日完了したタスクを取り消すことができます。</string>
-   <string name="main_tips_7">ヒント: 今日完了したタスクを取り消すことができます。</string>
-   <string name="main_tips_8">ヒント: 今日完了したタスクを取り消すことができます。</string>
-   <string name="main_tips_9">ヒント: 今日完了したタスクを取り消すことができます。</string>
-    <string name="main_tips_10">ヒント: 今日完了したタスクを取り消すことができます。</string>
-   <string name="main_tips_11">ヒント: 今日完了したタスクを取り消すことができます。</string>
-   <string name="main_tips_12">ヒント: 今日完了したタスクを取り消すことができます。</string>
-   <string name="main_tips_13">ヒント: 今日完了したタスクを取り消すことができます。</string>
-   <string name="main_tips_14">ヒント: 今日完了したタスクを取り消すことができます。</string>
-   <string name="main_tips_15">ヒント: 今日完了したタスクを取り消すことができます。</string>
-    <string name="main_tips_16">ヒント: 今日完了したタスクを取り消すことができます。</string>
-   <string name="main_tips_17">ヒント: 今日完了したタスクを取り消すことができます。</string>
-
-    <string name="profile_update_success">更新に成功しました</string>
-    <string name="profile_head_update_success">アバターの更新に成功しました</string>
-    <string name="profile_head_update_fail">アバターの更新に失敗しました：ネットワークエラーが発生しました、もう一度お試しください</string>
-    <string name="profile_username_empty">ユーザー名は空にできません</string>
-    <string name="setting_reopen_guide">ユーザーガイドの再開封に成功しました</string>
-    <string name="profile_sv_nickname">ニックネーム:&#160;</string>
-    <string name="profile_sv_address">アドレス:&#160;</string>
-    <string name="profile_sv_gender">性別:&#160;</string>
-    <string name="profile_female">女性</string>
-    <string name="profile_male">男性</string>
-    <string name="profile_secret">選択</string>
-    <string name="profile_dialog_nickname_title">ニックネームの変更</string>
-    <string name="profile_dialog_address_title">アドレスの変更</string>
-    <string name="setting_relogin">再ログイン</string>
-    <string name="setting_logout_success">ログアウト成功</string>
-    <string name="add_to_do_menu_before_expire_10min_item">10分前締切</string>
-    <string name="add_to_do_menu_before_expire_30min_item">30分前の締め切り</string>
-    <string name="add_to_do_menu_before_expire_1h_item">締切の1時間前</string>
     <string name="addit_to_do_menu_before_expire_custom_item">カスタム</string>
-    <string name="add_to_do_menu_expire_today_item">今日</string>
-    <string name="add_to_do_menu_expire_tomorrow_item">明日</string>
     <string name="addit_to_do_menu_expire_weekend_item">週末</string>
-    <string name="title_activity_backup">バックアップ/復元</string>
-    <string name="title_activity_to_do_item_detail">タスクの詳細</string>
 
     <string name="about_green_android_website">GreenAndroidによる検証</string>
-    <string name="about_not_found_android_store">Androidストアで見つかりませんでした</string>
     <string name="add_to_do_bouns_question">Expはここの設定でまとまります</string>
-    <string name="add_to_do_not_seleced_attrs_alarm">色合い</string>
-    <string name="add_to_do_not_seleced_attrs_alarm_message">あなたが選択した属性はありません。このタスクを完了しても、あなたが獲得するExpはありません。続けますか？</string>
-    <string name="add_to_do_taptarget_remind_title">リマインダーの設定</string>
-    <string name="add_to_do_taptarget_remind_content">（オプション）ここでリマインダーを設定できます</string>
-    <string name="add_to_do_taptarget_start_time_title">開始時間</string>
     <string name="add_to_do_taptarget_start_time_content">（オプション）このタスクを期日前にデイリーリストに表示させたい場合は、開始時間を早めに設定してください。</string>
 
-    <string name="add_to_do_taptarget_deadline_title">締切日</string>
-    <string name="add_to_do_taptarget_deadline_content">（オプション）ここに締切日を設定できます。</string>
-    <string name="add_to_do_taptarget_repeat_title">繰り返し頻度</string>
-    <string name="add_to_do_taptarget_target_title">対象となる回数</string>
-    <string name="add_to_do_taptarget_reward_title">報酬</string>
-    <string name="add_to_do_taptarget_todo_title">タスク</string>
-    <string name="add_to_do_taptarget_remark_title">備考</string>
     <string name="add_to_do_taptarget_todo_content">ToDoを短く書き出す</string>
-    <string name="add_to_do_taptarget_remark_content">(Optional)ここに詳細を書いてください</string>
-    <string name="add_to_do_taptarget_repeat_content">ここで繰り返し頻度を設定します。デフォルトでは、1回限りの設定です。</string>
     <string name="add_to_do_taptarget_target_content">（オプション）ここでは、タスクを完了する回数の目標を設定できます。</string>
     <string name="add_to_do_taptarget_reward_content">（オプション）ここに報酬を設定します。</string>
-    <string name="category_default">Default</string>
-    <string name="backup_restore_title">アプリを再起動します。</string> 
-    <string name="backup_restore_message">本当に復ふく復元しますか？</string>
     <string name="backup_restore_message_with_time">本当に復元しますか？バックアップファイルの更新時間：%1$s\nアプリを再起動します。</string>
     <string name="backup_path">デフォルトのバックアップファイルのパス:&#160;</string>
     <string name="backup_found_file">バックアップファイルの検出:&#160;</string>
     <string name="main_click_one_more_quit">もう1回タップするとアプリが終了します</string>
-    <string name="setting_toolbar_title">設定</string>
-    <string name="setting_widget_toolbar_title">ウィジェット</string>
-    <string name="setting_todo_toolbar_title">タスク</string>
     <string name="setting_display_toolbar_title">表示</string>
-    <string name="team_toast_join_success">チームの参加に成功しました</string>
-    <string name="team_toast_quit_success">チームの終了に成功しました</string>
-      <string name="team_toast_end_success">チームが終了しました</string>
-    <string name="team_end">終了</string>
-    <string name="team_joined">参加しました</string>
-    <string name="team_member">メンバー</string>
-    <string name="team_task_get">取得</string>
+    <string name="team_toast_end_success">チームが終了しました</string>
     <string name="team_task_can_not_get">忘れられない</string>
-    <string name="team_time_end">終了</string>
-    <string name="team_sign_end">終了</string>
     <string name="point">P</string>
-    <string name="team_menu_end">終了</string>
     <string name="permission_photo_preview_need">写真をプレビューするために必要な許可を拒否しました。</string>
-    <string name="team_dialog_report_title">レポート</string>
     <string name="team_member_follow_together">フォローされています</string>
     <string name="team_member_followed">フォロワー</string>
-    <string name="team_member_follow">フォロー</string>
     <string name="to_do_detail_status_uncompleted">タスクのステータス: 未了</string>
     <string name="to_do_detail_status_completed">タスクのステータス: 完了</string>
     <string name="to_do_detail_status_out_of_date">タスクのステータス: 期限切れ</string>
     <string name="to_do_detail_status_gave_up">タスクのステータス: 放棄</string>
     <string name="to_do_detail_type">タスクのタイプ：%1$s</string>を指定してください。</string>
+    <string name="main_tips_4">ヒント: 本日完了したタスクを元に戻すことができます</string>
+    <string name="main_tips_5">ヒント: 本日完了したタスクを元に戻すことができます</string>
+    <string name="main_tips_6">ヒント: 本日完了したタスクを元に戻すことができます</string>
+    <string name="main_tips_7">ヒント: 本日完了したタスクを元に戻すことができます</string>
+    <string name="main_tips_8">ヒント: 本日完了したタスクを元に戻すことができます</string>
+    <string name="main_tips_9">ヒント: 本日完了したタスクを元に戻すことができます</string>
+    <string name="main_tips_10">ヒント: 本日完了したタスクを元に戻すことができます</string>
+    <string name="main_tips_11">ヒント: 本日完了したタスクを元に戻すことができます</string>
+    <string name="main_tips_12">ヒント: 本日完了したタスクを元に戻すことができます</string>
+    <string name="main_tips_13">ヒント: 本日完了したタスクを元に戻すことができます</string>
+    <string name="main_tips_14">ヒント: 本日完了したタスクを元に戻すことができます</string>
+    <string name="main_tips_15">ヒント: 本日完了したタスクを元に戻すことができます</string>
+    <string name="main_tips_16">ヒント: 本日完了したタスクを元に戻すことができます</string>
+    <string name="main_tips_17">ヒント: 本日完了したタスクを元に戻すことができます</string>
+    <string name="profile_update_success">更新に成功しました</string>
+    <string name="profile_head_update_success">アバターの更新に成功しました</string>
+    <string name="profile_head_update_fail">アバターの更新に失敗しました: ネットワークエラーが発生しました。もう一度やり直してください。</string>
+    <string name="profile_username_empty">ユーザー名は空にできません。</string>
+    <string name="setting_reopen_guide">ユーザーガイドの再開に成功しました</string>
+    <string name="profile_sv_nickname">ニックネーム:&#160;</string>
+    <string name="profile_sv_address">アドレス:&#160;</string>
+    <string name="profile_sv_gender">性別:&#160;</string>
+    <string name="profile_female">女性</string>
+    <string name="profile_male">男性</string>
+    <string name="profile_secret">秘密/その他</string>
+    <string name="profile_dialog_nickname_title">ニックネームの変更</string>
+    <string name="profile_dialog_address_title">アドレスを変更する</string>
+    <string name="setting_relogin">再ログイン</string>
+    <string name="setting_logout_success">正常にログアウトしました</string>
+    <string name="add_to_do_menu_before_expire_10min_item">締め切り10分前</string>
+    <string name="add_to_do_menu_before_expire_30min_item">締め切り30分前</string>
+    <string name="add_to_do_menu_before_expire_1h_item">締め切り1時間前</string>
+    <string name="add_to_do_menu_before_expire_custom_item">カスタム</string>
+    <string name="add_to_do_menu_expire_today_item">今日</string>
+    <string name="add_to_do_menu_expire_tomorrow_item">明日</string>
+    <string name="add_to_do_menu_expire_weekend_item">週末</string>
+    <string name="title_activity_backup">バックアップ/復元</string>
+    <string name="title_activity_to_do_item_detail">タスクの詳細</string>
+    <string name="about_not_found_android_store">ストアで見つかりませんでした</string>
+    <string name="add_to_do_not_seleced_attrs_alarm"> ヒント</string>
+    <string name="add_to_do_not_seleced_attrs_alarm_message">属性が選択されていません。\nこのタスクを完了しても経験値を獲得できません。続きますか？</string>
+    <string name="add_to_do_taptarget_remind_title">リマインダの設定</string>
+    <string name="add_to_do_taptarget_remind_content">(オプション) ここにリマインダーを設定できます。</string>
+    <string name="add_to_do_taptarget_start_time_title">開始時間</string>
+    <string name="add_to_do_taptarget_deadline_title">期限</string>
+    <string name="add_to_do_taptarget_deadline_content">(オプション) ここに期日を設定できます。</string>
+    <string name="add_to_do_taptarget_repeat_title">繰り返し頻度</string>
+    <string name="add_to_do_taptarget_target_title">対象となる回数</string>
+    <string name="add_to_do_taptarget_reward_title">報酬</string>
+    <string name="add_to_do_taptarget_todo_title">タスク</string>
+    <string name="add_to_do_taptarget_remark_title">備考</string>
+    <string name="add_to_do_taptarget_remark_content">(オプション) こちらに詳細を記入します。</string>
+    <string name="add_to_do_taptarget_repeat_content">ここで繰り返し頻度を設定します。デフォルトでは一回のみです。</string>
+    <string name="category_default">デフォルト</string>
+    <string name="backup_restore_title">復元</string>
+    <string name="backup_restore_message">本当にデータを復元しますか？\nアプリは一度再起動します。</string>
+    <string name="setting_toolbar_title">設定</string>
+    <string name="setting_widget_toolbar_title">ウィジェット</string>
+    <string name="setting_todo_toolbar_title">タスク</string>
+    <string name="team_toast_join_success">チームに参加しました</string>
+    <string name="team_toast_quit_success">チームから退出しました</string>
+    <string name="team_end">終了したチーム</string>
+    <string name="team_joined">参加したチーム</string>
+    <string name="team_member">メンバー</string>
+    <string name="team_task_get">取得</string>
+    <string name="team_time_end">終了したチーム</string>
+    <string name="team_sign_end">終了したチーム</string>
+    <string name="team_menu_end">終了</string>
+    <string name="team_dialog_report_title">レポート</string>
+    <string name="team_member_follow">フォロー</string>
     <string name="to_do_detail_type_local">ローカルタスク</string>
     <string name="to_do_detail_type_team">チームタスク</string>
     <string name="to_do_detail_remind">リマインド:</string>
@@ -242,7 +235,7 @@
     <string name="to_do_detail_delete_message">本当にこのタスクを削除しますか？</string>
     <string name="to_do_detail_delete_multiply_message">本当にこのタスクを削除しますか？</string>
     <string name="activity_delete_message">このアクティビティを本当に削除しますか？</string>
-    <string name="sub_task_delete_message">本当に"%1$s "を削除しますか?</string>
+    <string name="sub_task_delete_message">本当に\"%1$s \"を削除しますか?</string>
     <string name="to_do_detail_delete_success">削除に成功しました</string>
     <string name="to_do_detail_delete_failed">削除に失敗しました</string>
     <string name="to_do_detail_delete_history">本当にこの履歴を削除しますか？ </string>
@@ -271,20 +264,15 @@
     <string name="team_activity_finish">このタスクを完了しました</string>
     <string name="team_activity_finish_and_submit">このタスクを完了して送信しました</string>
     <string name="welcome">ウェルカム</string>
-    <string name="activity_join_team_text">Welcome %1$s joined the team 「%2$s」</string>
     <string name="join_team">チームへの参加</string>
-    <string name="date">yyyy-MM-dd</string>
     <string name="joined">参加済</string>
     <string name="exp">Exp</string>
     <string name="repeat_task">繰り返しタスク</string>
     <string name="start">開始</string>
     <string name="deadline">期限</string>
     <string name="today">今日</string>
-    <string name="today_with_time">%1$s</string>
     <string name="tomorrow">明日</string>
-    <string name="tomorrow_with_time">Tomorrow %1$s</string>
-    <string name="yesterday_with_time">Yesterday %1$s</string>
-    <string name="relative_time_later">今から%1$d日後</string>になります。
+    <string name="relative_time_later">今から%1$d日後</string>
     <string name="to_do_adapter_not_start_yet">タスクはまだ開始されていません！</string>
     <string name="team">チーム</string>
     <string name="attr_strength">体力</string>
@@ -323,12 +311,12 @@
     <string name="to_do_taptarget_new">タスクの追加</string>
     <string name="to_do_taptarget_content">タスクを追加するにはここをタップしてください！</string>
     <string name="to_do_taptarget_nav">ナビゲーション</string>
-    <string name="to_do_taptarget_nav_content">「ボード。RPGのようにタスクをこなしていく場所"
-                                    "ステータス：自分の属性やレベルを確認することができます。
-                                    "世界： チームに参加して、チームのタスクをこなす。
-                                    "統計情報：自分のデータを見ることができます。
-                                    "世界 "モジュール以外のほとんどの機能はネットワークに接続していなくても動作します～。
-                                    "また、ほとんどのデータはローカルストレージスペースに保存されますので、バックアップを取らずにアプリをアンインストールすることには注意が必要です。" </string>
+    <string name="to_do_taptarget_nav_content">「ボード。RPGのようにタスクをこなしていく場所\"
+                                    \"ステータス：自分の属性やレベルを確認することができます。
+                                    \"世界： チームに参加して、チームのタスクをこなす。
+                                    \"統計情報：自分のデータを見ることができます。
+                                    \"世界 \"モジュール以外のほとんどの機能はネットワークに接続していなくても動作します～。
+                                    \"また、ほとんどのデータはローカルストレージスペースに保存されますので、バックアップを取らずにアプリをアンインストールすることには注意が必要です。\" </string>
     <string name="to_do_slide_bar">スライドバー</string>
     <string name="to_do_slide_bar_content">ここには、ログイン、達成、タスク履歴、設定などの項目があります</string>
     <string name="to_do_list">リスト</string>
@@ -351,7 +339,6 @@
     <string name="submit_activity">送信</string>
     <string name="no_submit">スキップ</string>
     <string name="today_finished">今日は、%2$dのタスクのうち、%1$dをすでに完了しました</string>
-    <string name="month_and_day">MM-dd</string>
     <string name="permission_camera_need">選択された写真には、このような許可が必要です:1.Camera</string>
     <string name="add_photo">新しい写真</string>
     <string name="category_all">すべて</string>
@@ -359,8 +346,8 @@
     <string name="shop_list_undeleteable">リストに少なくとも1つのアイテムが含まれている間は削除できません</string>
     <string name="network_login_invaild">ログインが無効です、再ログインしてください！</string>
     <string name="network_server_dead">サーバーがクラッシュした可能性があります、後で再試行してください</string>
-    <string name="team_get_next_task_success">"タスク取得 "に成功しました</string>
-    <string name="team_get_next_task_already">"タスクの取得 "に成功しました</string>
+    <string name="team_get_next_task_success">\"タスク取得 \"に成功しました</string>
+    <string name="team_get_next_task_already">\"タスクの取得 \"に成功しました</string>
     <string name="lifeup">ライフアップ</string>
     <string name="notification_content">あなたにはタスクがあります： &#160;</string>
     <string name="notification_ticker">To-Do</string>
@@ -412,7 +399,7 @@
     <string name="xml_add_to_do_attrs">関連する属性（1～3）</string>
     <string name="xml_add_to_do_extra_header">追加</string>
     <string name="xml_add_to_do_remind_date">リマインダー時間</string>
-    <string name="xml_add_to_do_start_time">開始時刻</string>\n
+    <string name="xml_add_to_do_start_time">開始時刻</string>
     <string name="xml_add_to_do_deadline">期限</string>
     <string name="xml_add_to_do_set_time">時間</string>
     <string name="xml_add_to_do_repeat">繰り返し頻度</string>
@@ -430,13 +417,12 @@
     <string name="team_remark">説明文</string>
     <string name="btn_join">参加</string>
     <string name="btn_get">取得</string>
-    <string name="detail">Details</string>
+    <string name="detail">詳細</string>
     <string name="team_start_time">開始日:&#160;</string>
     <string name="team_first_finishable_time">完了可能時間:&#160;</string>
     <string name="team_attr">関連する属性:&#160;</string>
     <string name="team_ddl">参加期限:&#160;</string>
     <string name="team_repeat">繰り返しト頻度:&#160;</string>
-    <string name="team_exp">Exp reward:&#160;</string>
     <string name="bouns">報酬</string>
     <string name="attr_strength_desc">ランニングや水泳など、健康を増進させるもの</string>
     <string name="attr_learning_desc">読書など、知識を高めるもの</string>
@@ -455,7 +441,7 @@
     <string name="Sat">土</string>
     <string name="Sun">日</string>
     <string name="dialog_input_sport_desc">今日の歩数を入力してください</string>
-    <!-- ˶‾᷄ -̫ ‾᷅˵ 歩数計に対応していない携帯電話をお使いの方にお勧めです。-->
+    <!-- \nThis is for the users whose phone doesn\'t support pedometer. -->
     <string name="dialog_input_sport_tint">歩数</string>
     <string name="custom">カスタム</string>
     <string name="single">なし</string>
@@ -470,14 +456,14 @@
     <string name="alphabet">アルファベット順</string>
     <string name="create_time">作成された時間</string>
     <string name="no_more_to_do">タスクがありません。いくつか追加してみてください！</string>
+    <string name="all_done_today">今日のタスクを全て完了しました！</string>
     <string name="tab_team">チーム</string>
-    <string name="tab_moments">Moments</string>
     <string name="tab_board">ボード</string>
     <string name="non_available">利用できません！</string>
     <string name="setting_display_task_single_color">すべてのタスクを同じ色で表示する</string>
     <string name="setting_display_task_single_color_desc">すべての分類のタスクのタグをテーマカラーで表示する</string>
-    <string name="setting_display_status_play_animation_desc">多くのCPUリソースを消費する可能性があります。</string>
     <string name="setting_display_status_play_animation">ステータスアニメーションを有効にします。</string>
+    <string name="setting_display_status_play_animation_desc">多くのCPUリソースを消費する可能性があります。</string>
     <string name="setting_display_hide_community">世界を隠す</string>
     <string name="setting_display_hide_community_desc">ボトムナビゲーションに「世界を隠す」ボタンを表示</string>
     <string name="setting_display_hide_pedometer">歩数計モジュールを隠す</string>
@@ -520,7 +506,6 @@
     <string name="about_app_description">A Gamification To-Do List Application.</string>
     <string name="achievement_bonus">200「活力」Expを獲得しました</string>
     <string name="about_rate_us_element">私たちを評価してください</string>
-    <string name="tag_team_single">Team - No repeat</string>
     <string name="tag_team_daily">チーム - 毎日</string>
     <string name="tag_team_every_2_days">チーム - 2日毎</string>
     <string name="tag_team_weekly">チーム - 毎週</string>
@@ -537,7 +522,6 @@
     <string name="tag_local_every_2_weeks">繰り返し - 2週間毎</string>
     <string name="tag_local_monthly">繰り返し - 毎月</string>
     <string name="weekdays">平日</string>
-    <string name="comma">,</string>
     <string name="one">月</string>
     <string name="two">火</string>
     <string name="three">水</string>
@@ -563,8 +547,7 @@
     <string name="setting">設定</string>
     <string name="bottom_line">ボトムライン</string>
     <string name="nav_home">ホーム</string>
-    <string name="QandA">Q&amp;A</string>
-    <string name="about">About</string>
+    <string name="about">このアプリについて</string>
     <string name="show_all_time">全期間を表示する</string>
     <string name="show_today_only">今日を表示する</string>
     <string name="show_next_7_days">次の7日間を表示する</string>
@@ -572,7 +555,7 @@
     <string name="finish">完了</string>
     <string name="rename">名前の変更</string>
     <string name="delete">削除</string>
-    <string name="menu_set_to_completed">"完了済 "に設定</string>
+    <string name="menu_set_to_completed">\"完了済 \"に設定</string>
     <string name="edit">編集</string>
     <string name="quit">終了</string>
     <string name="search">検索</string>
@@ -581,20 +564,15 @@
     <string name="finish_and_get_reward">タスクを完了し、報酬を獲得しました：%1$s！</string>
     <string name="achievement_unlocked">達成した内容がアンロックされました</string>
     <string name="xml_login_third_login">このアプリは現在、サードパーティのプラットフォームでのログインのみサポートしています</string>
-    <string name="gmt_tint">ごめんなさい</string>
-    <string name="gmt_tint_message">コミュニティは今のところGMT+8のタイムゾーンでしか機能していません。コミュニティモジュールを非表示にしますか？</string>
-    <string name="step_bar" />
     <string name="Long_Sunday">日曜</string>
     <string name="long_monday">月曜</string>
     <string name="long_tuesday">火曜</string>
     <string name="long_wednesday">水曜</string>
     <string name="long_thursday">木曜</string>
-    <string name="long_friday">Friday</string>
+    <string name="long_friday">金曜日</string>
     <string name="Saturday">土曜</string>
-    <string name="sort_exp">Exp</string>
     <string name="nav_history">履歴</string>
     <string name="nav_achievement">実績</string>
-    <string name="to_do_exp">%1$d Exp</string>
     <string name="exception_refresh">ヘッダービューを更新しようとすると問題が発生します</string>
     <string name="exception_achievement_animation">アチーブメントのアンロックを表示しようとしたときに発生した問題</string>
     <string name="setting_display_language">言語</string>
@@ -615,11 +593,9 @@
     <string name="filter">フィルター</string>
     <string name="setting_display_date_format">日付形式</string>
     <string name="setting_display_date_format_desc">日付形式の変更</string>
-    <string name="about_feature_element">Feature</string>
-
+    <string name="about_feature_element">機能</string>
     <string name="feature_night_mode">ナイトモード</string>
     <string name="feature_night_mode_desc">LifeUpのテーマをダークモードテーマに変更する</string>
-
     <string name="feature_history_filter">履歴フィルター</string>
     <string name="feature_history_filter_desc">選択した日の履歴を表示する</string>
     <string name="feature_fix">軽微な変更点</string>
@@ -629,7 +605,6 @@
     <string name="moments_empty_text">データがありません、もう一度お試しください</string>
     <string name="fragment_user_mine_exchangeable_likes">交換できる「いいね！」の数:&#160;</string>
     <string name="fragment_user_mine_like_title">一生のうちに、「いいね！」を獲得した回数は %1$d です。</string>
-
     <string name="fragment_user_mine_my_page_desc">自分のページやフォロワー、アクティビティなどを見ることができます</string>
     <string name="fragment_user_mine_button_view">見る</string>
     <string name="fragment_user_mine_button_exchange">交換</string>
@@ -637,7 +612,6 @@
     <string name="fragment_user_mine_keep_desc">最長の連勝記録：%1$d</string>
     <string name="feature_like">好きなものと交換</string>
     <string name="feature_like_desc">- コミュニティで「いいね！」を押すと、「いいね！」を「魅力」に交換する</string>
-    <!--    <string name="feature_like_desc">- タスクの連勝を「忍耐力」に交換する</string>-->
     <string name="feature_fix162_desc">- コミュニティでタブをタップすると、トップにスクロールします。</string>
     <string name="setting_display_auto_check_update">アップデートの自動チェック</string>
     <string name="setting_display_auto_check_update_desc">メインページに入ったときに、アップデートの自動チェックをする</string>
@@ -645,12 +619,10 @@
     <string name="profile_dialog_gender">性別</string>
     <string name="profile_gender_prefill">性別:&#160;</string>
     <string name="setting_task_reminder_method">リマインダーシステム</string>
-    <string name="setting_task_reminder_method_desc">LifeUpはデフォルトでリマインダーを通知として送信します。よくリマインダーを見逃す場合は、リマインダーシステムを変更してください。
+    <string name="setting_task_reminder_method_desc">LifeUpはデフォルトでリマインダーを通知として送信します。よくリマインダーを見逃す場合は、リマインダーシステムを変更してください。</string>
     <string name="setting_task_reminder_method_default">アプリケーションの通知</string>
     <string name="setting_task_reminder_method_system_calendar">システムカレンダー</string>
-    <string name="dialog_reminder_method_title">リマインダーシステム</string>
     <string name="calendar_permission">カレンダーの読み書きの許可が必要です </string>
-    <string name="hint">ヒント</string>  
     <string name="dont_show_again">二度と見せない</string>
     <string name="xml_clear_exp">Expデータのクリア</string>
     <string name="xml_clear_exp_desc">すべてのExpが0にリセットされます</string>
@@ -659,54 +631,55 @@
     <string name="feature_163"><![CDATA[Calendar Reminder & Clear Data]]></string>
     <string name="feature_163_desc">-新システムカレンダーのお知らせ\n- Expデータの消去\n- 公開されたアクティビティの削除</string>
     <string name="err_retry">エラーが発生しました、リトライしてください</string>
-    <string name="shop_btn_buy">購入</string>
-    <string name="inventory_btn_use">売却</string>
-    <string name="tab_shop">ショップ</string>
     <string name="tab_inventory">在庫</string>
-    <string name="title_activity_shop">ショップ</string>
-    <string name="add_shop_item_content">名前</string>
-    <string name="add_shop_item_price">価格</string>
-    <string name="dialog_coin_input">報酬コインの設定</string>
     <string name="shop_item_information">製品情報</string>
     <string name="shop_item_add_failed">ショップアイテムの追加に失敗しました</string>
     <string name="shop_item_edit_failed">ショップアイテムの編集に失敗しました</string>
-    <string name="nav_shop">ショップ</string>
-    <string name="title_activity_add_shop_item">棚に並べる</string>
     <string name="shop_empty_text">棚にアイテムがありません</string>
     <string name="inventory_empty_text">在庫には、まだ使われていないアイテムしかありません。</string>
-    <string name="to_do_get_coins">コインの取得:+%1$d</string>
     <string name="xml_add_to_do_coins_title">コインのご褒美</string>
-    <string name="coin_possess">所持コイン：%1$d</string>
     <string name="coin_price_own">コイン：%1$d - %2$d</string>
-    <string name="coin_not_enough">コインが足りません</string>
     <string name="shop_purchase_desc">購入した「%1$s」×%2$d</string>
     <string name="shop_purchase_succeed">購入に成功しました</string>
     <string name="shop_purchase_and_use_succeed">購入・使用に成功しました</string>
     <string name="inventory_use_succeed">使用に成功しました</string>
     <string name="item_price">価格：%1$d</string>
-    <string name="shop_inventory_history">履歴</string>
     <string name="ask_use_item">本当に使いますか？「%1$s」</string>
     <string name="shop_added_time">追加された時間：%1$s</string>
     <string name="inventory_record_used">使用したアイテム：「%1$s」×%2$d</string>
     <string name="inventory_record_buy">購入したアイテム:「%1$s」×%2$d</string>
     <string name="title_activity_inventory_record">インベントリーレコード</string>
-    <string name="inventory_record_empty_text">データがありません</string>
-    <string name="welcome_to_shop">ショップへようこそ</string>
     <string name="welcome_to_shop_desc">ここをタップすると、欲しいものを棚に置くことができます♪そして、タスクをクリアしてコインを稼ぎ、購入してみてください！</string>
-    <string name="add_shop_item_taptarget_picture">写真</string>
     <string name="add_shop_item_taptarget_picture_content">ここをタップすると、アイテムの写真を変更することができます</string>
-    <string name="add_shop_item_taptarget_name">アイテム名</string>
-    <string name="add_shop_item_taptarget_name_content">ここにアイテム名を入力</string>
-    <string name="add_shop_item_taptarget_price">アイテムの価格</string>
     <string name="add_shop_item_taptarget_price_content">ここに設定するアイテム価格を入力してください。この報酬を得るための難易度はあなた次第です。</string>
-    <string name="add_shop_item_desc">説明文（オプション）を入力してください。</string>
-    <string name="shop_item_delete_message">このアイテムを本当に削除しますか？ </string>
-    <string name="shop_item_delete_title">削除</string>（削除）</string>
+    <string name="dialog_reminder_method_title">リマインダーシステム</string>
+    <string name="hint"> ヒント</string>
+    <string name="shop_btn_buy">購入</string>
+    <string name="inventory_btn_use">使用</string>
+    <string name="tab_shop">ショップ</string>
+    <string name="title_activity_shop">ショップ</string>
+    <string name="add_shop_item_content">名前</string>
+    <string name="add_shop_item_price">価格</string>
+    <string name="dialog_coin_input">報酬コインの設定</string>
+    <string name="nav_shop">ショップ</string>
+    <string name="title_activity_add_shop_item">棚に入れる</string>
+    <string name="to_do_get_coins">獲得したコイン: +%1$d</string>
+    <string name="coin_possess">所有: %1$d</string>
+    <string name="coin_not_enough">コインが足りません。</string>
+    <string name="shop_inventory_history">履歴</string>
+    <string name="inventory_record_empty_text">データがありません.</string>
+    <string name="welcome_to_shop">いらっしゃいませ</string>
+    <string name="add_shop_item_taptarget_picture">画像</string>
+    <string name="add_shop_item_taptarget_name">アイテム名</string>
+    <string name="add_shop_item_taptarget_name_content">ここにアイテム名を入力してください</string>
+    <string name="add_shop_item_taptarget_price">価格</string>
+    <string name="add_shop_item_desc">説明文（任意）</string>
+    <string name="shop_item_delete_message">本当にこのアイテムを削除しますか?</string>
+    <string name="shop_item_delete_title">削除</string>
     <string name="feature_164">新モチベーションシステム</string>
     <string name="feature_164_desc">- コイン: タスク終了時に獲得できるコイン：ショップ。欲しいものを棚に並べて、値段を決めることができます。購入したアイテムを使用する</string>
     <string name="inventory_record_item_delete_message">本当にこの記録を削除しますか？</string>
     <string name="to_do_item_detail_complete_reward">Exp報酬: %1$s%2$d P</string>
-    のようになります。
     <string name="to_do_item_detail_coin_reward">コイン報酬: %1$d</string>
     <string name="to_do_item_detail_coin_reward_var">コインの報酬：%1$d - %2$d</string>
     <string name="give_up">放棄</string>
@@ -774,7 +747,7 @@
     <string name="task_type_counter">カウントタスク</string>
     <string name="input_task_count">対象時間</string>
     <string name="input_task_count_desc">カウントタスクを有効にするために目標時間を入力します。\n\nタスクが終了したとカウントされるまでの回数を意味します。</string>
-    <string name="task_counter_process">目標: %1$d (%3$s %2$s%%)</string>
+    <string name="task_counter_process">目標: %1$d (%2$s%%)</string>
     <string name="title_dialog_finish_times">タスクカウント</string>
     <string name="calendar_permission_lost">カレンダーの権限がないと、リマインダーの設定ができません</string>
     <string name="to_do_detail_type_local_count_type">ローカルカウントタスク（%1$s）</string>
@@ -835,7 +808,8 @@
     <string name="achievement_base_special_case">スペシャルケース</string>
     <string name="achievement_base_special_case_desc">タスクを放棄する</string>
     <string name="achievement_base_tinker">鋳掛け屋</string>
-    <string name="achievement_base_tinker_desc">何かを編集する</string>         <!-- Task Achievements -->
+    <string name="achievement_base_tinker_desc">何かを編集する</string>
+    <!-- Task Achievements -->
     <string name="achievement_task_habit_develop">ハビット・ディベロッパー</string>
     <string name="achievement_task_habit_develop_desc">反復可能なタスクを作成する</string>
     <string name="achievement_task_habit_starter">ハビット・ビギナー</string>
@@ -865,7 +839,8 @@
     <string name="achievement_task_game_bachelor">ゲーム・エキスパート</string>
     <string name="achievement_task_game_bachelor_desc">60日間のタスク終了連続記録を達成</string>
     <string name="achievement_task_game_master">ゲームマスター</string>
-    <string name="achievement_task_game_master_desc">180日間のタスク終了連続記録を達成</string>      <!--Attributes Achievements -->
+    <string name="achievement_task_game_master_desc">180日間のタスク終了連続記録を達成</string>
+    <!-- Attributes Achievements -->
     <string name="achievement_attribution_warrior">戦士</string>
     <string name="achievement_attribution_warrior_desc">体力がレベル50に達する</string>
     <string name="achievement_attribution_mega">学者</string>
@@ -879,7 +854,8 @@
     <string name="achievement_attribution_alchemist">錬金術師</string>
     <string name="achievement_attribution_alchemist_desc">創造性がレベル50に到達</string>
     <string name="achievement_attribution_hero">ヒーロー</string>
-    <string name="achievement_attribution_hero_desc">ライフがレベル50に達する</string>      <!-- Community Achievements -->
+    <string name="achievement_attribution_hero_desc">ライフがレベル50に達する</string>
+    <!-- Community Achievements -->
     <string name="achievement_community_new_member">新規メンバー</string>
     <string name="achievement_community_new_member_desc">チームの作成または参加</string>
     <string name="achievement_community_well_played">よく遊ぶ</string>
@@ -899,14 +875,14 @@
     <string name="achievement_community_little_famous">ちょっとした有名人</string>
     <string name="achievement_community_little_famous_desc">10いいね！を獲得する</string>
     <string name="achievement_community_lovable">愛すべきもの</string>
-    <string name="achievement_community_lovable_desc">いいね！を50回獲得する</string><!-- Shop Achievements -->
+    <string name="achievement_community_lovable_desc">いいね！を50回獲得する</string>
+    <!-- Shop Achievements -->
     <string name="achievement_shop_first_bucket_of_gold">最初の金のバケツ</string>
     <string name="achievement_shop_first_bucket_of_gold_desc">コインの報酬を得る</string>
     <string name="achievement_shop_sold_out">売り切れました</string>
     <string name="achievement_shop_sold_out_desc">ショップからアイテムを削除する</string>
     <string name="achievement_shop_jackpot">ジャックポット（Jackpot）</string>
     <string name="achievement_shop_jackpot_desc">ランダムなコインの範囲で、可能な限り最大値を獲得する</string>
-    <string name="achievement_shop_bad_luck">Really Bad Luck</string>
     <string name="achievement_shop_bad_luck_desc">ランダムなコインの範囲内で、可能な限りの最小値を獲得する</string>
     <string name="achievement_shop_savings">貯金</string>
     <string name="achievement_shop_savings_desc">100枚のコインを所有する</string>
@@ -914,7 +890,6 @@
     <string name="achievement_shop_little_wealthy_desc">1000枚のコインを所有する</string>
     <string name="achievement_shop_monopoly">独占</string>
     <string name="achievement_shop_monopoly_desc">所有する10000枚のコイン</string>
-
     <string name="achievement_unlock">実績解除！</string>
     <string name="achievement_secret">それは秘密です。</string>
     <string name="target_edit_error">目標の回数が完了した回数より少なくなってはいけません</string>
@@ -929,7 +904,6 @@
     <string name="title_add_team_dialog">チームタスクの設定</string>
     <string name="team_setting_dialog_category">リスト： %1$s</string>
     <string name="switch_auto_use">使用</string>
-    <string name="dialog_join_use_team_desc_as_remark">Use team desc as notes</string>
     <string name="setting_display_relative_time_display">相対時間の表示</string>
     <string name="setting_display_relative_time_display_desc">開始時間、締め切り時間を相対的な時間で表示する</string>
     <string name="date_input_hint">一般的に、最初の開始時刻と最初の終了時刻の間隔は、タスクの繰り返し頻度よりも大きくしてはいけません。</string>
@@ -979,7 +953,7 @@
     <string name="rename_subtask">名前の変更</string>
     <string name="dialog_overdue">延滞中のタスク</string>
     <string name="btn_ready">準備</string>
-    <string name="btn_ok">OK</string>
+    <string name="btn_ok">はい</string>
     <string name="overdue_no_punishment">罰則なし</string>
     <string name="hint_add_sub_task">サブタスクの作成</string>
     <string name="feature_169">サブタスク</string>
@@ -992,11 +966,9 @@
     <string name="title_activity_backup_setting">バックアップの設定</string>
     <string name="backup_or_restore_title">バックアップとリストア</string>
     <string name="data_delete_title">データ削除</string>
-    <string name="backup_web_dav">WebDav</string>
     <string name="restore_check_failed">WebDAVサーバーからのバックアップファイルのダウンロードに失敗しました</string>
     <string name="not_configured">設定されていません</string>
     <string name="configured">設定</string>
-    <string name="web_dav_url">WebDAV Url</string>
     <string name="web_dav_account">WebDAVアカウント</string>
     <string name="web_dav_password">WebDAVのパスワード</string>
     <string name="xml_backup_cloud_setting">WebDAVの設定</string>
@@ -1007,9 +979,7 @@
     <string name="web_dav_test_failed">テストが失敗しました。設定を確認してください。\n
 詳細メッセージ:</string>
     <string name="webdav_lifeup_hint">LifeUpは、バックアップファイルを保存するためにLifeUpという名前のフォルダを作成します</string>
-    <string name="title_web_dav_setting">WebDAV</string>
     <string name="webdav_configuration">WebDAVの設定</string>
-    <string name="webdav_url">WebDAV Url</string>
     <string name="webdav_password">WebDAVのパスワード</string>
     <string name="test_connection">接続テスト</string>
     <string name="title_activity_custom_attribute">カスタム属性</string>
@@ -1021,7 +991,6 @@
     <string name="custom_attribution_reset">リセット</string>
     <string name="custom_attribution_hint">属性の追加・削除はまだサポートされていません。</string>
     <string name="setting_custom_attribute">属性のカスタマイズ</string>
-    <string name="setting_custom_attribute_desc">現在の属性のアイコンとテキストをカスタマイズする</string>
     <string name="webdav_account">WebDAVアカウント</string>
     <string name="attachment">添付ファイル</string>
     <string name="lab_compact_mode_sample">学習言語</string>
@@ -1075,14 +1044,14 @@
     <string name="feelings_item_delete_message">この気分を本当に消しますか？</string>
     <string name="feelings_submit_success">フィーリングの送信に成功しました！</string>
     <string name="feelings_dialog_search_title">検索</string>
-    <string name="lab_feelings_title">気分</string><!-- Team Report Type -->
+    <string name="lab_feelings_title">気分</string>
+    <!-- Team Report Type -->
     <string name="report_type_1">これはスパムです</string>
     <string name="report_type_2">これは悪口や嫌がらせです</string>
     <string name="report_type_3">これは有害な情報です</string>
     <string name="report_type_4">私の著作権を侵害しています</string>
     <string name="report_type_5">何かの投票を勧誘するものです</string>
     <string name="report_type_6">その他</string>
-
     <!-- Feelings Fav -->
     <string name="feelings_fav">好きなもの</string>
     <string name="feelings_fav_action">お気に入り</string>
@@ -1094,7 +1063,8 @@
     <string name="setting_custom_card_background_desc">カードの背景に好きな写真を選び、不透明度を設定する</string>
     <string name="settings_custom_task_card_bg_hint">ここをタップして画像を選択</string>
     <string name="opacity">不透明度</string>
-    <string name="feedback_email_hint">返信が必要な場合は、連絡先のEメールを入力してください。また、Eメールでのフィードバックを選択することもできます： kei.ayagi@gmail.com</string>    <!-- degree only in Chinese now -->
+    <string name="feedback_email_hint">返信が必要な場合は、連絡先のEメールを入力してください。また、Eメールでのフィードバックを選択することもできます： kei.ayagi@gmail.com</string>
+    <!-- degree only in Chinese now -->
     <string name="importance_lv1_desc">これはオプションです。 話題のゴシップを調べるといった感じでしょうか。 何かの偶然で現れたそれは、あなたの記憶にはほとんど残らず、完成しても完成しなくても、あなたにはほとんど影響がありません。 </string>
     <string name="importance_lv2_desc">これは、ちょっとした注意を払うべきことです。 1日に10個の単語を覚える」というような課題でもよいでしょう。 完成させても大きな影響はありませんが、微妙に数字を重ねていくうちに、気がついたら大きく改善していた、というようなこともあります。 また逆に、このレベルで特定のタスクにこだわれないと、かえって大切なものを失ってしまうかもしれません。 </string>
     <string name="importance_lv3_desc">これはあなたの注意を必要とするものです。 それは、「締め切りを守る」というようなタスクであってもいい。 このような作業を行うことで、すぐに大きな利益を得ることができます。 逆に言えば、そのような課題をクリアできなければ、苦痛を感じるかもしれません。 </string>
@@ -1103,10 +1073,9 @@
     <string name="difficult_lv2_desc">少し難しいところがあります。 そのようなタスクをこなすためには、頭を使い、時間をかける必要があるかもしれませんし、タスクに対する怠惰や抵抗感から、引き受けたくないという罪悪感があるかもしれません。 </string>
     <string name="difficult_lv3_desc">トラブル。 \勉強したり、知識を増やしたり、長い時間をかけて考えたり、試したりしないとできないことや、嫌悪感や恐怖感があり、それを克服するためには意志の強さが必要なことなどがあります。 </string>
     <string name="difficult_lv4_desc">クリアするのはほぼ不可能。 この課題は、自分の能力の盲点の多くに触れるものであり、高校3年生のクズが清華大学に合格するために1学期の復習をするような魔法のようなものです。 能力がない分、時間も相対的に非常にタイトになり、このレベルの仕事をこなすには、人並み以上の忍耐力とあきらめない気分が必要です。 </string>
-    <string name="title_activity_degree_desc">Degree</string>
     <string name="content_degree_desc_author">コピーライター：クーラン @wind_heart_sky_shuang</string>
-    <string name="donate_alipay">Alipay</string>
-    <string name="donate_wechat_or_list">Wechat</string>
+    <string name="donate_alipay">アリペイ</string>
+    <string name="donate_wechat_or_list">WeChat</string>
     <string name="about_donate_element">寄贈</string>
     <string name="about_icon_designer_element">アイコンデザイナーCoolApk@これは小麦の麺のボウルです</string>
     <string name="common_select_photos">写真の選択</string>
@@ -1177,10 +1146,8 @@
     <string name="require_permission">許可が必要</string>
     <string name="hint_denied_activity_permission">センサーの使用を拒否した場合、LifeUpは歩数データを取得できません。</string>
     <string name="default_name_system_achievements">システム</string>
-    <string name="login_backup_hint">注意：ローカルデータはサーバーと同期されません</string>
     <string name="user_achievement_delete_title">削除する</string>
     <string name="user_achievement_delete_message">この実績を本当に削除しますか？</string>
-
     <string name="backup_hint">「設定」ページ内の「データバックアップ」ページで、データのバックアップ／リストアができます。\n
         ローカルデータのZIPファイルへのエクスポートや、設定したWebDAVサーバーとのデータ同期に対応しました。\n
         LifeUpは将来的にGoogle Driveのバックアップに対応する予定です。\n
@@ -1227,12 +1194,12 @@
     <string name="workday_task_desc">就業日</string>
     <string name="special_task_desc">特別</string>
     <string name="basic_task_desc_detail">基本的な定義:締め切り: 繰り返しサイクルの期限です。タスクの終了条件ではありません。開始時間も同様）\\毎日のタスクの締め切りは「今日」に、毎週のタスクの締め切りは「週末」に設定します。例えば、毎週のタスクを繰り返す場合、次の開始時刻は現在の開始時刻から7日後になります。</string>
-    <string name="weekly_task_desc_detail">[月曜日]から始まるウィークリータスクを設定する方法, 終了日：[日曜日]:R&amp;D Step 1. 繰り返し頻度\」を「週間」に設定します。締め切り "を "週末"（日曜日）に設定してください。</string>
-    <string name="weekday_task_desc_detail">特定の曜日にタスクを実行するように設定する方法:\\Step 1. 繰り返し頻度\"を "毎日 "に設定します。無視\"ボタンをタップして、タスクを実行する曜日を設定します</string>
+    <string name="weekly_task_desc_detail">[月曜日]から始まるウィークリータスクを設定する方法, 終了日：[日曜日]:R&amp;D Step 1. 繰り返し頻度\」を「週間」に設定します。締め切り \"を \"週末\"（日曜日）に設定してください。</string>
+    <string name="weekday_task_desc_detail">特定の曜日にタスクを実行するように設定する方法:\\Step 1. 繰り返し頻度\"を \"毎日 \"に設定します。無視\"ボタンをタップして、タスクを実行する曜日を設定します</string>
     <string name="special_task_desc_detail">特別なタスク（例：1日目の4時に開始し、2日目の18時に締め切りのデイリータスク）を設定する方法：\nStep
     1. その他のオプション]ボタンをタップすると、開始時間のオプションが表示されます\nStep 2.
     開始時間」を繰り返し初日の日付に設定し、時間を「4:00」に設定してください。「締め切り」を「開始時間」の翌日に設定し、「時間」をタップして「18:00」に設定します。Repeat
-        Frequency\"を "Daily "に設定します。</string>
+        Frequency\"を \"Daily \"に設定します。</string>
     <string name="dialog_shop_item_select_title">選択</string>
     <string name="reward_shop_item">ショップアイテム</string>
     <string name="reward_normal_text">テキストのみ</string>
@@ -1248,13 +1215,12 @@
     <string name="clear_history_title">履歴データの消去</string>
     <string name="clear_history_desc">すべての履歴データを消去する。これは元に戻すことはできません！</string>
     <string name="title_dialog_task_tag_color">タグのカラー</string>
-
     <string name="setting_display_hide_status">ステータスを隠す</string>
     <string name="setting_display_hide_status_desc">ボトムナビゲーションにステータスモジュールを表示する</string>
     <string name="setting_display_hide_shop">ショップを表示</string>
     <string name="setting_display_hide_shop_desc">ボトムナビゲーションのショップモジュールを隠す</string>
-    <string name="setting_display_hide_me">"マイページ "を表示する</string>
-    <string name="setting_display_hide_me_desc">ボトムナビゲーションに "マイページ "モジュールを表示する。</string>
+    <string name="setting_display_hide_me">\"マイページ \"を表示する</string>
+    <string name="setting_display_hide_me_desc">ボトムナビゲーションに \"マイページ \"モジュールを表示する。</string>
     <string name="relaunch_item">再起動</string>
     <string name="relaunch_success">再起動成功</string>
     <string name="auto_backup_conflict_download">ローカルのデータは、サーバーにバックアップされたデータで上書きされます。</string>
@@ -1262,14 +1228,13 @@
     <string name="auto_backup_title_sync">同期</string>
     <string name="auto_backup_last_sync_time">最終同期時間: %1$s</string>
     <string name="btn_sync">同期</string>
-    <string name="auto_backup_last_sync_failure">最後の同期に失敗しました：%1$s\n\nネットワークの接続状況や同期の設定を確認してください。</string>
+    <string name="auto_backup_last_sync_failure">最後の同期に失敗しました：%1$s\nネットワークの接続状況やWebDAVの設定を確認してください。</string>
     <string name="btn_config">コンフィグ</string>
     <string name="btn_upload">アップロード</string>
     <string name="btn_download">ダウンロード</string>
     <string name="dialog_title_sync_conflict">同期の競合</string>
     <string name="dialog_title_confirm">確認</string>
-    <!--podomoro -->
-
+    <!-- podomoro -->
     <string name="start_tametu">タイマーの開始</string>
     <string name="cancel_tametu">キャンセルタイマー</string>
     <string name="start_short_break">短期休憩の開始</string>
@@ -1290,7 +1255,7 @@
     <string name="big_break_minute_picker_summary">00分</string>
     <string name="sessions_until_big_break_title">長期休憩までのワークセッション</string>
     <string name="sessions_until_big_break_summary">00 セッション</string>
-    <string name="number_picker_dialog_positive_button_text">OK</string>
+    <string name="number_picker_dialog_positive_button_text">はい</string>
     <string name="number_picker_dialog_negative_button_text">キャンセル</string>
     <string name="pomo_work_session">ワークセッション</string>
     <string name="pomo_short_break">短期休憩</string>
@@ -1319,7 +1284,7 @@
     <string name="dialog_task_item_unselect">選択されていません</string>
     <string name="tomatoes_action_eat">食べる</string>
     <string name="tomatoes_action_sell">売却</string>
-    <string name="tomatoes_eat_reward_desc"> %1$d[%2$s] Expを得ました</string>
+    <string name="tomatoes_eat_reward_desc">%1$d[%2$s] Expを得ました</string>
     <string name="tomatoes_sell_reward_desc">%1$d コインを得ました</string>
     <string name="eat_tomatoes_hint_text">食べる</string>
     <string name="sell_tomatoes_hint_text">売却</string>
@@ -1362,7 +1327,7 @@
     <string name="hint_number_greater_than_0">数字は0より大きくなければなりません</string>
     <string name="hint_should_select_attributes">少なくとも1つの属性を選択する必要があります</string>
     <string name="input_hint_value">値</string>
-    <string name="hint_select_attributes">属性の選択(swipe right to see more):</string>
+    <string name="hint_select_attributes">属性の選択(右にスワイプして詳細を表示):</string>
     <string name="radio_increase_exp">増加したExp</string>
     <string name="radio_decrease_exp">減少したExp</string>
     <string name="hint_attributes_conflict">他のエフェクトと競合しています</string>
@@ -1379,7 +1344,6 @@
     <string name="limit_number_per_week">%1$d 週間</string>
     <string name="limit_number_per_month">%1$d 月間</string>
     <string name="limit_number_per_year">%1$d 年間</string>
-    <string name="shop_effect_exp">Exp</string>
     <string name="shop_effect_coin">コイン</string>
     <string name="input_hint_number_limit">制限数</string>
     <string name="shop_dialog_title_add_limit">購入制限</string>
@@ -1405,7 +1369,6 @@
     <string name="confirm_synthesis_item">本当にこのアイテムを合成したいですか</string>
     <string name="not_enough_synthesis_item">合成するアイテムが不足しています</string>
     <string name="restore_failed_higher_version_backup_file">上位バージョンのファイルを復元できません、アプリをアップデートしてください！</string>
-
     <string name="feature_1760">ショップの効果</string>
     <string name="feature_1760_desc">- カスタムショップ効果\n-  カスタム購入制限</string>
     <string name="open_shop_btn_import">インポート</string>
@@ -1418,7 +1381,6 @@
     <string name="shop_share_fail">シェアに失敗しました</string>
     <string name="share_goods_fail_imported">インポートされたアイテムのシェアができません</string>
     <string name="undo_share_to_market">シェアを取り消す</string>
-    <string name="translator_credit"></string>
     <string name="view_creator">クリエイターページを見る</string>
     <string name="error_msg_report_self">自分を報告できません</string>
     <string name="off_item_succeed">削除に成功しました</string>
@@ -1503,25 +1465,21 @@
     <string name="market_list_sort_by_import">インポート番号で並び替えをする</string>
     <string name="hint_add_user_achievement_reward_develop">Expやショップの報酬設定が近日中に追加されます</string>
     <string name="feelings_view_detail">詳細</string>
-
     <string name="achievement_attribution_yes_itsme">Yes, It\'s マイページ</string>
     <string name="achievement_attribution_yes_itsme_desc">すべての属性がレベル10に到達</string>
     <string name="QandA_known_issues">既知の問題</string>
     <string name="QandA_update_desc">アップデート降順</string>
-    <string name="QandA_q_and_a">Q&amp;A</string>
     <string name="QandA_release_log">リリース・ログ</string>
     <string name="QandA_app_desc">アプリケーションの説明</string>
     <string name="xml_add_to_do_exp_title">Exp報酬</string>
     <string name="dialog_input_exp_number">Expの報酬値</string>
     <string name="hint_dialog_input_exp">「Yes, It/s マイページ」の達成度をアンロックすると、カスタム範囲が0～9999まで拡張されます</string>
     <string name="dialog_input_exp_number_title">Exp報酬</string>
-
     <string name="dialog_enable_auto_sum_short">自動</string>
     <string name="status_pomodoro_card_title">ポモドーロ</string>
-    <string name="status_pomodoros_today_focus">今日のフォーカスタイム\n(分単位)</string>
     <string name="status_today_tomato_earned">今日のトマト収穫量</string>
     <string name="status_tomato_total_amount">全トマト収穫量</string>
-    <string name="dialog_category_hide_hint_button">OK</string>
+    <string name="dialog_category_hide_hint_button">はい</string>
     <string name="dialog_category_hide_hint_desc">リスト要素をドラッグ＆ドロップすると、リストを並び替えできます</string>
     <string name="inventory_record_synthesis_cost">シンセシス・コスト・アイテム「%1$s」×%2$d</string>
     <string name="inventory_record_synthesis_got">シンセシス・ゴットアイテム「%1$s」×%2$d</string>
@@ -1536,7 +1494,6 @@
     <string name="pomodoro_tap_target_tomatoes_play_pause">タイマーの開始・一時停止</string>
     <string name="pomodoro_tap_target_tomatoes_skip">タイマーをスキップ</string>
     <string name="task_detail_tomatoes_count_display_text">x%1$d（%3$d分）トータル x%2$d（%4$d分）</string>
-
     <string name="condition_task_tomatoes_gained">タスクで指定した数のトマトを獲得する</string>
     <string name="condition_desc_task_tomatoes_gained">獲得 %1$dトマト「%2$s」</string>
     <string name="condition_task_purchase_item_times">アイテムを指定した回数だけ購入する</string>
@@ -1544,22 +1501,16 @@
     <string name="condition_task_use_item_times">アイテムを指定回数使用する</string>
     <string name="condition_desc_use_item_times">使用回数「%1$s」「%2$d」回</string>
     <string name="edit_text_search_hint">検索</string>
-
     <string name="dialog_input_exp_punishment_factor_message_example">100Expの報酬タスクの場合、失敗すると%1$d(100×%2$.2f)のExpを失う。</string>
     <string name="dialog_input_coin_punishment_factor_message_example">コイン100枚のタスクの場合、失敗すると%1$d (100 × %2$.2f) コインを失う。</string>
     <string name="add_team_edit_hint">報酬や時間の設定は、一度作成すると編集できませんので、設定内容をご確認ください。</string>
-
-    <string name="select_shop_item_reward_with_stock_number">%1$s x%2$d\n(%3$d left)</string>
     <string name="shop_top_item_count">%1$d アイテム</string>
-
     <string name="unlock_achievement_time_desc">アンロック  %1$s</string>
     <string name="pomodoro_empty_text">ここにはポモドーロの記録がありません</string>
     <string name="title_activity_pomodoro_record">ポモドーロの記録</string>
-    <string name="pomodoro_record_focus_time">focused %1$d minute(s)</string>
     <string name="place_a_app_widget_method_hint">アプリのウィジェットをホーム画面に配置する方法は、ホーム画面のプログラムによって異なりますが、一般的にはホーム画面の何もない部分を長押しします</string>
     <string name="user_achievement_shop_item_reward_title">獲得したアイテム！</string>
     <string name="xml_add_user_achievment_complete_reward">アイテム獲得報酬</string>
-    <string name="vip_extension_theme_color"></string>
     <string name="user_activity_empty_hint">活動記録がありません。\チームタスクを完成させて提出する</string>
     <string name="user_activity_shop_empty_hint">ここには共有されたショップアイテムがありません</string>
     <string name="setting_custom_sound_effect">カスタムサウンドエフェクト</string>
@@ -1568,7 +1519,7 @@
     <string name="custom_sound_effect_hint">再生効果を高めるために、短い音声ファイルを選択することをお勧めします。</string>
     <string name="read_file_failed_hint">ファイルの読み取りに失敗しました。\nギャラリーアプリの中には、ファイルのパーミッションに対応していないものがあり、LifeUpでは写真を読み取ることができません。(例：Smartisan OSのGalleryアプリ)</string>
     <string name="add_shop_item_disable_purchase">購入を無効にする</string>
-    <string name="chip_feelings">Feelings</string>
+    <string name="chip_feelings">気分</string>
     <string name="custom_sound_effect_complete_task">タスクの完了</string>
     <string name="custom_sound_effect_purchase_item">アイテムを購入する</string>
     <string name="custom_sound_effect_level_up">レベルアップ</string>
@@ -1584,7 +1535,6 @@
     <string name="dialog_check_repeat_sec_cycle">2回目の繰り返しサイクル</string>
     <string name="unknown">アンノウン</string>
     <string name="switch_enable_cloud_auto_backup">クラウドの自動バックアップを有効にする</string>
-    <string name="cloud_backup_method_webdav">WebDAV</string>
     <string name="cloud_backup_method_dropbox">Dropbox</string>
     <string name="cloud_backup_setting">クラウドバックアップ設定</string>
     <string name="cloud_backup_configured">設定済み</string>
@@ -1593,12 +1543,10 @@
     <string name="toast_message_failed_to_call_email_app">メールアプリの起動に失敗しました</string>
     <string name="dialog_title_server_unavailable">サーバーが利用できないか、ネットワーク接続に失敗している可能性があります</string>
     <string name="dialog_server_unavailable_message">ネットワークを確認するか、後で再試行してください。＼オフラインモードでもLifeUpのほとんどの機能を利用できます／＼エラーメッセージ: %1$s\\ このような状態がしばらく続いた場合は、フィードバックをお寄せください</string>
-    <string name="cloud_backup_method_dropbox_in_zh" />
     <string name="goods_effect_loot_box">戦利品ボックス</string>
     <string name="effect_desc_item_loot_box">戦利品ボックス</string>
     <string name="probility_of_received_item_from_loot_box">アイテムを受け取った(%1$.2f%%)</string>
     <string name="hint_click_to_open_the_box">タップしてボックスを開く</string>
-
     <string name="inventory_record_loot_box_cost">戦利品ボックスを開く「%1$s」×%2$d</string>
     <string name="inventory_record_loot_box_got">戦利品ボックスから「%1$s」×%2$dを受け取る</string>
     <string name="btn_add_items">アイテムの追加</string>
@@ -1608,9 +1556,8 @@
     <string name="backup_once_a_day">1日に1回</string>
     <string name="backup_every_3_day">3日に1回</string>
     <string name="backup_once_a_week">1週間に1回</string>
-    <string name="backup_once_2_week">2週間に1回</string>になります
+    <string name="backup_once_2_week">2週間に1回</string>
     <string name="backup_once_a_month">1ヶ月に1回</string>
-
     <string name="market_search_empty_text">一致する項目がありません。\n作成して共有してみてはいかがでしょうか。</string>
     <string name="title_auto_backup_interval">自動バックアップの間隔</string>
     <string name="compact_config">コンパクトモード設定</string>
@@ -1622,13 +1569,11 @@
     <string name="chip_punishment">罰を与える</string>
     <string name="dialog_title_set_indie_punishment_factor">罰の要因</string>
     <string name="dialog_message_set_indie_punishment_factor">0～5.0の値を入力してください</string>
-
     <string name="title_activity_edit_achievement_category">カテゴリの編集</string>
     <string name="title_activity_edit_user_achievement">達成度の編集</string>
     <string name="view_team">チームの表示</string>
     <string name="loot_box_probability_table">確率表</string>
     <string name="menu_restart">再起動</string>
-
     <string name="system_achievement_list_undeleteable">システム実績リストは削除できません</string>
     <string name="achievement_list_delete_message">本当にこの実績リストを削除しますか</string>
     <string name="user_achievement_not_empty_list_undeleteable">空ではない実績リストは削除できません</string>
@@ -1649,11 +1594,9 @@
     <string name="btn_continue">続ける</string>
     <string name="loot_box_title_received_rewards">受け取った報酬</string>
     <string name="btn_previous">前ページ</string>
-
     <string name="dialog_shop_settings_atm_interest">ATMの日割り金利</string>
     <string name="atm_interest_desc">獲得 %1$d ATMのコイン利息</string>
     <string name="atm_interest_input_limit">10%以上にしてはいけません</string>
-
     <string name="condition_shop_open_loot_boxes">指定した回数、戦利品ボックスからアイテムを獲得する</string>
     <string name="condition_desc_open_loot_boxes">「%1$s」を取得する。「%2$d」戦利品ボックスの回数</string>
     <string name="hint_hide_module_title">モジュールを隠す</string>
@@ -1663,48 +1606,32 @@
     <string name="hint_pedometer_hint">歩数計</string>
     <string name="hint_pedometer_hint_desc">本アプリは、システムからデイリーステップカウントにアクセスすることはできません。\n1日の歩数は、今日の歩数から昨日の歩数を差し引いて算出します。\n\nカウントの精度は、アプリを開いたときや携帯電話の再起動時などの条件によって異なります。</string>
     <string name="hint_pedometer_input_or_hide_hint_desc">自動計算ではなく、手動でステップ数を入力することもできます。\n\nまた、ステップカウンターモジュールが不要な場合は、「表示設定」画面で非表示にすることもできます。</string>
-
-    <string name="hint_login_method"></string>
-    <string name="hint_login_method_desc"></string>
-    <string name="hint_login_method2"></string>
-    <string name="hint_login_method_desc2"></string>
-
-    <string name="hint_world_module">Hello, World!</string>
     <string name="hint_world_module_desc">Worldモジュールでは、チームに参加してチームのタスクを取得したり、新しいチームを作ってタスクを共有したりすることができます。 </string>
     <string name="hint_world_module_moments">アクティビティの投稿</string>
     <string name="hint_world_module_moments_desc">チームタスクを完了した後、自分の活動やその感想を文章や写真で世界に投稿することができます。</string>
     <string name="hint_world_module_market">クリエイティブマーケット</string>
     <string name="hint_world_module_market_desc">世界中の人たちが作ったクリエイティブなショップアイテムを見ることができます♪あなたの力作をシェアすることもできます！</string>
-
     <string name="hint_atm_interest">ATM利息</string>
     <string name="hint_atm_interest_desc">ショップ設定（ATMの横にあるリンク）でATMの利息を設定すると、毎日利息を受け取ることができます</string>
-
     <string name="hint_loot_box_probability">確率</string>
     <string name="hint_loot_box_probability_desc">アイテムの実際の確率計算式：アイテムの確率÷全アイテムの確率の合計。 例えば、0.1%の確率を持つAというアイテムを作りたい場合、Aというアイテムを選択してその確率に1%を入力し、次にBというアイテムを選択してその確率に999%を入力すると、Aの確率は0.1%、Bの確率は99.9%となります。</string>
     <string name="dialog_crash_action_btn_skip_hint">Don\\（次のクラッシュが起きない限り）</string>
     <string name="title_activity_edit_category">リストの編集</string>
-
     <string name="hint_uncomplete_task">タスクを未完了にする</string>
     <string name="hint_uncomplete_task_desc">完了したタスクを取り消すには、さまざまな方法があります。タスクを完了した後、下のポップアップウィンドウにある「取り消し」ボタンをタップする。履歴」や「カレンダー」のページで「元に戻す」ボタンをタップする。右上のメニューにある「完了を表示」にチェックを入れ、タスクの完了マークをタップする。</string>
-
     <string name="hint_punishment">Expの罰則</string>
     <string name="hint_punishment_desc">タスクの期限を過ぎたり、あきらめたりすると、Expが減ります。実際にタスクを完了した場合は、完了マークをつけることで報酬を取り戻すことができます。</string>
-
     <string name="hint_punishment_coin">コインの罰則</string>
     <string name="hint_punishment_coin_desc">コインの罰則の機能はデフォルトでは無効になっていますが、[カスタム設定]ページから有効にして、コインの罰則やExpの罰則のレベルを調整することができます。</string>
-
     <string name="statistics_time_7days">7日</string>
     <string name="title_searching_tab_team">チーム</string>
     <string name="title_searching_tab_market">マーケット</string>
     <string name="title_searching_tab_user">ユーザー</string>
-
     <string name="user_search_empty_text">一致するユーザーはいません </string>
     <string name="activity_title_search">検索</string>
-
     <string name="hint_feedback_method_title">フィードバック</string>
     <string name="hint_feedback_method_desc">[会社概要]-[フィードバック]ページからお気軽にご意見をお寄せください。ライフアップはインディーズアプリのため、様々な機種やバージョンの携帯電話をテストすることが難しく、バグを避けることができません。</string>
     <string name="switch_cloud_auto_backup_ignore_media">メディア/画像ファイルを無視する</string>
-
     <string name="backup_media_file_size">合計サイズ: %1$s MB\nショップ アイコン: %2$s MB\n実績アイコン: %3$s MB\nタスクの添付ファイル 4$s MB\n気分：%5$s MB\メディアファイルのパス：%6$s\n使わない添付ファイルを削除したり、気分の画像ファイルを手動で圧縮することをお勧めします。\n\n-将来的には、アプリの画像管理機能を追加する予定です。</string>
     <string name="setting_task_quick_add_notification">クイック追加の通知</string>
     <string name="setting_task_quick_add_notification_desc">通知バーからタスクを追加することができます。消費電力が増加する可能性があります。</string>
@@ -1748,8 +1675,7 @@
     <string name="hint_number_picker">中央の数字をタップすると、目標値を直接入力することができます</string>
     <string name="setting_task_swipe_to_switch_list">スワイプでタスクリストの切り替え</string>
     <string name="setting_task_swipe_to_switch_list_desc">(experimental) 左にスワイプすると前のリストに、右にスワイプすると次のリストに切り替わります\注意：カードのスワイプ動作を無効にします。</string>
-
-     <string name="shop_item_detail_stock_quantity">在庫数：%1$d</string>となります</string>
+    <string name="shop_item_detail_stock_quantity">在庫数：%1$d</string>となります</string>
     <string name="menu_change_task_state">状態の変更</string>
     <string name="menu_change_task_state_to_give_up">放棄</string>
     <string name="lab_smart_list_title">スマートリスト</string>
@@ -1760,7 +1686,7 @@
     <string name="lab_icon_set_v2">アトリビュートアイコンセット2.0</string>
     <string name="lab_new_icon_set_desc">リデザインされた属性アイコンです</string>
     <string name="menu_overdue">期限切れ</string>
-    <string name="hint_submit_activity">"送信 "または "スキップ "アクションの後、報酬を受け取ることができますが、タスクを完了させることはできません。</string>
+    <string name="hint_submit_activity">\"送信 \"または \"スキップ \"アクションの後、報酬を受け取ることができますが、タスクを完了させることはできません。</string>
     <string name="hint_edit_completed_time">統計計算の不具合により、完了時間を編集したり、繰り返しのタスクの完了順を変更したりすると、統計が異常になることがあります。</string>
     <string name="cannot_edit_completed_task">完了したタスクを編集することができません</string>
     <string name="freeze_or_unfreeze">フリーズ／アンフリーズ</string>
@@ -1811,30 +1737,24 @@
     <string name="lab_smart_list_month_desc">今月中に期限切れになるタスクを表示する</string>
     <string name="effect_countdown_notification_title">カウントダウン</string>
     <string name="effect_countdown_notification_end">カウントダウンが終了しました</string>
-    <string name="effect_countdown_notification_remaining">remaining:&#160;</string>
     <string name="lab_new_example_task_and_items">新しい例のタスクとアイテム</string>
     <string name="lab_new_example_task_and_items_desc">新しいサンプルタスクとショップアイテムのセットで、リピートタスクの使用例や、戦利品ボックスなどの新機能を紹介しています</string>
     <string name="btn_ignore">無視</string>
     <string name="sample_task_get_up_early">早起きする</string>
     <string name="sample_task_get_up_early_desc">開始時刻と締切時刻の設定は、繰り返しタスクの時間範囲を制限するために使用できます。この設定を変更するには、翌日に指定したい期限を設定してください。</string>
-
     <!-- in xx days -->
     <string name="tag_deadline_v2_relative">締め切り in %1$s</string>
     <string name="tag_deadline_v2_with_time">締め切り at %1$s</string>
     <string name="tag_deadline_v2_with_date">締め切り on %1$s</string>
     <!-- today/tomorrow/yesterday -->
     <string name="tag_deadline_v2_relative_special">締め切り日 %1$s</string>
-
     <!-- in xx days -->
     <string name="tag_start_v2_relative">開始時期 %1$s</string>
     <string name="tag_start_v2_with_time">開始時刻が%1$sの場合</string>
     <string name="tag_start_v2_with_date">開始時刻が%1$s</string>
     <!-- today/tomorrow/yesterday -->
     <string name="tag_start_v2_relative_special">開始日は%1$s</string>
-    <string name="relative_time_later_v2">%1$d日</string>になります。
-
-
-    <string name="statistics_complete_count">Completed: %1$d</string>
+    <string name="relative_time_later_v2">%1$d日</string>
     <string name="shop_statistics_this_year">今年</string>
     <string name="action_open_with_browser">ブラウザで開く</string>
     <string name="place_holder_not_set">設定されていません</string>
@@ -1852,9 +1772,7 @@
     <string name="hint_target_times">対象となる時間帯</string>
     <string name="hint_target_times_desc">目標回数とは、実行する総反復回数のことです。
 例えば、毎日のタスクを設定し、目標回数を10に設定すると、合計10日間のタスクが実行されることになります。複数のタスクを繰り返しスケジュールする必要がある場合は、カウントタスクやサブタスク、[無制限]の繰り返し回数メカニズムを使用することができます</string>
-    <!--    <string name="moment_filter_empty_text">Activity not found. 誰かをフォローしてみてください！</string>-->
     <string name="moments_filter_empty_text">アクティビティが見つかりません</string>
-
     <string name="pomodoro_hint_extra_time">余った時間</string>
     <string name="pomodoro_hint_extra_time_desc">このボタンをタップすると、フォーカスタイムの時間が長くなり、余分なトマトを獲得することができます。 </string>
     <string name="hint_history_item">ヒストリーアイテム</string>
@@ -1870,11 +1788,10 @@
     <string name="hint_shop_item_timer_hint_without_permission">通知権限が不足しているため、カウントダウン通知が正しく送信されていない可能性があります。通知権限を付与してください。</string>
     <string name="btn_known_issues">既知の問題</string>
     <string name="hint_add_widget_system_version_not_supported">現在のシステムバージョンでは、この操作をサポートしていません。</string>
-
     <string name="statistics_overdue_count">期限切れ: %1$d</string>
     <string name="statistics_give_up_count">放棄: %1$d</string>
     <string name="vibrate_mode">バイブレーション（振動）モード</string>
-    <string name="dialog_title_vibrate_mode">11</string>
+    <string name="dialog_title_vibrate_mode">バイブレーション（振動）モード</string>
     <string name="vibrate_long">ロング (約2.5秒)</string>
     <string name="vibrate_short">ショート（約0.5秒）</string>
     <string name="vibrate_disable">無効</string>
@@ -1897,7 +1814,7 @@
     <string name="synthesis_item_delete_title">削除</string>
     <string name="synthesis_item_failed">合成に失敗しました</string>
     <string name="synthetic_formula_not_found">合成式が見つかりません！右下の新規ボタンをタップして合成式を作成してください！</string>
-    <string name="add_to_do_min_before_deadline">%1$d分前に締め切ります</string>。
+    <string name="add_to_do_min_before_deadline">%1$d分前に締め切ります</string>
     <string name="add_to_do_hours_min_before_deadline">%1$d時間 %2$d分前に締め切り</string>
     <string name="add_to_do_min_before_start">開始前の%1$d分</string>
     <string name="add_to_do_hours_min_before_start">開始時刻の %1$d 時間 %2$d 分前</string>
@@ -1916,7 +1833,7 @@
     <string name="lab_new_tasks_refactor_desc">アプリケーションの拡張性や保守性を高めるために、「新規アイテム」と「アイテムの編集」ページのコードを書き換えています。ページのUIはまだ変更していません。α版のページで何か問題を発見された方は、ぜひメールでご連絡ください。また、いつでも旧バージョンに切り替えることができます</string>
     <string name="dialog_module_select_title">モジュール選択</string>
     <string name="setting_module_config">モジュールの構成</string>
-    <string name="setting_display_module_config_desc">ボトムナビゲーションバーのモジュール構成\n"ワールド "や "マイページ "のモジュールを非表示にするなど、不要なモジュールを自由に隠すことができ、他の第一階層の機能モジュールに置き換えることも可能です（一部サポート）</string>
+    <string name="setting_display_module_config_desc">ボトムナビゲーションバーのモジュール構成\n\"ワールド \"や \"マイページ \"のモジュールを非表示にするなど、不要なモジュールを自由に隠すことができ、他の第一階層の機能モジュールに置き換えることも可能です（一部サポート）</string>
     <string name="shop_item_effect_countdown_action_resume">再開</string>
     <string name="effect_count_down_notification_pausing">一時停止</string>
     <string name="shop_item_effect_countdown_action_close">とじる</string>
@@ -1929,11 +1846,60 @@
     <string name="starter_task_check_unstarted_task_desc">利用可能な時間帯に入っていないタスクは折りたたまれます。タスクの下部に「早起き」のタスクが表示されていない場合は、下部にある展開ボタン（三角）をタップしてみてください。</string>
     <string name="dialog_coin_input_btn_fixed">固定</string>
     <string name="dialog_coin_input_btn_auto">自動</string>
+    <string name="new_tasks">新しいタスク</string>
+    <string name="about_privacy_terms">プライバシー規約</string>
+    <string name="about_title_developer">デザイナー</string>
     <string name="about_btn_email">電子メール</string>
     <string name="about_feedback_short">フィードバック</string>
     <string name="feature_1780">ロック解除条件</string>
     <string name="feature_1820">合成</string>
+    <string name="btn_feedback_bugs">不具合</string>
+    <string name="btn_feedback_feature">機能</string>
+    <string name="dialog_reward_settings_title">報酬の設定</string>
     <string name="clear_history_data_feelings">気分</string>
     <string name="xml_clear_system_achievements">達成データのクリア</string>
+    <string name="timer_preference_remind_title">リマインダー</string>
+    <string name="timer_preference_reward_title">報酬</string>
     <string name="sort_coin">コイン</string>
+    <string name="starter_task_compatibility">互換性設定</string>
+    <string name="zh_feedback_method_internal">アプリ内からのフィードバック</string>
+    <string name="login_v2_sign_in_with_google">Googleでログイン</string>
+    <string name="custom_sound_effect_achievement_unlocked">実績解除</string>
+    <string name="brvah_load_failed">これ以上は読み込めませんでした。</string>
+    <string name="brvah_loading">読み込み中…</string>
+    <string name="to_do_item_action_deadline">期限</string>
+    <string name="vibrate_custom">カスタム</string>
+    <string name="login_method_google">Google</string>
+    <string name="login_method_qq">QQ</string>
+    <string name="login_method_facebook">Facebook</string>
+    <string name="login_method_weibo">Weibo</string>
+    <string name="dialog_decrease_title_penalty">罰を与える</string>
+    <string name="custom_attribution_action_delete">削除</string>
+    <string name="attribution_delete_confirm">この属性を削除してもよろしいですか?</string>
+    <string name="custom_attribution_menu_show_hidden">非表示を解除</string>
+    <string name="custom_attribution_action_enable">有効にする</string>
+    <string name="dialog_backup_file_size_alarm_title">バックアップファイルのサイズ</string>
+    <string name="action_copy">コピー</string>
+    <!-- from the picture selections/showing framework -->
+    <string name="bga_pp_confirm">確認</string>
+    <string name="bga_pp_download_img_failure">ダウンロードに失敗しました</string>
+    <string name="bga_pp_view_photo">表示</string>
+    <string name="feedback_method_internal">アプリ内からのフィードバック</string>
+    <string name="feedback_method_github">GitHub Issues</string>
+    <string name="feedback_method_email">電子メール</string>
+    <string name="shop_effect_unusable_desc">このアイテムは使用できません</string>
+    <string name="pomodoro_mode_pomodoro">ポモドーロ</string>
+    <string name="pomodoro_mode_timer">タイマー</string>
+    <string name="pomodoro_timer_dialog_complete_title">完了</string>
+    <string name="empty_hint_shop_item_select_dialog">何もありません。</string>
+    <string name="history_record_delete_success">削除に成功しました</string>
+    <string name="history_filter_state_completed">完了済</string>
+    <string name="history_filter_state_overdue">期限切れ</string>
+    <string name="history_filter_state_give_up">放棄</string>
+    <string name="title_picture_manager_page">画像</string>
+    <string name="pic_dir_name_attr">属性</string>
+    <string name="pic_dir_name_shop">ショップ</string>
+    <string name="pic_dir_name_custom">カスタム</string>
+    <string name="tomatoes_action_exchange">交換</string>
+    <string name="pomo_settings_exchange_not_configured">設定されていません</string>
 </resources>

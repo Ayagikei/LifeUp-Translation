@@ -1,10 +1,11 @@
-<resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <!-- bottom bar title -->
     <string name="title_board">Görevler</string>
     <string name="title_status">Durum</string>
     <string name="title_community">Topluluk</string>
     <string name="title_me">Ben</string>
     <string name="title_activity_main">Ana Sayfa</string>
-
     <!-- Welcome Activity -->
     <string name="page1_title">YAPILACAKLAR LİSTESİ</string>
     <string name="page1_content">Yapılacaklar listenizi yazın.\nÖnem ve zorluk derecesini ayarlayın.\nVe onları tamamlamaya çalışın.</string>
@@ -15,21 +16,10 @@
     <string name="page4_title">BULUT (CLOUD)</string>
     <string name="page4_content">Günlük veya renkli hayatınızı çevrimiçi ortama aktarın.\nGörevleri birlikte tamamlamak için online takımlara katılın.</string>
     <string name="page4_btn">LIFE UP\'I BAŞLAT</string>
-
     <string name="navigation_drawer_open">Navigasyon çekmecesini aç</string>
     <string name="navigation_drawer_close">Navigasyon çekmecesini kapat</string>
-
-
     <!-- Strings related to login -->
     <string name="title_activity_login">Oturum Aç</string>
-    <string name="prompt_password">Parola</string>
-    <string name="error_invalid_email">Bu email adresi geçersiz</string>
-    <string name="error_invalid_password">Bu parola çok kısa</string>
-    <string name="error_incorrect_password">Hatalı parola girdiniz</string>
-    <string name="error_field_required">Bu alan doldurulmalıdır</string>
-    <string name="permission_rationale">"Kişi izinleri email tamamlamasını sağlamak için gereklidir."
-    </string>
-    <string name="prompt_phone">Telefon Numarası</string>
     <string name="login_welcome">Daha Fazla İşlev İçin Oturum Açın</string>
     <string name="login_welcome_2">Daha fazla işlev için giriş yap:\n- Sunucuya exp, seviye senkronize et\n- Profilini düzenle\n- Topluluk</string>
     <string name="login_signIn">GİRİŞ YAP</string>
@@ -45,11 +35,9 @@
     <string name="title_activity_profile">Profili Düzenle</string>
     <string name="title_activity_user_mine">Profilim</string>
     <string name="title_activity_team_member">Üyeler</string>
-
     <string name="title_activity_user_team">Takım</string>
     <string name="title_activity_about">Hakkında</string>
     <string name="title_activity_achievement">Başarılar</string>
-
     <string name="AcraText">Uygulama çöktüğü için özür dileriz.\nLütfen bize rapor gönderin.</string>
     <string name="AcraTitle">ÇÖKME RAPORU</string>
     <string name="AcraCommend">Nasıl oldu?</string>
@@ -69,14 +57,6 @@
     <string name="about_check_update">Güncelleme Kontrol Et</string>
     <string name="about_version_name">Versiyon</string>
     <string name="contact_title">İletişim</string>
-    <string name="github_desc1">Android Developer: AyagiKei</string>
-    <string name="github_desc2">Server Developer: Hdonghong</string>
-    <string name="achievement_bonus_2">2000 「cazibe」exp kazandınız</string>
-    <string name="achievement_bonus_3">2000 「güç」ve 「dayanıklılık」exp kazandınız!</string>
-    <string name="achievement_bonus_4">5000 「dirilik」ve 「dayanıklılık」exp kazandınız!</string>
-    <string name="achievement_bonus_5">5000 「cazibe」exp kazandınız!</string>
-    <string name="achievement_bonus_6">10000 「cazibe」exp kazandınız!</string>
-    <string name="achievement_bonus_7">3000 「güç」exp kazandınız!</string>
     <string name="achievement_complete">Başarı kazanıldı</string>
     <string name="category_add_success">Başarıyla eklendi</string>
     <string name="category_rename_success">Yeniden adlandırma başarılı</string>
@@ -140,6 +120,20 @@
     <string name="main_tips_1">İpucu: Giriş yapınca topluluğa erişebilirsiniz.</string>
     <string name="main_tips_2">İpucu: Bugün tamamladığınız görevleri geri alabilirsiniz.</string>
     <string name="main_tips_3">İpucu: Step verisi, duyucu verilerinden hesaplanır; uygulamayı daha az sıklıkla başlatırsanız hatalı olabilir.</string>
+    <string name="main_tips_4">İpucu: Bugün tamamladığınız görevleri geri alabilirsiniz.</string>
+    <string name="main_tips_5">İpucu: Bugün tamamladığınız görevleri geri alabilirsiniz.</string>
+    <string name="main_tips_6">İpucu: Bugün tamamladığınız görevleri geri alabilirsiniz.</string>
+    <string name="main_tips_7">İpucu: Bugün tamamladığınız görevleri geri alabilirsiniz.</string>
+    <string name="main_tips_8">İpucu: Bugün tamamladığınız görevleri geri alabilirsiniz.</string>
+    <string name="main_tips_9">İpucu: Bugün tamamladığınız görevleri geri alabilirsiniz.</string>
+    <string name="main_tips_10">İpucu: Bugün tamamladığınız görevleri geri alabilirsiniz.</string>
+    <string name="main_tips_11">İpucu: Bugün tamamladığınız görevleri geri alabilirsiniz.</string>
+    <string name="main_tips_12">İpucu: Bugün tamamladığınız görevleri geri alabilirsiniz.</string>
+    <string name="main_tips_13">İpucu: Bugün tamamladığınız görevleri geri alabilirsiniz.</string>
+    <string name="main_tips_14">İpucu: Bugün tamamladığınız görevleri geri alabilirsiniz.</string>
+    <string name="main_tips_15">İpucu: Bugün tamamladığınız görevleri geri alabilirsiniz.</string>
+    <string name="main_tips_16">İpucu: Bugün tamamladığınız görevleri geri alabilirsiniz.</string>
+    <string name="main_tips_17">İpucu: Bugün tamamladığınız görevleri geri alabilirsiniz.</string>
     <string name="profile_update_success">Başarıyla güncellendi</string>
     <string name="profile_head_update_success">Avatar başarıyla güncellendi</string>
     <string name="profile_head_update_fail">Avatar güncellemesi başarısız: ağ hatası, lütfen daha sonra tekrar deneyin</string>
@@ -164,8 +158,6 @@
     <string name="add_to_do_menu_expire_weekend_item">Hafta Sonu</string>
     <string name="title_activity_backup">Yedekle/Geri Yükle</string>
     <string name="title_activity_to_do_item_detail">GÖREV DETAYLARI</string>
-    <string name="about_donate_element">Bağış</string>
-    <string name="about_icon_designer_element">İkon Tasarımcısı CoolApk@这是一碗麦面</string>
     <string name="about_green_android_website">Green Android Tarafından Onaylandı</string>
     <string name="about_not_found_android_store">Android mağaza bulunamadı</string>
     <string name="add_to_do_bouns_question">Exp buradaki ayarlarla özetlenecek.</string>
@@ -195,7 +187,6 @@
     <string name="backup_found_file">Yedekleme dosyası tespit edildi:&#160;</string>
     <string name="main_click_one_more_quit">Uygulamadan çıkmak için bir kez daha tıklayın</string>
     <string name="setting_toolbar_title">Ayarlar</string>
-    <string name="setting_widget_toolbar_title">Widget</string>
     <string name="setting_todo_toolbar_title">Görev</string>
     <string name="setting_display_toolbar_title">Görüntüle</string>
     <string name="team_toast_join_success">Takıma Başarıyla Katılındı</string>
@@ -209,7 +200,6 @@
     <string name="team_task_can_not_get">Alınamaz</string>
     <string name="team_time_end">Bitti</string>
     <string name="team_sign_end">Bitti</string>
-    <string name="point">P</string>
     <string name="team_menu_end">Son</string>
     <string name="permission_photo_preview_need">Fotoğrafın önizlenmesi için gerekli izni reddettiniz.</string>
     <string name="team_dialog_report_title">Rapor</string>
@@ -231,13 +221,12 @@
     <string name="difficult_degree">Zorluk Derecesi</string>
     <string name="urgency_degree">Önem Derecesi</string>
     <string name="ebbinghaus_the_last_day">Ebbinghaus-Son gün</string>
-    <string name="ebbinghaus">Ebbinghaus</string>
     <string name="day">Gün</string>
     <string name="to_do_detail_delete_title">Sil</string>
     <string name="to_do_detail_delete_message">Görevi silmek istiyor musunuz?</string>
     <string name="to_do_detail_delete_multiply_message">Görevi silmek istiyor musunuz?</string>
     <string name="activity_delete_message">Aktiviteyi silmek istiyor musunuz?</string>
-    <string name="sub_task_delete_message">"%1$s" silmek istiyor musunuz?</string>
+    <string name="sub_task_delete_message">\"%1$s\" silmek istiyor musunuz?</string>
     <string name="to_do_detail_delete_success">Başarıyla silindi</string>
     <string name="to_do_detail_delete_failed">Silme başarısız</string>
     <string name="to_do_detail_delete_history">Bu geçmişi silmek istiyor musunuz?</string>
@@ -246,7 +235,7 @@
     <string name="to_do_detail_delete_history_failed">Silme başarısız</string>
     <string name="to_do_item_detail_give_up_team_task">Takım görevinden vazgeçilemez!</string>
     <string name="to_do_item_detail_give_up_title">Vazgeç</string>
-    <string name="to_do_item_detail_give_up_message">Bu görevden vazgeçecek misiniz?\nBir miktar exp kaybedeceksiniz."</string>
+    <string name="to_do_item_detail_give_up_message">Bu görevden vazgeçecek misiniz?\nBir miktar exp kaybedeceksiniz.\"</string>
     <string name="to_do_item_detail_edit_team_task">Takım görevi düzenlenemez!</string>
     <string name="to_do_detail_set_to_finish">「Tamamlandı」 olarak ayarla</string>
     <string name="to_do_detail_set_to_finish_message">Görevi tamamladınız mı?</string>
@@ -270,24 +259,16 @@
     <string name="join_team">takıma katılındı</string>
     <string name="date">yyyy-AA-gg</string>
     <string name="joined">katılındı</string>
-    <string name="exp">exp</string>
     <string name="repeat_task">Görevi Tekrarla-</string>
     <string name="start">Başla</string>
     <string name="deadline">Son Tarih</string>
     <string name="today">Bugün</string>
-    <string name="today_with_time">%1$s</string>
     <string name="tomorrow">Yarın</string>
     <string name="tomorrow_with_time">Yarın %1$s</string>
     <string name="yesterday_with_time">Dün %1$s</string>
     <string name="relative_time_later">%1$d Gün Sonra</string>
     <string name="to_do_adapter_not_start_yet">Görev henüz başlamadı!</string>
     <string name="team">takım</string>
-    <string name="attr_strength">STR</string>
-    <string name="attr_learning">INT</string>
-    <string name="attr_charm">CHA</string>
-    <string name="attr_endurance">END</string>
-    <string name="attr_vitality">VIT</string>
-    <string name="attr_creative">CRE</string>
     <string name="female">Kadın</string>
     <string name="male">Erkek</string>
     <string name="secret">Gizli</string>
@@ -318,12 +299,12 @@
     <string name="to_do_taptarget_new">Görev ekşe</string>
     <string name="to_do_taptarget_content">Görev eklemek için buraya tıklayın！</string>
     <string name="to_do_taptarget_nav">Navigasyon</string>
-    <string name="to_do_taptarget_nav_content">"Pano: RPG oyunlarındaki gibi görevleri tamamladığınız yerler\n"
-                                    "Durum: Buradan niteliklerinizin explerine ve seviyelerine bakın\n\n"
-                                    "Topluluk: Bir takıma katıl ve takım görevlerini tamamla\n\n"
-                                    "İstatistikler: Buradan verilerinizin istatistiklerini görüntüleyin\n\n\n"
-                                    "Topluluk dışındaki çoğu özellik internetsiz çalışabilir~\n"
-                                    "Ve verilerin çoğu telefonunuzda yedeklenir, verileri yedeklemeden kaldırırken dikkat edin."</string>
+    <string name="to_do_taptarget_nav_content">Pano: RPG oyunlarındaki gibi görevleri tamamladığınız yerler\n\"
+                                    \"Durum: Buradan niteliklerinizin explerine ve seviyelerine bakın\n\n\"
+                                    \"Topluluk: Bir takıma katıl ve takım görevlerini tamamla\n\n\"
+                                    \"İstatistikler: Buradan verilerinizin istatistiklerini görüntüleyin\n\n\n\"
+                                    \"Topluluk dışındaki çoğu özellik internetsiz çalışabilir~\n\"
+                                    \"Ve verilerin çoğu telefonunuzda yedeklenir, verileri yedeklemeden kaldırırken dikkat edin.</string>
     <string name="to_do_slide_bar">Yan Çubuk</string>
     <string name="to_do_slide_bar_content">Burada giriş yapmak için girdiler duruyor, başarılar, görev geçmişi, ayarlar vb.</string>
     <string name="to_do_list">Liste</string>
@@ -356,7 +337,6 @@
     <string name="network_server_dead">Sunucu çökmüş olabilir, lütfen daha sonra tekrar deneyin</string>
     <string name="team_get_next_task_success">Görevi başarıyla al</string>
     <string name="team_get_next_task_already">Görevi başarıyla al</string>
-    <string name="lifeup">LifeUp</string>
     <string name="notification_content">Tamamlanacak görevleriniz var:&#160;</string>
     <string name="notification_ticker">YAPILACAKLAR</string>
     <string name="step_to_str">Yürüyerek [Güç] expsi toplayın</string>
@@ -381,7 +361,6 @@
     <string name="profile_nickname">Kullanıcı Adı</string>
     <string name="profile_address">Adres</string>
     <string name="profile_gender">Cinsiyet</string>
-    <string name="profile_avatar">Avatar</string>
     <string name="yb_network_problem">Yükleme başarısız. Bağlatınızı kontrol edip tekrar deneyin.</string>
     <string name="backup_not_found_file">Varsayılan dosya yolunda yedekleme bulunamadı!</string>
     <string name="xml_team_basic_header">Temel</string>
@@ -461,8 +440,6 @@
     <string name="every_two_weeks">Her 2 Haftada</string>
     <string name="monthly">Aylık</string>
     <string name="nickname">Kullanıcı Adı</string>
-    <string name="password">Parola</string>
-    <string name="repeat_password">Parolayı Tekrarla</string>
     <string name="sort_title">Sırala</string>
     <string name="alphabet">Alfabetik</string>
     <string name="create_time">Zaman Oluştur</string>
@@ -535,7 +512,6 @@
     <string name="tag_local_every_2_weeks">Tekrar Et-Her 2 Haftada Bir</string>
     <string name="tag_local_monthly">Tekrar Et-Aylık</string>
     <string name="weekdays">Hafta İçi</string>
-    <string name="comma">,</string>
     <string name="one">Pzt</string>
     <string name="two">Salı</string>
     <string name="three">Çrş</string>
@@ -561,7 +537,6 @@
     <string name="setting">Ayarlar</string>
     <string name="bottom_line">Sonuçta</string>
     <string name="nav_home">Ana Sayfa</string>
-    <string name="QandA">Q&amp;A</string>
     <string name="about">Hakkında</string>
     <string name="show_all_time">Tüm Zamanları Göster</string>
     <string name="show_today_only">Bugünü Göster</string>
@@ -577,25 +552,8 @@
     <string name="top">En İyi</string>
     <string name="move_to">Taşı</string>
     <string name="finish_and_get_reward">Görev tamamlandı ve ödül kazanıldı: %1$s!</string>
-    <string name="achievement_new_start">Başlatıcı</string>
-    <string name="achievement_new_start_desc">İlk görevinizi tamamlayın.</string>
-    <string name="achievement_busy_man">Meşgul İnsan</string>
-    <string name="achievement_busy_man_desc">200 görev tamamla.</string>
-    <string name="achievement_pacers">Gezgin</string>
-    <string name="achievement_pacers_desc">Bir günde 20000den fazla adımla.</string>
-    <string name="achievement_top_player">En İyi Oyuncu</string>
-    <string name="achievement_top_player_desc">2000 görev tamamla.</string>
-    <string name="achievement_new_member">Yeni Üye</string>
-    <string name="achievement_new_member_desc">Bir takıma katıl veya takım kur.</string>
-    <string name="achievement_team_pro">Takımın Üstadı</string>
-    <string name="achievement_team_pro_desc">200 takım görevi tamamla.</string>
-    <string name="achievement_sporter">Demir Vücut</string>
-    <string name="achievement_sporter_desc">Gücünü 15LVL yap</string>
     <string name="achievement_unlocked">Başarı kazanıldı</string>
     <string name="xml_login_third_login">Şimdilik yalnızca 3. parti uygulamalarla giriş destekleniyor</string>
-    <string name="gmt_tint">Üzgünüm :(</string>
-    <string name="gmt_tint_message">Topluluk şimdilik yalnızca GMT+8 zaman diliminde iyi çalışıyor.\nTopluluk bölümünü gizlemek istiyor musun?\nBunu sonra düzelteceğiz.</string>
-    <string name="step_bar" />
     <string name="Long_Sunday">Pazar</string>
     <string name="long_monday">Pazartesi</string>
     <string name="long_tuesday">Salı</string>
@@ -603,10 +561,8 @@
     <string name="long_thursday">Perşembe</string>
     <string name="long_friday">Cuma</string>
     <string name="Saturday">Cumartesi</string>
-    <string name="sort_exp">Exp</string>
     <string name="nav_history">Geçmiş</string>
     <string name="nav_achievement">Başarılar</string>
-    <string name="to_do_exp">%1$d Exp</string>
     <string name="exception_refresh">Başlık görünümünü yenilemeye çalışırken istisna bir durum oluştu</string>
     <string name="exception_achievement_animation">Başarı kilidini yenilemeye çalışırken istisna bir durum oluştu</string>
     <string name="setting_display_language">Dil</string>
@@ -628,16 +584,12 @@
     <string name="setting_display_date_format">Tarih Formatı</string>
     <string name="setting_display_date_format_desc">Tarih formatını değiştir</string>
     <string name="about_feature_element">Özellik</string>
-
     <string name="feature_night_mode">Gece Modu</string>
     <string name="feature_night_mode_desc">Karanlık mod ile LifeUp\'ın görünümünü değiştirin.</string>
-
     <string name="feature_history_filter">Geçmiş Filtresi</string>
     <string name="feature_history_filter_desc">Seçtiğiniz günün geçmişini görüntüle.</string>
-
     <string name="feature_fix">Minik Değişiklikler</string>
     <string name="feature_fix_desc">- Kayan buton otomatik olarak gizlenecek\n- Uygulamayı başlatırken siyah ekranı düzeltin\n- Tarih formatını değiştir\n- Optimizasyon</string>
-    <string name="feature_plan">Plan</string>
     <string name="feature_plan_desc">- Dükkan, Bozukluklar, Envanter\n- Uygulamayı MVP Kalıbına Yeniden Düzenleniyor(60%)</string>
     <string name="moments_empty_text">Data bulunamadı,lütfen daha sonra tekrar deneyin.</string>
     <string name="fragment_user_mine_exchangeable_likes">Takaslanabilir beğeniler:&#160;</string>
@@ -662,13 +614,11 @@
     <string name="dialog_reminder_method_title">Hatırlatıcı Sistemi</string>
     <string name="calendar_permission">Takvim okuma/yazma izni gerekiyor.</string>
     <string name="hint">İpucu</string>
-    <string name="reminder_method_hint">Uygulama varsayılan olarak hatırlatıcı göndermek için bildirimleri kullanıyor.\nHatırlatıcıyı sık sık alamıyorsanız.\nHatırlatıcı sistemini görev ayarlarından değiştirebilirsiniz.</string>
     <string name="dont_show_again">Tekrar gösterme</string>
     <string name="xml_clear_exp">Exp verisini sil</string>
     <string name="xml_clear_exp_desc">Tüm expleriniz 0a indirilecek.\nUyarı:Bu hayatınızı baştan başlatacak!</string>
     <string name="clear_exp_title">Exp Verisini Sil</string>
     <string name="clear_exp_desc">Tüm expleriniz 0a indirilecek.\nUyarı:Bu hayatınızı baştan başlatacak ve geri alınamaz!</string>
-    <string name="feature_163"><![CDATA[Calendar Reminder & Clear Data]]></string>
     <string name="feature_163_desc">- Yeni Sistem Takvimi Hatırlatıcısı\n- Exp Verisini Sil\n- Yayınlanan aktiviteleri sil</string>
     <string name="err_retry">Hata oluştu, lütfen tekrar deneyin.</string>
     <string name="shop_btn_buy">SATIN AL</string>
@@ -785,7 +735,7 @@
     <string name="task_type_counter">Sayım Görevi</string>
     <string name="input_task_count">Kaç Kez Yapılacağını Girin</string>
     <string name="input_task_count_desc">Sayım Görevini etkinleştirmek için hedef sayıyı girin.\n\nGörevi tamamlamak için kaç kez yapılacağını belirtir.</string>
-    <string name="task_counter_process">Hedef: %1$d (%3$s %2$s%%)</string>
+    <string name="task_counter_process">Hedef: %1$d (%2$s%%)</string>
     <string name="title_dialog_finish_times">Sayım Görevi</string>
     <string name="calendar_permission_lost">Takvim okuma/yazma izinleri olmadan hatırlatıcı ayarlanamaz.</string>
     <string name="to_do_detail_type_local_count_type">Sana Ait Sayım Görevi (%1$s)</string>
@@ -811,8 +761,7 @@
     <string name="calendar">Takvim</string>
     <string name="calendar_empty_text">TÜM görevler tamamlandı!</string>
     <string name="calendar_empty_done_text">Burası bomboş!</string>
-
-    <!-- Single Achievement -->
+    <!-- Base Achievement -->
     <string name="achievement_base_new_player">Yeni Oyuncu</string>
     <string name="achievement_base_new_player_desc">İlk görevinizi tamamlayın</string>
     <string name="achievement_base_merchant">Tüccar</string>
@@ -847,9 +796,7 @@
     <string name="achievement_base_special_case_desc">Bir görevi tamamlamadan pes edin</string>
     <string name="achievement_base_tinker">Tamirci</string>
     <string name="achievement_base_tinker_desc">Bir şeyleri düzenleyin</string>
-
-
-    <!-- Task Achievement -->
+    <!-- Task Achievements -->
     <string name="achievement_task_habit_develop">Alışkanlık Geliştirme</string>
     <string name="achievement_task_habit_develop_desc">Tekrarlanabilir bir görev oluşturun</string>
     <string name="achievement_task_habit_starter">Alışkanlık Başlangıcı</string>
@@ -880,8 +827,7 @@
     <string name="achievement_task_game_bachelor_desc">Üstüste 60 gün görev tamamlayın</string>
     <string name="achievement_task_game_master">Pro Oyuncu</string>
     <string name="achievement_task_game_master_desc">Üstüste 180 gün görev tamamlayın</string>
-
-    <!-- Attributes Achievement -->
+    <!-- Attributes Achievements -->
     <string name="achievement_attribution_warrior">Savaşçı</string>
     <string name="achievement_attribution_warrior_desc">50 seviye güce ulaş</string>
     <string name="achievement_attribution_mega">Mega</string>
@@ -896,8 +842,7 @@
     <string name="achievement_attribution_alchemist_desc">50 seviye yaratıcılığa ulaş</string>
     <string name="achievement_attribution_hero">Kahraman</string>
     <string name="achievement_attribution_hero_desc">Hayatını 50 seviyeye getir</string>
-
-    <!-- Community Achievement -->
+    <!-- Community Achievements -->
     <string name="achievement_community_new_member">Yeni Üye</string>
     <string name="achievement_community_new_member_desc">Bir takıma katıl veya yeni bir takım oluştur</string>
     <string name="achievement_community_well_played">İyi Oyundu</string>
@@ -918,14 +863,11 @@
     <string name="achievement_community_little_famous_desc">10 beğeni alın</string>
     <string name="achievement_community_lovable">Cana Yakın</string>
     <string name="achievement_community_lovable_desc">50 beğeni alın</string>
-
-
-    <!-- Shop Achievement -->
+    <!-- Shop Achievements -->
     <string name="achievement_shop_first_bucket_of_gold">Defineci</string>
     <string name="achievement_shop_first_bucket_of_gold_desc">Bozukluk ödülü alın</string>
     <string name="achievement_shop_sold_out">Satıldı!</string>
     <string name="achievement_shop_sold_out_desc">Dükkandan bir ürünü silin</string>
-    <string name="achievement_shop_jackpot">Jackpot!</string>
     <string name="achievement_shop_jackpot_desc">Rastgele bozukluk ödüllü görevde maksimum bozuluğu tuttur</string>
     <string name="achievement_shop_bad_luck">Çok Kötü Şans</string>
     <string name="achievement_shop_bad_luck_desc">Rastgele bozukluk ödüllü görevde minimum bozuluğu tuttur</string>
@@ -933,9 +875,7 @@
     <string name="achievement_shop_savings_desc">100 bozukluğa ulaş</string>
     <string name="achievement_shop_little_wealthy">Biraz Zengin</string>
     <string name="achievement_shop_little_wealthy_desc">1000 bozukluğa ulaş</string>
-    <string name="achievement_shop_monopoly">Monopoly</string>
     <string name="achievement_shop_monopoly_desc">10000 bozukluğa ulaş</string>
-
     <string name="achievement_unlock">Başarı Kazanıldı!</string>
     <string name="achievement_secret">Bu bir sır!</string>
     <string name="target_edit_error">Hedef sayı, tamamlanan sayıdan az olmamalıdır</string>
@@ -980,7 +920,6 @@
     <string name="sort_custom">Özel</string>
     <string name="close">Kapat</string>
     <string name="to_do_selecting_card">Kart Seçiliyor</string>
-
     <string name="to_do_unstart_hint">%1$d görev daha başlamadı</string>
     <string name="sort_urgency_degree">Önem</string>
     <string name="sort_difficulty_degree">Zorluk</string>
@@ -1014,7 +953,6 @@
     <string name="title_activity_backup_setting">Yedekleme Ayarı</string>
     <string name="backup_or_restore_title">Yedekle ve Geri Yükle</string>
     <string name="data_delete_title">Veri Silme</string>
-    <string name="backup_web_dav">WebDav</string>
     <string name="restore_check_failed">WebDAV sunucusundan yedekleme dosyası indirilemedi</string>
     <string name="not_configured">Yapılandırılmamış</string>
     <string name="configured">Yapılandırıldı</string>
@@ -1028,7 +966,6 @@
     <string name="web_dav_test_success">Başarı!</string>
     <string name="web_dav_test_failed">Test Başarısız, lütfen yapılandırmanızı kontrol edin.\nDetay Mesaj:</string>
     <string name="webdav_lifeup_hint">LifeUp yedekleme için LifeUp isimli bir dosya oluşturacak</string>
-    <string name="title_web_dav_setting">WebDAV</string>
     <string name="webdav_configuration">WebDAV Yapılandırma</string>
     <string name="webdav_url">WebDAV Linki</string>
     <string name="webdav_password">WebDAV Şifresi</string>
@@ -1042,7 +979,6 @@
     <string name="custom_attribution_reset">SIFIRLA</string>
     <string name="custom_attribution_hint">Nitelik ekleme beya kaldırma şu an desteklenmiyor.</string>
     <string name="setting_custom_attribute">Nitelikleri Özelleştir</string>
-    <string name="setting_custom_attribute_desc">Geçerli nitekliklerin simgesini ve metnini özelleştirin</string>
     <string name="webdav_account">WebDAV Hesabı</string>
     <string name="attachment">Ek</string>
     <string name="lab_compact_mode_sample">Dil öğrenme</string>
@@ -1051,7 +987,6 @@
     <string name="feature_170">Lab</string>
     <string name="feature_170_desc">- Kompakt Mod\n- Resim Eki\n- Özel Nitelikler(Metin ve Sembol)\n- WebDAV Yedeklemesi</string>
     <string name="menu_undo">Geri Al</string>
-
     <string name="setting_task_snack_bar_duration">Süre Gösteren Pencereyi Geri Al</string>
     <string name="setting_task_snack_bar_duration_desc_short">Kısa</string>
     <string name="setting_task_snack_bar_duration_desc_long">Uzun</string>
@@ -1096,96 +1031,49 @@
     <string name="feelings_item_delete_title">Sil</string>
     <string name="feelings_item_delete_message">Bu İzlenimi silecek misin?</string>
     <string name="feelings_submit_success">İzlenim girişi başarılı!</string>
-
     <string name="feelings_dialog_search_title">Ara</string>
     <string name="lab_feelings_title">İzlenimler</string>
-
+    <!-- Team Report Type -->
     <string name="report_type_1">Bu bir spam</string>
     <string name="report_type_2">Bu küfür/taciz içeriyor</string>
     <string name="report_type_3">Bu zararlı  bir bilgi</string>
     <string name="report_type_4">Bu benim telif hakkımı ihlal ediyor</string>
     <string name="report_type_5">Bu oylamayı kışkırtıyor</string>
     <string name="report_type_6">Diğer</string>
-    <string name="setting_custom_card_background">Custom Task Card Background</string>
+    <!-- Feelings Fav -->
     <string name="setting_custom_card_background_desc">Choose your favorite picture as the card background and set the opacity of it.</string>
     <string name="settings_custom_task_card_bg_hint">Click here to choose picture</string>
-    <string name="opacity">Opacity</string>
     <string name="feedback_email_hint">If you want a response, please input the contact email.</string>
-    <string name="common_select_photos">Select Photos</string>
-
-
-    <string name="statistics_time_30days">30 Days</string>
-    <string name="statistics_time_3months">3 Months</string>
-    <string name="statistics_time_1year">1 Year</string>
-    <string name="statistics_time_all_time">All Time</string>
-    <string name="app_widget_header_opacity">Header Opacity</string>
-    <string name="app_widget_background_opacity">Background Opacity</string>
-    <string name="setting_widget_opacity">App Widget Opacity</string>
-    <string name="inventory_return">Return</string>
+    <!-- degree only in Chinese now -->
+    <string name="about_donate_element">Bağış</string>
+    <string name="about_icon_designer_element">İkon Tasarımcısı CoolApk@这是一碗麦面</string>
     <string name="inventory_item_return_message">Really going to return %1$s?</string>
-    <string name="inventory_item_return_detail_coin">You will receive %1$d coin(s)</string>
-    <string name="inventory_item_return_title">Return</string>
-    <string name="inventory_item_return_desc">Return item</string>
     <string name="inventory_item_return_success">Return successfully</string>
-    <string name="inventory_record_return">Return Item「%1$s」×%2$d</string>
-    <string name="setting_app_widget_opacity">Dark Theme: Opacity</string>
-    <string name="setting_app_widget_opacity_desc">Set opacity of app widget in dark theme</string>
-    <string name="switch_app_widget_simulate_dark_background">Simulate dark background</string>
-    <string name="inventory_button_return">Return</string>
-    <string name="dialog_input_task_count_target_multi_exp_reward">Multi Exp Reward</string>
     <string name="inventory_not_enough_item_to_return">Not enough item to return.</string>
     <string name="dialog_sub_task_title">Sub-Task Settings</string>
-    <string name="dialog_sub_task_coin_settings">Coin Number</string>
-    <string name="complete_sub_task">Completed subtask</string>
-    <string name="unlock_user_achievement">Unlock user achievement</string>
-    <string name="lock_user_achievement">Lock user achievement</string>
-    <string name="undo_complete_sub_task">Undo complete subtask</string>
-    <string name="help_translate">Help Translate</string>
+    <string name="dialog_sub_task_coin_settings">Bozukluk Sayısı</string>
     <string name="feature_1720">Subtask Remind</string>
     <string name="feature_1720_desc">- Subtask Remind\n- Subtask Coin\n- App Widget Opacity\n- Statistics Time Selection\n- Inventory: Return Item</string>
-    <string name="xml_clear_achievements">Clear System Achievement Data</string>
     <string name="xml_clear_achievements_desc">Make all achievements to locked state.</string>
     <string name="clear_achievement_desc">Make all achievements to locked state.\nAttention:It cannot be undone!</string>
-    <string name="clear_achievement_title">Clear Achievement Data</string>
     <string name="toast_clear_achievement_success">Clear achievement data successfully</string>
-    <string name="team_like_text">Good %1$d</string>
-    <string name="dialog_decrease_exp">Lost Exp</string>
     <string name="dialog_lost_coins">Lost Coins: -%1$d</string>
-    <string name="menu_edit_completed_time">Edit completed time</string>
-    <string name="dialog_title_edit_completed_time">Edit completed time</string>
-    <string name="xml_history_edit_completed_time">Completed time</string>
     <string name="menu_edit_completed_time_success">Update successfully
         Re-enter the page may be needed to refresh the page.</string>
-    <string name="user_achievemnt_category_info">Basic</string>
-    <string name="user_achievement_category_name">Category Name</string>
-    <string name="user_achievement_category_desc">Description (Optional)</string>
-    <string name="title_fragment_user_achievement">Achievement List</string>
-    <string name="user_achievement_name">Achievement Name</string>
-    <string name="title_fragment_add_user_achievement">Add Achievement</string>
+    <string name="user_achievemnt_category_info">Temel</string>
+    <string name="user_achievement_category_desc">Açıklama (İsteğe Bağlı)</string>
     <string name="user_achievement_category_delete_success">Başarıyla silindi</string>
-    <string name="title_activity_add_achievement_category">Add Category</string>
-    <string name="title_activity_add_user_achievement">Add Achievement</string>
-    <string name="lab_user_achievement_example_desc">Read 100 books</string>
     <string name="lab_user_achievement_title">User Achievement (Developing)</string>
     <string name="lab_user_achievement_desc">Create your own achievement.</string>
-    <string name="enter">Enter</string>
     <string name="user_achievement_category_empty_text">There is no user achievement list.\nClick the float add button to create some.</string>
     <string name="user_achievement_empty_text">There is no user achievement.\nClick the float add button to create some.</string>
     <string name="feature_1730">User Achievement</string>
     <string name="feature_1730_desc">- User Achievement\n- Exp Decrease Dialog\n- Team SubTask Coin Setting</string>
     <string name="example_user_achievements">Example: Reading</string>
-    <string name="example_user_achievement_detail_1">Read 10 books</string>
-    <string name="example_user_achievement_detail_2">Read a book in a foreign language</string>
     <string name="title_lab_new">Lab (New Feature!)</string>
-    <string name="fragment_status_button_grant_permission">Grant</string>
-    <string name="require_permission">Permission Required</string>
     <string name="hint_denied_activity_permission">LifeUp can\'t get step count data if you denied the permission.</string>
-    <string name="default_name_system_achievements">System</string>
-    <string name="login_backup_hint">Attention:\nYour local data will not be synchronized with the server.</string>
-
-    <string name="user_achievement_delete_title">Delete</string>
+    <string name="user_achievement_delete_title">Sil</string>
     <string name="user_achievement_delete_message">Really going to delete this achievement?</string>
-
     <string name="backup_hint">You can use the [Data Backup] Page in the [Settings] Page to backup/restore your data.\n
         Now it support export your local data to a zip file, or sync the data with WebDAV server that you set up.\n
         LifeUp will add Google Drive backup support in the future.\n
@@ -1206,182 +1094,124 @@
         4. Team tasks completion record\n
         5. Team tasks activities\n
     </string>
-    <string name="add_shop_item_stock_number">Stock Quantity</string>
-    <string name="dialog_input_stock_quantity_unlimited">Unlimited</string>
-    <string name="dialog_input_stock_quantity_custom">Custom</string>
+    <string name="dialog_input_stock_quantity_unlimited">Sınırsız</string>
+    <string name="dialog_input_stock_quantity_custom">Özel</string>
     <string name="stock_not_enough">There is not enough stock</string>
     <string name="shop_item_possess">Own: %1$d (Stock Quantity: %2$d)</string>
     <string name="shop_item_possess_unlimited_stock">Own: %1$d</string>
-    <string name="sold_out">Sold Out</string>
-    <string name="savings_balance">Savings Balance: %1$s</string>
-    <string name="action_shop_atm">ATM</string>
-    <string name="shop_atm">ATM</string>
-    <string name="btn_back">BACK</string>
-    <string name="btn_deposit">DEPOSIT</string>
-    <string name="btn_withdrawal">WITHDRAWAL</string>
+    <string name="sold_out">Satıldı</string>
     <string name="withdrawal_desc">Withdrawal %1$d coins</string>
-    <string name="deposit_desc">Deposit %1$d coins</string>
     <string name="withdrawal_success">Withdrawal successfully</string>
-    <string name="withdrawal_fail">Withdrawal failed</string>
     <string name="deposit_success">Deposit successfully</string>
-    <string name="deposit_fail">Deposit failed</string>
     <string name="saving_balance_not_enough">Not enough saving balance</string>
-    <string name="btn_close">CLOSE</string>
-    <string name="weekly_task_desc">Weekly</string>
-    <string name="basic_task_desc">Basic</string>
-    <string name="workday_task_desc">WorkDay</string>
-    <string name="special_task_desc">Special</string>
+    <string name="weekly_task_desc">Haftalık</string>
+    <string name="basic_task_desc">Temel</string>
     <string name="basic_task_desc_detail">Basic Define:\nDeadline: The deadline of the repeat cycle. It\'s not the end condition of the task. (Same for the Start Time)\nBasically the deadline of a daily task should be set to [Today] while the deadline of a weekly task should be set to [Weekend].\n\nRepeat Frequency: Daily, Weekly, Monthly etc.\nWhen repeating a task, its start time and deadline will be calculated by the repeat frequency.\n\nFor example, when repeat a weekly task, its next start time will be 7 days after the current start time, same for the deadline.\nIn most cases, you can just set up the deadline and the repeat frequency as the start time can be auto calculated.</string>
     <string name="weekly_task_desc_detail">How to setup a weekly task from [Monday] to [Sunday]?\n\nStep 1. Set the \"Repeat Frequency\" to [Weekly]\n\nStep 2.Set the \"Deadline\" to [Weekend](the date of the Sunday)</string>
     <string name="weekday_task_desc_detail">How to setup a weekday task?\n\nStep 1. Set the \"Repeat Frequency\" to [Daily]\n\nStep 2.Click the \"Ignore\" Button to continue your setting</string>
     <string name="special_task_desc_detail">How to setup a special task like a daily task that started at 18:00 of the day and deadline at the 4:00 of the second day?\n\nStep 1. Click the [More Options] Button to show up the start time options\n\nStep 2. Set the [Start Time] to the date of first day of the repeat, and set the time to \"18:00\"\n\nStep 3. Set the [Deadline] to the date of the next day of the [Start Time], and then click the [Time] options the set up the specific time to \"4:00\"\n\nStep 4.Set the \"Repeat Frequency\" to [Daily]</string>
-    <string name="dialog_shop_item_select_title">Select</string>
-    <string name="reward_shop_item">Shop Item</string>
-    <string name="reward_normal_text">Text Only</string>
     <string name="complete_reward_text_input_dialog_title">Ödül</string>
-    <string name="inventory_record_reward">Get Reward Item「%1$s」×%2$d</string>
-    <string name="inventory_record_undo_reward">Undo Reward Item「%1$s」×%2$d</string>
-    <string name="feature_1740">ATM</string>
     <string name="feature_1740_desc">- ATM\n- Select shop items as task reward\n- Shop item stock quantity\n- Improve animation</string>
-    <string name="dialog_button_confirm">CONFIRM</string>
     <string name="toast_clear_history_success">Clear history data successfully</string>
-    <string name="xml_clear_history">Clear History Data</string>
-    <string name="xml_clear_history_desc">Including calendar history data</string>
-    <string name="clear_history_title">Clear History Data</string>
     <string name="clear_history_desc">Clear all history data.\nAttention:It cannot be undone!</string>
-    <string name="title_dialog_task_tag_color">Tag Color</string>
-    <string name="setting_display_hide_status">Hide Status</string>
-    <string name="setting_display_hide_status_desc">Hide Status module on the Bottom Navigation.</string>
-    <string name="setting_display_hide_shop">Hide Shop</string>
-    <string name="setting_display_hide_shop_desc">Hide Shop module on the Bottom Navigation.</string>
-    <string name="setting_display_hide_me">Hide "Me"</string>
-    <string name="setting_display_hide_me_desc">Hide "Me" module on the Bottom Navigation.</string>
-    <string name="relaunch_item">Relaunch</string>
     <string name="relaunch_success">Relaunch successfully</string>
     <string name="auto_backup_conflict_download">The local data will be overwritten with the data that has been backed up to the servers.\n\nYou can undo the action on the backup setting page later.</string>
-    <string name="auto_backup_conflict_upload">Local data will be backed up to the remote server.\n\nThe current backup data on the server will be overwritten.</string>
-    <string name="auto_backup_title_sync">Sync</string>
-    <string name="auto_backup_last_sync_time">Last sync time: %1$s</string>
-    <string name="btn_sync">SYNC</string>
-    <string name="auto_backup_last_sync_failure">Last sync failed: %1$s\n\nPlease check your network connection or the WebDAV/DropBox configuration.</string>
-    <string name="btn_config">CONFIG</string>
-    <string name="btn_upload">UPLOAD</string>
-    <string name="btn_download">DOWNLOAD</string>
-    <string name="dialog_title_sync_conflict">Sync Conflict</string>
-    <string name="dialog_title_confirm">Confirm</string>
-    <string name="pomo_work_session">Work Session</string>
-    <string name="pomo_short_break">Short Break</string>
-    <string name="pomo_long_break">Long Break</string>
+    <!-- podomoro -->
+    <string name="number_picker_dialog_positive_button_text">Evet</string>
+    <string name="number_picker_dialog_negative_button_text">İptal</string>
     <string name="pomo_settings">Timer Setting</string>
-    <string name="switch_enable_webdav_auto_backup">WebDAV Auto Backup</string>
-    <string name="none">None</string>
-    <string name="action_end_the_team">End the team</string>
+    <string name="none">Bir kez</string>
     <string name="action_end_the_team_desc">Really going to end the team?</string>
-    <string name="btn_end">END</string>
-    <string name="pomodoro_notification_complete">Skip</string>
-    <string name="pomodoro_notification_cancel">Cancel</string>
-    <string name="pomodoro_notification_timer_title">Tomato Timer</string>
-    <string name="pomodoro_notification_break_title">On a break</string>
-    <string name="pomodoro_notification_break_content">Break timer is running</string>
-    <string name="nav_pomodoro">Pomodoro</string>
-    <string name="pomo_work_session_before_long_break_hint">%1$d work sessions before long break</string>
-    <string name="menu_timer">Timer</string>
-    <string name="pomo_task_not_selected">not selected</string>
-    <string name="tomato_total_count">total x%1$d</string>
-    <string name="dialog_task_item_unselect">unselected</string>
-    <string name="tomatoes_action_eat">EAT</string>
-    <string name="tomatoes_action_sell">SELL</string>
-    <string name="tomatoes_eat_reward_desc">to gain %1$d [%2$s] exps</string>
-    <string name="tomatoes_sell_reward_desc">to gain %1$d coins</string>
-    <string name="eat_tomatoes_hint_text">eat</string>
+    <string name="pomodoro_notification_complete">Geç</string>
+    <string name="pomodoro_notification_cancel">İptal</string>
     <string name="sell_tomatoes_hint_text">sell out</string>
     <string name="lab_tomatoes_example_desc">25 minutes work session, 5 minutes break</string>
-    <string name="lab_pomodoro_title">Pomodoro Timer</string>
-    <string name="lab_pomodoro_desc">Gamify pomodoro timer.\nDecide how to deal with the tomatoes you gained.\n\n(Still at an early development stage)</string>
-    <string name="toast_hint_not_enough_tomatoes">not enough tomatoes</string>
-    <string name="dialog_tomatoes_title">Tomatoes</string>
-    <string name="feature_1750">Tomato</string>
     <string name="feature_1750_desc">- Gamify tomato timer\n- Custom task/list tag color\n- WebDAV auto backup\n- Hide modules: status, shop, me</string>
-    <string name="pomodoro_notification_skip">Skip</string>
+    <string name="pomodoro_notification_skip">Geç</string>
     <string name="hint_scroll_to_bottom_more_settings">there\'re more settings below, scroll it!</string>
     <string name="setting_custom_enable_sound_effect">Enable Sound Effect</string>
     <string name="setting_custom_enable_sound_effect_desc">Enable sound effect and the volume can be set by the media type volume.</string>
-    <string name="dialog_select_local_pictures_btn">Select local pictures</string>
-    <string name="btn_change_icon">Change icon</string>
     <string name="default_coin_sub_task">Default Coin Number of SubTask</string>
     <string name="title_dialog_default_coin_number_subtask">Default Coin Number of SubTask</string>
-    <string name="feellings_search_task_content">Task Content</string>
-    <string name="feelings_only_fav">Only Fav</string>
-    <string name="pro_version">Pro</string>
-    <string name="pomodoro_create_shortcuts">Create Shortcuts</string>
-    <string name="pomodor_create_shortcuts_to_launcher">Create a shortcut to your launcher.</string>
-    <string name="create_shortcut_failed">Failed to create a shortcut.\nPlease check the app permission settings.</string>
-    <string name="pomo_selling_price">Selling Price of Tomato</string>
-    <string name="pomo_selling_price_summary">3 coins</string>
     <string name="btn_add_using_effects">Add Using Effects</string>
-    <string name="shop_effect_no_special_effect">no special effect</string>
-    <string name="shop_effect_unusable">unusable</string>
-    <string name="shop_effect_custom">custom effects</string>
     <string name="add_shop_item_advance_settings">Advance</string>
     <string name="shop_title_using_effects">Using effects:</string>
-    <string name="dialog_gained_reward">Earned rewards</string>
-    <string name="dialog_reward_by_using_item">By using item</string>
-    <string name="exp_effect">Exp effect</string>
-    <string name="coin_effects">Coin effects</string>
-    <string name="hint_shop_effect_not_more_available">No more available effects</string>
-    <string name="hint_number_greater_than_0">The number should be greater than 0</string>
     <string name="hint_should_select_attributes">At least one attributes should be selected</string>
-    <string name="input_hint_value">Value</string>
-    <string name="hint_select_attributes">Select attributes(swipe right to see more):</string>
-    <string name="radio_increase_exp">Increase Exp</string>
-    <string name="radio_decrease_exp">Decrease Exp</string>
     <string name="hint_attributes_conflict">There is a conflict with another effects</string>
-    <string name="shop_effect_increase_coins">Increase coins</string>
-    <string name="shop_effect_decrease_coins">Decrease coins</string>
     <string name="hint_using_too_many_items">Cannot use more than 100 items at a time which have special effects</string>
-    <string name="shop_title_purchase_limit">Purchase Limit</string>
     <string name="limit_number_per_day">%1$d pre day</string>
     <string name="limit_number_per_week">%1$d pre week</string>
     <string name="limit_number_per_month">%1$d pre month</string>
     <string name="limit_number_per_year">%1$d pre year</string>
-    <string name="shop_effect_exp">Exp</string>
-    <string name="shop_effect_coin">Coin</string>
-    <string name="input_hint_number_limit">Limit number</string>
-    <string name="shop_dialog_title_add_limit">Purchase Limit</string>
-    <string name="limit_per_day">per day</string>
-    <string name="limit_per_week">per week</string>
-    <string name="limit_per_month">per month</string>
-    <string name="limit_per_year">per year</string>
-    <string name="btn_add_purchase_limit">Add Purchase Limit</string>
-    <string name="calendar_show_repeat_progress">Show repeatable task progress</string>
-    <string name="calendar_ignore_repeat_progress">Ignore repeatable task progress</string>
-    <string name="hint_shop_limit_not_more_available">No more available limits</string>
     <string name="shop_effect_synthesis">Synthesis</string>
-    <string name="input_recipe_number">Recipe number</string>
-    <string name="to_create_a">to create a(n)</string>
     <string name="synthesised_item">Synthesised item</string>
-    <string name="synthesis_effects">Synthesis Effects</string>
     <string name="inventory_btn_synthesis">synthesis</string>
-    <string name="inventory_synthesis_succeed">Synthesized successfully</string>
     <string name="confirm_synthesis_item">Really going to synthesize the item?</string>
-    <string name="not_enough_synthesis_item">Not enough items to synthesize</string>
-    <string name="restore_failed_higher_version_backup_file">Cannot restore a higher version file, please update the app!</string>
     <string name="feature_1760">Shop Effect</string>
     <string name="feature_1760_desc">- Custom shop effect\n- Custom purchase limit</string>
-    <string name="open_shop_btn_import">IMPORT</string>
-    <string name="tab_market">Market</string>
-    <string name="til_import_price">Price</string>
-    <string name="dialog_share_goods_title">Share Item</string>
+    <string name="til_import_price">Fiyat</string>
     <string name="dialog_share_goods_desc">Really going to share the item?\nhint: Loot box effect have not supported share yet.</string>
-    <string name="share_to_market">Share</string>
     <string name="shop_share_success">Share successfully</string>
-    <string name="shop_share_fail">Share failed</string>
-    <string name="share_goods_fail_imported">cannot share item that is imported</string>
-    <string name="undo_share_to_market">Undo Share</string>
-
-    <string name="translator_credit">Çevirmen: İbrahim DOĞAN</string>
-
-    <string name="dialog_enable_auto_sum_short">Auto</string>
+    <string name="off_item_succeed">Başarıyla silindi</string>
+    <string name="btn_report">Rapor</string>
+    <string name="market_share_succeed">Share successfully</string>
+    <string name="detail_progress_repeat">tekrarla</string>
+    <string name="feelings_view_detail">Detay</string>
+    <string name="dialog_category_hide_hint_button">Evet</string>
+    <string name="user_activity_shop_title">Dükkan</string>
+    <string name="chip_feelings">İzlenimler</string>
+    <string name="cloud_backup_configured">Yapılandırıldı</string>
+    <string name="backup_every_3_day">Her 3 günde bir</string>
+    <string name="menu_restart">Tekrar Başlat</string>
+    <string name="btn_check_update">Güncelleme Kontrol Et</string>
+    <string name="title_searching_tab_team">Takım</string>
+    <string name="activity_title_search">Ara</string>
+    <string name="hint_feedback_method_title">Geri Dönüt</string>
+    <string name="swipe_action_edit">Düzenle</string>
+    <string name="clear_history_data_tasks">Görevler</string>
+    <string name="hint_remind_system_title">Hatırlatm Sistemi</string>
+    <string name="reminder_method_hint">Uygulama varsayılan olarak hatırlatıcı göndermek için bildirimleri kullanıyor.\nHatırlatıcıyı sık sık alamıyorsanız.\nHatırlatıcı sistemini görev ayarlarından değiştirebilirsiniz.</string>
+    <string name="menu_change_task_state_to_give_up">Pes Et</string>
+    <string name="menu_overdue">Gecikmiş</string>
+    <string name="shop_statistics_today">Bugün</string>
+    <string name="default_name_day_list">Gün</string>
+    <string name="sample_category_name">Example: Reading</string>
+    <string name="lab_smart_list_all_title">Hepsi</string>
+    <!-- in xx days -->
+    <!-- today/tomorrow/yesterday -->
+    <string name="tag_deadline_v2_relative_special">Son tarih %1$s</string>
+    <!-- in xx days -->
+    <!-- today/tomorrow/yesterday -->
+    <string name="feelings_filter">Filtre</string>
+    <string name="hint_target_times">Görev Kaç Kez Yapılacak</string>
+    <string name="me_achievement_completed_count">Başarılar</string>
+    <string name="me_feelings_count">İzlenimler</string>
+    <string name="shop_item_effect_countdown_action_end">Son</string>
+    <string name="vibrate_disable">Devre Dışı Bırak</string>
+    <string name="ringtone_enable">Etkinleştir</string>
+    <string name="ringtone_disable">Devre Dışı Bırak</string>
     <string name="synthesis_item_delete_message">Bu ürünü silecek misin?</string>
     <string name="synthesis_item_delete_title">Sil</string>
+    <string name="shop_item_effect_countdown_action_close">Kapat</string>
+    <string name="pomodoro_dialog_skip_title">Geç</string>
+    <string name="about_feedback_short">Geri Dönüt</string>
+    <string name="btn_feedback_feature">Özellik</string>
+    <string name="clear_history_data_feelings">İzlenimler</string>
+    <string name="timer_preference_reward_title">Ödül</string>
+    <string name="custom_sound_effect_achievement_unlocked">başarı kazanıldı</string>
+    <string name="to_do_item_action_deadline">Bitiş Zamanı</string>
+    <string name="vibrate_custom">Özel</string>
+    <string name="custom_attribution_action_enable">Etkinleştir</string>
+    <string name="action_copy">Kopyala</string>
+    <!-- from the picture selections/showing framework -->
+    <string name="pomodoro_timer_dialog_complete_title">Tamamla</string>
+    <string name="history_record_delete_success">Başarıyla silindi</string>
+    <string name="history_filter_state_completed">Tamamlandı</string>
+    <string name="history_filter_state_overdue">Gecikmiş</string>
+    <string name="history_filter_state_give_up">Pes Edildi</string>
+    <string name="title_picture_manager_page">Fotoğraf</string>
+    <string name="pic_dir_name_attr">Başarılar</string>
+    <string name="pic_dir_name_shop">Dükkan</string>
+    <string name="pic_dir_name_custom">Özel</string>
+    <string name="tomatoes_action_exchange">DEĞİŞ TOKUŞ</string>
 </resources>

@@ -79,11 +79,15 @@
     <string name="add_to_do_menu_expire_today_item">Sot</string>
     <string name="add_to_do_menu_expire_tomorrow_item">Nesër</string>
     <string name="add_to_do_menu_expire_weekend_item">Fundjavë</string>
+    <string name="add_to_do_not_seleced_attrs_alarm">Ndihmë</string>
     <string name="add_to_do_taptarget_start_time_title">Koha e fillimit</string>
     <string name="add_to_do_taptarget_deadline_title">Afati</string>
     <string name="add_to_do_taptarget_repeat_title">Shpeshtësia e përsëritjes</string>
+    <string name="add_to_do_taptarget_reward_title">Shpërblimi</string>
+    <string name="add_to_do_taptarget_todo_title">Detyra</string>
     <string name="setting_todo_toolbar_title">Detyra</string>
     <string name="point">P</string>
+    <string name="team_member_follow">Ndiqeni</string>
     <string name="to_do_detail_status_uncompleted">Statusi i detyrës: Papërfunduar</string>
     <string name="to_do_detail_status_completed">Statusi i detyrës: Përfunduar</string>
     <string name="to_do_detail_status_out_of_date">Statusi i detyrës: Vonuar</string>
@@ -111,6 +115,7 @@
     <string name="yesterday_with_time">Dje %1$s</string>
     <string name="relative_time_later">%1$d ditë nga tani</string>
     <string name="to_do_adapter_not_start_yet">Detyra nuk ka filluar akoma!</string>
+    <string name="team">skuadra</string>
     <string name="attr_strength">FUQ</string>
     <string name="attr_learning">DIT</string>
     <string name="attr_charm">BUK</string>
@@ -132,20 +137,29 @@
     <string name="profile_nickname">Nofka</string>
     <string name="profile_address">Adresa</string>
     <string name="profile_gender">Gjinia</string>
+    <string name="xml_team_bouns_header">Shpërblimi</string>
+    <string name="xml_team_urgency">Rëndësia:</string>
+    <string name="xml_team_difficulty">Vështirësia:</string>
     <string name="xml_team_start_date">Data e fillimit</string>
     <string name="xml_team_first_start_time">Koha e fillimit</string>
     <string name="xml_team_first_end_time">Koha e përfundimit</string>
     <string name="xml_repeat">Shpeshtësia e përsëritjes</string>
+    <string name="xml_add_to_content">Detyra</string>
     <string name="xml_add_to_do_bouns_header">Shpërblimi</string>
     <string name="xml_add_to_do_urgency">Rëndësia:</string>
     <string name="xml_add_to_do_difficulty">Vështirësia:</string>
     <string name="xml_add_to_do_start_time">Koha e fillimit</string>
     <string name="xml_add_to_do_deadline">Afati</string>
     <string name="xml_add_to_do_repeat">Shpeshtësia e përsëritjes</string>
+    <string name="xml_add_to_do_complete_reward">Shpërblimi</string>
+    <string name="bouns">Shpërblimi</string>
     <string name="Mon">Hën.</string>
     <string name="Tue">Mar.</string>
     <string name="Wed">Mër.</string>
     <string name="Thur">Enj.</string>
+    <string name="Fri">Pre.</string>
+    <string name="Sat">Sht.</string>
+    <string name="Sun">Die.</string>
     <!-- \nThis is for the users whose phone doesn\'t support pedometer. -->
     <string name="unlimited">Pa kufi</string>
     <string name="daily">Çdo ditë</string>
@@ -155,6 +169,8 @@
     <string name="sort_title">Rendisni</string>
     <string name="tab_team">Skuadra</string>
     <string name="attr">Cilësitë</string>
+    <string name="action_follow">Ndiqeni</string>
+    <string name="follow">Ndiqeni</string>
     <string name="tag_team">Skuadra</string>
     <string name="tag_local_unlimited">Pa kufi</string>
     <string name="one">Hën</string>
@@ -165,11 +181,14 @@
     <string name="six">Sht</string>
     <string name="seven">Die</string>
     <string name="step_counter">%1$d hapa</string>
+    <string name="tag_deadline">Afati i fundit %1$s</string>
+    <string name="tag_deadline_with_time">Afati i fundit %1$s</string>
     <string name="history">Historiku</string>
     <string name="achievement">Arritjet</string>
     <string name="nav_home">Kryefaqja</string>
     <string name="about">Rreth nesh</string>
     <string name="delete">Fshini</string>
+    <string name="search">Kërkoni</string>
     <string name="achievement_unlocked">Arritja u zhbllokua</string>
     <string name="long_wednesday">E mërkurë</string>
     <string name="long_thursday">E enjte</string>
@@ -177,10 +196,12 @@
     <string name="Saturday">E shtunë</string>
     <string name="nav_history">Historiku</string>
     <string name="nav_achievement">Arritjet</string>
+    <string name="setting_display_language">Gjuha</string>
     <string name="dialog_language_title">Gjuha</string>
     <string name="fragment_user_mine_button_exchange">SHKËMBENI</string>
     <string name="profile_dialog_gender">Gjinia</string>
     <string name="profile_gender_prefill">Gjinia:&#160;</string>
+    <string name="hint">Ndihmë</string>
     <string name="dont_show_again">Mos e shfaq më</string>
     <string name="shop_btn_buy">BLINI</string>
     <string name="inventory_btn_use">PËRDORNI</string>
@@ -205,6 +226,7 @@
     <string name="add_shop_item_taptarget_price_content">Vendosni çmimin e artikullit këtu.\nJeni ju që vendosni se sa e vështirë është për ta marrë këtë shpërblim.</string>
     <string name="add_shop_item_desc">Përshkrimi (Jo me detyrim)</string>
     <string name="shop_item_delete_title">Fshini</string>
+    <string name="give_up">Dorëzohuni</string>
     <string name="sort_price">Çmimi</string>
     <string name="xml_user_attribution_header">Statusi</string>
     <string name="task_type_normal">Detyrë normale</string>
@@ -239,9 +261,11 @@
     <string name="achievement_attribution_alchemist">Alkimist</string>
     <string name="achievement_attribution_hero">Hero</string>
     <!-- Community Achievements -->
+    <string name="achievement_community_follow">Ndiqeni</string>
     <!-- Shop Achievements -->
     <string name="achievement_shop_little_wealthy">Pak pasuri</string>
     <string name="achievement_secret">Është sekret !</string>
+    <string name="achievement_type_task">Detyra</string>
     <string name="achievement_type_attribution">Cilësitë</string>
     <string name="achievement_type_shop">Dyqani</string>
     <string name="user_team">Skuadra</string>
@@ -265,10 +289,10 @@
     <string name="custom_attribution_reset">RIVENDOSNI</string>
     <string name="custom_attribution_hint">Shtimi apo heqja e cilësive nuk është e mundur për momentin.</string>
     <string name="setting_custom_attribute">Personalizoni cilësitë</string>
-    <string name="setting_custom_attribute_desc">Personalizoni ikonën dhe tekstin e cilësive aktuale</string>
     <string name="feature_170">Laboratorët</string>
     <string name="btn_disable">Çaktivizoni</string>
     <string name="btn_enable">Aktivizoni</string>
+    <string name="default_repeat">Shpeshtësia e përsëritjes</string>
     <string name="hint_add_team_title">Ndihmë</string>
     <string name="title_activity_feelings">Ndjenjat</string>
     <string name="lab_feelings_example_desc">Çfarë bëra sot…</string>
@@ -277,6 +301,7 @@
     <string name="feelings_item">Ndjenjat</string>
     <string name="feelings_item_delete_title">Fshini</string>
     <string name="feelings_item_delete_message">Dëshironi realisht ta fshini këtë ndjenjë?</string>
+    <string name="feelings_dialog_search_title">Kërkoni</string>
     <string name="lab_feelings_title">Ndjenjat</string>
     <!-- Team Report Type -->
     <!-- Feelings Fav -->
@@ -308,6 +333,7 @@
     <string name="deposit_success">Depozitimi u krye me sukses</string>
     <string name="deposit_fail">Depozitimi dështoi</string>
     <string name="weekly_task_desc">Çdo javë</string>
+    <string name="complete_reward_text_input_dialog_title">Shpërblimi</string>
     <string name="feature_1740">Bankomat</string>
     <!-- podomoro -->
     <string name="work_minute_picker_summary">00 minuta</string>
@@ -350,6 +376,7 @@
     <string name="shop_top_item_count">%1$d artikuj</string>
     <string name="chip_feelings">Ndjenjat</string>
     <string name="hint_click_to_open_the_box">trokisni për të hapur kutinë</string>
+    <string name="dialog_loot_box_probability_hint">probabiliteti</string>
     <string name="backup_every_time">Çdo herë</string>
     <string name="backup_once_a_day">Njëherë në ditë</string>
     <string name="backup_every_3_day">Çdo 3 ditë</string>
@@ -368,6 +395,7 @@
     <string name="item_stat_rewards_times">Shpërblimet</string>
     <string name="cb_return_item_no_coins">Nuk dua monedha</string>
     <string name="clear_history_data_tasks">Detyrat</string>
+    <string name="menu_change_task_state_to_give_up">Dorëzohuni</string>
     <string name="shop_statistics_today">Sot</string>
     <string name="sample_category_name">Shembull</string>
     <string name="sample_item_small_icon">Një qese e vogël me monedha</string>
@@ -393,4 +421,12 @@
     <string name="ringtone_disable">Çaktivizoni</string>
     <string name="synthesis_item_delete_title">Fshini</string>
     <string name="clear_history_data_feelings">Ndjenjat</string>
+    <string name="timer_preference_reward_title">Shpërblimi</string>
+    <string name="custom_sound_effect_achievement_unlocked">arritja u zhbllokua</string>
+    <string name="to_do_item_action_deadline">Afati</string>
+    <string name="custom_attribution_action_enable">Aktivizoni</string>
+    <!-- from the picture selections/showing framework -->
+    <string name="pic_dir_name_attr">Cilësitë</string>
+    <string name="pic_dir_name_shop">Dyqani</string>
+    <string name="tomatoes_action_exchange">SHKËMBENI</string>
 </resources>

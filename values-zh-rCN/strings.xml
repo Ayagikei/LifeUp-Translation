@@ -355,7 +355,7 @@
     <string name="lifeup">人升</string>
     <string name="notification_content">你还有待办事项需要完成：</string>
     <string name="notification_ticker">待办事项提醒</string>
-    <string name="step_to_str">步数兑换力量经验值</string>
+    <string name="step_to_str">步数兑换经验值</string>
     <string name="likes_exchange_charm">赞数兑换魅力经验值</string>
     <string name="using_days_streaks_exchange_endurance">连续使用天数兑换耐力经验值</string>
     <string name="finish_task">完成事项</string>
@@ -445,7 +445,7 @@
     <string name="Fri">周五</string>
     <string name="Sat">周六</string>
     <string name="Sun">周日</string>
-    <string name="dialog_input_sport_desc">手动输入今日的计步数据。\n这个功能主要提供于不以手机为主要计步工具，或者不支持相应传感器的用户使用。\n每天只能手动输入一遍。</string>
+    <string name="dialog_input_sport_desc">手动输入今日的计步数据。\n基于系统接口限制，应用无法获取精准步数，手动输入可作为替代手段。</string>
     <!-- \nThis is for the users whose phone doesn\'t support pedometer. -->
     <string name="dialog_input_sport_tint">步数</string>
     <string name="custom">自定义</string>
@@ -461,6 +461,7 @@
     <string name="alphabet">拼音字母</string>
     <string name="create_time">创建时间</string>
     <string name="no_more_to_do">没有更多待办事项了，添加一些吧</string>
+    <string name="all_done_today">你完成了今天的所有任务！</string>
     <string name="tab_team">团队</string>
     <string name="tab_moments">时刻</string>
     <string name="tab_board">排行榜</string>
@@ -672,12 +673,12 @@
     <string name="shop_inventory_history">仓库历史</string>
     <string name="ask_use_item">你确定要使用「%1$s」吗？</string>
     <string name="shop_added_time">上架时间：%1$s</string>
-    <string name="inventory_record_used">使用了物品「%1$s」×%2$d</string>
-    <string name="inventory_record_buy">购买了物品「%1$s」×%2$d</string>
+    <string name="inventory_record_used">使用了商品「%1$s」×%2$d</string>
+    <string name="inventory_record_buy">购买了商品「%1$s」×%2$d</string>
     <string name="title_activity_inventory_record">仓库记录</string>
     <string name="inventory_record_empty_text">暂时没有仓库使用记录~</string>
     <string name="welcome_to_shop">欢迎来到个人商店</string>
-    <string name="welcome_to_shop_desc">点击这里可以上架商品（你想要的物品），设置好相应的价格。\n然后，去完成事项挣到足够的金币，回来购买你喜欢的商品吧！</string>
+    <string name="welcome_to_shop_desc">点击这里可以上架商品（你想要的商品），设置好相应的价格。\n然后，去完成事项挣到足够的金币，回来购买你喜欢的商品吧！</string>
     <string name="add_shop_item_taptarget_picture">商品图片</string>
     <string name="add_shop_item_taptarget_picture_content">点击这里可以更换商品图片。</string>
     <string name="add_shop_item_taptarget_name">商品名称</string>
@@ -688,7 +689,7 @@
     <string name="shop_item_delete_message">你确定要下架该商品吗？</string>
     <string name="shop_item_delete_title">下架</string>
     <string name="feature_164">全新的激励机制</string>
-    <string name="feature_164_desc">- 金币：设定完成事项获得金币\n- 商店：上架你想要的物品，并且明码标价\n- 仓库：购买并且使用你购买到的物品奖励自己</string>
+    <string name="feature_164_desc">- 金币：设定完成事项获得金币\n- 商店：上架你想要的商品，并且明码标价\n- 仓库：购买并且使用你购买到的商品奖励自己</string>
     <string name="inventory_record_item_delete_message">你确定要删除该记录吗？</string>
     <string name="to_do_item_detail_complete_reward">完成奖励%1$s%2$d点</string>
     <string name="to_do_item_detail_coin_reward">金币奖励：%1$d</string>
@@ -728,7 +729,7 @@
     <string name="uploading_picture">正在上传图片，请稍等...</string>
     <string name="switch_asc">正序</string>
     <string name="shop_setting_title">商店设置</string>
-    <string name="switch_auto_use_purchased_item">自动使用购买的物品</string>
+    <string name="switch_auto_use_purchased_item">自动使用购买的商品</string>
     <string name="credit_line_title">可贷款金额</string>
     <string name="action_shop_settings">商店设置</string>
     <string name="xml_clear_coin">清空金币</string>
@@ -743,7 +744,7 @@
     <string name="coin_line_chart_title">金币获取/失去量统计</string>
     <string name="activity_statistics_gained_value">获得量</string>
     <string name="activity_statistics_lost_value">失去量</string>
-    <string name="inventory_not_enough_item_to_use">没有足够的能使用的物品</string>
+    <string name="inventory_not_enough_item_to_use">没有足够的能使用的商品</string>
     <string name="title_activity_feedback">反馈</string>
     <string name="about_feedback">反馈</string>
     <string name="activity_feedback_content">反馈内容</string>
@@ -788,7 +789,7 @@
     <string name="achievement_base_new_player">新玩家</string>
     <string name="achievement_base_new_player_desc">完成首个待办事项</string>
     <string name="achievement_base_merchant">商人</string>
-    <string name="achievement_base_merchant_desc">在商店上架一个物品</string>
+    <string name="achievement_base_merchant_desc">在商店上架一个商品</string>
     <string name="achievement_base_classification">分门别类</string>
     <string name="achievement_base_classification_desc">新建一个待办事项清单</string>
     <string name="achievement_base_upside_down">颠倒</string>
@@ -818,7 +819,7 @@
     <string name="achievement_base_special_case">总会有特殊情况</string>
     <string name="achievement_base_special_case_desc">放弃一个待办事项</string>
     <string name="achievement_base_tinker">修补匠</string>
-    <string name="achievement_base_tinker_desc">编辑待办事项或商店物品</string>
+    <string name="achievement_base_tinker_desc">编辑待办事项或商店商品</string>
     <!-- Task Achievements -->
     <string name="achievement_task_habit_develop">习惯养成</string>
     <string name="achievement_task_habit_develop_desc">建立一个重复事项</string>
@@ -1007,7 +1008,7 @@
     <string name="custom_attribution_reset">重置</string>
     <string name="custom_attribution_hint">由于一些设计问题，暂时不支持属性的增删。</string>
     <string name="setting_custom_attribute">自定义属性</string>
-    <string name="setting_custom_attribute_desc">自定义现有属性的图标和文本</string>
+    <string name="setting_custom_attribute_desc">自定义现有的属性，或者随意增删专属于你的技能（如[绘画]、[写作]、[编程]等等）。\n注意：该功能不会影响个人资料以及世界模块的相关功能。</string>
     <string name="webdav_account">WebDAV 账号</string>
     <string name="attachment">附件</string>
     <string name="lab_compact_mode_sample">学一门外语</string>
@@ -1082,7 +1083,7 @@
     <string name="opacity">不透明度</string>
     <string name="feedback_email_hint">如果你提交的反馈是疑问/使用求助，请留下邮箱以便回复。\n
         如果想要得到快速的回复或者是严重BUG反馈，请直接通过邮件联系我们【或者在侧边栏「资讯」中添加QQ讨论群进行反馈】：\nayagikei@163.com
-        \n\n因这是一款独立应用，两个人都是业余时间进行开发维护，只能抽出非常有限的时间进行开发和反馈回复。\n
+        \n\n因这是一款独立应用，开发者们都是业余时间进行开发维护，只能抽出非常有限的时间进行开发和反馈回复。\n
         为了节省沟通成本，请先浏览“常见问题”和“说明书”查看有无相关信息，或者也可以尝试加讨论群进行咨询（请先查阅常见问题以节省大家的时间～）。</string>
     <!-- degree only in Chinese now -->
     <string name="importance_lv1_desc">这件事可有可无。\n它可以是“查一查某个时事八卦”这样的任务。\n它在某种机缘巧合下出现，只有勉强被你记住的价值，它的完成与否对你造成的影响可以忽略不计。</string>
@@ -1113,13 +1114,13 @@
     <string name="inventory_item_return_title">退货</string>
     <string name="inventory_item_return_desc">退货商品</string>
     <string name="inventory_item_return_success">退货成功</string>
-    <string name="inventory_record_return">退货了物品「%1$s」×%2$d</string>
+    <string name="inventory_record_return">退货了商品「%1$s」×%2$d</string>
     <string name="setting_app_widget_opacity">暗色模式：不透明度</string>
     <string name="setting_app_widget_opacity_desc">设置暗色模式的桌面小部件的不透明度</string>
     <string name="switch_app_widget_simulate_dark_background">模拟暗色背景</string>
     <string name="inventory_button_return">退货</string>
     <string name="dialog_input_task_count_target_multi_exp_reward">多倍经验值奖励</string>
-    <string name="inventory_not_enough_item_to_return">没有足够的能退货的物品</string>
+    <string name="inventory_not_enough_item_to_return">没有足够的能退货的商品</string>
     <string name="dialog_sub_task_title">子任务设置</string>
     <string name="dialog_sub_task_coin_settings">金币数量</string>
     <string name="complete_sub_task">完成子任务</string>
@@ -1177,7 +1178,7 @@
         为了保护你的数据隐私和减少服务器损耗，你的本地数据不会进行同步，包括如下这些：\n
         1. 本地待办事项数据\n
         2. 历史数据\n
-        3. 商店物品数据\n
+        3. 商店商品数据\n
         4. 本地感想数据\n
         5. 用户成就数据\n
         6. 统计数据\n
@@ -1226,7 +1227,7 @@
     <string name="inventory_record_reward">获得了奖励「%1$s」×%2$d</string>
     <string name="inventory_record_undo_reward">撤销了奖励「%1$s」×%2$d</string>
     <string name="feature_1740">ATM</string>
-    <string name="feature_1740_desc">- ATM\n- 选择商店物品作为任务奖励\n- 商品库存设置\n- 动画改进</string>
+    <string name="feature_1740_desc">- ATM\n- 选择商店商品作为任务奖励\n- 商品库存设置\n- 动画改进</string>
     <string name="dialog_button_confirm">确认</string>
     <string name="toast_clear_history_success">清空历史数据成功</string>
     <string name="xml_clear_history">清空历史记录</string>
@@ -1247,7 +1248,7 @@
     <string name="auto_backup_title_sync">同步</string>
     <string name="auto_backup_last_sync_time">上次同步时间： %1$s</string>
     <string name="btn_sync">同步</string>
-    <string name="auto_backup_last_sync_failure">上次同步失败： %1$s\n\n请检查你的网络连接或者WebDAV/DropBox配置。</string>
+    <string name="auto_backup_last_sync_failure">上次同步失败： %1$s\n\n请检查你的网络连接或者WebDAV/DropBox/Google Drive配置。</string>
     <string name="btn_config">配置</string>
     <string name="btn_upload">上传</string>
     <string name="btn_download">下载</string>
@@ -1306,6 +1307,7 @@
     <string name="tomatoes_action_sell">出售</string>
     <string name="tomatoes_eat_reward_desc">得到 %1$d 点「%2$s」经验值</string>
     <string name="tomatoes_sell_reward_desc">得到 %1$d 个金币</string>
+    <string name="tomatoes_exchange_reward_desc">得到 %1$d 个「%2$s」</string>
     <string name="eat_tomatoes_hint_text">食用</string>
     <string name="sell_tomatoes_hint_text">出售</string>
     <string name="lab_tomatoes_example_desc">工作25分钟，休息5分钟...</string>
@@ -1340,7 +1342,7 @@
     <string name="add_shop_item_advance_settings">进阶</string>
     <string name="shop_title_using_effects">使用效果：</string>
     <string name="dialog_gained_reward">获得了奖励</string>
-    <string name="dialog_reward_by_using_item">通过使用物品</string>
+    <string name="dialog_reward_by_using_item">通过使用商品</string>
     <string name="exp_effect">经验值效果</string>
     <string name="coin_effects">金币效果</string>
     <string name="hint_shop_effect_not_more_available">无可用添加效果</string>
@@ -1356,6 +1358,8 @@
     <string name="hint_using_too_many_items">不能一次性使用超过 50 个有特殊效果的商品</string>
     <string name="effect_desc_in_coins">增加 %1$d 金币</string>
     <string name="effect_desc_de_coins">减少 %1$d 金币</string>
+    <string name="effect_desc_in_coins_random">增加 %1$d-%2$d 金币</string>
+    <string name="effect_desc_de_coins_random">减少 %1$d-%2$d 金币</string>
     <string name="effect_desc_in_exp">增加 %1$d 点%2$s经验值</string>
     <string name="effect_desc_de_exp">减少 %1$d 点%2$s经验值</string>
     <string name="effect_desc_item_synthesis">%1$d 件可以合成一件 %2$s </string>
@@ -1383,12 +1387,12 @@
     <string name="shop_effect_synthesis">简易合成</string>
     <string name="input_recipe_number">配方数量</string>
     <string name="to_create_a">以合成一个</string>
-    <string name="synthesised_item">合成物品</string>
+    <string name="synthesised_item">合成商品</string>
     <string name="synthesis_effects">合成效果</string>
     <string name="inventory_btn_synthesis">合成</string>
     <string name="inventory_synthesis_succeed">合成成功</string>
-    <string name="confirm_synthesis_item">确定要合成该物品吗？</string>
-    <string name="not_enough_synthesis_item">数量不足以合成物品</string>
+    <string name="confirm_synthesis_item">确定要合成该商品吗？</string>
+    <string name="not_enough_synthesis_item">数量不足以合成商品</string>
     <string name="restore_failed_higher_version_backup_file">无法恢复高版本备份文件，请更新到最新版本再进行操作！</string>
     <string name="feature_1760">商品效果</string>
     <string name="feature_1760_desc">- 自定义商品使用效果\n- 自定义商品购买限制</string>
@@ -1396,7 +1400,7 @@
     <string name="tab_market">橱窗</string>
     <string name="til_import_price">设置价格</string>
     <string name="dialog_share_goods_title">分享商品</string>
-    <string name="dialog_share_goods_desc">确定要分享该商品吗？\n注: 嵌套合成效果暂不支持分享。\n开箱效果已经支持分享，但需要先手动分享箱子内的物品，最后再分享箱子。</string>
+    <string name="dialog_share_goods_desc">确定要分享该商品吗？\n注: 嵌套合成效果暂不支持分享。\n开箱效果已经支持分享，但需要先手动分享箱子内的商品，最后再分享箱子。</string>
     <string name="share_to_market">分享</string>
     <string name="shop_share_success">分享成功</string>
     <string name="shop_share_fail">分享失败</string>
@@ -1499,13 +1503,14 @@
     <string name="dialog_input_exp_number_title">输入经验值</string>
     <string name="dialog_enable_auto_sum_short">自动计算</string>
     <string name="status_pomodoro_card_title">番茄</string>
-    <string name="status_pomodoros_today_focus">今日专注\n（分钟）</string>
+    <string name="status_pomodoros_today_focus_mins">今日专注\n（分钟）</string>
+    <string name="status_pomodoros_today_focus_hours">今日专注\n（小时）</string>
     <string name="status_today_tomato_earned">今日获得\n番茄</string>
     <string name="status_tomato_total_amount">总计获得\n番茄</string>
     <string name="dialog_category_hide_hint_button">明白</string>
     <string name="dialog_category_hide_hint_desc">长按清单可以拖动排序</string>
-    <string name="inventory_record_synthesis_cost">合成消耗了物品「%1$s」×%2$d</string>
-    <string name="inventory_record_synthesis_got">合成得到了物品「%1$s」×%2$d</string>
+    <string name="inventory_record_synthesis_cost">合成消耗了商品「%1$s」×%2$d</string>
+    <string name="inventory_record_synthesis_got">合成得到了商品「%1$s」×%2$d</string>
     <string name="inventory_record_unknown">未知</string>
     <string name="user_activity_shop_title">橱窗</string>
     <string name="last_backup_time_interval_hint">距离上次备份已经 %1$d 天\n点击这里了解如何设置备份</string>
@@ -1533,8 +1538,8 @@
     <string name="pomodoro_empty_text">暂时没有计时记录</string>
     <string name="title_activity_pomodoro_record">番茄计时记录</string>
     <string name="pomodoro_record_focus_time">专注了%1$d分钟</string>
-    <string name="place_a_app_widget_method_hint">点击这里可创建桌面小部件\n\n或者可以试试长按系统桌面程序的空白处进行创建（因系统桌面程序而异）</string>
-    <string name="user_achievement_shop_item_reward_title">获得了物品！</string>
+    <string name="place_a_app_widget_method_hint">点击这里可创建桌面小部件\n\n或者可以试试长按系统桌面程序的空白处进行创建（因系统桌面程序而异）\n\n小部件的尺寸也支持自由调整</string>
+    <string name="user_achievement_shop_item_reward_title">获得了商品！</string>
     <string name="xml_add_user_achievment_complete_reward">完成奖励</string>
     <string name="user_activity_empty_hint">没有找到动态记录\n去完成团队任务发表动态吧~</string>
     <string name="user_activity_shop_empty_hint">没有找到公开分享的商品</string>
@@ -1571,11 +1576,11 @@
     <string name="dialog_server_unavailable_message">请检查网络（尝试切换Wi-Fi或者移动网络）以及检查【是否禁用了应用的网络权限】，或者等待一段时间再试连接。目前的小水管服务器可能会出现不稳定的情况。\n另外，你可以在离线状态下游玩体验《人升》的绝大部分功能。\n\n错误信息：%1$s\n\n如果该状况持续了一段时间，请向我们反馈。</string>
     <string name="goods_effect_loot_box">开箱</string>
     <string name="effect_desc_item_loot_box">开箱效果</string>
-    <string name="probility_of_received_item_from_loot_box">获得了物品 (%1$.2f\%%)</string>
+    <string name="probility_of_received_item_from_loot_box">获得了商品 (%1$.2f\%%)</string>
     <string name="hint_click_to_open_the_box">点击打开箱子吧~</string>
-    <string name="inventory_record_loot_box_cost">开箱消耗了物品「%1$s」×%2$d</string>
-    <string name="inventory_record_loot_box_got">开箱得到了物品「%1$s」×%2$d</string>
-    <string name="btn_add_items">添加物品</string>
+    <string name="inventory_record_loot_box_cost">开箱消耗了商品「%1$s」×%2$d</string>
+    <string name="inventory_record_loot_box_got">开箱得到了商品「%1$s」×%2$d</string>
+    <string name="btn_add_items">添加商品</string>
     <string name="dialog_loot_box_amount_hint">数量</string>
     <string name="dialog_loot_box_probability_hint">比重</string>
     <string name="backup_every_time">每次启动</string>
@@ -1612,6 +1617,7 @@
     <string name="btn_next">下一页</string>
     <string name="lifeup_crash">崩溃</string>
     <string name="lifeup_crash_description">很抱歉连续发生了崩溃。
+        \n如果没有影响到正常使用，你可以勾选“暂时不再提示”并点击“继续”按钮。
         \n如果崩溃导致了你无法正常使用应用，你可以选择等待更新修复，或者开启安全模式，或者是先导出数据（如果你想要重装应用，请务必先导出数据到其他地方）
     \n\n注意：安全模式下，应用虽然不会崩溃，但某些功能或者页面仍会出现异常。</string>
     <string name="btn_enable_safe_mode">安全模式</string>
@@ -1623,7 +1629,8 @@
     <string name="dialog_shop_settings_atm_interest">ATM日利率</string>
     <string name="atm_interest_desc">从 ATM 存款中获得了 %1$d 金币利息</string>
     <string name="atm_interest_input_limit">不能大于10%</string>
-    <string name="condition_shop_open_loot_boxes">开箱得到指定物品一定次数</string>
+    <string name="return_discount_input_limit">不能大于100%</string>
+    <string name="condition_shop_open_loot_boxes">开箱得到指定商品一定次数</string>
     <string name="condition_desc_open_loot_boxes">开箱得到「%1$s」总计「%2$d」次</string>
     <string name="hint_hide_module_title">隐藏模块</string>
     <string name="hint_hide_module_desc">人升支持自由隐藏底部的模块。\n可以前往【设置】-【显示】中隐藏任何不需要的模块。</string>
@@ -1641,7 +1648,7 @@
     <string name="hint_atm_interest">ATM 利息</string>
     <string name="hint_atm_interest_desc">你可以在【商店设置】（商店页面右上角三个点更多菜单里）设置 ATM 的日利率，实现每日获取利息。</string>
     <string name="hint_loot_box_probability">概率</string>
-    <string name="hint_loot_box_probability_desc">物品的实际获取概率计算公式：当前物品的比重 ÷ 所有物品的比重之和。\n\n比如，你想实现0.1%的概率获取物品A。可以先选取物品A，输入1%，然后选取另外一个物品B，输入999%。\n按照这样设置提交结果，物品A的实际概率就是0.1%，而商品B就是99.9%。</string>
+    <string name="hint_loot_box_probability_desc">商品的实际获取概率计算公式：当前商品的比重 ÷ 所有商品的比重之和。\n\n比如，你想实现0.1%的概率获取商品A。可以先选取商品A，输入1%，然后选取另外一个商品B，输入999%。\n按照这样设置提交结果，商品A的实际概率就是0.1%，而商品B就是99.9%。</string>
     <string name="dialog_crash_action_btn_skip_hint">暂时不再提示</string>
     <string name="title_activity_edit_category">编辑清单</string>
     <string name="hint_uncomplete_task">撤销完成</string>
@@ -1754,11 +1761,11 @@
     <string name="lab_smart_list_all_title">全部</string>
     <string name="lab_smart_list_all_desc">显示所有清单内容的特殊清单</string>
     <string name="lab_smart_list_day_title">日事项</string>
-    <string name="lab_smart_list_day_desc">显示当天即将期限的所有事项</string>
+    <string name="lab_smart_list_day_desc">显示<b>当天即将期限</b>的所有事项</string>
     <string name="lab_smart_list_week_title">周事项</string>
-    <string name="lab_smart_list_week_desc">显示本周即将期限的所有事项</string>
+    <string name="lab_smart_list_week_desc">显示<b>本周即将期限</b>的所有事项</string>
     <string name="lab_smart_list_month_title">月事项</string>
-    <string name="lab_smart_list_month_desc">显示本月即将期限的所有事项</string>
+    <string name="lab_smart_list_month_desc">显示<b>本月即将期限</b>的所有事项</string>
     <string name="effect_countdown_notification_title">倒计时中-</string>
     <string name="effect_countdown_notification_end">已结束</string>
     <string name="effect_countdown_notification_remaining">剩余时间：</string>
@@ -1808,7 +1815,7 @@
     <string name="me_feelings_count">感想</string>
     <string name="tasks_statistic_current_streak">连续</string>
     <string name="shop_item_effect_countdown_action_end">结束</string>
-    <string name="shop_item_effect_countdown_action_pause">暂停（恢复需要再使用新商品）</string>
+    <string name="shop_item_effect_countdown_action_pause">累积</string>
     <string name="restart_success">操作成功</string>
     <string name="add_to_do_taptarget_deadline_specify_deadline_time_tominutes">指定期限时间到具体某分钟</string>
     <string name="hint_shop_item_timer_hint_with_permission">已经发送倒计时通知，可在通知栏查看倒计时状态并操作</string>
@@ -1864,7 +1871,7 @@
     <string name="shop_item_effect_countdown_action_resume">恢复</string>
     <string name="effect_count_down_notification_pausing">已暂停</string>
     <string name="shop_item_effect_countdown_action_close">关闭</string>
-    <string name="shop_item_effect_countdown_action_pause_but_stay">暂停(保留)</string>
+    <string name="shop_item_effect_countdown_action_pause_but_stay">暂停</string>
     <string name="toast_got_coins">获得了 %1$d 个金币</string>
     <string name="pomodoro_dialog_skip_title">跳过</string>
     <string name="button_skip">跳过</string>
@@ -1890,7 +1897,7 @@
     <string name="coffee_list_not_found_or_empty">我们没有找到咖啡列表，请稍后再试。</string>
     <string name="coffee_anonymous_coffee">匿名咖啡</string>
     <string name="coffee_anonymous_coffee_desc">似乎你当前尚未登录，确定要继续购买咖啡吗？</string>
-    <string name="about_app_desc">“升级你的人生”\n一款两个人独立开发的纯净简约的游戏化「待办事项」与「习惯养成」应用</string>
+    <string name="about_app_desc">“升级你的人生”\n一款独立开发的纯净简约的游戏化「待办事项」与「习惯养成」应用</string>
     <string name="about_not_found_email_app">启动邮件应用失败</string>
     <string name="about_not_found_app">启动应用失败</string>
     <string name="feature_1780">解锁条件</string>
@@ -1962,7 +1969,7 @@
     <string name="brvah_loading">加载中...</string>
     <string name="to_do_item_detail_pushiment_give_up_message">你确定要接受惩罚吗？\n（*目前负面事项不支持直接撤销，但可以前往历史页面设为完成状态拿到奖励）</string>
     <string name="hint_punishment_task">负面事项</string>
-    <string name="hint_punishment_task_desc">（试验性功能，该功能可能存在功能统计不完整、不生效的问题，遇到问题可以向开发者反馈。）\n\n负面事项是指【仅接受惩罚】的事项，通常可配合“无限”重复频次实现坏习惯记录。如果你需要既能完成也可以接受惩罚的事项，使用普通事项即可。\n\n负面事项会默认执行“放弃”操作。\n\n并且经验值和金币的惩罚系数会强制设置为1。相当于你设置的经验值和金币奖励值就是最终的惩罚数值。\n\n注意：物品仍是奖励。你可以设置一些惩罚性质的物品。</string>
+    <string name="hint_punishment_task_desc">（试验性功能，该功能可能存在功能统计不完整、不生效的问题，遇到问题可以向开发者反馈。）\n\n负面事项是指【仅接受惩罚】的事项，通常可配合“无限”重复频次实现坏习惯记录。如果你需要既能完成也可以接受惩罚的事项，使用普通事项即可。\n\n负面事项会默认执行“放弃”操作。\n\n并且经验值和金币的惩罚系数会强制设置为1。相当于你设置的经验值和金币奖励值就是最终的惩罚数值。\n\n注意：商品仍是奖励。你可以设置一些惩罚性质的商品。</string>
     <string name="task_type_penalty">负面事项（试验）</string>
     <string name="to_do_item_action_deadline">期限</string>
     <string name="vibrate_custom">自定义</string>
@@ -1982,7 +1989,7 @@
     <string name="custom_attribution_action_delete">删除</string>
     <string name="attribution_delete_confirm">你确定要删除该属性吗？</string>
     <string name="btn_statistic">统计</string>
-    <string name="credit_line_title_desc">这将允许你赊账购买。\n比如你设置该值为100，当你持有0金币的时候，仍能够购买少于等于100金币价格的物品。</string>
+    <string name="credit_line_title_desc">这将允许你赊账购买。\n比如你设置该值为100，当你持有0金币的时候，仍能够购买少于等于100金币价格的商品。</string>
     <string name="dialog_shop_settings_icon_crop_style">图标裁剪样式</string>
     <string name="dialog_shop_settings_icon_crop_style_circle">圆形</string>
     <string name="dialog_shop_settings_icon_crop_style_round_rect">圆角矩形</string>
@@ -2008,10 +2015,116 @@
     <string name="bga_pp_save_img_failure">保存图片失败，再试试?</string>
     <string name="bga_pp_save_img_success_folder">图片已保存至 %s 文件夹</string>
     <string name="bga_pp_toast_photo_picker_max">最多只能选择 %1$d 张图片</string>
-    <string name="bga_pp_view_photo">查看图片</string>
+    <string name="bga_pp_view_photo">查看</string>
 
     <string name="tag_repeat_custom_days">周期任务-每%1$d天</string>
     <string name="add_to_do_custom_days">每%1$d天</string>
+    <string name="custom_attribution_dialog_message">自定义内容并不会上传至服务器，且不会影响世界模块（如商品分享）和个人资料页面的显示。</string>
     <string name="setting_task_swipe_to_switch_list_opposite_direction">反向（物理滑动方向）</string>
     <string name="hint_add_achievement">你正在添加<b>成就清单</b>。\n如果你想要添加<b>成就</b>的话，需要在<b>成就清单</b>内部点击+号按钮。</string>
+
+    <string name="feedback_method_dialog_title">反馈方式</string>
+    <string name="feedback_method_internal">内部反馈</string>
+    <string name="feedback_method_github">Github issues</string>
+    <string name="feedback_method_email">邮件</string>
+    <string name="shop_effect_unusable_desc">该商品不可使用</string>
+    <string name="pomodoro_mode_pomodoro">番茄计时</string>
+    <string name="pomodoro_mode_timer">正计时</string>
+    <string name="warning_switch_timer_mode_when_pomodoro_counting">请先结束番茄计时，再尝试切换至正计时模式</string>
+    <string name="warning_switch_timer_mode_when_timing">请先结束正计时，再尝试切换至番茄钟模式</string>
+    <string name="pomodoro_timer_dialog_complete_title">完成</string>
+    <string name="pomodoro_timer_dialog_complete_message">你确认要完成本次计时吗？\n\n你将获得 %1$d 个番茄。</string>
+    <string name="button_complete">完成</string>
+    <string name="toast_tomato_earned">获得了%1$d个番茄</string>
+    <string name="pomodoro_timer_give_up">放弃</string>
+    <string name="pomodoro_timer_give_up_message">你确定要放弃本次计时吗？\n\n这会取消你的计时记录和番茄奖励。</string>
+    <string name="positive_timer_notification_title">计时中</string>
+    <string name="positive_timer_notification_title_with_task">计时中 - %1$s</string>
+    <string name="positive_timer_receive_reward">领取番茄</string>
+    <string name="condition_life_level">达到指定的人生等级</string>
+    <string name="condition_desc_life_level">人生等级达到%1$d级</string>
+    <string name="condition_got_item_times">累计获得商品达到指定次数</string>
+    <string name="condition_synthesis_item_times">合成商品达到指定次数</string>
+    <string name="condition_current_own_item_number">当前拥有一定数量的商品</string>
+    <string name="condition_desc_got_item_times">累计获得[%1$s]%2$d次</string>
+    <string name="condition_desc_synthesis_item_times">合成[%1$s]%2$d次</string>
+    <string name="condition_desc_current_own_item_number">当前拥有%1$d个[%2$s]</string>
+    <string name="info_google_play_language_change">切换语言可能需要等待 Google Play 成功下载语言资源后才会生效</string>
+    <string name="pomodoro_record_focus_time_sec">专注了%1$d秒</string>
+    <string name="history_record_delete_success">删除成功</string>
+    <string name="condition_current_focus_time_of_a_task">专注指定事项一定时长（分钟）</string>
+    <string name="condition_desc_current_focus_time_of_a_task">专注[%2$s][%1$d]分钟</string>
+    <string name="custom_sound_effect_achievement_reward">获取成就奖励</string>
+    <string name="custom_sound_effect_open_loot_boxes">开箱</string>
+    <string name="custom_sound_effect_synthesis">合成</string>
+    <string name="setting_custom_coin_icon">自定义金币图标</string>
+    <string name="setting_custom_coin_icon_desc">目前仅影响应用内的彩色图标</string>
+    <string name="custom_sound_effect_reminder_notification">通知提醒</string>
+    <string name="shop_exp_effect_no_attributes_hint">没有可供选择的属性</string>
+    <string name="history_filter_state_completed">完成</string>
+    <string name="history_filter_state_overdue">逾期</string>
+    <string name="history_filter_state_give_up">放弃</string>
+    <string name="history_filter_task_state_dialog_title">事项状态</string>
+    <string name="team_tag_empty_text">该标签下没有找到团队\n(标签功能近期上线，可能缺少相应的数据)</string>
+    <string name="dialog_shop_settings_shop_group_by_list">商店全部清单分组</string>
+    <string name="hint_loot_box_random">抽取机制</string>
+    <string name="hint_loot_box_random_desc">每次开箱，只会抽取一件随机商品。\n\n但如果商品设置了【固定】获得，则不受随机的影响，而是每次开箱都获得固定数量的商品。\n因此，【固定】可用于实现多商品奖励、多次随机等功能。</string>
+    <string name="custom_return_discount">仓库退货打折比例</string>
+    <string name="notification_channel_quick_create_task">快捷创建任务消息</string>
+    <string name="notification_channel_finish_task_in_background">小部件完成任务消息</string>
+    <string name="notification_channel_task_reminder">任务提醒消息</string>
+    <string name="notification_channel_countdown">倒计时消息</string>
+    <string name="notification_channel_countdown_desc">商品和番茄钟正计时、倒计时“进行中”通知</string>
+    <string name="notification_channel_countdown_end">倒计时结束消息</string>
+    <string name="notification_channel_countdown_end_desc">商品、番茄钟相关的倒计时“结束”通知</string>
+    <string name="notification_channel_quick_create_task_desc">快速创建任务常驻通知</string>
+    <string name="notification_channel_task_reminder_desc">发送任务通知提醒（建议设置高优先级）</string>
+    <string name="notification_channel_finish_task_in_background_desc">特殊通知，用于后台服务（如小部件的完成任务操作）</string>
+    <string name="lab_feelings_desc_v2">完成本地事项后，也能记录感想。\n启用后，需要编辑事项，并针对事项开启感想功能才生效。</string>
+    <string name="error_webdav_url_not_start_with_http">WebDAV地址开头应该是http://或者https://</string>
+    <string name="backup_restore_failed_message">恢复文件失败：%1$s。\n\n如果你是直接通过文件管理器选择备份文件执行的恢复操作，那么可能是文件管理器并没有正确向应用授予文件读写权限。\n\n你可以尝试在该页面选择「恢复」-「自定义路径」进行恢复。</string>
+    <string name="login_sign_up_confirm_dialog_title">注册</string>
+    <string name="login_sign_up_confirm_dialog_message">你尚未使用此授权登录方式注册过应用账号。\n\n你确定要继续使用授权信息注册账号吗？</string>
+    <string name="cloud_backup_method_google_drive">Google Drive</string>
+    <string name="title_picture_manager_page">图片</string>
+    <string name="pic_dir_name_attr">属性</string>
+    <string name="pic_dir_name_shop">商店</string>
+    <string name="pic_dir_name_attachments">附件/感想</string>
+    <string name="pic_dir_name_download">下载</string>
+    <string name="pic_dir_name_custom">自定义</string>
+    <string name="tomatoes_action_exchange">兑换</string>
+    <string name="exchange_tomatoes_hint_text">兑换</string>
+    <string name="toast_hint_not_setup_exchange">请先前往[番茄设置]页面设置兑换功能</string>
+    <string name="dialog_pomodoro_settings_exchange">兑换</string>
+    <string name="hint_dialog_pomodoro_exchange_select_shop_item">选择商品</string>
+    <string name="pomo_exchange_settings">兑换设置</string>
+    <string name="pomo_settings_exchange_summary">%1$d 个番茄换 %2$d 个%3$s</string>
+    <string name="pomo_settings_exchange_not_configured">未配置</string>
+    <string name="dialog_message_delete_picture">你确定要删除这些图片吗？</string>
+    <string name="pic_manager_picture_not_found">该目录下未找到图片文件</string>
+    <string name="pic_dir_name_other">杂项</string>
+    <string name="xml_picture_manager">图片管理</string>
+    <string name="xml_picture_manager_desc">因应用无法在所有情况下准确判断图片文件是否需要删除。\n你可以手动删除不再需要的图片，以减少备份文件体积。</string>
+    <string name="tomatoes_eat_invalid_attributes">当前设置的奖励属性无效，请前往番茄设置页面调整。</string>
+    <string name="dialog_server_unavailable_message_in_maintain">服务器正在维护时间段内：\n%1$s - %2$s\n\n这段时间内可能会出现短暂的服务连接异常情况（只影响登录、完成团队任务和访问世界模块），请耐心等待。\n除此之外，也有可能由于手机自身的网络问题导致类似的错误，也可尝试切换网络。\n错误信息：%3$s</string>
+    <string name="network_no_network_in_maintain">服务器正在维护时间段中。可能受维护影响，网络连接失败，请稍后重试。</string>
+    <string name="user_achievement_sort_when_left_reward_item">请先领取成就奖励再进行排序</string>
+    <string name="condition_atm_deposit_reaches_the_spec_value">ATM 存款达到指定数值</string>
+    <string name="condition_desc_atm_deposit_reaches_the_spec_value">ATM 存款达到 %1$d 个金币</string>
+    <string name="add_user_achievement_subcategory">子分类</string>
+    <string name="add_user_achievement_achievement">成就</string>
+    <string name="add_user_achievement_input_hint_subcategory_name">子分类名称</string>
+    <string name="tag_local_yearly">周期任务-每年</string>
+    <string name="pomodoro_dialog_title_continue_when_update_focus_time_available">放弃追加时长并继续</string>
+    <string name="pomodoro_dialog_title_continue_when_update_focus_time_available_desc">追加专注时长可以获得额外的番茄。\n你确定要放弃追加专注时长并继续吗？</string>
+    <string name="reward_dialog_gain_exp">你获得了「%1$s」属性经验值！</string>
+    <string name="custom_sound_effect_shop_item_use">商品使用</string>
+    <string name="btn_backup">备份</string>
+    <string name="dialog_license_not_allow_title">购买许可校验失败</string>
+    <string name="btn_purchase">购买</string>
+    <string name="lab_material_you_desc">新的Material设计语言（未完全适配）。</string>
+    <plurals name="duration_days_relative">
+        <item quantity="other">%d天前</item>
+    </plurals>
+    <string name="dialog_license_not_allow_message"><![CDATA[Play Store检测到你未拥有该应用。<br/>如果你确实未购买应用，或Play Pass过期，请考虑购买我们的应用，这是一次性的。<br/>你可以跳转到备份页面导出你的数据。<br/><br/>如果你已经购买了我们的应用仍弹出该弹窗，这可能是由于设备的谷歌账号不正确 、Play Store的缓存异常，或者你的设备无法连上谷歌服务器。<br/>请检查以下链接以及咨询Google Play Support：<br/><a href=\"https://support.google.com/googleplay/answer/7513003?hl=en&amp;ref_topic=3237689\">https://support.google.com/googleplay/answer/7513003?hl=en&amp;ref_topic=3237689</a>]]></string>
 </resources>
