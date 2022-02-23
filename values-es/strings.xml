@@ -2065,6 +2065,9 @@ Por ejemplo, establecer una tarea como diaria y fijar el número objetivo en 10 
     <string name="pic_dir_name_custom">Personalizar</string>
     <string name="tomatoes_action_exchange">INTERCAMBIAR</string>
     <string name="pomo_settings_exchange_not_configured">Sin configurar</string>
+    <string name="add_user_achievement_achievement">Logro</string>
+    <string name="pic_dir_name_achievement_list">Lista de Logros</string>
+    <string name="pic_dir_name_achievement">Logro</string>
     <plurals name="duration_days_relative">
         <item quantity="other">hace %d días</item>
         <item quantity="one">hace %d día</item>

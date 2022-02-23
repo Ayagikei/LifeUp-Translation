@@ -350,7 +350,7 @@
     <string name="lifeup">LifeUp</string>
     <string name="notification_content">Máte úkol k dokončení:&#160;</string>
     <string name="notification_ticker">Ke splnění</string>
-    <string name="step_to_str">Získejte exp s kroky</string>
+    <string name="step_to_str">Získejte [Strength] exp s kroky</string>
     <string name="likes_exchange_charm">Získejte [Charm] exp s kroky</string>
     <string name="using_days_streaks_exchange_endurance">Získejte [Endurance] exp pomocí denní série</string>
     <string name="finish_task">Dokončené úlohy</string>
@@ -1639,4 +1639,7 @@
     <string name="exchange_tomatoes_hint_text">Směnit</string>
     <string name="dialog_pomodoro_settings_exchange">Směnit</string>
     <string name="pomo_settings_exchange_not_configured">Není nakonfigurováno</string>
+    <string name="add_user_achievement_achievement">Úspěch</string>
+    <string name="pic_dir_name_achievement_list">Seznam úspěchů</string>
+    <string name="pic_dir_name_achievement">Úspěch</string>
 </resources>

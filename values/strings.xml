@@ -17,7 +17,7 @@
     <string name="page3_title">EARNING REWARDS</string>
     <string name="page3_content">Level up your attributes by completing tasks on your To-Do list.\nGain all sorts of achievements and level up your life!</string>
     <string name="page4_title">CLOUD</string>
-    <string name="page4_content">Share your daily or your colorful life online.\nJoin a team online to complete tasks together.</string>
+    <string name="page4_content">Share your daily life online.\nJoin a team online to complete tasks together.</string>
     <string name="page4_btn">START LIFE UP</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -53,7 +53,7 @@
     <string name="AcraChannel">LifeUp Report</string>
     <string name="action_sort">Sort</string>
     <string name="title_statistics">Statistics</string>
-    <string name="title_activity_exp">Exp Detail</string>
+    <string name="title_activity_exp">Exp Details</string>
     <string name="title_activity_add_category">New List</string>
     <string name="page_not_available">Not available!</string>
     <string name="funcation_need_to_login">You need to login to enter this page!\nTap here to login.</string>
@@ -84,7 +84,7 @@
     <string name="team_add_not_repeat">None</string>
     <string name="team_add_set_repeat">Set repeat frequency</string>
     <string name="edit_text_empty_error">empty</string>
-    <string name="team_add_without_attr_toast">You have to choose at least one attr!</string>
+    <string name="team_add_without_attr_toast">You have to choose at least one attribute!</string>
     <string name="team_add_remind_time_not_complete">Reminder time is not filled in completely</string>
     <string name="team_add_time_error">End time must be later than start time</string>
     <string name="team_add_attr_desc_title">Attributes</string>
@@ -98,7 +98,7 @@
     <string name="add_to_do_set_weekday_ignore">Set Ignore</string>
     <string name="add_to_do_goal_illegal_input">The specified target time is invalid</string>
     <string name="add_to_do_remind_set_success">Reminder set successfully！</string>
-    <string name="add_to_do_without_attr_toast">You have to choose at least one attr!</string>
+    <string name="add_to_do_without_attr_toast">You have to choose at least one attribute!</string>
     <string name="add_to_do_remind_illegal_input">The specified alarm date is invalid</string>
     <string name="add_to_do_start_time_illegal_input">The specified start time is invalid</string>
     <string name="add_to_do_end_time_too_early">Deadline should be later than start time</string>
@@ -371,8 +371,8 @@
     <string name="starter_task_remark">Tap the left circle or swipe right to complete tasks.\nLong press the card to show options.</string>
     <string name="backup_restore_success">Restore successful</string>
     <string name="backup_restore_failed">Restore failed</string>
-    <string name="backup_success">Backup successful:&#160;</string>
-    <string name="backup_success_custom">Backup successful</string>
+    <string name="backup_success">Backup successfully:&#160;</string>
+    <string name="backup_success_custom">Backup successfully</string>
     <string name="backup_failed">Backup failed:&#160;</string>
     <string name="backup_failed_custom">Backup failed</string>
     <string name="loading">Loading…</string>
@@ -1649,6 +1649,8 @@
     <string name="shop_item_select_input_hint_amount">Amount (1)</string>
     <string name="btn_reselect">Reselect</string>
     <string name="setting_custom_enable_punishment_factor_for_individual_tasks">Enable custom penalty factor settings for individual tasks</string>
+    <string name="setting_custom_enable_show_shop_item">Auto display the shop item reward in task notes</string>
+    <string name="setting_custom_enable_show_shop_item_desc">Not available in compact mode</string>
     <string name="chip_punishment">Penalty</string>
     <string name="dialog_title_set_indie_punishment_factor">Penalty factor</string>
     <string name="dialog_message_set_indie_punishment_factor">Please input value from 0–5.0</string>
@@ -2061,7 +2063,7 @@ If you need to schedule multiple tasks in a repetition cycle, you can use counti
     <string name="dialog_decrease_title_penalty">Penalty</string>
     <string name="shop_item_detail_title_effect">Effects</string>
     <string name="common_error_message">Error: %1$s</string>
-    <string name="settings_task_delete_calendar_account">Delete the LifeUp calendar account</string>
+    <string name="settings_task_delete_calendar_account">Delete the LifeUp reminder calendar account</string>
     <string name="default_new_skill_name">NEW</string>
     <string name="custom_attribution_action_delete">DELETE</string>
     <string name="attribution_delete_confirm">Do you really want to delete the attribute?</string>
@@ -2204,6 +2206,18 @@ If you need to schedule multiple tasks in a repetition cycle, you can use counti
     <string name="dialog_license_not_allow_message"><![CDATA[The Play Store has detected that you do not own the app. <br/>If you actually not own the app, or your Play Pass has expired, please consider purchasing our app, it/\'s a one-time purchase. <br/>You can jump to the backup page to export your data. <br/><br/>If this pop-up window still pops up after you have purchased our app, it may be due to an incorrect Google account on your device, an abnormal cache in the Play Store, or your device cannot connect to the Google server. <br/>Please check the following links and consult Google Play Support:<br/><a href=\"https://support.google.com/googleplay/answer/7513003?hl=en&amp;ref_topic=3237689\">https://support.google.com/googleplay/answer/7513003?hl=en&amp;ref_topic=3237689</a>]]></string>
     <string name="lab_material_you">Material You (Material Design 3)</string>
     <string name="lab_material_you_desc">New Material design language (not fully adapted).</string>
+    <string name="pic_dir_name_achievement_list">Achievement List</string>
+    <string name="pic_dir_name_achievement">Achievement</string>
+    <string name="shop_item_batch_delete_message">Do you really want to delete these items?</string>
+    <string name="add_task_success">Task added successfully</string>
+    <string name="task_note_reward_auto_display">Reward: [%1$s] x%2$d</string>
+    <string name="shop_item_negative_number_tips">You have a negative number for this item, which may be caused by undoing the completion of the task or achievement and advancing the use of the item.</string>
+    <string name="tag_frozen_until_v2_relative">Frozen: %1$s</string>
+    <string name="inventory_sort_follow_shop_custom_sort">Follow shop custom sorting</string>
+    <string name="inventory_sort_follow_shop_custom_sort_desc">(experimental, not applicable to [all] list at the moment)</string>
+    <string name="action_star">Star</string>
+    <string name="setting_delete_calendar_account_confirm_message">Are you sure you want to delete LifeUp\'s calendar reminder account?\n\nIf you are still using the calendar reminder method, the account may be recreated.</string>
+    <string name="action_unstar">Unstar</string>
     <plurals name="duration_days_relative">
         <item quantity="other">%d days ago</item>
         <item quantity="one">%d day ago</item>

@@ -1214,4 +1214,6 @@
     <string name="pic_dir_name_shop">Dükkan</string>
     <string name="pic_dir_name_custom">Özel</string>
     <string name="tomatoes_action_exchange">DEĞİŞ TOKUŞ</string>
+    <string name="add_user_achievement_achievement">Başarılar</string>
+    <string name="pic_dir_name_achievement">Başarılar</string>
 </resources>

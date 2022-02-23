@@ -1589,6 +1589,8 @@
     <string name="shop_item_select_input_hint_amount">數量（預設為 1）</string>
     <string name="btn_reselect">重新選擇</string>
     <string name="setting_custom_enable_punishment_factor_for_individual_tasks">啟用待辦事項懲罰係數單獨設定</string>
+    <string name="setting_custom_enable_show_shop_item">待辦事項備註添加商品獎勵顯示</string>
+    <string name="setting_custom_enable_show_shop_item_desc">簡潔模式下不支持顯示</string>
     <string name="chip_punishment">懲罰</string>
     <string name="dialog_title_set_indie_punishment_factor">懲罰係數</string>
     <string name="dialog_message_set_indie_punishment_factor">請輸入 0~5.0 之間的數值</string>
@@ -2108,6 +2110,23 @@
     <string name="pomodoro_dialog_title_continue_when_update_focus_time_available">放棄追加時長並繼續</string>
     <string name="pomodoro_dialog_title_continue_when_update_focus_time_available_desc">追加專注時長可以獲得額外的番茄。\n您確定要放棄追加專注時長並繼續嗎？</string>
     <string name="reward_dialog_gain_exp">您獲得了「%1$s」屬性經驗值！</string>
+    <string name="dialog_license_not_allow_message"><![CDATA[Play Store檢測到您未擁有該 app。<br/>如果您確實未購買app，或Play Pass過期，請考慮購買我們的應用，這是一次性的。<br/>您可以跳轉到備份頁面導出您的數據。<br/><br/>如果您已經購買了我們的應用仍彈出該彈窗，這可能是由於設備的谷歌賬號不正確 、Play Store的緩存異常，或者您的設備無法連上谷歌伺服器。<br/>請檢查以下鏈接以及諮詢 Google Play Support：<br/><a href=\"https://support.google.com/googleplay/answer/7513003?hl=en&amp;ref_topic=3237689\">https://support.google.com/googleplay/answer/7513003?hl=en&amp;ref_topic=3237689</a>]]></string>
+    <string name="custom_sound_effect_shop_item_use">使用物品</string>
+    <string name="dialog_license_not_allow_title">授權驗證失敗</string>
+    <string name="btn_backup">備份</string>
+    <string name="btn_purchase">購買</string>
+    <string name="shop_item_batch_delete_message">您確定要下架這些商品嗎？</string>
+    <string name="add_task_success">任務添加成功</string>
+    <string name="task_note_reward_auto_display">獎勵:【%1$s】x%2$d</string>
+    <string name="shop_item_negative_number_tips">該商品您的擁有數為「負數」，這可能是由於撤銷完成任務或成就並【預支使用商品】。</string>
+    <string name="tag_frozen_until_v2_relative">凍結: %1$s</string>
+    <string name="inventory_sort_follow_shop_custom_sort">跟隨商店自訂排序</string>
+    <string name="inventory_sort_follow_shop_custom_sort_desc">（試驗，暫不適用於[全部]清單）</string>
+    <string name="action_star">星標</string>
+    <string name="setting_delete_calendar_account_confirm_message">您確定要刪除人升的日曆提醒賬號嗎？\n\n如果您仍在使用日曆提醒方式，該賬號可能會重新創建。</string>
+    <string name="action_unstar">取消星標</string>
+    <string name="lab_material_you_desc">新的Material設計語言（未完全適配）。</string>
+
     <plurals name="duration_days_relative">
         <item quantity="other">%d 天前</item>
     </plurals>

@@ -588,7 +588,7 @@
     <string name="exception_refresh">刷新状态出现了点小异常</string>
     <string name="exception_achievement_animation">成就提示出现了小异常</string>
     <string name="setting_display_language">语言设置</string>
-    <string name="setting_display_language_desc">暂时支持英语、简体中文、繁体中文、土耳其语和葡萄牙语</string>
+    <string name="setting_display_language_desc">暂时支持英语、简体中文、繁体中文\nPlay 版本额外支持多种外语</string>
     <string name="dialog_language_system">跟随系统</string>
     <string name="dialog_language_title">语言设置</string>
     <string name="dialog_language_toast">语言更改需要重启应用生效</string>
@@ -1597,6 +1597,8 @@
     <string name="shop_item_select_input_hint_amount">数量（默认1）</string>
     <string name="btn_reselect">重新选择</string>
     <string name="setting_custom_enable_punishment_factor_for_individual_tasks">启用待办事项惩罚系数单独设置</string>
+    <string name="setting_custom_enable_show_shop_item">待办事项备注添加商品奖励显示</string>
+    <string name="setting_custom_enable_show_shop_item_desc">简洁模式下不支持显示</string>
     <string name="chip_punishment">惩罚</string>
     <string name="dialog_title_set_indie_punishment_factor">惩罚系数</string>
     <string name="dialog_message_set_indie_punishment_factor">请输入0～5.0之间的数值</string>
@@ -1841,7 +1843,7 @@
     <string name="desc_delete_remote_data">这将永久删除你在远程服务器上的该账号拥有的所有数据，包括第三方账号验证关联信息、公开动态、分享的商品、会员绑定等。</string>
     <string name="delete_account_success">成功删除账号</string>
     <string name="dialog_delete_account_title">删除账号</string>
-    <string name="dialog_delete_account_desc">这将永久删除你在远程服务器上的所有数据，包括第三方账号验证信息、公开动态、分享的商品等。\n\n该功能适用于放弃使用应用的情况，绑定的会员权益等也会一并被删除。</string>
+    <string name="dialog_delete_account_desc">这将永久删除你在远程服务器上的所有数据，包括第三方账号验证信息、公开动态、分享的商品等。\n\n该功能适用于【放弃使用】应用的情况，绑定的会员权益等也会一并被删除。</string>
     <string name="dialog_delete_local_data_title">删除本地存储数据</string>
     <string name="dialog_delete_local_data_desc">这将永久、不可撤销地删除你的所有本地数据，包括事项、商品、自定义成就等。应用会回到刚安装时的状态。</string>
     <string name="synthesis_item_delete_message">你确定要永久删除该配方吗？</string>
@@ -1908,7 +1910,7 @@
     <string name="feature_1810_desc">- 日清单\n- 周清单\n- 月清单</string>
     <string name="feature_1820">合成</string>
     <string name="feature_1820_desc">- 完整的支持N对N的合成系统</string>
-    <string name="coffee_failed_to_connect_the_google_iap">我们无法向谷歌Play请求咖啡列表，错误码：%1$d</string>
+    <string name="coffee_failed_to_connect_the_google_iap">我们无法向谷歌 Play 请求咖啡列表，错误码：%1$d</string>
     <string name="btn_feedback_questions">疑问</string>
     <string name="btn_feedback_bugs">漏洞</string>
     <string name="btn_feedback_feature">建议</string>
@@ -2127,4 +2129,16 @@
         <item quantity="other">%d天前</item>
     </plurals>
     <string name="dialog_license_not_allow_message"><![CDATA[Play Store检测到你未拥有该应用。<br/>如果你确实未购买应用，或Play Pass过期，请考虑购买我们的应用，这是一次性的。<br/>你可以跳转到备份页面导出你的数据。<br/><br/>如果你已经购买了我们的应用仍弹出该弹窗，这可能是由于设备的谷歌账号不正确 、Play Store的缓存异常，或者你的设备无法连上谷歌服务器。<br/>请检查以下链接以及咨询Google Play Support：<br/><a href=\"https://support.google.com/googleplay/answer/7513003?hl=en&amp;ref_topic=3237689\">https://support.google.com/googleplay/answer/7513003?hl=en&amp;ref_topic=3237689</a>]]></string>
+    <string name="pic_dir_name_achievement_list">成就清单</string>
+    <string name="pic_dir_name_achievement">成就</string>
+    <string name="shop_item_batch_delete_message">你确定要下架这些商品吗？</string>
+    <string name="add_task_success">任务添加成功</string>
+    <string name="task_note_reward_auto_display">奖励:【%1$s】x%2$d</string>
+    <string name="shop_item_negative_number_tips">该商品你的拥有数为「负数」，这可能是由于撤销完成任务或成就并【预支使用商品】。</string>
+    <string name="tag_frozen_until_v2_relative">冻结: %1$s</string>
+    <string name="inventory_sort_follow_shop_custom_sort">跟随商店自定义排序</string>
+    <string name="inventory_sort_follow_shop_custom_sort_desc">（试验，暂不适用于[全部]清单）</string>
+    <string name="action_star">星标</string>
+    <string name="setting_delete_calendar_account_confirm_message">你确定要删除人升的日历提醒账号吗？\n\n如果你仍在使用日历提醒方式，该账号可能会重新创建。</string>
+    <string name="action_unstar">取消星标</string>
 </resources>

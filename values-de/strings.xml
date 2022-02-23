@@ -13,7 +13,7 @@
     <string name="page1_content">Schreiben Sie Ihre To-Do-Liste auf. Legen Sie deren Wichtigkeit und Schwierigkeitsgrad fest und versuchen Sie, sie zu erledigen.</string>
     <string name="page2_content">Was wäre, wenn Ihr Leben ein Spiel wäre...\nWas wäre, wenn Ihre Eigenschaften durch Zahlen gemessen werden könnten...</string>
     <string name="page3_title">BELOHNUNGEN VERDIENEN</string>
-    <string name="page3_content">Steigern Sie Ihre Attribute, indem Sie Ihre To-Do-Liste abschließen.\nErzielen Sie verschiedene Erfolge und steigern Sie schließlich Ihr Leben.</string>
+    <string name="page3_content">Steigern Sie Ihre Attribute, indem Sie Ihre To-Do-Liste abschließen.\nErzielen Sie verschiedene Erfolge und steigern Sie schließlich Ihr Leben!</string>
     <string name="page4_content">Teilen Sie Ihr tägliches oder Ihr buntes Leben online. Treten Sie dem Online-Team bei, um gemeinsam Aufgaben zu erledigen.</string>
     <string name="page4_btn">LEBEN BEGINNEN</string>
     <string name="navigation_drawer_open">Navigationsschublade öffnen</string>
@@ -187,6 +187,7 @@
     <string name="backup_found_file">Erkannte Sicherungsdatei:&#160;</string>
     <string name="main_click_one_more_quit">Tippen Sie ein weiteres Mal, um die App zu beenden</string>
     <string name="setting_toolbar_title">Einstellungen</string>
+    <string name="setting_widget_toolbar_title">Widget</string>
     <string name="setting_todo_toolbar_title">Aufgabe</string>
     <string name="setting_display_toolbar_title">anzeigen</string>
     <string name="team_toast_join_success">Team erfolgreich beigetreten</string>
@@ -243,6 +244,7 @@
     <string name="give_up_success_with_coin">Aufgabe wurde erfolgreich aufgegeben. Sie haben insgesamt %1$d Exp und %2$d Münzen verloren.</string>
     <string name="give_up_failed">Aufgabe ist aufgegeben und fehlgeschlagen</string>
     <string name="user_follow_list">Folgen</string>
+    <string name="user_follower_list">Follower</string>
     <string name="user_follow">Folgen Sie</string>
     <string name="user_not_found_activites">Keine Aktivitäten.</string>
     <string name="user_not_found_team">Keine Teams.</string>
@@ -267,6 +269,7 @@
     <string name="relative_time_later">%1$d Tage später</string>
     <string name="to_do_adapter_not_start_yet">Die Aufgabe ist noch nicht gestartet!</string>
     <string name="team">Team</string>
+    <string name="attr_strength">Stärke</string>
     <string name="attr_endurance">ENDE</string>
     <string name="female">Weiblich</string>
     <string name="male">Männlich</string>
@@ -336,7 +339,7 @@
     <string name="lifeup">LifeUp</string>
     <string name="notification_content">Sie haben eine Aufgabe zu erledigen:&#160;</string>
     <string name="notification_ticker">TODO</string>
-    <string name="step_to_str">Gewinnen Sie exp durch Schritte</string>
+    <string name="step_to_str">Gewinnen Sie [Stärke] exp durch Schritte</string>
     <string name="likes_exchange_charm">Gewinnen Sie [Charme]-Exp durch Likes</string>
     <string name="using_days_streaks_exchange_endurance">Gewinnen Sie [Ausdauer]-Exp durch die Verwendung von Tagesstreifen</string>
     <string name="finish_task">Erledigte Aufgabe</string>
@@ -885,6 +888,7 @@
     <string name="date_input_hint">Im Allgemeinen sollte der Abstand zwischen der ersten Startzeit und der ersten Endzeit nicht größer sein als die Aufgabenhäufigkeit.\nBitte überprüfen Sie Ihre Einstellung.</string>
     <string name="following">Nachfolgend</string>
     <string name="user_team">Mannschaft</string>
+    <string name="follower">Follower</string>
     <string name="achievement_reward_exp_title">Belohnung %1$s Exp</string>
     <string name="achievement_reward_coin_title">Belohnung Münze</string>
     <string name="shop_search_nothing">Nichts gefunden</string>
@@ -1734,7 +1738,7 @@ Wenn Sie mehrere Aufgaben in einem Wiederholungszyklus planen müssen, Sie könn
     <string name="feedback_method_email">E-Mail</string>
     <string name="pomodoro_mode_timer">Zeitschaltuhr</string>
     <string name="pomodoro_timer_dialog_complete_title">Vollständig</string>
-    <string name="history_record_delete_success">Gelöscht erfolgreich</string>
+    <string name="history_record_delete_success">Erfolgreich gelöscht</string>
     <string name="history_filter_state_completed">Abgeschlossen</string>
     <string name="history_filter_state_overdue">Überfällig</string>
     <string name="history_filter_state_give_up">Aufgegeben</string>
@@ -1744,4 +1748,7 @@ Wenn Sie mehrere Aufgaben in einem Wiederholungszyklus planen müssen, Sie könn
     <string name="pic_dir_name_custom">Benutzerdefiniert</string>
     <string name="tomatoes_action_exchange">AUSTAUSCHEN</string>
     <string name="pomo_settings_exchange_not_configured">Nicht konfiguriert</string>
+    <string name="add_user_achievement_achievement">Errungenschaft</string>
+    <string name="pic_dir_name_achievement_list">Liste der Leistung</string>
+    <string name="pic_dir_name_achievement">Errungenschaft</string>
 </resources>
