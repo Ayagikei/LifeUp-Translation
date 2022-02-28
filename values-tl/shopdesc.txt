@@ -1,0 +1,89 @@
+Ang ibig sabihin ng LifeUp ay I-UPGRADE ang LIFE MO. Isa 'tong gamification To-Do List (Tasks List) application na may malupit na gamified features.
+
+Dalawang kaka-graduated lang na mga developer ang bumuo ng app na 'to. Masaya kami na nakapag-develop kami ng <b>cuztomizable at malupit na gamified To-Do list at tutulungan ka pa nitong bumuo ng Habits sa tulong ng app na 'to</b>.
+
+Merong tinatawag na item reward at custom achievement mechanism ang LifeUp, hindi ka talaga mababagot dito.
+Bukod pa dun, tutulungan ka pa ng app na 'to na mag-tala o mag-record ng mga bagay-bagay na para ka lang nag-lalaro ng productivity game.
+Simple at madali lang naman gamitin ang app na 'to. Pag binuksan mo ang app, merong sasalubong sayo na atttribute mechanism kung saan magiging masaya agad ang karanasan mo na para bang nasa RPG ka.
+
+
+<h2><b>Mga Features: </b></h2>
+- <b>Walang Ads, Walang In-App Purchase patungkol sa mga features, Mae-enjoy mo ang lahat ng nandito sa isang bayad lang.</b>
+
+- <b>Maganda dahil naka-Material Design ang UI</b>
+
+- <b>Lahat ng basic functions ng isang To-Do app ay nandito</b>
+Remark, Reminder, Start Time, Deadline, Repeat, Target Times, History, at List.
+
+✨ <b>May Gamification Functions</b>
+6 na Attributes (Nandito ang Strength, Intelligence, Charm, Endurance, Vitality at Creative), EXP, Level, Coin, Random Coin.
+
+Bukod pa dun, Malaya mong macu-customize ang mga Attributes, Icon at Text na gusto mo.
+
+🎨 <b>Madaling-Gamitin</b>
+Alam mo bang maaaring mong gawing auto-calculated ang EXP at COIN reward mo base sa Urgency at Difficulty Degree ng task na si-net up mo.
+
+🏆 <b>May Mga Achievement</b>
+Aabot sa 57 na built-in Achievements ang naghihintay lang sayo na ma-unlock mo sila.
+Bukod pa dun, pwedeng-pwede kang gumawa ng sarili mong achievement at pwede mong kalikutin ang magiging progress nito.
+
+🎁 <b>May Shop</b>
+Gagawa ka ng items na gusto mo at lalagyan sila ng price. 'Pag natapos mo ang isang task, magkakaroon ka ng coin. Gagamitin mo ang coin mo para makabili ka ng mga item at  magagamitin mo ang item sa iba't-ibang paraan.
+Malaya mong macu-cuztomize ang mga item. Maraming effects ang pwede mong mailagay dun, tulad ng pag-increase o pag-decrease ng experience points mo, pag-synthesize sa iba pang mga item, o kaya naman mag-countdown.
+
+
+⏰ <b>May Pomodoro</b>
+Kapag natapos mo timer sa Pomodoro, makakatanggap ka ng virtual tomato reward.
+Mag-dedecide ka kung kakainin mo ba o ibebenta nalang sila?
+
+🎲 <b>Merong Custom item effects: loot boxes</b>
+Pwede mong ma-cuztomize ang effect ng item sa shop.
+Halimbawa, maaaring kang makagawa ng mga Loot box kung saan bibigyan ka nito ng mga reward, randomly.
+
+⚗️ <b>Merong Custom item effects: synthesis</b>
+Gagawa ka ng sarili mong synthetic formula at isi-systhesize sila sa iba pang mga item.
+Mare-realize mo ang tinatawag na multi-currency function sa pamamagitan nito. Marami kang talagang magagawa sa loot box.
+
+⚽ <b>Maraming Paraan para Magkaroon ng EXP</b>
+Alam mo bang pwedeng madagdagan ang EXP ng STRENGTH attribute mo kapag naglalakad ka,
+o kaya naman madagdagan ang EXP ng ENDURANCE attribute mo kapag kinakain mo ang tomato na natanggap mo mula sa Pomodoro timer.
+
+🤝 <b>Merong tayong Community</b>
+Mag-join sa team na gugustuhin mo, kompletuhin ang task ng team, i-submit ang activity, at marami pang iba.
+
+- <b>Merong Feelings</b>
+Pwede kang mag-record ng feelings mo kapag natatapos mo ang mga task.
+
+- <b>Merong Widget</b>
+Syempre meron tayong App Widget, kung saan ima-manage mo ang mga task sa Home Screen mo mismo.
+
+- <b>Merong Theme Color</b>
+Meron tayong 23 na built-in color themes
+
+- <b>Merong Dark Theme</b>
+
+- <b>Maraming pwedeng kalikutin sa Settings</b>
+Tulad ng EXP punishment factor / coin punishment factor.
+Itago ang kahit anong module na hindi mo na kailangan.
+
+- <b>Local, WebDAV and Dropbox Backup/Restore</b>
+Halos lahat naman ng data nito ay ini-store lang ng offline, gayunpaman marami tayong paraan para mapanatili ang data mo.
+
+- <b>Network is Unneeded</b>
+Halos lahat din naman ng features nito ay gumagana kahit wala kang internet connection.
+
+- <b>Tuloy-tulong ang Pag-uupdate natin ng mga New Functions</b>
+
+
+<h2><b>Support</b></h2>
+- Wika: Pakialalahanin lang na meron lamang tayong <b>English, Turkish, Portuguese, Simplified Chinese and Traditional Chinese, German, Italian, Russian, Japanese, at Tagalog</b> na available na wika,.
+Bilang isa lamang Indie application, hindi namin kayang magbayad ng translation fee para sa iba pang mga wika.
+Yung iba pa ngang mga wika na nakapaloob dito ay hindi pa tapos o partial translations lang. Sa kabila nito, pwedeng-pwede kayong mag-contribute para sa translation.
+
+- Price:Habang patuloy na nag-uupdate at nag-iimprove ang application, at maraming mga feature ang nadadagdag, unti-unti ring nababago ang price ng app. 
+
+- Issues: Kung merong kang issue o gusto mong mag-refund sa application na 'to, malaya mo kaming mako-contact sa pamamagitan ng email na nasa ibaba.
+
+- App Privacy Terms & Policy: http://wiki.lifeupapp.fun/en/#/introduction/privacy-terms
+
+- Contact Email: kei.ayagi@gmail.com
