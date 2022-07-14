@@ -363,6 +363,7 @@
     <string name="setting_display_hide_community">Hide Community</string>
     <string name="setting_display_hide_community_desc">Hide Community button on the Bottom Navigation.\nRestart needed.</string>
     <string name="setting_display_hide_pedometer_desc">App may not get accurate from some phones\nYou may hide pedometer module if you don\'t want it.</string>
+    <string name="setting_main_task">Compito</string>
     <string name="setting_task_default_repeat_desc">If not checked, it will show dialog asking if to repeat task, after completing a task.</string>
     <string name="setting_task_default_not_submit_activity_desc">If checked, it will not show a activity dialog after completing a team task.</string>
     <string name="setting_task_default_continue_overdue_item">Restart Overdue Task</string>
@@ -628,7 +629,6 @@
     <string name="default_repeat">Frequenza di ripetizione</string>
     <string name="default_deadline">Default Deadline</string>
     <string name="blank">Vuoto</string>
-    <string name="starter_task_compact_mode_remark">You can switch to compact mode by clicking the top left MENU button, and then enter the Lab page.</string>
     <string name="feature_172_desc">- Community now support all time zone\n- Copy Tasks\n- New Task Default Settings\n- Shop List</string>
     <string name="hint_add_team">Per favore non creare un gruppo con contenuti offensivi.</string>
     <string name="hint_add_team_title">Suggerimento</string>
@@ -709,4 +709,12 @@
     <string name="history_record_delete_success">Cancellazione riuscita</string>
     <string name="pic_dir_name_attr">Attributi</string>
     <string name="pic_dir_name_shop">Negozio</string>
+    <string name="add_random_tasks_basis_tasks">Task(title)</string>
+    <string name="add_random_tasks_basis_tasks_notes">Osservazione</string>
+    <string name="add_random_tasks_reward_header">Ricompensa</string>
+    <string name="add_random_tasks_success_message">Aggiunta riuscita</string>
+    <string name="random_tasks_delete_success">Cancellazione riuscita</string>
+    <string name="task_action_freeze_instruction">Blocca</string>
+    <string name="task_action_freeze_instruction_title">Blocca</string>
+    <string name="pic_dir_name_feelings">Sensazioni</string>
 </resources>

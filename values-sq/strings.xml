@@ -168,6 +168,7 @@
     <string name="nickname">Nofka</string>
     <string name="sort_title">Rendisni</string>
     <string name="tab_team">Skuadra</string>
+    <string name="setting_main_task">Detyra</string>
     <string name="attr">Cilësitë</string>
     <string name="action_follow">Ndiqeni</string>
     <string name="follow">Ndiqeni</string>
@@ -430,4 +431,6 @@
     <string name="pic_dir_name_shop">Dyqani</string>
     <string name="tomatoes_action_exchange">SHKËMBENI</string>
     <string name="pic_dir_name_achievement_list">Lista e arritjeve</string>
+    <string name="add_random_tasks_reward_header">Shpërblimi</string>
+    <string name="pic_dir_name_feelings">Ndjenjat</string>
 </resources>

@@ -133,6 +133,7 @@
     <string name="add_to_do_taptarget_todo_content">ToDoを短く書き出す</string>
     <string name="add_to_do_taptarget_target_content">（オプション）ここでは、タスクを完了する回数の目標を設定できます。</string>
     <string name="add_to_do_taptarget_reward_content">（オプション）ここに報酬を設定します。</string>
+    <string name="backup_restore_message_with_time">本当に復元しますか？バックアップファイルの更新時間：%1$s\nアプリを再起動します。</string>
     <string name="backup_path">デフォルトのバックアップファイルのパス:&#160;</string>
     <string name="backup_found_file">バックアップファイルの検出:&#160;</string>
     <string name="main_click_one_more_quit">もう1回タップするとアプリが終了します</string>
@@ -204,7 +205,6 @@
     <string name="category_default">デフォルト</string>
     <string name="backup_restore_title">復元</string>
     <string name="backup_restore_message">本当にデータを復元しますか？\nアプリは一度再起動します。</string>
-    <string name="backup_restore_message_with_time">本当に復元しますか? バックアップファイル修正時間: %1$s アプリを再起動します。</string>
     <string name="setting_toolbar_title">設定</string>
     <string name="setting_widget_toolbar_title">ウィジェット</string>
     <string name="setting_todo_toolbar_title">タスク</string>
@@ -1026,7 +1026,6 @@
     <string name="setting_task_new_default_setting">新しいタスクのデフォルト設定</string>
     <string name="team_activity_create">新しいチーム「%1$s」の作成</string>
     <string name="starter_task_compact_mode_content">コンパクトモードを試してみる</string>
-    <string name="starter_task_compact_mode_remark">左上のメニューボタンをタップするとコンパクトモードに切り替わり、ラボページに入ることができます</string>
     <string name="starter_task_shop_content">自分のショップにアイテムを追加する</string>
     <string name="starter_task_shop_remark">例えば、「自分にコーヒーを買う」や「休息をとる」などをショップアイテムとして追加し、コインが貯まったら購入することができます</string>
     <string name="feature_172">コミュニティ</string>
@@ -1194,7 +1193,6 @@
     <string name="special_task_desc">特別</string>
     <string name="basic_task_desc_detail">基本的な定義:締め切り: 繰り返しサイクルの期限です。タスクの終了条件ではありません。開始時間も同様）\\毎日のタスクの締め切りは「今日」に、毎週のタスクの締め切りは「週末」に設定します。例えば、毎週のタスクを繰り返す場合、次の開始時刻は現在の開始時刻から7日後になります。</string>
     <string name="weekly_task_desc_detail">[月曜日]から始まるウィークリータスクを設定する方法, 終了日：[日曜日]:R&amp;D Step 1. 繰り返し頻度\」を「週間」に設定します。締め切り \"を \"週末\"（日曜日）に設定してください。</string>
-    <string name="weekday_task_desc_detail">特定の曜日にタスクを実行するように設定する方法:\\Step 1. 繰り返し頻度\"を \"毎日 \"に設定します。無視\"ボタンをタップして、タスクを実行する曜日を設定します</string>
     <string name="special_task_desc_detail">特別なタスク（例：1日目の4時に開始し、2日目の18時に締め切りのデイリータスク）を設定する方法：\nStep
     1. その他のオプション]ボタンをタップすると、開始時間のオプションが表示されます\nStep 2.
     開始時間」を繰り返し初日の日付に設定し、時間を「4:00」に設定してください。「締め切り」を「開始時間」の翌日に設定し、「時間」をタップして「18:00」に設定します。Repeat
@@ -1317,7 +1315,6 @@
     <string name="shop_effect_unusable">使用できません</string>
     <string name="shop_effect_custom">カスタム・エフェクト</string>
     <string name="add_shop_item_advance_settings">アドバンスト</string>
-    <string name="shop_title_using_effects">使用するエフェクト：</string>
     <string name="dialog_gained_reward">獲得した報酬</string>
     <string name="dialog_reward_by_using_item">アイテム使用時</string>
     <string name="exp_effect">Expの効果</string>
@@ -1631,7 +1628,6 @@
     <string name="hint_feedback_method_title">フィードバック</string>
     <string name="hint_feedback_method_desc">[会社概要]-[フィードバック]ページからお気軽にご意見をお寄せください。ライフアップはインディーズアプリのため、様々な機種やバージョンの携帯電話をテストすることが難しく、バグを避けることができません。</string>
     <string name="switch_cloud_auto_backup_ignore_media">メディア/画像ファイルを無視する</string>
-    <string name="backup_media_file_size">合計サイズ: %1$s MB\nショップ アイコン: %2$s MB\n実績アイコン: %3$s MB\nタスクの添付ファイル 4$s MB\n気分：%5$s MB\メディアファイルのパス：%6$s\n使わない添付ファイルを削除したり、気分の画像ファイルを手動で圧縮することをお勧めします。\n\n-将来的には、アプリの画像管理機能を追加する予定です。</string>
     <string name="setting_task_quick_add_notification">クイック追加の通知</string>
     <string name="setting_task_quick_add_notification_desc">通知バーからタスクを追加することができます。消費電力が増加する可能性があります。</string>
     <string name="notification_quick_add_title">LifeUp クイック追加</string>
@@ -1908,4 +1904,18 @@
     <string name="add_user_achievement_achievement">達成</string>
     <string name="pic_dir_name_achievement_list">達成度リスト</string>
     <string name="pic_dir_name_achievement">達成</string>
+    <string name="add_random_tasks_basic_header">基本</string>
+    <string name="add_random_tasks_basis_tasks">タスク（タイトル）</string>
+    <string name="add_random_tasks_basis_tasks_notes">備考</string>
+    <string name="add_random_tasks_reward_header">報酬</string>
+    <string name="add_random_tasks_success_message">追加に成功しました</string>
+    <string name="random_tasks_delete_success">削除に成功しました</string>
+    <string name="ramdom_tasks_button_edit">編集</string>
+    <string name="dialog_backup_not_setting">バックアップ</string>
+    <string name="btn_skip">スキップ</string>
+    <string name="settings_task_subtitle_add">追加</string>
+    <string name="setting_display_subtitle_basic">基本</string>
+    <string name="task_action_freeze_instruction">凍結</string>
+    <string name="task_action_freeze_instruction_title">凍結</string>
+    <string name="pic_dir_name_feelings">気分</string>
 </resources>

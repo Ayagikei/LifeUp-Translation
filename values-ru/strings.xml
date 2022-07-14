@@ -1040,7 +1040,7 @@
     <string name="setting_task_new_default_setting">Параметры новых задач по умолчанию</string>
     <string name="team_activity_create">Создал новую команду 「%1$s」</string>
     <string name="starter_task_compact_mode_content">Попробуйте компактный режим</string>
-    <string name="starter_task_compact_mode_remark">Вы можете переключиться в компактный режим, нажав верхнюю левую кнопку МЕНЮ, а затем перейти на страницу Лаборатории..</string>
+    <string name="starter_task_compact_mode_remark">Вы можете нажать кнопку в верхнем левом углу, чтобы открыть боковое меню. Далее откройте [Settings]-[Labs], чтобы получить доступ к экспериментальным возможностям, таким как включение Чистого или Материального режимов.</string>
     <string name="starter_task_shop_content">Добавьте товар в свой магазин</string>
     <string name="starter_task_shop_remark">Например, вы можете добавить 「Купи себе кофе」 или 「Отдыхать」как предмет в магазине, который вы можете купить, когда заработаете достаточно монет.</string>
     <string name="feature_172">Сообщество</string>
@@ -1190,7 +1190,7 @@
     <string name="special_task_desc">Специальный</string>
     <string name="basic_task_desc_detail">Основные определения:\nСрок: Крайний срок повторяемого цикла. Это не конечное условие задачи. (То же самое для времени начала)\nКрайний срок ежедневного задания должен быть установлен на [Сегодня], а крайний срок еженедельного задания должен быть установлен на [Выходные].\n\nЧастота повторения: ежедневно, еженедельно, ежемесячно и т. д.\nПри повторении задачи время ее начала и крайний срок будут рассчитываться по частоте повторения.\n\nНапример, при повторении еженедельной задачи время ее следующего запуска будет через 7 дней после текущего времени запуска; то же самое для крайнего срока.\nВ большинстве случаев вы можете просто установить крайний срок и частоту повторения, и время начала будет автоматически рассчитано.</string>
     <string name="weekly_task_desc_detail">Как настроить еженедельную задачу, начиная с [Понедельника] и заканчивая [Воскресенье]:\n\nШаг 1. Установите\"Частоту повтора\" на [Еженедельно]\n\nШаг 2. Установите \"Срок\" до [Выходные] (Воскресенье)</string>
-    <string name="weekday_task_desc_detail">Как настроить выполнение задачи в определенные дни недели:\n\nШаг 1. Установите \"Частоту Повтора\" на [Ежедневно]\n\nШаг 2. Коснитесь\"Игнорировать\" кнопка, чтобы установить дни недели, в которые будет выполняться задача</string>
+    <string name="weekday_task_desc_detail_v2">Как настроить задачу на выполнение в определенные дни недели:\n\nШаг 1. Установите параметр \"Частота повтора\" на [Weekdays]\n\nШаг 2. Укажите дни недели.</string>
     <string name="special_task_desc_detail">Как настроить специальную задачу (например, ежедневная задача, начинающаяся в 4:00 в первый день, с крайним сроком в 18:00 во второй день):\n\nШаг 1. Нажмите кнопку [Дополнительные параметры], чтобы отобразить параметры времени начала.\n\nШаг 2. Установите [Время начала] на дату первого дня повтора и установите время на\"4:00\"\n\nШаг 3. Установите [Крайний срок] на дату дня, следующего за днем [Время начала], а затем нажмите параметры [Время], чтобы установить конкретное время на \"18:00\"\n\nШаг 4. Установите \"Частоту повтора\" на [Ежедневно]</string>
     <string name="dialog_shop_item_select_title">Выбрать</string>
     <string name="reward_shop_item">Товар в магазине</string>
@@ -1311,7 +1311,7 @@
     <string name="shop_effect_unusable">невозможно использовать</string>
     <string name="shop_effect_custom">пользовательские эффекты</string>
     <string name="add_shop_item_advance_settings">Расширенные настройки</string>
-    <string name="shop_title_using_effects">Эффекты использования:</string>
+    <string name="shop_title_using_effects">Эффекты</string>
     <string name="dialog_gained_reward">Заработанные награды</string>
     <string name="dialog_reward_by_using_item">Используя элемент</string>
     <string name="exp_effect">Эффект опыта</string>
@@ -1474,7 +1474,7 @@
     <string name="dialog_input_exp_number_title">Введите награду опытом</string>
     <string name="dialog_enable_auto_sum_short">Авто</string>
     <string name="status_pomodoro_card_title">Помодоры</string>
-    <string name="status_pomodoros_today_focus_mins">время концентрации сегодня\n (в минутах)</string>
+    <string name="status_pomodoros_today_focus_mins">время фокусировки сегодня\n(в минутах)</string>
     <string name="status_pomodoros_today_focus_hours">время концентрации сегодня\n (в часах)</string>
     <string name="status_today_tomato_earned">помидоры\nприобрел сегодня</string>
     <string name="status_tomato_total_amount">общая сумма\nпомидоров</string>
@@ -1634,7 +1634,6 @@
     <string name="hint_feedback_method_title">Обратная связь</string>
     <string name="hint_feedback_method_desc">Не стесняйтесь оставлять отзывы на странице [О программе] - [Обратная связь]. Если у вас возникли срочные вопросы, свяжитесь со мной по электронной почте.\n\nLifeUp - это инди-приложение: нам сложно тестировать различные модели и версии мобильных телефонов, и трудно избежать ошибок.\n\nПожалуйста, сообщите нам, если у вас возникнет проблема, и мы сможем ее исправить.</string>
     <string name="switch_cloud_auto_backup_ignore_media">Игнорировать медиафайлы/изображения</string>
-    <string name="backup_media_file_size">Общий размер: %1$s МБ\n(если файл больше 10 МБ, рекомендуется игнорировать медиа-файл при включении облачной синхронизации)\nЗначки магазина: %2$s МБ\nЗначки достижений: %3$s МБ\nВложения задач: %4$s МБ\nЧувства：%5$s МБ\n\nПуть к медиафайлам ：%6$s\n\nРекомендуется удалить неиспользуемые файлы вложений или сжать файлы изображений чувств вручную.\nМенеджер изображений в приложении будет добавлен в будущем.</string>
     <string name="setting_task_quick_add_notification">Быстрое добавление через уведомления</string>
     <string name="setting_task_quick_add_notification_desc">Добавляйте задачи через панель уведомлений\n(экспериментально). Может увеличить энергопотребление.</string>
     <string name="notification_quick_add_title">LifeUp Быстрое добавление</string>
@@ -1915,10 +1914,10 @@
     <string name="permission_activity_recognition_request_message">Разрешение на распознавание активности требуется для вычисления ежедневных шагов.\nЭто опциональная функция, вы также можете вручную ввести количество шагов или скрыть модуль.</string>
     <string name="starter_task_compatibility">Настройка совместимости</string>
     <string name="starter_task_compatibility_desc">Для использования некоторых функций LifeUp ([Reminder], Pomodoro, виджеты, обратный отсчет, и т.д.), возможно, Вам придется обратиться к этой статье за помощью с настройками.\nНажмите на подробности, чтобы перейти по ссылке: https://wiki.lifeupapp.fun/en/#/guide/background_running</string>
-    <string name="hint_login_method">эта строка доступна только на специальных языках</string>
-    <string name="hint_login_method_desc">эта строка доступна только на специальных языках</string>
-    <string name="hint_login_method2">эта строка доступна только на специальных языках</string>
-    <string name="hint_login_method_desc2">эта строка доступна только на специальных языках</string>
+    <string name="hint_login_method">this_string_only_available_in_specific_language_hint_login_method</string>
+    <string name="hint_login_method_desc">this_string_only_available_in_specific_language_hint_login_method_desc</string>
+    <string name="hint_login_method2">this_string_only_available_in_specific_language_hint_login_method2</string>
+    <string name="hint_login_method_desc2">this_string_only_available_in_specific_language_hint_login_method_desc2</string>
     <string name="zh_feedback_method_internal">Отзыв в приложении</string>
     <string name="error_msg_device_not_support_login_method">Устройство не поддерживает этот метод входа</string>
     <string name="login_v2_connect_to_the_world_module">Подключение к модулю мира</string>
@@ -2000,14 +1999,14 @@
     <string name="toast_tomato_earned">Получен(о) %1$d помидор(а/ов)</string>
     <string name="pomodoro_timer_give_up">Сдаться</string>
     <string name="pomodoro_timer_give_up_message">Вы уверены что хотите прекратить таймер?\nЭто аннулирует записанное время и заработанные награды.</string>
-    <string name="positive_timer_notification_title">Время</string>
-    <string name="positive_timer_notification_title_with_task">Время - %1$s</string>
+    <string name="positive_timer_notification_title">Отсчёт</string>
+    <string name="positive_timer_notification_title_with_task">Отсчёт - %1$s</string>
     <string name="positive_timer_receive_reward">Получить награду</string>
-    <string name="condition_life_level">Уровень жизни достигает указанного значения</string>
-    <string name="condition_desc_life_level">Уровень жизни достигает %1$d</string>
+    <string name="condition_life_level">При достижении определённого уровня жизни</string>
+    <string name="condition_desc_life_level">При достижении %1$d-го уровня жизни</string>
     <string name="condition_got_item_times">Получить предмет указанное количество раз</string>
     <string name="condition_synthesis_item_times">Синтезировать предмет указанное количество раз</string>
-    <string name="condition_current_own_item_number">Иметь указанный предмет</string>
+    <string name="condition_current_own_item_number">При владении определённым количеством предмета</string>
     <string name="condition_desc_got_item_times">Получить [%1$s] [%2$d] раз</string>
     <string name="condition_desc_synthesis_item_times">Синтезировать [%1$s] [%2$d] раз</string>
     <string name="condition_desc_current_own_item_number">Иметь %1$d [%2$s]</string>
@@ -2043,7 +2042,6 @@
     <string name="title_picture_manager_page">Изображение</string>
     <string name="pic_dir_name_attr">Атрибуты</string>
     <string name="pic_dir_name_shop">Магазин</string>
-    <string name="pic_dir_name_attachments">Вложения/Ощущения</string>
     <string name="pic_dir_name_download">Скачать</string>
     <string name="pic_dir_name_custom">Выбрать</string>
     <string name="tomatoes_action_exchange">ОБМЕН</string>
@@ -2064,4 +2062,20 @@
     <string name="reward_dialog_gain_exp">Вы получили %1$s очков опыта!</string>
     <string name="pic_dir_name_achievement_list">Список достижений</string>
     <string name="pic_dir_name_achievement">Достижение</string>
+    <string name="add_random_tasks_basic_header">Базовый</string>
+    <string name="add_random_tasks_basis_tasks">Задача (заголовок)</string>
+    <string name="add_random_tasks_basis_tasks_notes">Заметки</string>
+    <string name="add_random_tasks_reward_header">Награда</string>
+    <string name="add_random_tasks_success_message">Успешно добавлено</string>
+    <string name="random_tasks_delete_success">Успешно удалено</string>
+    <string name="ramdom_tasks_button_edit">Редактировать</string>
+    <string name="dialog_backup_not_setting">Сделать резервную копию</string>
+    <string name="btn_skip">ПРОПУСТИТЬ</string>
+    <string name="settings_subtitle_misc">Прочее</string>
+    <string name="settings_task_subtitle_add">Добавить</string>
+    <string name="settings_widget_subtitle_display">Отображение</string>
+    <string name="setting_display_subtitle_basic">Базовый</string>
+    <string name="task_action_freeze_instruction">Заморозить</string>
+    <string name="task_action_freeze_instruction_title">Заморозить</string>
+    <string name="pic_dir_name_feelings">Чувства</string>
 </resources>

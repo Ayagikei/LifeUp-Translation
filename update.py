@@ -1,5 +1,7 @@
 import os
+from pathlib import Path
 import shutil
+import os.path
 
 
 def update_text_resource(source_dir, dest_dir):
@@ -9,8 +11,10 @@ def update_text_resource(source_dir, dest_dir):
         if dir_name.startswith("value"):
             source_path = source_dir + os.sep + dir_name + os.sep + string_file_name
             dest_path = dest_dir + os.sep + dir_name + os.sep + string_file_name
-            print("try to copy [" + source_path + " to [" + dest_path + "]")
-            shutil.copy(source_path, dest_path)
+            source_file = Path(source_path)
+            if source_file.exists():
+                print("try to copy [" + source_path + " to [" + dest_path + "]")
+                shutil.copy(source_path, dest_path)
 
 
 # def updateValueDir(sourceDir, destDir):

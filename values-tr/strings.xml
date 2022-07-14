@@ -1015,7 +1015,6 @@
     <string name="setting_task_new_default_setting">Yeni Görevler İçin Varsayılan Ayarlar</string>
     <string name="team_activity_create">Yeni takım oluşturuldu「%1$s」</string>
     <string name="starter_task_compact_mode_content">Kompakt modu deneyin</string>
-    <string name="starter_task_compact_mode_remark">Sol üstteki MENU düğmesine tıklayarak kompakt moda geçebilirsiniz, bunun için Lab sayfasına gidin.</string>
     <string name="starter_task_shop_content">Dükkanınıza ürün ekleyin</string>
     <string name="starter_task_shop_remark">Örneğin, 「Kendime kahve satın al」veya「Dinlen」 gibi şeyleri dükkan ürünü olarak ekleyebilirsiniz, yeterli bozukluklarınız olunca satın alıp kullanmak için.</string>
     <string name="feature_172">Topluluk</string>
@@ -1108,7 +1107,6 @@
     <string name="basic_task_desc">Temel</string>
     <string name="basic_task_desc_detail">Basic Define:\nDeadline: The deadline of the repeat cycle. It\'s not the end condition of the task. (Same for the Start Time)\nBasically the deadline of a daily task should be set to [Today] while the deadline of a weekly task should be set to [Weekend].\n\nRepeat Frequency: Daily, Weekly, Monthly etc.\nWhen repeating a task, its start time and deadline will be calculated by the repeat frequency.\n\nFor example, when repeat a weekly task, its next start time will be 7 days after the current start time, same for the deadline.\nIn most cases, you can just set up the deadline and the repeat frequency as the start time can be auto calculated.</string>
     <string name="weekly_task_desc_detail">How to setup a weekly task from [Monday] to [Sunday]?\n\nStep 1. Set the \"Repeat Frequency\" to [Weekly]\n\nStep 2.Set the \"Deadline\" to [Weekend](the date of the Sunday)</string>
-    <string name="weekday_task_desc_detail">How to setup a weekday task?\n\nStep 1. Set the \"Repeat Frequency\" to [Daily]\n\nStep 2.Click the \"Ignore\" Button to continue your setting</string>
     <string name="special_task_desc_detail">How to setup a special task like a daily task that started at 18:00 of the day and deadline at the 4:00 of the second day?\n\nStep 1. Click the [More Options] Button to show up the start time options\n\nStep 2. Set the [Start Time] to the date of first day of the repeat, and set the time to \"18:00\"\n\nStep 3. Set the [Deadline] to the date of the next day of the [Start Time], and then click the [Time] options the set up the specific time to \"4:00\"\n\nStep 4.Set the \"Repeat Frequency\" to [Daily]</string>
     <string name="complete_reward_text_input_dialog_title">Ödül</string>
     <string name="feature_1740_desc">- ATM\n- Select shop items as task reward\n- Shop item stock quantity\n- Improve animation</string>
@@ -1135,7 +1133,6 @@
     <string name="title_dialog_default_coin_number_subtask">Default Coin Number of SubTask</string>
     <string name="btn_add_using_effects">Add Using Effects</string>
     <string name="add_shop_item_advance_settings">Advance</string>
-    <string name="shop_title_using_effects">Using effects:</string>
     <string name="hint_should_select_attributes">At least one attributes should be selected</string>
     <string name="hint_attributes_conflict">There is a conflict with another effects</string>
     <string name="hint_using_too_many_items">Cannot use more than 100 items at a time which have special effects</string>
@@ -1216,4 +1213,17 @@
     <string name="tomatoes_action_exchange">DEĞİŞ TOKUŞ</string>
     <string name="add_user_achievement_achievement">Başarılar</string>
     <string name="pic_dir_name_achievement">Başarılar</string>
+    <string name="add_random_tasks_basic_header">Temel</string>
+    <string name="add_random_tasks_basis_tasks">Görev(başlık)</string>
+    <string name="add_random_tasks_basis_tasks_notes">Yorum</string>
+    <string name="add_random_tasks_reward_header">Ödül</string>
+    <string name="add_random_tasks_success_message">Başarıyla eklendi</string>
+    <string name="random_tasks_delete_success">Başarıyla silindi</string>
+    <string name="ramdom_tasks_button_edit">Düzenle</string>
+    <string name="dialog_backup_not_setting">Yedekle</string>
+    <string name="settings_widget_subtitle_display">Görüntüle</string>
+    <string name="setting_display_subtitle_basic">Temel</string>
+    <string name="task_action_freeze_instruction">Dondur</string>
+    <string name="task_action_freeze_instruction_title">Dondur</string>
+    <string name="pic_dir_name_feelings">İzlenimler</string>
 </resources>

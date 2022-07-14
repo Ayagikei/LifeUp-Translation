@@ -865,6 +865,7 @@
     <string name="achievement_community_new_member">Nový člen</string>
     <string name="achievement_community_new_member_desc">Vytvořit tým nebo se připojte k jinému</string>
     <string name="achievement_community_well_played">Dobře ty</string>
+    <string name="achievement_community_well_played_desc">Podobně jako ostatní činnosti</string>
     <string name="achievement_community_follow">Sledovat</string>
     <string name="achievement_community_follow_desc">Sledujte jednoho dalšího hráče</string>
     <string name="achievement_community_high_quality_writer">Vysoce kvalitní spisovatel</string>
@@ -1024,7 +1025,6 @@
     <string name="setting_task_new_default_setting">Výchozí nastavení nového úkolu</string>
     <string name="team_activity_create">Vytvořil nový tým&lt;unk&gt;%1$s &lt;unk&gt;</string>
     <string name="starter_task_compact_mode_content">Vyzkoušejte kompaktní režim</string>
-    <string name="starter_task_compact_mode_remark">Můžete přepnout na kompaktní režim klepnutím na levé horní tlačítko MENU a poté přejděte na stranku laboratoře.</string>
     <string name="starter_task_shop_content">Přidejte položku do vašeho obchodu</string>
     <string name="feature_172">Komunita</string>
     <string name="hint_add_team_title">Nápověda</string>
@@ -1244,7 +1244,6 @@
     <string name="shop_effect_unusable">nepoužitelné</string>
     <string name="shop_effect_custom">vlastní efekty</string>
     <string name="add_shop_item_advance_settings">Pokočilé</string>
-    <string name="shop_title_using_effects">Účinky použití:</string>
     <string name="dialog_gained_reward">Získané odměny</string>
     <string name="dialog_reward_by_using_item">Použitím předmětu</string>
     <string name="exp_effect">Efekt Exp</string>
@@ -1642,4 +1641,20 @@
     <string name="add_user_achievement_achievement">Úspěch</string>
     <string name="pic_dir_name_achievement_list">Seznam úspěchů</string>
     <string name="pic_dir_name_achievement">Úspěch</string>
+    <string name="add_random_tasks_basic_header">Základní</string>
+    <string name="add_random_tasks_basis_tasks">Název úkolu</string>
+    <string name="add_random_tasks_basis_tasks_notes">Poznámky</string>
+    <string name="add_random_tasks_reward_header">Odměna</string>
+    <string name="add_random_tasks_success_message">Úspěšně přidáno</string>
+    <string name="random_tasks_delete_success">Úspěšně smazáno</string>
+    <string name="ramdom_tasks_button_edit">Upravit</string>
+    <string name="dialog_backup_not_setting">Zálohovat</string>
+    <string name="btn_skip">PŘESKOČIT</string>
+    <string name="settings_subtitle_misc">Ostatní.</string>
+    <string name="settings_task_subtitle_add">Přidat</string>
+    <string name="settings_widget_subtitle_display">Zobrazení</string>
+    <string name="setting_display_subtitle_basic">Základní</string>
+    <string name="task_action_freeze_instruction">Zmrazit</string>
+    <string name="task_action_freeze_instruction_title">Zmrazit</string>
+    <string name="pic_dir_name_feelings">Pocity</string>
 </resources>
