@@ -1155,7 +1155,7 @@
     <string name="example_user_achievements">Пример</string>
     <string name="example_user_achievement_detail_1">Прочитать 10 книг</string>
     <string name="example_user_achievement_detail_2">Прочтите книгу на иностранном языке</string>
-    <string name="title_lab_new">Лаборатория (Новая функция!)</string>
+    <string name="title_lab_new">Эксперименты (Новая функция!)</string>
     <string name="fragment_status_button_grant_permission">Грант</string>
     <string name="require_permission">Требуется разрешение</string>
     <string name="hint_denied_activity_permission">LifeUp не сможет получить данные о количестве шагов, если вы запретили датчику разрешение.</string>
