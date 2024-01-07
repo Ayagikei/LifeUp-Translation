@@ -23,7 +23,7 @@
     <!-- Strings related to login -->
     <string name="title_activity_login">Войти</string>
     <string name="login_welcome">Войдите для дополнительных функций</string>
-    <string name="login_welcome_2">Больше функций:\n- Синхронизировать опыт &amp; уровни на сервере\n- Редактировать профиль\n- Мир\n- Поделиться своей деятельностью</string>
+    <string name="login_welcome_2">Больше функций:\n- Синхронизировать опыт &amp; уровни на сервере\n- Редактировать профиль\n- Сообщество\n- Поделиться своей деятельностью</string>
     <string name="login_signIn">ВОЙТИ</string>
     <string name="login_or">или</string>
     <string name="title_activity_add_to_do_item">Добавить задачу</string>
