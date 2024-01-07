@@ -1041,7 +1041,7 @@
     <string name="setting_task_new_default_setting">Параметры новых задач по умолчанию</string>
     <string name="team_activity_create">Создал новую команду 「%1$s」</string>
     <string name="starter_task_compact_mode_content">Попробуйте компактный режим</string>
-    <string name="starter_task_compact_mode_remark">Вы можете нажать кнопку в верхнем левом углу, чтобы открыть боковое меню. Далее откройте [Settings]-[Labs], чтобы получить доступ к экспериментальным возможностям, таким как включение Чистого или Материального режимов.</string>
+    <string name="starter_task_compact_mode_remark">Вы можете нажать кнопку в верхнем левом углу, чтобы открыть боковое меню. Далее откройте [Настройки]-[Эксперименты], чтобы получить доступ к экспериментальным возможностям, таким как включение Чистого или Материального режимов.</string>
     <string name="starter_task_shop_content">Добавьте товар в свой магазин</string>
     <string name="starter_task_shop_remark">Например, вы можете добавить 「Купи себе кофе」 или 「Отдыхать」как предмет в магазине, который вы можете купить, когда заработаете достаточно монет.</string>
     <string name="feature_172">Сообщество</string>
