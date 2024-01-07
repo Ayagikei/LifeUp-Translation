@@ -2175,7 +2175,7 @@
     <string name="setting_custom_subtitle_customization">Персонализация</string>
     <string name="setting_custom_subtitle_plenty">Штраф</string>
     <string name="settings_subtitle_feature">Особенность</string>
-    <string name="switch_shop_sellout_visible">Hide sold out items</string>
+    <string name="switch_shop_sellout_visible">Скрыть распроданные товары</string>
     <string name="switch_shop_enable_sell_visible">Hide disabled purchase items</string>
     <string name="profile_logout_offline_mode">Logout Offline Mode</string>
     <string name="task_action_freeze_instruction">Заморозить</string>
