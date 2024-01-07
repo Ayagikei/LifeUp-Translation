@@ -731,7 +731,7 @@
     <string name="xml_clear_coin">Очистить данные о монетах</string>
     <string name="xml_clear_coin_desc">Сбросить кол-во монет к НУЛЮ.</string>
     <string name="clear_coin_title">Очистить данные о монетах</string>
-    <string name="clear_coin_desc">Количество монеты будет сброшен к 0.\nВнимание: Это перезапустит вашу жизнь, и это не может быть отменено!</string>
+    <string name="clear_coin_desc">Количество монет будет сброшено на 0.\nВнимание: Это перезапустит вашу жизнь, и отменить эту операцию будет невозможно!!</string>
     <string name="clear_coin">Сбросить Монеты до Нуля</string>
     <string name="setting_display_theme_setting">Цвет темы</string>
     <string name="setting_display_theme_setting_desc">Выберите цвет темы, который вам нравится</string>
