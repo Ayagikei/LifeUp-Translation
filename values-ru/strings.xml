@@ -2182,7 +2182,7 @@
     <string name="task_action_freeze_instruction_title">Заморозить</string>
     <string name="task_action_freeze_instruction_desc">Замороженные задачи не создают записи о просрочке и штрафах.\nПрименимы в случаях, когда повторяющуюся задачу нельзя выполнить в течение определенного периода времени.\n\nВремя замораживания включает в себя конечную дату.\nНапример, если заморозка <i>до</i> 5 мая 2023 года, то она будет разморожена 6 мая в 00:00.</string>
     <string name="dialog_item_detail_focus_toast">Удерживайте карту долго, чтобы сразу перейти в выбранное состояние и выполнять операции, такие как редактирование, в правом верхнем углу.</string>
-    <string name="btn_achievement_add_unlock_condition">Add Conditions</string>
+    <string name="btn_achievement_add_unlock_condition">Добавить условия</string>
     <string name="pic_dir_name_feelings">Чувства</string>
     <string name="loading_team_task_failed_not_login">Failed to load team tasks: not login</string>
     <string name="list_undeleteable_all">[All] list cannot be deleted.\nYou can disable it in the [Settings]-[Labs]-[Smart lists].</string>
