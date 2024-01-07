@@ -255,7 +255,7 @@
     <string name="user_not_found_activites">Нет активности.</string>
     <string name="user_not_found_team">Нет команд.</string>
     <string name="network_unknown_error">Ошибка сети:</string>
-    <string name="network_no_network">Нет сети для загрузки данных.</string>
+    <string name="network_no_network">Отсутствует сеть для загрузки данных.</string>
     <string name="network_yb_failed">Ошибка входа; Попробуйте позже.</string>
     <string name="network_yb_redirect_success">Авторизация прошла успешно</string>
     <string name="task_restart">Запустить снова</string>
