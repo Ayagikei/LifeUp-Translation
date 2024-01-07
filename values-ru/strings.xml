@@ -2177,7 +2177,7 @@
     <string name="settings_subtitle_feature">Особенность</string>
     <string name="switch_shop_sellout_visible">Скрыть распроданные товары</string>
     <string name="switch_shop_enable_sell_visible">Скрыть товары, которые нельзя приобрести</string>
-    <string name="profile_logout_offline_mode">Logout Offline Mode</string>
+    <string name="profile_logout_offline_mode">Выйти из режима офлайн</string>
     <string name="task_action_freeze_instruction">Заморозить</string>
     <string name="task_action_freeze_instruction_title">Заморозить</string>
     <string name="task_action_freeze_instruction_desc">Frozen tasks will not generate overdue and penalty records.\nAnd are applicable for case that a period of time when a repeat task can not be done.\n\nThe time frozen to includes the end.\nFor example, if the freeze <i>through</i> May 5, 2023. It will be unfreeze at May 6, 0：00.</string>
