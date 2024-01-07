@@ -627,7 +627,7 @@
     <string name="profile_dialog_gender">Пол</string>
     <string name="profile_gender_prefill">Пол:&#160;</string>
     <string name="setting_task_reminder_method">Система напоминаний</string>
-    <string name="setting_task_reminder_method_desc">По умолчанию LifeUp отправляет напоминания в виде уведомлений. \n\nЕсли вы часто пропускаете напоминания, вам следует изменить систему напоминаний.</string>
+    <string name="setting_task_reminder_method_desc">LifeUp отправляет напоминания в виде уведомлений по умолчанию.\n\nЕсли вы часто пропускаете напоминания, вы можете изменить систему напоминаний.</string>
     <string name="setting_task_reminder_method_default">Уведомления из приложения</string>
     <string name="setting_task_reminder_method_system_calendar">Системный календарь</string>
     <string name="dialog_reminder_method_title">Система напоминаний</string>
