@@ -2157,7 +2157,7 @@
     <string name="dialog_backup_not_setting">Сделать резервную копию</string>
     <string name="dialog_backup_not_setting_desc">В настоящее время у вас нет настроенного резервного копирования, что может привести к потере данных при удалении приложения LifeUp или повреждении устройства. \n\nРекомендуется посетить страницу резервного копирования и настроить следующие методы:\n1. [Рекомендуется] Настройте резервное копирование в облаке WebDAV (Nut Cloud), Google Drive и DropBox для избежания потери данных и синхронизации между устройствами. \n2. [Дополнительно] Для Android 10 и выше можно настроить автоматическое резервное копирование в папку "Загрузки", предотвращая потерю данных при удалении. \n3. [Дополнительно] Вручную экспортируйте данные в файл и синхронизируйте с любым методом резервного копирования, таким как сетевой диск или передача на компьютер.</string>
     <string name="btn_skip">ПРОПУСТИТЬ</string>
-    <string name="to_do_item_no_deadline">No deadline</string>
+    <string name="to_do_item_no_deadline">Без крайнего срока</string>
     <string name="settings_subtitle_config">Config</string>
     <string name="settings_subtitle_data">Data</string>
     <string name="settings_subtitle_misc">Прочее</string>
