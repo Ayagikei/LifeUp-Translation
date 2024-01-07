@@ -40,7 +40,7 @@
     <string name="title_activity_user_team">Команда</string>
     <string name="title_activity_about">О нас</string>
     <string name="title_activity_achievement">Достижения</string>
-    <string name="AcraText">Мы сожалеем, что приложение вылетело\nПожалуйста, отправьте нам отчет</string>
+    <string name="AcraText">Извините за сбой приложения.\nПожалуйста, отправьте нам отчет</string>
     <string name="AcraTitle">ОТЧЕТ О СБОЕ</string>
     <string name="AcraCommend">Как это произошло?</string>
     <string name="AcraChannel">LifeUp Отчет</string>
