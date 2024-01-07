@@ -88,7 +88,7 @@
     <string name="team_add_cancel">Отменить</string>
     <string name="team_add_photo_permission">Требуется разрешение камеры.</string>
     <string name="illegal_input">Некорректный ввод</string>
-    <string name="add_to_do_set_weekday_ignore">Задать игнорирование дней</string>
+    <string name="add_to_do_set_weekday_ignore">Исключить определенные дни</string>
     <string name="add_to_do_goal_illegal_input">Некорректное количество повторений</string>
     <string name="add_to_do_remind_set_success">Напоминание установлено!</string>
     <string name="add_to_do_without_attr_toast">Вы должны выбрать хотя бы один навык!</string>
