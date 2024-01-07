@@ -465,8 +465,8 @@
     <string name="setting_display_task_single_color_desc">Создавайте все типы тегов задач, используя цвет темы.</string>
     <string name="setting_display_status_play_animation">Включить анимацию статуса</string>
     <string name="setting_display_status_play_animation_desc">Это может стоить много ресурсов процессора.</string>
-    <string name="setting_display_hide_community">Скрыть Мир</string>
-    <string name="setting_display_hide_community_desc">Кнопка «Скрыть мир» в нижней части навигации.</string>
+    <string name="setting_display_hide_community">Скрыть Сообщество</string>
+    <string name="setting_display_hide_community_desc">Кнопка «Скрыть Сообщество» в нижней части навигации.</string>
     <string name="setting_display_hide_pedometer">Скрыть модуль Шагомера</string>
     <string name="setting_display_hide_pedometer_desc">Приложение может не получать точные измерения с некоторых телефонов\nВы можете скрыть модуль шагомера, если он вам не нужен.</string>
     <string name="setting_main_task">Настройки задач</string>
