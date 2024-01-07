@@ -2170,7 +2170,7 @@
     <string name="settings_widget_subtitle_display">Отображение</string>
     <string name="setting_display_subtitle_basic">Базовый</string>
     <string name="setting_display_subtitle_module">Модуль</string>
-    <string name="setting_display_subtitle_task_card">Task Card</string>
+    <string name="setting_display_subtitle_task_card">Карточка задачи</string>
     <string name="setting_custom_subtitle_switch">Switch</string>
     <string name="setting_custom_subtitle_customization">Персонализация</string>
     <string name="setting_custom_subtitle_plenty">Штраф</string>
