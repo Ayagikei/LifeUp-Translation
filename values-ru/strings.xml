@@ -2151,7 +2151,7 @@
     <string name="ramdom_tasks_poster">Poster: %1$s</string>
     <string name="random_tasks_receive_list">Список полученных: %1$s</string>
     <string name="random_tasks_filter_created_by_me">Созданные мной</string>
-    <string name="random_tasks_empty_list">Tasks not found</string>
+    <string name="random_tasks_empty_list">Задачи не найдены</string>
     <string name="add_to_do_end_time_early_than_current_time">Deadline should be later than the current time</string>
     <string name="auto_backup_to_download_dir_desc">Имя файла резервной копии - \"LifeUpBackup.zip\", которое можно сохранить после удаления приложения. Вам необходимо вручную выбрать путь для восстановления. \nТем не менее, существует риск потери данных в условиях, таких как повреждение устройства. </string>
     <string name="dialog_backup_not_setting">Сделать резервную копию</string>
