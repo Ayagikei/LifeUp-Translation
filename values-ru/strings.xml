@@ -36,7 +36,7 @@
     <string name="title_activity_YBLogin">Войти через YiBan</string>
     <string name="title_activity_profile">Редактировать профиль</string>
     <string name="title_activity_user_mine">Мой профиль</string>
-    <string name="title_activity_team_member">Состав</string>
+    <string name="title_activity_team_member">Участники</string>
     <string name="title_activity_user_team">Команда</string>
     <string name="title_activity_about">О нас</string>
     <string name="title_activity_achievement">Достижения</string>
