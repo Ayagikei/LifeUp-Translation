@@ -10,7 +10,7 @@
     <string name="title_activity_main">Главная</string>
     <!-- Welcome Activity -->
     <string name="page1_title">СПИСОК ЗАДАЧ</string>
-    <string name="page1_content">Запишите свой список задач.\nУстановите важность и степень сложности каждой задачи.\nПопробуйте выполнить их все!</string>
+    <string name="page1_content">Создайте свой список задач.\nУстановите приоритет и степень сложности выполнения для каждой задачи.\nПостарайтесь выполнить их все!</string>
     <string name="page2_title">ГЕЙМИФИЦИРУЙТЕ ЖИЗНЬ</string>
     <string name="page2_content">Что, если бы ваша жизнь была игрой…?\nЧто, если бы ваши способности можно было измерить числами…?</string>
     <string name="page3_title">ЗАРАБАТЫВАЙТЕ НАГРАДЫ</string>
