@@ -55,7 +55,7 @@
     <string name="has_been_latest_version">У вас уже установлена ​​последняя версия!</string>
     <string name="btn_update">Обновить</string>
     <string name="about_new_version">Новая версия</string>
-    <string name="about_update_content_title">ЧЕКЛОГ ОБНОВЛЕНИЙ</string>
+    <string name="about_update_content_title">ЧТО НОВОГО</string>
     <string name="about_check_update">Проверить Обновление</string>
     <string name="about_version_name">Версия</string>
     <string name="contact_title">Связь</string>
