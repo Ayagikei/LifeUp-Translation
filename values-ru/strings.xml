@@ -968,7 +968,7 @@
     <string name="hint_add_sub_task">Создать подзадачу</string>
     <string name="feature_169">Подзадачи</string>
     <string name="feature_169_desc">- Подзадачи\n- Пользовательская сортировка\n- Пакетное Удаление/Перемещение в..\n- Обновление Виджета Приложения</string>
-    <string name="title_lab">Лаборатория</string>
+    <string name="title_lab">Эксперименты</string>
     <string name="backup_restore_double_check_title">Внимание</string>
     <string name="backup_restore_double_check_message">Выбранный файл не является файлом резервной копии.\nМогут потеряться текущие данные.\nВы хотите продолжить?</string>
     <string name="backup_undo_restore">Отменить Последнее Восстановление</string>
