@@ -2165,7 +2165,7 @@
     <string name="settings_task_subtitle_add">Добавить</string>
     <string name="settings_task_subtitle_interaction">Взаимодействие</string>
     <string name="settings_task_subtitle_swipe">Смахивание (Swipe)</string>
-    <string name="settings_task_subtitle_remind">Remind</string>
+    <string name="settings_task_subtitle_remind">Напоминания</string>
     <string name="settings_widget_subtitle_theme">Theme</string>
     <string name="settings_widget_subtitle_display">Отображение</string>
     <string name="setting_display_subtitle_basic">Базовый</string>
