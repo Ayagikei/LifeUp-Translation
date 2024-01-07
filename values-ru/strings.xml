@@ -181,7 +181,7 @@
     <string name="add_to_do_taptarget_todo_content">Коротко опишите задачу</string>
     <string name="add_to_do_taptarget_remark_content">(По желанию) Добавьте подробности</string>
     <string name="add_to_do_taptarget_repeat_content">Установите здесь частоту повтора. По умолчанию - без повторений</string>
-    <string name="add_to_do_taptarget_target_content">(По желанию）Вы можете установить цель для числа\nраз вы хотите выполнить здесь задачу.\nВыполнив задание столько раз,\nвы можете заработать дополнительный опыт.</string>
+    <string name="add_to_do_taptarget_target_content">(По желанию) Вы можете установить цель для числа\nраз вы хотите выполнить здесь задачу.\nВыполнив задание столько раз,\nвы можете заработать дополнительный опыт.</string>
     <string name="add_to_do_taptarget_reward_content">(По желанию) Установите здесь награду.</string>
     <string name="category_default">По умолчанию</string>
     <string name="backup_restore_title">Восстановить</string>
