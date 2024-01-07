@@ -2128,7 +2128,7 @@
     <string name="pic_mange_filter_unused_chip_text">неиспользовано</string>
     <string name="pic_manage_filter_unused_not_available">Недоступно в этой категории</string>
     <string name="tab_random_tasks">Случайные задачи</string>
-    <string name="setting_custom_crop_picture_size">Crop image output size</string>
+    <string name="setting_custom_crop_picture_size">Размер обрезки изображения</string>
     <string name="setting_custom_crop_picture_size_desc">Set the cropped icon size for items, achievements, etc.\n\nNote: Higher size may take up more backup file size.</string>
     <string name="dialog_title_set_crop_picture_size">Crop image output size</string>
     <string name="dialog_input_task_count_target_affect_shop_items">Affect shop item reward amount</string>
