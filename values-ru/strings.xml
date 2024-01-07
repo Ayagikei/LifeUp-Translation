@@ -1013,7 +1013,7 @@
     <string name="feature_170">Лаборатории</string>
     <string name="feature_170_desc">- Компактный режим\n- Вложение изображения\n- Настраиваемые навыки (текст и значок)\n- WebDAV Бэкап</string>
     <string name="menu_undo">Отменить</string>
-    <string name="setting_task_snack_bar_duration">Продолжительность окна отмены</string>
+    <string name="setting_task_snack_bar_duration">Продолжительность отображения окна отмены</string>
     <string name="setting_task_snack_bar_duration_desc_short">Короткое</string>
     <string name="setting_task_snack_bar_duration_desc_long">Длинное</string>
     <string name="copy">Копировать</string>
