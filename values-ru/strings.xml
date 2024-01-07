@@ -2163,7 +2163,7 @@
     <string name="settings_subtitle_misc">Прочее</string>
     <string name="settings_subtitle_account">Учетная запись</string>
     <string name="settings_task_subtitle_add">Добавить</string>
-    <string name="settings_task_subtitle_interaction">Interaction</string>
+    <string name="settings_task_subtitle_interaction">Взаимодействие</string>
     <string name="settings_task_subtitle_swipe">Swipe</string>
     <string name="settings_task_subtitle_remind">Remind</string>
     <string name="settings_widget_subtitle_theme">Theme</string>
