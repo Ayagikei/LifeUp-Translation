@@ -2145,7 +2145,7 @@
     <string name="random_tasks_the_first_page_hint">Уже первая страница!</string>
     <string name="random_tasks_the_last_page_hint">Уже последняя страница!</string>
     <string name="random_tasks_page_title">Сделать что-то...</string>
-    <string name="random_tasks_page_desc">Discover or post positive and interesting tasks</string>
+    <string name="random_tasks_page_desc">Открывайте или размещайте позитивные и интересные задачи</string>
     <string name="ramdom_tasks_button_receive">Receive</string>
     <string name="ramdom_tasks_button_edit">Редактировать</string>
     <string name="ramdom_tasks_poster">Poster: %1$s</string>
