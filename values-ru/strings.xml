@@ -2140,7 +2140,7 @@
     <string name="add_random_tasks_success_message">Успешно добавлено</string>
     <string name="title_activity_add_random_tasks">Добавить случайные задачи</string>
     <string name="dialog_message_delete_random_task">Вы действительно хотите удалить эту задачу?</string>
-    <string name="random_tasks_receive_success">Received the task successfully</string>
+    <string name="random_tasks_receive_success">Задача успешно получена</string>
     <string name="random_tasks_delete_success">Успешно удалено</string>
     <string name="random_tasks_the_first_page_hint">Already the first page!</string>
     <string name="random_tasks_the_last_page_hint">Already the last page!</string>
