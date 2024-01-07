@@ -5,7 +5,7 @@
     <!-- bottom bar title -->
     <string name="title_board">Задачи</string>
     <string name="title_status">Статус</string>
-    <string name="title_community">Мир</string>
+    <string name="title_community">Сообщество</string>
     <string name="title_me">Я</string>
     <string name="title_activity_main">Главная</string>
     <!-- Welcome Activity -->
