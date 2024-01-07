@@ -623,7 +623,7 @@
     <string name="feature_fix162_desc">- Коснитесь вкладок в Сообществе, чтобы прокрутить вверх.\n- Исправьте сбой, вызванный проблемой сети.\n- [Моменты] Страница добавляет функцию автоматического фильтра. \n- Больше оптимизации\n- Обновить страницу [Я]</string>
     <string name="setting_display_auto_check_update">Автоматическая проверка обновлений</string>
     <string name="setting_display_auto_check_update_desc">Автоматическая проверка обновлений при входе на главную страницу.</string>
-    <string name="about_new">О (Новая версия!)</string>
+    <string name="about_new">О приложении (Новая версия!)</string>
     <string name="profile_dialog_gender">Пол</string>
     <string name="profile_gender_prefill">Пол:&#160;</string>
     <string name="setting_task_reminder_method">Система напоминаний</string>
