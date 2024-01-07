@@ -2131,7 +2131,7 @@
     <string name="setting_custom_crop_picture_size">Размер обрезки изображения</string>
     <string name="setting_custom_crop_picture_size_desc">Установите размер обрезанной иконки для элементов, достижений и т. д.\n\nПримечание: Больший размер может занимать больше места в файле резервной копии.</string>
     <string name="dialog_title_set_crop_picture_size">Размер обрезки изображения</string>
-    <string name="dialog_input_task_count_target_affect_shop_items">Affect shop item reward amount</string>
+    <string name="dialog_input_task_count_target_affect_shop_items">Влияет на сумму вознаграждения за товары в магазине</string>
     <string name="add_random_tasks_basic_header">Базовый</string>
     <string name="add_random_tasks_basis_tasks">Задача (заголовок)</string>
     <string name="add_random_tasks_basis_tasks_notes">Заметки</string>
