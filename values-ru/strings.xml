@@ -2149,7 +2149,7 @@
     <string name="ramdom_tasks_button_receive">Получить</string>
     <string name="ramdom_tasks_button_edit">Редактировать</string>
     <string name="ramdom_tasks_poster">Poster: %1$s</string>
-    <string name="random_tasks_receive_list">Receive list: %1$s</string>
+    <string name="random_tasks_receive_list">Список полученных: %1$s</string>
     <string name="random_tasks_filter_created_by_me">Created by me</string>
     <string name="random_tasks_empty_list">Tasks not found</string>
     <string name="add_to_do_end_time_early_than_current_time">Deadline should be later than the current time</string>
