@@ -2180,7 +2180,7 @@
     <string name="profile_logout_offline_mode">Выйти из режима офлайн</string>
     <string name="task_action_freeze_instruction">Заморозить</string>
     <string name="task_action_freeze_instruction_title">Заморозить</string>
-    <string name="task_action_freeze_instruction_desc">Frozen tasks will not generate overdue and penalty records.\nAnd are applicable for case that a period of time when a repeat task can not be done.\n\nThe time frozen to includes the end.\nFor example, if the freeze <i>through</i> May 5, 2023. It will be unfreeze at May 6, 0：00.</string>
+    <string name="task_action_freeze_instruction_desc">Замороженные задачи не создают записи о просрочке и штрафах.\nПрименимы в случаях, когда повторяющуюся задачу нельзя выполнить в течение определенного периода времени.\n\nВремя замораживания включает в себя конечную дату.\nНапример, если заморозка <i>до</i> 5 мая 2023 года, то она будет разморожена 6 мая в 00:00.</string>
     <string name="dialog_item_detail_focus_toast">Long press the card to directly enter the selected state, and you can perform operations such as editing in the upper right corner</string>
     <string name="btn_achievement_add_unlock_condition">Add Conditions</string>
     <string name="pic_dir_name_feelings">Чувства</string>
