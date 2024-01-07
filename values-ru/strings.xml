@@ -2138,7 +2138,7 @@
     <string name="add_random_tasks_reward_header">Награда</string>
     <string name="add_random_tasks_hint">Не публикуйте нелегальный, провокационный, политический контент.\n\nОбмен случайными задачами не зависит от языка.\n\nМы рекомендуем делиться контентом на английском языке или предоставлять аннотации на английском. Спасибо за понимание.</string>
     <string name="add_random_tasks_success_message">Успешно добавлено</string>
-    <string name="title_activity_add_random_tasks">Add Random Tasks</string>
+    <string name="title_activity_add_random_tasks">Добавить случайные задачи</string>
     <string name="dialog_message_delete_random_task">Вы действительно хотите удалить эту задачу?</string>
     <string name="random_tasks_receive_success">Received the task successfully</string>
     <string name="random_tasks_delete_success">Успешно удалено</string>
