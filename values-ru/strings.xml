@@ -715,7 +715,7 @@
     <string name="update_time">Время обновления</string>
     <string name="to_do_item_detail_completed_times">Вы выполнили эту задачу %1$d раз</string>
     <string name="feature_165">Прочтите позже</string>
-    <string name="feature_165_desc">- Прочтите позже: получение общей информации из других приложений для создания задач «Прочтите позже» (например, Twitter, Chrome…)\n- Пользовательские настройки: теперь вы можете настроить множитель штрафа опыта.\n- Множество улучшений: сортировка в магазине, автоматический расчет и оптимизация монет.</string>
+    <string name="feature_165_desc">- Прочтите позже: получение общей информации из других приложений для создания задач «Прочтите позже» (например, X(Twitter), Chrome…)\n- Пользовательские настройки: теперь вы можете настроить множитель штрафа опыта.\n- Множество улучшений: сортировка в магазине, автоматический расчет и оптимизация монет.</string>
     <string name="title_activity_settings">Настройки</string>
     <string name="exception_update_no_browser">Нет браузера. Повторите попытку позже или обновите в Магазине.</string>
     <string name="til_coin_max_hint">Максимум</string>
@@ -836,7 +836,7 @@
     <string name="achievement_task_impossible">Невозможно</string>
     <string name="achievement_task_impossible_desc">Создайте задачу со сложностью и важностью 4-го Уровня</string>
     <string name="achievement_task_read_it_later">Прочтите позже</string>
-    <string name="achievement_task_read_it_later_desc">Получите общую информацию из другого приложения для создания задачи. (например, Twitter, Chrome…)</string>
+    <string name="achievement_task_read_it_later_desc">Получите общую информацию из другого приложения для создания задачи. (например, X(Twitter), Chrome…)</string>
     <string name="achievement_task_ignore">Рабочий День</string>
     <string name="achievement_task_ignore_desc">Создайте ежедневную задачу, чтобы игнорировать некоторые дни недели (например, каждый Понедельник и Среду).</string>
     <string name="achievement_task_game_starter">Новичок в Игре</string>
