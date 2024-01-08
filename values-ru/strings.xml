@@ -2292,7 +2292,7 @@
     <string name="starter_task_history_remark">Когда задача просрочена или отменена, на странице истории будет создана запись о неудаче.\n\nВы можете изменить историю задачи на \"выполнено\" в любое время во всплывающем окне напоминания о просрочке или на боковой панели - странице [История].\n\nТакже вы можете настроить, должен ли применяться штраф при неудаче задачи.</string>
     <string name="starter_task_restart_lifeup_content">Перезапустить LifeUp</string>
     <string name="starter_task_restart_lifeup_remark">LifeUp поддерживает сброс данных (опыт, монеты, записи о задачах).\n\nПри необходимости вы можете проверить боковую панель - страницу [Резервное копирование/Восстановление/Очистка данных].</string>
-    <string name="task_menu_pin">Pin</string>
+    <string name="task_menu_pin">Закрепить</string>
     <string name="task_menu_unpin">Unpin</string>
     <string name="hint_pomodoro_config_hint">Настройка совместимости</string>
     <string name="hint_pomodoro_config_hint_desc">You may not have configured compatibility to allow LifeUp to run in the background.\n\nThis may cause LifeUp\'s Pomodoro countdown to not work properly in the background or when the screen is locked (LifeUp will be killed or frozen by the system). For example, the Pomodoro does not ring or ends normally.\n\nIf you encounter these problems, please refer to [Settings] - [Compatibility Configuration].</string>
