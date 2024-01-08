@@ -2286,7 +2286,7 @@
     <string name="btn_reset">Сбросить</string>
     <string name="add_to_do_days_exceed_repeat_alert_hint">Продолжительность задачи (с начала до дедлайна) больше частоты повторения, пожалуйста, проверьте, соответствует ли это вашим ожиданиям.</string>
     <string name="starter_task_switch_list">Просмотреть список [Примеров]</string>
-    <string name="starter_task_switch_list_desc">We\'ve created some sample to-do and habit tasks for you.\nYou can switch to the [Example] list at the top of this page.\n\nIf you no longer need them, you can also long press to delete them.</string>
+    <string name="starter_task_switch_list_desc">Мы создали для вас несколько примеров задач.\nВы можете перейти к списку [Пример] в верхней части этой страницы.\n\nЕсли они вам больше не нужны, вы также можете нажать длинную кнопку, чтобы удалить их.</string>
     <string name="hint_select_image_from_app_widget_not_available">When completing a task from a widget, selecting an image is currently not supported.</string>
     <string name="starter_task_history_content">View task history</string>
     <string name="starter_task_history_remark">When the task is overdue or abandoned, a failure record will be generated on the history page.\n\nYou can change the task history to completed at any time in the overdue reminder pop-up window, or on the sidebar - [History] page.\n\nAt the same time, you can also customize whether there is a penalty when the task fails.</string>
