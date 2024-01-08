@@ -2332,7 +2332,7 @@
     <string name="app_coin_widget_large_line_2">монеты</string>
     <string name="add_widget">Добавить виджет</string>
     <string name="widget_goal_input_coin_goal">Цель по монетам</string>
-    <string name="widget_goal_input_coin_goal_checkbox_atm">Include coins in the ATM</string>
+    <string name="widget_goal_input_coin_goal_checkbox_atm">Включить монеты в банкомате</string>
     <string name="widget_click_to_configure">Click to configure</string>
     <string name="chip_level_custom_mode">Custom mode</string>
     <string name="level_empty_text">No level define here.</string>
