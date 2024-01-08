@@ -2361,7 +2361,7 @@
     <string name="hint_conflict_why">Why conflicts arise?</string>
     <string name="hint_conflict_why_desc">1. Вы загружали несовместимые данные с других устройств.\n\n2. Когда используется одно устройство, \"LifeUp\" может успешно загрузить резервную копию, но не получить подтверждение из-за проблем с сетью или прерываний процесса. В таких случаях удаленные данные могут быть считаны как несовместимые.</string>
     <string name="add_task_no_deadline_repeat_alert">Отсутствие срока означает, что повторяющаяся задача не будет автоматически просрочена и повторена. Вам нужно будет вручную завершить или отказаться от нее, чтобы перейти к следующему циклу.\n\nПожалуйста, подтвердите, соответствует ли это вашим требованиям.</string>
-    <string name="add_task_no_deadline_repeat_alert_title">Repeating tasks with no deadline</string>
+    <string name="add_task_no_deadline_repeat_alert_title">Повторяющиеся задачи без дедлайна</string>
     <string name="fold_hint_when_list_is_unfold">Current list is unfolded: Shows all unstarted and frozen tasks.\n\nYou need to click on the triangle symbol at the bottom of the list to fold the list to see the effects of these options.</string>
     <string name="login_v2_sign_in_with_wechat">Sign in with Wechat</string>
     <string name="lifeup_failed_to_start_timer_due_to_battery">LifeUp failed to start Pomodoro due to background battery optimization limitations.</string>
