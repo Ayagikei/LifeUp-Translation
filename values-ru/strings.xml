@@ -2484,7 +2484,7 @@
     <string name="setting_display_subtitle_theme">Тема</string>
     <string name="settings_display_material_you_dynamic_color_mode_singlecolor_desc">Из указанного цвета</string>
     <string name="settings_display_material_you_dynamic_color_mode_bitmap_desc">Цвета из изображения</string>
-    <string name="settings_display_material_you_dynamic_color_mode_seed">Seed color (specified/picture): %1$s</string>
+    <string name="settings_display_material_you_dynamic_color_mode_seed">Цвет основы (указанный/изображение): %1$s</string>
     <string name="history_filter_list">Список</string>
     <string name="history_filter_date">Дата</string>
     <string name="history_filter_state">Task Status</string>
