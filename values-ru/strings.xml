@@ -2481,7 +2481,7 @@
     <string name="settings_display_material_you_dynamic_color_desc">Включить полностью настраиваемые динамические цвета (поддерживается только на некоторых устройствах с Android 12 или выше).</string>
     <string name="settings_display_material_you_dynamic_color_mode">Режим динамических цветов</string>
     <string name="settings_display_material_you_dynamic_color_mode_wallpaper_desc">Из обоев системы</string>
-    <string name="setting_display_subtitle_theme">Theme</string>
+    <string name="setting_display_subtitle_theme">Тема</string>
     <string name="settings_display_material_you_dynamic_color_mode_singlecolor_desc">Из указанного цвета</string>
     <string name="settings_display_material_you_dynamic_color_mode_bitmap_desc">Цвета из изображения</string>
     <string name="settings_display_material_you_dynamic_color_mode_seed">Seed color (specified/picture): %1$s</string>
