@@ -2495,9 +2495,9 @@
     <string name="to_do_detail_statistics_repeat_chart_type_start_date">Дата начала</string>
     <string name="to_do_detail_statistics_repeat_chart_type_deadline">Дата крайнего срока</string>
     <string name="to_do_detail_statistics_repeat_chart_type_complete_date">Дата завершения</string>
-    <string name="custom_attribution_action_disable">DISABLE</string>
+    <string name="custom_attribution_action_disable">ОТКЛЮЧИТЬ</string>
     <string name="attribute_hide_dialog_title">Запретить</string>
-    <string name="add_achievement_continue_to_add_next">Continue to add the next achievement</string>
+    <string name="add_achievement_continue_to_add_next">Продолжить добавление следующего достижения</string>
     <string name="add_user_achievement_successfully">Achievement added successfully!</string>
     <string name="add_user_achievement_failed">Failed to add the achievement, please try again...</string>
     <string name="edit_user_achievement_failed">Failed to edit the achievement, please try again...</string>
