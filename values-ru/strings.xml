@@ -2314,7 +2314,7 @@
     <string name="lab_lifeup_cloud_desc">Расширенный инструмент [разработка], позволяющий вызывать API LifeUp через HTTP-запросы на компьютерах или других устройствах в локальной сети.</string>
     <string name="lab_lifeup_cloud_launch">Запуск</string>
     <string name="timer_preference_auto_title">Авто</string>
-    <string name="auto_start_work_title">Auto start works</string>
+    <string name="auto_start_work_title">Автоматический запуск работ</string>
     <string name="auto_start_break_title">Auto start breaks</string>
     <string name="preference_summary_on">On</string>
     <string name="preference_summary_off">Off</string>
