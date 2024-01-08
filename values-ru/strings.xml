@@ -2188,7 +2188,7 @@
     <string name="list_undeleteable_all">Список [Все] нельзя удалить.\nВы можете отключить его в [Настройки] - [Эксперименты] - [Умные списки].</string>
     <string name="use_item_failed_exp_limit">[%1$s] опыта недостаточно</string>
     <string name="shop_exp_effect_check_limit_use">Ограничение использования</string>
-    <string name="shop_item_purchase_success_and_use_failure">Purchased successfully but used failed: %1$s</string>
+    <string name="shop_item_purchase_success_and_use_failure">Успешная покупка, но использование не удалось: %1$s</string>
     <string name="toast_ring_switch_in_advance">Need to enable sound or vibration in the [Settings] - [Advanced] page first</string>
     <string name="main_switch_disabled">Global disabled</string>
     <string name="inventory_return_multiply">Are you sure you want to return the following items: </string>
