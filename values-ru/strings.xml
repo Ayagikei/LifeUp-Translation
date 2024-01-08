@@ -2431,9 +2431,9 @@
     <string name="statistic_v2_item_filter_button_purchase">Купить</string>
     <string name="statistic_v2_item_filter_button_use">Использовать</string>
     <string name="statistic_v2_subtitle_task_completes">Количество выполненных задач</string>
-    <string name="statistic_v2_subtitle_task_completes_avg">Average daily tasks completed</string>
-    <string name="statistic_v2_subtitle_deadline_task_completes">Deadline task completion rate</string>
-    <string name="statistic_v2_subtitle_tomatoes_gain_avg">Average daily tomatoes</string>
+    <string name="statistic_v2_subtitle_task_completes_avg">Среднедневное количество выполненных задач</string>
+    <string name="statistic_v2_subtitle_deadline_task_completes">Коэффициент выполнения заданий в срок</string>
+    <string name="statistic_v2_subtitle_tomatoes_gain_avg">Среднедневное количество помидоров</string>
     <string name="statistic_v2_subtitle_tomatoes_gain">Tomatoes gained</string>
     <string name="statistics_v2_title_period">Statistical period (%1$d day(s))</string>
     <string name="btn_share">Поделиться</string>
