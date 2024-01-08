@@ -2295,7 +2295,7 @@
     <string name="task_menu_pin">Закрепить</string>
     <string name="task_menu_unpin">Unpin</string>
     <string name="hint_pomodoro_config_hint">Настройка совместимости</string>
-    <string name="hint_pomodoro_config_hint_desc">You may not have configured compatibility to allow LifeUp to run in the background.\n\nThis may cause LifeUp\'s Pomodoro countdown to not work properly in the background or when the screen is locked (LifeUp will be killed or frozen by the system). For example, the Pomodoro does not ring or ends normally.\n\nIf you encounter these problems, please refer to [Settings] - [Compatibility Configuration].</string>
+    <string name="hint_pomodoro_config_hint_desc">Возможно, вы не настроили совместимость, позволяющую LifeUp работать в фоновом режиме.\n\nЭто может привести к тому, что обратный отсчет Pomodoro в LifeUp\ будет работать некорректно в фоновом режиме или при заблокированном экране (LifeUp будет остановлен или заморожен системой). Например, Pomodoro не зазвонит или не завершится нормально.\n\nЕсли вы столкнулись с этими проблемами, обратитесь к разделу [Настройки] - [Настройка совместимости].</string>
     <string name="add_shop_item_stock_number_dialog_message">Currently only task rewards, achievement rewards, and purchases affect this value.\n\nWhen there is insufficient stock, the item will be displayed as sold out and will not be available for purchase.</string>
     <string name="backup_import_data_from_file_system">Import Data</string>
     <string name="backup_switch_support_file_system_open_file">Support file system to open backup files</string>
