@@ -2367,7 +2367,7 @@
     <string name="lifeup_failed_to_start_timer_due_to_battery">LifeUp не удалось запустить таймер Помодоро из-за ограничений оптимизации работы в фоне (батарея).</string>
     <string name="timer_preference_auto_summary">(Android 12 и выше) Для автоматического запуска таймера необходимо отключить оптимизацию батареи в фоновом режиме для LifeUP.</string>
     <string name="shop_add_item_hint_when_hide_unpurchaseable">Вы включили [Скрыть отключенные покупки], поэтому элемент может не отображаться в списке.</string>
-    <string name="shop_add_item_count_down_hint">You may need to configure compatibility (ignoring battery optimization) for this feature to work correctly.</string>
+    <string name="shop_add_item_count_down_hint">Для корректной работы этой функции вам может потребоваться настроить совместимость (игнорирование оптимизации батареи).</string>
     <string name="setting_display_notification_manage">Notification management</string>
     <string name="setting_display_notification_manage_desc">LifeUp divides its notification channels in a reasonable manner.\nYou have the flexibility to adjust the priority and enablement of different notification types to suit your preferences.</string>
     <string name="login_method_wechat">Wechat</string>
