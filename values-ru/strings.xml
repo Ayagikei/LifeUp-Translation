@@ -2351,7 +2351,7 @@
     <string name="settings_advance_custom_level">Настроить уровень</string>
     <string name="settings_advance_custom_level_desc">(Экспериментальная функция) Установка собственной системы уровней в соответствии с вашей системой роста</string>
     <string name="lab_lifeup_cloud_desktop">LifeUp-Desktop</string>
-    <string name="api_permission_request_dialog_title">Permission Request</string>
+    <string name="api_permission_request_dialog_title">Запрос разрешения</string>
     <string name="api_permission_request_dialog_message">\"%1$s (%2$s)\" request to access the data of LifeUp.</string>
     <string name="btn_allow">Allow</string>
     <string name="btn_deny">Deny</string>
