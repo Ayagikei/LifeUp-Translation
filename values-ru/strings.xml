@@ -2456,7 +2456,7 @@
     <string name="inapp_download_failed">Ошибка загрузки: %1$s</string>
     <string name="dialog_permission_get_notified">Будьте в курсе!</string>
     <string name="dialog_permission_get_notified_desc">Многие функции в LifeUp зависят от уведомлений. Например, напоминание по умолчанию о задаче, таймер Помодоро и уведомление об окончании.\n\nПожалуйста, разрешите LifeUp получать уведомления для наилучшего опыта использования.\n\nКроме того, LifeUp разумно разделяет уведомления. Если вас беспокоит определенный тип уведомлений, вы можете позже отключить их в настройках.\n\nНапример: отключите уведомления о повышении и понижении уровня, но разрешите уведомления о задачах и таймере Помодоро.</string>
-    <string name="permissison_notification_go_to_settings">Please enable \"Notifications\" permission in system settings.</string>
+    <string name="permissison_notification_go_to_settings">Пожалуйста, включите разрешение \"Уведомления\" в системных настройках.</string>
     <string name="dialog_title_confirm_confirm">Подтвердить</string>
     <string name="dialog_title_confirm_confirm_desc">Are you sure you want to deny authorization?\n\nThis will cause some features of LifeUp to not work as intended.\n\nIf you need to use this part of the function later, you may need to go to the system settings page to authorize manually.\n\nFor more instructions on permissions and functions, please refer to our [Compatibility Configuration] documentation.</string>
     <string name="free_trial_version_check_update_channel">Update channel</string>
