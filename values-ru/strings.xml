@@ -2318,7 +2318,7 @@
     <string name="auto_start_break_title">Автозапуск перерывов</string>
     <string name="preference_summary_on">Вкл</string>
     <string name="preference_summary_off">Выкл</string>
-    <string name="backup_switch_support_file_system_open_file_dialog"><![CDATA[You are trying to import a data file using LifeUp. But the file does not appear to be a LifeUp data file, do you want to continue?<br/>Your current data may be overwritten if you continue.<br/><br/>Additionally, the redirect to this popup is a feature of LifeUp, that allows you to restore data directly from the file system.<br/><br/><b>If this feature affects you, you can choose to [disable] it.</b>]]></string>
+    <string name="backup_switch_support_file_system_open_file_dialog"><![CDATA[Хотите продолжить импорт файла данных через LifeUp? Этот файл, возможно, не является файлом данных LifeUp. Продолжение может перезаписать ваши текущие данные.\nКроме того, переадресация - функция LifeUp, позволяющая восстанавливать данные из файловой системы.\n<b>Если это вам мешает, можете выбрать [отключить].</b>]]></string>
     <string name="title_activity_level">Level</string>
     <plurals name="duration_days_relative">
         <item quantity="other">%d days ago</item>
