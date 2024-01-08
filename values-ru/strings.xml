@@ -2451,7 +2451,7 @@
     <string name="app_widget_item_not_available_for_purchase">Этот элемент недоступен для покупки</string>
     <string name="btn_download_via_browser">скачать через браузер</string>
     <string name="permission_install_need">Предоставьте разрешение на установку</string>
-    <string name="permission_install_need_desc">The first time you download and install an update in the app, you need to grant us permission to install the app.\n\nWe will only install or update apps for you after obtaining your authorization.</string>
+    <string name="permission_install_need_desc">При первой загрузке и установке обновления приложения вам необходимо предоставить нам разрешение на его установку.\n\nМы будем устанавливать или обновлять приложения для вас только после получения вашего разрешения.</string>
     <string name="inapp_downloading">Downloading...</string>
     <string name="inapp_download_failed">Download failed: %1$s</string>
     <string name="dialog_permission_get_notified">Get notified!</string>
