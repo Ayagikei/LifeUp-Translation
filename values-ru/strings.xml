@@ -2353,8 +2353,8 @@
     <string name="lab_lifeup_cloud_desktop">LifeUp-Desktop</string>
     <string name="api_permission_request_dialog_title">Запрос разрешения</string>
     <string name="api_permission_request_dialog_message">Запрос \"%1$s (%2$s)\" на доступ к данным LifeUp.</string>
-    <string name="btn_allow">Allow</string>
-    <string name="btn_deny">Deny</string>
+    <string name="btn_allow">Разрешить</string>
+    <string name="btn_deny">Запретить</string>
     <string name="settings_widget_hint_add_widget">Note: The above configuration only applies to the \"todo\" list widget.\n\nOther status widgets will automatically adjust to follow the system dark mode.</string>
     <string name="hint_conflict_select">How to choose?</string>
     <string name="hint_conflict_select_desc">If you have uploaded newer data on other devices, please select [Download].\n\nIf you have not used other devices and upload new data, just select [Upload].</string>
