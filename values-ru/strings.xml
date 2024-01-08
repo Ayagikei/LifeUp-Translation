@@ -2437,7 +2437,7 @@
     <string name="statistic_v2_subtitle_tomatoes_gain">Получено помидоров</string>
     <string name="statistics_v2_title_period">Статистика за период (%1$d день/дней)</string>
     <string name="btn_share">Поделиться</string>
-    <string name="statistic_v2_item_filter_button_boxes">Boxes</string>
+    <string name="statistic_v2_item_filter_button_boxes">Ящики</string>
     <string name="statistic_v2_title_achievements">Достижения</string>
     <string name="statistic_v2_subtitle_task_completed_list">Completed tasks</string>
     <string name="statistic_v2_subtitle_achievement_unlock_list">Unlocked achievements</string>
