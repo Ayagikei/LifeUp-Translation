@@ -2382,7 +2382,7 @@
     <string name="app_shop_widget_description">Виджет, отображающий ваши товары в магазине</string>
     <string name="team_sub_tasks_title">Подзадачи</string>
     <string name="exp_changed_app_widget">Изменения опыта</string>
-    <string name="app_exp_changed_widget_description">A widget that shows how your experience points change</string>
+    <string name="app_exp_changed_widget_description">Виджет, отображающий изменения в ваших очках опыта</string>
     <string name="exp_changed_app_widget_desc">one step at a time</string>
     <string name="photo_permission_title">Permission</string>
     <string name="photo_permission_desc">LifeUp is going to open the system’s album/storage framework, so you can select photo files.
