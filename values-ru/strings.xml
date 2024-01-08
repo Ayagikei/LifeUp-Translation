@@ -2316,7 +2316,7 @@
     <string name="timer_preference_auto_title">Авто</string>
     <string name="auto_start_work_title">Автоматический запуск работ</string>
     <string name="auto_start_break_title">Автозапуск перерывов</string>
-    <string name="preference_summary_on">On</string>
+    <string name="preference_summary_on">Вкл</string>
     <string name="preference_summary_off">Off</string>
     <string name="backup_switch_support_file_system_open_file_dialog"><![CDATA[You are trying to import a data file using LifeUp. But the file does not appear to be a LifeUp data file, do you want to continue?<br/>Your current data may be overwritten if you continue.<br/><br/>Additionally, the redirect to this popup is a feature of LifeUp, that allows you to restore data directly from the file system.<br/><br/><b>If this feature affects you, you can choose to [disable] it.</b>]]></string>
     <string name="title_activity_level">Level</string>
