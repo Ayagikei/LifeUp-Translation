@@ -2418,7 +2418,7 @@
     <string name="statistic_v2_pomodoro_focus_time_average_per_day">$number/день</string>
     <string name="statistic_v2_coin_average_per_day">$number/день</string>
     <string name="statistic_v2_subtitle_atm_interest">Проценты по Банкоматам</string>
-    <string name="statistic_v2_subtitle_coin_changes">Coin changes</string>
+    <string name="statistic_v2_subtitle_coin_changes">Изменения в монетах</string>
     <string name="statistic_v2_subtitle_coin_change_avg_day">Average daily coin changes</string>
     <string name="statistic_v2_subtitle_coin_purchase_consume">Coins consumed by purchases</string>
     <string name="statistic_v2_subtitle_exp_changes">Experience changes</string>
