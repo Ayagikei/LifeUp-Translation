@@ -2472,7 +2472,7 @@
     <string name="login_prompt_desc">LifeUp - это офлайн-приложение.\nЭто означает, что ваши данные хранятся на вашем смартфоне.\n\nКроме того, у нас есть модуль онлайн-функций под названием Сообщество.\n\nВы можете переключаться между онлайн- и офлайн-режимами в любое время, не затрагивая ваши данные.</string>
     <string name="login_prompt_login_title">Войдите и получите доступ к модулю Сообщество</string>
     <string name="login_prompt_login_desc">Ваши данные по-прежнему будут храниться офлайн.\nКроме того, вы можете войти с помощью учетной записи Google или Facebook, чтобы получить доступ к модулю Сообщество, где вы сможете просматривать и публиковать команды, награды за выполнение задач, случайные задачи, общие чувства завершения и многое другое.</string>
-    <string name="login_prompt_offline_mode_title">Offline mode</string>
+    <string name="login_prompt_offline_mode_title">Офлайн-режим</string>
     <string name="login_prompt_offline_mode_desc">Enjoy a full offline app experience without logging in.\n\nYou will still be able to use all of LifeUp\'s features, except the World module.\n\nThe World module on the main page will be replaced with the Achievements module. You can also adjust other modules in settings later.</string>
     <string name="profile_introduction">Introduction</string>
     <string name="profile_offline_hint">You are creating or editing your character’s [Offline Profile].\n\nThe content and images here will be saved offline.\n\nWhen you are done editing, you can click the check mark in the upper right corner to save the changes.</string>
