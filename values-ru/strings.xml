@@ -2260,7 +2260,7 @@
     <string name="api_reward_exp_success">Вы получаете [%1$s] %2$d очков опыта за \"%3$s\".</string>
     <string name="api_reward_item_success">Вы получаете [%1$s] x%2$d предмет(ов) за \"%3$s\".</string>
     <string name="api_reward_inventory_record">%1$s: [%2$s] ×%3$d</string>
-    <string name="setting_widget_show_popup">Display pop-up windows</string>
+    <string name="setting_widget_show_popup">Показывать всплывающие окна</string>
     <string name="setting_widget_show_popup_desc">When completing the task, a pop-up window such as rewards and impressions will be displayed.\nIf you are using the MIUI system, you need to manually authorize the \"background display interface\" permission.</string>
     <string name="condition_external_api">External API call required to unlock</string>
     <string name="condition_external_api_id_invisible">id is visible after creation</string>
