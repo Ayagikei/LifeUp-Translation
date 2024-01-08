@@ -2389,7 +2389,7 @@
         \n\nДля защиты вашей конфиденциальности LifeUp не требуется разрешение на доступ ко всем файлам, только минимальные запросы на разрешение.
         \n\nLifeUp будет получать доступ и копировать только к выбранным вами файлам.
         \n\nС Вашего разрешения, мы продолжим</string>
-    <string name="camera_permission_title">Camera Permission</string>
+    <string name="camera_permission_title">Разрешение на использование камеры</string>
     <string name="camera_permission_desc">LifeUp is about to launch the system camera for photography.\n\n【Only the file you choose at last】will be accessed and copied to the LifeUp application.\n\nDo you understand and agree to let us continue?</string>
     <string name="statistic_v2_title_tasks">Задачи</string>
     <string name="statistic_v2_title_coins">Монеты</string>
