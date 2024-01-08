@@ -2193,7 +2193,7 @@
     <string name="main_switch_disabled">Глобально отключено</string>
     <string name="inventory_return_multiply">Вы уверены, что хотите вернуть следующие предметы: </string>
     <string name="hint_achievement_subcategory">Подкатегории могут использоваться для классификации различных типов достижений.\nДостижения и подкатегории можно перетаскивать для сортировки.\nДостижения в подкатегориях принадлежат данной категории.\n\nНажмите на подкатегории, чтобы свернуть или развернуть.</string>
-    <string name="backup_selection_failed">Failed to read/write file: %1$s.\nThis may be due to a path permission issue, try another path (eg root).</string>
+    <string name="backup_selection_failed">Не удалось прочитать/записать файл: %1$s.\nВозможно, проблема с разрешениями на путь. Попробуйте другой путь</string>
     <string name="empty_hint_task_item_select_dialog">Здесь пусто...</string>
     <string name="setting_main_compatibility_issues">Compatibility issues</string>
     <string name="setting_main_compatibility_issues_message">Из-за ограничений системы на разрешения приложений, работающих в фоновом режиме, в состоянии по умолчанию <b>такие функции, как напоминания о задачах, обратный отсчет времени Pomodoro, обратный отсчет времени выполнения элементов и виджеты приложений, могут не работать.</b>\n\nПожалуйста, обратитесь к документации для настройки системы, чтобы эти функции можно было использовать нормально.</string>
