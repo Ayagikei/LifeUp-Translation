@@ -2397,10 +2397,10 @@
     <string name="statistic_v2_title_pomodoro">Помодоро</string>
     <string name="statistic_v2_pomodoro_focus_time_ratio">Соотношение времени фокусировки</string>
     <string name="btn_check_statistics_v2">Нажмите, чтобы просмотреть новую статистику</string>
-    <string name="statistic_v2_time_display_minutes">%1$smin</string>
-    <string name="statistic_v2_time_display_hours">%1$sh %2$sm</string>
-    <string name="statistic_v2_time_display_days">%1$sd %2$sh %3$sm</string>
-    <string name="statistic_v2_times">%1$d times</string>
+    <string name="statistic_v2_time_display_minutes">%1$s мин</string>
+    <string name="statistic_v2_time_display_hours">%1$s ч %2$s мин</string>
+    <string name="statistic_v2_time_display_days">%1$s д %2$s ч %3$s мин</string>
+    <string name="statistic_v2_times">%1$d раз</string>
     <string name="statistic_v2_lifeup_times">The $times day of LifeUp’s encounter with you</string>
     <string name="statistics_v2_timerange_day">Д</string>
     <string name="statistics_v2_timerange_week">Н</string>
