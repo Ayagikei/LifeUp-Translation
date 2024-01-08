@@ -2347,7 +2347,7 @@
     <string name="edit_level_success">Уровень успешно отредактирован.</string>
     <string name="activity_name_add_level">Добавить уровень</string>
     <string name="activity_name_edit_level">Редактировать уровень</string>
-    <string name="delete_confirm_level_define">Are you sure you want to delete the level definition?\n\nIf you delete a part of the level definition in the middle, LifeUp will automatically reassemble and fill in the broken part.</string>
+    <string name="delete_confirm_level_define">Вы уверены, что хотите удалить определение уровня?\n\nЕсли вы удаляете часть определения уровня посередине, LifeUp автоматически соберет и заполнит сломанную часть.</string>
     <string name="settings_advance_custom_level">Customize level</string>
     <string name="settings_advance_custom_level_desc">(Experimental feature) Set your own level system to suit your growth system</string>
     <string name="lab_lifeup_cloud_desktop">LifeUp-Desktop</string>
