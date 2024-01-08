@@ -2396,7 +2396,7 @@
     <string name="statistic_v2_title_attributes">Атрибуты</string>
     <string name="statistic_v2_title_pomodoro">Помодоро</string>
     <string name="statistic_v2_pomodoro_focus_time_ratio">Соотношение времени фокусировки</string>
-    <string name="btn_check_statistics_v2">Click to view new statistics</string>
+    <string name="btn_check_statistics_v2">Нажмите, чтобы просмотреть новую статистику</string>
     <string name="statistic_v2_time_display_minutes">%1$smin</string>
     <string name="statistic_v2_time_display_hours">%1$sh %2$sm</string>
     <string name="statistic_v2_time_display_days">%1$sd %2$sh %3$sm</string>
