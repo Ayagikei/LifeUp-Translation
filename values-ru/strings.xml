@@ -1762,7 +1762,7 @@
     <string name="tag_start_v2_with_time">Начнется: %1$s</string>
     <string name="tag_start_v2_with_date">Начнется: %1$s</string>
     <!-- today/tomorrow/yesterday -->
-    <string name="tag_start_v2_relative_special">Начинается %1$s</string>
+    <string name="tag_start_v2_relative_special">Начнется через %1$s</string>
     <string name="relative_time_later_v2">%1$d дней</string>
     <string name="statistics_complete_count">Завершено: %1$d</string>
     <string name="shop_statistics_this_year">В этом году</string>
