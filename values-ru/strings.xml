@@ -2300,7 +2300,7 @@
     <string name="backup_import_data_from_file_system">Импорт данных</string>
     <string name="backup_switch_support_file_system_open_file">Поддержка файловой системы для открытия файлов резервных копий</string>
     <string name="backup_switch_support_file_system_open_file_desc">После включения этой опции, вы можете использовать LifeUp для импорта резервных данных непосредственно в файловом менеджере.\n\nНо из-за ограничений Android, эта опция будет регистрировать все типы файлов.</string>
-    <string name="team_add_choose_local_photo_document_skip_crop">Local Photo (Skip crop, for .gif)</string>
+    <string name="team_add_choose_local_photo_document_skip_crop">Локальное фото (Пропустить обрезку, для .gif)</string>
     <string name="task_completed_status">Завершенный</string>
     <string name="custom_sound_effect_give_up_task">бросить задачу</string>
     <string name="upload_avatar_hint">To ensure the proper maintenance of the app, please do not upload any illegal images (violent, pornographic or political) in online mode.\nOtherwise we may restrict your access to the community.</string>
