@@ -2441,7 +2441,7 @@
     <string name="statistic_v2_title_achievements">Достижения</string>
     <string name="statistic_v2_subtitle_task_completed_list">Завершенные задачи</string>
     <string name="statistic_v2_subtitle_achievement_unlock_list">Разблокированные достижения</string>
-    <string name="statistic_v2_time_range_hint">1. Swipe left and right to select more time\n2. LifeUp’s usage days only count the days when tasks are actually completed\n3. [Long press] the [blank space of the title] of the statistics card below to share it!</string>
+    <string name="statistic_v2_time_range_hint">1. Проведите влево и вправо для выбора временного периода\n2. Дни использования LifeUp учитывают только те, когда выполнены задачи\n3. [Долгое нажатие] на [пустом месте заголовка] ниже для общего доступа (поделиться).</string>
     <string name="statistic_v2_hint_exclude_purchases">purchase excluded</string>
     <string name="dialog_share_title">Поделиться</string>
     <string name="share_title_app_name">LifeUp</string>
