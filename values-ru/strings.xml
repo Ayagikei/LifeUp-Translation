@@ -2385,10 +2385,10 @@
     <string name="app_exp_changed_widget_description">Виджет, отображающий изменения в ваших очках опыта</string>
     <string name="exp_changed_app_widget_desc">один шаг за раз</string>
     <string name="photo_permission_title">Разрешение</string>
-    <string name="photo_permission_desc">LifeUp is going to open the system’s album/storage framework, so you can select photo files.
-        \n\nTo protect your privacy, LifeUp does not need to apply for storage permissions for all files, only the minimum permission requests.
-        \n\n【Only the files you select】will be accessed and copied by LifeUp to the application.
-        \n\nDo you understand and agree to let us continue?</string>
+    <string name="photo_permission_desc">LifeUp собирается открыть системную библиотеку/хранилище, чтобы вы могли выбрать файлы с фотографиями.
+        \n\nДля защиты вашей конфиденциальности LifeUp не требуется разрешение на доступ ко всем файлам, только минимальные запросы на разрешение.
+        \n\nLifeUp будет получать доступ и копировать только к выбранным вами файлам.
+        \n\nС Вашего разрешения, мы продолжим</string>
     <string name="camera_permission_title">Camera Permission</string>
     <string name="camera_permission_desc">LifeUp is about to launch the system camera for photography.\n\n【Only the file you choose at last】will be accessed and copied to the LifeUp application.\n\nDo you understand and agree to let us continue?</string>
     <string name="statistic_v2_title_tasks">Задачи</string>
