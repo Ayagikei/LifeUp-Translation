@@ -1790,7 +1790,7 @@
     <string name="me_feelings_count">Чувства</string>
     <string name="tasks_statistic_current_streak">Подряд</string>
     <string name="shop_item_effect_countdown_action_end">Завершить</string>
-    <string name="shop_item_effect_countdown_action_pause">Пауза (нужно исп. еще 1 предмет для продолжения)</string>
+    <string name="shop_item_effect_countdown_action_pause">Отложить</string>
     <string name="restart_success">Успешно перезапущено</string>
     <string name="add_to_do_taptarget_deadline_specify_deadline_time_tominutes">Указывайте время в минутах</string>
     <string name="hint_shop_item_timer_hint_with_permission">Отсчет времени был начат, вы можете проверить статус отсчета в панели уведомлений и изменить его.</string>
