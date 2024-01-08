@@ -2373,7 +2373,7 @@
     <string name="login_method_wechat">Wechat</string>
     <string name="sound_pool_play_sound_error">Не удалось воспроизвести звуковой эффект.\nПожалуйста, проверьте файл звукового эффекта и уровень громкости на вашем устройстве.</string>
     <string name="shop_select_list_dialog_show_hidden">показать скрытый список</string>
-    <string name="shop_select_list_dialog_hide_in_shop">hide in shop</string>
+    <string name="shop_select_list_dialog_hide_in_shop">скрыть в магазине</string>
     <string name="shop_select_list_dialog_hide_in_inventory">hide in inventory</string>
     <string name="shop_select_list_dialog_unhide">unhide</string>
     <string name="statistics_coin_exclude_purchases">exclude purchases</string>
