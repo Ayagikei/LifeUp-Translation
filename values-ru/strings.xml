@@ -2243,7 +2243,7 @@
     <string name="edit_to_do_less_than_current_completions">меньше, чем в настоящее время (%1$d)</string>
     <string name="pomodoro_record_start_time">Начинать</string>
     <string name="pomodoro_record_end_time">Конец</string>
-    <string name="pomodoro_record_start_time_with_time">Start: %1$s</string>
+    <string name="pomodoro_record_start_time_with_time">Старт: %1$s</string>
     <string name="pomodoro_record_end_time_with_time">End: %1$s</string>
     <string name="pomodoro_record_bind_tasks">Associated tasks (optional)</string>
     <string name="pomodoro_record_dialog_input_focus_time">Focus time (in minutes)</string>
