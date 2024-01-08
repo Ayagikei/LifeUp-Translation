@@ -2414,9 +2414,9 @@
     <string name="statistics_v2_timerange_all">Все</string>
     <string name="statistic_v2_task_completed_average">$number/day</string>
     <string name="statistic_v2_title_feelings">Чувства</string>
-    <string name="statistic_v2_tomatoes_gain_average_per_day">$number/day</string>
-    <string name="statistic_v2_pomodoro_focus_time_average_per_day">$number/day</string>
-    <string name="statistic_v2_coin_average_per_day">$number/day</string>
+    <string name="statistic_v2_tomatoes_gain_average_per_day">$number/день</string>
+    <string name="statistic_v2_pomodoro_focus_time_average_per_day">$number/день</string>
+    <string name="statistic_v2_coin_average_per_day">$number/день</string>
     <string name="statistic_v2_subtitle_atm_interest">Проценты по Банкоматам</string>
     <string name="statistic_v2_subtitle_coin_changes">Coin changes</string>
     <string name="statistic_v2_subtitle_coin_change_avg_day">Average daily coin changes</string>
