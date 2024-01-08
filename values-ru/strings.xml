@@ -2356,7 +2356,7 @@
     <string name="btn_allow">Разрешить</string>
     <string name="btn_deny">Запретить</string>
     <string name="settings_widget_hint_add_widget">Примечание: Приведенная выше настройка относится только к виджету списка \n\n Другие виджеты состояния будут автоматически подстраиваться под темный режим системы.</string>
-    <string name="hint_conflict_select">How to choose?</string>
+    <string name="hint_conflict_select">Как выбрать?</string>
     <string name="hint_conflict_select_desc">If you have uploaded newer data on other devices, please select [Download].\n\nIf you have not used other devices and upload new data, just select [Upload].</string>
     <string name="hint_conflict_why">Why conflicts arise?</string>
     <string name="hint_conflict_why_desc">1. You have uploaded inconsistent data using other devices.\n\n2. When you only use one device, \"LifeUp\" uploaded the backup successfully, but failed to receive a successful response, possibly due to network fluctuations, process interruptions, etc. At this time, it may be considered that the remote data is inconsistent.\nThis is currently unavoidable, but the probability of occurrence is low.</string>
