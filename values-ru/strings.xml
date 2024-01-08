@@ -2327,7 +2327,7 @@
         <item quantity="many">%d дней назад</item>
     </plurals>
     <string name="add_coin_widget">Добавить виджет</string>
-    <string name="app_coin_widget_description">Widget showing how many coins you currently have available</string>
+    <string name="app_coin_widget_description">Виджет, показывающий количество доступных монет</string>
     <string name="app_coin_widget_large_line_1">available</string>
     <string name="app_coin_widget_large_line_2">монеты</string>
     <string name="add_widget">Add widget</string>
