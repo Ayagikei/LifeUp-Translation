@@ -2363,7 +2363,7 @@
     <string name="add_task_no_deadline_repeat_alert">Отсутствие срока означает, что повторяющаяся задача не будет автоматически просрочена и повторена. Вам нужно будет вручную завершить или отказаться от нее, чтобы перейти к следующему циклу.\n\nПожалуйста, подтвердите, соответствует ли это вашим требованиям.</string>
     <string name="add_task_no_deadline_repeat_alert_title">Повторяющиеся задачи без дедлайна</string>
     <string name="fold_hint_when_list_is_unfold">Текущий список развернут: Показывает все незапущенные и замороженные задачи.\n\nЧтобы свернуть список и увидеть эффекты этих опций, нажмите на символ треугольника внизу списка.</string>
-    <string name="login_v2_sign_in_with_wechat">Sign in with Wechat</string>
+    <string name="login_v2_sign_in_with_wechat">Войти через Wechat</string>
     <string name="lifeup_failed_to_start_timer_due_to_battery">LifeUp failed to start Pomodoro due to background battery optimization limitations.</string>
     <string name="timer_preference_auto_summary">(Android 12 и выше) Для автоматического запуска таймера необходимо отключить оптимизацию батареи в фоновом режиме для LifeUP.</string>
     <string name="shop_add_item_hint_when_hide_unpurchaseable">You have enabled [Hide disabled purchase items], so the item may not appear in the list.</string>
