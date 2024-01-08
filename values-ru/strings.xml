@@ -2240,7 +2240,7 @@
     <string name="title_add_pomodoro_record">Запись времени</string>
     <string name="dialog_shop_count_down_title">Таймер</string>
     <string name="dialog_shop_count_down_empty_desc">Вы можете использовать действие \"Отложить\" для приостановки обратного отсчета для товаров и хранения их здесь.</string>
-    <string name="edit_to_do_less_than_current_completions">less than current completions (%1$d)</string>
+    <string name="edit_to_do_less_than_current_completions">меньше, чем в настоящее время (%1$d)</string>
     <string name="pomodoro_record_start_time">Начинать</string>
     <string name="pomodoro_record_end_time">Конец</string>
     <string name="pomodoro_record_start_time_with_time">Start: %1$s</string>
