@@ -2427,7 +2427,7 @@
     <string name="statistic_v2_subtitle_focus_time">Время фокусировки</string>
     <string name="statistic_v2_subtitle_focus_time_per_day">Среднедневное время фокусировки</string>
     <string name="statistic_v2_subtitle_focus_time_list">Список времени фокусировки</string>
-    <string name="statistic_v2_subtitle_item_changes">Item changes</string>
+    <string name="statistic_v2_subtitle_item_changes">Изменения элементов</string>
     <string name="statistic_v2_item_filter_button_purchase">Купить</string>
     <string name="statistic_v2_item_filter_button_use">Использовать</string>
     <string name="statistic_v2_subtitle_task_completes">No. of tasks completed</string>
