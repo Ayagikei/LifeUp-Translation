@@ -2245,7 +2245,7 @@
     <string name="pomodoro_record_end_time">Конец</string>
     <string name="pomodoro_record_start_time_with_time">Старт: %1$s</string>
     <string name="pomodoro_record_end_time_with_time">Финиш: %1$s</string>
-    <string name="pomodoro_record_bind_tasks">Associated tasks (optional)</string>
+    <string name="pomodoro_record_bind_tasks">Ассоциативные задачи (по желанию)</string>
     <string name="pomodoro_record_dialog_input_focus_time">Focus time (in minutes)</string>
     <string name="add_pomodoro_record_duration_too_short">The duration of the recording needs to be at least 1 minute</string>
     <string name="lab_developer_mode_title">Developer mode</string>
