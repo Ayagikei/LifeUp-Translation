@@ -2263,7 +2263,7 @@
     <string name="setting_widget_show_popup">Показывать всплывающие окна</string>
     <string name="setting_widget_show_popup_desc">При завершении задания будет отображаться всплывающее окно с наградами и впечатлениями.\nЕсли вы используете систему MIUI, вам необходимо вручную авторизовать разрешение \"background display interface\".</string>
     <string name="condition_external_api">Для разблокировки требуется вызов внешнего API</string>
-    <string name="condition_external_api_id_invisible">id is visible after creation</string>
+    <string name="condition_external_api_id_invisible">id становится видимым после создания</string>
     <string name="condition_external_api_desc">(%1$s) External API call required to unlock</string>
     <string name="add_shop_item_effect_url_use_webview">Use build-in WebView</string>
     <string name="import_shop_item_with_link_effect">Using this item, you may open other web pages or applications, please check carefully.</string>
