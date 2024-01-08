@@ -2249,7 +2249,7 @@
     <string name="pomodoro_record_dialog_input_focus_time">Время фокусировки (в минутах)</string>
     <string name="add_pomodoro_record_duration_too_short">Продолжительность записи должна быть не менее 1 минуты</string>
     <string name="lab_developer_mode_title">Режим разработчика</string>
-    <string name="lab_developer_mode_desc"><![CDATA[After it is turned on, you can view the original id of the data in the app.<br/>This can be used to call APIs, such as to achieve automatic price increases after using an item.<br/>For more information, <a href="https://docs.lifeupapp.fun/en/#/guide/api">please check the documentation.</a>]]></string>
+    <string name="lab_developer_mode_desc"><![CDATA[После включения режима разработчика, вы сможете просматривать оригинальный идентификатор данных в приложении.<br/>Это можно использовать для вызова API, например, для автоматического увеличения цены после использования предмета.<br/>Дополнительную информацию можно найти в <a href="https://docs.lifeupapp.fun/en/#/guide/api">документации</a>.]]></string>
     <string name="api_atm_rates_updated">ATM daily interest rates have been adjusted to %1$s\%</string>
     <string name="api_credit_rates_updated">Credit daily rates have been adjusted to %1$s\%</string>
     <string name="api_reward_coin_success">You got %1$d coins for \"%2$s\"</string>
