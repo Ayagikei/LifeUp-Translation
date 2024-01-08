@@ -2253,7 +2253,7 @@
     <string name="api_atm_rates_updated">Ежедневные процентные ставки по банкоматам были скорректированы до %1$s\%</string>
     <string name="api_credit_rates_updated">%1$s\% - изменены дневные процентные ставки по кредитам</string>
     <string name="api_reward_coin_success">Вы получили %1$d монет за \"%2$s\"</string>
-    <string name="api_required_param_miss">Required parameter is missing: %1$s</string>
+    <string name="api_required_param_miss">Необходимый параметр отсутствует: %1$s</string>
     <string name="api_format_error">The call is malformed, please check the documentation.</string>
     <string name="api_complete_task_success">Successfully completed \"%1$s\"</string>
     <string name="api_line_of_credit_updated">Line of credit have been adjusted to %1$s</string>
