@@ -2338,7 +2338,7 @@
     <string name="level_empty_text">Уровень не определен.</string>
     <string name="coin_changed_reason_api">Изменен баланс банкомата через вызов API</string>
     <string name="app_coin_goal_widget_description">Виджет, отображающий процент достижения цели по количеству золотых монет (поддерживает пользовательские цели)</string>
-    <string name="app_exp_widget_description">A widget that shows the status of your attributes</string>
+    <string name="app_exp_widget_description">Виджет, который показывает статус ваших атрибутов</string>
     <string name="custom_level_start_level">Start level</string>
     <string name="custom_level_end_level">End level (included)</string>
     <string name="custom_level_exp_required">Exp required for each level</string>
