@@ -2439,7 +2439,7 @@
     <string name="btn_share">Поделиться</string>
     <string name="statistic_v2_item_filter_button_boxes">Ящики</string>
     <string name="statistic_v2_title_achievements">Достижения</string>
-    <string name="statistic_v2_subtitle_task_completed_list">Completed tasks</string>
+    <string name="statistic_v2_subtitle_task_completed_list">Завершенные задачи</string>
     <string name="statistic_v2_subtitle_achievement_unlock_list">Unlocked achievements</string>
     <string name="statistic_v2_time_range_hint">1. Swipe left and right to select more time\n2. LifeUp’s usage days only count the days when tasks are actually completed\n3. [Long press] the [blank space of the title] of the statistics card below to share it!</string>
     <string name="statistic_v2_hint_exclude_purchases">purchase excluded</string>
