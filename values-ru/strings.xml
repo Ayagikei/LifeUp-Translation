@@ -2452,9 +2452,9 @@
     <string name="btn_download_via_browser">скачать через браузер</string>
     <string name="permission_install_need">Предоставьте разрешение на установку</string>
     <string name="permission_install_need_desc">При первой загрузке и установке обновления приложения вам необходимо предоставить нам разрешение на его установку.\n\nМы будем устанавливать или обновлять приложения для вас только после получения вашего разрешения.</string>
-    <string name="inapp_downloading">Downloading...</string>
-    <string name="inapp_download_failed">Download failed: %1$s</string>
-    <string name="dialog_permission_get_notified">Get notified!</string>
+    <string name="inapp_downloading">Загрузка...</string>
+    <string name="inapp_download_failed">Ошибка загрузки: %1$s</string>
+    <string name="dialog_permission_get_notified">Будьте в курсе!</string>
     <string name="dialog_permission_get_notified_desc">A large number of features in LifeUp rely on notifications. For example, the default task notification reminder, Pomodoro timing, and end notification.\n\nPlease allow LifeUp to receive notification permissions for the best experience.\n\nAnd LifeUp divides reasonable notification channels. If you find a certain type of notification annoying, you can disable them for channels in the settings later.\n\nFor example: disable notifications for level upgrades and downgrades, but allow task notifications and Pomodoro notifications.</string>
     <string name="permissison_notification_go_to_settings">Please enable \"Notifications\" permission in system settings.</string>
     <string name="dialog_title_confirm_confirm">Подтвердить</string>
