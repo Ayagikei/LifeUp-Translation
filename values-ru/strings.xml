@@ -2421,7 +2421,7 @@
     <string name="statistic_v2_subtitle_coin_changes">Изменения в монетах</string>
     <string name="statistic_v2_subtitle_coin_change_avg_day">Среднедневные изменения в монетах</string>
     <string name="statistic_v2_subtitle_coin_purchase_consume">Монеты, потраченные на покупки</string>
-    <string name="statistic_v2_subtitle_exp_changes">Experience changes</string>
+    <string name="statistic_v2_subtitle_exp_changes">Изменения опыта</string>
     <string name="statistic_v2_subtitle_feelings_count">Feelings No.</string>
     <string name="statistic_v2_subtitle_feelings_chars">Characters No.</string>
     <string name="statistic_v2_subtitle_focus_time">Focus time</string>
