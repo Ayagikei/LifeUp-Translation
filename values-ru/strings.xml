@@ -2284,7 +2284,7 @@
     <string name="add_to_do_start_time_hint_title">Вы хотите сбросить время начала?</string>
     <string name="add_to_do_start_time_hint_message">При указании времени начала вы изменили такие параметры, как частота, продолжительность и т.д., из-за чего задание может длиться не так долго, как вы ожидали.\n\nХотите ли вы изменить [Время начала] на автоподбор частоты повторения?</string>
     <string name="btn_reset">Сбросить</string>
-    <string name="add_to_do_days_exceed_repeat_alert_hint">The duration (start-deadline) of the task is greater than the repetition frequency, please check if this is as expected.</string>
+    <string name="add_to_do_days_exceed_repeat_alert_hint">Продолжительность задачи (с начала до дедлайна) больше частоты повторения, пожалуйста, проверьте, соответствует ли это вашим ожиданиям.</string>
     <string name="starter_task_switch_list">View [Example] list</string>
     <string name="starter_task_switch_list_desc">We\'ve created some sample to-do and habit tasks for you.\nYou can switch to the [Example] list at the top of this page.\n\nIf you no longer need them, you can also long press to delete them.</string>
     <string name="hint_select_image_from_app_widget_not_available">When completing a task from a widget, selecting an image is currently not supported.</string>
