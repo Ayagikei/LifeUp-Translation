@@ -1758,9 +1758,9 @@
     <!-- today/tomorrow/yesterday -->
     <string name="tag_deadline_v2_relative_special">Срок %1$s</string>
     <!-- in xx days -->
-    <string name="tag_start_v2_relative">Начинается в %1$s</string>
-    <string name="tag_start_v2_with_time">Начинается в %1$s</string>
-    <string name="tag_start_v2_with_date">Начинается на %1$s</string>
+    <string name="tag_start_v2_relative">Начнется через %1$s</string>
+    <string name="tag_start_v2_with_time">Начнется: %1$s</string>
+    <string name="tag_start_v2_with_date">Начнется: %1$s</string>
     <!-- today/tomorrow/yesterday -->
     <string name="tag_start_v2_relative_special">Начинается %1$s</string>
     <string name="relative_time_later_v2">%1$d дней</string>
