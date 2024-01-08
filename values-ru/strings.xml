@@ -2503,7 +2503,7 @@
     <string name="edit_user_achievement_failed">Не удалось отредактировать достижение, пожалуйста, попробуйте снова...</string>
     <string name="add_achievement_secret_achievement">Это секретное достижение (детали скрыты до разблокировки)</string>
     <string name="achievement_secret_desc">Продолжайте исследовать LifeUp, возможно, вы разблокируете это достижение....</string>
-    <string name="dialog_title_confirm_edit_secret_achievement">Edit Secret Achievements</string>
+    <string name="dialog_title_confirm_edit_secret_achievement">Редактировать секретные достижения</string>
     <string name="dialog_desc_confirm_edit_secret_achievement">This is a secret achievement.\n\nAre you sure you want to continue editing it?</string>
     <string name="override">Override</string>
     <string name="override_task_template">Override</string>
