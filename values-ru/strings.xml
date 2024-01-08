@@ -2378,7 +2378,7 @@
     <string name="shop_select_list_dialog_unhide">показать</string>
     <string name="statistics_coin_exclude_purchases">исключить покупки</string>
     <string name="default_name_doing_list">Выполняется</string>
-    <string name="title_shop_app_widget">Shop - %1$s</string>
+    <string name="title_shop_app_widget">Магазин - %1$s</string>
     <string name="app_shop_widget_description">A widget that shows your shop items</string>
     <string name="team_sub_tasks_title">Subtasks</string>
     <string name="exp_changed_app_widget">EXP Changes</string>
