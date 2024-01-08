@@ -2401,7 +2401,7 @@
     <string name="statistic_v2_time_display_hours">%1$s ч %2$s мин</string>
     <string name="statistic_v2_time_display_days">%1$s д %2$s ч %3$s мин</string>
     <string name="statistic_v2_times">%1$d раз</string>
-    <string name="statistic_v2_lifeup_times">The $times day of LifeUp’s encounter with you</string>
+    <string name="statistic_v2_lifeup_times">День $times с LifeUp</string>
     <string name="statistics_v2_timerange_day">Д</string>
     <string name="statistics_v2_timerange_week">Н</string>
     <string name="statistics_v2_timerange_month">М</string>
