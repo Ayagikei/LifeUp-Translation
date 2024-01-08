@@ -2192,7 +2192,7 @@
     <string name="toast_ring_switch_in_advance">Необходимо включить звук или вибрацию на странице [Настройки] - [Пользовательские настройки]</string>
     <string name="main_switch_disabled">Глобально отключено</string>
     <string name="inventory_return_multiply">Вы уверены, что хотите вернуть следующие предметы: </string>
-    <string name="hint_achievement_subcategory">Subcategories can be used to classify different types of achievements.\nAchievements and subcategories can be dragged for sorting.\nAchievements under subcategories belong to this category.\n\nClick on subcategories to fold or expand.</string>
+    <string name="hint_achievement_subcategory">Подкатегории могут использоваться для классификации различных типов достижений.\nДостижения и подкатегории можно перетаскивать для сортировки.\nДостижения в подкатегориях принадлежат данной категории.\n\nНажмите на подкатегории, чтобы свернуть или развернуть.</string>
     <string name="backup_selection_failed">Failed to read/write file: %1$s.\nThis may be due to a path permission issue, try another path (eg root).</string>
     <string name="empty_hint_task_item_select_dialog">Здесь пусто...</string>
     <string name="setting_main_compatibility_issues">Compatibility issues</string>
