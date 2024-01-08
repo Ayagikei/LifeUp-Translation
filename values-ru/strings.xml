@@ -2278,7 +2278,7 @@
     <string name="network_team_task_not_sign_time_message">Время выполнения командного задания не соответствует норме, список обновляется...</string>
     <string name="lab_developer_mode_display_id">Идентификатор данных</string>
     <string name="lab_developer_mode_display_broadcast_event">Broadcast события\n(для интеграции с Tasker)</string>
-    <string name="to_do_detail_target_times_v2_progress">Needs to be completed %1$d times, and the %2$d times is in progress.</string>
+    <string name="to_do_detail_target_times_v2_progress">Нужно завершить %1$d раз, и %2$d раз в процессе выполнения.</string>
     <string name="to_do_detail_target_times_v2_completed">Needs to be completed %1$d times, and the %2$d times is already completed.</string>
     <string name="item_countdown_failed_already_exist">Please [end] or [add up] the current countdown before proceeding</string>
     <string name="add_to_do_start_time_hint_title">Do you want to reset the start time?</string>
