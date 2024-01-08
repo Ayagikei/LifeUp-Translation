@@ -2448,7 +2448,7 @@
     <string name="share_desc_app">Приложение для списка дел с игровым подходом</string>
     <string name="dialog_select_dates_title">Выберите даты</string>
     <string name="statistics_v2_empty">Статистика отсутствует за этот период</string>
-    <string name="app_widget_item_not_available_for_purchase">This item is not available for purchase</string>
+    <string name="app_widget_item_not_available_for_purchase">Этот элемент недоступен для покупки</string>
     <string name="btn_download_via_browser">download via browser</string>
     <string name="permission_install_need">Grant permission to install</string>
     <string name="permission_install_need_desc">The first time you download and install an update in the app, you need to grant us permission to install the app.\n\nWe will only install or update apps for you after obtaining your authorization.</string>
