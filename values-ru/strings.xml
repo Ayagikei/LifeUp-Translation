@@ -2490,7 +2490,7 @@
     <string name="history_filter_state">Статус задачи</string>
     <string name="history_filter_name">Название</string>
     <string name="history_filter_dialog_title">Фильтр истории</string>
-    <string name="history_filter_name_dialog_title">Search History</string>
+    <string name="history_filter_name_dialog_title">История поиска</string>
     <string name="history_filter_name_dialog_hint">Название предмета</string>
     <string name="to_do_detail_statistics_repeat_chart_type_start_date">Дата начала</string>
     <string name="to_do_detail_statistics_repeat_chart_type_deadline">Дата крайнего срока</string>
