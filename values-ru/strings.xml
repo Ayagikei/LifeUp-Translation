@@ -2384,7 +2384,7 @@
     <string name="exp_changed_app_widget">Изменения опыта</string>
     <string name="app_exp_changed_widget_description">Виджет, отображающий изменения в ваших очках опыта</string>
     <string name="exp_changed_app_widget_desc">один шаг за раз</string>
-    <string name="photo_permission_title">Permission</string>
+    <string name="photo_permission_title">Разрешение</string>
     <string name="photo_permission_desc">LifeUp is going to open the system’s album/storage framework, so you can select photo files.
         \n\nTo protect your privacy, LifeUp does not need to apply for storage permissions for all files, only the minimum permission requests.
         \n\n【Only the files you select】will be accessed and copied by LifeUp to the application.
