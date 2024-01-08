@@ -2276,7 +2276,7 @@
     <string name="error_share_item_exceeds_server_limit">Информация о товаре превышает лимит сервера, уменьшите эффект использования и попробуйте поделиться снова.</string>
     <string name="api_unsupported_error">Не удалось обработать API [%1$s] проверьте входные данные и версию приложения</string>
     <string name="network_team_task_not_sign_time_message">Время выполнения командного задания не соответствует норме, список обновляется...</string>
-    <string name="lab_developer_mode_display_id">Data Id</string>
+    <string name="lab_developer_mode_display_id">Идентификатор данных</string>
     <string name="lab_developer_mode_display_broadcast_event">Broadcast events\n(for integration with Tasker)</string>
     <string name="to_do_detail_target_times_v2_progress">Needs to be completed %1$d times, and the %2$d times is in progress.</string>
     <string name="to_do_detail_target_times_v2_completed">Needs to be completed %1$d times, and the %2$d times is already completed.</string>
