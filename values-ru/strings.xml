@@ -2303,7 +2303,7 @@
     <string name="team_add_choose_local_photo_document_skip_crop">Локальное фото (Пропустить обрезку, для .gif)</string>
     <string name="task_completed_status">Завершенный</string>
     <string name="custom_sound_effect_give_up_task">бросить задачу</string>
-    <string name="upload_avatar_hint">To ensure the proper maintenance of the app, please do not upload any illegal images (violent, pornographic or political) in online mode.\nOtherwise we may restrict your access to the community.</string>
+    <string name="upload_avatar_hint">В целях соблюдения правил и поддержания надлежащей работы приложения, запрещено загружать незаконные изображения (включая насильственные, порнографические или политические) в онлайн-режиме. \nНарушение этого правила может привести к ограничению вашего доступа к сообществу.</string>
     <string name="to_do_item_detail_penalty_text">Penalty: Exp(%1$s×), Coin(%2$s×)</string>
     <!-- date time picker -->
     <string name="md_previous">НАЗАД</string>
