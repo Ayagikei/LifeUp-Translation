@@ -2312,7 +2312,7 @@
     <string name="add_user_achievement_relock">Снова закрыть достижение</string>
     <string name="lab_lifeup_cloud_title">LifeUp Cloud (инструменты HTTP API)</string>
     <string name="lab_lifeup_cloud_desc">Расширенный инструмент [разработка], позволяющий вызывать API LifeUp через HTTP-запросы на компьютерах или других устройствах в локальной сети.</string>
-    <string name="lab_lifeup_cloud_launch">Launch</string>
+    <string name="lab_lifeup_cloud_launch">Запуск</string>
     <string name="timer_preference_auto_title">Авто</string>
     <string name="auto_start_work_title">Auto start works</string>
     <string name="auto_start_break_title">Auto start breaks</string>
