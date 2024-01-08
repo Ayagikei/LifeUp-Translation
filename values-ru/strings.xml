@@ -2308,7 +2308,7 @@
     <!-- date time picker -->
     <string name="md_previous">НАЗАД</string>
     <string name="md_next">ДАЛЕЕ</string>
-    <string name="md_all_day">All day</string>
+    <string name="md_all_day">Весь день</string>
     <string name="add_user_achievement_relock">Relock the achievement</string>
     <string name="lab_lifeup_cloud_title">LifeUp Cloud (HTTP API Tools)</string>
     <string name="lab_lifeup_cloud_desc">An extended [development] tool that enables you to call LifeUp APIs through HTTP requests on computers or other devices in the LAN.</string>
