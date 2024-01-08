@@ -2352,7 +2352,7 @@
     <string name="settings_advance_custom_level_desc">(Экспериментальная функция) Установка собственной системы уровней в соответствии с вашей системой роста</string>
     <string name="lab_lifeup_cloud_desktop">LifeUp-Desktop</string>
     <string name="api_permission_request_dialog_title">Запрос разрешения</string>
-    <string name="api_permission_request_dialog_message">\"%1$s (%2$s)\" request to access the data of LifeUp.</string>
+    <string name="api_permission_request_dialog_message">Запрос \"%1$s (%2$s)\" на доступ к данным LifeUp.</string>
     <string name="btn_allow">Allow</string>
     <string name="btn_deny">Deny</string>
     <string name="settings_widget_hint_add_widget">Note: The above configuration only applies to the \"todo\" list widget.\n\nOther status widgets will automatically adjust to follow the system dark mode.</string>
