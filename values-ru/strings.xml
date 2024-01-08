@@ -2513,6 +2513,6 @@
     <string name="rename_task_template">Переименовать</string>
     <string name="add_task_template">Создать шаблон</string>
     <string name="add_task_template_desc">Сохраните текущие настройки задачи в виде шаблона.</string>
-    <string name="dialog_title_task_template">Task Templates</string>
+    <string name="dialog_title_task_template">Шаблоны задач</string>
     <string name="dialog_save_new_task_template">Save as a new template</string>
 </resources>
