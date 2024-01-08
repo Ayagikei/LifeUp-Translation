@@ -2504,7 +2504,7 @@
     <string name="add_achievement_secret_achievement">Это секретное достижение (детали скрыты до разблокировки)</string>
     <string name="achievement_secret_desc">Продолжайте исследовать LifeUp, возможно, вы разблокируете это достижение....</string>
     <string name="dialog_title_confirm_edit_secret_achievement">Редактировать секретные достижения</string>
-    <string name="dialog_desc_confirm_edit_secret_achievement">This is a secret achievement.\n\nAre you sure you want to continue editing it?</string>
+    <string name="dialog_desc_confirm_edit_secret_achievement">Это секретное достижение.\n\nВы уверены, что хотите продолжить его редактирование?</string>
     <string name="override">Override</string>
     <string name="override_task_template">Override</string>
     <string name="override_task_template_message">Are you sure you want to override this template?</string>
