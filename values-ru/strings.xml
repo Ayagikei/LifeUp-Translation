@@ -2474,7 +2474,7 @@
     <string name="login_prompt_login_desc">Ваши данные по-прежнему будут храниться офлайн.\nКроме того, вы можете войти с помощью учетной записи Google или Facebook, чтобы получить доступ к модулю Сообщество, где вы сможете просматривать и публиковать команды, награды за выполнение задач, случайные задачи, общие чувства завершения и многое другое.</string>
     <string name="login_prompt_offline_mode_title">Офлайн-режим</string>
     <string name="login_prompt_offline_mode_desc">Наслаждайтесь полным опытом в офлайн-режиме без входа в систему.\n\nВы по-прежнему сможете использовать все функции LifeUp, за исключением модуля Сообщество.\n\nМодуль Сообщество на главной странице будет заменен модулем Достижения. Вы также можете настроить другие модули в настройках позже.</string>
-    <string name="profile_introduction">Introduction</string>
+    <string name="profile_introduction">Введение</string>
     <string name="profile_offline_hint">You are creating or editing your character’s [Offline Profile].\n\nThe content and images here will be saved offline.\n\nWhen you are done editing, you can click the check mark in the upper right corner to save the changes.</string>
     <string name="statistic_v2_title_other">Другое</string>
     <string name="settings_display_material_you_dynamic_color">Цвета динамической темы Material You</string>
