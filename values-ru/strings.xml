@@ -2297,7 +2297,7 @@
     <string name="hint_pomodoro_config_hint">Настройка совместимости</string>
     <string name="hint_pomodoro_config_hint_desc">Возможно, вы не настроили совместимость, позволяющую LifeUp работать в фоновом режиме.\n\nЭто может привести к тому, что обратный отсчет Pomodoro в LifeUp\ будет работать некорректно в фоновом режиме или при заблокированном экране (LifeUp будет остановлен или заморожен системой). Например, Pomodoro не зазвонит или не завершится нормально.\n\nЕсли вы столкнулись с этими проблемами, обратитесь к разделу [Настройки] - [Настройка совместимости].</string>
     <string name="add_shop_item_stock_number_dialog_message">В настоящее время только награды за задания, достижения и покупки влияют на это значение.\n\nКогда запасов недостаточно, предмет будет отображаться как распроданный и не будет доступен для покупки.</string>
-    <string name="backup_import_data_from_file_system">Import Data</string>
+    <string name="backup_import_data_from_file_system">Импорт данных</string>
     <string name="backup_switch_support_file_system_open_file">Support file system to open backup files</string>
     <string name="backup_switch_support_file_system_open_file_desc">After enabling this option, you can use LifeUp to import backup data directly in the file manager app.\n\nBut due to limitations of the Android system, this option will register all file types.</string>
     <string name="team_add_choose_local_photo_document_skip_crop">Local Photo (Skip crop, for .gif)</string>
