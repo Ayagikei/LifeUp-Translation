@@ -2291,7 +2291,7 @@
     <string name="starter_task_history_content">Просмотр истории задач</string>
     <string name="starter_task_history_remark">Когда задача просрочена или отменена, на странице истории будет создана запись о неудаче.\n\nВы можете изменить историю задачи на \"выполнено\" в любое время во всплывающем окне напоминания о просрочке или на боковой панели - странице [История].\n\nТакже вы можете настроить, должен ли применяться штраф при неудаче задачи.</string>
     <string name="starter_task_restart_lifeup_content">Перезапустить LifeUp</string>
-    <string name="starter_task_restart_lifeup_remark">LifeUp supports resetting data such as Exp, coins, tasks records at any time.\n\nIf needed, you can check the sidebar - [Data Backup/Restore/Clear] page.</string>
+    <string name="starter_task_restart_lifeup_remark">LifeUp поддерживает сброс данных (опыт, монеты, записи о задачах).\n\nПри необходимости вы можете проверить боковую панель - страницу [Резервное копирование/Восстановление/Очистка данных].</string>
     <string name="task_menu_pin">Pin</string>
     <string name="task_menu_unpin">Unpin</string>
     <string name="hint_pomodoro_config_hint">Настройка совместимости</string>
