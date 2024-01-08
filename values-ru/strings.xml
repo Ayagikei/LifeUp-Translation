@@ -121,7 +121,7 @@
     <string name="network_connect_error">Ошибка сети, попробуйте позже</string>
     <string name="main_drawer_login_head">Коснитесь аватара для входа</string>
     <string name="main_drawer_need_to_relogin">Пожалуйста, попробуйте повторно авторизоваться.</string>
-    <string name="main_tips_1">Советы: После входа в систему вы можете получить доступ к Миру.</string>
+    <string name="main_tips_1">Советы: После входа в систему вы можете получить доступ к сообществу.</string>
     <string name="main_tips_2">Советы: Вы можете отменить задачи, которые вы выполнили сегодня.</string>
     <string name="main_tips_3">Советы: Данные о шагах рассчитываются на основе данных датчика.  Это может быть неточно, если вы запускаете LifeUp реже.</string>
     <string name="main_tips_4">Советы: Вы можете отменить задачи, которые вы выполнили сегодня.</string>
@@ -1004,7 +1004,7 @@
     <string name="custom_attribution_reset">СБРОС</string>
     <string name="custom_attribution_hint">Добавление и удаление навыков пока не поддерживается.</string>
     <string name="setting_custom_attribute">Настроить навыки</string>
-    <string name="setting_custom_attribute_desc">Настройте существующие атрибуты или создайте новые (например, [рисование], [писательство], [программирование], и т. д.).\nПримечание: Эта функция не повлияет на страницу профиля и функции мирового модуля.</string>
+    <string name="setting_custom_attribute_desc">Настройте существующие атрибуты или создайте новые (например, [рисование], [писательство], [программирование], и т. д.).\nПримечание: Эта функция не повлияет на страницу профиля и функции сообщества.</string>
     <string name="webdav_account">WebDAV Аккаунт</string>
     <string name="attachment">Вложение</string>
     <string name="lab_compact_mode_sample">Язык обучения</string>
@@ -1160,7 +1160,7 @@
     <string name="require_permission">Требуется разрешение</string>
     <string name="hint_denied_activity_permission">LifeUp не сможет получить данные о количестве шагов, если вы запретили датчику разрешение.</string>
     <string name="default_name_system_achievements">Система</string>
-    <string name="login_backup_hint">LifeUp - это приложение, которое в первую очередь предназначено для использования в офлайн-режиме. Вход в систему нужен лишь для доступа к модулю "Мир", поэтому смена аккаунта не затронет ваши локальные данные. Таким образом, ваши локальные данные не будут синхронизироваться с сервером.</string>
+    <string name="login_backup_hint">LifeUp - это приложение, которое в первую очередь предназначено для использования в офлайн-режиме. Вход в систему нужен лишь для доступа к модулю \"Сообщество\", поэтому смена аккаунта не затронет ваши локальные данные. Таким образом, ваши локальные данные не будут синхронизироваться с сервером.</string>
     <string name="user_achievement_delete_title">Удаление</string>
     <string name="user_achievement_delete_message">Вы действительно хотите удалить это достижение?</string>
     <string name="backup_hint">Вы можете использовать [Бэкап Данных] Страница в [Настройках] Страница для бэкапа/восстановления ваших данных.\n Теперь мы поддерживаем экспорт ваших локальных данных в zip-файл или синхронизацию данных с сервером WebDAV, который вы настроили.\n        LifeUp добавит поддержку резервного копирования на Google Диск в будущем.\n\n Чтобы защитить конфиденциальность ваших данных и сократить использование сервера, ваши локальные данные не будут синхронизироваться с сервером, в том числе:\n 1. Данные о локальных задачах\n        2. Запись локальной истории задач.\n        3. Данные о товарах в магазине.\n         4. Данные о собственных ощущениях\n        5. Данные о достижениях пользователей.\n        6. Статистические данные\n        7. Настройки\n         \n      Данные, которые БУДУТ синхронизированы с сервером, включают:\n         1. Очки опыта\n        2. Система достижений\n         3. Команды\n        4. Записи о выполнении командных задач.\n        5. Работа с командными задачами\n     </string>
@@ -1458,7 +1458,7 @@
     <string name="condition_desc_reach_level">Достигнете Уровня %2$d в [%1$s]</string>
     <string name="condition_desc_total_gained_tomatoes">Получите в общей сложности [%1$d] помидоров</string>
     <string name="condition_desc_using_days">Используйте LifeUp в течение [%1$d] дней</string>
-    <string name="condition_desc_gained_like_count">Получите [%1$d] ЛАЙКОВ со всего Мира</string>
+    <string name="condition_desc_gained_like_count">Получите [%1$d] ЛАЙКОВ со всего сообщества</string>
     <string name="condition_desc_using_days_streak">Достигните [%1$d]-дневной серии использования LifeUp</string>
     <string name="condition_desc_current_coin_number">Достичь текущего баланса монет [%1$d]</string>
     <string name="condition_desc_coin_number_added_in_a_day">Получите [%1$d] монет за день</string>
@@ -1617,7 +1617,7 @@
     <string name="hint_pedometer_hint_desc">Приложение не может получить доступ к ежедневному количеству шагов из системы.\nЕжедневное количество шагов рассчитывается путем вычитания общего количества шагов за вчерашний день из общего количества шагов на сегодняшний день.\n\nТочность подсчета зависит от таких условий, как время открытия приложения и перезапуск телефона.</string>
     <string name="hint_pedometer_input_or_hide_hint_desc">В качестве альтернативы автоматическому расчету вы можете ввести количество шагов вручную.\n\nили скройте модуль счетчика шагов на странице [Отображение], если он вам не нужен.</string>
     <string name="hint_world_module">Привет, Мир!</string>
-    <string name="hint_world_module_desc">В модуле «Мир» вы можете присоединиться к команде, чтобы получить командные задачи/или поделиться своими задачами, создав новую команду.</string>
+    <string name="hint_world_module_desc">В модуле «Сообщество» вы можете присоединиться к команде, чтобы получить командные задачи/или поделиться своими задачами, создав новую команду.</string>
     <string name="hint_world_module_moments">Почтовые мероприятия</string>
     <string name="hint_world_module_moments_desc">Выполнив командное задание, вы можете публиковать свои действия или чувства по поводу них с текстом и фотографиями для всего мира.</string>
     <string name="hint_world_module_market">Творческий Рынок</string>
@@ -1842,7 +1842,7 @@
     <string name="lab_new_tasks_refactor_desc">Чтобы сделать приложение расширяемым и поддерживаемым, мы переписываем код \"нового элемента\" и \"редактирования элемента\". Пользовательский интерфейс страницы пока что не изменен. Если вы нашли какие-либо проблемы на альфа версии страницы, пожалуйста, отправьте нам письмо! Вы можете переключиться на старую версию в любое время.</string>
     <string name="dialog_module_select_title">Выбрать модуль</string>
     <string name="setting_module_config">Настройка модулей</string>
-    <string name="setting_display_module_config_desc">Настройка модулей нижней панели навигации.\nСвободно скрывайте ненужные вам модули, такие как «Мир» и «Я», и заменяйте их другими функциональными модулями первого уровня (частично поддерживается).</string>
+    <string name="setting_display_module_config_desc">Настройка модулей нижней панели навигации.\nСвободно скрывайте ненужные вам модули, такие как Сообщество» и «Я», и заменяйте их другими функциональными модулями первого уровня (частично поддерживается).</string>
     <string name="shop_item_effect_countdown_action_resume">Возобновить</string>
     <string name="effect_count_down_notification_pausing">Пауза..</string>
     <string name="shop_item_effect_countdown_action_close">Закрыть</string>
@@ -1932,7 +1932,7 @@
     <string name="zh_feedback_method_txc">this_string_only_available_in_specific_language_zh_feedback_method_txc</string>
     <string name="zh_feedback_method_internal">Отзыв в приложении</string>
     <string name="error_msg_device_not_support_login_method">Устройство не поддерживает этот метод входа</string>
-    <string name="login_v2_connect_to_the_world_module">Подключение к модулю мира</string>
+    <string name="login_v2_connect_to_the_world_module">Подключение к модулю Сообщество</string>
     <string name="login_v2_sign_in_with_google">Войти через Google</string>
     <string name="login_v2_sign_in_with_qq">Войти через QQ</string>
     <string name="login_v2_sign_in_with_weibo">Войти через Weibo</string>
@@ -1993,7 +1993,7 @@
     <string name="bga_pp_view_photo">Вид</string>
     <string name="tag_repeat_custom_days">Повторять - Каждые %1$d дня(ей)</string>
     <string name="add_to_do_custom_days">Каждые %1$d дня(ей)</string>
-    <string name="custom_attribution_dialog_message">Изменённый контент не будет загружен на сервер и не повлияет на отображение мирового модуля и страницы профиля.</string>
+    <string name="custom_attribution_dialog_message">Изменённый контент не будет загружен на сервер и не повлияет на отображение модуля Сообщество и страницы профиля.</string>
     <string name="feedback_method_dialog_title">Каналы обратной связи</string>
     <string name="feedback_method_internal">Отзыв в приложении</string>
     <string name="feedback_method_github">Github issues</string>
@@ -2080,7 +2080,7 @@
     <string name="xml_picture_manager">Управление изображением</string>
     <string name="xml_picture_manager_desc">Поскольку программа не может точно определить, нужно ли удалять файл изображения при любых обстоятельствах.\nВы можете вручную удалить больше не нужные вам изображения, чтобы уменьшить размер файла резервной копии.</string>
     <string name="tomatoes_eat_invalid_attributes">Установленный в данный момент атрибут вознаграждения недействителен, перейдите на страницу настроек Pomodoro для его корректировки.</string>
-    <string name="dialog_server_unavailable_message_in_maintain">Сервер находится на техническом обслуживании в течение:\n%1$s-%2$s\n\nВ этот период возможны кратковременные нарушения сервисного соединения (влияющие только на вход в систему, выполнение командных заданий и доступ к модулю мира), пожалуйста, подождите терпеливо.\nПомимо этого, подобные ошибки могут быть вызваны проблемами в сети телефона. Вы также можете попробовать переключить сеть. \nСообщение об ошибке: %3$s</string>
+    <string name="dialog_server_unavailable_message_in_maintain">Сервер находится на техническом обслуживании в течение:\n%1$s-%2$s\n\nВ этот период возможны кратковременные нарушения сервисного соединения (влияющие только на вход в систему, выполнение командных заданий и доступ к модулю Сообщество), пожалуйста, подождите терпеливо.\nПомимо этого, подобные ошибки могут быть вызваны проблемами в сети телефона. Вы также можете попробовать переключить сеть. \nСообщение об ошибке: %3$s</string>
     <string name="network_no_network_in_maintain">Сервер находится на техническом обслуживании. В связи с техническим обслуживанием возможен сбой сетевого соединения. Пожалуйста, повторите попытку позже.</string>
     <string name="user_achievement_sort_when_left_reward_item">Пожалуйста, получите награды за достижения перед сортировкой</string>
     <string name="condition_atm_deposit_reaches_the_spec_value">Депозит банкомата достигает указанного значения</string>
