@@ -2375,7 +2375,7 @@
     <string name="shop_select_list_dialog_show_hidden">показать скрытый список</string>
     <string name="shop_select_list_dialog_hide_in_shop">скрыть в магазине</string>
     <string name="shop_select_list_dialog_hide_in_inventory">скрыть в инвентаре</string>
-    <string name="shop_select_list_dialog_unhide">unhide</string>
+    <string name="shop_select_list_dialog_unhide">показать</string>
     <string name="statistics_coin_exclude_purchases">exclude purchases</string>
     <string name="default_name_doing_list">Doing</string>
     <string name="title_shop_app_widget">Shop - %1$s</string>
