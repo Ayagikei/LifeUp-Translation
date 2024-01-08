@@ -2498,7 +2498,7 @@
     <string name="custom_attribution_action_disable">ОТКЛЮЧИТЬ</string>
     <string name="attribute_hide_dialog_title">Запретить</string>
     <string name="add_achievement_continue_to_add_next">Продолжить добавление следующего достижения</string>
-    <string name="add_user_achievement_successfully">Achievement added successfully!</string>
+    <string name="add_user_achievement_successfully">Достижение успешно добавлено!</string>
     <string name="add_user_achievement_failed">Failed to add the achievement, please try again...</string>
     <string name="edit_user_achievement_failed">Failed to edit the achievement, please try again...</string>
     <string name="add_achievement_secret_achievement">This is a secret achievement (details hidden until unlocked)</string>
