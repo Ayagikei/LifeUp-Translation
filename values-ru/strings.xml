@@ -2435,7 +2435,7 @@
     <string name="statistic_v2_subtitle_deadline_task_completes">Коэффициент выполнения заданий в срок</string>
     <string name="statistic_v2_subtitle_tomatoes_gain_avg">Среднедневное количество помидоров</string>
     <string name="statistic_v2_subtitle_tomatoes_gain">Получено помидоров</string>
-    <string name="statistics_v2_title_period">Statistical period (%1$d day(s))</string>
+    <string name="statistics_v2_title_period">Статистика за период (%1$d день/дней)</string>
     <string name="btn_share">Поделиться</string>
     <string name="statistic_v2_item_filter_button_boxes">Boxes</string>
     <string name="statistic_v2_title_achievements">Достижения</string>
