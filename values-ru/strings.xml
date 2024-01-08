@@ -2256,7 +2256,7 @@
     <string name="api_required_param_miss">Необходимый параметр отсутствует: %1$s</string>
     <string name="api_format_error">Неверный формат запроса, пожалуйста, проверьте документацию.</string>
     <string name="api_complete_task_success">Успешно завершено: \"%1$s\"</string>
-    <string name="api_line_of_credit_updated">Line of credit have been adjusted to %1$s</string>
+    <string name="api_line_of_credit_updated">Кредитный лимит был изменен на %1$s</string>
     <string name="api_reward_exp_success">You gain [%1$s] %2$d experience points for \"%3$s\".</string>
     <string name="api_reward_item_success">You gain [%1$s] x%2$d item(s) for \"%3$s\".</string>
     <string name="api_reward_inventory_record">%1$s: [%2$s] ×%3$d</string>
