@@ -2487,7 +2487,7 @@
     <string name="settings_display_material_you_dynamic_color_mode_seed">Цвет основы (указанный/изображение): %1$s</string>
     <string name="history_filter_list">Список</string>
     <string name="history_filter_date">Дата</string>
-    <string name="history_filter_state">Task Status</string>
+    <string name="history_filter_state">Статус задачи</string>
     <string name="history_filter_name">Название</string>
     <string name="history_filter_dialog_title">Filter History</string>
     <string name="history_filter_name_dialog_title">Search History</string>
