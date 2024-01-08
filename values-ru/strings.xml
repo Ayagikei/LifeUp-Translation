@@ -2445,7 +2445,7 @@
     <string name="statistic_v2_hint_exclude_purchases">исключая покупки</string>
     <string name="dialog_share_title">Поделиться</string>
     <string name="share_title_app_name">LifeUp</string>
-    <string name="share_desc_app">Gamified To Do List App</string>
+    <string name="share_desc_app">Приложение для списка дел с игровым подходом</string>
     <string name="dialog_select_dates_title">Select dates</string>
     <string name="statistics_v2_empty">No stats for this period</string>
     <string name="app_widget_item_not_available_for_purchase">This item is not available for purchase</string>
