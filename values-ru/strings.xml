@@ -2442,7 +2442,7 @@
     <string name="statistic_v2_subtitle_task_completed_list">Завершенные задачи</string>
     <string name="statistic_v2_subtitle_achievement_unlock_list">Разблокированные достижения</string>
     <string name="statistic_v2_time_range_hint">1. Проведите влево и вправо для выбора временного периода\n2. Дни использования LifeUp учитывают только те, когда выполнены задачи\n3. [Долгое нажатие] на [пустом месте заголовка] ниже для общего доступа (поделиться).</string>
-    <string name="statistic_v2_hint_exclude_purchases">purchase excluded</string>
+    <string name="statistic_v2_hint_exclude_purchases">исключая покупки</string>
     <string name="dialog_share_title">Поделиться</string>
     <string name="share_title_app_name">LifeUp</string>
     <string name="share_desc_app">Gamified To Do List App</string>
