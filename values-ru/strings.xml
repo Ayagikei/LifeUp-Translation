@@ -2459,7 +2459,7 @@
     <string name="permissison_notification_go_to_settings">Пожалуйста, включите разрешение \"Уведомления\" в системных настройках.</string>
     <string name="dialog_title_confirm_confirm">Подтвердить</string>
     <string name="dialog_title_confirm_confirm_desc">Вы уверены, что хотите отклонить разрешение?\n\nЭто может привести к неработоспособности некоторых функций LifeUp.\n\nЕсли позже вы захотите использовать эту функцию, вам придется вручную предоставить разрешение в системных настройках.\n\nПодробнее о разрешениях и функциях смотрите в документации [Настройка совместимости].</string>
-    <string name="free_trial_version_check_update_channel">Update channel</string>
+    <string name="free_trial_version_check_update_channel">Канал обновлений</string>
     <string name="free_trial_version_check_update_channel_stable">Stable</string>
     <string name="free_trial_version_check_update_channel_beta">Beta</string>
     <string name="free_trial_version_check_update_channel_canary">Canary</string>
