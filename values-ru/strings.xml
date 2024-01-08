@@ -2281,8 +2281,8 @@
     <string name="to_do_detail_target_times_v2_progress">Нужно завершить %1$d раз, и %2$d раз в процессе выполнения.</string>
     <string name="to_do_detail_target_times_v2_completed">Нужно завершить %1$d раз, и %2$d раз уже выполнено.</string>
     <string name="item_countdown_failed_already_exist">Пожалуйста, [завершите] или [Отложить|добавьте время] для текущего обратного отсчета перед продолжением.</string>
-    <string name="add_to_do_start_time_hint_title">Do you want to reset the start time?</string>
-    <string name="add_to_do_start_time_hint_message">While specifying a start time, you changed settings such as frequency, duration, etc., which may cause the task to not last as long as you expected.\n\nDo you want to change [Start Time] to auto-fit repetition frequency?</string>
+    <string name="add_to_do_start_time_hint_title">Вы хотите сбросить время начала?</string>
+    <string name="add_to_do_start_time_hint_message">При указании времени начала вы изменили такие параметры, как частота, продолжительность и т.д., из-за чего задание может длиться не так долго, как вы ожидали.\n\nХотите ли вы изменить [Время начала] на автоподбор частоты повторения?</string>
     <string name="btn_reset">Сбросить</string>
     <string name="add_to_do_days_exceed_repeat_alert_hint">The duration (start-deadline) of the task is greater than the repetition frequency, please check if this is as expected.</string>
     <string name="starter_task_switch_list">View [Example] list</string>
