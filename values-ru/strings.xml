@@ -2272,7 +2272,7 @@
     <string name="api_penalty_coin_success">Вы потеряли %1$d монет за \"%2$s\"</string>
     <string name="api_penalty_exp_success">Вы потеряли [%1$s] %2$d очков опыта за \"%3$s\".</string>
     <string name="api_penalty_item_success">Вы потеряли [%1$s] x%2$d предмета(ов) за \"%3$s\".</string>
-    <string name="hint_user_page_sync_delay">Из-за оффлайн хранения данные не обновляются в режиме реального времени. Они не включают настраиваемые атрибуты.</string>
+    <string name="hint_user_page_sync_delay">Поскольку данные хранятся в автономном режиме, они не обновляются в реальном времени. Они не включают настраиваемые атрибуты.</string>
     <string name="error_share_item_exceeds_server_limit">The item information exceeds the server limit, please reduce the use effect and try to share again.</string>
     <string name="api_unsupported_error">The API [%1$s] could not be processed, please check the input and app version</string>
     <string name="network_team_task_not_sign_time_message">The team task time is abnormal, the list is being refreshed...</string>
