@@ -2265,7 +2265,7 @@
     <string name="condition_external_api">Для разблокировки требуется вызов внешнего API</string>
     <string name="condition_external_api_id_invisible">id становится видимым после создания</string>
     <string name="condition_external_api_desc">(%1$s) Требуется вызов внешнего API для разблокировки</string>
-    <string name="add_shop_item_effect_url_use_webview">Use build-in WebView</string>
+    <string name="add_shop_item_effect_url_use_webview">Используйте встроенный WebView</string>
     <string name="import_shop_item_with_link_effect">Using this item, you may open other web pages or applications, please check carefully.</string>
     <string name="import_shop_item_with_link_effect_lifeup">The use of this item may result in modifications to your LifeUp data, please carefully check or back up the data.</string>
     <string name="import_shop_item_with_higher_version">This item may be shared in a higher version, and the function may not be fully used in this version.</string>
