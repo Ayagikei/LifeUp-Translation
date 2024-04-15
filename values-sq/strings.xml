@@ -433,4 +433,21 @@
     <string name="pic_dir_name_achievement_list">Lista e arritjeve</string>
     <string name="add_random_tasks_reward_header">Shpërblimi</string>
     <string name="pic_dir_name_feelings">Ndjenjat</string>
+    <string name="pomodoro_keep_screen_on_enable">Aktivizoni</string>
+    <string name="pomodoro_keep_screen_on_disable">Çaktivizoni</string>
+    <!-- date time picker -->
+    <string name="statistic_v2_title_tasks">Detyrat</string>
+    <string name="statistic_v2_title_attributes">Cilësitë</string>
+    <string name="statistic_v2_title_feelings">Ndjenjat</string>
+    <string name="statistic_v2_subtitle_atm_interest">Interesi i bankomatit</string>
+    <string name="statistic_v2_title_achievements">Arritjet</string>
+    <string name="share_title_app_name">LifeUp</string>
+    <string name="history_filter_name">Emri</string>
+    <string name="history_filter_name_dialog_hint">Emri i artikullit</string>
+    <string name="to_do_detail_statistics_repeat_chart_type_start_date">Data e fillimit</string>
+    <string name="attribute_hide_dialog_title">Çaktivizoni</string>
+    <string name="dialog_title_delete_task_template">Fshini</string>
+    <!-- v1.94.0 -->
+    <string name="widget_tasks_label">Detyrat</string>
+    <string name="widget_exp_label">Cilësitë</string>
 </resources>

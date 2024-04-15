@@ -1,14 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="app_name_normal">LifeUp</string>
     <string name="app_name_google">LifeUp Pro</string>
-
     <!-- bottom bar title -->
     <string name="title_board">Görevler</string>
     <string name="title_status">Durum</string>
     <string name="title_community">Dünya</string>
     <string name="title_me">Ben</string>
     <string name="title_activity_main">Ana Sayfa</string>
-
     <!-- Welcome Activity -->
     <string name="page1_title">YAPILACAKLAR LİSTESİ</string>
     <string name="page1_content">Yapılacaklar listenizi yazın.\nHer görevin önemini ve zorluk derecesini ayarlayın.\nHepsini tamamlamaya çalışın!</string>
@@ -19,18 +18,14 @@
     <string name="page4_title">BULUT (CLOUD)</string>
     <string name="page4_content">Günlük hayatınızı çevrimiçi ortama aktarın.\nGörevleri birlikte tamamlamak için çevrimiçi bir takıma katılın.</string>
     <string name="page4_btn">LIFE UP\'I BAŞLAT</string>
-
     <string name="navigation_drawer_open">Navigasyon çekmecesini aç</string>
     <string name="navigation_drawer_close">Navigasyon çekmecesini kapat</string>
-
-
     <!-- Strings related to login -->
     <string name="title_activity_login">Oturum Aç</string>
     <string name="login_welcome">Daha Fazla İşlev İçin Oturum Açın</string>
     <string name="login_welcome_2">Daha fazla işlev için giriş yap:\n- Sunucuya exp ve seviye senkronize et\n- Profilini düzenle\n- Dünya\n- Aktivitelerini paylaş</string>
     <string name="login_signIn">GİRİŞ YAP</string>
     <string name="login_or">ya da</string>
-
     <string name="title_activity_add_to_do_item">Yeni Görev Ekle</string>
     <string name="title_activity_add_team_item">Yeni Takım Ekle</string>
     <string name="title_activity_edit_team_item">Takımı Düzenle</string>
@@ -42,11 +37,9 @@
     <string name="title_activity_profile">Profili Düzenle</string>
     <string name="title_activity_user_mine">Profilim</string>
     <string name="title_activity_team_member">Üyeler</string>
-
     <string name="title_activity_user_team">Takım</string>
     <string name="title_activity_about">Hakkında</string>
     <string name="title_activity_achievement">Başarılar</string>
-
     <string name="AcraText">Uygulama çöktüğü için özür dileriz.\nLütfen bize rapor gönderin.</string>
     <string name="AcraTitle">ÇÖKME RAPORU</string>
     <string name="AcraCommend">Nasıl oldu?</string>
@@ -130,7 +123,7 @@
     <string name="main_drawer_need_to_relogin">Lütfen tekrar giriş yapmayı deneyin.</string>
     <string name="main_tips_1">İpucu: Giriş yapınca topluluğa erişebilirsiniz.</string>
     <string name="main_tips_2">İpucu: Bugün tamamladığınız görevleri geri alabilirsiniz.</string>
-    <string name="main_tips_3">İpucu: Adım verileri sensör verilerinden hesaplanır. LifeUp'ı daha az sıklıkta başlatırsanız hatalı olabilir.</string>
+    <string name="main_tips_3">İpucu: Adım verileri sensör verilerinden hesaplanır. LifeUp\'ı daha az sıklıkta başlatırsanız hatalı olabilir.</string>
     <string name="main_tips_4">İpucu: Bugün tamamladığınız görevleri geri alabilirsiniz.</string>
     <string name="main_tips_5">İpucu: Bugün tamamladığınız görevleri geri alabilirsiniz.</string>
     <string name="main_tips_6">İpucu: Bugün tamamladığınız görevleri geri alabilirsiniz.</string>
@@ -169,7 +162,6 @@
     <string name="add_to_do_menu_expire_weekend_item">Hafta Sonu</string>
     <string name="title_activity_backup">Yedekle/Geri Yükle</string>
     <string name="title_activity_to_do_item_detail">GÖREV DETAYLARI</string>
-
     <string name="about_green_android_website">Green Android Tarafından Onaylandı</string>
     <string name="about_not_found_android_store">Android mağazasında bulunamadı</string>
     <string name="add_to_do_bouns_question">Exp buradaki ayarlarla özetlenecek.</string>
@@ -199,9 +191,9 @@
     <string name="backup_found_file">Yedekleme dosyası tespit edildi:&#160;</string>
     <string name="main_click_one_more_quit">Uygulamadan çıkmak için bir kez daha tıklayın</string>
     <string name="setting_toolbar_title">Ayarlar</string>
-    <string name="setting_widget_toolbar_title">Widget</string>
+    <string name="setting_widget_toolbar_title">Araç</string>
     <string name="setting_todo_toolbar_title">Görev</string>
-    <string name="setting_display_toolbar_title">Display</string>
+    <string name="setting_display_toolbar_title">Görüntüle</string>
     <string name="team_toast_join_success">Takıma Katılma Başarılı</string>
     <string name="team_toast_quit_success">Takımdan Çıktınız</string>
     <string name="team_toast_end_success">Takım Sona Erdi</string>
@@ -241,7 +233,7 @@
     <string name="to_do_detail_delete_message">Görevi silmek istiyor musunuz?</string>
     <string name="to_do_detail_delete_multiply_message">Görevleri silmek istiyor musunuz?</string>
     <string name="activity_delete_message">Aktiviteyi silmek istiyor musunuz?</string>
-    <string name="sub_task_delete_message">"%1$s" silmek istiyor musunuz?</string>
+    <string name="sub_task_delete_message">\"%1$s\" silmek istiyor musunuz?</string>
     <string name="to_do_detail_delete_success">Başarıyla silindi</string>
     <string name="to_do_detail_delete_failed">Silme başarısız</string>
     <string name="to_do_detail_delete_history">Bu geçmişi silmek istiyor musunuz?</string>
@@ -274,7 +266,7 @@
     <string name="join_team">takıma katılındı</string>
     <string name="date">yyyy-AA-gg</string>
     <string name="joined">katılındı</string>
-    <string name="exp">exp</string>
+    <string name="exp">dp</string>
     <string name="repeat_task">Görevi Tekrarla-</string>
     <string name="start">Başla</string>
     <string name="deadline">Son Tarih</string>
@@ -286,12 +278,12 @@
     <string name="relative_time_later">%1$d Gün Sonra</string>
     <string name="to_do_adapter_not_start_yet">Görev henüz başlamadı!</string>
     <string name="team">takım</string>
-    <string name="attr_strength">STR</string>
-    <string name="attr_learning">INT</string>
-    <string name="attr_charm">CHA</string>
-    <string name="attr_endurance">END</string>
-    <string name="attr_vitality">VIT</string>
-    <string name="attr_creative">CRE</string>
+    <string name="attr_strength">KVT</string>
+    <string name="attr_learning">ZEKA</string>
+    <string name="attr_charm">ÇKC</string>
+    <string name="attr_endurance">DYN</string>
+    <string name="attr_vitality">ZND</string>
+    <string name="attr_creative">YRT</string>
     <string name="female">Kadın</string>
     <string name="male">Erkek</string>
     <string name="secret">Gizli</string>
@@ -322,7 +314,7 @@
     <string name="to_do_taptarget_new">Görevler ekle</string>
     <string name="to_do_taptarget_content">Görevler eklemek için buraya tıklayın！</string>
     <string name="to_do_taptarget_nav">Navigasyon</string>
-    <string name="to_do_taptarget_nav_content">"Pano: Tıpkı Rol Yapma Oyunlarındaki gibi görevleri tamamladığınız yerler\nDurum: Buradan niteliklerinizin explerine ve seviyelerine bakın\n\nDünya: Bir takıma katıl ve takım görevlerini tamamla\n\nİstatistikler: Buradan verilerinizin istatistiklerini görüntüleyin\n\n\n"[Dünya] dışındaki çoğu özellik internetsiz çalışabilir~\nVe verilerin çoğu telefonunuzda yedeklenir, verileri yedeklemeden kaldırırken dikkat edin.</string>
+    <string name="to_do_taptarget_nav_content">\"Pano: Tıpkı Rol Yapma Oyunlarındaki gibi görevleri tamamladığınız yerler\nDurum: Buradan niteliklerinizin explerine ve seviyelerine bakın\n\nDünya: Bir takıma katıl ve takım görevlerini tamamla\n\nİstatistikler: Buradan verilerinizin istatistiklerini görüntüleyin\n\n\n\"[Dünya] dışındaki çoğu özellik internetsiz çalışabilir~\nVe verilerin çoğu telefonunuzda yedeklenir, verileri yedeklemeden kaldırırken dikkat edin.</string>
     <string name="to_do_slide_bar">Yan Çubuk</string>
     <string name="to_do_slide_bar_content">Burada giriş yapmak için girdiler, başarılar, görev geçmişi, ayarlar vb. duruyor</string>
     <string name="to_do_list">Liste</string>
@@ -353,8 +345,8 @@
     <string name="shop_list_undeleteable">Liste tamamlanmamış görevler içerirken silinemez</string>
     <string name="network_login_invaild">Giriş geçersiz, lütfen tekrar giriş yap!</string>
     <string name="network_server_dead">Sunucu çökmüş olabilir, lütfen daha sonra tekrar deneyin</string>
-    <string name="team_get_next_task_success">"Görevi al" başarılı</string>
-    <string name="team_get_next_task_already">"Görevi al" başarılı</string>
+    <string name="team_get_next_task_success">\"Görevi al\" başarılı</string>
+    <string name="team_get_next_task_already">\"Görevi al\" başarılı</string>
     <string name="lifeup">LifeUp</string>
     <string name="notification_content">Tamamlanacak göreviniz var:&#160;</string>
     <string name="notification_ticker">YAPILACAKLAR</string>
@@ -380,7 +372,7 @@
     <string name="profile_nickname">Kullanıcı Adı</string>
     <string name="profile_address">Adres</string>
     <string name="profile_gender">Cinsiyet</string>
-    <string name="profile_avatar">Avatar</string>
+    <string name="profile_avatar">Profil Resmi</string>
     <string name="yb_network_problem">Yükleme başarısız. Bağlatınızı kontrol edip tekrar deneyin.</string>
     <string name="backup_not_found_file">Varsayılan dosya yolunda yedekleme bulunamadı!</string>
     <string name="xml_team_basic_header">Temel</string>
@@ -478,7 +470,7 @@
     <string name="setting_display_hide_pedometer">Pedometre Modülünü Gizle</string>
     <string name="setting_display_hide_pedometer_desc">Uygulama bazı telefonlarda kesin sonuç vermeyebilir\nİsterseniz pedometreyi gizleyebilirsiniz.</string>
     <string name="setting_main_task">Görev</string>
-    <string name="setting_main_task_widget">Widget</string>
+    <string name="setting_main_task_widget">Widget Ayarları</string>
     <string name="setting_main_task_display">Görünüm</string>
     <string name="setting_main_system">Sistem Ayarları</string>
     <string name="setting_main_data_backup_restore">Veri Yedekle/Geri Getir/Sil</string>
@@ -577,7 +569,6 @@
     <string name="finish_and_get_reward">Görev tamamlandı ve ödül kazanıldı: %1$s!</string>
     <string name="achievement_unlocked">Başarı kazanıldı</string>
     <string name="xml_login_third_login">Şimdilik yalnızca 3. parti uygulamalarla giriş destekleniyor</string>
-    <string name="step_bar" />
     <string name="Long_Sunday">Pazar</string>
     <string name="long_monday">Pazartesi</string>
     <string name="long_tuesday">Salı</string>
@@ -585,10 +576,10 @@
     <string name="long_thursday">Perşembe</string>
     <string name="long_friday">Cuma</string>
     <string name="Saturday">Cumartesi</string>
-    <string name="sort_exp">Exp</string>
+    <string name="sort_exp">Dp</string>
     <string name="nav_history">Geçmiş</string>
     <string name="nav_achievement">Başarılar</string>
-    <string name="to_do_exp">%1$d Exp</string>
+    <string name="to_do_exp">%1$d Dp</string>
     <string name="exception_refresh">Başlık görünümünü yenilemeye çalışırken istisna bir durum oluştu</string>
     <string name="exception_achievement_animation">Başarı kilidini göstermeye çalışırken istisna bir durum oluştu</string>
     <string name="setting_display_language">Dil</string>
@@ -610,13 +601,10 @@
     <string name="setting_display_date_format">Tarih Formatı</string>
     <string name="setting_display_date_format_desc">Tarih formatını değiştir</string>
     <string name="about_feature_element">Özellik</string>
-
     <string name="feature_night_mode">Gece Modu</string>
     <string name="feature_night_mode_desc">Karanlık mod ile LifeUp\'ın görünümünü değiştirin.</string>
-
     <string name="feature_history_filter">Geçmiş Filtresi</string>
     <string name="feature_history_filter_desc">Seçtiğin günün geçmişini görüntüle.</string>
-
     <string name="feature_fix">Minik Değişiklikler</string>
     <string name="feature_fix_desc">- Kayan buton otomatik olarak gizlenecek\n- Uygulamayı başlatırken siyah ekranı düzeltin\n- Tarih formatını değiştir\n- Optimizasyon</string>
     <string name="feature_plan">Plan</string>
@@ -649,7 +637,7 @@
     <string name="xml_clear_exp_desc">Tüm expleriniz sıfırlanacak.\nUyarı:Bu hayatınızı baştan başlatacak!</string>
     <string name="clear_exp_title">Exp Verisini Sil</string>
     <string name="clear_exp_desc">Tüm expleriniz sıfırlanacak.\nUyarı:Bu hayatınızı baştan başlatacak ve geri alınamaz!</string>
-    <string name="feature_163"><![CDATA[Calendar Reminder & Clear Data]]></string>
+    <string name="feature_163"><![CDATA[Takvim Hatırlatıcısı & Veri Silme]]></string>
     <string name="feature_163_desc">- Yeni Sistem Takvimi Hatırlatıcısı\n- Exp Verisini Sil\n- Yayınlanan aktiviteleri sil</string>
     <string name="err_retry">Hata oluştu, lütfen tekrar deneyin.</string>
     <string name="shop_btn_buy">SATIN AL</string>
@@ -712,7 +700,7 @@
     <string name="setting_custom_toolbar_title">Özel Ayarlar</string>
     <string name="dialog_input_exp_punishment_factor_title">Exp Ceza Çarpanı Gir</string>
     <string name="dialog_input_exp_punishment_factor_message">Görevin süresi geçtiğinde veya pes edildiğinde cezalandırılırsın.\nCeza aralığı girin: 0 – 5.0</string>
-    <string name="dialog_input_coin_punishment_factor_title">Input Coin Penalty Factor</string>
+    <string name="dialog_input_coin_punishment_factor_title">Bozukluk Ceza Çarpanı Gir</string>
     <string name="dialog_input_coin_punishment_factor_message">Görevin süresi geçtiğinde veya pes edildiğinde cezalandırılırsın.\nCeza aralığı girin: 0 – 5.0</string>
     <string name="read_it_later">Sonra Oku</string>
     <string name="read_it_later_with_title">「Sonra Oku」 %1$s</string>
@@ -783,7 +771,6 @@
     <string name="backup_default_uri">Varsayılan Dosya Yolu</string>
     <string name="backup_custom_uri">Özel Dosya Yolu</string>
     <string name="backup_custom_fail">Yedekleme başarısız.\nLütfen başka dosya yolu seçin.</string>
-
     <string name="moments_filter">Filtre</string>
     <string name="user_team_show_all">Tüm Takımları Göster</string>
     <string name="user_team_hide_ended">Sona Eren Takımları Gizle</string>
@@ -793,7 +780,6 @@
     <string name="calendar">Takvim</string>
     <string name="calendar_empty_text">TÜM görevler tamamlandı!</string>
     <string name="calendar_empty_done_text">Burası bomboş!</string>
-
     <!-- Base Achievement -->
     <string name="achievement_base_new_player">Yeni Oyuncu</string>
     <string name="achievement_base_new_player_desc">İlk görevinizi tamamlayın</string>
@@ -804,7 +790,7 @@
     <string name="achievement_base_upside_down">Tepe Taklak</string>
     <string name="achievement_base_upside_down_desc">Listenin sıralama ölçütünü değiştirin</string>
     <string name="achievement_base_little_assistant">Küçük Asistan</string>
-    <string name="achievement_base_little_assistant_desc"Bir uygulama widgetı oluşturun</string>
+    <string name="achievement_base_little_assistant_desc">Bir uygulama widgetı oluşturun</string>
     <string name="achievement_base_fiddle_with">Bununla Vaktini Zırva Etme</string>
     <string name="achievement_base_fiddle_with_desc">Bir ayarı değiştirin</string>
     <string name="achievement_base_save_game">Oyunu Kaydet</string>
@@ -829,8 +815,6 @@
     <string name="achievement_base_special_case_desc">Bir görevi tamamlamadan pes edin</string>
     <string name="achievement_base_tinker">Tamirci</string>
     <string name="achievement_base_tinker_desc">Bir şeyleri düzenleyin</string>
-
-
     <!-- Task Achievements -->
     <string name="achievement_task_habit_develop">Alışkanlık Geliştirme</string>
     <string name="achievement_task_habit_develop_desc">Tekrarlanabilir bir görev oluşturun</string>
@@ -862,7 +846,6 @@
     <string name="achievement_task_game_bachelor_desc">Üstüste 60 gün görev tamamlayın</string>
     <string name="achievement_task_game_master">Oyun ustası</string>
     <string name="achievement_task_game_master_desc">Üstüste 180 gün görev tamamlayın</string>
-
     <!-- Attributes Achievements -->
     <string name="achievement_attribution_warrior">Savaşçı</string>
     <string name="achievement_attribution_warrior_desc">50 seviye güce ulaş</string>
@@ -878,7 +861,6 @@
     <string name="achievement_attribution_alchemist_desc">50 seviye yaratıcılığa ulaş</string>
     <string name="achievement_attribution_hero">Kahraman</string>
     <string name="achievement_attribution_hero_desc">Hayatını 50 seviyeye getir</string>
-
     <!-- Community Achievements -->
     <string name="achievement_community_new_member">Yeni Üye</string>
     <string name="achievement_community_new_member_desc">Bir takıma katıl veya yeni bir takım oluştur</string>
@@ -900,8 +882,6 @@
     <string name="achievement_community_little_famous_desc">10 beğeni alın</string>
     <string name="achievement_community_lovable">Sevimli</string>
     <string name="achievement_community_lovable_desc">50 beğeni alın</string>
-
-
     <!-- Shop Achievements -->
     <string name="achievement_shop_first_bucket_of_gold">İlk Altın Kovası</string>
     <string name="achievement_shop_first_bucket_of_gold_desc">Bozukluk ödülü alın</string>
@@ -917,7 +897,6 @@
     <string name="achievement_shop_little_wealthy_desc">1000 bozukluğa ulaş</string>
     <string name="achievement_shop_monopoly">Monopoly</string>
     <string name="achievement_shop_monopoly_desc">10000 bozukluğa ulaş</string>
-
     <string name="achievement_unlock">Başarı Kazanıldı!</string>
     <string name="achievement_secret">Bu bir sır!</string>
     <string name="target_edit_error">Hedef sayı, tamamlanan sayıdan az olmamalıdır</string>
@@ -963,7 +942,6 @@
     <string name="sort_custom">Özel</string>
     <string name="close">Kapat</string>
     <string name="to_do_selecting_card">Kart Seçiliyor</string>
-
     <string name="to_do_unstart_hint">%1$d görev daha başlamadı</string>
     <string name="sort_urgency_degree">Önem</string>
     <string name="sort_difficulty_degree">Zorluk</string>
@@ -1034,7 +1012,6 @@
     <string name="feature_170">Lab</string>
     <string name="feature_170_desc">- Kompakt Mod\n- Resim Eki\n- Özel Nitelikler(Metin ve Sembol)\n- WebDAV Yedeklemesi</string>
     <string name="menu_undo">Geri Al</string>
-
     <string name="setting_task_snack_bar_duration">Süre Gösteren Pencereyi Geri Al</string>
     <string name="setting_task_snack_bar_duration_desc_short">Kısa</string>
     <string name="setting_task_snack_bar_duration_desc_long">Uzun</string>
@@ -1063,7 +1040,7 @@
     <string name="setting_task_new_default_setting">Yeni Görevler İçin Varsayılan Ayarlar</string>
     <string name="team_activity_create">Yeni takım oluşturuldu「%1$s」</string>
     <string name="starter_task_compact_mode_content">Kompakt modu deneyin</string>
-    <string name="starter_task_compact_mode_remark">Kenar çubuğunu açmak için sol üst köşedeki düğmeye tıklayabilir, ardından burada [Ayarlar]-[Lab]'ı açarak Temiz Mod ve Material You'yu etkinleştirme gibi deneysel özelliklere erişebilirsiniz.</string>
+    <string name="starter_task_compact_mode_remark">Kenar çubuğunu açmak için sol üst köşedeki düğmeye tıklayabilir, ardından burada [Ayarlar]-[Lab]\'ı açarak Temiz Mod ve Material You\'yu etkinleştirme gibi deneysel özelliklere erişebilirsiniz.</string>
     <string name="starter_task_shop_content">Dükkanınıza ürün ekleyin</string>
     <string name="starter_task_shop_remark">Örneğin, 「Kendime kahve satın al」veya「Dinlen」 gibi şeyleri dükkan ürünü olarak ekleyebilirsiniz, yeterli bozukluklarınız olunca satın alıp kullanmak için.</string>
     <string name="feature_172">Dünya</string>
@@ -1081,7 +1058,6 @@
     <string name="feelings_submit_success">İzlenimler başarıyla gönderildi!</string>
     <string name="feelings_dialog_search_title">Ara</string>
     <string name="lab_feelings_title">İzlenimler</string>
-
     <!-- Team Report Type -->
     <string name="report_type_1">Bu bir spam</string>
     <string name="report_type_2">Bu küfür/taciz içeriyor</string>
@@ -1089,7 +1065,6 @@
     <string name="report_type_4">Bu benim telif hakkımı ihlal ediyor</string>
     <string name="report_type_5">Bu oylamayı kışkırtıyor</string>
     <string name="report_type_6">Diğer</string>
-
     <!-- Feelings Fav -->
     <string name="feelings_fav">Favoriler</string>
     <string name="feelings_fav_action">Fav</string>
@@ -1102,24 +1077,18 @@
     <string name="settings_custom_task_card_bg_hint">Resmi seçmek için buraya dokunun</string>
     <string name="opacity">Opaklık</string>
     <string name="feedback_email_hint">Cevap istiyorsanız lütfen iletişim e-postanızı girin.\n\nVeya e-posta yoluyla geri bildirimde bulunmayı seçebilirsiniz: kei.ayagi@gmail.com</string>
-
-
     <!-- degree only in Chinese now -->
-    <string name="importance_lv1_desc">这件事可有可无。它可以是“查一查某个时事八卦”这样的任务。它在某种机缘巧合下出现，只有勉强被你记住的价值，它的完成与否对你造成的影响可以忽略不计。</string>
-    <string name="importance_lv2_desc">这件事值得上一点心。它可以是“每天背10个单词”一类任务。完成它对你而言并不能造成显著的影响，但它可以在潜移默化地数量堆叠之后，让你发现自己进步了一大截。反之亦然，如果无法坚持完成某些这个等级的任务，你可能会对应地失去一些重要的东西。</string>
-    <string name="importance_lv3_desc">这件事需要引起你的重视。它可以是“在截稿期限前写完稿件”这样的任务。完成这样的任务，可以让你立刻显著地获得收益。反之，完不成这样的任务，你的损失可能会让你感到肉疼。</string>
-    <string name="importance_lv4_desc">现在，立刻，放下一切其它事情，优先把这件事做完。这个级别的任务已经无法从好坏两个角度来区分，它会对你当下的人生造成极为严重的影响。完成这个级别的任务，可以使你达成令你兴奋的成就，或使你避免一些灾难性的后果；如果失败了，那情况会变得不妙，相当不妙。</string>
-    <string name="difficult_lv1_desc">没有任何难度。对你来说完全是举手之劳，不需要任何意志力，可以在极短时间内解决的问题。</string>
-    <string name="difficult_lv2_desc">有一点点难度。你可能会需要动一动脑子，花掉一些时间才可以完成这样的任务，或你对这件任务有所犯懒和抗拒，不愿意进行。</string>
-    <string name="difficult_lv3_desc">令人感到棘手。\n你可能会需要进行一些学习、对你的知识进行补充，花掉不少时间来琢磨、试探后，才能完成这样的任务，或这件任务涉及到让你厌恶或恐惧的内容，需要消耗大量意志力进行克服。</string>
-    <string name="difficult_lv4_desc">几乎不可能完成。\n这件任务触及了你的大量能力盲区，就像让高三学渣通过一学期的复习考上清华一样魔幻。由于能力的缺失，时间也相对变得极为紧迫，想要完成这个级别的任务，除非拥有超越人类的毅力，和永不放弃的决心。</string>
+    <string name="importance_lv1_desc">Bu isteğe bağlıdır. \"Güncel dedikodulara bakmak\" gibi bir şey olabilir. Tesadüfen ortaya çıkar ve sizin tarafınızdan çok az hatırlanır; tamamlanması veya tamamlanmaması sizin üzerinizde önemsiz bir etkiye sahiptir.</string>
+    <string name="importance_lv2_desc">Bu biraz ilgiyi hak eden bir şey. \'Günde 10 kelime ezberle\' türünde bir görev olabilir. Bunu tamamlamak üzerinizde önemli bir etki yaratmayacaktır, ancak ince bir sayı yığınından sonra kendinizi büyük bir gelişme kaydederken bulabileceğiniz bir şey olabilir. Ve tam tersi, eğer bu seviyedeki bazı görevlere ayak uyduramazsanız, karşılığında önemli bir şey kaybedebilirsiniz.</string>
+    <string name="importance_lv3_desc">Bu, dikkatinize sunulması gereken bir şeydir. \"Son teslim tarihini karşılamak\" gibi bir şey olabilir. Böyle bir görevi tamamlamak size anında ve önemli bir kazanç sağlayabilir. Tersine, böyle bir görevi yerine getirememek size paraya mal olabilir.</string>
+    <string name="importance_lv4_desc">Şimdi, derhal, diğer her şeyi bırakın ve bu göreve öncelik verin. Bu seviyede iyi ve kötü görevler arasında ayrım yapmak imkansızdır; o anda hayatınız üzerinde son derece ciddi bir etkiye sahip olabilirler. Bu seviyedeki bir görevi tamamlamak sizi heyecan verici bir başarıya götürebilir veya bazı feci sonuçlardan koruyabilir; başarısız olursanız, durum kötü, oldukça kötü bir hal alır.</string>
+    <string name="difficult_lv1_desc">Hiçbir zorluğu yok. Sizin için tam bir çocuk oyuncağı, irade gerektirmeyen ve çok kısa sürede çözülebilecek bir problem.</string>
+    <string name="difficult_lv2_desc">Biraz zorluk var. Böyle bir görevi tamamlamak için kafanızı kullanmanız ve biraz zaman harcamanız gerekebilir veya görevi yerine getirmek için tembel ve dirençli olabilirsiniz.</string>
+    <string name="difficult_lv4_desc">Bunu başarmak neredeyse imkansız. \n, yeteneklerinizin kör noktalarının büyük bir kısmına dokunur ve lise son sınıfta okuyan bir serserinin bir dönem boyunca tekrar yaparak Tsinghua sınavını geçmesi kadar sihirlidir. Yetenek eksikliği nedeniyle zaman da nispeten son derece kısıtlı hale gelir ve bu seviyedeki bir görevi tamamlamak için bir insanın sahip olabileceğinin ötesinde bir azim ve asla pes etmeme kararlılığına sahip olmak gerekir.</string>
     <string name="title_activity_degree_desc">Derece</string>
-    <string name="content_degree_desc_author">文案：酷安 @风之心_天双</string>
     <string name="donate_alipay">Alipay</string>
-    <string name="donate_wechat_or_list">Wechat</string>
     <string name="about_donate_element">Bağış</string>
     <string name="about_icon_designer_element">İkon Tasarımcısı CoolApk@这是一碗麦面</string>
-
     <string name="common_select_photos">Fotoğrafları Seçin</string>
     <string name="statistics_time_30days">30 gün</string>
     <string name="statistics_time_3months">3 Ay</string>
@@ -1188,10 +1157,8 @@
     <string name="hint_denied_activity_permission">Sensör iznini reddettiyseniz LifeUp adım sayısı verilerini alamaz.</string>
     <string name="default_name_system_achievements">Sistem</string>
     <string name="login_backup_hint">LifeUp çevrimdışı öncelikli bir uygulamadır. Giriş yalnızca Dünya modülüne erişmek içindir, dolayısıyla hesap değiştirmek yerel verilerinizi değiştirmez.\nBu nedenle yerel verileriniz sunucuyla senkronize edilmeyecektir.</string>
-
     <string name="user_achievement_delete_title">Sil</string>
     <string name="user_achievement_delete_message">Bu başarıyı gerçekten silmek istiyor musunuz?</string>
-
     <string name="backup_hint">Verilerinizi yedeklemek/geri yüklemek için [Ayarlar] Sayfasındaki [Veri Yedekleme] Sayfasını kullanabilirsiniz.\n
         Artık yerel verilerinizi bir zip dosyasına aktarmayı veya kurduğunuz WebDAV sunucusuyla verileri senkronize etmeyi destekliyoruz.\n
         LifeUp gelecekte Google Drive yedekleme desteğini ekleyecektir.\n
@@ -1249,7 +1216,6 @@
     <string name="inventory_record_undo_reward">Ödül Öğesini Geri Ver「%1$s」×%2$d</string>
     <string name="feature_1740">ATM</string>
     <string name="feature_1740_desc">- ATM\n- Görev ödülü olarak dükkan öğelerini seçin\n- Dükkan ürünü stok miktarı\n- Geliştirilmiş animasyon</string>
-
     <string name="dialog_button_confirm">ONAYLA</string>
     <string name="toast_clear_history_success">Geçmiş verileri başarıyla temizlendi</string>
     <string name="xml_clear_history">Geçmiş Verilerini Temizle</string>
@@ -1257,13 +1223,12 @@
     <string name="clear_history_title">Geçmiş Verilerini Temizle</string>
     <string name="clear_history_desc">Tüm geçmiş verilerini temizle.\nDikkat: Bu işlem geri alınamaz!</string>
     <string name="title_dialog_task_tag_color">Etiket Rengi</string>
-
     <string name="setting_display_hide_status">Durumu Gizle</string>
     <string name="setting_display_hide_status_desc">Alt Navigasyonda Durum modülünü gizleyin.</string>
     <string name="setting_display_hide_shop">Dükkanı Gizle</string>
     <string name="setting_display_hide_shop_desc">Alt Navigasyonda Dükkan modülünü gizleyin.</string>
-    <string name="setting_display_hide_me">"Ben"i Gizle</string>
-    <string name="setting_display_hide_me_desc">Alt Gezinme'de "Ben" modülünü gizleyin.</string>
+    <string name="setting_display_hide_me">\"Ben\"i Gizle</string>
+    <string name="setting_display_hide_me_desc">Alt Gezinme\'de \"Ben\" modülünü gizleyin.</string>
     <string name="relaunch_item">Yeniden başlat</string>
     <string name="relaunch_success">Yeniden başlatma başarılı</string>
     <string name="auto_backup_conflict_download">Sunuculara yedeklenen veriler yerel verilerin üzerine yazılacaktır.\n\nBu işlemi daha sonra yedekleme ayarları sayfasından geri alabilirsiniz.</string>
@@ -1277,15 +1242,7 @@
     <string name="btn_download">İNDİR</string>
     <string name="dialog_title_sync_conflict">Senkronizasyon Çakışmaları</string>
     <string name="dialog_title_confirm">Onaylamak</string>
-
     <!-- podomoro -->
-    <string name="short_break_duration_key" translatable="false">SHORT_BREAK_DURATION</string>
-    <string name="long_break_duration_key" translatable="false">LONG_BREAK_DURATION</string>
-    <string name="work_session_count_key" translatable="false">WORK_SESSION_COUNT</string>
-    <string name="task_on_hand_count_key" translatable="false">TASK_ON_HAND_COUNT</string>
-    <string name="start_long_break_after_key" translatable="false">LONG_BREAK_AFTER_DURATION</string>
-    <string name="currently_running_service_type_key" translatable="false">CURRENTLY_RUNNING_SERVICE_TYPE</string>
-
     <string name="start_tametu">Zamanlayıcıyı Başlat</string>
     <string name="cancel_tametu">Zamanlayıcıyı İptal Et</string>
     <string name="start_short_break">Kısa Molaya Başlayın</string>
@@ -1307,10 +1264,6 @@
     <string name="big_break_minute_picker_summary">00 dakika</string>
     <string name="sessions_until_big_break_title">Uzun aralara kadar çalışma seansları</string>
     <string name="sessions_until_big_break_summary">00 seans</string>
-    <string name="work_time_minutes_default_value" translatable="false">25</string>
-    <string name="small_break_time_minutes_default_value" translatable="false">5</string>
-    <string name="big_break_time_minutes_default_value" translatable="false">15</string>
-    <string name="sessions_until_big_break_default_value" translatable="false">4</string>
     <string name="number_picker_dialog_positive_button_text">TAMAM</string>
     <string name="number_picker_dialog_negative_button_text">İptal et</string>
     <string name="pomo_work_session">Çalışma Seansı</string>
@@ -1363,7 +1316,6 @@
     <string name="feellings_search_task_content">Görev İçeriği</string>
     <string name="feelings_only_fav">Sadece Fav</string>
     <string name="vip_version">VIP</string>
-    <string name="pro_version">Pro</string>
     <string name="pomodoro_create_shortcuts">Kısayol Oluştur</string>
     <string name="pomodor_create_shortcuts_to_launcher">Başlatıcınıza bir kısayol oluşturun.</string>
     <string name="create_shortcut_failed">Kısayol oluşturulamadı.\nLütfen uygulama izin ayarlarını kontrol edin.</string>
@@ -1379,7 +1331,7 @@
     <string name="dialog_gained_reward">Kazanılan ödüller</string>
     <string name="dialog_reward_by_using_item">Öğeyi kullanarak</string>
     <string name="exp_effect">Exp efekti</string>
-    <string name="coin_effects">Bozukluk efektleri</string>S
+    <string name="coin_effects">Bozukluk efektleri</string>
     <string name="hint_shop_effect_not_more_available">Başka kullanılabilir efekt yok</string>
     <string name="hint_number_greater_than_0">Sayı 0\'dan büyük olmalıdır</string>
     <string name="hint_should_select_attributes">En az bir özellik seçilmelidir</string>
@@ -1403,7 +1355,7 @@
     <string name="limit_number_per_week">%1$d haftalık</string>
     <string name="limit_number_per_month">%1$d aylık</string>
     <string name="limit_number_per_year">%1$d yıllık</string>
-    <string name="shop_effect_exp">Exp</string>
+    <string name="shop_effect_exp">Dp</string>
     <string name="shop_effect_coin">Bozukluk</string>
     <string name="input_hint_number_limit">Sınır numarası</string>
     <string name="shop_dialog_title_add_limit">Satın Alma Limiti</string>
@@ -1432,7 +1384,6 @@
     <string name="feature_1760">Dükkan Efektleri</string>
     <string name="feature_1760_desc">- Özel dükkan efektleri\n- Özel satın alma limitleri</string>
     <string name="open_shop_btn_import">İÇE AKTAR</string>
-    <string name="tab_market">Market</string>
     <string name="til_import_price">Fiyat</string>
     <string name="dialog_share_goods_title">Öğeyi Paylaş</string>
     <string name="dialog_share_goods_desc">Öğeyi gerçekten paylaşmak istiyor musunuz?\nipucu: Artık ganimet kutusu efektlerini paylaşabilirsiniz.\nAncak bunun işe yaraması için önce ganimet kutularındaki eşyaları paylaşmanız gerekiyor.</string>
@@ -1441,8 +1392,6 @@
     <string name="shop_share_fail">Paylaşım başarısız oldu</string>
     <string name="share_goods_fail_imported">içe aktarılan öğe paylaşılamıyor</string>
     <string name="undo_share_to_market">Paylaşımı Geri Al</string>
-
-    <string name="translator_credit"></string>
     <string name="view_creator">İçerik Oluşturucu Sayfasını Görüntüle</string>
     <string name="error_msg_report_self">Kendinizi bildiremezsiniz</string>
     <string name="off_item_succeed">Başarıyla silindi</string>
@@ -1488,9 +1437,8 @@
     <string name="detail_progress_repeat">tekrarlama</string>
     <string name="Jan">Oca.</string>
     <string name="Feb">Şub.</string>
-    <string name="Mar">Mar.</string>
+    <string name="Mar">Mart</string>
     <string name="Apr">Nis.</string>
-    <string name="May">May.</string>
     <string name="Jun">Haz.</string>
     <string name="Jul">Tem.</string>
     <string name="Aug">Ağu.</string>
@@ -1515,7 +1463,6 @@
     <string name="condition_current_coin_number">Mevcut bozukluk sayısı</string>
     <string name="condition_coin_number_added_in_a_day">Bir günde kazanılan bozukluk sayısı</string>
     <string name="dialog_title_select_attributes">Nitelik Seç</string>
-
     <string name="condition_desc_total_completed_times">[%1$s] işlemini toplam %2$d kez tamamlayın</string>
     <string name="condition_desc_completed_streak_task">[%2$s] ile %1$d \'lik tamamlama serisine ulaşın</string>
     <string name="condition_desc_reach_level">[%1$s] içinde seviye %2$d \'e ulaşın</string>
@@ -1528,19 +1475,17 @@
     <string name="market_list_sort_by_import">İçe aktarma sayısına göre sırala</string>
     <string name="hint_add_user_achievement_reward_develop">Exp ve dükkan ödülü ayarı yakında eklenecek</string>
     <string name="feelings_view_detail">Detaylar</string>
-
     <string name="achievement_attribution_yes_itsme">Evet, benim</string>
     <string name="achievement_attribution_yes_itsme_desc">Herhangi bir özellik 10. seviyeye ulaşır</string>
     <string name="QandA_known_issues">bilinen_sorunlar</string>
     <string name="QandA_update_desc">Açıklamayı Güncelle</string>
-    <string name="QandA_q_and_a">Q&amp;A</string>
+    <string name="QandA_q_and_a">S&amp;C</string>
     <string name="QandA_release_log">Sürüm Günlüğü</string>
     <string name="QandA_app_desc">Uygulama Açıklaması</string>
     <string name="xml_add_to_do_exp_title">Exp Ödülü</string>
     <string name="dialog_input_exp_number">Exp ödül değeri</string>
     <string name="hint_dialog_input_exp">[Evet, benim] başarısının kilidini açtıktan sonra\n(Herhangi bir özellik 10. seviyeye ulaşır)\nözel aralık 0~9999\'a genişletilecektir.</string>
     <string name="dialog_input_exp_number_title">Giriş Exp Ödülü</string>
-
     <string name="dialog_enable_auto_sum_short">Oto</string>
     <string name="status_pomodoro_card_title">Pomodorolar</string>
     <string name="status_pomodoros_today_focus_mins">bugünün odaklanma zamanı\n(dakika olarak)</string>
@@ -1549,7 +1494,6 @@
     <string name="status_tomato_total_amount">toplam domates\nmiktarı</string>
     <string name="dialog_category_hide_hint_button">TAMAM</string>
     <string name="dialog_category_hide_hint_desc">Listeleri sıralamak için liste öğelerini sürükleyip bırakın</string>
-
     <string name="inventory_record_synthesis_cost">Sentez Ürün Maliyeti「%1$s」×%2$d</string>
     <string name="inventory_record_synthesis_got">Sentez Alınan Öğe「%1$s」×%2$d</string>
     <string name="inventory_record_unknown">BİLİNMEYEN</string>
@@ -1564,7 +1508,6 @@
     <string name="pomodoro_tap_target_tomatoes_play_pause">Zamanlayıcıyı Başlat/Duraklat</string>
     <string name="pomodoro_tap_target_tomatoes_skip">Zamanlayıcıyı atla</string>
     <string name="task_detail_tomatoes_count_display_text">x%1$d (%3$d dakika), toplam x%2$d (%4$d dakika)</string>
-
     <string name="condition_task_tomatoes_gained">Bir görevle belirli sayıda domates kazanın</string>
     <string name="condition_desc_task_tomatoes_gained">「%2$s」 ile %1$d domates kazanın</string>
     <string name="condition_task_purchase_item_times">Öğeyi belirli sayıda satın alın</string>
@@ -1572,30 +1515,25 @@
     <string name="condition_task_use_item_times">Öğeyi belirtilen sayıda kullan</string>
     <string name="condition_desc_use_item_times"> %2$d」kez 「%1$s」kullan</string>
     <string name="edit_text_search_hint">Ara...</string>
-
     <string name="dialog_input_exp_punishment_factor_message_example">100 exp ödüllü bir görevde, başarısız olursanız %1$d (100 × %2$.2f) exp kaybedersiniz.</string>
     <string name="dialog_input_coin_punishment_factor_message_example">Değeri 100 bozukluk olan bir görevde, başarısız olursanız %1$d (100 × %2$.2f) bozukluk kaybedersiniz.</string>
     <string name="add_team_edit_hint">Ödül ve süre ayarları oluşturulduktan sonra düzenlenemez.\nLütfen ayarlarınızı onaylayın.</string>
-
     <string name="select_shop_item_reward_with_stock_number">%1$s x%2$d\n(kalan %3$d)</string>
-
     <string name="shop_top_item_count">%1$d öğe</string>
-
     <string name="unlock_achievement_time_desc">%1$s olunca açılır</string>
     <string name="pomodoro_empty_text">burada pomodoro kaydı yok</string>
     <string name="title_activity_pomodoro_record">Pomodoro Kaydı</string>
     <string name="pomodoro_record_focus_time">%1$d dakika odaklanmış</string>
-    <string name="place_a_app_widget_method_hint">Ana ekrana bir uygulama widget'ı yerleştirmek için buraya dokunun\n\nAna ekrana bir widget yerleştirme veya yeniden boyutlandırma yöntemi, ana ekran programına göre değişir.\nancak genellikle ana ekranın boş bir kısmına uzun süre basabilirsiniz.</string>
+    <string name="place_a_app_widget_method_hint">Ana ekrana bir uygulama widget\'ı yerleştirmek için buraya dokunun\n\nAna ekrana bir widget yerleştirme veya yeniden boyutlandırma yöntemi, ana ekran programına göre değişir.\nancak genellikle ana ekranın boş bir kısmına uzun süre basabilirsiniz.</string>
     <string name="user_achievement_shop_item_reward_title">Kazanılan Öğe!</string>
     <string name="xml_add_user_achievment_complete_reward">Eşya Ödülü</string>
-    <string name="vip_extension_theme_color"></string>
     <string name="user_activity_empty_hint">burada aktivite kaydı yok\ngöndermek için bir takım görevini tamamlayın</string>
     <string name="user_activity_shop_empty_hint">burada paylaşılan dükkan öğesi yok</string>
     <string name="setting_custom_sound_effect">Özel ses efektleri</string>
     <string name="setting_custom_sound_effect_desc">LifeUp\'ın ses efektlerini özelleştirin.\nÖrneğin, bir görevi tamamlamak, seviye atlamak veya ses efekti satın almak için beğendiğiniz ses efekti dosyasını seçebilirsiniz.</string>
     <string name="title_activity_custom_sound_effect">Özel Ses Efektleri</string>
-    <string name="custom_sound_effect_hint">Daha iyi oynatma efekti için kısa ses dosyalarını seçmeniz önerilir. \n(500 kb'den az ve 1~3 saniyelik süre)</string>
-    <string name="read_file_failed_hint">Dosyayı okuma başarısız oldu.\nBazı Galeri uygulamaları dosya izinleriyle çalışmaz ve LifeUp fotoğrafları okuyamaz. (Örneğin Smartisan OS'nin Galeri uygulaması)\n\nFotoğraf dosyasını doğrudan seçmek veya fotoğraf uygulamalarını değiştirmek için lütfen SAF yolunu seçin.\n(Google Fotoğraflar iyi bir seçimdir)</string>
+    <string name="custom_sound_effect_hint">Daha iyi oynatma efekti için kısa ses dosyalarını seçmeniz önerilir. \n(500 kb\'den az ve 1~3 saniyelik süre)</string>
+    <string name="read_file_failed_hint">Dosyayı okuma başarısız oldu.\nBazı Galeri uygulamaları dosya izinleriyle çalışmaz ve LifeUp fotoğrafları okuyamaz. (Örneğin Smartisan OS\'nin Galeri uygulaması)\n\nFotoğraf dosyasını doğrudan seçmek veya fotoğraf uygulamalarını değiştirmek için lütfen SAF yolunu seçin.\n(Google Fotoğraflar iyi bir seçimdir)</string>
     <string name="add_shop_item_disable_purchase">Satın Alma İşlemini Devre Dışı Bırak</string>
     <string name="chip_feelings">Duygular</string>
     <string name="custom_sound_effect_complete_task">görevi tamamla</string>
@@ -1614,7 +1552,6 @@
     <string name="unknown">Bilinmeyen</string>
     <string name="switch_enable_cloud_auto_backup">Otomatik buluta yedeklemeyi etkinleştir</string>
     <string name="cloud_backup_method_webdav">WebDAV</string>
-    <string name="cloud_backup_method_dropbox">Dropbox</string>
     <string name="cloud_backup_setting">Bulut Yedekleme Yapılandırması</string>
     <string name="cloud_backup_configured">Yapılandırılmış</string>
     <string name="cloud_backup_not_configured">Yapılandırılmamış</string>
@@ -1622,12 +1559,10 @@
     <string name="toast_message_failed_to_call_email_app">E-posta Uygulaması başlatılamadı</string>
     <string name="dialog_title_server_unavailable">Sunucu kullanılamıyor olabilir veya ağ bağlantısı başarısız olabilir</string>
     <string name="dialog_server_unavailable_message">Lütfen ağınızı kontrol edin (Wi-Fi ağını veya başka bir mobil ağı değiştirmeyi deneyin) ve uygulamanın ağ izinlerinin etkinleştirilip etkinleştirilmediğini kontrol edin veya daha sonra tekrar deneyin.\nÇoğu LifeUp özelliğini çevrimdışı modda kullanabilirsiniz.\nHata mesajı: %1$s\n\nBu durum bir süre devam ederse lütfen bize geri bildirim gönderin!</string>
-    <string name="cloud_backup_method_dropbox_in_zh" />
     <string name="goods_effect_loot_box">Ganimet Kutusu</string>
     <string name="effect_desc_item_loot_box">Ganimet kutusu</string>
     <string name="probility_of_received_item_from_loot_box">Bir öğe alındı (%1$.2f\%%)</string>
     <string name="hint_click_to_open_the_box">kutuyu açmak için dokunun</string>
-
     <string name="inventory_record_loot_box_cost">Ganimet Kutusunu Aç「%1$s」×%2$d</string>
     <string name="inventory_record_loot_box_got">Ganimet kutusundan 「%1$s」×%2$d alındı</string>
     <string name="btn_add_items">Öğe eklemek</string>
@@ -1639,7 +1574,6 @@
     <string name="backup_once_a_week">Haftada bir</string>
     <string name="backup_once_2_week">İki haftada bir</string>
     <string name="backup_once_a_month">Ayda bir</string>
-
     <string name="market_search_empty_text">Eşleşen öğe yok.\nBir tane oluşturup paylaşmayı deneyebilirsiniz!</string>
     <string name="title_auto_backup_interval">Otomatik yedekleme aralığı</string>
     <string name="compact_config">Kompakt Mod Yapılandırması</string>
@@ -1653,13 +1587,11 @@
     <string name="chip_punishment">Ceza</string>
     <string name="dialog_title_set_indie_punishment_factor">Ceza unsuru</string>
     <string name="dialog_message_set_indie_punishment_factor">Lütfen 0–5,0 arası değer girin</string>
-
     <string name="title_activity_edit_achievement_category">Kategoriyi Düzenle</string>
     <string name="title_activity_edit_user_achievement">Başarıyı Düzenle</string>
     <string name="view_team">Takımı görüntüle</string>
     <string name="loot_box_probability_table">Olasılık Tablosu</string>
     <string name="menu_restart">Tekrar başlat</string>
-
     <string name="system_achievement_list_undeleteable">Sistem başarı listesi silinemez</string>
     <string name="achievement_list_delete_message">Bu başarı listesini gerçekten silmek istiyor musunuz?</string>
     <string name="user_achievement_not_empty_list_undeleteable">Boş olmayan bir başarı listesi silinemez.</string>
@@ -1672,7 +1604,7 @@
     <string name="btn_next">SONRAKİ</string>
     <string name="lifeup_crash">Hata</string>
     <string name="lifeup_crash_description">Hata için üzgünüz.
-        \nNormal kullanımı etkilemiyorsa "Bir daha gösterme" seçeneğini işaretleyip "Devam" butonuna tıklayabilirsiniz.
+        \nNormal kullanımı etkilemiyorsa \"Bir daha gösterme\" seçeneğini işaretleyip \"Devam\" butonuna tıklayabilirsiniz.
         \nUygulamayı normal şekilde kullanamamanıza neden oluyorsa güncellemenin hatayı düzeltmesini beklemeyi veya Güvenli Modu etkinleştirmeyi veya önce verilerinizi dışa aktarmayı seçebilirsiniz.
     \n\nNot: Güvenli Modda uygulama çoğu durumda çökmez ancak bazı işlevler bozulabilir ve bazı sayfalar hatalı görüntülenebilir.</string>
     <string name="btn_enable_safe_mode">Güvenli Modu Etkinleştir</string>
@@ -1682,12 +1614,11 @@
     <string name="loot_box_title_received_rewards">Alınan ödüller</string>
     <string name="btn_previous">ÖNCEKİ</string>
     <string name="dialog_shop_settings_atm_interest">ATM günlük faiz oranı</string>
-    <string name="atm_interest_desc">ATM'de %1$d bozukluk faizi kazandınız</string>
+    <string name="atm_interest_desc">ATM\'de %1$d bozukluk faizi kazandınız</string>
     <string name="atm_interest_input_limit">%10\'dan büyük olmamalıdır</string>
     <string name="return_discount_input_limit">%100\'den büyük olmamalıdır</string>
     <string name="condition_shop_open_loot_boxes">Ganimet Kutularından belirli sayıda öğe alın</string>
     <string name="condition_desc_open_loot_boxes">Ganimet Kutularından 「%2$d」 kez 「%1$s」 alın</string>
-
     <string name="hint_hide_module_title">Modülü Gizle</string>
     <string name="hint_hide_module_desc">İhtiyacınız olmayan herhangi bir modülü [Ayarlar]-[Ekran] sayfasında gizleyebilirsiniz.</string>
     <string name="hint_pomodoro_sound_hint">Hatırlatma Sesi</string>
@@ -1695,58 +1626,46 @@
     <string name="hint_pedometer_hint">Adım Sayacı</string>
     <string name="hint_pedometer_hint_desc">Uygulama sistemden günlük adım sayısına erişemiyor.\nGünlük adım sayısı, bugün itibarıyla toplam adım sayısından dün itibarıyla toplam adım sayısının çıkarılmasıyla hesaplanır.\n\n Sayımın doğruluğu, uygulamanın ne zaman açıldığı ve telefonun ne zaman yeniden başlatıldığı gibi koşullara bağlıdır.</string>
     <string name="hint_pedometer_input_or_hide_hint_desc">Otomatik hesaplamaya alternatif olarak adım numarasını manuel olarak girebilirsiniz.\n\nveya ihtiyacınız yoksa [Ekran Ayarları] sayfasında adım sayacı modülünü gizleyin.</string>
-
     <string name="hint_world_module">Merhaba, Dünya!</string>
     <string name="hint_world_module_desc">Dünya modülünde, bir takıma katılarak takım görevleri alabilir veya yeni bir takım oluşturarak görevlerinizi paylaşabilirsiniz.</string>
     <string name="hint_world_module_moments">Etkinlikler Gönderin</string>
     <string name="hint_world_module_moments_desc">Bir takım görevini tamamladıktan sonra etkinliklerinizi veya onlarla ilgili duygularınızı metin ve fotoğraflarla tüm dünyaya yayınlayabilirsiniz.</string>
     <string name="hint_world_module_market">Kreatif Market</string>
     <string name="hint_world_module_market_desc">Dünyanın her yerindeki insanlar tarafından oluşturulan kreatif dükkan ürünlerini görüntüleyin.\n\nVe başyapıtlarınızı paylaşabilirsiniz!</string>
-
     <string name="hint_atm_interest">ATM faizi</string>
-    <string name="hint_atm_interest_desc">Günlük faiz almak için ATM faizini Dükkan Ayarları'ndan (sağ üst menüde) ayarlayabilirsiniz.</string>
-
+    <string name="hint_atm_interest_desc">Günlük faiz almak için ATM faizini Dükkan Ayarları\'ndan (sağ üst menüde) ayarlayabilirsiniz.</string>
     <string name="hint_loot_box_probability">Olasılık</string>
     <string name="hint_loot_box_probability_desc">Öğenin gerçek olasılık hesaplama formülü: öğenin olasılığı ÷ tüm öğelerin olasılıklarının toplamı.\n\nÖrneğin %0,1 olasılıkla A isimli bir eşya oluşturmak istiyorsanız:\nA öğesini seçin ve olasılığını %1 olarak girin, ardından B adlı başka bir öğe seçin ve olasılığını %999 olarak girin.\nSon olarak A maddesinin olasılığı %0,1, B maddesinin olasılığı ise %99,9 olacaktır.</string>
     <string name="dialog_crash_action_btn_skip_hint">Bir daha gösterme\n(başka bir hata yaşanmadıkça)</string>
     <string name="title_activity_edit_category">Listeyi düzenle</string>
-
     <string name="hint_uncomplete_task">Bir görevi tamamlama</string>
     <string name="hint_uncomplete_task_desc">Tamamlanan görevleri geri almanın birçok yolu vardır:\n1. Bir görevi tamamladıktan sonra alt açılır penceredeki geri al düğmesine dokunun.\n\n2. [Geçmiş] veya [Takvim] sayfasına gidin ve ardından geri al düğmesine dokunun.\n\n3. Sağ üst menüdeki [Tamamlananları göster] onay kutusunu işaretleyin ve ardından görevdeki tamamlama işaretine dokunun.</string>
-
     <string name="hint_punishment">Exp Cezası</string>
     <string name="hint_punishment_desc">Görevin süresi dolduğunda veya görevden vazgeçildiğinde bir miktar exp kaybedersiniz.\n\nGörevi gerçekten tamamladıysanız, tamamlandı olarak işaretleyebilir ve ödülü geri alabilirsiniz.</string>
-
     <string name="hint_punishment_coin">Bozukluk Cezası</string>
     <string name="hint_punishment_coin_desc">Bozukluk cezası işlevi varsayılan olarak devre dışıdır.\n\nEtkinleştirmek ve bozukluk cezası ile exp cezasının seviyesini ayarlamak için [Özel Ayarlar] sayfasına gidebilirsiniz.</string>
-
     <string name="statistics_time_7days">7 Gün</string>
     <string name="title_searching_tab_team">Takım</string>
     <string name="title_searching_tab_market">Dükkan</string>
     <string name="title_searching_tab_user">Kullanıcı</string>
-
     <string name="user_search_empty_text">Eşleşen kullanıcı yok.</string>
     <string name="activity_title_search">Ara</string>
-
     <string name="hint_feedback_method_title">Geri bildirim</string>
     <string name="hint_feedback_method_desc">Lütfen [Hakkında]-[Geri Bildirim] sayfası aracılığıyla geri bildirimde bulunmaktan çekinmeyin. Acil bir sorununuz varsa lütfen bana e-posta yoluyla ulaşın.\n\nLifeUp bağımsız bir uygulamadır: Çeşitli cep telefonu modellerini ve sürümlerini test etmek bizim için zordur ve hataların önlenmesi zordur.\n\nBir sorunla karşılaşırsanız lütfen bize bildirin, böylece sorunu çözebiliriz.</string>
     <string name="switch_cloud_auto_backup_ignore_media">Medya/resim dosyalarını yoksay</string>
-
     <string name="backup_media_file_size">Toplam boyut: %1$s MB\n(Dosya 10 MB\'den büyükse bulut senkronizasyonunu etkinleştirirken medya dosyasının dikkate alınmaması önerilir)\nDükkan simgesi: %2$s MB\nBaşarı simgesi: %3$s MB\nGörev ekleri: %4$s MB\nDuygular:%5$s MB\n\nMedya dosyası yolu：%6$s\n\nAşağıdaki [Resim Yönetimi] işlevi kullanılmayan dosyaları filtrelemek ve silmek için kullanılabilir.</string>
     <string name="setting_task_quick_add_notification">Hızlı ekleme bildirimi</string>
     <string name="setting_task_quick_add_notification_desc">Görevlerinizi bildirim çubuğundan ekleyin\n(deneysel). Güç tüketimini artırabilir.</string>
     <string name="notification_quick_add_title">LifeUp Hızlı Ekle</string>
     <string name="notification_quick_add_desc">Görev eklemek için dokunun</string>
     <string name="pomodoro_setting_cannot_receive_reminders_title">Hatırlatıcı almıyor musunuz?</string>
-    <string name="pomodoro_setting_cannot_receive_reminders_desc">LifeUp'ın arka planda çalışabilmesi için işletim sistemi ayarlarını kontrol edin.\nHer işletim sisteminin farklı ayar yöntemleri vardır.\nLütfen ilgili bilgileri manuel olarak kontrol edin, bunları daha sonra bir belge halinde düzenleyeceğiz.</string>
+    <string name="pomodoro_setting_cannot_receive_reminders_desc">LifeUp\'ın arka planda çalışabilmesi için işletim sistemi ayarlarını kontrol edin.\nHer işletim sisteminin farklı ayar yöntemleri vardır.\nLütfen ilgili bilgileri manuel olarak kontrol edin, bunları daha sonra bir belge halinde düzenleyeceğiz.</string>
     <string name="item_stat_purcahse_times">Satın almalar</string>
     <string name="item_stat_used_times">Kullanımlar</string>
     <string name="item_stat_rewards_times">Ödüller</string>
     <string name="item_stat_gained_from_loot_boxes">Kutuları açma</string>
-
     <string name="custom_attribution_desc_dialog_title">Açıklamayı Özelleştir</string>
     <string name="custom_attribution_desc">TANIM</string>
-
     <string name="compact_config_display_only_task_name">Tüm ekstra bilgileri gizle</string>
     <string name="swipe_action_edit">Düzenlemek</string>
     <string name="swipe_action_timer">Zamanlayıcı</string>
@@ -1768,7 +1687,7 @@
     <string name="time_the_next_day">%1$s ertesi gün</string>
     <string name="setting_task_new_default_setting_desc">Yeni bir görev oluştururken varsayılan ayarları özelleştirin</string>
     <string name="backup_documents">\nYedekleme belgelerini görüntülemek için buraya dokunun\n</string>
-    <string name="not_recieve_reminders_hint">Hatırlatıcı almıyor musunuz? LifeUp'ın arka planda çalışmasına izin vermek için sistem ayarlarınızı kontrol edin.</string>
+    <string name="not_recieve_reminders_hint">Hatırlatıcı almıyor musunuz? LifeUp\'ın arka planda çalışmasına izin vermek için sistem ayarlarınızı kontrol edin.</string>
     <string name="btn_guide">REHBER</string>
     <string name="statistics_time_several_days">%1$d Gün</string>
     <string name="hint_number_picker">Hedef değeri doğrudan girmek için ortadaki sayıya dokunun</string>
@@ -1785,7 +1704,7 @@
     <string name="lab_icon_set_v2">Nitelikler Simge Seti 2.0</string>
     <string name="lab_new_icon_set_desc">Yeniden tasarlanan nitelik simgeleri.</string>
     <string name="menu_overdue">Gecikmiş</string>
-    <string name="hint_submit_activity">"Gönder" veya "Atla" işleminden sonra ödüller alırsınız ve görevi tamamlayamazsınız.\n\nGörevi tamamlamak istemiyorsanız "İptal" düğmesine dokunun.</string>
+    <string name="hint_submit_activity">\"Gönder\" veya \"Atla\" işleminden sonra ödüller alırsınız ve görevi tamamlayamazsınız.\n\nGörevi tamamlamak istemiyorsanız \"İptal\" düğmesine dokunun.</string>
     <string name="hint_edit_completed_time">İstatistik hesaplamalarındaki kusurlar nedeniyle tamamlanma süresini düzenlerseniz ve tekrarlanan görevlerin tamamlanma sırasını değiştirirseniz istatistikler anormal olabilir.\n\nLütfen bu hatayı düzeltmek için sonraki bir sürümü bekleyin.</string>
     <string name="cannot_edit_completed_task">Tamamlanan bir görev düzenlenemez</string>
     <string name="freeze_or_unfreeze">Dondur/Çöz</string>
@@ -1825,7 +1744,7 @@ Açmak için Dükkan-Envanter sayfasına (gezinme çubuğunun 4. konumu) gidin!<
     <string name="sample_task_using_days">LifeUp\'ı 7 gün boyunca kullanmak</string>
     <string name="sample_task_using_days_desc">Tekrarlanan görevinizin hedefini belirleyebilirsiniz.\nBaşarıları tamamen özelleştirebilirsiniz: örneğin, bu görevi ilk kez tamamladığınızda özel bir başarının kilidini açacaksınız.</string>
     <string name="example_user_achievement_detail_3">Yaşamı Geliştirmek</string>
-    <string name="example_user_achievement_detail_3_desc">Örnek görevi [LifeUp'ı 7 gün boyunca kullanma] bir kez (ilk gün) tamamlayın</string>
+    <string name="example_user_achievement_detail_3_desc">Örnek görevi [LifeUp\'ı 7 gün boyunca kullanma] bir kez (ilk gün) tamamlayın</string>
     <string name="hint_change_state_to_completed">Görev durumunu tamamlandı olarak değiştirmek için buraya dokunun</string>
     <string name="lab_smart_list_all_title">Tümü</string>
     <string name="lab_smart_list_all_desc">Tüm görevleri göster</string>
@@ -1843,26 +1762,20 @@ Açmak için Dükkan-Envanter sayfasına (gezinme çubuğunun 4. konumu) gidin!<
     <string name="btn_ignore">YOKSAY</string>
     <string name="sample_task_get_up_early">Erken kalk</string>
     <string name="sample_task_get_up_early_desc">Tekrarlanan bir görevin zaman aralığını sınırlamak için başlangıç zamanı ve son tarih zamanı ayarları kullanılabilir.\nBu arada, belirli bir süre (saat, dakika) olmadan varsayılan son tarih ertesi gün saat 0:00 olacaktır. Bu ayarı değiştirmek için ertesi gün istediğiniz belirli bir son tarihi belirleyebilirsiniz.</string>
-
     <!-- in xx days -->
     <string name="tag_deadline_v2_relative">%1$s içinde süresi dolacak</string>
     <string name="tag_deadline_v2_with_time">Süre: %1$s</string>
     <string name="tag_deadline_v2_with_date">Süre: %1$s</string>
     <!-- today/tomorrow/yesterday -->
     <string name="tag_deadline_v2_relative_special">Son teslim tarihi %1$s</string>
-
     <!-- in xx days -->
     <string name="tag_start_v2_relative">%1$s içinde başlayacak</string>
     <string name="tag_start_v2_with_time">Başlıyor: %1$s</string>
     <string name="tag_start_v2_with_date">Başlıyor: %1$s</string>
     <!-- today/tomorrow/yesterday -->
     <string name="tag_start_v2_relative_special">Başlıyor %1$s</string>
-
     <string name="relative_time_later_v2">%1$d gün</string>
-
-
     <string name="statistics_complete_count">Tamamlanan: %1$d</string>
-
     <string name="shop_statistics_this_year">Bu yıl</string>
     <string name="action_open_with_browser">Tarayıcı ile aç</string>
     <string name="place_holder_not_set">Ayarlanmadı</string>
@@ -1897,7 +1810,6 @@ Bir tekrarlama döngüsünde birden fazla görevi planlamanız gerekiyorsa sayma
     <string name="hint_shop_item_timer_hint_without_permission">Bildirim izinleri eksik, geri sayım bildirimi doğru şekilde gönderilememiş olabilir. Lütfen bildirim izinlerini verin.</string>
     <string name="btn_known_issues">Bilinen Sorunlar</string>
     <string name="hint_add_widget_system_version_not_supported">Mevcut sistem sürümü bu işlemi desteklemiyor.\nBaşlatıcıya manuel olarak widget eklemeyi deneyebilirsiniz.</string>
-
     <string name="statistics_overdue_count">Gecikilmiş: %1$d</string>
     <string name="statistics_give_up_count">Vazgeçilmiş: %1$d</string>
     <string name="vibrate_mode">Titreşim modu</string>
@@ -1929,7 +1841,6 @@ Bir tekrarlama döngüsünde birden fazla görevi planlamanız gerekiyorsa sayma
     <string name="add_to_do_min_before_start">Başlamasına %1$d dakika</string>
     <string name="add_to_do_hours_min_before_start">Başlamasına %1$d saat %2$d dakika</string>
     <string name="title_synthesis_page">Sentez</string>
-
     <string name="function_that_is_still_working_on">Bu özelliği geliştiriyoruz, lütfen güncellemeyi bekleyin ve tekrar deneyin~</string>
     <string name="title_synthetic_material">Sentetik malzeme</string>
     <string name="title_synthetic_result">Sentetik sonuç</string>
@@ -1941,7 +1852,7 @@ Bir tekrarlama döngüsünde birden fazla görevi planlamanız gerekiyorsa sayma
     <string name="title_module_config">Modül Yapılandırması</string>
     <string name="hint_alpha_version">alfa testi sürümü sayfası\n[Lab] ekranına geçiş yapın</string>
     <string name="lab_new_task_page_code_refactoring">Yeni görev sayfası kodunun yeniden düzenlenmesi</string>
-    <string name="lab_new_tasks_refactor_desc">Uygulamayı genişletilebilir ve bakımı yapılabilir kılmak için "yeni öğe" ve "öğeyi düzenle" sayfalarının kodunu yeniden yazıyoruz. Sayfanın kullanıcı arayüzü henüz değişmedi. Alfa sürümü sayfasında herhangi bir sorunla karşılaşırsanız lütfen bize bir e-posta gönderin! Üstelik dilediğiniz zaman eski sürüme geçebilirsiniz.</string>
+    <string name="lab_new_tasks_refactor_desc">Uygulamayı genişletilebilir ve bakımı yapılabilir kılmak için \"yeni öğe\" ve \"öğeyi düzenle\" sayfalarının kodunu yeniden yazıyoruz. Sayfanın kullanıcı arayüzü henüz değişmedi. Alfa sürümü sayfasında herhangi bir sorunla karşılaşırsanız lütfen bize bir e-posta gönderin! Üstelik dilediğiniz zaman eski sürüme geçebilirsiniz.</string>
     <string name="dialog_module_select_title">Modül Seçimi</string>
     <string name="setting_module_config">Modül konfigürasyonu</string>
     <string name="setting_display_module_config_desc">Alt gezinme çubuğu modülü yapılandırması.\n\"Dünya\" ve \"Ben\" modüllerini gizlemek gibi ihtiyacınız olmayan modülleri serbestçe gizleyin ve diğer birinci düzey işlevsel modüllerle değiştirilebilir (kısmen desteklenir).</string>
@@ -1954,7 +1865,7 @@ Bir tekrarlama döngüsünde birden fazla görevi planlamanız gerekiyorsa sayma
     <string name="button_skip">ATLA</string>
     <string name="pomodoro_dialog_skip_message">Gerçekten atlamak istiyor musun? \nTam bir domates elde etme fırsatını kaybedeceksiniz. İsterseniz duraklatmayı seçebilirsiniz…</string>
     <string name="starter_task_check_unstarted_task">Başlatılmayan görevleri kontrol edin</string>
-    <string name="starter_task_check_unstarted_task_desc">Kullanılabilir zaman diliminde olmayan görevler kapatılacaktır. Görevin alt kısmında "erken kalkma" görevini görmüyorsanız alttaki aç butonuna (üçgen) dokunmayı deneyin.</string>
+    <string name="starter_task_check_unstarted_task_desc">Kullanılabilir zaman diliminde olmayan görevler kapatılacaktır. Görevin alt kısmında \"erken kalkma\" görevini görmüyorsanız alttaki aç butonuna (üçgen) dokunmayı deneyin.</string>
     <string name="dialog_coin_input_btn_fixed">Sabit</string>
     <string name="dialog_coin_input_btn_auto">Oto</string>
     <string name="dialog_coin_input_btn_random">Rastgele</string>
@@ -1974,7 +1885,7 @@ Bir tekrarlama döngüsünde birden fazla görevi planlamanız gerekiyorsa sayma
     <string name="coffee_list_not_found_or_empty">Kahve listesini bulamadık, lütfen daha sonra tekrar deneyin.</string>
     <string name="coffee_anonymous_coffee">İsimsiz kahve</string>
     <string name="coffee_anonymous_coffee_desc">Şu anda oturum açmamışsınız gibi görünüyor, kahve almaya devam etmek istediğinizden emin misiniz?</string>
-    <string name="about_app_desc">"Hayatınızı iyileştirin"\nBağımsız olarak geliştirilen, saf ve son derece özelleştirilebilir, oyunlaştırılmış bir "Yapılacaklar Listesi" ve "Alışkanlık oluşturma" uygulaması</string>
+    <string name="about_app_desc">\"Hayatınızı iyileştirin\"\nBağımsız olarak geliştirilen, saf ve son derece özelleştirilebilir, oyunlaştırılmış bir \"Yapılacaklar Listesi\" ve \"Alışkanlık oluşturma\" uygulaması</string>
     <string name="about_not_found_email_app">Posta uygulaması başlatılamadı</string>
     <string name="about_not_found_app">Uygulama başlatılamadı</string>
     <string name="feature_1780">Kilit Açma Durumu</string>
@@ -1985,7 +1896,7 @@ Bir tekrarlama döngüsünde birden fazla görevi planlamanız gerekiyorsa sayma
     <string name="feature_1810_desc">- Günlük Liste\n- Haftalık Liste\n- Aylık Liste</string>
     <string name="feature_1820">Sentez</string>
     <string name="feature_1820_desc">- N\'den N\'ye sentez sistemi için tam destek</string>
-    <string name="coffee_failed_to_connect_the_google_iap">Google Play'den kahve listesi isteyemiyoruz, hata kodu: %1$d</string>
+    <string name="coffee_failed_to_connect_the_google_iap">Google Play\'den kahve listesi isteyemiyoruz, hata kodu: %1$d</string>
     <string name="btn_feedback_questions">Sorular</string>
     <string name="btn_feedback_bugs">Hatalar</string>
     <string name="btn_feedback_feature">Özellikler</string>
@@ -2009,12 +1920,10 @@ Bir tekrarlama döngüsünde birden fazla görevi planlamanız gerekiyorsa sayma
     <string name="calendar_display_name_lifeup_reminder">LifeUp Hatırlatıcısı</string>
     <string name="permission_calendar_request_title">Takvim izni gerekli.</string>
     <string name="permission_calendar_request_message">Takvim hatırlatma yöntemine hatırlatma zamanını eklemek veya güncellemek için takvim izni gereklidir.</string>
-    <string name="permission_calendar_request_go_to_settings_message"><![CDATA[Please enable Settings > Permissions > Calendar to use the calendar reminder method.]]></string>
     <string name="permission_camera_request_title">Kamera izni gerekli.</string>
     <string name="permission_camera_request_message">Fotoğraf çekme şeklinde fotoğraf seçebilmek için kamera izni gerekmektedir.</string>
-    <string name="permission_camera_request_go_to_settings_message"><![CDATA[Please enable Settings > Permissions > Camera to select pictures in the form of taking pictures.]]></string>
     <string name="permission_common_go_to_settings_title">İzin vermek için uygulamanın ayarlar sayfasına gidin</string>
-    <string name="switch_auto_backup_to_download_dir">Dosyaları "indirme" klasörüne otomatik olarak yedekleyin\n(deneysel, Android 10 ve üzeri gereklidir)</string>
+    <string name="switch_auto_backup_to_download_dir">Dosyaları \"indirme\" klasörüne otomatik olarak yedekleyin\n(deneysel, Android 10 ve üzeri gereklidir)</string>
     <string name="xml_clear_system_achievements">Sistem Başarı Verilerini Temizle</string>
     <string name="xml_clear_system_achievements_desc">Tüm sistem başarılarını kilitli duruma döndürün.\nÖzel başarıların kilidinin açılması nesnel istatistiklere dayanır ve kilidi açılan başarıların doğrudan kurtarılmasını desteklemez.</string>
     <string name="timer_preference_remind_title">Hatırlatıcı</string>
@@ -2024,15 +1933,8 @@ Bir tekrarlama döngüsünde birden fazla görevi planlamanız gerekiyorsa sayma
     <string name="sort_coin">Bozukluk</string>
     <string name="permission_activity_recognition_request_title">Etkinlik Tanıma izni gerekli.</string>
     <string name="permission_activity_recognition_request_message">Günlük adımları hesaplamak için aktivite tanıma izni gereklidir.\nBu isteğe bağlı bir özelliktir; ayrıca adım sayısını manuel olarak girmeyi veya modülü gizlemeyi de seçebilirsiniz.</string>
-
     <string name="starter_task_compatibility">Uyumluluk yapılandırması</string>
     <string name="starter_task_compatibility_desc">LifeUp\'ın hatırlatma, pomodoro, uygulama widget\'ları, geri sayım vb. bazı işlevlerini kullanmak için bazı yapılandırma çalışmaları için bu makaleye başvurmanız gerekebilir.: https://wiki.lifeupapp.fun/en/#/guide/background_running</string>
-    <string name="hint_login_method">this_string_only_available_in_specific_language_hint_login_method</string>
-    <string name="hint_login_method_desc">this_string_only_available_in_specific_language_hint_login_method_desc</string>
-    <string name="hint_login_method2">this_string_only_available_in_specific_language_hint_login_method2</string>
-    <string name="hint_login_method_desc2">this_string_only_available_in_specific_language_hint_login_method_desc2</string>
-    <string name="zh_feedback_method">this_string_only_available_in_specific_language_zh_feedback_method</string>
-    <string name="zh_feedback_method_txc">this_string_only_available_in_specific_language_zh_feedback_method_txc</string>
     <string name="zh_feedback_method_internal">Uygulama içi geri bildirim</string>
     <string name="error_msg_device_not_support_login_method">Cihaz bu giriş yöntemini desteklemiyor</string>
     <string name="login_v2_connect_to_the_world_module">Dünya modülüne bağlanın</string>
@@ -2047,18 +1949,13 @@ Bir tekrarlama döngüsünde birden fazla görevi planlamanız gerekiyorsa sayma
     <string name="brvah_loading">Yükleniyor...</string>
     <string name="to_do_item_detail_pushiment_give_up_message">Cezayı kabul etmek istediğinizden emin misiniz?\n(*Şu anda ceza görevleri doğrudan geri almayı desteklemiyor ancak ödülleri geri almak için geçmiş sayfasına gidebilir ve bunu tamamlandı durumuna ayarlayabilirsiniz)</string>
     <string name="hint_punishment_task">Olumsuz Görev</string>
-    <string name="hint_punishment_task_desc">(Deneysel fonksiyon, bu fonksiyonda eksik fonksiyon istatistikleri ve verimsizlik sorunu olabilir. Sorunla karşılaşırsanız geliştiricilere geri bildirimde bulunabilirsiniz)\n\nNegatif görevler, yalnızca ceza gerektiren görevleri ifade eder ve kötü alışkanlık kayıtlarına ulaşmak için genellikle "sınırsız" tekrarlama sıklığıyla kullanılabilir.\n\nNegatif görev varsayılan olarak "vazgeç" işlemini yürütecektir.\n\nDeneyim puanları ve bozuklukların ceza katsayısı da 1 olarak ayarlanacak.\nBelirlediğiniz exp değeri ve altın ödül değeri nihai ceza değeridir.\n\nNot: Bu öğe hâlâ bir ödüldür. Bazı cezalandırıcı öğeler ayarlayabilirsiniz.</string>
+    <string name="hint_punishment_task_desc">(Deneysel fonksiyon, bu fonksiyonda eksik fonksiyon istatistikleri ve verimsizlik sorunu olabilir. Sorunla karşılaşırsanız geliştiricilere geri bildirimde bulunabilirsiniz)\n\nNegatif görevler, yalnızca ceza gerektiren görevleri ifade eder ve kötü alışkanlık kayıtlarına ulaşmak için genellikle \"sınırsız\" tekrarlama sıklığıyla kullanılabilir.\n\nNegatif görev varsayılan olarak \"vazgeç\" işlemini yürütecektir.\n\nDeneyim puanları ve bozuklukların ceza katsayısı da 1 olarak ayarlanacak.\nBelirlediğiniz exp değeri ve altın ödül değeri nihai ceza değeridir.\n\nNot: Bu öğe hâlâ bir ödüldür. Bazı cezalandırıcı öğeler ayarlayabilirsiniz.</string>
     <string name="task_type_penalty">Olumsuz Görev (deneysel)</string>
     <string name="to_do_item_action_deadline">Son teslim tarihi</string>
     <string name="vibrate_custom">Özel</string>
     <string name="vibrate_custom_desc">Bu, titreşim aralığını ayarlamak için kullanılan gelişmiş bir işlevdir.\n\nSayının birimi milisaniyedir, yani 1000 1 saniyeyi temsil eder.\n\nSayılar boşluklarla ayrılmıştır; tek sayılar titreşimin olmadığı süreyi, çift sayılar ise titreşimin süresini temsil eder.\n\nÖrneğin, 500 1000 500 2000, temsilci 0,5 saniye sonra 1 saniye titreyecek, ardından 0,5 saniye duraklayacak ve ardından 2 saniye titreyecektir.</string>
     <string name="alarm_v2_message_ticker">Yapılacak: %1$s</string>
     <string name="login_last_login_method">Son giriş yöntemi: %1$s</string>
-    <string name="login_method_google">Google</string>
-    <string name="login_method_qq">QQ</string>
-    <string name="login_method_facebook">Facebook</string>
-    <string name="login_method_weibo">Weibo</string>
-    <string name="login_method_yiban">Yiban</string>
     <string name="dialog_decrease_title_penalty">Ceza</string>
     <string name="shop_item_detail_title_effect">Efektler</string>
     <string name="common_error_message">Hata: %1$s</string>
@@ -2078,14 +1975,13 @@ Bir tekrarlama döngüsünde birden fazla görevi planlamanız gerekiyorsa sayma
     <string name="custom_attribution_menu_show_hidden">Gizlenenleri göster</string>
     <string name="custom_attribution_action_enable">ETKİNLEŞTİR</string>
     <string name="add_to_do_hint_please_input_subtasks">Lütfen önce alt görevi girin</string>
-    <string name="backup_file_size_alarm_desc">Yedekleme dosyanızın boyutunun 10 MB'tan büyük olduğunu tespit ettik.\nBu, mobil veri trafiğinizi ve sunucu kaynaklarınızı ciddi şekilde tüketebilir.\n\n<b>Öneri: Yedekleme sayfasına gidin ve "Medya dosyalarını yoksay" seçeneğini ayarlayın veya otomatik yedekleme sıklığını azaltın.</b></string>
+    <string name="backup_file_size_alarm_desc">Yedekleme dosyanızın boyutunun 10 MB\'tan büyük olduğunu tespit ettik.\nBu, mobil veri trafiğinizi ve sunucu kaynaklarınızı ciddi şekilde tüketebilir.\n\n<b>Öneri: Yedekleme sayfasına gidin ve \"Medya dosyalarını yoksay\" seçeneğini ayarlayın veya otomatik yedekleme sıklığını azaltın.</b></string>
     <string name="dialog_backup_file_size_alarm_title">Yedekleme Dosya Boyutu</string>
     <string name="pomo_eat_exp">Yemekten kazanılan deneyim puanları</string>
     <string name="pomo_eat_exp_summary">100 puan</string>
     <string name="pomo_eat_attr_selection">Ödül niteliği</string>
     <string name="action_copy">Kopyala</string>
     <string name="hint_dropbox_token_expired_or_empty">[Yedekle] sayfasında dropbox yedeklemesini yeniden yapılandırmanız gerekebilir.</string>
-
     <!-- from the picture selections/showing framework -->
     <string name="bga_pp_all_image">Tüm resimler</string>
     <string name="bga_pp_choose">Seç</string>
@@ -2095,11 +1991,9 @@ Bir tekrarlama döngüsünde birden fazla görevi planlamanız gerekiyorsa sayma
     <string name="bga_pp_save_img_success_folder">Resim %s klasörüne kaydedildi</string>
     <string name="bga_pp_toast_photo_picker_max">Yalnızca en fazla %1$d resim seçebilirsiniz</string>
     <string name="bga_pp_view_photo">Görüntüle</string>
-
     <string name="tag_repeat_custom_days">Tekrarla - Her %1$d günde bir</string>
     <string name="add_to_do_custom_days">Her %1$d günde bir</string>
     <string name="custom_attribution_dialog_message">Özelleştirilmiş içerik sunucuya yüklenmeyecek ve dünya modülünün ve profil sayfasının görünümünü etkilemeyecektir.</string>
-
     <string name="feedback_method_dialog_title">Geri bildirim kanalları</string>
     <string name="feedback_method_internal">Uygulama içi geri bildirim</string>
     <string name="feedback_method_github">Github sorunları</string>
@@ -2165,7 +2059,6 @@ Bir tekrarlama döngüsünde birden fazla görevi planlamanız gerekiyorsa sayma
     <string name="backup_restore_failed_message">Dosya geri yüklenemedi: %1$s.\n\nKurtarma işlemini doğrudan dosya yöneticisi aracılığıyla gerçekleştirmek için yedekleme dosyasını seçtiyseniz, dosya yöneticisi LifeUp\'a dosya okuma ve yazma izinlerini doğru şekilde vermemiş olabilir.\n\n[Geri Yükle] düğmesine tıklayarak bu sayfadaki özel bir yoldan geri yüklemeyi deneyebilirsiniz.</string>
     <string name="login_sign_up_confirm_dialog_title">Kayıt Ol</string>
     <string name="login_sign_up_confirm_dialog_message">Bu yetkilendirme yöntemiyle bir hesap kaydetmediniz.\n\nLifeUp hesabınıza kaydolmaya devam etmek istiyor musunuz?</string>
-    <string name="cloud_backup_method_google_drive">Google Drive</string>
     <string name="title_picture_manager_page">Resim</string>
     <string name="pic_dir_name_attr">Nitelikler</string>
     <string name="pic_dir_name_shop">Dükkan</string>
@@ -2202,8 +2095,6 @@ Bir tekrarlama döngüsünde birden fazla görevi planlamanız gerekiyorsa sayma
     <string name="dialog_license_not_allow_title">Lisans doğrulaması başarısız oldu</string>
     <string name="btn_backup">YEDEKLEME</string>
     <string name="btn_purchase">SATIN ALMA</string>
-    <string name="dialog_license_not_allow_message"><![CDATA[The Play Store has detected that you do not own the app. <br/>If you actually not own the app, or your Play Pass has expired, please consider purchasing our app, it/\'s a one-time purchase. <br/>You can jump to the backup page to export your data. <br/><br/>If this pop-up window still pops up after you have purchased our app, it may be due to an incorrect Google account on your device, an abnormal cache in the Play Store, or your device cannot connect to the Google server. <br/>Please check the following links and consult Google Play Support:<br/><a href=\"https://support.google.com/googleplay/answer/7513003?hl=en&amp;ref_topic=3237689\">https://support.google.com/googleplay/answer/7513003?hl=en&amp;ref_topic=3237689</a>]]></string>
-    <string name="lab_material_you">Material You (Material Design 3)</string>
     <string name="lab_material_you_desc">Yeni Materyal tasarım dili (tamamen uyarlanmadı).</string>
     <string name="pic_dir_name_achievement_list">Başarı Listesi</string>
     <string name="pic_dir_name_achievement">Başarı</string>
@@ -2215,11 +2106,11 @@ Bir tekrarlama döngüsünde birden fazla görevi planlamanız gerekiyorsa sayma
     <string name="inventory_sort_follow_shop_custom_sort">Dükkan özel sıralamasını takip edin</string>
     <string name="inventory_sort_follow_shop_custom_sort_desc">(deneyseldir, şu anda [tümü] listesi için geçerli değildir)</string>
     <string name="action_star">Yıldızla</string>
-    <string name="setting_delete_calendar_account_confirm_message">LifeUp'ın takvim hatırlatma hesabını silmek istediğinizden emin misiniz?\n\nHala takvim hatırlatma yöntemini kullanıyorsanız hesap yeniden oluşturulabilir.</string>
+    <string name="setting_delete_calendar_account_confirm_message">LifeUp\'ın takvim hatırlatma hesabını silmek istediğinizden emin misiniz?\n\nHala takvim hatırlatma yöntemini kullanıyorsanız hesap yeniden oluşturulabilir.</string>
     <string name="action_unstar">Yıldızı kaldır</string>
     <string name="add_to_do_weekdays_repeat_alert_hint">Görevin başlangıç zamanı ile bitiş tarihi aynı gün değil, tekrarlama etkisi beklentilerinizi karşılamayabilir, lütfen ayarları kontrol ediniz.</string>
     <string name="add_task_continue_to_add_next">Sonraki görevi eklemeye devam et</string>
-    <string name="restore_failed_due_to_auto_backup">Mevcut durum yedeklenemedi ("geri yükleme" işlemini geri almak için), uygulamayı yeniden başlatmayı deneyebilirsiniz.</string>
+    <string name="restore_failed_due_to_auto_backup">Mevcut durum yedeklenemedi (\"geri yükleme\" işlemini geri almak için), uygulamayı yeniden başlatmayı deneyebilirsiniz.</string>
     <string name="task_action_freeze_keep">süresiz olarak</string>
     <string name="task_action_freeze_until">kadar…</string>
     <string name="starter_task_quick_start">Başlayın</string>
@@ -2254,14 +2145,13 @@ Bir tekrarlama döngüsünde birden fazla görevi planlamanız gerekiyorsa sayma
     <string name="random_tasks_page_desc">Olumlu ve ilginç görevleri keşfedin veya yayınlayın</string>
     <string name="ramdom_tasks_button_receive">Al</string>
     <string name="ramdom_tasks_button_edit">Düzenle</string>
-    <string name="ramdom_tasks_poster">Poster: %1$s</string>
     <string name="random_tasks_receive_list">Listeyi al: %1$s</string>
     <string name="random_tasks_filter_created_by_me">Benim tarafımdan oluşturuldu</string>
     <string name="random_tasks_empty_list">Görev bulunamadı</string>
     <string name="add_to_do_end_time_early_than_current_time">Son tarih şu anki saatten daha geç olmalıdır</string>
-    <string name="auto_backup_to_download_dir_desc">Yedekleme dosyasının adı "LifeUpBackup.zip" olup, uygulama kaldırıldıktan sonra da saklanabilir. Geri yüklenecek yolu manuel olarak seçmeniz gerekir.\nAncak yine de cihazın zarar görmesi gibi durumlarda veri kaybı riski bulunmaktadır. </string>
+    <string name="auto_backup_to_download_dir_desc">Yedekleme dosyasının adı \"LifeUpBackup.zip\" olup, uygulama kaldırıldıktan sonra da saklanabilir. Geri yüklenecek yolu manuel olarak seçmeniz gerekir.\nAncak yine de cihazın zarar görmesi gibi durumlarda veri kaybı riski bulunmaktadır. </string>
     <string name="dialog_backup_not_setting">Yedekleme</string>
-    <string name="dialog_backup_not_setting_desc">Şu anda bir yedekleme ayarlamadınız; bu, LifeUp\'ın kaldırılması veya cihazın hasar görmesi durumunda veri kaybına neden olabilir. \n\nAşağıdaki yedekleme yöntemlerini ayarlamak için yedekleme sayfasına gitmeniz önerilir:\n1. [Önerilen] WebDAV (Nut Cloud), Google Drive ve DropBox bulut yedekleme yöntemlerini ayarlayın.\nNeredeyse tüm kayıp riskleri önlenir ve veriler birden fazla cihaz arasında senkronize edilebilir.\n\n2. [İsteğe bağlı] Android 10 veya üzeri, kaldırma sırasında veri kaybını önlemek için "İndirilenler" klasörüne otomatik yedeklemenin ayarlanmasını destekler\n\n3. [İsteğe Bağlı] Verileri manuel olarak bir dosya formatına aktarın ve herhangi bir dosyayla senkronize edin. Ağ diski, bilgisayara dosya aktarımı vb. gibi yedekleme yolları.</string>
+    <string name="dialog_backup_not_setting_desc">Şu anda bir yedekleme ayarlamadınız; bu, LifeUp\'ın kaldırılması veya cihazın hasar görmesi durumunda veri kaybına neden olabilir. \n\nAşağıdaki yedekleme yöntemlerini ayarlamak için yedekleme sayfasına gitmeniz önerilir:\n1. [Önerilen] WebDAV (Nut Cloud), Google Drive ve DropBox bulut yedekleme yöntemlerini ayarlayın.\nNeredeyse tüm kayıp riskleri önlenir ve veriler birden fazla cihaz arasında senkronize edilebilir.\n\n2. [İsteğe bağlı] Android 10 veya üzeri, kaldırma sırasında veri kaybını önlemek için \"İndirilenler\" klasörüne otomatik yedeklemenin ayarlanmasını destekler\n\n3. [İsteğe Bağlı] Verileri manuel olarak bir dosya formatına aktarın ve herhangi bir dosyayla senkronize edin. Ağ diski, bilgisayara dosya aktarımı vb. gibi yedekleme yolları.</string>
     <string name="btn_skip">ATLA</string>
     <string name="to_do_item_no_deadline">Son tarih yok</string>
     <string name="settings_subtitle_config">Yapılandırma</string>
@@ -2286,7 +2176,7 @@ Bir tekrarlama döngüsünde birden fazla görevi planlamanız gerekiyorsa sayma
     <string name="profile_logout_offline_mode">Çevrimdışı Modundan Çıkış Yapın</string>
     <string name="task_action_freeze_instruction">Bu nedir</string>
     <string name="task_action_freeze_instruction_title">Dondur</string>
-    <string name="task_action_freeze_instruction_desc">Dondurulmuş görevler, gecikme ve ceza kayıtları oluşturmaz.\nVe tekrarlanan bir görevin yapılamadığı bir süre için geçerlidir.\n\nDondurulan zaman, sonu da içerir.\nÖrneğin, 5 Mayıs 2023'e kadar <i>dondurulursa</i>. 6 Mayıs 00:00\'da donma çözülecek.</string>
+    <string name="task_action_freeze_instruction_desc">Dondurulmuş görevler, gecikme ve ceza kayıtları oluşturmaz.\nVe tekrarlanan bir görevin yapılamadığı bir süre için geçerlidir.\n\nDondurulan zaman, sonu da içerir.\nÖrneğin, 5 Mayıs 2023\'e kadar <i>dondurulursa</i>. 6 Mayıs 00:00\'da donma çözülecek.</string>
     <string name="dialog_item_detail_focus_toast">Seçilen duruma doğrudan girmek için karta uzun basın böylece sağ üst köşede düzenleme gibi işlemleri gerçekleştirebilirsiniz.</string>
     <string name="btn_achievement_add_unlock_condition">Koşul Ekle</string>
     <string name="pic_dir_name_feelings">Duygular</string>
@@ -2307,14 +2197,130 @@ Bir tekrarlama döngüsünde birden fazla görevi planlamanız gerekiyorsa sayma
     <string name="hint_add_feelings">Duyguları ekleyin</string>
     <string name="hint_add_feelings_desc">1. Bir görev veya başarı için [Duygular] anahtarını açtıktan sonra, görevi tamamladıktan veya başarının kilidini açtıktan sonra otomatik olarak bir duygu giriş kutusu açılacaktır.</string>
     <string name="hint_add_feelings_desc_02">2. [Geçmiş], [Başarılar] ve [Takvim (Sonlandı)] sayfalarında istediğiniz zaman görevlere veya başarılara Duygular ekleyebilirsiniz.</string>
-    <string name="hint_add_feelings_desc_03">Örneğin basit bir günlük tutmak istiyorsanız günlük günlük görevi oluşturabilirsiniz.\n\nVeya istediğiniz zaman bir şeyler yazmak istiyorsanız Sınırsız Görevler'i kullanabilirsiniz.</string>
+    <string name="hint_add_feelings_desc_03">Örneğin basit bir günlük tutmak istiyorsanız günlük günlük görevi oluşturabilirsiniz.\n\nVeya istediğiniz zaman bir şeyler yazmak istiyorsanız Sınırsız Görevler\'i kullanabilirsiniz.</string>
     <string name="world_module_not_login">Dünyadaki kullanıcılar tarafından oluşturulan görevlere, ekiplere ve ürün tasarımlarına erişmek için giriş yapın</string>
     <string name="add_user_achievement_condition_desc">Koşulların ayarlanması, LifeUp\'ın uygulamadaki çeşitli ilerlemeleri otomatik olarak izlemesine, hesaplamasına ve sistem başarımları gibi, kilitleri açarken sizi uyarmasına olanak tanır.\nBu isteğe bağlıdır; kilit açma koşulları olmayan başarıların, kilit açma için manuel olarak işaretlenmesi gerekir.</string>
     <string name="dialog_amazon_not_allow_title">Denemenin sonu</string>
-    <string name="dialog_amazon_not_allow_message"><![CDATA[If you have not purchased the app, please consider purchasing our app, it is one-time.<br/>You need the Pro version in Google Play, Amazon AppStore, or purchase an in-app membership redemption code. <br/><br/>You can jump to the backup page to export your data.]]></string>
     <string name="user_type_free_trial">Ücretsiz deneme</string>
+    <string name="pomodoro_keep_screen_on_enable">Etkinleştir</string>
+    <string name="pomodoro_keep_screen_on_disable">Devre Dışı Bırak</string>
+    <string name="default_exp">Dp</string>
+    <string name="menu_shop_add_limit_amount">miktar</string>
+    <string name="add_to_do_words_reward_dialog_title">Kelimeler</string>
+    <string name="dialog_sub_task_exp_settings">Dp</string>
+    <string name="dialog_shop_count_down_title">Geri sayım</string>
+    <string name="pomodoro_record_start_time">Başla</string>
+    <string name="pomodoro_record_end_time">Son</string>
+    <string name="btn_reset">Sıfırla</string>
+    <string name="hint_pomodoro_config_hint">Uyumluluk yapılandırması</string>
+    <string name="task_completed_status">Tamamlandı</string>
+    <string name="custom_sound_effect_give_up_task">vazgeç</string>
+    <!-- date time picker -->
+    <string name="md_previous">ÖNCEKİ</string>
+    <string name="md_next">SONRAKİ</string>
+    <string name="timer_preference_auto_title">Oto</string>
     <plurals name="duration_days_relative">
         <item quantity="other">%d gün önce</item>
         <item quantity="one">%d gün önce</item>
     </plurals>
+    <string name="add_widget">Widget Ekle</string>
+    <string name="login_method_wechat">Wechat</string>
+    <string name="statistic_v2_title_tasks">Görevler</string>
+    <string name="statistic_v2_title_coins">Bozukluklar</string>
+    <string name="statistic_v2_title_attributes">Nitellikler</string>
+    <string name="statistic_v2_title_pomodoro">Pomodoro</string>
+    <string name="statistics_v2_timerange_custom">Özel</string>
+    <string name="statistics_v2_timerange_yesterday">Dün</string>
+    <string name="statistics_v2_timerange_all">Hepsi</string>
+    <string name="statistic_v2_title_feelings">İzlenimler</string>
+    <string name="statistic_v2_tomatoes_gain_average_per_day">$number/gün</string>
+    <string name="statistic_v2_pomodoro_focus_time_average_per_day">$number/gün</string>
+    <string name="statistic_v2_coin_average_per_day">$number/gün</string>
+    <string name="statistic_v2_subtitle_atm_interest">ATM faizi</string>
+    <string name="statistic_v2_item_filter_button_use">Kullan</string>
+    <string name="btn_share">Paylaş</string>
+    <string name="statistic_v2_title_achievements">Başarılar</string>
+    <string name="dialog_share_title">Paylaş</string>
+    <string name="share_title_app_name">LifeUp</string>
+    <string name="dialog_title_confirm_confirm">Onaylamak</string>
+    <string name="statistic_v2_title_other">Diğer</string>
+    <string name="settings_display_material_you_dynamic_color">Materyal Sen dinamik tema renkleri</string>
+    <string name="settings_display_material_you_dynamic_color_desc">Tamamen özelleştirilebilir dinamik renkleri etkinleştirin (yalnızca Android 12+ üzerindeki bazı cihazlarda desteklenir).</string>
+    <string name="settings_display_material_you_dynamic_color_mode">Dinamik renk modu</string>
+    <string name="settings_display_material_you_dynamic_color_mode_wallpaper_desc">Sistem duvar kağıdından</string>
+    <string name="setting_display_subtitle_theme">Tema</string>
+    <string name="settings_display_material_you_dynamic_color_mode_singlecolor_desc">Belirtilen renk</string>
+    <string name="settings_display_material_you_dynamic_color_mode_bitmap_desc">Resimlerden renkler</string>
+    <string name="settings_display_material_you_dynamic_color_mode_seed">Tohum rengi (belirtildi/resim): %1$s</string>
+    <string name="history_filter_list">Liste</string>
+    <string name="history_filter_date">Tarih</string>
+    <string name="history_filter_state">Görev Durumu</string>
+    <string name="history_filter_name">İsim</string>
+    <string name="history_filter_dialog_title">Geçmişi Filtrele</string>
+    <string name="history_filter_name_dialog_title">Geçmişi Ara</string>
+    <string name="history_filter_name_dialog_hint">Ürün Adı</string>
+    <string name="to_do_detail_statistics_repeat_chart_type_start_date">Başlangıç Tarihi</string>
+    <string name="to_do_detail_statistics_repeat_chart_type_deadline">Varsayılan Son Tarih</string>
+    <string name="to_do_detail_statistics_repeat_chart_type_complete_date">Tamamlanma Tarihi</string>
+    <string name="custom_attribution_action_disable">KAPAT</string>
+    <string name="attribute_hide_dialog_title">Devre Dışı Bırak</string>
+    <string name="add_achievement_continue_to_add_next">Bir sonraki başarımı eklemeye devam et</string>
+    <string name="add_user_achievement_successfully">Başarı başarıyla eklendi!</string>
+    <string name="add_user_achievement_failed">Başarı eklenemedi, lütfen tekrar deneyin...</string>
+    <string name="edit_user_achievement_failed">Başarı düzenlenemedi, lütfen tekrar deneyin...</string>
+    <string name="add_achievement_secret_achievement">Bu gizli bir başarıdır (kilidi açılıncaya kadar ayrıntılar gizlenir)</string>
+    <string name="achievement_secret_desc">LifeUp\'u keşfetmeye devam et, belki de bu başarıyı başarıyla kilitleyeceksin...</string>
+    <string name="dialog_title_confirm_edit_secret_achievement">Gizli Başarıları Düzenle</string>
+    <string name="dialog_desc_confirm_edit_secret_achievement">Bu bir gizli başarıdır.\n\nDüzenlemeye devam etmek istediğinizden emin misiniz?</string>
+    <string name="override">Geçersiz kılma</string>
+    <string name="override_task_template">Geçersiz kılma</string>
+    <string name="override_task_template_message">Bu şablonu geçersiz kılmak istediğinize emin misiniz?</string>
+    <string name="dialog_title_delete_task_template">Sil</string>
+    <string name="dialog_delete_task_template_message">Bu görev şablonunu silmek istediğinize emin misiniz?</string>
+    <string name="rename_task_template">Yeniden Adlandır</string>
+    <string name="add_task_template">Şablon Oluştur</string>
+    <string name="add_task_template_desc">Geçerli görev ayarlarınızı bir şablon olarak kaydedin.</string>
+    <string name="dialog_title_task_template">Görev Şablonları</string>
+    <string name="dialog_save_new_task_template">Yeni şablon olarak kaydet</string>
+    <!-- v1.94.0 -->
+    <string name="title_inventory_app_widget">Envanter - %1$s</string>
+    <string name="app_inventory_widget_description">Envanter öğelerinizi gösteren bir widget.</string>
+    <string name="dialog_input_exp_alert_not_select_attribute">Mevcut etkili özelliği en az birinin işaretlenmesi gerekiyor</string>
+    <string name="task_type_api">API görevi</string>
+    <string name="hint_api_task">API görevi</string>
+    <string name="hint_api_task_desc">API görev türü özellikle otomatikleştirilmiş işlemler için tasarlanmıştır.\n\nLütfen unutmayın, bu görev türü manuel olarak tamamlanamaz.\n\nYalnızca bir API çağrısı aracılığıyla tamamlanması desteklenir.</string>
+    <string name="api_task_cannot_manual_complete">Bu görev API görev türüne aittir ve manuel tamamlamayı desteklemez.</string>
+    <string name="lab_smart_timezone_management_title">Akıllı Saat Dilimi Yönetimi</string>
+    <string name="lab_smart_timezone_management_desc">Akıllı Saat Dilimi Yönetimini etkinleştirerek görevlerinizi coğrafi konumunuzla senkronize edin. Uygulama, zaman dilimlerini değiştirdiğinizde otomatik olarak algılar ve her görevin doğruluğunu sağlamak için zamanlamaları ayarlamanızı isteyerek sizden istemler.\n\nTüm görevler için zamanlama ayarlarını manuel olarak değiştirmek isterseniz, basit bir işlemle zaman dilimi değişikliklerine kolayca uyum sağlarsınız.</string>
+    <string name="lab_timezone_auto_management">Zaman Dilimini Otomatik Algıla</string>
+    <string name="lab_lifeup_timezone_adjust_task_timings">Görev Zamanlamalarını Elle Ayarla</string>
+    <string name="dialog_time_zone_manage_title">Akıllı Saat Dilimi Yönetimi</string>
+    <string name="dialog_time_zone_manage_desc">Zaman diliminizde bir değişiklik fark ettik:\n\nÖnceki Saat Dilimi - %1$s\nGeçerli Saat Dilimi - %2$s\n\nTüm görev zamanlamalarını senkronize etmek ve güncellemek istediğinizden emin misiniz? Onaylama, tüm tamamlanmamış görevler için başlangıç zamanını, son teslim tarihini ve hatırlatıcı zamanlarını ayarlayacaktır. Zamanlaması hassas olan görevler için manuel ayarlara ihtiyacınız olabilir.</string>
+    <string name="suffix_minutes">dakika</string>
+    <string name="btn_modify">Değiştir</string>
+    <string name="dialog_time_zone_changed_adjust_timing">Zamanlamayı Ayarla</string>
+    <string name="dialog_time_zone_changed_adjust_timing_desc">Ayarlamak için dakika sayısını girin. Zamanlamayı geciktirmek için pozitif bir sayı veya öne almak için negatif bir sayı girin.</string>
+    <string name="reset_attributes_dialog_title">Sıfırlanacak İçeriği Seçin</string>
+    <string name="reset_attributes_dialog_description">Sıfırlamak istediğiniz içeriği seçin. Birden fazla seçebilirsiniz.</string>
+    <string name="reset_attributes_checkbox_custom_content">Özel İçerik</string>
+    <string name="reset_attributes_checkbox_experience_points">Exp</string>
+    <string name="loading_hint_backing_up_locally">Yerel yedeklemeye alınıyor...</string>
+    <string name="loading_hint_uploading_backup_to_cloud">Yedekleme buluta yükleniyor...</string>
+    <string name="loading_hint_downloading_backup">Yedekleme indiriliyor...</string>
+    <string name="loading_hint_restoring_data">Veriler geri yükleniyor...</string>
+    <string name="btn_multi_select">Çoklu Seçim</string>
+    <string name="btn_multi_select_confirm">Sonraki</string>
+    <string name="multi_select_item_count">%1$s Seçildi</string>
+    <string name="multi_select_item_display">Öğeler (%1$s)</string>
+    <string name="widget_tasks_label">Görevler</string>
+    <string name="widget_coin_small_label">Paralar (Küçük)</string>
+    <string name="widget_coin_large_label">Paralar (Büyük)</string>
+    <string name="widget_coin_goal_label">Para Hedefi</string>
+    <string name="widget_exp_label">Nitellikler</string>
+    <string name="widget_exp_large_label">Özellikler (Büyük)</string>
+    <string name="widget_shop_large_label">Mağaza (Büyük)</string>
+    <string name="widget_shop_small_label">Mağaza (Küçük)</string>
+    <string name="widget_exp_changed_label">EXP Değişiklikleri</string>
+    <string name="widget_inventory_large_label">Envanter (Büyük)</string>
+    <string name="widget_inventory_small_label">Envanter (Küçük)</string>
 </resources>
